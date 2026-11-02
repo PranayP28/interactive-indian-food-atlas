@@ -142,3 +142,30 @@ as another.
 three written stages. Reaches 94 but drops imagery from three of the four timeline stages.
 
 A and C both reach 94; A is the only one that keeps four photographs per dish.
+
+
+---
+
+# Batch 1 — shipped (2026-11-02)
+
+Commit `954d836`. Four dishes added, each with four verified photographs.
+
+| State | New dish | Regional context | Ingredient reference | Preparation technique | Finished dish |
+| --- | --- | --- | --- | --- | --- |
+| Kerala | Puttu | Alappuzha backwaters (Vyacheslav Argenberg, CC BY 4.0) | Rice flour (Thamizhpparithi Maari, CC BY-SA 4.0) | Puttu released from the kutti (Jyothishbabu, CC BY-SA 4.0) | Puttu with kadala curry (Jackson John 10, CC BY-SA 4.0) |
+| Tamil Nadu | Filter Coffee | Kapaleeshwarar Temple, Mylapore (N. Vivekananthamoorthy, CC BY 4.0) | Roasted coffee beans (freestock.ca, CC BY-SA 3.0) | The two chambers of the steel filter (Cheeni, CC BY-SA 3.0) | Filter coffee frothed tumbler-to-dabarah (Charles Haynes, CC BY-SA 2.0) |
+| Punjab | Amritsari Kulcha | Harmandir Sahib at night (Sasha India, CC BY-SA 2.0) | Wheat-flour dough (Libreravi, CC BY-SA 4.0) | Kulcha baking in the tandoor (Divya Kudua, CC BY 2.0) | Kulcha with chhole (Ravi Dwivedi, CC BY-SA 4.0) |
+| Maharashtra | Ukadiche Modak | Shaniwar Wada, Pune (Rohan Sandeep Pawar, CC BY-SA 4.0) | Jaggery cubes (Mangosapiens, CC BY-SA 4.0) | Modaks steaming (Durvankur Patil, CC BY-SA 4.0) | Modak, whole and split (Dharmadhyaksha, CC BY-SA 4.0) |
+
+State of the atlas after batch 1: **70 dishes**, 4 states at three dishes, 24 states still at two.
+Every new dish passed an automated check: four distinct stage URLs, no duplicate dish ids, no
+uncredited photograph.
+
+### What batch 2 needs
+
+Goa (bebinca) and Gujarat (handvo) were rejected as batch-2 candidates on inspection:
+`Category:Bebinca` holds 7 files, all of the finished dessert, and there is no handvo category at
+all. Odisha's `Category:Pakhala` holds 50+ files, again all plated or served. A dish only enters a
+batch when a genuine technique photograph exists, so batch 2 must be chosen from states whose
+dishes are made in a visible, photographed way — steaming, tandoor baking, frying, pleating,
+filtering — rather than from the most famous dish.
