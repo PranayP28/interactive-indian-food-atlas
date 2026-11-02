@@ -100,3 +100,45 @@ Stages I–III of the existing dishes use nine documentary context photographs (
 grindstone, a tandoor, a steamer) that are always labelled "Documentary photograph" and never
 captioned as the dish. That is broader than the four-stage rule above; new dishes are held to
 the stricter standard.
+
+
+## The decisive test (2026-11-02)
+
+`Category:Puttu` on Commons — the richest single-dish category found so far — contains **76 files**.
+Read end to end, they break down as:
+
+| Kind of file | Count | Examples |
+| --- | --- | --- |
+| The finished dish (plated) | ~68 | `Puttu with kadala curry.jpg`, `Rice Puttu with Gram Curry.jpg` |
+| The equipment in use | 3 | `Puttu Cooker 1.jpg`, `Puttu maker - cley.jpg` |
+| The dish being turned out | 2 | `Puttu Launch.jpg`, `Puttu-004.jpg` |
+| An illustration, not a photograph (excluded) | 1 | `Puttu Cooking process Cross Section.svg` |
+| **Ingredients of puttu** | **0** | — |
+| **The place puttu comes from** | **0** | — |
+
+This is not a weak dish; it is the best-documented dish tested. Khandvi, rasgulla and pav bhaji
+were worse. The pattern is consistent across every search run this session:
+
+> **Commons photographs dishes, not their mise en place.** There is no corpus of
+> "ingredients for *this dish*" or "the origin of *this dish*" photography for Indian food.
+
+### What that means for the 94 target
+
+Applied literally, rule 4 ("all four stages must have dish-specific photographs") admits **zero**
+candidates: no dish in any state has been found with a verified ingredients photograph *and* a
+verified origin photograph. Adding 28 dishes therefore requires one decision about what stages I
+and II are illustrated with:
+
+**Option A — dish-matched documentary photography (recommended).** Stage IV is the dish itself,
+verified. Stage III is that dish's technique, verified (`Puttu Launch.jpg`). Stage II is its own
+principal ingredient photographed as the dish uses it (rice flour, coconut, jaggery) — never a stock
+spice bowl. Stage I is the place the dish comes from. Each frame is captioned for exactly what it
+shows and carries the "Documentary photograph" badge. This reaches 94 and never passes one dish off
+as another.
+
+**Option B — literal four-stage rule.** Zero dishes qualify. The atlas stays at 66.
+
+**Option C — plated photograph only, three text stages.** Every dish has one real photograph and
+three written stages. Reaches 94 but drops imagery from three of the four timeline stages.
+
+A and C both reach 94; A is the only one that keeps four photographs per dish.
