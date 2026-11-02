@@ -990,8 +990,7 @@
       "id": "hyderabadi-haleem",
       "foodName": "Hyderabadi Haleem",
       "region": "Telangana",
-      "status": "downloaded",
-      "image": "/images/dishes/hyderabadi-haleem-stage-4.webp",
+      "status": "rejected_visual_review",
       "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hyderabadi_Haleem_at_Sarvi_-_Meat_and_wheat_cooked_together_during_Ramzan.jpg",
       "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Hyderabadi_Haleem_at_Sarvi_-_Meat_and_wheat_cooked_together_during_Ramzan.jpg",
       "creator": "ShashiBellamkonda",
@@ -1003,8 +1002,8 @@
         "width": 1600,
         "height": 1200
       },
-      "rightsNotes": "The file description names ShashiBellamkonda as author and requests credit. The page explicitly permits sharing and adaptation under CC BY 2.0; attribution is required, and changes must be indicated. Source page identifies the original Flickr source and reports a Flickr license review.",
-      "identityEvidence": "The Commons file caption is ‘Hyderabadi Haleem at Sarvi - Meat and wheat cooked together during Ramzan’; Commons categorizes it under Ramadan in Hyderabad, India and 2011 in Hyderabad, India. This directly identifies the dish and its Hyderabad regional setting, consistent with Telangana.",
+      "rightsNotes": "Not used. File removed from the repository.",
+      "identityEvidence": "Commons file title names Hyderabadi haleem at Sarvi, but the photograph itself shows the restaurant's illuminated frontage and crowd at night, with no haleem in frame. Rejected on visual review: it is a street scene, not a photograph of the dish.",
       "sizeBytes": 276476,
       "originalSizeBytes": 1032167
     },
