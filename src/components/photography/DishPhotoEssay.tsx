@@ -5,7 +5,7 @@ import type { Dish } from "../../data/foodData";
 import {
   getDishPhotography,
   hasPlatedPhotograph,
-  photoUrlWithin,
+  photoPrimaryUrl,
   PHOTOGRAPHY_VERIFIED_ON,
   type Photograph,
 } from "../../data/photography";
@@ -287,5 +287,5 @@ export default DishPhotoEssay;
 export function dishPhotoThumb(dishId: string, width = 160): string | null {
   const photography = getDishPhotography(dishId);
   if (!photography?.plated) return null;
-  return photoUrlWithin(photography.plated.src, width, photography.plated.width);
+  return photoPrimaryUrl(photography.plated, width);
 }

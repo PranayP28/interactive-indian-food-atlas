@@ -89,8 +89,12 @@ def main() -> None:
 
     add("## Dish photographs (Stage IV — the finished dish)")
     add("")
-    add("| Region | Dish | Photographer | Licence | Resolution | Source file |")
-    add("|---|---|---|---|---|---|")
+    add("| Region | Dish | Photographer | Licence | Resolution | File hosted | Source file |")
+    add("|---|---|---|---|---|---|---|")
+    try:
+        local_ids = set(json.loads((ROOT / "src/data/localPhotos.json").read_text())["dishes"])
+    except Exception:
+        local_ids = set()
     photographed = 0
     missing: list[dict[str, str]] = []
     for dish_id, record in data["dishes"].items():
@@ -106,11 +110,18 @@ def main() -> None:
         add(
             f"| {dish['state']} | {dish['name']} | {plated['creator']} | "
             f"[{plated['licence']}]({plated['licenceUrl']}) | {resolution} | "
+            f"{'local' if dish_id in local_ids else 'Commons'} | "
             f"[Commons]({plated['sourceUrl']}) |"
         )
     add("")
     add(
         f"**{photographed} of {len(data['dishes'])} dishes carry a verified photograph of the finished dish.**"
+    )
+    add("")
+    add(
+        f"{len(local_ids)} of those photographs are mirrored into `public/images/dishes/` as "
+        "`<dish>-stage-4.webp`; the remainder load from Commons until `npm run photos:fetch` is run "
+        "against a machine with internet access. See `docs/PHOTO-ARCHIVE.md`."
     )
     add("")
 

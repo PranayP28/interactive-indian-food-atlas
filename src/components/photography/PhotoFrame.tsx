@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Camera, ExternalLink, UtensilsCrossed } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext";
-import { photoSrcSet, photoUrlWithin, type Photograph } from "../../data/photography";
+import { photoSources, photoSrcSet, type Photograph } from "../../data/photography";
 
 type UnavailableCopy = {
   title?: string;
@@ -46,12 +46,9 @@ export const PhotoFrame: React.FC<PhotoFrameProps> = ({
   const [attempt, setAttempt] = useState(0);
   const [loaded, setLoaded] = useState(false);
 
-  const sources = useMemo(() => {
-    if (!photo) return [] as string[];
-    const list = [photoUrlWithin(photo.src, 1280, photo.width), photo.src];
-    if (photo.fallback) list.push(photo.fallback);
-    return list;
-  }, [photo]);
+  // Self-hosted copy first, then the CDN, then the original file, then the
+  // legacy local copy — every entry is a verified photograph.
+  const sources = useMemo(() => (photo ? photoSources(photo, 1280) : []), [photo]);
 
   const srcSet = useMemo(() => (photo ? photoSrcSet(photo) : ""), [photo]);
   const exhausted = !photo || attempt >= sources.length;
@@ -110,7 +107,7 @@ export const PhotoFrame: React.FC<PhotoFrameProps> = ({
       )}
       <img
         src={sources[attempt]}
-        srcSet={attempt === 0 ? srcSet : undefined}
+        srcSet={attempt === 0 && !photo!.local ? srcSet : undefined}
         sizes={sizes}
         alt={photo!.alt}
         loading={priority ? "eager" : "lazy"}

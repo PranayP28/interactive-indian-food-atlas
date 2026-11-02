@@ -1,6 +1,6 @@
 import React from "react";
 import { Camera } from "lucide-react";
-import { getDishPhotography, photoSrcSet, photoUrlWithin } from "../../data/photography";
+import { getDishPhotography, photoPrimaryUrl, photoSrcSet } from "../../data/photography";
 
 interface DishThumbProps {
   dishId: string;
@@ -37,8 +37,8 @@ export const DishThumb: React.FC<DishThumbProps> = ({
   return (
     <div className={`group/thumb relative ${ratio} w-full overflow-hidden rounded-xl ${className}`}>
       <img
-        src={photoUrlWithin(photo.src, 500, photo.width)}
-        srcSet={photoSrcSet(photo, [330, 500, 960])}
+        src={photoPrimaryUrl(photo, 500)}
+        srcSet={photo.local ? undefined : photoSrcSet(photo, [330, 500, 960])}
         sizes="(max-width: 768px) 100vw, 380px"
         alt={photo.alt}
         loading="lazy"

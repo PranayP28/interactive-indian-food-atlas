@@ -137,7 +137,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pesarattu_and_Ginger_chutney.jpg",
         "alt": "Pesarattu — Andhra Pradesh",
         "caption": "Pesarattu, the Andhra green-gram crepe, served with ginger chutney.",
-        "fallback": "/images/dishes/andhra-pradesh-pesarattu.webp"
+        "fallback": "/images/dishes/pesarattu-stage-4.webp"
       }
     },
     "gongura-mutton": {
@@ -252,7 +252,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masor_Tenga.jpg",
         "alt": "Masor Tenga — Assam",
         "caption": "Masor Tenga, Assam.",
-        "fallback": "/images/dishes/assam-masor-tenga.webp",
+        "fallback": "/images/dishes/masor-tenga-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -287,7 +287,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khar_of_Assam.jpg",
         "alt": "Khar — Assam",
         "caption": "Khar, Assam.",
-        "fallback": "/images/dishes/assam-khar.webp",
+        "fallback": "/images/dishes/khar-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -324,7 +324,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Litti-Chokha-From-Bihar.jpg",
         "alt": "Litti Chokha — Bihar",
         "caption": "Litti Chokha, Bihar.",
-        "fallback": "/images/dishes/bihar-litti-chokha.webp",
+        "fallback": "/images/dishes/litti-chokha-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -362,7 +362,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thekua_-_Chhath_Festival_-_Kolkata_2013-11-09_4316.JPG",
         "alt": "Thekua — Bihar",
         "caption": "Thekua, the Chhath festival wheat-and-jaggery biscuit.",
-        "fallback": "/images/dishes/bihar-thekua.webp"
+        "fallback": "/images/dishes/thekua-stage-4.webp"
       }
     },
     "chhattisgarhi-chila": {
@@ -396,7 +396,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:CHILA(THE_DOSA_OF_CHHATTISGARH).jpg",
         "alt": "Chila — Chhattisgarh",
         "caption": "Chila, Chhattisgarh.",
-        "fallback": "/images/dishes/chhattisgarh-chhattisgarhi-chila.webp",
+        "fallback": "/images/dishes/chhattisgarhi-chila-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -455,7 +455,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goan_Fish_Curry.jpg",
         "alt": "Goan Fish Curry — Goa",
         "caption": "Goan Fish Curry, Goa.",
-        "fallback": "/images/dishes/goa-goan-fish-curry.webp",
+        "fallback": "/images/dishes/goan-fish-curry-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -492,7 +492,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vindalho.jpg",
         "alt": "Pork Vindaloo — Goa",
         "caption": "Pork Vindaloo, Goa.",
-        "fallback": "/images/dishes/goa-pork-vindaloo.webp",
+        "fallback": "/images/dishes/pork-vindaloo-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -528,7 +528,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homemade_Dhokla_2.jpg",
         "alt": "Dhokla — Gujarat",
         "caption": "Dhokla, Gujarat.",
-        "fallback": "/images/dishes/gujarat-dhokla.webp",
+        "fallback": "/images/dishes/dhokla-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -564,7 +564,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Undhiyu.jpg",
         "alt": "Undhiyu — Gujarat",
         "caption": "Undhiyu, Gujarat.",
-        "fallback": "/images/dishes/gujarat-undhiyu.webp",
+        "fallback": "/images/dishes/undhiyu-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -645,7 +645,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kullvi_Siddu_(Himachal_Pradesh).jpg",
         "alt": "Siddu — Himachal Pradesh",
         "caption": "Siddu, Himachal Pradesh.",
-        "fallback": "/images/dishes/himachal-pradesh-siddu.webp",
+        "fallback": "/images/dishes/siddu-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -704,7 +704,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dhuska-Jharkhand.jpg",
         "alt": "Dhuska — Jharkhand",
         "caption": "Dhuska, Jharkhand.",
-        "fallback": "/images/dishes/jharkhand-dhuska.webp",
+        "fallback": "/images/dishes/dhuska-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -739,7 +739,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chilka_Roti.jpg",
         "alt": "Chilka Roti — Jharkhand",
         "caption": "Chilka Roti, Jharkhand.",
-        "fallback": "/images/dishes/jharkhand-chilka-roti.webp",
+        "fallback": "/images/dishes/chilka-roti-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -813,7 +813,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bisi_Bele_Bath_(Rice_cooked_with_lentils_%26_vegetables).jpg",
         "alt": "Bisi Bele Bath — Karnataka",
         "caption": "Bisi Bele Bath, Karnataka.",
-        "fallback": "/images/dishes/karnataka-bisi-bele-bath.webp",
+        "fallback": "/images/dishes/bisi-bele-bath-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -849,7 +849,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:GKN_Appam_Veg_Stew_DSC_1292.JPG",
         "alt": "Appam with Vegetable Stew — Kerala",
         "caption": "Appam with Vegetable Stew, Kerala.",
-        "fallback": "/images/dishes/kerala-appam-stew.webp",
+        "fallback": "/images/dishes/appam-stew-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -921,7 +921,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indori_Poha,_New_Delhi.jpg",
         "alt": "Indori Poha — Madhya Pradesh",
         "caption": "Indori Poha, Madhya Pradesh.",
-        "fallback": "/images/dishes/madhya-pradesh-indori-poha.webp",
+        "fallback": "/images/dishes/indori-poha-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -981,7 +981,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maharashtrian_Vada_Pav.JPG",
         "alt": "Vada Pav — Maharashtra",
         "caption": "Vada Pav, Maharashtra.",
-        "fallback": "/images/dishes/maharashtra-vada-pav.webp",
+        "fallback": "/images/dishes/vada-pav-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1017,7 +1017,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg",
         "alt": "Puran Poli — Maharashtra",
         "caption": "Puran Poli, Maharashtra.",
-        "fallback": "/images/dishes/maharashtra-puran-poli.webp",
+        "fallback": "/images/dishes/puran-poli-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1088,7 +1088,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yongchaak_Singju_with_Hawai_Maton.jpg",
         "alt": "Singju — Manipur",
         "caption": "Singju, Manipur.",
-        "fallback": "/images/dishes/manipur-singju.webp",
+        "fallback": "/images/dishes/singju-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1124,7 +1124,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jadoh.jpg",
         "alt": "Jadoh — Meghalaya",
         "caption": "Jadoh, Meghalaya.",
-        "fallback": "/images/dishes/meghalaya-jadoh.webp",
+        "fallback": "/images/dishes/jadoh-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1204,7 +1204,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sawhchiar.jpg",
         "alt": "Sawhchiar — Mizoram",
         "caption": "Sawhchiar, Mizoram.",
-        "fallback": "/images/dishes/mizoram-sawhchiar.webp",
+        "fallback": "/images/dishes/sawhchiar-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1239,7 +1239,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naga_style_smoked_Pork_ribs_with_bamboo_shoots_and_rice.jpg",
         "alt": "Naga Smoked Pork with Bamboo Shoots — Nagaland",
         "caption": "Naga Smoked Pork with Bamboo Shoots, Nagaland.",
-        "fallback": "/images/dishes/nagaland-naga-smoked-pork.webp",
+        "fallback": "/images/dishes/naga-smoked-pork-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1298,7 +1298,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dalma(dish).jpg",
         "alt": "Dalma — Odisha",
         "caption": "Dalma, Odisha.",
-        "fallback": "/images/dishes/odisha-dalma.webp",
+        "fallback": "/images/dishes/dalma-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1334,7 +1334,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
         "alt": "Chhena Poda — Odisha",
         "caption": "Chhena Poda, Odisha.",
-        "fallback": "/images/dishes/odisha-chhena-poda.webp",
+        "fallback": "/images/dishes/chhena-poda-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1370,7 +1370,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makke_di_Roti_with_Sarson_Da_Saag.jpg",
         "alt": "Makki di Roti & Sarson da Saag — Punjab",
         "caption": "Makki di Roti & Sarson da Saag, Punjab.",
-        "fallback": "/images/dishes/punjab-makki-di-roti-sarson-saag.webp",
+        "fallback": "/images/dishes/makki-di-roti-sarson-saag-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1406,7 +1406,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butter_chicken_by_me.jpg",
         "alt": "Butter Chicken — Punjab",
         "caption": "Butter Chicken, Punjab.",
-        "fallback": "/images/dishes/punjab-butter-chicken.webp",
+        "fallback": "/images/dishes/butter-chicken-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1442,7 +1442,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rajasthani_dal-bati-churma_thali_01.jpg",
         "alt": "Dal Baati Churma — Rajasthan",
         "caption": "Dal Baati Churma, Rajasthan.",
-        "fallback": "/images/dishes/rajasthan-dal-baati-churma.webp",
+        "fallback": "/images/dishes/dal-baati-churma-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1503,7 +1503,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_plate_of_Nepalese_Pork_Momo_from_Shreengkhala.jpg",
         "alt": "Steamed momos on a plate — Sikkim",
         "caption": "Steamed momos with tomato chutney, the Sikkimese market-plate.",
-        "fallback": null
+        "fallback": "/images/dishes/sikkimese-momos-stage-4.webp"
       }
     },
     "gundruk-soup": {
@@ -1560,7 +1560,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChickenChettinad.JPG",
         "alt": "Chettinad Chicken Curry — Tamil Nadu",
         "caption": "Chettinad Chicken Curry, Tamil Nadu.",
-        "fallback": "/images/dishes/tamil-nadu-chettinad-chicken.webp",
+        "fallback": "/images/dishes/chettinad-chicken-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1597,7 +1597,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idli_Sambar.JPG",
         "alt": "Idli Sambar — Tamil Nadu",
         "caption": "Idli Sambar, Tamil Nadu.",
-        "fallback": "/images/dishes/tamil-nadu-idli-sambar.webp",
+        "fallback": "/images/dishes/idli-sambar-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1716,7 +1716,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chakhwi.jpg",
         "alt": "Chakhwi — Tripura",
         "caption": "Chakhwi, Tripura.",
-        "fallback": "/images/dishes/tripura-chakhwi.webp",
+        "fallback": "/images/dishes/chakhwi-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1819,7 +1819,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bal_mithai.jpg",
         "alt": "Bal Mithai — Uttarakhand",
         "caption": "Bal Mithai, Uttarakhand.",
-        "fallback": "/images/dishes/uttarakhand-bal-mithai.webp",
+        "fallback": "/images/dishes/bal-mithai-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1854,7 +1854,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sorshe_Ilish_(Ilish_cooked_in_mustard_gravy).jpg",
         "alt": "Shorshe Ilish — West Bengal",
         "caption": "Shorshe Ilish, West Bengal.",
-        "fallback": "/images/dishes/west-bengal-shorshe-ilish.webp",
+        "fallback": "/images/dishes/shorshe-ilish-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1888,7 +1888,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mishti_Doi.jpg",
         "alt": "Mishti Doi — West Bengal",
         "caption": "Mishti Doi, West Bengal.",
-        "fallback": "/images/dishes/west-bengal-mishti-doi.webp",
+        "fallback": "/images/dishes/mishti-doi-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1925,7 +1925,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG",
         "alt": "Rogan Josh — Jammu and Kashmir",
         "caption": "Rogan Josh, Jammu and Kashmir.",
-        "fallback": "/images/dishes/jammu-and-kashmir-rogan-josh.webp",
+        "fallback": "/images/dishes/rogan-josh-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1961,7 +1961,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kashmiri_Dum_Aaloo.JPG",
         "alt": "Kashmiri Dum Aloo — Jammu and Kashmir",
         "caption": "Kashmiri Dum Aloo, Jammu and Kashmir.",
-        "fallback": "/images/dishes/jammu-and-kashmir-kashmiri-dum-aloo.webp",
+        "fallback": "/images/dishes/kashmiri-dum-aloo-stage-4.webp",
         "width": null,
         "height": null
       }
@@ -1998,7 +1998,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nihari_at_Karim%27s,_Jama_Masjid,_Old_Delhi.png",
         "alt": "Old Delhi Nihari — Delhi",
         "caption": "Old Delhi Nihari, Delhi.",
-        "fallback": "/images/dishes/delhi-delhi-nihari.webp",
+        "fallback": "/images/dishes/delhi-nihari-stage-4.webp",
         "width": null,
         "height": null
       }

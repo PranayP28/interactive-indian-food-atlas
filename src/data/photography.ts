@@ -10,6 +10,7 @@
 // ─────────────────────────────────────────────
 
 import raw from "./photography.json";
+import localRaw from "./localPhotos.json";
 
 export type PhotoSubject = "dish" | "context";
 
@@ -27,8 +28,14 @@ export interface Photograph {
   sourceUrl: string;
   alt: string;
   caption: string;
-  /** Local copy shipped with the app, used only if the CDN request fails. */
+  /** Legacy local copy, used only if the CDN request fails. */
   fallback?: string | null;
+  /**
+   * Self-hosted copy in public/images, written by scripts/fetch_food_photos.py.
+   * When present it is the first source the UI tries, so the atlas works
+   * offline and never depends on a third-party CDN.
+   */
+  local?: string | null;
   library?: string;
 }
 
@@ -61,6 +68,13 @@ interface RawDishPhoto {
   method: { library: string; caption: string };
   plated: (Omit<Photograph, "subject"> & { subject?: PhotoSubject }) | null;
 }
+
+type LocalManifest = {
+  dishes: Record<string, Partial<Record<"origin" | "ingredients" | "method" | "plated", string>>>;
+  context: Record<string, string>;
+};
+
+const LOCAL = localRaw as unknown as LocalManifest;
 
 const DATA = raw as unknown as {
   schemaVersion: number;
@@ -143,7 +157,23 @@ function libraryPhoto(id: string, caption: string): Photograph {
     alt: entry.title,
     caption,
     library: id,
+    local: LOCAL.context[id] ?? null,
   };
+}
+
+/**
+ * The ordered list of URLs to try for one photograph: the self-hosted copy
+ * first, then a CDN thumbnail, then the original file, then any legacy local
+ * copy. PhotoFrame/DishThumb walk this list on load errors.
+ */
+export function photoSources(photo: Photograph, width: number): string[] {
+  const list = [photo.local, photoUrlWithin(photo.src, width, photo.width), photo.src, photo.fallback];
+  return list.filter((value, index, all): value is string => Boolean(value) && all.indexOf(value) === index);
+}
+
+/** First-choice URL for a photograph (local file when the archive has run). */
+export function photoPrimaryUrl(photo: Photograph, width: number): string {
+  return photoSources(photo, width)[0] ?? photo.src;
 }
 
 /** Photographs for one dish, grouped into the four narrative acts. */
@@ -156,6 +186,7 @@ export function getDishPhotography(dishId: string): DishPhotography | null {
         ...record.plated,
         subject: "dish" as PhotoSubject,
         fallback: record.plated.fallback ?? null,
+        local: LOCAL.dishes[dishId]?.plated ?? record.plated.fallback ?? null,
       }
     : null;
 
@@ -177,11 +208,15 @@ export function hasPlatedPhotograph(dishId: string): boolean {
 export function getPhotographyCoverage() {
   const ids = Object.keys(DATA.dishes);
   const photographed = ids.filter((id) => Boolean(DATA.dishes[id].plated));
+  const localIds = ids.filter((id) => Boolean(LOCAL.dishes[id]?.plated));
   return {
     total: ids.length,
     photographed: photographed.length,
     missing: ids.length - photographed.length,
     missingIds: ids.filter((id) => !DATA.dishes[id].plated),
+    /** Dishes whose finished-dish photograph is self-hosted in public/images. */
+    localCount: localIds.length,
+    localIds,
   };
 }
 
@@ -203,6 +238,7 @@ export function getAllPhotographs(): Photograph[] {
       alt: entry.title,
       caption: entry.caption,
       library: id,
+      local: LOCAL.context[id] ?? null,
     });
   }
 
@@ -212,6 +248,7 @@ export function getAllPhotographs(): Photograph[] {
         ...dish.plated,
         subject: "dish",
         fallback: dish.plated.fallback ?? null,
+        local: dish.plated.fallback ?? null,
       });
     }
   }

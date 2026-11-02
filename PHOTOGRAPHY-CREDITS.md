@@ -26,54 +26,56 @@ Shared, site-wide photographs of Indian kitchen craft — markets, grindstones, 
 
 ## Dish photographs (Stage IV — the finished dish)
 
-| Region | Dish | Photographer | Licence | Resolution | Source file |
-|---|---|---|---|---|---|
-| Andhra Pradesh | Pesarattu | ukanda | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | 2048 × 1361 | [Commons](https://commons.wikimedia.org/wiki/File:Pesarattu_and_Ginger_chutney.jpg) |
-| Arunachal Pradesh | Thukpa | m-louis | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | 2272 × 1704 | [Commons](https://commons.wikimedia.org/wiki/File:Thukpa,_Tibetan_noodle_in_Osaka,_Japan.jpg) |
-| Assam | Masor Tenga | Rupak76 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Masor_Tenga.jpg) |
-| Assam | Khar | Suditree | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Khar_of_Assam.jpg) |
-| Bihar | Litti Chokha | RAJ123SONY | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Litti-Chokha-From-Bihar.jpg) |
-| Bihar | Thekua | Biswarup Ganguly | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | 6016 × 4000 | [Commons](https://commons.wikimedia.org/wiki/File:Thekua_-_Chhath_Festival_-_Kolkata_2013-11-09_4316.JPG) |
-| Chhattisgarh | Chila | Anuragnayak cg | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:CHILA(THE_DOSA_OF_CHHATTISGARH).jpg) |
-| Goa | Goan Fish Curry | Ramakrishna Reddy y | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Goan_Fish_Curry.jpg) |
-| Goa | Pork Vindaloo | Adriao | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Vindalho.jpg) |
-| Gujarat | Dhokla | Sammati Das | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Homemade_Dhokla_2.jpg) |
-| Gujarat | Undhiyu | Jatan1992 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Undhiyu.jpg) |
-| Himachal Pradesh | Siddu | Rajani Gairshail | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Kullvi_Siddu_(Himachal_Pradesh).jpg) |
-| Jharkhand | Dhuska | Rashid Jorvee | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Dhuska-Jharkhand.jpg) |
-| Jharkhand | Chilka Roti | Dev0745 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Chilka_Roti.jpg) |
-| Karnataka | Masala Dosa | Sameer.siddhanti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 3264 × 2448 | [Commons](https://commons.wikimedia.org/wiki/File:Butter_Masala_Dosa.png) |
-| Karnataka | Bisi Bele Bath | Bhavana Homecook | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Bisi_Bele_Bath_(Rice_cooked_with_lentils_%26_vegetables).jpg) |
-| Kerala | Appam with Vegetable Stew | Pranchiyettan | [CC BY-SA 2.5 IN](https://creativecommons.org/licenses/by-sa/2.5/in/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:GKN_Appam_Veg_Stew_DSC_1292.JPG) |
-| Kerala | Kerala Fish Molee | Drsoumyadeepb | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 5152 × 3864 | [Commons](https://commons.wikimedia.org/wiki/File:Fish_Moilee_Kerala_Style_(aka_KeralaFish_Molly).JPG) |
-| Madhya Pradesh | Indori Poha | Kxnyshk | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Indori_Poha,_New_Delhi.jpg) |
-| Maharashtra | Vada Pav | DreamyFlutura11 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Maharashtrian_Vada_Pav.JPG) |
-| Maharashtra | Puran Poli | Phadke09 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg) |
-| Manipur | Eromba | Punshiba18 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | 2048 × 1542 | [Commons](https://commons.wikimedia.org/wiki/File:Yongchaak_eromba_(2).jpg) |
-| Manipur | Singju | Punshiba18 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Yongchaak_Singju_with_Hawai_Maton.jpg) |
-| Meghalaya | Jadoh | Wann Majaw | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Jadoh.jpg) |
-| Mizoram | Sawhchiar | Coolcolney | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Sawhchiar.jpg) |
-| Nagaland | Naga Smoked Pork with Bamboo Shoots | Satdeep Gill | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Naga_style_smoked_Pork_ribs_with_bamboo_shoots_and_rice.jpg) |
-| Odisha | Dalma | Sibani (source credited as Sibani's Diary) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Dalma(dish).jpg) |
-| Odisha | Chhena Poda | Subhransuphotography | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg) |
-| Punjab | Makki di Roti & Sarson da Saag | Abhikrajput | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Makke_di_Roti_with_Sarson_Da_Saag.jpg) |
-| Punjab | Butter Chicken | TabassumJawed | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Butter_chicken_by_me.jpg) |
-| Rajasthan | Dal Baati Churma | Meghana78 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Rajasthani_dal-bati-churma_thali_01.jpg) |
-| Sikkim | Sikkimese Momos | Peachyeung316 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 6224 × 4672 | [Commons](https://commons.wikimedia.org/wiki/File:A_plate_of_Nepalese_Pork_Momo_from_Shreengkhala.jpg) |
-| Tamil Nadu | Chettinad Chicken Curry | Maccess Corporation (Wikimedia Commons author attribution) | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:ChickenChettinad.JPG) |
-| Tamil Nadu | Idli Sambar | Soumya Dey (credited as Soumya dey) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Idli_Sambar.JPG) |
-| Telangana | Hyderabadi Dum Biryani | Dheerajk88 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 4288 × 2848 | [Commons](https://commons.wikimedia.org/wiki/File:Chicken_Hyderabadi_Biryani.JPG) |
-| Tripura | Chakhwi | Tirengma | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Chakhwi.jpg) |
-| Uttarakhand | Bal Mithai | vkumar (credited on Commons as Vkumarzone) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Bal_mithai.jpg) |
-| West Bengal | Shorshe Ilish | Sirsendu.mohanta | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Sorshe_Ilish_(Ilish_cooked_in_mustard_gravy).jpg) |
-| West Bengal | Mishti Doi | Kirti Poddar | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Mishti_Doi.jpg) |
-| Jammu and Kashmir | Rogan Josh | Miansari66 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG) |
-| Jammu and Kashmir | Kashmiri Dum Aloo | Miansari66 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Kashmiri_Dum_Aaloo.JPG) |
-| Delhi | Old Delhi Nihari | Kxnyshk | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Nihari_at_Karim%27s,_Jama_Masjid,_Old_Delhi.png) |
-| Delhi | Chandni Chowk Papdi Chaat | Jashjashjash | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 2607 × 2088 | [Commons](https://commons.wikimedia.org/wiki/File:Chaat-StreetFood-DelhiNCR10.jpg) |
-| Ladakh | Gur Gur Cha & Khambir | Yosomono | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | 2272 × 1704 | [Commons](https://commons.wikimedia.org/wiki/File:Tibetan_butter_tea.jpg) |
+| Region | Dish | Photographer | Licence | Resolution | File hosted | Source file |
+|---|---|---|---|---|---|---|
+| Andhra Pradesh | Pesarattu | ukanda | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | 2048 × 1361 | local | [Commons](https://commons.wikimedia.org/wiki/File:Pesarattu_and_Ginger_chutney.jpg) |
+| Arunachal Pradesh | Thukpa | m-louis | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | 2272 × 1704 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Thukpa,_Tibetan_noodle_in_Osaka,_Japan.jpg) |
+| Assam | Masor Tenga | Rupak76 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Masor_Tenga.jpg) |
+| Assam | Khar | Suditree | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Khar_of_Assam.jpg) |
+| Bihar | Litti Chokha | RAJ123SONY | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Litti-Chokha-From-Bihar.jpg) |
+| Bihar | Thekua | Biswarup Ganguly | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0) | 6016 × 4000 | local | [Commons](https://commons.wikimedia.org/wiki/File:Thekua_-_Chhath_Festival_-_Kolkata_2013-11-09_4316.JPG) |
+| Chhattisgarh | Chila | Anuragnayak cg | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:CHILA(THE_DOSA_OF_CHHATTISGARH).jpg) |
+| Goa | Goan Fish Curry | Ramakrishna Reddy y | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Goan_Fish_Curry.jpg) |
+| Goa | Pork Vindaloo | Adriao | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Vindalho.jpg) |
+| Gujarat | Dhokla | Sammati Das | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Homemade_Dhokla_2.jpg) |
+| Gujarat | Undhiyu | Jatan1992 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Undhiyu.jpg) |
+| Himachal Pradesh | Siddu | Rajani Gairshail | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Kullvi_Siddu_(Himachal_Pradesh).jpg) |
+| Jharkhand | Dhuska | Rashid Jorvee | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Dhuska-Jharkhand.jpg) |
+| Jharkhand | Chilka Roti | Dev0745 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Chilka_Roti.jpg) |
+| Karnataka | Masala Dosa | Sameer.siddhanti | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 3264 × 2448 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Butter_Masala_Dosa.png) |
+| Karnataka | Bisi Bele Bath | Bhavana Homecook | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Bisi_Bele_Bath_(Rice_cooked_with_lentils_%26_vegetables).jpg) |
+| Kerala | Appam with Vegetable Stew | Pranchiyettan | [CC BY-SA 2.5 IN](https://creativecommons.org/licenses/by-sa/2.5/in/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:GKN_Appam_Veg_Stew_DSC_1292.JPG) |
+| Kerala | Kerala Fish Molee | Drsoumyadeepb | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 5152 × 3864 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Fish_Moilee_Kerala_Style_(aka_KeralaFish_Molly).JPG) |
+| Madhya Pradesh | Indori Poha | Kxnyshk | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Indori_Poha,_New_Delhi.jpg) |
+| Maharashtra | Vada Pav | DreamyFlutura11 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Maharashtrian_Vada_Pav.JPG) |
+| Maharashtra | Puran Poli | Phadke09 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg) |
+| Manipur | Eromba | Punshiba18 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | 2048 × 1542 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Yongchaak_eromba_(2).jpg) |
+| Manipur | Singju | Punshiba18 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Yongchaak_Singju_with_Hawai_Maton.jpg) |
+| Meghalaya | Jadoh | Wann Majaw | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Jadoh.jpg) |
+| Mizoram | Sawhchiar | Coolcolney | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Sawhchiar.jpg) |
+| Nagaland | Naga Smoked Pork with Bamboo Shoots | Satdeep Gill | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Naga_style_smoked_Pork_ribs_with_bamboo_shoots_and_rice.jpg) |
+| Odisha | Dalma | Sibani (source credited as Sibani's Diary) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Dalma(dish).jpg) |
+| Odisha | Chhena Poda | Subhransuphotography | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg) |
+| Punjab | Makki di Roti & Sarson da Saag | Abhikrajput | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Makke_di_Roti_with_Sarson_Da_Saag.jpg) |
+| Punjab | Butter Chicken | TabassumJawed | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Butter_chicken_by_me.jpg) |
+| Rajasthan | Dal Baati Churma | Meghana78 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Rajasthani_dal-bati-churma_thali_01.jpg) |
+| Sikkim | Sikkimese Momos | Peachyeung316 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 6224 × 4672 | local | [Commons](https://commons.wikimedia.org/wiki/File:A_plate_of_Nepalese_Pork_Momo_from_Shreengkhala.jpg) |
+| Tamil Nadu | Chettinad Chicken Curry | Maccess Corporation (Wikimedia Commons author attribution) | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:ChickenChettinad.JPG) |
+| Tamil Nadu | Idli Sambar | Soumya Dey (credited as Soumya dey) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Idli_Sambar.JPG) |
+| Telangana | Hyderabadi Dum Biryani | Dheerajk88 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 4288 × 2848 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Chicken_Hyderabadi_Biryani.JPG) |
+| Tripura | Chakhwi | Tirengma | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Chakhwi.jpg) |
+| Uttarakhand | Bal Mithai | vkumar (credited on Commons as Vkumarzone) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Bal_mithai.jpg) |
+| West Bengal | Shorshe Ilish | Sirsendu.mohanta | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Sorshe_Ilish_(Ilish_cooked_in_mustard_gravy).jpg) |
+| West Bengal | Mishti Doi | Kirti Poddar | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Mishti_Doi.jpg) |
+| Jammu and Kashmir | Rogan Josh | Miansari66 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG) |
+| Jammu and Kashmir | Kashmiri Dum Aloo | Miansari66 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Kashmiri_Dum_Aaloo.JPG) |
+| Delhi | Old Delhi Nihari | Kxnyshk | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Nihari_at_Karim%27s,_Jama_Masjid,_Old_Delhi.png) |
+| Delhi | Chandni Chowk Papdi Chaat | Jashjashjash | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 2607 × 2088 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Chaat-StreetFood-DelhiNCR10.jpg) |
+| Ladakh | Gur Gur Cha & Khambir | Yosomono | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | 2272 × 1704 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Tibetan_butter_tea.jpg) |
 
 **44 of 66 dishes carry a verified photograph of the finished dish.**
+
+38 of those photographs are mirrored into `public/images/dishes/` as `<dish>-stage-4.webp`; the remainder load from Commons until `npm run photos:fetch` is run against a machine with internet access. See `docs/PHOTO-ARCHIVE.md`.
 
 ## Dishes awaiting a verified photograph
 
