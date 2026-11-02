@@ -158,7 +158,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "banana-leaf",
         "caption": "Gongura Mutton — Slow Brass Handi Braising with Leaf Reduction."
       },
       "plated": null
@@ -181,7 +181,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Thukpa — Clear Broth Infusion & Clay Pot Simmering."
       },
       "plated": {
@@ -216,7 +216,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "spice-bowls",
         "caption": "Bamboo Shoot Pork — Flame Roasting Inside Green Bamboo Internodes."
       },
       "plated": null
@@ -239,7 +239,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Masor Tenga — Minimal Oil Tempering & Natural Acid Simmer."
       },
       "plated": {
@@ -274,7 +274,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Khar — Sun-Dry Peeling, Charcoal Leaching & Slow Emulsification."
       },
       "plated": {
@@ -311,7 +311,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Litti Chokha — Cow-Dung Wood Ember Baking & Ghee Immersion."
       },
       "plated": {
@@ -383,7 +383,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Chila — Clay Tawa Roasting with Sesame Crust."
       },
       "plated": {
@@ -479,7 +479,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Pork Vindaloo — Toddy Vinegar Acid Cure & Slow Copper Pot Braise."
       },
       "plated": {
@@ -551,7 +551,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Undhiyu — Matka Inversion (Undhu) Under Charcoal Embers."
       },
       "plated": {
@@ -587,7 +587,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Bajra Khichdi — Mortar De-husking & Slow Earthen Pot Hearth Simmer."
       },
       "plated": null
@@ -610,7 +610,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Kadhi Pakora — Prolonged Simmering (Kadhna) to Prevent Curdling."
       },
       "plated": null
@@ -632,7 +632,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "steam",
         "caption": "Siddu — Yeast Fermentation & Alpine Herbal Steaming."
       },
       "plated": {
@@ -668,7 +668,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Himachali Dham — Wood-Fire Brass Deg Simmering Without Onion-Garlic."
       },
       "plated": null
@@ -691,7 +691,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Dhuska — Wet-Stone Grinding & Rapid Immersion Frying."
       },
       "plated": {
@@ -726,7 +726,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Chilka Roti — Earthen Tawa Pouring with Botanical Swab."
       },
       "plated": {
@@ -763,7 +763,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "steam",
         "caption": "Masala Dosa — Stone-Ground Natural Fermentation & Iron Tawa Crisp-Folding."
       },
       "plated": {
@@ -800,7 +800,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Bisi Bele Bath — Layered Spice Roasting & Unified One-Pot Ghee Simmer."
       },
       "plated": {
@@ -836,7 +836,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Appam with Vegetable Stew — Deep Appachatti Swirl & Dual Coconut Milk Extraction."
       },
       "plated": {
@@ -872,7 +872,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Kerala Fish Molee — Delicate Fish Poach in Layered Coconut Milk Presses."
       },
       "plated": {
@@ -908,7 +908,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "steam",
         "caption": "Indori Poha — Steam-Pot Hydration & Jeeravan Masala Dusting."
       },
       "plated": {
@@ -944,7 +944,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Bhutte Ka Kees — Fine Grating & Slow Milk-Emulsion Braise."
       },
       "plated": null
@@ -968,7 +968,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Vada Pav — Tempered Potato Mash & Precision Deep Frying."
       },
       "plated": {
@@ -1004,7 +1004,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Puran Poli — Puran Stone-Straining & Translucent Rolling."
       },
       "plated": {
@@ -1039,7 +1039,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Eromba — Dry Earthen Pot Roasting of Ngari & Hand Mashing."
       },
       "plated": {
@@ -1075,7 +1075,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Singju — Raw Julian Chiffonade & Dry Seed Dressing."
       },
       "plated": {
@@ -1111,7 +1111,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "spice-bowls",
         "caption": "Jadoh — Rendered Pork Fat Rice Braising & Sesame Glaze."
       },
       "plated": {
@@ -1147,7 +1147,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Dohneiiong — Dry Seed Roasting, Stone Pounding & Long Braise."
       },
       "plated": null
@@ -1169,7 +1169,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Mizo Bai — Oil-Free Alkaline Water Simmering."
       },
       "plated": null
@@ -1191,7 +1191,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Sawhchiar — Continuous Wood-Fire Stirring to Creamy Rice Gel."
       },
       "plated": {
@@ -1226,7 +1226,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "spice-bowls",
         "caption": "Naga Smoked Pork with Bamboo Shoots — Multi-Week Kitchen Hearth Smoking & Water Braise."
       },
       "plated": {
@@ -1261,7 +1261,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "steam",
         "caption": "Galho — Slow Simmering with Fermented Bean Emulsification."
       },
       "plated": null
@@ -1285,7 +1285,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "steam",
         "caption": "Dalma — Earthen Kudua Pot Steam Layering."
       },
       "plated": {
@@ -1321,7 +1321,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "banana-leaf",
         "caption": "Chhena Poda — Sal Leaf Wrapping & Residual Coal Oven Caramelization."
       },
       "plated": {
@@ -1357,7 +1357,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Makki di Roti & Sarson da Saag — Clay Pot Churning (Ghotna) & Hand-Patted Tawa Griddling."
       },
       "plated": {
@@ -1393,7 +1393,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "tandoor",
         "caption": "Butter Chicken — Clay Tandoor Roasting & Silky Tomato-Butter Emulsion."
       },
       "plated": {
@@ -1429,7 +1429,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Dal Baati Churma — Sand / Ember Baking & Saturated Ghee Dunking."
       },
       "plated": {
@@ -1465,7 +1465,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "spice-bowls",
         "caption": "Laal Maas — Slow Ghee Braise & Mathania Chilli Extraction."
       },
       "plated": null
@@ -1492,18 +1492,18 @@
         "caption": "Sikkimese Momos — Thin Pleated Pinching & Tiered Aluminium/Bamboo Steaming."
       },
       "plated": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Sikkimese_Momos.jpg",
         "subject": "dish",
-        "title": "Sikkimese Momos",
-        "creator": "Krishna Pradhan",
+        "title": "Momos",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/A_plate_of_Nepalese_Pork_Momo_from_Shreengkhala.jpg",
+        "width": 6224,
+        "height": 4672,
+        "creator": "Peachyeung316",
         "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sikkimese_Momos.jpg",
-        "alt": "Sikkimese Momos — Sikkim",
-        "caption": "Sikkimese Momos, Sikkim.",
-        "fallback": "/images/dishes/sikkim-sikkimese-momos.webp",
-        "width": null,
-        "height": null
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_plate_of_Nepalese_Pork_Momo_from_Shreengkhala.jpg",
+        "alt": "Steamed momos on a plate — Sikkim",
+        "caption": "Steamed momos with tomato chutney, the Sikkimese market-plate.",
+        "fallback": null
       }
     },
     "gundruk-soup": {
@@ -1524,7 +1524,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "steam",
         "caption": "Gundruk Soup — Earthen Jar Fermentation, Sun Dehydration & Clear Broth Boil."
       },
       "plated": null
@@ -1547,7 +1547,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Chettinad Chicken Curry — Whole Spice Dry Roasting & Heavy Cast Bronze Uruli Simmer."
       },
       "plated": {
@@ -1621,7 +1621,7 @@
         ]
       },
       "method": {
-        "library": "banana-leaf",
+        "library": "spice-bowls",
         "caption": "Hyderabadi Dum Biryani — Kacchi Yakhni Layering & Dough-Sealed Dum Pukht."
       },
       "plated": {
@@ -1658,7 +1658,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Hyderabadi Haleem — 12-Hour Degchi Simmer & Wooden Mallet Pounding."
       },
       "plated": null
@@ -1681,7 +1681,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "steam",
         "caption": "Mui Borok — Zero-Oil Earthen Pot Boil with Fermented Berma."
       },
       "plated": null
@@ -1703,7 +1703,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Chakhwi — Bamboo Ash Filtration & Forest Root Simmer."
       },
       "plated": {
@@ -1762,7 +1762,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Banarasi Kachori Sabzi — Deep Immersion Frying & Slow Fenugreek-Hing Potato Tempering."
       },
       "plated": null
@@ -1912,7 +1912,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Rogan Josh — Ratan Jot Color Extraction & Slow Copper Degchi Braise."
       },
       "plated": {
@@ -1948,7 +1948,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Kashmiri Dum Aloo — Potato Pricking, Deep Crisp Frying & Sealed Curd Dum."
       },
       "plated": {
@@ -1985,7 +1985,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Old Delhi Nihari — Overnight Sealed Cauldron Simmer & Bone Marrow Melt."
       },
       "plated": {
@@ -2022,10 +2022,23 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Chandni Chowk Papdi Chaat — Layered Chutney Balance & Fresh Crisp Assembly."
       },
-      "plated": null
+      "plated": {
+        "subject": "dish",
+        "title": "Chaat",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Chaat-StreetFood-DelhiNCR10.jpg",
+        "width": 2607,
+        "height": 2088,
+        "creator": "Jashjashjash",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chaat-StreetFood-DelhiNCR10.jpg",
+        "alt": "Papdi chaat, Delhi street food",
+        "caption": "Papdi chaat, assembled to order at a Delhi street counter.",
+        "fallback": null
+      }
     },
     "ladakhi-skyu": {
       "origin": {
@@ -2045,7 +2058,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "grindstone",
         "caption": "Ladakhi Skyu — Thumb-Indent Pasta Shaping & Sustained Broth Simmer."
       },
       "plated": null
@@ -2067,7 +2080,7 @@
         ]
       },
       "method": {
-        "library": "spice-bowls",
+        "library": "grindstone",
         "caption": "Gur Gur Cha & Khambir — Wooden Chandong Piston Churning & Hot Ember Toasting."
       },
       "plated": {
@@ -2103,7 +2116,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Andaman Coconut Prawn Curry — Quick High-Heat Poaching in Fresh Coconut Cream."
       },
       "plated": null
@@ -2126,7 +2139,7 @@
         ]
       },
       "method": {
-        "library": "tandoor",
+        "library": "spice-bowls",
         "caption": "Island Mud Crab Masala — Cast Iron Wok Tossing with Pepper Tempering."
       },
       "plated": null
@@ -2150,7 +2163,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Pondicherry Fish Curry — French Bouquet Garni Fusion with Tamil Tamarind Base."
       },
       "plated": null
@@ -2174,7 +2187,7 @@
         ]
       },
       "method": {
-        "library": "grindstone",
+        "library": "spice-bowls",
         "caption": "Koli Kari — Gentle Wine/Cream Style Velouté with Tropical Spices."
       },
       "plated": null

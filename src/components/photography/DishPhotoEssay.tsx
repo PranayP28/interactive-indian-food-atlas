@@ -73,7 +73,7 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
     <section
       id="photographic-record"
       aria-labelledby="photographic-record-heading"
-      className={`relative w-full border-y ${surface} ${hairline}`}
+      className={`relative w-full scroll-mt-20 border-y ${surface} ${hairline}`}
     >
       <div className="mx-auto w-full max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-10">
         {/* ── Header ─────────────────────────────────────────────── */}

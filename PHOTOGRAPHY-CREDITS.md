@@ -59,7 +59,7 @@ Shared, site-wide photographs of Indian kitchen craft — markets, grindstones, 
 | Punjab | Makki di Roti & Sarson da Saag | Abhikrajput | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Makke_di_Roti_with_Sarson_Da_Saag.jpg) |
 | Punjab | Butter Chicken | TabassumJawed | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Butter_chicken_by_me.jpg) |
 | Rajasthan | Dal Baati Churma | Meghana78 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Rajasthani_dal-bati-churma_thali_01.jpg) |
-| Sikkim | Sikkimese Momos | Krishna Pradhan | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Sikkimese_Momos.jpg) |
+| Sikkim | Sikkimese Momos | Peachyeung316 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 6224 × 4672 | [Commons](https://commons.wikimedia.org/wiki/File:A_plate_of_Nepalese_Pork_Momo_from_Shreengkhala.jpg) |
 | Tamil Nadu | Chettinad Chicken Curry | Maccess Corporation (Wikimedia Commons author attribution) | [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:ChickenChettinad.JPG) |
 | Tamil Nadu | Idli Sambar | Soumya Dey (credited as Soumya dey) | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Idli_Sambar.JPG) |
 | Telangana | Hyderabadi Dum Biryani | Dheerajk88 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 4288 × 2848 | [Commons](https://commons.wikimedia.org/wiki/File:Chicken_Hyderabadi_Biryani.JPG) |
@@ -70,9 +70,10 @@ Shared, site-wide photographs of Indian kitchen craft — markets, grindstones, 
 | Jammu and Kashmir | Rogan Josh | Miansari66 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG) |
 | Jammu and Kashmir | Kashmiri Dum Aloo | Miansari66 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Kashmiri_Dum_Aaloo.JPG) |
 | Delhi | Old Delhi Nihari | Kxnyshk | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | [Commons](https://commons.wikimedia.org/wiki/File:Nihari_at_Karim%27s,_Jama_Masjid,_Old_Delhi.png) |
+| Delhi | Chandni Chowk Papdi Chaat | Jashjashjash | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 2607 × 2088 | [Commons](https://commons.wikimedia.org/wiki/File:Chaat-StreetFood-DelhiNCR10.jpg) |
 | Ladakh | Gur Gur Cha & Khambir | Yosomono | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | 2272 × 1704 | [Commons](https://commons.wikimedia.org/wiki/File:Tibetan_butter_tea.jpg) |
 
-**43 of 66 dishes carry a verified photograph of the finished dish.**
+**44 of 66 dishes carry a verified photograph of the finished dish.**
 
 ## Dishes awaiting a verified photograph
 
@@ -97,7 +98,6 @@ These dishes show the explicit unavailable state until a source is confirmed for
 | Uttar Pradesh | Awadhi Galouti Kebab | No published photograph verified as this exact dish under a reusable licence |
 | Uttar Pradesh | Banarasi Kachori Sabzi | No published photograph verified as this exact dish under a reusable licence |
 | Uttarakhand | Kafuli | No published photograph verified as this exact dish under a reusable licence |
-| Delhi | Chandni Chowk Papdi Chaat | No published photograph verified as this exact dish under a reusable licence |
 | Ladakh | Ladakhi Skyu | No published photograph verified as this exact dish under a reusable licence |
 | Andaman and Nicobar Islands | Andaman Coconut Prawn Curry | No published photograph verified as this exact dish under a reusable licence |
 | Andaman and Nicobar Islands | Island Mud Crab Masala | No published photograph verified as this exact dish under a reusable licence |

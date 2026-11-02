@@ -97,8 +97,8 @@ export const PhotoFrame: React.FC<PhotoFrameProps> = ({
 
   return (
     <figure
-      className={`group relative ${ratio} w-full overflow-hidden rounded-[1.75rem] ${
-        isLight ? "bg-amber-100" : "bg-slate-900"
+      className={`group relative ${ratio} w-full overflow-hidden rounded-[1.75rem] shadow-[0_30px_80px_-45px_rgba(0,0,0,0.85)] ring-1 ${
+        isLight ? "bg-amber-100 ring-amber-900/10" : "bg-slate-900 ring-white/10"
       } ${className}`}
     >
       {!loaded && (
