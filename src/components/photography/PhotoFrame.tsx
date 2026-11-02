@@ -132,8 +132,8 @@ export const PhotoFrame: React.FC<PhotoFrameProps> = ({
 
       {badge && (
         <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full border border-white/25 bg-black/45 px-2.5 py-1 text-[9px] font-semibold uppercase tracking-[0.18em] text-amber-50 backdrop-blur-md">
-          {badge === "dish" ? <UtensilsCrossed className="h-3 w-3" /> : <Camera className="h-3 w-3" />}
-          {badge === "dish" ? "Dish photograph" : "Documentary photograph"}
+          {badge === "dish" || badge === "Finished dish" ? <UtensilsCrossed className="h-3 w-3" /> : <Camera className="h-3 w-3" />}
+          {badge === "dish" ? "Dish photograph" : badge === "context" ? "Documentary photograph" : badge}
         </span>
       )}
 

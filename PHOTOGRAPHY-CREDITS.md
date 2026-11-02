@@ -72,10 +72,33 @@ Shared, site-wide photographs of Indian kitchen craft — markets, grindstones, 
 | Delhi | Old Delhi Nihari | Kxnyshk | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | as published | local | [Commons](https://commons.wikimedia.org/wiki/File:Nihari_at_Karim%27s,_Jama_Masjid,_Old_Delhi.png) |
 | Delhi | Chandni Chowk Papdi Chaat | Jashjashjash | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 2607 × 2088 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Chaat-StreetFood-DelhiNCR10.jpg) |
 | Ladakh | Gur Gur Cha & Khambir | Yosomono | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | 2272 × 1704 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Tibetan_butter_tea.jpg) |
+| Kerala | Puttu | Jackson John 10 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 1988 × 1266 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Puttu_with_kadala_curry.jpg) |
+| Tamil Nadu | Filter Coffee | Charles Haynes | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | 2577 × 3378 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Foaming_filter_coffee.jpg) |
+| Punjab | Amritsari Kulcha | Ravi Dwivedi | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 1920 × 1440 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Amritsari_Kulcha_served_with_chhole.jpg) |
+| Maharashtra | Ukadiche Modak | Dharmadhyaksha | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 3328 × 1872 | Commons | [Commons](https://commons.wikimedia.org/wiki/File:Ukadiche_Modak,_full_and_split.jpg) |
 
-**44 of 66 dishes carry a verified photograph of the finished dish.**
+**48 of 70 dishes carry a verified photograph of the finished dish.**
 
-38 of those photographs are mirrored into `public/images/dishes/` as `<dish>-stage-4.webp`; the remainder load from Commons until `npm run photos:fetch` is run against a machine with internet access. See `docs/PHOTO-ARCHIVE.md`.
+37 of those photographs are mirrored into `public/images/dishes/` as `<dish>-stage-4.webp`; the remainder load from Commons until `npm run photos:fetch` is run against a machine with internet access. See `docs/PHOTO-ARCHIVE.md`.
+
+## Stage photographs for the added dishes
+
+Each of these photographs is assigned to one dish and one stage, with its own caption and label.
+
+| Region | Dish | Stage | Label | Photographer | Licence | Source |
+|---|---|---|---|---|---|---|
+| Kerala | Puttu | origin | Regional context | Vyacheslav Argenberg | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Kerala_backwaters,_House,_India.jpg) |
+| Kerala | Puttu | ingredients | Ingredient reference | Thamizhpparithi Maari | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Rice_flour.jpg) |
+| Kerala | Puttu | method | Preparation technique | Jyothishbabu | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Puttu_Launch.jpg) |
+| Tamil Nadu | Filter Coffee | origin | Regional context | N. Vivekananthamoorthy | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Kapaleeshwarar_Temple,_Mylapore,_Chennai,_India.jpg) |
+| Tamil Nadu | Filter Coffee | ingredients | Ingredient reference | freestock.ca | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) | [Commons](https://commons.wikimedia.org/wiki/File:Roasted_Coffee_Beans_Texture.jpg) |
+| Tamil Nadu | Filter Coffee | method | Preparation technique | en:User:Cheeni | [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Disassembled_South_Indian_coffee_filter.jpg) |
+| Punjab | Amritsari Kulcha | origin | Regional context | Sasha India | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Golden_Temple_(Harmandir_Sahib)_at_night,_Amritsar,_Punjab,_India_(2018).jpg) |
+| Punjab | Amritsari Kulcha | ingredients | Ingredient reference | Libreravi | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Wheat_flour_dough.jpg) |
+| Punjab | Amritsari Kulcha | method | Preparation technique | Divya Kudua | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) | [Commons](https://commons.wikimedia.org/wiki/File:Paneer_Kulcha_Baking.jpg) |
+| Maharashtra | Ukadiche Modak | origin | Regional context | Rohan Sandeep Pawar | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Shanivar_Wada,Pune,India.jpg) |
+| Maharashtra | Ukadiche Modak | ingredients | Ingredient reference | Mangosapiens | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Jaggery_cubes.jpg) |
+| Maharashtra | Ukadiche Modak | method | Preparation technique | Durvankur Patil | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Steaming_Modaks.jpg) |
 
 ## Dishes awaiting a verified photograph
 

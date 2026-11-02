@@ -2,6 +2,8 @@
 // TYPE DEFINITIONS & FOOD ATLAS DATA
 // ─────────────────────────────────────────────
 
+import { ADDITIONAL_DISHES } from "./additionalDishes";
+
 export interface Dish {
   id: string;
   name: string;
@@ -107,7 +109,7 @@ export const STATE_EMOJIS: Record<string, string> = {
   Puducherry: "🍲",
 };
 
-export const FOOD_DATA: Record<string, StateFood> = {
+const BASE_FOOD_DATA: Record<string, StateFood> = {
   "Andhra Pradesh": {
     tagline: "Land of fire and spice — India's spiciest cuisine",
     classification: "State",
@@ -1191,6 +1193,17 @@ export const CULINARY_REGIONS: Record<string, { name: string; states: string[]; 
     states: ["Andaman and Nicobar Islands"],
   },
 };
+
+/**
+ * The original collection, plus the additional authentic dishes in
+ * additionalDishes.ts (one per state). The base entries are never modified.
+ */
+export const FOOD_DATA: Record<string, StateFood> = Object.fromEntries(
+  Object.entries(BASE_FOOD_DATA).map(([state, block]) => [
+    state,
+    { ...block, dishes: [...block.dishes, ...(ADDITIONAL_DISHES[state] ?? [])] },
+  ])
+) as Record<string, StateFood>;
 
 export function getAllDishes(): Dish[] {
   const dishes: Dish[] = [];

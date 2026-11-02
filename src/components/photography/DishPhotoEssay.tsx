@@ -128,7 +128,7 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
               ratio="aspect-[16/10]"
               priority
               sizes="(max-width: 1024px) 100vw, 66vw"
-              badge={plated ? "dish" : undefined}
+              badge={plated ? plated.label ?? "dish" : undefined}
               caption={plated?.caption}
               unavailable={{
                 title: "The finished dish — photograph unavailable",
@@ -199,7 +199,7 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
                   photo={photo}
                   ratio="aspect-[4/5]"
                   sizes="(max-width: 640px) 100vw, 33vw"
-                  badge="context"
+                  badge={photo.label ?? "context"}
                   caption={caption}
                 />
                 <div className="px-1">

@@ -28,6 +28,8 @@ export interface Photograph {
   sourceUrl: string;
   alt: string;
   caption: string;
+  /** Human label for this stage photograph, e.g. "Regional context". */
+  label?: string;
   /** Legacy local copy, used only if the CDN request fails. */
   fallback?: string | null;
   /**
@@ -62,10 +64,34 @@ interface RawLibraryPhoto {
   caption: string;
 }
 
+/** A photograph written out in full, instead of a shared library reference. */
+interface RawPhotoRef {
+  src: string;
+  title: string;
+  creator: string;
+  licence: string;
+  licenceUrl: string;
+  sourceUrl: string;
+  alt?: string;
+  caption?: string;
+  width?: number | null;
+  height?: number | null;
+  subject?: PhotoSubject;
+}
+
+/**
+ * A stage photograph is either one of the shared documentary library images
+ * (older dishes) or a photograph chosen specifically for this dish and this
+ * stage (newer dishes, where each frame carries its own caption and label).
+ */
+type RawStage =
+  | { library: string; caption?: string; items?: string[]; label?: string }
+  | { photo: RawPhotoRef; caption?: string; items?: string[]; label?: string };
+
 interface RawDishPhoto {
-  origin: { library: string; caption: string };
-  ingredients: { library: string; caption: string; items?: string[] };
-  method: { library: string; caption: string };
+  origin: RawStage;
+  ingredients: RawStage;
+  method: RawStage;
   plated: (Omit<Photograph, "subject"> & { subject?: PhotoSubject }) | null;
 }
 
@@ -176,6 +202,28 @@ export function photoPrimaryUrl(photo: Photograph, width: number): string {
   return photoSources(photo, width)[0] ?? photo.src;
 }
 
+function stagePhoto(stage: RawStage, defaultLabel: string): Photograph {
+  if ("photo" in stage) {
+    const photo = stage.photo;
+    return {
+      subject: photo.subject ?? "context",
+      title: photo.title,
+      src: photo.src,
+      width: photo.width ?? null,
+      height: photo.height ?? null,
+      creator: photo.creator,
+      licence: photo.licence,
+      licenceUrl: photo.licenceUrl,
+      sourceUrl: photo.sourceUrl,
+      alt: photo.alt ?? photo.title,
+      caption: stage.caption ?? photo.caption ?? "",
+      label: stage.label ?? defaultLabel,
+      local: null,
+    };
+  }
+  return { ...libraryPhoto(stage.library, stage.caption ?? ""), label: stage.label ?? defaultLabel };
+}
+
 /** Photographs for one dish, grouped into the four narrative acts. */
 export function getDishPhotography(dishId: string): DishPhotography | null {
   const record = DATA.dishes[dishId];
@@ -185,18 +233,19 @@ export function getDishPhotography(dishId: string): DishPhotography | null {
     ? {
         ...record.plated,
         subject: "dish" as PhotoSubject,
+        label: record.plated.label ?? "Finished dish",
         fallback: record.plated.fallback ?? null,
         local: LOCAL.dishes[dishId]?.plated ?? record.plated.fallback ?? null,
       }
     : null;
 
   return {
-    origin: libraryPhoto(record.origin.library, record.origin.caption),
+    origin: stagePhoto(record.origin, "Regional context"),
     ingredients: {
-      ...libraryPhoto(record.ingredients.library, record.ingredients.caption),
+      ...stagePhoto(record.ingredients, "Ingredient reference"),
       items: record.ingredients.items ?? [],
     },
-    method: libraryPhoto(record.method.library, record.method.caption),
+    method: stagePhoto(record.method, "Preparation technique"),
     plated,
   };
 }
@@ -243,6 +292,26 @@ export function getAllPhotographs(): Photograph[] {
   }
 
   for (const dish of Object.values(DATA.dishes)) {
+    for (const stage of [dish.origin, dish.ingredients, dish.method]) {
+      if (stage && "photo" in stage) {
+        const photo = stage.photo;
+        seen.set(`${photo.src}#${stage.caption ?? ""}`, {
+          subject: photo.subject ?? "context",
+          title: photo.title,
+          src: photo.src,
+          width: photo.width ?? null,
+          height: photo.height ?? null,
+          creator: photo.creator,
+          licence: photo.licence,
+          licenceUrl: photo.licenceUrl,
+          sourceUrl: photo.sourceUrl,
+          alt: photo.alt ?? photo.title,
+          caption: stage.caption ?? photo.caption ?? "",
+          label: stage.label,
+          local: null,
+        });
+      }
+    }
     if (dish.plated) {
       seen.set(dish.plated.src, {
         ...dish.plated,

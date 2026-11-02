@@ -16,11 +16,14 @@ import re
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "src" / "data" / "photography.json"
 FOOD = ROOT / "src" / "data" / "foodData.ts"
+ADDITIONAL = ROOT / "src" / "data" / "additionalDishes.ts"
 OUT = ROOT / "PHOTOGRAPHY-CREDITS.md"
 
 
 def load_dishes() -> dict[str, dict[str, str]]:
     source = FOOD.read_text()
+    if ADDITIONAL.exists():
+        source += "\n" + ADDITIONAL.read_text()
     dishes: dict[str, dict[str, str]] = {}
     for match in re.finditer(
         r'\{\s*id:\s*"([^"]+)",\s*name:\s*"([^"]+)"(?:,\s*alternateName:\s*"([^"]+)")?,\s*'
@@ -123,6 +126,32 @@ def main() -> None:
         "`<dish>-stage-4.webp`; the remainder load from Commons until `npm run photos:fetch` is run "
         "against a machine with internet access. See `docs/PHOTO-ARCHIVE.md`."
     )
+    add("")
+
+    # Stage photographs chosen specifically for a dish (regional context,
+    # ingredients, preparation technique) rather than a shared library image.
+    add("## Stage photographs for the added dishes")
+    add("")
+    add("Each of these photographs is assigned to one dish and one stage, with its own caption and label.")
+    add("")
+    add("| Region | Dish | Stage | Label | Photographer | Licence | Source |")
+    add("|---|---|---|---|---|---|---|")
+    stage_rows = 0
+    for dish_id, record in data["dishes"].items():
+        for stage in ("origin", "ingredients", "method"):
+            entry = record.get(stage) or {}
+            photo = entry.get("photo")
+            if not photo:
+                continue
+            dish = dishes.get(dish_id, {"name": dish_id, "state": ""})
+            add(
+                f"| {dish['state']} | {dish['name']} | {stage} | {entry.get('label', '')} | "
+                f"{photo['creator']} | [{photo['licence']}]({photo['licenceUrl']}) | "
+                f"[Commons]({photo['sourceUrl']}) |"
+            )
+            stage_rows += 1
+    if stage_rows == 0:
+        add("| — | — | — | — | — | — | — |")
     add("")
 
     add("## Dishes awaiting a verified photograph")

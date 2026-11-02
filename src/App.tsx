@@ -341,7 +341,7 @@ export default function App() {
           />
         </div>
 
-        {/* ── RIGHT: FOOD EXPLORER PANEL (REDUCED TO MAX 2 FOODS PER STATE) ── */}
+        {/* ── RIGHT: FOOD EXPLORER PANEL (3 SIGNATURE DISHES PER STATE) ── */}
         {!isSidebarCollapsed && (
           <div
             className={`w-full md:w-[40%] lg:w-[37%] flex flex-col overflow-hidden border-l shadow-2xl z-10 transition-all duration-300 ${
@@ -369,7 +369,7 @@ export default function App() {
                       isLight ? "text-slate-600" : "text-slate-300"
                     }`}
                   >
-                    Curated to exactly two signature iconic dishes per state. Orbit the 3D map or click any dish to launch its chronological 3D transformation experience.
+                    Curated to three signature iconic dishes per state — two from the original collection, one added after its photography was verified. Orbit the 3D map or click any dish to launch its chronological 3D transformation experience.
                   </p>
                 </div>
 

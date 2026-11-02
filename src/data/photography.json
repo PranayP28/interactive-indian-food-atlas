@@ -2191,6 +2191,313 @@
         "caption": "Koli Kari — Gentle Wine/Cream Style Velouté with Tropical Spices."
       },
       "plated": null
+    },
+    "puttu": {
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Kerala_backwaters,_House,_India.jpg",
+          "subject": "context",
+          "title": "Alappuzha backwaters, Kerala",
+          "creator": "Vyacheslav Argenberg",
+          "licence": "CC BY 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerala_backwaters,_House,_India.jpg",
+          "alt": "Backwaters and a waterside house in Alappuzha, Kerala",
+          "caption": "Alappuzha, Kerala — the waterside belt where puttu is a daily breakfast.",
+          "fallback": null,
+          "width": 4032,
+          "height": 2688
+        },
+        "caption": "Alappuzha, Kerala — the waterside belt where puttu is a daily breakfast.",
+        "label": "Regional context"
+      },
+      "ingredients": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/73/Rice_flour.jpg",
+          "subject": "context",
+          "title": "Rice flour",
+          "creator": "Thamizhpparithi Maari",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_flour.jpg",
+          "alt": "A bowl of rice flour",
+          "caption": "Rice flour — the base of puttu. The dish also uses grated coconut and salt.",
+          "fallback": null,
+          "width": 4208,
+          "height": 2368
+        },
+        "caption": "Rice flour, the base of puttu; the dish also uses grated coconut and salt.",
+        "label": "Ingredient reference",
+        "items": [
+          "Raw rice flour",
+          "Grated coconut",
+          "Salt",
+          "Water"
+        ]
+      },
+      "method": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Puttu_Launch.jpg",
+          "subject": "context",
+          "title": "Puttu released from the kutti",
+          "creator": "Jyothishbabu",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puttu_Launch.jpg",
+          "alt": "Steamed puttu being released from its mould",
+          "caption": "The steamed cylinder being released from the puttu kutti.",
+          "fallback": null,
+          "width": 1920,
+          "height": 1080
+        },
+        "caption": "The steamed cylinder being released from the puttu kutti.",
+        "label": "Preparation technique"
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Puttu_with_kadala_curry.jpg",
+        "subject": "dish",
+        "title": "Puttu with kadala curry",
+        "creator": "Jackson John 10",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puttu_with_kadala_curry.jpg",
+        "alt": "Puttu served with kadala curry",
+        "caption": "Puttu served with kadala curry, Kerala.",
+        "fallback": null,
+        "width": 1988,
+        "height": 1266
+      }
+    },
+    "filter-coffee": {
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Kapaleeshwarar_Temple,_Mylapore,_Chennai,_India.jpg",
+          "subject": "context",
+          "title": "Kapaleeshwarar Temple, Mylapore, Chennai",
+          "creator": "N. Vivekananthamoorthy",
+          "licence": "CC BY 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kapaleeshwarar_Temple,_Mylapore,_Chennai,_India.jpg",
+          "alt": "Kapaleeshwarar Temple gopuram in Mylapore, Chennai",
+          "caption": "Mylapore, Chennai — the temple-quarter streets where the coffee-house habit took hold.",
+          "fallback": null,
+          "width": 3792,
+          "height": 2582
+        },
+        "caption": "Mylapore, Chennai — the temple-quarter streets where the coffee-house habit took hold.",
+        "label": "Regional context"
+      },
+      "ingredients": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Roasted_Coffee_Beans_Texture.jpg",
+          "subject": "context",
+          "title": "Roasted coffee beans",
+          "creator": "freestock.ca",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roasted_Coffee_Beans_Texture.jpg",
+          "alt": "Close-up of roasted coffee beans",
+          "caption": "Roasted coffee beans. South Indian filter coffee is ground with chicory; milk and sugar complete it.",
+          "fallback": null,
+          "width": 1800,
+          "height": 1200
+        },
+        "caption": "Roasted coffee beans — ground with chicory for the decoction; milk and sugar complete it.",
+        "label": "Ingredient reference",
+        "items": [
+          "Coffee powder with chicory",
+          "Boiling water",
+          "Full-cream milk",
+          "Sugar"
+        ]
+      },
+      "method": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Disassembled_South_Indian_coffee_filter.jpg",
+          "subject": "context",
+          "title": "Disassembled South Indian coffee filter",
+          "creator": "en:User:Cheeni",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Disassembled_South_Indian_coffee_filter.jpg",
+          "alt": "The two chambers of a South Indian steel coffee filter, separated",
+          "caption": "The two chambers of the steel filter: grounds in the upper cup, decoction dripping into the lower.",
+          "fallback": null,
+          "width": 614,
+          "height": 461
+        },
+        "caption": "The two chambers of the steel filter: grounds above, decoction dripping below.",
+        "label": "Preparation technique"
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Foaming_filter_coffee.jpg",
+        "subject": "dish",
+        "title": "Foaming filter coffee",
+        "creator": "Charles Haynes",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foaming_filter_coffee.jpg",
+        "alt": "South Indian filter coffee being frothed between tumbler and dabarah",
+        "caption": "Filter coffee frothed between tumbler and dabarah, Bangalore.",
+        "fallback": null,
+        "width": 2577,
+        "height": 3378
+      }
+    },
+    "amritsari-kulcha": {
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Golden_Temple_%28Harmandir_Sahib%29_at_night%2C_Amritsar%2C_Punjab%2C_India_%282018%29.jpg",
+          "subject": "context",
+          "title": "Harmandir Sahib, Amritsar, at night",
+          "creator": "Sasha India",
+          "licence": "CC BY-SA 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Temple_(Harmandir_Sahib)_at_night,_Amritsar,_Punjab,_India_(2018).jpg",
+          "alt": "The Golden Temple at Amritsar illuminated at night",
+          "caption": "Amritsar — the lanes around Harmandir Sahib hold the tandoor shops that made the kulcha famous.",
+          "fallback": null,
+          "width": 4000,
+          "height": 3000
+        },
+        "caption": "Amritsar — the lanes around Harmandir Sahib hold the tandoor shops that made this kulcha famous.",
+        "label": "Regional context"
+      },
+      "ingredients": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Wheat_flour_dough.jpg",
+          "subject": "context",
+          "title": "Wheat flour dough",
+          "creator": "Libreravi",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wheat_flour_dough.jpg",
+          "alt": "Wheat flour dough resting in a bowl",
+          "caption": "Wheat-flour dough. Kulcha is layered with ghee and stuffed with potato or paneer, then served with chole.",
+          "fallback": null,
+          "width": 2335,
+          "height": 1466
+        },
+        "caption": "Wheat-flour dough — layered with ghee and stuffed with potato or paneer; chole is served alongside.",
+        "label": "Ingredient reference",
+        "items": [
+          "Refined wheat flour",
+          "Ghee",
+          "Potato or paneer filling",
+          "Ajwain",
+          "Curd",
+          "Green chilli"
+        ]
+      },
+      "method": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Paneer_Kulcha_Baking.jpg",
+          "subject": "context",
+          "title": "Kulcha baking",
+          "creator": "Divya Kudua",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paneer_Kulcha_Baking.jpg",
+          "alt": "Kulcha baking in a tandoor",
+          "caption": "Kulcha slapped onto the wall of a tandoor to blister.",
+          "fallback": null,
+          "width": 3000,
+          "height": 1000
+        },
+        "caption": "Kulcha slapped onto the wall of a tandoor to blister.",
+        "label": "Preparation technique"
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Amritsari_Kulcha_served_with_chhole.jpg",
+        "subject": "dish",
+        "title": "Amritsari Kulcha with chhole",
+        "creator": "Ravi Dwivedi",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amritsari_Kulcha_served_with_chhole.jpg",
+        "alt": "Amritsari kulcha served with chhole",
+        "caption": "Amritsari kulcha served with chhole, Chandigarh.",
+        "fallback": null,
+        "width": 1920,
+        "height": 1440
+      }
+    },
+    "ukadiche-modak": {
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Shanivar_Wada%2CPune%2CIndia.jpg",
+          "subject": "context",
+          "title": "Shanivar Wada, Pune",
+          "creator": "Rohan Sandeep Pawar",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanivar_Wada,Pune,India.jpg",
+          "alt": "Shaniwar Wada gate in Pune",
+          "caption": "Pune — the Peshwa capital where the Ganesh Chaturthi modak tradition took its present form.",
+          "fallback": null,
+          "width": 3072,
+          "height": 3840
+        },
+        "caption": "Pune — the Peshwa capital where the Ganesh Chaturthi modak tradition took its present form.",
+        "label": "Regional context"
+      },
+      "ingredients": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/Jaggery_cubes.jpg",
+          "subject": "context",
+          "title": "Jaggery cubes",
+          "creator": "Mangosapiens",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jaggery_cubes.jpg",
+          "alt": "Cubes of jaggery",
+          "caption": "Jaggery — melted with grated coconut for the modak filling; the shell is rice flour.",
+          "fallback": null,
+          "width": 5456,
+          "height": 3632
+        },
+        "caption": "Jaggery — melted with grated coconut for the filling; the shell is rice flour.",
+        "label": "Ingredient reference",
+        "items": [
+          "Rice flour",
+          "Jaggery",
+          "Grated coconut",
+          "Cardamom",
+          "Ghee"
+        ]
+      },
+      "method": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Steaming_Modaks.jpg",
+          "subject": "context",
+          "title": "Steaming modaks",
+          "creator": "Durvankur Patil",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steaming_Modaks.jpg",
+          "alt": "Hand-pleated modaks steaming in a vessel",
+          "caption": "Hand-pleated modaks steaming in a covered vessel.",
+          "fallback": null,
+          "width": 2263,
+          "height": 3266
+        },
+        "caption": "Hand-pleated modaks steaming in a covered vessel.",
+        "label": "Preparation technique"
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Ukadiche_Modak%2C_full_and_split.jpg",
+        "subject": "dish",
+        "title": "Ukadiche modak, whole and split",
+        "creator": "Dharmadhyaksha",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ukadiche_Modak,_full_and_split.jpg",
+        "alt": "Steamed modak, one whole and one broken open",
+        "caption": "Ukadiche modak, one whole and one opened to the jaggery-coconut filling.",
+        "fallback": null,
+        "width": 3328,
+        "height": 1872
+      }
     }
   }
 }
