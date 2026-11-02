@@ -1567,12 +1567,40 @@
     },
     "idli-sambar": {
       "origin": {
-        "library": "spice-market",
-        "caption": "Tamil Nadu — the regional kitchen where Idli Sambar belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Madurai%2C_India.jpg",
+          "subject": "context",
+          "title": "Madurai, Tamil Nadu",
+          "creator": "Bernard Gagnon",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madurai,_India.jpg",
+          "alt": "The Meenakshi temple gopurams rising over Madurai, Tamil Nadu",
+          "caption": "Madurai, Tamil Nadu — temple-town Tamil country, where idli is eaten at dawn.",
+          "fallback": null,
+          "width": 2589,
+          "height": 1598
+        },
+        "caption": "Madurai, Tamil Nadu — temple-town Tamil country, where idli is eaten at dawn.",
+        "label": "Regional context"
       },
       "ingredients": {
-        "library": "spice-palette",
-        "caption": "Ingredients for Idli Sambar: parboiled idli rice, urad dal, toor dal, shallots (madras onions).",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Black_gram.jpg",
+          "subject": "context",
+          "title": "Black gram (urad dal)",
+          "creator": "Sanjay Acharya",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_gram.jpg",
+          "alt": "Seeds of black gram, the urad dal used in idli batter",
+          "caption": "Urad dal — soaked and ground with rice; the batter is salted and fermented overnight.",
+          "fallback": null,
+          "width": 3070,
+          "height": 2182
+        },
+        "caption": "Urad dal — soaked and ground with rice; the batter is salted and fermented overnight.",
+        "label": "Ingredient reference",
         "items": [
           "Parboiled idli rice",
           "Urad dal",
@@ -1584,8 +1612,22 @@
         ]
       },
       "method": {
-        "library": "steam",
-        "caption": "Idli Sambar — Wet Stone Grinding, Overnight Aeration & Wet Cloth Steaming."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Idly_in_Steamer.jpg",
+          "subject": "context",
+          "title": "Idli in the steamer",
+          "creator": "Sushant savla",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idly_in_Steamer.jpg",
+          "alt": "Idli batter in moulds inside a steamer",
+          "caption": "Batter poured into the idli plates and steamed — the fermented batter rises into soft cakes.",
+          "fallback": null,
+          "width": 1116,
+          "height": 960
+        },
+        "caption": "Batter poured into the idli plates and steamed; the fermented batter rises into soft cakes.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Idli_Sambar.JPG",

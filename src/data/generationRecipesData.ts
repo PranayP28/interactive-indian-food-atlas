@@ -6,7 +6,7 @@
 
 import { Dish, getAllDishes } from "./foodData";
 import foodImageManifest from "./foodImageManifest.json";
-import { epochPhoto, getDishPhotography, photoUrl } from "./photography";
+import { UNRESOLVED_IMAGE, epochPhoto, getDishPhotography, stageImageUrl } from "./photography";
 
 // Era imagery is real documentary photography of Indian kitchen craft
 // (spice markets, grindstones, tandoors, steamers, service). It illustrates
@@ -974,14 +974,26 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
     generations = generateDynamicGenerationsForDish(dish);
   }
 
-  // Prefer the verified, full-resolution credited photograph for the final act.
-  const plated = getDishPhotography(dishId)?.plated;
-  const verifiedImage = plated ? photoUrl(plated.src, 1280) : VERIFIED_DISH_IMAGES[dishId];
-  if (!verifiedImage || generations.length === 0) return generations;
+  if (generations.length === 0) return generations;
 
-  return generations.map((generation, index) =>
-    index === generations.length - 1
-      ? { ...generation, image: verifiedImage }
-      : generation,
-  );
+  // Every epoch is illustrated with THIS dish's own stage photographs. The old
+  // behaviour — picking a shared era image (spice market, grindstone, tandoor)
+  // by category — put photographs of other dishes and generic kitchens on the
+  // timeline, so it is gone.
+  const photography = getDishPhotography(dishId);
+  const platedUrl = stageImageUrl(photography?.plated) ?? VERIFIED_DISH_IMAGES[dishId] ?? null;
+  const stageImages = [
+    stageImageUrl(photography?.origin) ?? platedUrl,
+    stageImageUrl(photography?.ingredients) ?? platedUrl,
+    stageImageUrl(photography?.method) ?? platedUrl,
+    platedUrl,
+  ].map((url) => url ?? UNRESOLVED_IMAGE);
+
+  // Six historical epochs → the four stages they belong to.
+  const epochToStage = [0, 0, 1, 2, 2, 3];
+
+  return generations.map((generation, index) => ({
+    ...generation,
+    image: stageImages[epochToStage[Math.min(index, epochToStage.length - 1)]],
+  }));
 }

@@ -42,14 +42,16 @@ export interface Photograph {
 }
 
 export interface DishPhotography {
-  /** Stage I — origin, history and regional food culture. */
-  origin: Photograph;
-  /** Stage II — the ingredients the dish is built from. */
-  ingredients: Photograph & { items: string[] };
-  /** Stage III — the technique and the making. */
-  method: Photograph;
+  /** Stage I — origin, history and regional food culture. Null when unresolved. */
+  origin: Photograph | null;
+  /** Stage II — the ingredients the dish is built from. Null when unresolved. */
+  ingredients: Photograph | null;
+  /** Stage III — the technique and the making. Null when unresolved. */
+  method: Photograph | null;
   /** Stage IV — the finished dish, plated and served. Null when unverified. */
   plated: Photograph | null;
+  /** Ingredient chips, kept even when the ingredient photograph is unresolved. */
+  ingredientItems: string[];
 }
 
 interface RawLibraryPhoto {
@@ -86,7 +88,8 @@ interface RawPhotoRef {
  */
 type RawStage =
   | { library: string; caption?: string; items?: string[]; label?: string }
-  | { photo: RawPhotoRef; caption?: string; items?: string[]; label?: string };
+  | { photo: RawPhotoRef; caption?: string; items?: string[]; label?: string }
+  | null;
 
 interface RawDishPhoto {
   origin: RawStage;
@@ -202,7 +205,13 @@ export function photoPrimaryUrl(photo: Photograph, width: number): string {
   return photoSources(photo, width)[0] ?? photo.src;
 }
 
-function stagePhoto(stage: RawStage, defaultLabel: string): Photograph {
+/**
+ * A shared "documentary library" image is NOT a photograph of this dish, so it
+ * is never used to fill a stage. Stages without a photograph chosen for that
+ * dish stay unresolved and the UI says so.
+ */
+function stagePhoto(stage: RawStage, defaultLabel: string): Photograph | null {
+  if (!stage) return null;
   if ("photo" in stage) {
     const photo = stage.photo;
     return {
@@ -221,8 +230,24 @@ function stagePhoto(stage: RawStage, defaultLabel: string): Photograph {
       local: null,
     };
   }
-  return { ...libraryPhoto(stage.library, stage.caption ?? ""), label: stage.label ?? defaultLabel };
+  return null;
 }
+
+/** Self-hosted copy when the archive has run, otherwise a CDN thumbnail. */
+export function stageImageUrl(photo: Photograph | null | undefined, width = 1280): string | null {
+  if (!photo) return null;
+  return photo.local ?? photoUrlWithin(photo.src, width, photo.width);
+}
+
+/** Neutral, non-photographic placeholder for a stage with no verified photo. */
+export const UNRESOLVED_IMAGE =
+  "data:image/svg+xml;charset=utf-8," +
+  encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10">' +
+      '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">' +
+      '<stop offset="0" stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>' +
+      '<rect width="16" height="10" fill="url(#g)"/></svg>'
+  );
 
 /** Photographs for one dish, grouped into the four narrative acts. */
 export function getDishPhotography(dishId: string): DishPhotography | null {
@@ -241,12 +266,10 @@ export function getDishPhotography(dishId: string): DishPhotography | null {
 
   return {
     origin: stagePhoto(record.origin, "Regional context"),
-    ingredients: {
-      ...stagePhoto(record.ingredients, "Ingredient reference"),
-      items: record.ingredients.items ?? [],
-    },
+    ingredients: stagePhoto(record.ingredients, "Ingredient reference"),
     method: stagePhoto(record.method, "Preparation technique"),
     plated,
+    ingredientItems: record.ingredients?.items ?? [],
   };
 }
 

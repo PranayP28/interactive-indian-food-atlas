@@ -169,3 +169,39 @@ all. Odisha's `Category:Pakhala` holds 50+ files, again all plated or served. A 
 batch when a genuine technique photograph exists, so batch 2 must be chosen from states whose
 dishes are made in a visible, photographed way — steaming, tandoor baking, frying, pleating,
 filtering — rather than from the most famous dish.
+
+
+---
+
+# Generic-image defect — root cause and fix (2026-11-02)
+
+**Symptom.** The Idli timeline showed a spice market, a grindstone, a tandoor and a Kerala meal —
+photographs belonging to no particular dish.
+
+**Root cause.** Two independent paths fell back to a shared ten-image "era library":
+
+1. `src/data/photography.json` gave every one of the original dishes `origin`, `ingredients` and
+   `method` as `{ "library": "<key>" }`. Idli pointed at `spice-market`, `spice-palette` and
+   `steam` — the spice and tempering photographs that were reported.
+2. `generateDynamicGenerationsForDish()` in `src/data/generationRecipesData.ts` chose the six epoch
+   images by *category* (`isFermented ? stone_ferment : spice_trade`, …), so every fermented dish
+   received the same grindstone and every curry the same spice-market shot. `GsapMotionPathTimeline`
+   then turned those six epochs straight into the cinematic parallax stages.
+
+**Fix.**
+
+* `stagePhoto()` now returns `null` for any stage that only names a shared library image. A library
+  photograph can never fill a dish stage again. `DishPhotography` stages are nullable and the essay
+  renders the honest empty frame when one is unresolved.
+* Idli Sambar carries four real photographs: Madurai (Bernard Gagnon, CC BY-SA 3.0), black gram
+  (Sanjay Acharya, CC BY-SA 3.0), the idli steamer (Sushant savla, CC BY-SA 4.0) and the finished
+  plate (Soumya Dey, CC BY-SA 3.0).
+* Every epoch image is now one of that dish's own four stage photographs; a dish with no photograph
+  gets the neutral unresolved placeholder, never a borrowed image.
+* The cinematic parallax journey now shows **four stages** — Origin & History, Ingredients,
+  Recipe & Making, Modern Form, Serving & Recognition — instead of six epochs of era imagery.
+  The GSAP timeline, pinning, parallax, MotionPath and 3D Studio code is untouched.
+
+**State after the fix:** 5 dishes have all four stages (Idli Sambar + the four batch-1 additions),
+43 have a verified finished-dish photograph and three unresolved stages, 22 have none. No dish
+displays a photograph belonging to another dish.

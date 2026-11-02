@@ -14,6 +14,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { GenerationWaypoint, getGenerationsForDish } from "../data/generationRecipesData";
+import { UNRESOLVED_IMAGE, getDishPhotography, stageImageUrl } from "../data/photography";
 import { Skiper6Summarizer, GenerationSummaryMember } from "./ui/skiper6";
 import { useTheme } from "../context/ThemeContext";
 import { CinematicOutro, CinematicParallaxJourney, CinematicStage } from "./CinematicParallaxJourney";
@@ -38,30 +39,42 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
   const travelerRef = useRef<SVGCircleElement>(null);
   const waypoints = useMemo(() => getGenerationsForDish(dishId), [dishId]);
 
-  const cinematicStages: CinematicStage[] = useMemo(
-    () =>
-      waypoints.map((w, idx) => ({
-        id: `${dishId}-gen-${w.generationNumber}`,
-        image: w.image,
-        imageAlt: w.headline,
-        secondaryImage: waypoints[idx + 1]?.image ?? waypoints[idx - 1]?.image,
-        eyebrow: `${w.eraTitle} · ${w.yearRange}`,
-        title: w.headline,
-        numeral: String(w.generationNumber).padStart(2, "0"),
-      })),
-    [dishId, waypoints]
-  );
+  // The cinematic journey is the dish's four photographic stages — origin,
+  // ingredients, making, serving — not six epochs of borrowed era imagery.
+  const cinematicStages: CinematicStage[] = useMemo(() => {
+    const photography = getDishPhotography(dishId);
+    const entries = [
+      { key: "origin", numeral: "01", eyebrow: "Stage I", title: "Origin & History", photo: photography?.origin },
+      { key: "ingredients", numeral: "02", eyebrow: "Stage II", title: "Ingredients", photo: photography?.ingredients },
+      { key: "method", numeral: "03", eyebrow: "Stage III", title: "Recipe & Making", photo: photography?.method },
+      { key: "plated", numeral: "04", eyebrow: "Stage IV", title: "Modern Form, Serving & Recognition", photo: photography?.plated },
+    ];
+    return entries.map((entry, index) => {
+      const url = stageImageUrl(entry.photo);
+      const next = entries[index + 1];
+      return {
+        id: `${dishId}-stage-${entry.key}`,
+        image: url ?? UNRESOLVED_IMAGE,
+        imageAlt: entry.photo ? `${dishName} — ${entry.title}` : `${entry.title} — no verified photograph`,
+        secondaryImage: next ? (stageImageUrl(next.photo) ?? undefined) : undefined,
+        eyebrow: entry.eyebrow,
+        title: entry.title,
+        tagline: entry.photo?.caption,
+        numeral: entry.numeral,
+      };
+    });
+  }, [dishId, dishName]);
 
   const cinematicOutro: CinematicOutro | undefined = useMemo(() => {
-    const finalStage = waypoints[waypoints.length - 1];
-    if (!finalStage) return undefined;
+    const plated = cinematicStages[cinematicStages.length - 1];
+    if (!plated) return undefined;
     return {
       kicker: "The Legend Lives On",
       title: dishName,
       tagline: "Centuries of craft in every bite.",
-      image: finalStage.image,
+      image: plated.image,
     };
-  }, [dishName, waypoints]);
+  }, [dishName, cinematicStages]);
 
   const [activeWaypointIdx, setActiveWaypointIdx] = useState<number>(0);
   const waypointRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -203,7 +216,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           key={dishId}
           stages={cinematicStages}
           label={`${dishName} · Through the Ages`}
-          note="era imagery: documentary photographs of Indian kitchen craft"
+          note="stage imagery: photographs chosen for this dish, each credited to its photographer"
           backdropText={dishName}
           outro={cinematicOutro}
         />

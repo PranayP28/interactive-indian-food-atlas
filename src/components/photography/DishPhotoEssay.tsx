@@ -59,7 +59,7 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
   const photography = getDishPhotography(dish.id);
   if (!photography) return null;
 
-  const { origin, ingredients, method, plated } = photography;
+  const { origin, ingredients, method, plated, ingredientItems } = photography;
   const photographed = hasPlatedPhotograph(dish.id);
 
   const surface = isLight
@@ -99,9 +99,10 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
               Four acts of {dish.name}, in real photographs
             </h2>
             <p className={`mt-3 text-[13px] leading-relaxed sm:text-sm ${soft}`}>
-              Every frame on this page is a photograph by a named photographer, published under a licence that
-              permits reuse. Nothing here is generated, illustrated or composited. Context photographs are labelled
-              as context — they are never passed off as a portrait of the dish.
+              Every frame that carries a picture is a real photograph by a named photographer, published under a
+              licence that permits reuse — nothing here is generated, illustrated or composited. Each frame is
+              labelled with exactly what it shows, and where no photograph of this dish exists for a stage, the
+              frame stays empty rather than borrowing a picture of another dish.
             </p>
           </div>
 
@@ -190,8 +191,7 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
           {ACTS.map((act) => {
             const photo =
               act.key === "origin" ? origin : act.key === "ingredients" ? ingredients : method;
-            const caption =
-              act.key === "ingredients" ? ingredients.caption : photo.caption;
+            const caption = photo?.caption ?? act.blurb;
 
             return (
               <article key={act.key} className="flex flex-col gap-3">
@@ -199,7 +199,7 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
                   photo={photo}
                   ratio="aspect-[4/5]"
                   sizes="(max-width: 640px) 100vw, 33vw"
-                  badge={photo.label ?? "context"}
+                  badge={photo?.label ?? "context"}
                   caption={caption}
                 />
                 <div className="px-1">
@@ -209,11 +209,15 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
                     </span>
                     <h3 className={`font-cormorant text-xl ${ink}`}>{act.title}</h3>
                   </div>
-                  <p className={`mt-1.5 text-[12px] leading-relaxed ${soft}`}>{act.blurb}</p>
+                  <p className={`mt-1.5 text-[12px] leading-relaxed ${soft}`}>
+                    {photo
+                      ? act.blurb
+                      : `No photograph for this stage of ${dish.name} has been verified yet. The frame stays empty rather than showing a photograph of another dish or a generic kitchen.`}
+                  </p>
 
-                  {act.key === "ingredients" && ingredients.items.length > 0 && (
+                  {act.key === "ingredients" && ingredientItems.length > 0 && (
                     <ul className="mt-3 flex flex-wrap gap-1.5">
-                      {ingredients.items.slice(0, 8).map((item) => (
+                      {ingredientItems.slice(0, 8).map((item) => (
                         <li
                           key={item}
                           className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] ${
@@ -229,9 +233,11 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
                     </ul>
                   )}
 
-                  <div className={`mt-3 border-t pt-2 ${hairline}`}>
-                    <CreditLink photo={photo} isLight={isLight} />
-                  </div>
+                  {photo && (
+                    <div className={`mt-3 border-t pt-2 ${hairline}`}>
+                      <CreditLink photo={photo} isLight={isLight} />
+                    </div>
+                  )}
                 </div>
               </article>
             );
