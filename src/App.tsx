@@ -25,6 +25,7 @@ import {
   getTasteColor,
   StateFood,
   Dish,
+  getAllDishes,
 } from "./data/foodData";
 import { useTheme } from "./context/ThemeContext";
 import { ThemeToggle } from "./components/ui/ThemeToggle";
@@ -199,7 +200,7 @@ export default function App() {
                 isLight ? "text-amber-900/80" : "text-amber-300/80"
               }`}
             >
-              33 Intended Regions · Top 2 Signature Dishes Per State · 66 Historical Journeys
+              {stateNames.length} Regions · 3 Dishes Per State · {getAllDishes().length} Historical Journeys
             </p>
           </div>
         </div>
@@ -613,14 +614,14 @@ export default function App() {
                   </div>
                 </div>
 
-                {/* Dishes Scrollable List (Exactly top 2 signature foods) */}
+                {/* Dishes Scrollable List (three per state, two per union territory) */}
                 <div className="flex-1 overflow-y-auto p-5 space-y-4 scrollbar-thin">
                   <div
                     className={`text-[11px] uppercase tracking-widest font-bold flex items-center justify-between ${
                       isLight ? "text-slate-600" : "text-slate-400"
                     }`}
                   >
-                    <span>Top 2 Signature Dishes</span>
+                    <span>Signature Dishes of {selectedState}</span>
                     <span className={isLight ? "text-amber-800" : "text-amber-400"}>
                       Click to Explore 3D Story
                     </span>

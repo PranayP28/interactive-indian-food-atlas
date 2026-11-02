@@ -3,14 +3,16 @@
 **Goal:** 28 states × 3 dishes + 5 union territories × 2 dishes = **94 dishes**, each with four
 stages, each stage a real photograph with verified reuse permission.
 
-**Current:** 66 dishes. Missing: **one dish for every one of the 28 states** (see
-[`DISH-RECONCILIATION.md`](./DISH-RECONCILIATION.md)). The five union territories in the data
-already meet their quota of two.
+**Current:** 94 dishes — **28 states × 3 + 5 union territories × 2**. The collection target is met
+(see [`DISH-RECONCILIATION.md`](./DISH-RECONCILIATION.md)); the remaining work is photographic.
+This document records the earlier batches and the continuation batch 2 that closed the gap.
 
 ## Selection rule applied
 
-A dish is only added when **all four** of these can be evidenced by a real photograph whose
-licence has been checked against the live Commons API:
+A dish is added when it is a genuinely famous, regionally appropriate preparation of its state.
+A stage is only marked **complete** when all four of these can be evidenced by a real photograph
+whose licence has been checked against the live Commons API. Where they cannot, the stage is
+rendered as an explicitly unresolved frame — never a borrowed, generic or generated image:
 
 | Stage | What the photograph must show |
 | --- | --- |
@@ -19,8 +21,8 @@ licence has been checked against the live Commons API:
 | III | that dish actually being made — its technique |
 | IV | the finished dish, served in its regional style |
 
-If a dish cannot evidence all four, it is **not** added, and the next well-known dish from the
-same state is evaluated instead. No dish is ever added with a placeholder stage.
+If a proposed dish has insufficient genuine photographic coverage, the next well-known dish
+from the same state is evaluated instead. No dish is ever shown with a placeholder photograph.
 
 ## Method
 
@@ -205,3 +207,55 @@ photographs belonging to no particular dish.
 **State after the fix:** 5 dishes have all four stages (Idli Sambar + the four batch-1 additions),
 43 have a verified finished-dish photograph and three unresolved stages, 22 have none. No dish
 displays a photograph belonging to another dish.
+
+---
+
+## Continuation · batch 2 (2026-11-02) — collection target reached
+
+The previous agent's four additions (Kerala Puttu, Tamil Nadu Filter Coffee, Punjab Amritsari
+Kulcha, Maharashtra Ukadiche Modak) were preserved exactly. **Exactly one further dish was added
+to each of the remaining 24 states**, bringing the collection to 94. No union territory was added
+or removed; Chandigarh, Lakshadweep and Dadra and Nagar Haveli and Daman and Diu remain excluded.
+
+| State | Third dish | State | Third dish |
+|---|---|---|---|
+| Andhra Pradesh | Pulihora | Arunachal Pradesh | Apong |
+| Assam | Til Pitha | Bihar | Silao Khaja |
+| Chhattisgarh | Bafauri | Goa | Bebinca |
+| Gujarat | Handvo | Haryana | Haryanvi Churma |
+| Himachal Pradesh | Chana Madra | Jharkhand | Pittha |
+| Karnataka | Mysore Pak | Madhya Pradesh | Dal Bafla |
+| Manipur | Chak-Hao Kheer | Meghalaya | Pumaloi |
+| Mizoram | Vawksa Rep | Nagaland | Zutho |
+| Odisha | Pakhala | Rajasthan | Ghewar |
+| Sikkim | Sel Roti | Telangana | Qubani ka Meetha |
+| Tripura | Awan Bangwi | Uttar Pradesh | Banarasi Malaiyo |
+| Uttarakhand | Singori | West Bengal | Rosogolla |
+
+Every one of these dishes has a **four-stage historical record** in `src/data/dishStages.json`
+(origin/history, ingredients, recipe & making, modern form/serving/recognition) with source ids
+resolved against the bibliography. Historical claims that cannot be dated are labelled
+`regional-tradition` or `oral-tradition` rather than being given an invented century.
+
+### Photographic outcome of batch 2 — honest status
+
+24 additional photographs were imported, 10 of them newly researched Commons files for the new
+dishes and 14 re-attributed from the earlier `fix/dish-specific-timeline-images` (PR #5) asset
+set with its recorded creator, licence and source page. All are genuine, camera-captured images.
+
+* **59 of 94** dishes now have a verified finished-dish photograph.
+* **84 of 376** stage photographs are verified and mapped; **61** of them are self-hosted WebP
+  files under `public/images/dishes/`.
+* **292 stages remain explicitly unresolved** — that is the remaining photographic work.
+* Verified but rejected: the only Commons Qubani ka Meetha file is 262×344 px (below display
+  quality); the only Apong rice-beer photograph depicts an Assam tradition rather than Arunachal's
+  Adi/Nyishi Apong. Both are recorded in `src/data/photoImportManifest.json` under `rejected`.
+* Several new dishes (Bafauri, Pittha, Pumaloi, Vawksa Rep, Zutho, Awan Bangwi, Silao Khaja,
+  Chak-Hao Kheer, Pakhala, Dal Bafla, Singori, Chana Madra, Apong, Qubani ka Meetha) have **no
+  verified photograph at all** in this batch and correctly show the unavailable state. They were
+  retained because they are genuinely canonical regional foods; their photographic gaps are
+  documented, not disguised.
+
+`npm run atlas:check` verifies the counts, IDs, associations, 376 histories, four data-driven
+timeline stages, seven 3D Studio stages, credits and local files. The full credit ledger is
+[`../PHOTOGRAPHY-CREDITS.md`](../PHOTOGRAPHY-CREDITS.md).

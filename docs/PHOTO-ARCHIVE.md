@@ -26,9 +26,12 @@ site's CSS grade.
 ## Fetching the archive
 
 ```bash
-npm run photos:plan          # print what would be downloaded and from where
-npm run photos:fetch         # download, verify, optimise, write localPhotos.json
+npm run photos:plan          # verify licences live and print the download plan
+npm run photos:fetch         # download, verify, optimise, merge localPhotos.json
+npm run photos:verify        # offline integrity check of every local WebP
+npm run photos:import        # mirror the research-pass Commons files locally
 npm run photos:credits       # regenerate PHOTOGRAPHY-CREDITS.md
+npm run atlas:check          # full data / stage / credit / file integrity check
 ```
 
 `scripts/fetch_food_photos.py` reads `src/data/photography.json` and, for every
@@ -45,18 +48,42 @@ licence and original file URL before writing anything:
 and falls back to the verified Commons URL, so the site works both before and
 after the archive is populated.
 
-## Current state
+## Fetch pipeline hardening
 
-* 66 dishes across 24 state/UT groups in `src/data/foodData.ts`.
-* 44 of 66 have a verified finished-dish photograph; the other 22 render the
+The fetch script now merges rather than rebuilds `localPhotos.json`, unwraps the
+explicit stage records used by Stages I–III, retries transient API/download
+errors with backoff, validates image headers and dimensions before writing,
+writes files atomically, and refuses to run without a live licence check. Use
+`npm run photos:verify` for an offline integrity check of every local WebP.
+
+Verified photographs that were mirrored during a research pass (where the
+sandbox has no outbound Wikimedia access) are imported by
+`scripts/import_verified_photos.py`, which uses
+`scripts/legacy-timeline-assets.json` and writes
+`src/data/photoImportManifest.json` with the creator, licence, licence URL,
+source page, original Commons URL, local path and provenance of every file.
+The ten verified Commons source JPEGs used by that import are committed under
+`assets/photo-sources/` so the import stays reproducible; the scratch
+`image-search/` directory remains gitignored.
+
+## Current state (2026-11-02)
+
+* 94 dishes across 33 groups (28 states × 3, 5 UTs × 2) in `src/data/foodData.ts`.
+* 59 of 94 have a verified finished-dish photograph; the other 35 render the
   honest "no verified photograph" frame instead of a substitute.
-* 38 finished-dish photographs are self-hosted in `public/images/dishes/`.
-  The remaining six verified dishes are still served from Commons and will be
-  written locally on the next `npm run photos:fetch`.
-* Stages I–III use the nine documentary context photographs in
-  `public/images/context/` and are always labelled "Documentary photograph".
-  They are never captioned as a photograph of the dish itself.
+* 84 of 376 four-stage photographs are verified and individually credited.
+  61 of those are self-hosted WebP files in `public/images/dishes/`, including
+  Stage I–III photographs; the rest fall back to the verified Commons URL and
+  will be written locally on the next `npm run photos:fetch` from a machine
+  with Wikimedia access.
+* 292 stages are deliberately unresolved. Stages I–III are **not** filled by
+  the nine shared documentary context photographs: a library image can never
+  stand in for a dish's own stage photograph.
+* Three local files are genuine but below display quality (259×194, 400×301 and
+  500×375 px); `npm run photos:verify` reports them as warnings rather than
+  silently upscaling them.
 
 Attribution, licence links and reuse obligations for every file are in
 [`PHOTOGRAPHY-CREDITS.md`](../PHOTOGRAPHY-CREDITS.md), generated from the same
-JSON the site renders.
+JSON the site renders. Honest per-stage coverage is recorded in
+[`DISH-RECONCILIATION.md`](./DISH-RECONCILIATION.md).

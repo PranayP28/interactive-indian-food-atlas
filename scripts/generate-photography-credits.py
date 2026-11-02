@@ -59,11 +59,11 @@ def main() -> None:
     )
     add("")
     add(
-        "Photographs are served from the Wikimedia Commons image CDN at the project's standard thumbnail "
-        "widths (500 / 960 / 1280 / 1920 px), with a colour grade and a crop applied by the site. No pixels "
-        "have been generated, added, removed or composited. The WebP files under `public/images/dishes/` are "
-        "credited copies of the same Commons originals and are used only as a fallback if the CDN cannot be "
-        "reached."
+        "The site is **local-first**: WebP copies in `public/images/dishes/` are the primary source, and a "
+        "Wikimedia Commons thumbnail (500 / 960 / 1280 / 1920 px) is the fallback when no local copy exists. "
+        "Only a colour grade and a responsive crop are applied at display time. No pixels have been generated, "
+        "added, removed or composited. Every local copy was re-encoded from the credited Commons original and "
+        "is recorded, with its creator, licence and source page, in `src/data/photoImportManifest.json`."
     )
     add("")
     add(
@@ -95,8 +95,10 @@ def main() -> None:
     add("| Region | Dish | Photographer | Licence | Resolution | File hosted | Source file |")
     add("|---|---|---|---|---|---|---|")
     try:
-        local_ids = set(json.loads((ROOT / "src/data/localPhotos.json").read_text())["dishes"])
+        local_stages = json.loads((ROOT / "src/data/localPhotos.json").read_text())["dishes"]
+        local_ids = set(local_stages)
     except Exception:
+        local_stages = {}
         local_ids = set()
     photographed = 0
     missing: list[dict[str, str]] = []
@@ -121,18 +123,23 @@ def main() -> None:
         f"**{photographed} of {len(data['dishes'])} dishes carry a verified photograph of the finished dish.**"
     )
     add("")
+    local_plated = sum(1 for did in local_stages if "plated" in local_stages[did])
     add(
-        f"{len(local_ids)} of those photographs are mirrored into `public/images/dishes/` as "
+        f"{local_plated} of those finished-dish photographs are mirrored into `public/images/dishes/` as "
         "`<dish>-stage-4.webp`; the remainder load from Commons until `npm run photos:fetch` is run "
-        "against a machine with internet access. See `docs/PHOTO-ARCHIVE.md`."
+        "against a machine with Wikimedia access. See `docs/PHOTO-ARCHIVE.md`."
     )
     add("")
 
     # Stage photographs chosen specifically for a dish (regional context,
     # ingredients, preparation technique) rather than a shared library image.
-    add("## Stage photographs for the added dishes")
+    add("## Dish-specific stage photographs (Stages I–III)")
     add("")
-    add("Each of these photographs is assigned to one dish and one stage, with its own caption and label.")
+    add(
+        "Each of these photographs is explicitly mapped to one dish and one stage, with its own caption and "
+        "descriptive label (Regional context / Ingredient reference / Preparation technique). A shared library "
+        "image never fills a stage."
+    )
     add("")
     add("| Region | Dish | Stage | Label | Photographer | Licence | Source |")
     add("|---|---|---|---|---|---|---|")
@@ -168,6 +175,37 @@ def main() -> None:
             f"| {dish['state']} | {dish['name']} | No published photograph verified as this exact dish under "
             "a reusable licence |"
         )
+    add("")
+
+    # Honest four-stage coverage statement, computed from the same JSON.
+    stage_keys = ("origin", "ingredients", "method", "plated")
+    assignments = 0
+    local_assignments = 0
+    for dish_id, record in data["dishes"].items():
+        for stage in stage_keys:
+            value = record.get(stage)
+            explicit = bool(value) if stage == "plated" else bool(value and "photo" in value)
+            if explicit:
+                assignments += 1
+                if dish_id in local_ids and stage in local_stages.get(dish_id, {}):
+                    local_assignments += 1
+    target = len(data["dishes"]) * 4
+
+    add("## Four-stage coverage")
+    add("")
+    add(
+        f"**{assignments} of {target}** stage photographs are verified and mapped; "
+        f"**{local_assignments}** of those are self-hosted WebP files. The remaining "
+        f"**{target - assignments}** stages are deliberately left as clearly labelled unresolved frames, "
+        "because no genuine, dish-appropriate photograph with verified reuse rights has been found for them. "
+        "They are never filled with a borrowed, generic or generated image."
+    )
+    add("")
+    add(
+        "Stage captions state exactly what each photograph shows. A region photograph does not prove a dish's "
+        "origin; an ingredient photograph shows one component, not the whole recipe; a modern technique "
+        "photograph is never presented as an ancient one."
+    )
     add("")
 
     add("## Reuse obligations")

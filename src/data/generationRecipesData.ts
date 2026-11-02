@@ -5,13 +5,18 @@
 // ─────────────────────────────────────────────
 
 import { Dish, getAllDishes } from "./foodData";
-import foodImageManifest from "./foodImageManifest.json";
 import { UNRESOLVED_IMAGE, epochPhoto, getDishPhotography, stageImageUrl } from "./photography";
+import {
+  getDishStageHistory,
+  getStageCitations,
+  type StageKey,
+} from "./dishStages";
 
-// Era imagery is real documentary photography of Indian kitchen craft
-// (spice markets, grindstones, tandoors, steamers, service). It illustrates
-// the era's technique and trade — it is never presented as a photograph of
-// the dish in that century. All AI-generated waypoint art has been removed.
+// Legacy era imagery keys survive only inside the six-epoch source records
+// below, which are mined for cookware, heat source and recipe detail. The
+// timeline itself is now built from the FOUR primary stages in dishStages.json
+// and every image it emits is that dish's own stage photograph or the neutral
+// unresolved frame — never a shared era photograph.
 const ERA_PHOTO: Record<string, string> = {
   ancient_grains: epochPhoto("ancient_grains", 1280),
   stone_ferment: epochPhoto("stone_ferment", 1280),
@@ -948,52 +953,100 @@ function generateDynamicGenerationsForDish(dish: Dish): GenerationWaypoint[] {
 }
 
 // ─────────────────────────────────────────────
-// EXPORT DISH GENERATION SELECTOR
-// Guaranteed never to show Masala Dosa data unless it IS Masala Dosa!
+// FOUR-STAGE TIMELINE SELECTOR
+//
+// The historical timeline is exactly four primary stages, read from the
+// canonical dishStages.json record. The legacy six-epoch arrays above are
+// retained as source material for cookware, heat source and recipe detail —
+// no dish ever sees another dish's data, and every emitted image belongs to
+// that dish and that stage (or is the neutral unresolved frame).
+//
+// The GSAP MotionPath, ScrollTrigger, pinned sections, parallax, skiper6 and
+// reverse-scroll logic all read waypoints.length, so the animation
+// calculations stay data-driven and untouched.
 // ─────────────────────────────────────────────
 
-const VERIFIED_DISH_IMAGES: Record<string, string> = Object.fromEntries(
-  foodImageManifest.foods.flatMap((entry) =>
-    entry.status === "downloaded" && entry.image
-      ? [[entry.id, entry.image]]
-      : [],
-  ),
-);
+const STAGE_SOURCE_EPOCH: Record<StageKey, number> = {
+  origin: 0,
+  ingredients: 1,
+  method: 3,
+  plated: 5,
+};
+
+const STAGE_YEAR_RANGE: Record<StageKey, string> = {
+  origin: "Origins & documented references",
+  ingredients: "Regional & seasonal produce",
+  method: "Traditional technique to modern kitchens",
+  plated: "Present day",
+};
+
+/** Legacy six-epoch records for one dish, used only for recipe detail. */
+function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoint[] {
+  switch (dishId) {
+    case "masala-dosa":
+      return DOSA_GENERATIONS;
+    case "hyderabadi-biryani":
+      return BIRYANI_GENERATIONS;
+    case "rogan-josh":
+      return ROGAN_JOSH_GENERATIONS;
+    case "litti-chokha":
+      return LITTI_CHOKHA_GENERATIONS;
+    case "butter-chicken":
+      return BUTTER_CHICKEN_GENERATIONS;
+    default:
+      return generateDynamicGenerationsForDish(dish);
+  }
+}
 
 export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
-  let generations: GenerationWaypoint[];
+  const history = getDishStageHistory(dishId);
+  const photography = getDishPhotography(dishId);
+  const allDishes = getAllDishes();
+  const dish = allDishes.find((d) => d.id === dishId) || allDishes[0];
+  const legacy = legacyGenerationsForDish(dishId, dish);
 
-  if (dishId === "masala-dosa") generations = DOSA_GENERATIONS;
-  else if (dishId === "hyderabadi-biryani") generations = BIRYANI_GENERATIONS;
-  else if (dishId === "rogan-josh") generations = ROGAN_JOSH_GENERATIONS;
-  else if (dishId === "litti-chokha") generations = LITTI_CHOKHA_GENERATIONS;
-  else if (dishId === "butter-chicken") generations = BUTTER_CHICKEN_GENERATIONS;
-  else {
-    const allDishes = getAllDishes();
-    const dish = allDishes.find((d) => d.id === dishId) || allDishes[0];
-    generations = generateDynamicGenerationsForDish(dish);
+  if (!history || legacy.length === 0) {
+    // Defensive fallback: still exactly four stages, never a shared image.
+    return legacy.slice(0, 4).map((generation, index) => ({
+      ...generation,
+      generationNumber: index + 1,
+      image: UNRESOLVED_IMAGE,
+    }));
   }
 
-  if (generations.length === 0) return generations;
+  return history.stages.map((stage) => {
+    const source = legacy[Math.min(STAGE_SOURCE_EPOCH[stage.key], legacy.length - 1)];
+    const photo = photography ? photography[stage.key] : null;
+    const citations = getStageCitations(stage)
+      .map((entry) => `${entry.author}, ${entry.title}${entry.year ? ` (${entry.year})` : ""}`)
+      .join("; ");
 
-  // Every epoch is illustrated with THIS dish's own stage photographs. The old
-  // behaviour — picking a shared era image (spice market, grindstone, tandoor)
-  // by category — put photographs of other dishes and generic kitchens on the
-  // timeline, so it is gone.
-  const photography = getDishPhotography(dishId);
-  const platedUrl = stageImageUrl(photography?.plated) ?? VERIFIED_DISH_IMAGES[dishId] ?? null;
-  const stageImages = [
-    stageImageUrl(photography?.origin) ?? platedUrl,
-    stageImageUrl(photography?.ingredients) ?? platedUrl,
-    stageImageUrl(photography?.method) ?? platedUrl,
-    platedUrl,
-  ].map((url) => url ?? UNRESOLVED_IMAGE);
-
-  // Six historical epochs → the four stages they belong to.
-  const epochToStage = [0, 0, 1, 2, 2, 3];
-
-  return generations.map((generation, index) => ({
-    ...generation,
-    image: stageImages[epochToStage[Math.min(index, epochToStage.length - 1)]],
-  }));
+    return {
+      generationNumber: stage.number,
+      eraTitle: stage.era,
+      yearRange: STAGE_YEAR_RANGE[stage.key],
+      centuryLabel: stage.eyebrow,
+      headline: stage.headline,
+      shortDescription: stage.narrative,
+      image: stageImageUrl(photo) ?? UNRESOLVED_IMAGE,
+      generationRecipe: {
+        recipeName: stage.title,
+        historicalCookware: source.generationRecipe.historicalCookware,
+        heatSource: source.generationRecipe.heatSource,
+        ingredientsList:
+          stage.key === "ingredients" && dish.ingredients.length
+            ? dish.ingredients
+            : source.generationRecipe.ingredientsList,
+        preparationMethod:
+          stage.key === "method"
+            ? `${dish.keyTechnique}. ${stage.details[0]}`
+            : stage.details[0],
+        contemporaryDifference:
+          stage.details[stage.details.length - 1] || source.generationRecipe.contemporaryDifference,
+      },
+      technologicalLeap: stage.details[0],
+      documentedCitation:
+        citations || "Regional food writing; no securely dated first reference established.",
+    } satisfies GenerationWaypoint;
+  });
 }

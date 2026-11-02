@@ -31,10 +31,12 @@
       "plated": "/images/dishes/undhiyu-stage-4.webp"
     },
     "siddu": {
-      "plated": "/images/dishes/siddu-stage-4.webp"
+      "plated": "/images/dishes/siddu-stage-4.webp",
+      "method": "/images/dishes/siddu-stage-3.webp"
     },
     "dhuska": {
-      "plated": "/images/dishes/dhuska-stage-4.webp"
+      "plated": "/images/dishes/dhuska-stage-4.webp",
+      "method": "/images/dishes/dhuska-stage-3.webp"
     },
     "chilka-roti": {
       "plated": "/images/dishes/chilka-roti-stage-4.webp"
@@ -46,10 +48,13 @@
       "plated": "/images/dishes/appam-stew-stage-4.webp"
     },
     "indori-poha": {
-      "plated": "/images/dishes/indori-poha-stage-4.webp"
+      "plated": "/images/dishes/indori-poha-stage-4.webp",
+      "ingredients": "/images/dishes/indori-poha-stage-2.webp"
     },
     "vada-pav": {
-      "plated": "/images/dishes/vada-pav-stage-4.webp"
+      "plated": "/images/dishes/vada-pav-stage-4.webp",
+      "method": "/images/dishes/vada-pav-stage-3.webp",
+      "ingredients": "/images/dishes/vada-pav-stage-2.webp"
     },
     "puran-poli": {
       "plated": "/images/dishes/puran-poli-stage-4.webp"
@@ -110,7 +115,100 @@
     },
     "delhi-nihari": {
       "plated": "/images/dishes/delhi-nihari-stage-4.webp"
-    }
+    },
+    "gongura-mutton": {},
+    "pulihora": {
+      "plated": "/images/dishes/pulihora-stage-4.webp"
+    },
+    "thukpa": {},
+    "bamboo-shoot-pork": {},
+    "apong": {},
+    "til-pitha": {
+      "plated": "/images/dishes/til-pitha-stage-4.webp"
+    },
+    "silao-khaja": {},
+    "fara": {},
+    "bafauri": {},
+    "bebinca": {
+      "plated": "/images/dishes/bebinca-stage-4.webp"
+    },
+    "handvo": {
+      "plated": "/images/dishes/handvo-stage-4.webp"
+    },
+    "bajra-khichdi": {},
+    "haryanvi-kadhi": {
+      "plated": "/images/dishes/haryanvi-kadhi-stage-4.webp"
+    },
+    "haryanvi-churma": {
+      "plated": "/images/dishes/haryanvi-churma-stage-4.webp"
+    },
+    "himachali-dham": {},
+    "chana-madra": {},
+    "pittha": {},
+    "masala-dosa": {
+      "method": "/images/dishes/masala-dosa-stage-3.webp",
+      "plated": "/images/dishes/masala-dosa-stage-4.webp"
+    },
+    "mysore-pak": {
+      "plated": "/images/dishes/mysore-pak-stage-4.webp"
+    },
+    "fish-molee": {
+      "plated": "/images/dishes/fish-molee-stage-4.webp"
+    },
+    "puttu": {},
+    "bhutte-ka-kees": {},
+    "dal-bafla": {},
+    "ukadiche-modak": {},
+    "eromba": {
+      "plated": "/images/dishes/eromba-stage-4.webp"
+    },
+    "chak-hao-kheer": {},
+    "dohneiiong": {
+      "ingredients": "/images/dishes/dohneiiong-stage-2.webp"
+    },
+    "pumaloi": {},
+    "mizo-bai": {},
+    "vawksa-rep": {},
+    "galho": {},
+    "zutho": {},
+    "pakhala": {},
+    "amritsari-kulcha": {},
+    "laal-maas": {},
+    "ghewar": {
+      "plated": "/images/dishes/ghewar-stage-4.webp"
+    },
+    "gundruk-soup": {},
+    "sel-roti": {
+      "plated": "/images/dishes/sel-roti-stage-4.webp"
+    },
+    "filter-coffee": {},
+    "hyderabadi-biryani": {},
+    "hyderabadi-haleem": {
+      "ingredients": "/images/dishes/hyderabadi-haleem-stage-2.webp",
+      "method": "/images/dishes/hyderabadi-haleem-stage-3.webp"
+    },
+    "qubani-ka-meetha": {},
+    "mui-borok": {},
+    "awan-bangwi": {},
+    "galouti-kebab": {
+      "plated": "/images/dishes/galouti-kebab-stage-4.webp"
+    },
+    "banarasi-kachori": {},
+    "banarasi-malaiyo": {
+      "origin": "/images/dishes/banarasi-malaiyo-stage-1.webp"
+    },
+    "kafuli": {},
+    "singori": {},
+    "rosogolla": {
+      "plated": "/images/dishes/rosogolla-stage-4.webp"
+    },
+    "delhi-chaat": {},
+    "ladakhi-skyu": {},
+    "gur-gur-cha-khambir": {},
+    "andaman-coconut-prawn": {},
+    "island-crab-masala": {},
+    "pondicherry-fish-curry": {},
+    "koli-kari": {}
   },
   "context": {}
 }

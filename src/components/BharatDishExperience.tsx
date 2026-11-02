@@ -278,7 +278,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
             }`}
           >
             <Layers className="w-3.5 h-3.5 text-amber-500" />
-            <span className="hidden sm:inline">All 66 Dishes</span>
+            <span className="hidden sm:inline">All {getAllDishes().length} Dishes</span>
             <span className="sm:hidden">Dishes</span>
           </button>
 
@@ -929,7 +929,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
         </div>
       )}
 
-      {/* ── ALL 66 DISHES SWITCHER DRAWER ── */}
+      {/* ── ALL DISHES SWITCHER DRAWER ── */}
       {showDishSwitcher && (
         <div
           className={`fixed inset-0 z-50 backdrop-blur-md flex justify-end animate-in fade-in duration-200 ${
@@ -959,7 +959,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                     Signature Culinary Archive
                   </h3>
                   <p className={`text-[11px] ${isLight ? "text-slate-500" : "text-slate-400"}`}>
-                    66 Iconic Dishes across 33 Indian Regions
+                    {getAllDishes().length} Iconic Dishes across 33 Indian Regions
                   </p>
                 </div>
               </div>

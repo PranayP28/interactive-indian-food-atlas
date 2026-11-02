@@ -210,7 +210,12 @@ export function photoPrimaryUrl(photo: Photograph, width: number): string {
  * is never used to fill a stage. Stages without a photograph chosen for that
  * dish stay unresolved and the UI says so.
  */
-function stagePhoto(stage: RawStage, defaultLabel: string): Photograph | null {
+function stagePhoto(
+  stage: RawStage,
+  defaultLabel: string,
+  dishId: string,
+  stageKey: "origin" | "ingredients" | "method",
+): Photograph | null {
   if (!stage) return null;
   if ("photo" in stage) {
     const photo = stage.photo;
@@ -227,7 +232,9 @@ function stagePhoto(stage: RawStage, defaultLabel: string): Photograph | null {
       alt: photo.alt ?? photo.title,
       caption: stage.caption ?? photo.caption ?? "",
       label: stage.label ?? defaultLabel,
-      local: null,
+      // Stage I–III photographs are mirrored locally too; older builds left
+      // these at null and forced a hotlink even when a WebP file existed.
+      local: LOCAL.dishes[dishId]?.[stageKey] ?? null,
     };
   }
   return null;
@@ -265,9 +272,9 @@ export function getDishPhotography(dishId: string): DishPhotography | null {
     : null;
 
   return {
-    origin: stagePhoto(record.origin, "Regional context"),
-    ingredients: stagePhoto(record.ingredients, "Ingredient reference"),
-    method: stagePhoto(record.method, "Preparation technique"),
+    origin: stagePhoto(record.origin, "Regional context", dishId, "origin"),
+    ingredients: stagePhoto(record.ingredients, "Ingredient reference", dishId, "ingredients"),
+    method: stagePhoto(record.method, "Preparation technique", dishId, "method"),
     plated,
     ingredientItems: record.ingredients?.items ?? [],
   };
@@ -277,12 +284,33 @@ export function hasPlatedPhotograph(dishId: string): boolean {
   return Boolean(DATA.dishes[dishId]?.plated);
 }
 
+/** Live coverage of the four-stage photographic record. */
 export function getPhotographyCoverage() {
   const ids = Object.keys(DATA.dishes);
+  const stageKeys = ["origin", "ingredients", "method", "plated"] as const;
+  let assignments = 0;
+  let localAssignments = 0;
+
+  for (const id of ids) {
+    const record = DATA.dishes[id];
+    for (const key of stageKeys) {
+      const stage = record[key];
+      const explicit = key === "plated" ? Boolean(stage) : Boolean(stage && "photo" in stage);
+      if (!explicit) continue;
+      assignments += 1;
+      if (LOCAL.dishes[id]?.[key]) localAssignments += 1;
+    }
+  }
+
   const photographed = ids.filter((id) => Boolean(DATA.dishes[id].plated));
   const localIds = ids.filter((id) => Boolean(LOCAL.dishes[id]?.plated));
   return {
     total: ids.length,
+    stageCount: stageKeys.length,
+    targetAssignments: ids.length * stageKeys.length,
+    assignments,
+    localAssignments,
+    unresolvedAssignments: ids.length * stageKeys.length - assignments,
     photographed: photographed.length,
     missing: ids.length - photographed.length,
     missingIds: ids.filter((id) => !DATA.dishes[id].plated),
@@ -314,8 +342,12 @@ export function getAllPhotographs(): Photograph[] {
     });
   }
 
-  for (const dish of Object.values(DATA.dishes)) {
-    for (const stage of [dish.origin, dish.ingredients, dish.method]) {
+  for (const [dishId, dish] of Object.entries(DATA.dishes)) {
+    for (const [stageKey, stage] of [
+      ["origin", dish.origin],
+      ["ingredients", dish.ingredients],
+      ["method", dish.method],
+    ] as const) {
       if (stage && "photo" in stage) {
         const photo = stage.photo;
         seen.set(`${photo.src}#${stage.caption ?? ""}`, {
@@ -331,7 +363,7 @@ export function getAllPhotographs(): Photograph[] {
           alt: photo.alt ?? photo.title,
           caption: stage.caption ?? photo.caption ?? "",
           label: stage.label,
-          local: null,
+          local: LOCAL.dishes[dishId]?.[stageKey] ?? null,
         });
       }
     }
@@ -340,7 +372,7 @@ export function getAllPhotographs(): Photograph[] {
         ...dish.plated,
         subject: "dish",
         fallback: dish.plated.fallback ?? null,
-        local: dish.plated.fallback ?? null,
+        local: LOCAL.dishes[dishId]?.plated ?? dish.plated.fallback ?? null,
       });
     }
   }

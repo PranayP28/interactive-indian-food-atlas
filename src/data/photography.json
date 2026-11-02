@@ -613,7 +613,22 @@
         "library": "spice-bowls",
         "caption": "Kadhi Pakora — Prolonged Simmering (Kadhna) to Prevent Curdling."
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Kadhi_Pakora.jpg",
+        "subject": "dish",
+        "title": "haryanvi kadhi pakora contemporary",
+        "creator": "Ams4wiki",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kadhi_Pakora.jpg",
+        "alt": "Kadhi pakora — gram-flour dumplings in a yoghurt curry, Haryana.",
+        "caption": "Kadhi pakora — gram-flour dumplings in a yoghurt curry, Haryana.",
+        "fallback": null,
+        "width": 1488,
+        "height": 1200,
+        "local": "/images/dishes/haryanvi-kadhi-stage-4.webp",
+        "label": "Finished dish"
+      }
     },
     "siddu": {
       "origin": {
@@ -632,8 +647,23 @@
         ]
       },
       "method": {
-        "library": "steam",
-        "caption": "Siddu — Yeast Fermentation & Alpine Herbal Steaming."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Tandoor_%28Oven%29_and_Maktu_%28Siddu_Maker%29_in_Himachal_Pradesh.jpg",
+          "subject": "context",
+          "title": "himachali siddu maktu cooker",
+          "creator": "Rajani Gairshail",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tandoor_(Oven)_and_Maktu_(Siddu_Maker)_in_Himachal_Pradesh.jpg",
+          "alt": "The maktu steamer and tandoor used to cook Himachali siddu.",
+          "caption": "The maktu steamer and tandoor used to cook Himachali siddu.",
+          "fallback": null,
+          "width": 900,
+          "height": 1200,
+          "local": "/images/dishes/siddu-stage-3.webp"
+        },
+        "caption": "The maktu steamer and tandoor used to cook Himachali siddu.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Kullvi_Siddu_%28Himachal_Pradesh%29.jpg",
@@ -691,8 +721,23 @@
         ]
       },
       "method": {
-        "library": "grindstone",
-        "caption": "Dhuska — Wet-Stone Grinding & Rapid Immersion Frying."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Frying_Dhuska_at_Begunkodar.jpg",
+          "subject": "context",
+          "title": "dhuska frying technique begunkodar",
+          "creator": "Sumitsurai",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frying_Dhuska_at_Begunkodar.jpg",
+          "alt": "Dhuska being fried at Begunkodar, Jharkhand.",
+          "caption": "Dhuska being fried at Begunkodar, Jharkhand.",
+          "fallback": null,
+          "width": 900,
+          "height": 1200,
+          "local": "/images/dishes/dhuska-stage-3.webp"
+        },
+        "caption": "Dhuska being fried at Begunkodar, Jharkhand.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Dhuska-Jharkhand.jpg",
@@ -763,22 +808,39 @@
         ]
       },
       "method": {
-        "library": "steam",
-        "caption": "Masala Dosa — Stone-Ground Natural Fermentation & Iron Tawa Crisp-Folding."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Chef_cooking_Mysore_masala_dosa_in_Mysuru%2C_July_2013.jpg",
+          "subject": "context",
+          "title": "karnataka masala dosa mysuru chef preparation modern",
+          "creator": "Sunnya343",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chef_cooking_Mysore_masala_dosa_in_Mysuru,_July_2013.jpg",
+          "alt": "A cook spreading dosa batter on a hot griddle in Mysuru.",
+          "caption": "A cook spreading dosa batter on a hot griddle in Mysuru.",
+          "fallback": null,
+          "width": 1600,
+          "height": 1200,
+          "local": "/images/dishes/masala-dosa-stage-3.webp"
+        },
+        "caption": "A cook spreading dosa batter on a hot griddle in Mysuru.",
+        "label": "Preparation technique"
       },
       "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Mysore_masala_dosa_%282912728481%29.jpg",
         "subject": "dish",
-        "title": "Masala Dosa",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Butter_Masala_Dosa.png",
-        "width": 3264,
-        "height": 2448,
-        "creator": "Sameer.siddhanti",
-        "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butter_Masala_Dosa.png",
-        "alt": "Masala Dosa — Karnataka",
-        "caption": "Butter masala dosa with coconut chutney and sambar.",
-        "fallback": null
+        "title": "karnataka mysore masala dosa finished dish",
+        "creator": "Mike Linksvayer",
+        "licence": "CC0 / Public domain",
+        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mysore_masala_dosa_(2912728481).jpg",
+        "alt": "Mysore masala dosa served with chutneys.",
+        "caption": "Mysore masala dosa served with chutneys.",
+        "fallback": null,
+        "width": 1600,
+        "height": 1200,
+        "local": "/images/dishes/masala-dosa-stage-4.webp",
+        "label": "Finished dish"
       }
     },
     "bisi-bele-bath": {
@@ -876,18 +938,20 @@
         "caption": "Kerala Fish Molee — Delicate Fish Poach in Layered Coconut Milk Presses."
       },
       "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Fish_Moilee.jpg",
         "subject": "dish",
-        "title": "Kerala Fish Molee",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Fish_Moilee_Kerala_Style_%28aka_KeralaFish_Molly%29.JPG",
-        "width": 5152,
-        "height": 3864,
-        "creator": "Drsoumyadeepb",
+        "title": "kerala fish molee contemporary finished dish",
+        "creator": "Paulbertthomas",
         "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Moilee_Kerala_Style_(aka_KeralaFish_Molly).JPG",
-        "alt": "Kerala Fish Molee — Kerala",
-        "caption": "Fish moilee — Kerala fish simmered in coconut milk.",
-        "fallback": null
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Moilee.jpg",
+        "alt": "Kerala fish molee — fish in a coconut-milk curry.",
+        "caption": "Kerala fish molee — fish in a coconut-milk curry.",
+        "fallback": null,
+        "width": 900,
+        "height": 1200,
+        "local": "/images/dishes/fish-molee-stage-4.webp",
+        "label": "Finished dish"
       }
     },
     "indori-poha": {
@@ -896,8 +960,23 @@
         "caption": "Madhya Pradesh — the regional kitchen where Indori Poha belongs."
       },
       "ingredients": {
-        "library": "spice-bowls",
-        "caption": "Ingredients for Indori Poha: thick flattened rice, fennel seeds, mustard seeds, ratlami sev.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Poha.jpg",
+          "subject": "context",
+          "title": "pressed rice flakes poha",
+          "creator": "Sanjay Acharya (Sanjay ach)",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poha.jpg",
+          "alt": "Flattened rice (poha) — the principal ingredient of Indori poha.",
+          "caption": "Flattened rice (poha) — the principal ingredient of Indori poha.",
+          "fallback": null,
+          "width": 1024,
+          "height": 683,
+          "local": "/images/dishes/indori-poha-stage-2.webp"
+        },
+        "caption": "Flattened rice (poha) — the principal ingredient of Indori poha.",
+        "label": "Ingredient reference",
         "items": [
           "Thick flattened rice",
           "Fennel seeds",
@@ -955,8 +1034,23 @@
         "caption": "Maharashtra — the regional kitchen where Vada Pav belongs."
       },
       "ingredients": {
-        "library": "spice-bowls",
-        "caption": "Ingredients for Vada Pav: potatoes, besan (gram flour), mustard seeds, garlic.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Batata_Vada_ready_to_Dip_and_Fry.JPG",
+          "subject": "context",
+          "title": "maharashtra vada pav batata before batter modern",
+          "creator": "Miansari66",
+          "licence": "CC0 / Public domain",
+          "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batata_Vada_ready_to_Dip_and_Fry.JPG",
+          "alt": "Spiced potato mixture portioned before the gram-flour batter — the filling of vada pav.",
+          "caption": "Spiced potato mixture portioned before the gram-flour batter — the filling of vada pav.",
+          "fallback": null,
+          "width": 1600,
+          "height": 1200,
+          "local": "/images/dishes/vada-pav-stage-2.webp"
+        },
+        "caption": "Spiced potato mixture portioned before the gram-flour batter — the filling of vada pav.",
+        "label": "Ingredient reference",
         "items": [
           "Potatoes",
           "Besan (Gram flour)",
@@ -968,8 +1062,23 @@
         ]
       },
       "method": {
-        "library": "grindstone",
-        "caption": "Vada Pav — Tempered Potato Mash & Precision Deep Frying."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Batada_Vada_preparation_in_Mumbai.jpg",
+          "subject": "context",
+          "title": "maharashtra vada pav batada vada frying modern",
+          "creator": "SnapMeUp",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batada_Vada_preparation_in_Mumbai.jpg",
+          "alt": "Batata vada being deep-fried for vada pav in Mumbai.",
+          "caption": "Batata vada being deep-fried for vada pav in Mumbai.",
+          "fallback": null,
+          "width": 1600,
+          "height": 1141,
+          "local": "/images/dishes/vada-pav-stage-3.webp"
+        },
+        "caption": "Batata vada being deep-fried for vada pav in Mumbai.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Maharashtrian_Vada_Pav.JPG",
@@ -1043,18 +1152,20 @@
         "caption": "Eromba — Dry Earthen Pot Roasting of Ngari & Hand Mashing."
       },
       "plated": {
-        "subject": "dish",
-        "title": "Eromba",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yongchaak_eromba_%282%29.jpg",
-        "width": 2048,
-        "height": 1542,
+        "subject": "dish",
+        "title": "eromba contemporary yongchaak finished dish",
         "creator": "Punshiba18",
         "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yongchaak_eromba_(2).jpg",
-        "alt": "Eromba — Manipur",
-        "caption": "Eromba — Manipuri mashed vegetable stew with fermented fish.",
-        "fallback": null
+        "alt": "Yongchaak eromba — Manipuri mashed vegetables with fermented fish.",
+        "caption": "Yongchaak eromba — Manipuri mashed vegetables with fermented fish.",
+        "fallback": null,
+        "width": 1594,
+        "height": 1200,
+        "local": "/images/dishes/eromba-stage-4.webp",
+        "label": "Finished dish"
       }
     },
     "singju": {
@@ -1135,8 +1246,23 @@
         "caption": "Meghalaya — the regional kitchen where Dohneiiong belongs."
       },
       "ingredients": {
-        "library": "spice-palette",
-        "caption": "Ingredients for Dohneiiong: pork, black sesame seeds (neiiong), garlic, ginger.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Black_sesame.jpg",
+          "subject": "context",
+          "title": "dohneiiong black sesame ingredient",
+          "creator": "국립국어원",
+          "licence": "CC BY-SA 2.0 KR",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_sesame.jpg",
+          "alt": "Black sesame seeds — the defining ingredient of Meghalaya's Dohneiiong.",
+          "caption": "Black sesame seeds — the defining ingredient of Meghalaya's Dohneiiong.",
+          "fallback": null,
+          "width": 1600,
+          "height": 1067,
+          "local": "/images/dishes/dohneiiong-stage-2.webp"
+        },
+        "caption": "Black sesame seeds — the defining ingredient of Meghalaya's Dohneiiong.",
+        "label": "Ingredient reference",
         "items": [
           "Pork",
           "Black sesame seeds (Neiiong)",
@@ -1687,8 +1813,23 @@
         "caption": "Telangana — the regional kitchen where Hyderabadi Haleem belongs."
       },
       "ingredients": {
-        "library": "spice-palette",
-        "caption": "Ingredients for Hyderabadi Haleem: whole wheat, mutton, chana dal & moong dal, pure desi ghee.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Haleem_Dalls_and_Grains.JPG",
+          "subject": "context",
+          "title": "hyderabadi haleem haleem grains and pulses",
+          "creator": "Miansari66",
+          "licence": "CC0 / Public domain",
+          "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleem_Dalls_and_Grains.JPG",
+          "alt": "Wheat, barley and mixed pulses used in Hyderabadi haleem.",
+          "caption": "Wheat, barley and mixed pulses used in Hyderabadi haleem.",
+          "fallback": null,
+          "width": 1600,
+          "height": 1200,
+          "local": "/images/dishes/hyderabadi-haleem-stage-2.webp"
+        },
+        "caption": "Wheat, barley and mixed pulses used in Hyderabadi haleem.",
+        "label": "Ingredient reference",
         "items": [
           "Whole wheat",
           "Mutton",
@@ -1700,8 +1841,23 @@
         ]
       },
       "method": {
-        "library": "grindstone",
-        "caption": "Hyderabadi Haleem — 12-Hour Degchi Simmer & Wooden Mallet Pounding."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/66/Hyderabadi_haleem_making.jpg",
+          "subject": "context",
+          "title": "hyderabadi haleem haleem cauldrons firewood cooking",
+          "creator": "Rajesh India",
+          "licence": "CC BY-SA 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyderabadi_haleem_making.jpg",
+          "alt": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
+          "caption": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
+          "fallback": null,
+          "width": 515,
+          "height": 759,
+          "local": "/images/dishes/hyderabadi-haleem-stage-3.webp"
+        },
+        "caption": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
+        "label": "Preparation technique"
       },
       "plated": null
     },
@@ -1784,7 +1940,22 @@
         "library": "kebab-griddle",
         "caption": "Awadhi Galouti Kebab — Multiple Sil-Batta Grindings, Smoke Infusion (Dhungar) & Mahi Tawa Griddling."
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Galouti_kabab_at_Hons_All-Day_Dining,_Le_Press,_Hazratganj,_Lucknow_%282025-08-03%29.jpg",
+        "subject": "dish",
+        "title": "awadhi galouti kebab lucknow contemporary",
+        "creator": "Contrapunctus-1",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galouti_kabab_at_Hons_All-Day_Dining,_Le_Press,_Hazratganj,_Lucknow_(2025-08-03).jpg",
+        "alt": "Galouti kebab served at a Lucknow restaurant.",
+        "caption": "Galouti kebab served at a Lucknow restaurant.",
+        "fallback": null,
+        "width": 1600,
+        "height": 1200,
+        "local": "/images/dishes/galouti-kebab-stage-4.webp",
+        "label": "Finished dish"
+      }
     },
     "banarasi-kachori": {
       "origin": {
@@ -2539,6 +2710,555 @@
         "fallback": null,
         "width": 3328,
         "height": 1872
+      }
+    },
+    "pulihora": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Cooked rice",
+          "Tamarind pulp",
+          "Peanuts",
+          "Bengal gram",
+          "Curry leaves",
+          "Dried red chillies",
+          "Mustard seeds",
+          "Turmeric"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/PULIHORA.JPG",
+        "subject": "dish",
+        "title": "Pulihora (tamarind rice)",
+        "creator": "Manohar Andaluri",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PULIHORA.JPG",
+        "alt": "Pulihora, tamarind rice, on a plate",
+        "caption": "Pulihora — Andhra tamarind rice with peanuts and curry-leaf tempering.",
+        "fallback": null,
+        "width": 640,
+        "height": 480,
+        "local": "/images/dishes/pulihora-stage-4.webp",
+        "label": "Finished dish"
+      }
+    },
+    "apong": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Rice",
+          "Fermentation starter (apop/epo)",
+          "Water",
+          "Local herbs"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "til-pitha": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Glutinous rice flour",
+          "Black sesame seeds",
+          "Jaggery",
+          "Water"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Til_Pitha_-_Assamese_Ricecake.jpg",
+        "subject": "dish",
+        "title": "Til Pitha - Assamese Ricecake",
+        "creator": "দিব্য দত্ত (Dibya Dutta)",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Til_Pitha_-_Assamese_Ricecake.jpg",
+        "alt": "Til pitha, sesame-filled Assamese rice crepes",
+        "caption": "Til pitha — toasted sesame and jaggery rolled in a rice-flour crepe, Assam.",
+        "fallback": null,
+        "width": 4160,
+        "height": 3120,
+        "local": "/images/dishes/til-pitha-stage-4.webp",
+        "label": "Finished dish"
+      }
+    },
+    "silao-khaja": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Wheat flour",
+          "Ghee",
+          "Sugar",
+          "Water",
+          "Cardamom"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "bafauri": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Gram flour (besan)",
+          "Green chilli",
+          "Ginger",
+          "Mustard seeds",
+          "Curry leaves",
+          "Turmeric",
+          "Salt"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "bebinca": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Coconut milk",
+          "Egg yolks",
+          "Wheat flour",
+          "Sugar",
+          "Ghee",
+          "Nutmeg"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Bebinca_with_Ice_Cream_-_Martin%27s_Corner_-_Goa_-_01.jpg",
+        "subject": "dish",
+        "title": "Bebinca with Ice Cream - Martin's Corner - Goa - 01",
+        "creator": "Krrisd",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bebinca_with_Ice_Cream_-_Martin%27s_Corner_-_Goa_-_01.jpg",
+        "alt": "Bebinca layered cake served with ice cream in Goa",
+        "caption": "Bebinca, the layered Goan coconut-milk cake, served with ice cream at Martin's Corner, Betalbatim.",
+        "fallback": null,
+        "width": 4032,
+        "height": 3024,
+        "local": "/images/dishes/bebinca-stage-4.webp",
+        "label": "Finished dish"
+      }
+    },
+    "handvo": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Rice",
+          "Split pulses (tur, chana, urad)",
+          "Bottle gourd",
+          "Curd",
+          "Mustard seeds",
+          "Sesame",
+          "Turmeric"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/Handvo_%28Gujarati_savory_cake%29.JPG",
+        "subject": "dish",
+        "title": "Handvo (Gujarati savory cake)",
+        "creator": "Deboli Dutta",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handvo_(Gujarati_savory_cake).JPG",
+        "alt": "Handvo, Gujarati savoury lentil and rice cake",
+        "caption": "Handvo — Gujarati savoury cake made from lentils and rice, cut into squares.",
+        "fallback": null,
+        "width": 1936,
+        "height": 1936,
+        "local": "/images/dishes/handvo-stage-4.webp",
+        "label": "Finished dish"
+      }
+    },
+    "haryanvi-churma": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Whole-wheat flour",
+          "Desi ghee",
+          "Jaggery or sugar",
+          "Bajra",
+          "Milk"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Churma.JPG",
+        "subject": "dish",
+        "title": "Churma",
+        "creator": "Ravinder Narwal",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Churma.JPG",
+        "alt": "Churma, crumbled wheat roti bound with ghee and sugar",
+        "caption": "Churma — crumbled hearth-baked wheat roti bound with ghee and sugar, Haryana.",
+        "fallback": null,
+        "width": 4608,
+        "height": 3456,
+        "local": "/images/dishes/haryanvi-churma-stage-4.webp",
+        "label": "Finished dish"
+      }
+    },
+    "chana-madra": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Chickpeas",
+          "Curd (yoghurt)",
+          "Gram flour",
+          "Ghee",
+          "Cumin",
+          "Asafoetida",
+          "Turmeric"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "pittha": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Rice flour",
+          "Jaggery",
+          "Sesame seeds",
+          "Water",
+          "Salt"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "mysore-pak": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Gram flour (besan)",
+          "Sugar",
+          "Ghee",
+          "Water",
+          "Cardamom"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Mysore_Pak.jpg",
+        "subject": "dish",
+        "title": "Mysore Pak",
+        "creator": "Sudiptorana",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mysore_Pak.jpg",
+        "alt": "Mysore pak, gram-flour and ghee fudge cut into squares",
+        "caption": "Mysore pak — gram-flour and ghee fudge cut into squares, photographed at Rao's Udipi Home.",
+        "fallback": null,
+        "width": 1600,
+        "height": 1052,
+        "local": "/images/dishes/mysore-pak-stage-4.webp",
+        "label": "Finished dish"
+      }
+    },
+    "dal-bafla": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Whole-wheat flour",
+          "Ghee",
+          "Mixed pulses",
+          "Cumin",
+          "Asafoetida",
+          "Turmeric"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "chak-hao-kheer": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Chak-Hao black rice",
+          "Milk",
+          "Jaggery or sugar",
+          "Cardamom",
+          "Cashew nuts"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "pumaloi": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Rice",
+          "Water",
+          "Salt"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "vawksa-rep": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Pork",
+          "Bamboo shoot",
+          "Ginger",
+          "Garlic",
+          "Green chilli",
+          "Local herbs",
+          "Salt"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "zutho": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Rice",
+          "Sprouted rice starter",
+          "Water"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "pakhala": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Cooked rice",
+          "Water",
+          "Curd",
+          "Green chilli",
+          "Ginger",
+          "Curry leaves",
+          "Salt"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "ghewar": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Refined flour",
+          "Ghee",
+          "Milk",
+          "Sugar",
+          "Cardamom",
+          "Rabri (optional)"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/GhevarRajasthaniSweet.jpg",
+        "subject": "dish",
+        "title": "Ghevar Rajasthani Sweet",
+        "creator": "Onef9day",
+        "licence": "CC BY 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GhevarRajasthaniSweet.jpg",
+        "alt": "Ghewar, honeycombed Rajasthani disc sweet",
+        "caption": "Ghewar — the honeycombed Rajasthani disc sweet traditionally made for Teej.",
+        "fallback": null,
+        "width": 1161,
+        "height": 1087,
+        "local": "/images/dishes/ghewar-stage-4.webp",
+        "label": "Finished dish"
+      }
+    },
+    "sel-roti": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Rice flour",
+          "Wheat flour",
+          "Banana",
+          "Sugar",
+          "Milk",
+          "Ghee",
+          "Cardamom"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sel_Roti.jpg",
+        "subject": "dish",
+        "title": "Sel Roti",
+        "creator": "Swapnil Acharya",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sel_Roti.jpg",
+        "alt": "Sel roti, ring-shaped Nepali rice bread",
+        "caption": "Sel roti — ring-shaped rice-flour bread made for Tihar and Dashain.",
+        "fallback": null,
+        "width": 1000,
+        "height": 750,
+        "local": "/images/dishes/sel-roti-stage-4.webp",
+        "label": "Finished dish"
+      }
+    },
+    "qubani-ka-meetha": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Dried apricots",
+          "Sugar",
+          "Water",
+          "Cardamom",
+          "Cream or custard"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "awan-bangwi": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Glutinous rice",
+          "Jaggery",
+          "Grated coconut",
+          "Banana leaf",
+          "Sesame"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "banarasi-malaiyo": {
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Malaiyo_Pehalwaan_lassi_in_front_of_ravidas_gate_LANKA._Varanasi_Uttar_Pradesh.jpg",
+          "subject": "context",
+          "title": "Malaiyo vendor's stall, Lanka, Varanasi",
+          "creator": "Rinchin1",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malaiyo_Pehalwaan_lassi_in_front_of_ravidas_gate_LANKA._Varanasi_Uttar_Pradesh.jpg",
+          "alt": "A Varanasi street vendor's stall near Ravidas Gate, Lanka",
+          "caption": "A Varanasi street-food stall near Ravidas Gate, Lanka — the winter malaiyo trade. Regional food culture, not a photograph of the dish itself, and not evidence of its origin.",
+          "fallback": null,
+          "width": 3456,
+          "height": 4608,
+          "local": "/images/dishes/banarasi-malaiyo-stage-1.webp"
+        },
+        "caption": "A Varanasi street-food stall near Ravidas Gate, Lanka — the winter malaiyo trade. Regional food culture, not a photograph of the dish itself, and not evidence of its origin.",
+        "label": "Regional context"
+      },
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Full-fat milk",
+          "Fresh cream (malai)",
+          "Sugar",
+          "Saffron",
+          "Pistachio",
+          "Cardamom"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "singori": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Khoya (reduced milk)",
+          "Sugar",
+          "Grated coconut",
+          "Cardamom",
+          "Malu leaf wrapper"
+        ]
+      },
+      "method": null,
+      "plated": null
+    },
+    "rosogolla": {
+      "origin": null,
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Fresh chhena (curdled milk solids)",
+          "Sugar",
+          "Water",
+          "Cardamom or rose water"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Rasgulla_With_Rabdi.jpg",
+        "subject": "dish",
+        "title": "Rasgulla With Rabdi",
+        "creator": "Prakrutim",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rasgulla_With_Rabdi.jpg",
+        "alt": "Rosogolla served with rabdi, saffron and rose petals",
+        "caption": "Rosogolla with rabdi, saffron and rose — a festive Bengali presentation of the chhena sweet.",
+        "fallback": null,
+        "width": 3114,
+        "height": 1900,
+        "local": "/images/dishes/rosogolla-stage-4.webp",
+        "label": "Finished dish"
       }
     }
   }

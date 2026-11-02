@@ -1,14 +1,21 @@
 import React from "react";
-import { BadgeCheck, Camera, ExternalLink, Leaf, ShieldCheck } from "lucide-react";
+import { BadgeCheck, BookOpen, Camera, ExternalLink, Leaf, ShieldCheck } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext";
 import type { Dish } from "../../data/foodData";
 import {
   getDishPhotography,
+  getPhotographyCoverage,
   hasPlatedPhotograph,
   photoPrimaryUrl,
   PHOTOGRAPHY_VERIFIED_ON,
   type Photograph,
 } from "../../data/photography";
+import {
+  BIBLIOGRAPHY,
+  getDishStageHistory,
+  getStageCitations,
+  type DishStage,
+} from "../../data/dishStages";
 import { PhotoFrame } from "./PhotoFrame";
 
 interface DishPhotoEssayProps {
@@ -54,13 +61,40 @@ const CreditLink: React.FC<{ photo: Photograph; isLight: boolean }> = ({ photo, 
   </a>
 );
 
+const CitationList: React.FC<{ stage: DishStage; isLight: boolean }> = ({ stage, isLight }) => (
+  <ul className="mt-2 space-y-1">
+    {getStageCitations(stage).map((entry) => (
+      <li key={entry.id} className="leading-relaxed">
+        <span className={isLight ? "text-slate-700" : "text-slate-300"}>
+          {entry.author}, <em>{entry.title}</em>
+          {entry.year ? ` (${entry.year})` : ""}
+        </span>
+        {entry.url && (
+          <>
+            {" · "}
+            <a href={entry.url} target="_blank" rel="noreferrer noopener" className="underline decoration-dotted underline-offset-2">
+              source
+            </a>
+          </>
+        )}
+      </li>
+    ))}
+  </ul>
+);
+
 export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName }) => {
   const { isLight } = useTheme();
   const photography = getDishPhotography(dish.id);
+  const history = getDishStageHistory(dish.id);
   if (!photography) return null;
 
   const { origin, ingredients, method, plated, ingredientItems } = photography;
   const photographed = hasPlatedPhotograph(dish.id);
+  const coverage = getPhotographyCoverage();
+  const verifiedStages = [plated, origin, ingredients, method].filter(Boolean).length;
+  const stagesByKey: Partial<Record<string, DishStage>> = Object.fromEntries(
+    (history?.stages ?? []).map((stage) => [stage.key, stage]),
+  );
 
   const surface = isLight
     ? "border-amber-900/15 bg-[#faf7f2]"
@@ -114,7 +148,7 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
             <ShieldCheck className="h-4 w-4 shrink-0" />
             <span className="leading-tight">
               <span className="block font-semibold">
-                {photographed ? "Dish photograph verified" : "No verified dish photograph"}
+                {verifiedStages} of 4 stages photographed{photographed ? " · dish verified" : ""}
               </span>
               <span className="opacity-75">Licences checked {PHOTOGRAPHY_VERIFIED_ON}</span>
             </span>
@@ -158,8 +192,13 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
               </div>
 
               <p className={`mt-3 text-[12.5px] leading-relaxed ${soft}`}>
-                {dish.description}
+                {stagesByKey.plated?.narrative ?? dish.description}
               </p>
+              {stagesByKey.plated && (
+                <p className={`mt-2 text-[11px] leading-relaxed ${soft} opacity-80`}>
+                  {stagesByKey.plated.evidenceNote}
+                </p>
+              )}
 
               <dl className={`mt-4 space-y-2 border-t pt-4 text-[11px] ${hairline}`}>
                 <div className="flex items-baseline justify-between gap-3">
@@ -203,6 +242,9 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
                   caption={caption}
                 />
                 <div className="px-1">
+                  <p className={`text-[9px] font-semibold uppercase tracking-[0.18em] ${soft}`}>
+                    Stage {act.numeral} · {stagesByKey[act.key]?.photoLabel ?? "Unresolved"}
+                  </p>
                   <div className="flex items-baseline gap-2">
                     <span className={`font-cormorant text-2xl leading-none ${isLight ? "text-amber-800" : "text-amber-400"}`}>
                       {act.numeral}
@@ -210,10 +252,14 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
                     <h3 className={`font-cormorant text-xl ${ink}`}>{act.title}</h3>
                   </div>
                   <p className={`mt-1.5 text-[12px] leading-relaxed ${soft}`}>
-                    {photo
-                      ? act.blurb
-                      : `No photograph for this stage of ${dish.name} has been verified yet. The frame stays empty rather than showing a photograph of another dish or a generic kitchen.`}
+                    {stagesByKey[act.key]?.narrative ?? act.blurb}
                   </p>
+                  {!photo && (
+                    <p className={`mt-2 text-[11px] leading-relaxed ${soft} opacity-80`}>
+                      Photograph unresolved — no verified, dish-appropriate photograph for this stage yet. The frame
+                      stays empty rather than showing an unrelated dish or a generic kitchen.
+                    </p>
+                  )}
 
                   {act.key === "ingredients" && ingredientItems.length > 0 && (
                     <ul className="mt-3 flex flex-wrap gap-1.5">
@@ -243,6 +289,60 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
             );
           })}
         </div>
+
+        {/* ── Researched historical record & citations ──────────────── */}
+        {history && (
+          <details
+            className={`group mt-8 rounded-2xl border px-4 py-3 text-[11px] sm:px-5 ${
+              isLight ? "border-amber-900/15 bg-white/60" : "border-amber-900/25 bg-black/25"
+            }`}
+          >
+            <summary className={`flex cursor-pointer list-none items-center gap-2 font-semibold uppercase tracking-[0.16em] ${soft}`}>
+              <BookOpen className="h-3.5 w-3.5 text-amber-500" />
+              The four-stage historical record &amp; sources
+              <span className="ml-auto normal-case tracking-normal opacity-70">
+                {history.stageCount} stages · confidence: {history.confidence.replace("-", " ")}
+              </span>
+            </summary>
+            <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
+              {history.stages.map((stage) => (
+                <article key={stage.key} className={`rounded-xl border p-4 ${hairline}`}>
+                  <div className="flex items-baseline gap-2">
+                    <span className={`text-[9px] font-semibold uppercase tracking-[0.16em] ${soft}`}>Stage {stage.numeral}</span>
+                    <h4 className={`font-cormorant text-lg ${ink}`}>{stage.title}</h4>
+                    <span className={`ml-auto text-[9px] uppercase tracking-[0.14em] ${soft}`}>{stage.era}</span>
+                  </div>
+                  <h5 className={`mt-2 text-[12px] font-semibold ${ink}`}>{stage.headline}</h5>
+                  <ul className={`mt-2 space-y-1 ${soft}`}>
+                    {stage.details.map((detail, index) => (
+                      <li key={index} className="flex gap-2 leading-relaxed">
+                        <span className="text-amber-500">·</span>
+                        <span>{detail}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className={`mt-3 border-t pt-2 text-[10.5px] leading-relaxed ${hairline} ${soft}`}>
+                    {stage.evidenceNote}
+                  </p>
+                  <div className={`mt-2 text-[10.5px] ${soft}`}>
+                    <span className={`font-semibold uppercase tracking-[0.14em] ${ink}`}>Sources</span>
+                    <CitationList stage={stage} isLight={isLight} />
+                  </div>
+                </article>
+              ))}
+            </div>
+            <p className={`mt-4 leading-relaxed ${soft}`}>
+              Historical statements are limited to what the cited written sources support; where a dish has no securely
+              dated first written reference, none is claimed. A photograph of a region, an ingredient, a technique or a
+              plated dish illustrates the present day — it is never treated as evidence of an ancient date. Full
+              bibliography: {BIBLIOGRAPHY.length} sources, listed in{" "}
+              <a href="https://github.com/kondaashwitha77-sudo/interactive-indian-food-atlas" target="_blank" rel="noreferrer noopener" className="underline decoration-dotted underline-offset-2">
+                the project documentation
+              </a>
+              .
+            </p>
+          </details>
+        )}
 
         {/* ── Credits & licence ledger ────────────────────────────── */}
         <details
@@ -277,9 +377,15 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
             })}
           </ul>
           <p className={`mt-3 leading-relaxed ${soft}`}>
-            Photographs are served from Wikimedia Commons and may be colour-corrected and cropped by this site under
-            the terms of their licence; no content has been added, removed or generated. Photographer credit and the
-            licence link must travel with every image reuse.
+            Photographs are genuine, camera-captured Wikimedia Commons files, hosted locally where an archive copy
+            exists and hotlinked otherwise. They may be colour-corrected and cropped by this site under the terms of
+            their licence; no content has been added, removed or generated. Photographer credit and the licence link
+            must travel with every image reuse.
+          </p>
+          <p className={`mt-2 leading-relaxed ${soft}`}>
+            Atlas-wide photographic status: {coverage.assignments} of {coverage.targetAssignments} stage photographs
+            verified across {coverage.total} dishes; {coverage.localAssignments} of those are self-hosted. Unverified
+            stages remain explicitly unresolved.
           </p>
         </details>
       </div>
