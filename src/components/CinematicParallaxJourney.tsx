@@ -31,6 +31,8 @@ export interface CinematicOutro {
 interface CinematicParallaxJourneyProps {
   stages: CinematicStage[];
   label?: string;
+  /** Honest provenance line shown beside the label. */
+  note?: string;
   /** Giant outlined word that slides behind every stage. */
   backdropText?: string;
   /** Closing hero card shown after the final stage. */
@@ -92,6 +94,7 @@ const Words: React.FC<{ text: string; attr: string }> = ({ text, attr }) => (
 export const CinematicParallaxJourney: React.FC<CinematicParallaxJourneyProps> = ({
   stages,
   label = "Cinematic Journey",
+  note,
   backdropText,
   outro,
   pinOffset = 64,
@@ -591,6 +594,9 @@ export const CinematicParallaxJourney: React.FC<CinematicParallaxJourneyProps> =
           <span className={`inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.2em] ${accentColor}`}>
             <Sparkles className="w-3 h-3" />
             {label}
+            {note && (
+              <span className="hidden sm:inline font-medium normal-case tracking-normal opacity-55">· {note}</span>
+            )}
           </span>
           <span className={`font-cinzel text-xs sm:text-sm font-bold tabular-nums ${headingColor}`} aria-live="polite">
             {pad2(activeIdx + 1)} <span className="opacity-50">/ {pad2(stageCount)}</span>

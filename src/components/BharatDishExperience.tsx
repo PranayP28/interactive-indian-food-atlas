@@ -33,6 +33,7 @@ import { Dish3DCanvas } from "./Dish3DCanvas";
 import { GsapMotionPathTimeline } from "./GsapMotionPathTimeline";
 import { useTheme } from "../context/ThemeContext";
 import { ThemeToggle } from "./ui/ThemeToggle";
+import { DishPhotoEssay } from "./photography/DishPhotoEssay";
 
 interface BharatDishExperienceProps {
   dishId: string;
@@ -341,6 +342,9 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
           <span>Direct link copied to clipboard!</span>
         </div>
       )}
+
+      {/* ── THE PHOTOGRAPHIC RECORD: FOUR ACTS, REAL PHOTOGRAPHY ONLY ── */}
+      <DishPhotoEssay dish={currentDish} stateName={stateName} />
 
       {/* ── VIEW 1: GSAP MOTIONPATH WAYPOINTS WITH GENERATION RECIPES & SKIPER6 ── */}
       {activeTab === "motionpath" && (

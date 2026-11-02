@@ -28,6 +28,7 @@ import {
 } from "./data/foodData";
 import { useTheme } from "./context/ThemeContext";
 import { ThemeToggle } from "./components/ui/ThemeToggle";
+import { DishThumb } from "./components/photography/DishThumb";
 
 export default function App() {
   const { isLight } = useTheme();
@@ -635,6 +636,9 @@ export default function App() {
                           : "bg-slate-850/90 hover:bg-slate-800 border-slate-750 hover:border-amber-400 text-slate-100"
                       }`}
                     >
+                      {/* Dish photograph (only ever a verified, credited photo) */}
+                      <DishThumb dishId={dish.id} className="mb-3" />
+
                       {/* Top Pilot Badge */}
                       {dish.hasPilot3D && (
                         <div className="absolute top-0 right-0 bg-gradient-to-l from-amber-500 to-orange-600 text-slate-950 font-black text-[9px] px-3 py-0.5 rounded-bl-xl shadow-md uppercase tracking-wider">

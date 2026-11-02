@@ -203,6 +203,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           key={dishId}
           stages={cinematicStages}
           label={`${dishName} · Through the Ages`}
+          note="era imagery: documentary photographs of Indian kitchen craft"
           backdropText={dishName}
           outro={cinematicOutro}
         />

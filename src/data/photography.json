@@ -1,0 +1,2183 @@
+{
+  "schemaVersion": 2,
+  "verifiedOn": "2026-11-02",
+  "policy": "Real photographs only. Every image is an unmodified (colour-corrected only) photograph by a named photographer, sourced from Wikimedia Commons at a licence that permits reuse. No AI-generated or synthetic imagery is used anywhere in this atlas. Library photographs are documentary context images and are always labelled as such; they are never presented as a photograph of a specific dish.",
+  "library": {
+    "spice-street": {
+      "title": "Spice market, India",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Spice_market-India.jpg",
+      "w": 3008,
+      "h": 2000,
+      "creator": "Marc Shandro",
+      "licence": "CC BY 2.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spice_market-India.jpg",
+      "caption": "A spice market in India — the trade that stocked every regional kitchen."
+    },
+    "spice-market": {
+      "title": "Indian spice store",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Indian_spice_store_2348.JPG",
+      "w": 3072,
+      "h": 2304,
+      "creator": "Ganeshk",
+      "licence": "CC BY 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_spice_store_2348.JPG",
+      "caption": "Sacks of whole and ground spices at an Indian spice store."
+    },
+    "spice-bowls": {
+      "title": "Spices in an Indian kitchen",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Indian_spice_store_2345.JPG",
+      "w": 3072,
+      "h": 2304,
+      "creator": "Ganeshk",
+      "licence": "CC BY 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_spice_store_2345.JPG",
+      "caption": "Colour-sorted spice powders, as they are sold across India."
+    },
+    "spice-palette": {
+      "title": "Indian spices",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Indian_Spices_Cropped.jpg",
+      "w": 1132,
+      "h": 674,
+      "creator": "Joe mon bkk",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Spices_Cropped.jpg",
+      "caption": "Whole and ground spices used in Indian cooking."
+    },
+    "grindstone": {
+      "title": "Masala on a grinding stone",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Masala_in_a_grinding_stone.jpg",
+      "w": 1000,
+      "h": 1000,
+      "creator": "Nimishsdll",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masala_in_a_grinding_stone.jpg",
+      "caption": "Masala being ground on a traditional stone grinder."
+    },
+    "tandoor": {
+      "title": "Naan inside a tandoor",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Naan_Flatbread_inside_Tandoor_03.jpg",
+      "w": 4000,
+      "h": 3000,
+      "creator": "Ravi Dwivedi",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naan_Flatbread_inside_Tandoor_03.jpg",
+      "caption": "Flatbread being baked against the wall of a clay tandoor."
+    },
+    "steam": {
+      "title": "Idli in a steamer",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Idly_in_Steamer.jpg",
+      "w": 1116,
+      "h": 960,
+      "creator": "Sushant savla",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idly_in_Steamer.jpg",
+      "caption": "Idli steaming in a traditional stacked steamer."
+    },
+    "banana-leaf": {
+      "title": "Traditional Kerala meal",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Traditional_Kerala_Meal.jpg",
+      "w": 2560,
+      "h": 1920,
+      "creator": "Nita Abbey",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traditional_Kerala_Meal.jpg",
+      "caption": "A traditional Kerala meal served on a banana leaf."
+    },
+    "kebab-griddle": {
+      "title": "Galouti kebabs on the griddle",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Galouti_Kebab.jpg",
+      "w": 3120,
+      "h": 4160,
+      "creator": "Visheshvik",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galouti_Kebab.jpg",
+      "caption": "Galouti kebabs searing on a wide Lucknowi griddle."
+    }
+  },
+  "dishes": {
+    "pesarattu": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Andhra Pradesh — the regional kitchen where Pesarattu belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Pesarattu: green moong dal, rice, ginger, green chillies.",
+        "items": [
+          "Green moong dal",
+          "Rice",
+          "Ginger",
+          "Green chillies",
+          "Onion",
+          "Cumin"
+        ]
+      },
+      "method": {
+        "library": "steam",
+        "caption": "Pesarattu — Stone-Ground Unfermented Batter & Cast Iron Tawa Roasting."
+      },
+      "plated": {
+        "subject": "dish",
+        "title": "Pesarattu",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Pesarattu_and_Ginger_chutney.jpg",
+        "width": 2048,
+        "height": 1361,
+        "creator": "ukanda",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pesarattu_and_Ginger_chutney.jpg",
+        "alt": "Pesarattu — Andhra Pradesh",
+        "caption": "Pesarattu, the Andhra green-gram crepe, served with ginger chutney.",
+        "fallback": "/images/dishes/andhra-pradesh-pesarattu.webp"
+      }
+    },
+    "gongura-mutton": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Andhra Pradesh — the regional kitchen where Gongura Mutton belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Gongura Mutton: mutton, gongura leaves, guntur red chillies, onion.",
+        "items": [
+          "Mutton",
+          "Gongura leaves",
+          "Guntur red chillies",
+          "Onion",
+          "Coriander seeds",
+          "Garlic"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Gongura Mutton — Slow Brass Handi Braising with Leaf Reduction."
+      },
+      "plated": null
+    },
+    "thukpa": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Arunachal Pradesh — the regional kitchen where Thukpa belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Thukpa: handmade wheat noodles, mountain vegetables, yak/pork broth, ginger.",
+        "items": [
+          "Handmade wheat noodles",
+          "Mountain vegetables",
+          "Yak/pork broth",
+          "Ginger",
+          "Garlic",
+          "Sichuan pepper"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Thukpa — Clear Broth Infusion & Clay Pot Simmering."
+      },
+      "plated": {
+        "subject": "dish",
+        "title": "Thukpa",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg",
+        "width": 2272,
+        "height": 1704,
+        "creator": "m-louis",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thukpa,_Tibetan_noodle_in_Osaka,_Japan.jpg",
+        "alt": "Thukpa — Arunachal Pradesh",
+        "caption": "Thukpa — hand-pulled noodle soup of the Himalayan belt.",
+        "fallback": null
+      }
+    },
+    "bamboo-shoot-pork": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Arunachal Pradesh — the regional kitchen where Bamboo Shoot Pork belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Bamboo Shoot Pork: fresh bamboo shoots, country pork, bird's eye chilli, wild garlic.",
+        "items": [
+          "Fresh bamboo shoots",
+          "Country pork",
+          "Bird's eye chilli",
+          "Wild garlic",
+          "Ginger"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Bamboo Shoot Pork — Flame Roasting Inside Green Bamboo Internodes."
+      },
+      "plated": null
+    },
+    "masor-tenga": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Assam — the regional kitchen where Masor Tenga belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Masor Tenga: brahmaputra rohu fish, elephant apple (ou tenga), tomatoes, mustard oil.",
+        "items": [
+          "Brahmaputra Rohu fish",
+          "Elephant apple (Ou tenga)",
+          "Tomatoes",
+          "Mustard oil",
+          "Turmeric",
+          "Green chillies"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Masor Tenga — Minimal Oil Tempering & Natural Acid Simmer."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Masor_Tenga.jpg",
+        "subject": "dish",
+        "title": "Masor Tenga",
+        "creator": "Rupak76",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masor_Tenga.jpg",
+        "alt": "Masor Tenga — Assam",
+        "caption": "Masor Tenga, Assam.",
+        "fallback": "/images/dishes/assam-masor-tenga.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "khar": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Assam — the regional kitchen where Khar belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Khar: raw papaya, burnt banana peel filtrate (khar), mustard oil, ginger.",
+        "items": [
+          "Raw papaya",
+          "Burnt banana peel filtrate (Khar)",
+          "Mustard oil",
+          "Ginger",
+          "Green chillies"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Khar — Sun-Dry Peeling, Charcoal Leaching & Slow Emulsification."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Khar_of_Assam.jpg",
+        "subject": "dish",
+        "title": "Khar",
+        "creator": "Suditree",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khar_of_Assam.jpg",
+        "alt": "Khar — Assam",
+        "caption": "Khar, Assam.",
+        "fallback": "/images/dishes/assam-khar.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "litti-chokha": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Bihar — the regional kitchen where Litti Chokha belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Litti Chokha: whole wheat flour, roasted sattu, cow ghee, ajwain.",
+        "items": [
+          "Whole wheat flour",
+          "Roasted sattu",
+          "Cow ghee",
+          "Ajwain",
+          "Kalonji",
+          "Smoked brinjal",
+          "Mustard oil"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Litti Chokha — Cow-Dung Wood Ember Baking & Ghee Immersion."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Litti-Chokha-From-Bihar.jpg",
+        "subject": "dish",
+        "title": "Litti Chokha",
+        "creator": "RAJ123SONY",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Litti-Chokha-From-Bihar.jpg",
+        "alt": "Litti Chokha — Bihar",
+        "caption": "Litti Chokha, Bihar.",
+        "fallback": "/images/dishes/bihar-litti-chokha.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "thekua": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Bihar — the regional kitchen where Thekua belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Thekua: whole wheat flour, sugarcane jaggery, ghee, fennel seeds.",
+        "items": [
+          "Whole wheat flour",
+          "Sugarcane jaggery",
+          "Ghee",
+          "Fennel seeds",
+          "Dry coconut",
+          "Cardamom"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Thekua — Wood Saancha Embossing & Deep Ghee Confection."
+      },
+      "plated": {
+        "subject": "dish",
+        "title": "Thekua",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Thekua_-_Chhath_Festival_-_Kolkata_2013-11-09_4316.JPG",
+        "width": 6016,
+        "height": 4000,
+        "creator": "Biswarup Ganguly",
+        "licence": "CC BY 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thekua_-_Chhath_Festival_-_Kolkata_2013-11-09_4316.JPG",
+        "alt": "Thekua — Bihar",
+        "caption": "Thekua, the Chhath festival wheat-and-jaggery biscuit.",
+        "fallback": "/images/dishes/bihar-thekua.webp"
+      }
+    },
+    "chhattisgarhi-chila": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Chhattisgarh — the regional kitchen where Chila belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Chila: rice batter, urad dal, sesame seeds, green chillies.",
+        "items": [
+          "Rice batter",
+          "Urad dal",
+          "Sesame seeds",
+          "Green chillies",
+          "Coriander",
+          "Mustard oil"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Chila — Clay Tawa Roasting with Sesame Crust."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/CHILA%28THE_DOSA_OF_CHHATTISGARH%29.jpg",
+        "subject": "dish",
+        "title": "Chila",
+        "creator": "Anuragnayak cg",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CHILA(THE_DOSA_OF_CHHATTISGARH).jpg",
+        "alt": "Chila — Chhattisgarh",
+        "caption": "Chila, Chhattisgarh.",
+        "fallback": "/images/dishes/chhattisgarh-chhattisgarhi-chila.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "fara": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Chhattisgarh — the regional kitchen where Fara belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Fara: rice flour, chana dal, garlic, green chillies.",
+        "items": [
+          "Rice flour",
+          "Chana dal",
+          "Garlic",
+          "Green chillies",
+          "Mustard seeds",
+          "Curry leaves"
+        ]
+      },
+      "method": {
+        "library": "steam",
+        "caption": "Fara — Clay Steaming & Crisp Pan Tempering."
+      },
+      "plated": null
+    },
+    "goan-fish-curry": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Goa — the regional kitchen where Goan Fish Curry belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Goan Fish Curry: kingfish / mackerel, fresh grated coconut, kokum, kashmiri chillies.",
+        "items": [
+          "Kingfish / Mackerel",
+          "Fresh grated coconut",
+          "Kokum",
+          "Kashmiri chillies",
+          "Coriander seeds",
+          "Turmeric"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Goan Fish Curry — Clay Pot Simmering & Stone Ground Masala."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Goan_Fish_Curry.jpg",
+        "subject": "dish",
+        "title": "Goan Fish Curry",
+        "creator": "Ramakrishna Reddy y",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goan_Fish_Curry.jpg",
+        "alt": "Goan Fish Curry — Goa",
+        "caption": "Goan Fish Curry, Goa.",
+        "fallback": "/images/dishes/goa-goan-fish-curry.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "pork-vindaloo": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Goa — the regional kitchen where Pork Vindaloo belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Pork Vindaloo: pork shoulder, goan palm vinegar, garlic, kashmiri red chillies.",
+        "items": [
+          "Pork shoulder",
+          "Goan palm vinegar",
+          "Garlic",
+          "Kashmiri red chillies",
+          "Cinnamon",
+          "Cloves",
+          "Cumin"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Pork Vindaloo — Toddy Vinegar Acid Cure & Slow Copper Pot Braise."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Vindalho.jpg",
+        "subject": "dish",
+        "title": "Pork Vindaloo",
+        "creator": "Adriao",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vindalho.jpg",
+        "alt": "Pork Vindaloo — Goa",
+        "caption": "Pork Vindaloo, Goa.",
+        "fallback": "/images/dishes/goa-pork-vindaloo.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "dhokla": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Gujarat — the regional kitchen where Dhokla belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Dhokla: gram flour (besan), fermented curd, ginger-chilli paste, mustard seeds.",
+        "items": [
+          "Gram flour (Besan)",
+          "Fermented curd",
+          "Ginger-chilli paste",
+          "Mustard seeds",
+          "Curry leaves",
+          "Asafoetida"
+        ]
+      },
+      "method": {
+        "library": "steam",
+        "caption": "Dhokla — Aerated Fermentation & Steam Vapor Lift."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Homemade_Dhokla_2.jpg",
+        "subject": "dish",
+        "title": "Dhokla",
+        "creator": "Sammati Das",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homemade_Dhokla_2.jpg",
+        "alt": "Dhokla — Gujarat",
+        "caption": "Dhokla, Gujarat.",
+        "fallback": "/images/dishes/gujarat-dhokla.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "undhiyu": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Gujarat — the regional kitchen where Undhiyu belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Undhiyu: surti papdi, kand (purple yam), baby eggplants, methi muthia.",
+        "items": [
+          "Surti papdi",
+          "Kand (purple yam)",
+          "Baby eggplants",
+          "Methi muthia",
+          "Fresh coconut",
+          "Green garlic"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Undhiyu — Matka Inversion (Undhu) Under Charcoal Embers."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Undhiyu.jpg",
+        "subject": "dish",
+        "title": "Undhiyu",
+        "creator": "Jatan1992",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Undhiyu.jpg",
+        "alt": "Undhiyu — Gujarat",
+        "caption": "Undhiyu, Gujarat.",
+        "fallback": "/images/dishes/gujarat-undhiyu.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "bajra-khichdi": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Haryana — the regional kitchen where Bajra Khichdi belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Bajra Khichdi: bajra (pearl millet), moong dal, desi butter / ghee, cumin.",
+        "items": [
+          "Bajra (Pearl millet)",
+          "Moong dal",
+          "Desi butter / Ghee",
+          "Cumin",
+          "Garlic",
+          "Rock salt"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Bajra Khichdi — Mortar De-husking & Slow Earthen Pot Hearth Simmer."
+      },
+      "plated": null
+    },
+    "haryanvi-kadhi": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Haryana — the regional kitchen where Kadhi Pakora belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Kadhi Pakora: sour buttermilk, gram flour, fenugreek seeds, dried red chillies.",
+        "items": [
+          "Sour buttermilk",
+          "Gram flour",
+          "Fenugreek seeds",
+          "Dried red chillies",
+          "Ghee",
+          "Onion pakoras"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Kadhi Pakora — Prolonged Simmering (Kadhna) to Prevent Curdling."
+      },
+      "plated": null
+    },
+    "siddu": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Himachal Pradesh — the regional kitchen where Siddu belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Siddu: fermented wheat flour, crushed walnuts, poppy seeds (khus khus), pure ghee.",
+        "items": [
+          "Fermented wheat flour",
+          "Crushed walnuts",
+          "Poppy seeds (Khus Khus)",
+          "Pure ghee",
+          "Wild herbs"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Siddu — Yeast Fermentation & Alpine Herbal Steaming."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Kullvi_Siddu_%28Himachal_Pradesh%29.jpg",
+        "subject": "dish",
+        "title": "Siddu",
+        "creator": "Rajani Gairshail",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kullvi_Siddu_(Himachal_Pradesh).jpg",
+        "alt": "Siddu — Himachal Pradesh",
+        "caption": "Siddu, Himachal Pradesh.",
+        "fallback": "/images/dishes/himachal-pradesh-siddu.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "himachali-dham": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Himachal Pradesh — the regional kitchen where Himachali Dham belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Himachali Dham: chamba rajma, thick curd, ghee, dried raisins.",
+        "items": [
+          "Chamba Rajma",
+          "Thick curd",
+          "Ghee",
+          "Dried raisins",
+          "Cloves",
+          "Cardamom"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Himachali Dham — Wood-Fire Brass Deg Simmering Without Onion-Garlic."
+      },
+      "plated": null
+    },
+    "dhuska": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Jharkhand — the regional kitchen where Dhuska belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Dhuska: short-grain rice, chana dal, ginger, green chillies.",
+        "items": [
+          "Short-grain rice",
+          "Chana dal",
+          "Ginger",
+          "Green chillies",
+          "Cumin",
+          "Mustard oil"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Dhuska — Wet-Stone Grinding & Rapid Immersion Frying."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Dhuska-Jharkhand.jpg",
+        "subject": "dish",
+        "title": "Dhuska",
+        "creator": "Rashid Jorvee",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dhuska-Jharkhand.jpg",
+        "alt": "Dhuska — Jharkhand",
+        "caption": "Dhuska, Jharkhand.",
+        "fallback": "/images/dishes/jharkhand-dhuska.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "chilka-roti": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Jharkhand — the regional kitchen where Chilka Roti belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Chilka Roti: unpolished red rice, chana dal, water, sal tree seed oil.",
+        "items": [
+          "Unpolished red rice",
+          "Chana dal",
+          "Water",
+          "Sal tree seed oil",
+          "Salt"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Chilka Roti — Earthen Tawa Pouring with Botanical Swab."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Chilka_Roti.jpg",
+        "subject": "dish",
+        "title": "Chilka Roti",
+        "creator": "Dev0745",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chilka_Roti.jpg",
+        "alt": "Chilka Roti — Jharkhand",
+        "caption": "Chilka Roti, Jharkhand.",
+        "fallback": "/images/dishes/jharkhand-chilka-roti.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "masala-dosa": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Karnataka — the regional kitchen where Masala Dosa belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Masala Dosa: sona masuri rice, urad dal, fenugreek seeds, potatoes.",
+        "items": [
+          "Sona Masuri rice",
+          "Urad dal",
+          "Fenugreek seeds",
+          "Potatoes",
+          "Mustard seeds",
+          "Curry leaves",
+          "Butter"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Masala Dosa — Stone-Ground Natural Fermentation & Iron Tawa Crisp-Folding."
+      },
+      "plated": {
+        "subject": "dish",
+        "title": "Masala Dosa",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Butter_Masala_Dosa.png",
+        "width": 3264,
+        "height": 2448,
+        "creator": "Sameer.siddhanti",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butter_Masala_Dosa.png",
+        "alt": "Masala Dosa — Karnataka",
+        "caption": "Butter masala dosa with coconut chutney and sambar.",
+        "fallback": null
+      }
+    },
+    "bisi-bele-bath": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Karnataka — the regional kitchen where Bisi Bele Bath belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Bisi Bele Bath: rice, toor dal, tamarind pulp, byadagi chillies.",
+        "items": [
+          "Rice",
+          "Toor dal",
+          "Tamarind pulp",
+          "Byadagi chillies",
+          "Kapok buds (Marathi moggu)",
+          "Ghee",
+          "Cashews"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Bisi Bele Bath — Layered Spice Roasting & Unified One-Pot Ghee Simmer."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Bisi_Bele_Bath_%28Rice_cooked_with_lentils_%26_vegetables%29.jpg",
+        "subject": "dish",
+        "title": "Bisi Bele Bath",
+        "creator": "Bhavana Homecook",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bisi_Bele_Bath_(Rice_cooked_with_lentils_%26_vegetables).jpg",
+        "alt": "Bisi Bele Bath — Karnataka",
+        "caption": "Bisi Bele Bath, Karnataka.",
+        "fallback": "/images/dishes/karnataka-bisi-bele-bath.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "appam-stew": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Kerala — the regional kitchen where Appam with Vegetable Stew belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Appam with Vegetable Stew: raw rice, coconut toddy/yeast, fresh coconut milk, black peppercorns.",
+        "items": [
+          "Raw rice",
+          "Coconut toddy/yeast",
+          "Fresh coconut milk",
+          "Black peppercorns",
+          "Cinnamon",
+          "Curry leaves"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Appam with Vegetable Stew — Deep Appachatti Swirl & Dual Coconut Milk Extraction."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/GKN_Appam_Veg_Stew_DSC_1292.JPG",
+        "subject": "dish",
+        "title": "Appam with Vegetable Stew",
+        "creator": "Pranchiyettan",
+        "licence": "CC BY-SA 2.5 IN",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/in/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:GKN_Appam_Veg_Stew_DSC_1292.JPG",
+        "alt": "Appam with Vegetable Stew — Kerala",
+        "caption": "Appam with Vegetable Stew, Kerala.",
+        "fallback": "/images/dishes/kerala-appam-stew.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "fish-molee": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Kerala — the regional kitchen where Kerala Fish Molee belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Kerala Fish Molee: karimeen / seer fish, first & second press coconut milk, green chillies, curry leaves.",
+        "items": [
+          "Karimeen / Seer fish",
+          "First & second press coconut milk",
+          "Green chillies",
+          "Curry leaves",
+          "Turmeric",
+          "Tomatoes"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Kerala Fish Molee — Delicate Fish Poach in Layered Coconut Milk Presses."
+      },
+      "plated": {
+        "subject": "dish",
+        "title": "Kerala Fish Molee",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Fish_Moilee_Kerala_Style_%28aka_KeralaFish_Molly%29.JPG",
+        "width": 5152,
+        "height": 3864,
+        "creator": "Drsoumyadeepb",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Moilee_Kerala_Style_(aka_KeralaFish_Molly).JPG",
+        "alt": "Kerala Fish Molee — Kerala",
+        "caption": "Fish moilee — Kerala fish simmered in coconut milk.",
+        "fallback": null
+      }
+    },
+    "indori-poha": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Madhya Pradesh — the regional kitchen where Indori Poha belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Indori Poha: thick flattened rice, fennel seeds, mustard seeds, ratlami sev.",
+        "items": [
+          "Thick flattened rice",
+          "Fennel seeds",
+          "Mustard seeds",
+          "Ratlami sev",
+          "Pomegranate",
+          "Jeeravan masala"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Indori Poha — Steam-Pot Hydration & Jeeravan Masala Dusting."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/Indori_Poha%2C_New_Delhi.jpg",
+        "subject": "dish",
+        "title": "Indori Poha",
+        "creator": "Kxnyshk",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indori_Poha,_New_Delhi.jpg",
+        "alt": "Indori Poha — Madhya Pradesh",
+        "caption": "Indori Poha, Madhya Pradesh.",
+        "fallback": "/images/dishes/madhya-pradesh-indori-poha.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "bhutte-ka-kees": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Madhya Pradesh — the regional kitchen where Bhutte Ka Kees belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Bhutte Ka Kees: fresh sweet corn, full cream milk, mustard seeds, green chillies.",
+        "items": [
+          "Fresh sweet corn",
+          "Full cream milk",
+          "Mustard seeds",
+          "Green chillies",
+          "Asafoetida",
+          "Grated coconut"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Bhutte Ka Kees — Fine Grating & Slow Milk-Emulsion Braise."
+      },
+      "plated": null
+    },
+    "vada-pav": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Maharashtra — the regional kitchen where Vada Pav belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Vada Pav: potatoes, besan (gram flour), mustard seeds, garlic.",
+        "items": [
+          "Potatoes",
+          "Besan (Gram flour)",
+          "Mustard seeds",
+          "Garlic",
+          "Peanuts",
+          "Kashmiri chilli",
+          "Ladi Pav"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Vada Pav — Tempered Potato Mash & Precision Deep Frying."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Maharashtrian_Vada_Pav.JPG",
+        "subject": "dish",
+        "title": "Vada Pav",
+        "creator": "DreamyFlutura11",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maharashtrian_Vada_Pav.JPG",
+        "alt": "Vada Pav — Maharashtra",
+        "caption": "Vada Pav, Maharashtra.",
+        "fallback": "/images/dishes/maharashtra-vada-pav.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "puran-poli": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Maharashtra — the regional kitchen where Puran Poli belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Puran Poli: chana dal, organic jaggery, whole wheat flour, nutmeg.",
+        "items": [
+          "Chana dal",
+          "Organic jaggery",
+          "Whole wheat flour",
+          "Nutmeg",
+          "Cardamom",
+          "Pure ghee"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Puran Poli — Puran Stone-Straining & Translucent Rolling."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg",
+        "subject": "dish",
+        "title": "Puran Poli",
+        "creator": "Phadke09",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg",
+        "alt": "Puran Poli — Maharashtra",
+        "caption": "Puran Poli, Maharashtra.",
+        "fallback": "/images/dishes/maharashtra-puran-poli.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "eromba": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Manipur — the regional kitchen where Eromba belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Eromba: ngari (fermented fish), mountain potatoes, yongchak (tree beans), ghost chillies.",
+        "items": [
+          "Ngari (Fermented fish)",
+          "Mountain potatoes",
+          "Yongchak (Tree beans)",
+          "Ghost chillies",
+          "Spring onions"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Eromba — Dry Earthen Pot Roasting of Ngari & Hand Mashing."
+      },
+      "plated": {
+        "subject": "dish",
+        "title": "Eromba",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yongchaak_eromba_%282%29.jpg",
+        "width": 2048,
+        "height": 1542,
+        "creator": "Punshiba18",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yongchaak_eromba_(2).jpg",
+        "alt": "Eromba — Manipur",
+        "caption": "Eromba — Manipuri mashed vegetable stew with fermented fish.",
+        "fallback": null
+      }
+    },
+    "singju": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Manipur — the regional kitchen where Singju belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Singju: lotus stems, cabbage, roasted perilla seeds (thoiding), roasted chickpea powder.",
+        "items": [
+          "Lotus stems",
+          "Cabbage",
+          "Roasted perilla seeds (Thoiding)",
+          "Roasted chickpea powder",
+          "Ngari",
+          "Chillies"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Singju — Raw Julian Chiffonade & Dry Seed Dressing."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Yongchaak_Singju_with_Hawai_Maton.jpg",
+        "subject": "dish",
+        "title": "Singju",
+        "creator": "Punshiba18",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yongchaak_Singju_with_Hawai_Maton.jpg",
+        "alt": "Singju — Manipur",
+        "caption": "Singju, Manipur.",
+        "fallback": "/images/dishes/manipur-singju.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "jadoh": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Meghalaya — the regional kitchen where Jadoh belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Jadoh: jaintia red rice, pork belly, black sesame paste, ginger.",
+        "items": [
+          "Jaintia red rice",
+          "Pork belly",
+          "Black sesame paste",
+          "Ginger",
+          "Bay leaves",
+          "Local onions"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Jadoh — Rendered Pork Fat Rice Braising & Sesame Glaze."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Jadoh.jpg",
+        "subject": "dish",
+        "title": "Jadoh",
+        "creator": "Wann Majaw",
+        "licence": "CC0 1.0",
+        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jadoh.jpg",
+        "alt": "Jadoh — Meghalaya",
+        "caption": "Jadoh, Meghalaya.",
+        "fallback": "/images/dishes/meghalaya-jadoh.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "dohneiiong": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Meghalaya — the regional kitchen where Dohneiiong belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Dohneiiong: pork, black sesame seeds (neiiong), garlic, ginger.",
+        "items": [
+          "Pork",
+          "Black sesame seeds (Neiiong)",
+          "Garlic",
+          "Ginger",
+          "Mustard oil",
+          "Green chillies"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Dohneiiong — Dry Seed Roasting, Stone Pounding & Long Braise."
+      },
+      "plated": null
+    },
+    "mizo-bai": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Mizoram — the regional kitchen where Mizo Bai belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Mizo Bai: wild mustard greens, fermented bamboo shoots, pork skin / smoked meat, alkaline cooking soda.",
+        "items": [
+          "Wild mustard greens",
+          "Fermented bamboo shoots",
+          "Pork skin / Smoked meat",
+          "Alkaline cooking soda",
+          "Salt"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Mizo Bai — Oil-Free Alkaline Water Simmering."
+      },
+      "plated": null
+    },
+    "sawhchiar": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Mizoram — the regional kitchen where Sawhchiar belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Sawhchiar: indigenous sticky rice, country chicken / pork, crushed ginger, garlic cloves.",
+        "items": [
+          "Indigenous sticky rice",
+          "Country chicken / Pork",
+          "Crushed ginger",
+          "Garlic cloves",
+          "Black peppercorns"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Sawhchiar — Continuous Wood-Fire Stirring to Creamy Rice Gel."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sawhchiar.jpg",
+        "subject": "dish",
+        "title": "Sawhchiar",
+        "creator": "Coolcolney",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sawhchiar.jpg",
+        "alt": "Sawhchiar — Mizoram",
+        "caption": "Sawhchiar, Mizoram.",
+        "fallback": "/images/dishes/mizoram-sawhchiar.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "naga-smoked-pork": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Nagaland — the regional kitchen where Naga Smoked Pork with Bamboo Shoots belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Naga Smoked Pork with Bamboo Shoots: hearth-smoked pork, fermented bamboo shoots, bhut jolokia (king chilli), garlic cloves.",
+        "items": [
+          "Hearth-smoked pork",
+          "Fermented bamboo shoots",
+          "Bhut Jolokia (King Chilli)",
+          "Garlic cloves",
+          "Ginger root"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Naga Smoked Pork with Bamboo Shoots — Multi-Week Kitchen Hearth Smoking & Water Braise."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Naga_style_smoked_Pork_ribs_with_bamboo_shoots_and_rice.jpg",
+        "subject": "dish",
+        "title": "Naga Smoked Pork with Bamboo Shoots",
+        "creator": "Satdeep Gill",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naga_style_smoked_Pork_ribs_with_bamboo_shoots_and_rice.jpg",
+        "alt": "Naga Smoked Pork with Bamboo Shoots — Nagaland",
+        "caption": "Naga Smoked Pork with Bamboo Shoots, Nagaland.",
+        "fallback": "/images/dishes/nagaland-naga-smoked-pork.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "galho": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Nagaland — the regional kitchen where Galho belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Galho: short hill rice, smoked meat scraps, axone (fermented soybeans), mountain greens.",
+        "items": [
+          "Short hill rice",
+          "Smoked meat scraps",
+          "Axone (Fermented soybeans)",
+          "Mountain greens",
+          "Bird's eye chilli"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Galho — Slow Simmering with Fermented Bean Emulsification."
+      },
+      "plated": null
+    },
+    "dalma": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Odisha — the regional kitchen where Dalma belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Dalma: toor dal, raw banana, papaya, panch phoran.",
+        "items": [
+          "Toor dal",
+          "Raw banana",
+          "Papaya",
+          "Panch phoran",
+          "Desi ghee",
+          "Fresh coconut",
+          "Roasted cumin powder"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Dalma — Earthen Kudua Pot Steam Layering."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Dalma%28dish%29.jpg",
+        "subject": "dish",
+        "title": "Dalma",
+        "creator": "Sibani (source credited as Sibani's Diary)",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dalma(dish).jpg",
+        "alt": "Dalma — Odisha",
+        "caption": "Dalma, Odisha.",
+        "fallback": "/images/dishes/odisha-dalma.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "chhena-poda": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Odisha — the regional kitchen where Chhena Poda belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Chhena Poda: fresh cow milk chhena, cardamom powder, semolina, sugar.",
+        "items": [
+          "Fresh cow milk chhena",
+          "Cardamom powder",
+          "Semolina",
+          "Sugar",
+          "Desi ghee",
+          "Sal tree leaves"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Chhena Poda — Sal Leaf Wrapping & Residual Coal Oven Caramelization."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
+        "subject": "dish",
+        "title": "Chhena Poda",
+        "creator": "Subhransuphotography",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
+        "alt": "Chhena Poda — Odisha",
+        "caption": "Chhena Poda, Odisha.",
+        "fallback": "/images/dishes/odisha-chhena-poda.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "makki-di-roti-sarson-saag": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Punjab — the regional kitchen where Makki di Roti & Sarson da Saag belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Makki di Roti & Sarson da Saag: mustard greens (sarson), bathua leaves, maize flour (makki atta), white butter (makhan).",
+        "items": [
+          "Mustard greens (Sarson)",
+          "Bathua leaves",
+          "Maize flour (Makki atta)",
+          "White butter (Makhan)",
+          "Ginger-garlic",
+          "Jaggery"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Makki di Roti & Sarson da Saag — Clay Pot Churning (Ghotna) & Hand-Patted Tawa Griddling."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Makke_di_Roti_with_Sarson_Da_Saag.jpg",
+        "subject": "dish",
+        "title": "Makki di Roti & Sarson da Saag",
+        "creator": "Abhikrajput",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makke_di_Roti_with_Sarson_Da_Saag.jpg",
+        "alt": "Makki di Roti & Sarson da Saag — Punjab",
+        "caption": "Makki di Roti & Sarson da Saag, Punjab.",
+        "fallback": "/images/dishes/punjab-makki-di-roti-sarson-saag.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "butter-chicken": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Punjab — the regional kitchen where Butter Chicken belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Butter Chicken: tandoori chicken, vine tomatoes, white butter, fresh dairy cream.",
+        "items": [
+          "Tandoori chicken",
+          "Vine tomatoes",
+          "White butter",
+          "Fresh dairy cream",
+          "Kasuri methi",
+          "Kashmiri chilli"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Butter Chicken — Clay Tandoor Roasting & Silky Tomato-Butter Emulsion."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Butter_chicken_by_me.jpg",
+        "subject": "dish",
+        "title": "Butter Chicken",
+        "creator": "TabassumJawed",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butter_chicken_by_me.jpg",
+        "alt": "Butter Chicken — Punjab",
+        "caption": "Butter Chicken, Punjab.",
+        "fallback": "/images/dishes/punjab-butter-chicken.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "dal-baati-churma": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Rajasthan — the regional kitchen where Dal Baati Churma belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Dal Baati Churma: whole wheat flour, panchmel lentils (five dals), pure cow ghee, ajwain seeds.",
+        "items": [
+          "Whole wheat flour",
+          "Panchmel lentils (Five dals)",
+          "Pure cow ghee",
+          "Ajwain seeds",
+          "Jaggery / Bura",
+          "Cardamom"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Dal Baati Churma — Sand / Ember Baking & Saturated Ghee Dunking."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Rajasthani_dal-bati-churma_thali_01.jpg",
+        "subject": "dish",
+        "title": "Dal Baati Churma",
+        "creator": "Meghana78",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rajasthani_dal-bati-churma_thali_01.jpg",
+        "alt": "Dal Baati Churma — Rajasthan",
+        "caption": "Dal Baati Churma, Rajasthan.",
+        "fallback": "/images/dishes/rajasthan-dal-baati-churma.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "laal-maas": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Rajasthan — the regional kitchen where Laal Maas belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Laal Maas: mutton / wild game, mathania dried red chillies, pure desi ghee, garlic paste.",
+        "items": [
+          "Mutton / Wild game",
+          "Mathania dried red chillies",
+          "Pure desi ghee",
+          "Garlic paste",
+          "Cloves",
+          "Black cardamom"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Laal Maas — Slow Ghee Braise & Mathania Chilli Extraction."
+      },
+      "plated": null
+    },
+    "sikkimese-momos": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Sikkim — the regional kitchen where Sikkimese Momos belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Sikkimese Momos: wheat flour, minced pork / local greens, ginger, garlic.",
+        "items": [
+          "Wheat flour",
+          "Minced pork / local greens",
+          "Ginger",
+          "Garlic",
+          "Dalle Khursani chillies",
+          "Fermented bamboo"
+        ]
+      },
+      "method": {
+        "library": "steam",
+        "caption": "Sikkimese Momos — Thin Pleated Pinching & Tiered Aluminium/Bamboo Steaming."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Sikkimese_Momos.jpg",
+        "subject": "dish",
+        "title": "Sikkimese Momos",
+        "creator": "Krishna Pradhan",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sikkimese_Momos.jpg",
+        "alt": "Sikkimese Momos — Sikkim",
+        "caption": "Sikkimese Momos, Sikkim.",
+        "fallback": "/images/dishes/sikkim-sikkimese-momos.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "gundruk-soup": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Sikkim — the regional kitchen where Gundruk Soup belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Gundruk Soup: gundruk (fermented sun-dried greens), tomatoes, garlic, ginger.",
+        "items": [
+          "Gundruk (Fermented sun-dried greens)",
+          "Tomatoes",
+          "Garlic",
+          "Ginger",
+          "Himalayan rock salt",
+          "Mustard oil"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Gundruk Soup — Earthen Jar Fermentation, Sun Dehydration & Clear Broth Boil."
+      },
+      "plated": null
+    },
+    "chettinad-chicken": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Tamil Nadu — the regional kitchen where Chettinad Chicken Curry belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Chettinad Chicken Curry: country chicken, kalpasi (black stone flower), tellicherry black peppercorns, star anise.",
+        "items": [
+          "Country chicken",
+          "Kalpasi (Black stone flower)",
+          "Tellicherry black peppercorns",
+          "Star anise",
+          "Fennel seeds",
+          "Shallots"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Chettinad Chicken Curry — Whole Spice Dry Roasting & Heavy Cast Bronze Uruli Simmer."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/ChickenChettinad.JPG",
+        "subject": "dish",
+        "title": "Chettinad Chicken Curry",
+        "creator": "Maccess Corporation (Wikimedia Commons author attribution)",
+        "licence": "CC BY-SA 2.5",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChickenChettinad.JPG",
+        "alt": "Chettinad Chicken Curry — Tamil Nadu",
+        "caption": "Chettinad Chicken Curry, Tamil Nadu.",
+        "fallback": "/images/dishes/tamil-nadu-chettinad-chicken.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "idli-sambar": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Tamil Nadu — the regional kitchen where Idli Sambar belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Idli Sambar: parboiled idli rice, urad dal, toor dal, shallots (madras onions).",
+        "items": [
+          "Parboiled idli rice",
+          "Urad dal",
+          "Toor dal",
+          "Shallots (Madras onions)",
+          "Drumsticks",
+          "Tamarind",
+          "Curry leaves"
+        ]
+      },
+      "method": {
+        "library": "steam",
+        "caption": "Idli Sambar — Wet Stone Grinding, Overnight Aeration & Wet Cloth Steaming."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Idli_Sambar.JPG",
+        "subject": "dish",
+        "title": "Idli Sambar",
+        "creator": "Soumya Dey (credited as Soumya dey)",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idli_Sambar.JPG",
+        "alt": "Idli Sambar — Tamil Nadu",
+        "caption": "Idli Sambar, Tamil Nadu.",
+        "fallback": "/images/dishes/tamil-nadu-idli-sambar.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "hyderabadi-biryani": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Telangana — the regional kitchen where Hyderabadi Dum Biryani belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Hyderabadi Dum Biryani: aged basmati rice, tender marinated meat, pure saffron, fried onions (birista).",
+        "items": [
+          "Aged Basmati rice",
+          "Tender marinated meat",
+          "Pure saffron",
+          "Fried onions (Birista)",
+          "Yoghurt",
+          "Whole spices",
+          "Mint & coriander"
+        ]
+      },
+      "method": {
+        "library": "banana-leaf",
+        "caption": "Hyderabadi Dum Biryani — Kacchi Yakhni Layering & Dough-Sealed Dum Pukht."
+      },
+      "plated": {
+        "subject": "dish",
+        "title": "Hyderabadi Dum Biryani",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Chicken_Hyderabadi_Biryani.JPG",
+        "width": 4288,
+        "height": 2848,
+        "creator": "Dheerajk88",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Hyderabadi_Biryani.JPG",
+        "alt": "Hyderabadi Dum Biryani — Telangana",
+        "caption": "Chicken Hyderabadi biryani, layered and sealed in the dum tradition.",
+        "fallback": null
+      }
+    },
+    "hyderabadi-haleem": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Telangana — the regional kitchen where Hyderabadi Haleem belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Hyderabadi Haleem: whole wheat, mutton, chana dal & moong dal, pure desi ghee.",
+        "items": [
+          "Whole wheat",
+          "Mutton",
+          "Chana dal & Moong dal",
+          "Pure desi ghee",
+          "Fried onions",
+          "Almonds & cashews",
+          "Rose petals"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Hyderabadi Haleem — 12-Hour Degchi Simmer & Wooden Mallet Pounding."
+      },
+      "plated": null
+    },
+    "mui-borok": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Tripura — the regional kitchen where Mui Borok belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Mui Borok: river fish, berma (fermented fish paste), green chillies, garlic.",
+        "items": [
+          "River fish",
+          "Berma (Fermented fish paste)",
+          "Green chillies",
+          "Garlic",
+          "Wild coriander",
+          "Lemon basil"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Mui Borok — Zero-Oil Earthen Pot Boil with Fermented Berma."
+      },
+      "plated": null
+    },
+    "chakhwi": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Tripura — the regional kitchen where Chakhwi belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Chakhwi: fresh bamboo shoots, pork, natural bamboo ash extract (khar/khang), jackfruit seeds.",
+        "items": [
+          "Fresh bamboo shoots",
+          "Pork",
+          "Natural bamboo ash extract (Khar/Khang)",
+          "Jackfruit seeds",
+          "Ginger"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Chakhwi — Bamboo Ash Filtration & Forest Root Simmer."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Chakhwi.jpg",
+        "subject": "dish",
+        "title": "Chakhwi",
+        "creator": "Tirengma",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chakhwi.jpg",
+        "alt": "Chakhwi — Tripura",
+        "caption": "Chakhwi, Tripura.",
+        "fallback": "/images/dishes/tripura-chakhwi.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "galouti-kebab": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Uttar Pradesh — the regional kitchen where Awadhi Galouti Kebab belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Awadhi Galouti Kebab: finely ground meat, raw green papaya, potli masala (160 spices), pure desi ghee.",
+        "items": [
+          "Finely ground meat",
+          "Raw green papaya",
+          "Potli masala (160 spices)",
+          "Pure desi ghee",
+          "Rose water",
+          "Saffron"
+        ]
+      },
+      "method": {
+        "library": "kebab-griddle",
+        "caption": "Awadhi Galouti Kebab — Multiple Sil-Batta Grindings, Smoke Infusion (Dhungar) & Mahi Tawa Griddling."
+      },
+      "plated": null
+    },
+    "banarasi-kachori": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Uttar Pradesh — the regional kitchen where Banarasi Kachori Sabzi belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Banarasi Kachori Sabzi: whole wheat flour, spiced urad dal paste, baby potatoes, asafoetida (hing).",
+        "items": [
+          "Whole wheat flour",
+          "Spiced urad dal paste",
+          "Baby potatoes",
+          "Asafoetida (Hing)",
+          "Fenugreek seeds",
+          "Mustard oil"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Banarasi Kachori Sabzi — Deep Immersion Frying & Slow Fenugreek-Hing Potato Tempering."
+      },
+      "plated": null
+    },
+    "kafuli": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Uttarakhand — the regional kitchen where Kafuli belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Kafuli: mountain spinach, fenugreek leaves, rice flour paste, jakhiya seeds (wild mustard).",
+        "items": [
+          "Mountain spinach",
+          "Fenugreek leaves",
+          "Rice flour paste",
+          "Jakhiya seeds (Wild mustard)",
+          "Mustard oil",
+          "Garlic"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Kafuli — Cast Iron Kadhai Boiling & Wood Churning (Mathani)."
+      },
+      "plated": null
+    },
+    "bal-mithai": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Uttarakhand — the regional kitchen where Bal Mithai belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Bal Mithai: hill-cow milk khoya, cane sugar, small sugar-coated beads (khas-khas dana), pure ghee.",
+        "items": [
+          "Hill-cow milk khoya",
+          "Cane sugar",
+          "Small sugar-coated beads (Khas-khas dana)",
+          "Pure ghee"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Bal Mithai — 10-Hour Khoya Dark Roasting & Sugar Seed Enrobing."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bal_mithai.jpg",
+        "subject": "dish",
+        "title": "Bal Mithai",
+        "creator": "vkumar (credited on Commons as Vkumarzone)",
+        "licence": "CC BY 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/3.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bal_mithai.jpg",
+        "alt": "Bal Mithai — Uttarakhand",
+        "caption": "Bal Mithai, Uttarakhand.",
+        "fallback": "/images/dishes/uttarakhand-bal-mithai.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "shorshe-ilish": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "West Bengal — the regional kitchen where Shorshe Ilish belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Shorshe Ilish: hilsa fish (ilish), black and yellow mustard seeds, cold-pressed mustard oil, slit green chillies.",
+        "items": [
+          "Hilsa fish (Ilish)",
+          "Black and yellow mustard seeds",
+          "Cold-pressed mustard oil",
+          "Slit green chillies",
+          "Turmeric powder"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Shorshe Ilish — Shil-Nora Mustard Grinding & Raw Mustard Oil Finish."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Sorshe_Ilish_%28Ilish_cooked_in_mustard_gravy%29.jpg",
+        "subject": "dish",
+        "title": "Shorshe Ilish",
+        "creator": "Sirsendu.mohanta",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sorshe_Ilish_(Ilish_cooked_in_mustard_gravy).jpg",
+        "alt": "Shorshe Ilish — West Bengal",
+        "caption": "Shorshe Ilish, West Bengal.",
+        "fallback": "/images/dishes/west-bengal-shorshe-ilish.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "mishti-doi": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "West Bengal — the regional kitchen where Mishti Doi belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Mishti Doi: full-cream milk, date palm jaggery (nolen gur), active yoghurt culture, terracotta earthen pot.",
+        "items": [
+          "Full-cream milk",
+          "Date palm jaggery (Nolen gur)",
+          "Active yoghurt culture",
+          "Terracotta earthen pot"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Mishti Doi — Slow Milk Reduction & Unglazed Terracotta Moisture Wicking."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mishti_Doi.jpg",
+        "subject": "dish",
+        "title": "Mishti Doi",
+        "creator": "Kirti Poddar",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mishti_Doi.jpg",
+        "alt": "Mishti Doi — West Bengal",
+        "caption": "Mishti Doi, West Bengal.",
+        "fallback": "/images/dishes/west-bengal-mishti-doi.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "rogan-josh": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Jammu and Kashmir — the regional kitchen where Rogan Josh belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Rogan Josh: tender lamb cuts, kashmiri red chillies, fennel seed powder (saunf), dried ginger (sonth).",
+        "items": [
+          "Tender lamb cuts",
+          "Kashmiri red chillies",
+          "Fennel seed powder (Saunf)",
+          "Dried ginger (Sonth)",
+          "Ratan jot (Alkanet root)",
+          "Mustard oil",
+          "Asafoetida"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Rogan Josh — Ratan Jot Color Extraction & Slow Copper Degchi Braise."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Rogan_Josh.JPG",
+        "subject": "dish",
+        "title": "Rogan Josh",
+        "creator": "Miansari66",
+        "licence": "CC0 1.0",
+        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG",
+        "alt": "Rogan Josh — Jammu and Kashmir",
+        "caption": "Rogan Josh, Jammu and Kashmir.",
+        "fallback": "/images/dishes/jammu-and-kashmir-rogan-josh.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "kashmiri-dum-aloo": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Jammu and Kashmir — the regional kitchen where Kashmiri Dum Aloo belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Kashmiri Dum Aloo: baby potatoes, kashmiri red chilli paste, whisked yoghurt, fennel seed powder.",
+        "items": [
+          "Baby potatoes",
+          "Kashmiri red chilli paste",
+          "Whisked yoghurt",
+          "Fennel seed powder",
+          "Dry ginger powder (Sonth)",
+          "Mustard oil"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Kashmiri Dum Aloo — Potato Pricking, Deep Crisp Frying & Sealed Curd Dum."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Kashmiri_Dum_Aaloo.JPG",
+        "subject": "dish",
+        "title": "Kashmiri Dum Aloo",
+        "creator": "Miansari66",
+        "licence": "CC0 1.0",
+        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kashmiri_Dum_Aaloo.JPG",
+        "alt": "Kashmiri Dum Aloo — Jammu and Kashmir",
+        "caption": "Kashmiri Dum Aloo, Jammu and Kashmir.",
+        "fallback": "/images/dishes/jammu-and-kashmir-kashmiri-dum-aloo.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "delhi-nihari": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Delhi — the regional kitchen where Old Delhi Nihari belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Old Delhi Nihari: mutton shank & bone marrow, wheat flour (atta), ghee, fried onions.",
+        "items": [
+          "Mutton shank & bone marrow",
+          "Wheat flour (Atta)",
+          "Ghee",
+          "Fried onions",
+          "Ginger juliennes",
+          "Potli spices",
+          "Kewra water"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Old Delhi Nihari — Overnight Sealed Cauldron Simmer & Bone Marrow Melt."
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Nihari_at_Karim%27s%2C_Jama_Masjid%2C_Old_Delhi.png",
+        "subject": "dish",
+        "title": "Old Delhi Nihari",
+        "creator": "Kxnyshk",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nihari_at_Karim%27s,_Jama_Masjid,_Old_Delhi.png",
+        "alt": "Old Delhi Nihari — Delhi",
+        "caption": "Old Delhi Nihari, Delhi.",
+        "fallback": "/images/dishes/delhi-delhi-nihari.webp",
+        "width": null,
+        "height": null
+      }
+    },
+    "delhi-chaat": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Delhi — the regional kitchen where Chandni Chowk Papdi Chaat belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Chandni Chowk Papdi Chaat: crisp papdi wafers, boiled potatoes, whisked sweetened curd, tamarind chutney.",
+        "items": [
+          "Crisp papdi wafers",
+          "Boiled potatoes",
+          "Whisked sweetened curd",
+          "Tamarind chutney",
+          "Mint-coriander chutney",
+          "Chaat masala",
+          "Pomegranate"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Chandni Chowk Papdi Chaat — Layered Chutney Balance & Fresh Crisp Assembly."
+      },
+      "plated": null
+    },
+    "ladakhi-skyu": {
+      "origin": {
+        "library": "spice-street",
+        "caption": "Ladakh — the regional kitchen where Ladakhi Skyu belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Ladakhi Skyu: whole wheat flour, mountain potatoes, turnips, wild mountain caraway.",
+        "items": [
+          "Whole wheat flour",
+          "Mountain potatoes",
+          "Turnips",
+          "Wild mountain caraway",
+          "Garlic",
+          "Meat / Vegetable broth"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Ladakhi Skyu — Thumb-Indent Pasta Shaping & Sustained Broth Simmer."
+      },
+      "plated": null
+    },
+    "gur-gur-cha-khambir": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Ladakh — the regional kitchen where Gur Gur Cha & Khambir belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Gur Gur Cha & Khambir: tibetan brick tea, yak butter, himalayan rock salt, fermented sourdough flour.",
+        "items": [
+          "Tibetan brick tea",
+          "Yak butter",
+          "Himalayan rock salt",
+          "Fermented sourdough flour",
+          "Water"
+        ]
+      },
+      "method": {
+        "library": "spice-bowls",
+        "caption": "Gur Gur Cha & Khambir — Wooden Chandong Piston Churning & Hot Ember Toasting."
+      },
+      "plated": {
+        "subject": "dish",
+        "title": "Gur gur cha",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Tibetan_butter_tea.jpg",
+        "width": 2272,
+        "height": 1704,
+        "creator": "Yosomono",
+        "licence": "CC BY 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tibetan_butter_tea.jpg",
+        "alt": "Gur gur cha — Ladakhi butter tea",
+        "caption": "Gur gur cha — butter tea churned from tea, salt and butter.",
+        "fallback": null
+      }
+    },
+    "andaman-coconut-prawn": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Andaman and Nicobar Islands — the regional kitchen where Andaman Coconut Prawn Curry belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Andaman Coconut Prawn Curry: fresh sea prawns, island coconut cream, mustard seeds, curry leaves.",
+        "items": [
+          "Fresh sea prawns",
+          "Island coconut cream",
+          "Mustard seeds",
+          "Curry leaves",
+          "Green chillies",
+          "Turmeric"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Andaman Coconut Prawn Curry — Quick High-Heat Poaching in Fresh Coconut Cream."
+      },
+      "plated": null
+    },
+    "island-crab-masala": {
+      "origin": {
+        "library": "spice-market",
+        "caption": "Andaman and Nicobar Islands — the regional kitchen where Island Mud Crab Masala belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Island Mud Crab Masala: mangrove mud crabs, crushed black peppercorns, shallots, garlic.",
+        "items": [
+          "Mangrove mud crabs",
+          "Crushed black peppercorns",
+          "Shallots",
+          "Garlic",
+          "Tamarind pulp",
+          "Coconut oil"
+        ]
+      },
+      "method": {
+        "library": "tandoor",
+        "caption": "Island Mud Crab Masala — Cast Iron Wok Tossing with Pepper Tempering."
+      },
+      "plated": null
+    },
+    "pondicherry-fish-curry": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Puducherry — the regional kitchen where Pondicherry Fish Curry belongs."
+      },
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ingredients for Pondicherry Fish Curry: seer fish, fresh coconut milk, tamarind, fenugreek.",
+        "items": [
+          "Seer fish",
+          "Fresh coconut milk",
+          "Tamarind",
+          "Fenugreek",
+          "Aniseed",
+          "Vadouvan spices",
+          "Curry leaves"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Pondicherry Fish Curry — French Bouquet Garni Fusion with Tamil Tamarind Base."
+      },
+      "plated": null
+    },
+    "koli-kari": {
+      "origin": {
+        "library": "banana-leaf",
+        "caption": "Puducherry — the regional kitchen where Koli Kari belongs."
+      },
+      "ingredients": {
+        "library": "spice-palette",
+        "caption": "Ingredients for Koli Kari: country chicken, coconut cream, nutmeg, cloves.",
+        "items": [
+          "Country chicken",
+          "Coconut cream",
+          "Nutmeg",
+          "Cloves",
+          "Saffron",
+          "Baby potatoes",
+          "Shallots"
+        ]
+      },
+      "method": {
+        "library": "grindstone",
+        "caption": "Koli Kari — Gentle Wine/Cream Style Velouté with Tropical Spices."
+      },
+      "plated": null
+    }
+  }
+}

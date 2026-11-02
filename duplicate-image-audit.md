@@ -1,5 +1,15 @@
 # Food Atlas duplicate and incorrect image audit
 
+> **Superseded (2026-11-02).** This document records the earlier *local asset* audit. The atlas now uses a verified
+> four-act photography system; every photograph, photographer, licence and source is listed in
+> [`PHOTOGRAPHY-CREDITS.md`](./PHOTOGRAPHY-CREDITS.md), and the data lives in `src/data/photography.json`.
+>
+> The ten generated `/images/waypoints/*.jpg` illustrations that the chronological journey previously used have been
+> **deleted** and replaced with credited documentary photographs of Indian kitchen craft. No AI-generated or synthetic
+> imagery remains anywhere in the project. Gaps are shown as explicit "no verified photograph" states rather than being
+> filled with substitute pictures.
+
+
 **Merged:** PR [#4](https://github.com/kondaashwitha77-sudo/interactive-indian-food-atlas/pull/4) into `main` at merge commit `2fedf9e`.
 
 ## Audit and correction summary

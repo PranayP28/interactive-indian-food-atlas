@@ -6,6 +6,25 @@
 
 import { Dish, getAllDishes } from "./foodData";
 import foodImageManifest from "./foodImageManifest.json";
+import { epochPhoto, getDishPhotography, photoUrl } from "./photography";
+
+// Era imagery is real documentary photography of Indian kitchen craft
+// (spice markets, grindstones, tandoors, steamers, service). It illustrates
+// the era's technique and trade — it is never presented as a photograph of
+// the dish in that century. All AI-generated waypoint art has been removed.
+const ERA_PHOTO: Record<string, string> = {
+  ancient_grains: epochPhoto("ancient_grains", 1280),
+  stone_ferment: epochPhoto("stone_ferment", 1280),
+  spice_trade: epochPhoto("spice_trade", 1280),
+  tawa_sizzle: epochPhoto("tawa_sizzle", 1280),
+  dum_seal: epochPhoto("dum_seal", 1280),
+  masala_dosa_hero: epochPhoto("masala_dosa_hero", 1280),
+  biryani_royal_hero: epochPhoto("biryani_royal_hero", 1280),
+  rogan_josh_hero: epochPhoto("rogan_josh_hero", 1280),
+  litti_chokha_hero: epochPhoto("litti_chokha_hero", 1280),
+  butter_chicken_hero: epochPhoto("butter_chicken_hero", 1280),
+};
+
 
 export interface GenerationWaypoint {
   generationNumber: number;
@@ -39,7 +58,7 @@ export const DOSA_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Primitive Pulse Pupa & Wild Grains",
     shortDescription:
       "Ancient agrarian communities soaked wild indigenous paddy and whole black lentils, crushing them coarsely between heavy granite river stones. Unfermented batter was pressed onto flat hot clay slabs over open wood embers.",
-    image: "/images/waypoints/ancient_grains.jpg",
+    image: ERA_PHOTO.ancient_grains,
     generationRecipe: {
       recipeName: "Ancient Pupa (Unfermented Pulse Griddle Cake)",
       historicalCookware: "Flat clay griddle stone (Kallu Odu) over pit embers",
@@ -67,7 +86,7 @@ export const DOSA_GENERATIONS: GenerationWaypoint[] = [
     headline: "King Someshvara III's Imperial 'Dosaka'",
     shortDescription:
       "The invention of overnight biological aeration! In the royal kitchens of the Western Chalukyas, cooks left stone-ground urad dal batter to ferment naturally with ambient lactic microflora, baking it on circular terracotta pans.",
-    image: "/images/waypoints/stone_ferment.jpg",
+    image: ERA_PHOTO.stone_ferment,
     generationRecipe: {
       recipeName: "Imperial Dosaka of the Manasollasa",
       historicalCookware: "Circular porous terracotta earthen pan",
@@ -95,7 +114,7 @@ export const DOSA_GENERATIONS: GenerationWaypoint[] = [
     headline: "Black Pepper to Portuguese Capsicum Chillies",
     shortDescription:
       "Maritime merchant guilds shipped Tellicherry black pepper across the Arabian Sea, while Portuguese ships arriving in Goa introduced South American capsicum chillies and potatoes. Cooks incorporated chillies into spicy accompaniment chutneys.",
-    image: "/images/waypoints/spice_trade.jpg",
+    image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Maritime Tempered Griddle Dosa",
       historicalCookware: "Early bronze bell-metal uruli & iron plates",
@@ -123,7 +142,7 @@ export const DOSA_GENERATIONS: GenerationWaypoint[] = [
     headline: "The High-Heat Sizzle & The Paper-Thin Roast",
     shortDescription:
       "The invention of the paper-thin crisp dosa! When British Indian foundries produced smooth seasoned cast-iron flat griddles (tawas), high heat retention allowed batter to be swirled gossamer-thin with generous clarified butter.",
-    image: "/images/waypoints/tawa_sizzle.jpg",
+    image: ERA_PHOTO.tawa_sizzle,
     generationRecipe: {
       recipeName: "The Vintage Iron Tawa Ghee Roast",
       historicalCookware: "Heavy seasoned cast-iron tawa",
@@ -151,7 +170,7 @@ export const DOSA_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Invention of the Hidden Potato Masala",
     shortDescription:
       "Orthodox Udupi Brahmin hotels in Bangalore and Mysore faced onion restrictions and potato surpluses. Chefs seasoned boiled potatoes with turmeric and hidden chopped onions, rolling the filling securely inside the folded crepe.",
-    image: "/images/waypoints/masala_dosa_hero.jpg",
+    image: ERA_PHOTO.masala_dosa_hero,
     generationRecipe: {
       recipeName: "Udupi Classic Masala Dosa",
       historicalCookware: "Commercial restaurant cast-iron range",
@@ -179,7 +198,7 @@ export const DOSA_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Global Culinary Crown Jewel",
     shortDescription:
       "Celebrated across the globe from Bengaluru to New York. Served on an emerald-cut banana leaf with piping hot drumstick sambar and coconut chutney, its golden crust breaks with a crisp shatter.",
-    image: "/images/waypoints/masala_dosa_hero.jpg",
+    image: ERA_PHOTO.masala_dosa_hero,
     generationRecipe: {
       recipeName: "Artisanal Mysore Masala Dosa Master Formulation",
       historicalCookware: "Hand-seasoned artisan cast-iron tawa",
@@ -213,7 +232,7 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
     headline: "Mamsaudana & The Ancient Warriors' Oon Soru",
     shortDescription:
       "In the Godavari basin and ancient Tamil lands, warriors celebrated victories with 'Oon Soru' — spiced indigenous paddy rice boiled in animal fats and seasoned with wild black pepper and sea salt in earthen cauldrons.",
-    image: "/images/waypoints/ancient_grains.jpg",
+    image: ERA_PHOTO.ancient_grains,
     generationRecipe: {
       recipeName: "Ancient Mamsaudana (Meat & Rice Cauldron)",
       historicalCookware: "Large earthenware handi over riverbed stone hearth",
@@ -241,7 +260,7 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
     headline: "Persian Pilaf Meets The Deccan Spicery",
     shortDescription:
       "When Sultan Muhammad bin Tughluq transferred his court to Daulatabad in the Deccan, Persian court cooks arrived with subtle saffron pilafs. They adapted Persian techniques to the fiery local spices of the Deccan plateau.",
-    image: "/images/waypoints/stone_ferment.jpg",
+    image: ERA_PHOTO.stone_ferment,
     generationRecipe: {
       recipeName: "Sultanate Yakhni Pulao",
       historicalCookware: "Tinned copper cauldron (Deg)",
@@ -269,7 +288,7 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
     headline: "Caravans of Star Anise, Cloves & Birista",
     shortDescription:
       "Golconda Fort became one of the wealthiest trading hubs in Asia. Precious spices like star anise, nutmeg, and mace entered royal recipes, along with deep golden crispy fried onions (Birista).",
-    image: "/images/waypoints/spice_trade.jpg",
+    image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Qutb Shahi Diamond Feast Biryani",
       historicalCookware: "Hammered bronze and copper deg",
@@ -297,7 +316,7 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Invention of Kacchi Dum (Raw Meat Layering)",
     shortDescription:
       "The ultimate breakthrough! Rather than pre-cooking the meat, royal Khansamas marinated raw meat in green papaya and curd, placing it raw at the bottom of the handi under fractionally boiled basmati rice.",
-    image: "/images/waypoints/dum_seal.jpg",
+    image: ERA_PHOTO.dum_seal,
     generationRecipe: {
       recipeName: "Asaf Jahi Kacchi Gosht ki Biryani",
       historicalCookware: "Heavy hand-beaten copper degchi",
@@ -325,7 +344,7 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Dough Seal (Parda) & The Saffron Unsealing",
     shortDescription:
       "Hermetic sealing with wheat dough ribbons (Parda) reached ceremonial perfection during the reign of Nizam Mahbub Ali Khan. Breaking the seal at royal banquets released an intoxicating cloud of saffron steam.",
-    image: "/images/waypoints/dum_seal.jpg",
+    image: ERA_PHOTO.dum_seal,
     generationRecipe: {
       recipeName: "Chowmahalla Royal Banquet Biryani",
       historicalCookware: "Sealed copper degchi with heavy brass lid",
@@ -353,7 +372,7 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Uncontested Emperor of Indian Gastronomy",
     shortDescription:
       "A global cultural phenomenon with GI-tag recognition. Every plate offers a visual masterwork of pristine white and golden-saffron grains over fall-apart tender meat.",
-    image: "/images/waypoints/biryani_royal_hero.jpg",
+    image: ERA_PHOTO.biryani_royal_hero,
     generationRecipe: {
       recipeName: "Modern Authentic Hyderabadi Dum Biryani",
       historicalCookware: "Heavy tinned copper handi with tight lid",
@@ -389,7 +408,7 @@ export const ROGAN_JOSH_GENERATIONS: GenerationWaypoint[] = [
     headline: "Himalayan Sheep & Wild Highland Fennel",
     shortDescription:
       "Nomadic shepherds in the Kashmir valley slow-cooked mountain mutton in earthen pots with wild mountain caraway, Himalayan rock salt, and dried ginger roots to withstand severe sub-zero winters.",
-    image: "/images/waypoints/ancient_grains.jpg",
+    image: ERA_PHOTO.ancient_grains,
     generationRecipe: {
       recipeName: "Pahadi Mutton Winter Broth",
       historicalCookware: "Unglazed mountain clay pot",
@@ -409,7 +428,7 @@ export const ROGAN_JOSH_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Arrival of Samarkand Masters & The Brass Deg",
     shortDescription:
       "Sultan Zain-ul-Abidin brought master cooks (Wazas) from Samarkand who introduced hand-beaten tinned brass degchis, whole aromatic spices, and slow mustard-oil braising techniques.",
-    image: "/images/waypoints/stone_ferment.jpg",
+    image: ERA_PHOTO.stone_ferment,
     generationRecipe: {
       recipeName: "Sultanate Roghan-i-Gosht",
       historicalCookware: "Tinned hand-beaten brass degchi",
@@ -429,7 +448,7 @@ export const ROGAN_JOSH_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Extraction of Ratanjot Alkanet Root",
     shortDescription:
       "Kashmiri cooks made a groundbreaking discovery: infusing hot mustard oil with the root bark of wild Himalayan Ratanjot (Alkanna tinctoria) produced an intensely vivid royal crimson oil without adding harsh heat.",
-    image: "/images/waypoints/spice_trade.jpg",
+    image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Ratanjot-Infused Wazwan Rogan Josh",
       historicalCookware: "Heavy tinned copper deg",
@@ -449,7 +468,7 @@ export const ROGAN_JOSH_GENERATIONS: GenerationWaypoint[] = [
     headline: "Kashmiri Mirch & The Yoghurt Emulsion",
     shortDescription:
       "The arrival of mild, fruity Kashmiri red peppers (Capsicum annuum) cultivated around Pampore. Combined with whisked yoghurt, it added velvety body to the thin crimson broth.",
-    image: "/images/waypoints/rogan_josh_hero.jpg",
+    image: ERA_PHOTO.rogan_josh_hero,
     generationRecipe: {
       recipeName: "Imperial Kashmir Court Rogan Josh",
       historicalCookware: "Brass degchi with domed brass lid",
@@ -469,7 +488,7 @@ export const ROGAN_JOSH_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Great Culinary Duality: Pran vs Hing",
     shortDescription:
       "Two distinct legendary styles emerged: Muslim Wazwan cooks incorporated shallots (Pran) and garlic, while Kashmiri Pandits prepared it sattvically with asafoetida (Hing), yoghurt, and excessive fennel.",
-    image: "/images/waypoints/rogan_josh_hero.jpg",
+    image: ERA_PHOTO.rogan_josh_hero,
     generationRecipe: {
       recipeName: "Pandit Spiced Rogan Josh",
       historicalCookware: "Heavy brass degchi",
@@ -489,7 +508,7 @@ export const ROGAN_JOSH_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Crown Jewel of the 36-Course Wazwan",
     shortDescription:
       "Recognized globally as one of the finest braised meat dishes in gastronomy. Served steaming over fragrant long-grain walnut-oil rice with saffron kehwa on the side.",
-    image: "/images/waypoints/rogan_josh_hero.jpg",
+    image: ERA_PHOTO.rogan_josh_hero,
     generationRecipe: {
       recipeName: "Master Wazwan Rogan Josh Formulation",
       historicalCookware: "Heavy copper or brass handi",
@@ -524,7 +543,7 @@ export const LITTI_CHOKHA_GENERATIONS: GenerationWaypoint[] = [
     headline: "Roasted Bengal Gram & Magadhan Military Rations",
     shortDescription:
       "Sattu (roasted Bengal gram flour) was the ultimate long-lasting military ration of the Magadha Empire. Monks and soldiers packed dry sattu bags across ancient trade routes, mixing it with river water and wild rock salt.",
-    image: "/images/waypoints/ancient_grains.jpg",
+    image: ERA_PHOTO.ancient_grains,
     generationRecipe: {
       recipeName: "Ancient Sattu Pinda",
       historicalCookware: "Dry clay storage jars",
@@ -544,7 +563,7 @@ export const LITTI_CHOKHA_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Whole Wheat Shell & Cow-Dung Embers",
     shortDescription:
       "Peasant farmers encased spiced sattu inside coarse whole-wheat flour dough, baking the spheres directly in smoldering dried cow-dung (upla/goitha) ember pits while tending fields.",
-    image: "/images/waypoints/stone_ferment.jpg",
+    image: ERA_PHOTO.stone_ferment,
     generationRecipe: {
       recipeName: "Goitha-Baked Rustic Litti",
       historicalCookware: "Open cow-dung ember pit (Goitha hearth)",
@@ -564,7 +583,7 @@ export const LITTI_CHOKHA_GENERATIONS: GenerationWaypoint[] = [
     headline: "Flame-Smoked Brinjal & New World Tomatoes",
     shortDescription:
       "The companion dish 'Chokha' was born! Large purple eggplants and newly arrived tomatoes were impaled on iron skewers and charred directly over dying flames, mashed with raw pungent mustard oil and green chillies.",
-    image: "/images/waypoints/spice_trade.jpg",
+    image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Smoked Brinjal & Tomato Chokha",
       historicalCookware: "Iron skewer & clay mashing bowl",
@@ -584,7 +603,7 @@ export const LITTI_CHOKHA_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Food of the 1857 Freedom Fighters",
     shortDescription:
       "During the 1857 rebellion, legendary 80-year-old warrior Veer Kunwar Singh used Litti as the primary battle ration. Soldiers required zero cooking utensils — only a few dried cow-dung cakes and a bag of stuffed dough.",
-    image: "/images/waypoints/litti_chokha_hero.jpg",
+    image: ERA_PHOTO.litti_chokha_hero,
     generationRecipe: {
       recipeName: "Rebel Soldier's Sustenance Litti",
       historicalCookware: "Battlefield trench ember pit",
@@ -604,7 +623,7 @@ export const LITTI_CHOKHA_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Saturated Cow Ghee Immersion",
     shortDescription:
       "When Litti entered zamindar and wealthy Bhojpuri households, the burnt ash skin was wiped with clean cotton cloths and cracked open with thumbs, submerging the piping hot litti completely into pure melted desi cow ghee.",
-    image: "/images/waypoints/litti_chokha_hero.jpg",
+    image: ERA_PHOTO.litti_chokha_hero,
     generationRecipe: {
       recipeName: "Shahi Bhojpuri Litti",
       historicalCookware: "Charcoal sigri & heavy bronze ghee vessel",
@@ -624,7 +643,7 @@ export const LITTI_CHOKHA_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Soul Food of Bihar & Global Street Icon",
     shortDescription:
       "From the bustling ghats of Patna to international street food festivals. Served in terracotta earthen platters with molten ghee pools, smoked brinjal-tomato chokha, and roasted green garlic chutney.",
-    image: "/images/waypoints/litti_chokha_hero.jpg",
+    image: ERA_PHOTO.litti_chokha_hero,
     generationRecipe: {
       recipeName: "Authentic Bihari Litti Chokha Master Formulation",
       historicalCookware: "Charcoal barbecue grill / modern oven",
@@ -660,7 +679,7 @@ export const BUTTER_CHICKEN_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Clay Tandoor & Bell-Metal Skewers",
     shortDescription:
       "In pre-partition Peshawar, Kundan Lal Gujral pioneered skewering chicken marinated in thick curd, Kashmiri chillies, and mustard oil, lowering it into a subterranean bell-shaped clay oven (tandoor) fired by coal.",
-    image: "/images/waypoints/stone_ferment.jpg",
+    image: ERA_PHOTO.stone_ferment,
     generationRecipe: {
       recipeName: "Original Peshawari Tandoori Murgh",
       historicalCookware: "Subterranean clay tandoor oven",
@@ -680,7 +699,7 @@ export const BUTTER_CHICKEN_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Accidental Invention of Makhani Gravy",
     shortDescription:
       "Refugees from partition rebuilt their lives in Old Delhi's Daryaganj. To prevent leftover dry tandoori chicken from going to waste in the absence of refrigeration, Kundan Lal simmered it in a rich gravy of ripe tomatoes, butter, and cream.",
-    image: "/images/waypoints/spice_trade.jpg",
+    image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "First Daryaganj Murgh Makhani",
       historicalCookware: "Large tinned copper degchi",
@@ -700,7 +719,7 @@ export const BUTTER_CHICKEN_GENERATIONS: GenerationWaypoint[] = [
     headline: "Dried Fenugreek Leaves & The Silk Strainer",
     shortDescription:
       "The definitive flavor breakthrough! Rubbing sun-dried fragrant fenugreek leaves (Kasuri Methi) between palms and crushing them into the simmering gravy imparted its iconic bittersweet aroma, perfectly balancing sweet tomato acidity.",
-    image: "/images/waypoints/tawa_sizzle.jpg",
+    image: ERA_PHOTO.tawa_sizzle,
     generationRecipe: {
       recipeName: "Kasuri Methi Balanced Makhani",
       historicalCookware: "Heavy brass handi with fine mesh strainer",
@@ -720,7 +739,7 @@ export const BUTTER_CHICKEN_GENERATIONS: GenerationWaypoint[] = [
     headline: "Nehru's State Banquets & International Fame",
     shortDescription:
       "Prime Minister Jawaharlal Nehru made Moti Mahal a regular stop for visiting world leaders, including US President Richard Nixon, Jacqueline Kennedy, and the Shah of Iran. Butter Chicken became India's gastronomic ambassador.",
-    image: "/images/waypoints/butter_chicken_hero.jpg",
+    image: ERA_PHOTO.butter_chicken_hero,
     generationRecipe: {
       recipeName: "Imperial Diplomatic Butter Chicken",
       historicalCookware: "Silver-plated copper serving deg",
@@ -740,7 +759,7 @@ export const BUTTER_CHICKEN_GENERATIONS: GenerationWaypoint[] = [
     headline: "From Delhi to Glasgow & The Global Curry House",
     shortDescription:
       "Butter Chicken inspired the creation of Chicken Tikka Masala in Britain and became the single most ordered Indian curry in London, New York, Tokyo, and Sydney, spawning dozens of restaurant variations.",
-    image: "/images/waypoints/butter_chicken_hero.jpg",
+    image: ERA_PHOTO.butter_chicken_hero,
     generationRecipe: {
       recipeName: "Modern Restaurant Style Murgh Makhani",
       historicalCookware: "Heavy commercial restaurant handi",
@@ -760,7 +779,7 @@ export const BUTTER_CHICKEN_GENERATIONS: GenerationWaypoint[] = [
     headline: "The Unrivaled Velvet Icon of Global Gastronomy",
     shortDescription:
       "Today, authentic Butter Chicken is celebrated for its harmonious balance of smoky charred meat, tangy ripe tomatoes, creamy churned butter, and fragrant fenugreek aroma.",
-    image: "/images/waypoints/butter_chicken_hero.jpg",
+    image: ERA_PHOTO.butter_chicken_hero,
     generationRecipe: {
       recipeName: "Authentic Delhi Butter Chicken Master Formulation",
       historicalCookware: "Heavy-bottomed copper or enameled cast-iron handi",
@@ -799,12 +818,12 @@ function generateDynamicGenerationsForDish(dish: Dish): GenerationWaypoint[] {
   const isMeat = dish.category === "meat" || dish.category === "roast-fried";
 
   // Pick appropriate thematic image based on category
-  const img1 = "/images/waypoints/ancient_grains.jpg";
-  const img2 = isFermented ? "/images/waypoints/stone_ferment.jpg" : "/images/waypoints/spice_trade.jpg";
-  const img3 = "/images/waypoints/spice_trade.jpg";
-  const img4 = isCurry ? "/images/waypoints/rogan_josh_hero.jpg" : isBread ? "/images/waypoints/litti_chokha_hero.jpg" : "/images/waypoints/tawa_sizzle.jpg";
-  const img5 = isMeat ? "/images/waypoints/rogan_josh_hero.jpg" : isCurry ? "/images/waypoints/butter_chicken_hero.jpg" : "/images/waypoints/litti_chokha_hero.jpg";
-  const img6 = isMeat ? "/images/waypoints/rogan_josh_hero.jpg" : isCurry ? "/images/waypoints/butter_chicken_hero.jpg" : isRice ? "/images/waypoints/biryani_royal_hero.jpg" : "/images/waypoints/litti_chokha_hero.jpg";
+  const img1 = ERA_PHOTO.ancient_grains;
+  const img2 = isFermented ? ERA_PHOTO.stone_ferment : ERA_PHOTO.spice_trade;
+  const img3 = ERA_PHOTO.spice_trade;
+  const img4 = isCurry ? ERA_PHOTO.rogan_josh_hero : isBread ? ERA_PHOTO.litti_chokha_hero : ERA_PHOTO.tawa_sizzle;
+  const img5 = isMeat ? ERA_PHOTO.rogan_josh_hero : isCurry ? ERA_PHOTO.butter_chicken_hero : ERA_PHOTO.litti_chokha_hero;
+  const img6 = isMeat ? ERA_PHOTO.rogan_josh_hero : isCurry ? ERA_PHOTO.butter_chicken_hero : isRice ? ERA_PHOTO.biryani_royal_hero : ERA_PHOTO.litti_chokha_hero;
 
   const ing1 = dish.ingredients[0] || "Regional Harvest Staple";
   const ing2 = dish.ingredients[1] || "Indigenous Spices";
@@ -955,7 +974,9 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
     generations = generateDynamicGenerationsForDish(dish);
   }
 
-  const verifiedImage = VERIFIED_DISH_IMAGES[dishId];
+  // Prefer the verified, full-resolution credited photograph for the final act.
+  const plated = getDishPhotography(dishId)?.plated;
+  const verifiedImage = plated ? photoUrl(plated.src, 1280) : VERIFIED_DISH_IMAGES[dishId];
   if (!verifiedImage || generations.length === 0) return generations;
 
   return generations.map((generation, index) =>

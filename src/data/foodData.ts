@@ -8,7 +8,16 @@ export interface Dish {
   alternateName?: string;
   state: string;
   regionClassification?: "State" | "Union Territory";
-  category: "grain-bread" | "curry-stew" | "fermented-steamed" | "roast-fried" | "sweet-dessert" | "beverage";
+  category:
+    | "grain-bread"
+    | "curry-stew"
+    | "fermented-steamed"
+    | "roast-fried"
+    | "sweet-dessert"
+    | "beverage"
+    | "meat"
+    | "snack"
+    | "rice";
   description: string;
   ingredients: string[];
   tasteProfile: string;
