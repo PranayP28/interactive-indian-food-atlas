@@ -1,0 +1,78 @@
+{
+  "verifiedOn": "2026-11-02T14:28:51Z",
+  "policy": "Only CC0 / PD / CC BY / CC BY-SA files with a matching live licence are mirrored.",
+  "checks": [
+    {
+      "id": "siddu",
+      "stage": "method",
+      "status": "existing",
+      "local": "/images/dishes/siddu-stage-3.webp"
+    },
+    {
+      "id": "siddu",
+      "stage": "plated",
+      "status": "existing",
+      "local": "/images/dishes/siddu-stage-4.webp"
+    },
+    {
+      "id": "bebinca",
+      "stage": "plated",
+      "status": "existing",
+      "local": "/images/dishes/bebinca-stage-4.webp"
+    },
+    {
+      "id": "spice-street",
+      "stage": "spice-street",
+      "status": "existing",
+      "local": "/images/context/spice-street.webp"
+    },
+    {
+      "id": "spice-market",
+      "stage": "spice-market",
+      "status": "existing",
+      "local": "/images/context/spice-market.webp"
+    },
+    {
+      "id": "spice-bowls",
+      "stage": "spice-bowls",
+      "status": "existing",
+      "local": "/images/context/spice-bowls.webp"
+    },
+    {
+      "id": "spice-palette",
+      "stage": "spice-palette",
+      "status": "existing",
+      "local": "/images/context/spice-palette.webp"
+    },
+    {
+      "id": "grindstone",
+      "stage": "grindstone",
+      "status": "existing",
+      "local": "/images/context/grindstone.webp"
+    },
+    {
+      "id": "tandoor",
+      "stage": "tandoor",
+      "status": "existing",
+      "local": "/images/context/tandoor.webp"
+    },
+    {
+      "id": "steam",
+      "stage": "steam",
+      "status": "existing",
+      "local": "/images/context/steam.webp"
+    },
+    {
+      "id": "banana-leaf",
+      "stage": "banana-leaf",
+      "status": "existing",
+      "local": "/images/context/banana-leaf.webp"
+    },
+    {
+      "id": "kebab-griddle",
+      "stage": "kebab-griddle",
+      "status": "existing",
+      "local": "/images/context/kebab-griddle.webp"
+    }
+  ]
+}

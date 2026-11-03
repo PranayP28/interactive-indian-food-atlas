@@ -1,4 +1,5 @@
-import { useState, useMemo, useCallback, useEffect } from "react";
+import { useState, useMemo, useCallback, useEffect, useRef } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import {
   UtensilsCrossed,
   MapPin,
@@ -25,9 +26,11 @@ import {
   getTasteColor,
   StateFood,
   Dish,
+  getAllDishes,
 } from "./data/foodData";
 import { useTheme } from "./context/ThemeContext";
 import { ThemeToggle } from "./components/ui/ThemeToggle";
+import { DishThumb } from "./components/photography/DishThumb";
 
 export default function App() {
   const { isLight } = useTheme();
@@ -39,9 +42,12 @@ export default function App() {
   const [selectedState, setSelectedState] = useState<string | null>(null);
   const [hoveredState, setHoveredState] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [selectedTaste, setSelectedTaste] = useState<string | null>(null);
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
+  const searchContainerRef = useRef<HTMLDivElement>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
   // Hash-based URL routing: #/dish/:dishId
   useEffect(() => {
@@ -63,6 +69,17 @@ export default function App() {
     return () => window.removeEventListener("hashchange", handleHashChange);
   }, []);
 
+  useEffect(() => {
+    const handlePointerDown = (event: PointerEvent) => {
+      if (!searchContainerRef.current?.contains(event.target as Node)) {
+        setIsSearchOpen(false);
+      }
+    };
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    return () => document.removeEventListener("pointerdown", handlePointerDown);
+  }, []);
+
   const navigateToDish = useCallback((dishId: string) => {
     window.location.hash = `/dish/${dishId}`;
     setActiveDishId(dishId);
@@ -76,6 +93,13 @@ export default function App() {
 
   // All available states in food data
   const stateNames = useMemo(() => Object.keys(FOOD_DATA), []);
+  const regionStateNames = useMemo(() => {
+    const region = selectedRegion ? CULINARY_REGIONS[selectedRegion] : null;
+    if (!region) return stateNames;
+
+    const regionNames = new Set(region.states.map((name) => name.trim().toLowerCase()));
+    return stateNames.filter((name) => regionNames.has(name.toLowerCase()));
+  }, [stateNames, selectedRegion]);
 
   // Filtered states based on search, region, and taste
   const filteredStates = useMemo(() => {
@@ -84,9 +108,7 @@ export default function App() {
       if (!data) return false;
 
       // Region filter
-      if (selectedRegion && CULINARY_REGIONS[selectedRegion]) {
-        if (!CULINARY_REGIONS[selectedRegion].states.includes(name)) return false;
-      }
+      if (!regionStateNames.includes(name)) return false;
 
       // Taste profile filter
       if (selectedTaste) {
@@ -111,28 +133,93 @@ export default function App() {
 
       return true;
     });
-  }, [stateNames, selectedRegion, selectedTaste, searchQuery]);
+  }, [stateNames, regionStateNames, selectedTaste, searchQuery]);
+
+  const browseStates = useMemo(
+    () =>
+      regionStateNames.filter(
+        (name) =>
+          !selectedTaste ||
+          FOOD_DATA[name]?.dishes.some((dish) =>
+            dish.tasteProfile.toLowerCase().includes(selectedTaste.toLowerCase())
+          )
+      ),
+    [regionStateNames, selectedTaste]
+  );
+
+  const normalizedSearchQuery = searchQuery.trim().toLowerCase();
+  const stateSuggestions = useMemo(
+    () =>
+      normalizedSearchQuery
+        ? filteredStates
+            .filter((name) => name.toLowerCase().includes(normalizedSearchQuery))
+            .slice(0, 8)
+        : [],
+    [filteredStates, normalizedSearchQuery]
+  );
+  const dishSuggestions = useMemo(
+    () =>
+      normalizedSearchQuery
+        ? getAllDishes()
+            .filter((dish) => {
+              const matchesRegion = regionStateNames.includes(dish.state);
+              const matchesTaste =
+                !selectedTaste ||
+                dish.tasteProfile.toLowerCase().includes(selectedTaste.toLowerCase());
+              const matchesSearch =
+                dish.name.toLowerCase().includes(normalizedSearchQuery) ||
+                (dish.alternateName || "").toLowerCase().includes(normalizedSearchQuery) ||
+                dish.ingredients.some((ingredient) =>
+                  ingredient.toLowerCase().includes(normalizedSearchQuery)
+                ) ||
+                dish.tasteProfile.toLowerCase().includes(normalizedSearchQuery);
+              return matchesRegion && matchesTaste && matchesSearch;
+            })
+            .slice(0, 5)
+        : [],
+    [normalizedSearchQuery, regionStateNames, selectedTaste]
+  );
 
   // Current state data
   const stateData: StateFood | null = selectedState ? FOOD_DATA[selectedState] ?? null : null;
 
   // Next and previous state navigation
-  const currentIndex = selectedState ? stateNames.indexOf(selectedState) : -1;
+  const currentIndex = selectedState ? browseStates.indexOf(selectedState) : -1;
   const handlePrevState = useCallback(() => {
-    if (currentIndex > 0) {
-      setSelectedState(stateNames[currentIndex - 1]);
-    } else {
-      setSelectedState(stateNames[stateNames.length - 1]);
-    }
-  }, [currentIndex, stateNames]);
+    if (!browseStates.length) return;
+    setSelectedState(browseStates[currentIndex > 0 ? currentIndex - 1 : browseStates.length - 1]);
+  }, [currentIndex, browseStates]);
 
   const handleNextState = useCallback(() => {
-    if (currentIndex >= 0 && currentIndex < stateNames.length - 1) {
-      setSelectedState(stateNames[currentIndex + 1]);
-    } else {
-      setSelectedState(stateNames[0]);
-    }
-  }, [currentIndex, stateNames]);
+    if (!browseStates.length) return;
+    setSelectedState(browseStates[(currentIndex + 1) % browseStates.length]);
+  }, [currentIndex, browseStates]);
+
+  const handleRegionSelect = useCallback(
+    (regionKey: string | null) => {
+      setSelectedRegion(regionKey);
+      if (regionKey && selectedState && !CULINARY_REGIONS[regionKey]?.states.some(
+        (name) => name.toLowerCase() === selectedState.toLowerCase()
+      )) {
+        setSelectedState(null);
+      }
+    },
+    [selectedState]
+  );
+
+  const handleMapStateSelect = useCallback(
+    (stateName: string | null) => {
+      if (
+        stateName &&
+        selectedRegion &&
+        !regionStateNames.some((name) => name.toLowerCase() === stateName.toLowerCase())
+      ) {
+        return;
+      }
+      setSelectedState(stateName);
+    },
+    [regionStateNames, selectedRegion]
+  );
 
   // Taste tags for quick filtering
   const tasteFilters = [
@@ -163,7 +250,7 @@ export default function App() {
     >
       {/* ── HEADER ── */}
       <header
-        className={`flex-shrink-0 px-4 md:px-6 py-3 flex items-center justify-between shadow-2xl z-30 transition-colors duration-300 border-b ${
+      className={`flex-shrink-0 px-4 md:px-6 py-3 flex flex-wrap md:flex-nowrap items-center justify-between gap-y-3 shadow-2xl z-50 overflow-visible transition-colors duration-300 border-b ${
           isLight
             ? "bg-gradient-to-r from-amber-100 via-[#fdfbf7] to-orange-100 border-amber-900/15 shadow-amber-950/5 text-slate-800"
             : "bg-gradient-to-r from-amber-950 via-slate-900 to-orange-950 border-amber-900/40 text-slate-100"
@@ -198,21 +285,59 @@ export default function App() {
                 isLight ? "text-amber-900/80" : "text-amber-300/80"
               }`}
             >
-              33 Intended Regions · Top 2 Signature Dishes Per State · 66 Historical Journeys
+              {stateNames.length} Regions · 3 Dishes Per State · {getAllDishes().length} Historical Journeys
             </p>
           </div>
         </div>
 
         {/* Global Search Bar */}
-        <div className="flex-1 max-w-xs md:max-w-md mx-4 hidden md:block">
+        <div
+          ref={searchContainerRef}
+          className="relative z-50 order-3 md:order-2 basis-full md:basis-auto flex-1 max-w-none md:max-w-md mx-0 md:mx-4 overflow-visible"
+        >
           <div className="relative">
-            <Search className="w-4 h-4 text-amber-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
+            <button
+              type="button"
+              onClick={() => {
+                searchInputRef.current?.focus();
+                setIsSearchOpen(Boolean(searchQuery.trim()));
+              }}
+              aria-label="Focus search"
+              className="absolute left-3.5 top-1/2 -translate-y-1/2 text-amber-500"
+            >
+              <Search className="w-4 h-4" />
+            </button>
             <input
+              ref={searchInputRef}
               type="text"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Search states, dishes (e.g. Biryani, Dosa), or spices..."
-              className={`w-full text-xs sm:text-sm pl-10 pr-9 py-1.5 rounded-xl border focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500/20 transition-all ${
+              onFocus={() => setIsSearchOpen(Boolean(searchQuery.trim()))}
+              onChange={(e) => {
+                const value = e.target.value;
+                setSearchQuery(value);
+                setIsSearchOpen(Boolean(value.trim()));
+                if (value.trim() && selectedState) setSelectedState(null);
+              }}
+              onKeyDown={(event) => {
+                if (event.key === "Escape") {
+                  setIsSearchOpen(false);
+                } else if (event.key === "Enter") {
+                  const state = stateSuggestions[0];
+                  if (state) {
+                    setSelectedState(state);
+                    setSearchQuery(state);
+                    setIsSearchOpen(false);
+                  } else if (dishSuggestions[0]) {
+                    setIsSearchOpen(false);
+                    navigateToDish(dishSuggestions[0].id);
+                  }
+                }
+              }}
+              aria-label="Search states, dishes or spices"
+              aria-autocomplete="list"
+              aria-expanded={isSearchOpen && Boolean(normalizedSearchQuery)}
+              placeholder="Search dishes, states or spices..."
+              className={`w-full text-xs sm:text-sm pl-10 pr-9 py-2 rounded-xl border focus:outline-none focus:border-amber-500 focus:ring-2 focus:ring-amber-500/20 transition-all ${
                 isLight
                   ? "bg-white text-slate-900 placeholder-slate-400 border-amber-900/20 shadow-sm"
                   : "bg-slate-900/90 text-slate-100 placeholder-slate-400 border-slate-700/80 shadow-inner"
@@ -220,13 +345,102 @@ export default function App() {
             />
             {searchQuery && (
               <button
-                onClick={() => setSearchQuery("")}
+                type="button"
+                aria-label="Clear search"
+                onClick={() => {
+                  setSearchQuery("");
+                  setIsSearchOpen(false);
+                  searchInputRef.current?.focus();
+                }}
                 className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600"
               >
                 <X className="w-3.5 h-3.5" />
               </button>
             )}
           </div>
+          <AnimatePresence>
+            {isSearchOpen && normalizedSearchQuery && (
+              <motion.div
+                initial={{ opacity: 0, y: -6, scale: 0.98 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, y: -6, scale: 0.98 }}
+                transition={{ duration: 0.16, ease: "easeOut" }}
+                className={`absolute left-0 right-0 top-full mt-2 max-h-[min(70vh,24rem)] overflow-y-auto rounded-xl border shadow-2xl z-[60] scrollbar-thin ${
+                  isLight
+                    ? "bg-white border-amber-200 text-slate-800 shadow-amber-950/15"
+                    : "bg-slate-900 border-amber-500/30 text-slate-100 shadow-black/50"
+                }`}
+                role="listbox"
+                aria-label="Search suggestions"
+              >
+                {stateSuggestions.length > 0 && (
+                  <div className="p-2">
+                    <p className={`px-2 py-1 text-[10px] font-bold uppercase tracking-wider ${isLight ? "text-amber-800" : "text-amber-400"}`}>
+                      States
+                    </p>
+                    {stateSuggestions.map((name) => (
+                      <button
+                        key={name}
+                        type="button"
+                        role="option"
+                        aria-selected={false}
+                        onClick={() => {
+                          setSelectedState(name);
+                          setSearchQuery(name);
+                          setIsSearchOpen(false);
+                        }}
+                        className={`flex w-full items-center gap-2 rounded-lg px-3 py-2 text-left text-sm font-semibold transition-colors ${
+                          isLight
+                            ? "hover:bg-amber-50 focus:bg-amber-50"
+                            : "hover:bg-amber-500/10 focus:bg-amber-500/10"
+                        }`}
+                      >
+                        <span aria-hidden="true">{STATE_EMOJIS[name] || "🍲"}</span>
+                        <span>{name}</span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+                {dishSuggestions.length > 0 && (
+                  <div className={`p-2 ${stateSuggestions.length ? "border-t" : ""} ${isLight ? "border-amber-100" : "border-slate-700"}`}>
+                    <p className={`px-2 py-1 text-[10px] font-bold uppercase tracking-wider ${isLight ? "text-amber-800" : "text-amber-400"}`}>
+                      Dishes
+                    </p>
+                    {dishSuggestions.map((dish) => (
+                      <button
+                        key={dish.id}
+                        type="button"
+                        role="option"
+                        aria-selected={false}
+                        onClick={() => {
+                          setIsSearchOpen(false);
+                          navigateToDish(dish.id);
+                        }}
+                        className={`flex w-full items-center justify-between gap-2 rounded-lg px-3 py-2 text-left transition-colors ${
+                          isLight
+                            ? "hover:bg-amber-50 focus:bg-amber-50"
+                            : "hover:bg-amber-500/10 focus:bg-amber-500/10"
+                        }`}
+                      >
+                        <span className="min-w-0">
+                          <span className="block truncate text-sm font-semibold">{dish.name}</span>
+                          <span className={`block truncate text-[11px] ${isLight ? "text-slate-500" : "text-slate-400"}`}>
+                            {dish.state}
+                          </span>
+                        </span>
+                        <ChevronRight className="h-4 w-4 shrink-0 text-amber-500" />
+                      </button>
+                    ))}
+                  </div>
+                )}
+                {stateSuggestions.length === 0 && dishSuggestions.length === 0 && (
+                  <p className={`px-4 py-3 text-sm ${isLight ? "text-slate-600" : "text-slate-300"}`}>
+                    No results found
+                  </p>
+                )}
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
 
         {/* Right CTA & Theme Toggle */}
@@ -248,7 +462,7 @@ export default function App() {
 
       {/* ── FILTER & REGION BAR ── */}
       <div
-        className={`flex-shrink-0 backdrop-blur-md border-b px-4 md:px-6 py-2 flex items-center justify-between gap-4 text-xs overflow-x-auto z-20 scrollbar-thin transition-colors ${
+        className={`flex-shrink-0 backdrop-blur-md border-b px-4 md:px-6 py-2 flex items-center justify-between gap-4 text-xs overflow-x-auto z-40 scrollbar-thin transition-colors ${
           isLight
             ? "bg-[#f7f3ea]/90 border-amber-900/10 text-slate-700"
             : "bg-slate-950/80 border-slate-800/80 text-slate-300"
@@ -264,7 +478,8 @@ export default function App() {
             Regions:
           </span>
           <button
-            onClick={() => setSelectedRegion(null)}
+            onClick={() => handleRegionSelect(null)}
+            aria-pressed={selectedRegion === null}
             className={`px-2.5 py-1 rounded-lg font-medium transition-all ${
               selectedRegion === null
                 ? "bg-amber-500 text-amber-950 font-bold shadow-sm"
@@ -278,7 +493,8 @@ export default function App() {
           {Object.entries(CULINARY_REGIONS).map(([key, region]) => (
             <button
               key={key}
-              onClick={() => setSelectedRegion(selectedRegion === key ? null : key)}
+              onClick={() => handleRegionSelect(key)}
+              aria-pressed={selectedRegion === key}
               className={`px-2.5 py-1 rounded-lg font-medium transition-all whitespace-nowrap ${
                 selectedRegion === key
                   ? "bg-amber-500 text-amber-950 font-bold shadow-sm"
@@ -322,28 +538,33 @@ export default function App() {
       </div>
 
       {/* ── MAIN CONTENT: 3D MAP & FOOD EXPLORER ── */}
-      <div className="flex flex-1 overflow-hidden relative">
+      <div className="flex flex-1 flex-col overflow-hidden relative md:flex-row">
         {/* ── LEFT: 3D MAP VIEWPORT ── */}
         <div
-          className={`relative transition-all duration-300 ease-in-out h-full overflow-hidden ${
-            isSidebarCollapsed ? "w-full" : "w-full md:w-[60%] lg:w-[63%]"
+          className={`relative transition-all duration-300 ease-in-out overflow-hidden flex-shrink-0 ${
+            isSidebarCollapsed
+              ? "h-full w-full"
+              : "h-[58%] w-full md:h-full md:w-[60%] lg:w-[63%]"
           }`}
         >
           <IndiaMap3D
             selectedState={selectedState}
-            onSelectState={setSelectedState}
+            onSelectState={handleMapStateSelect}
             hoveredState={hoveredState}
             onHoverState={setHoveredState}
             searchFilter={searchQuery}
+            activeRegionStates={selectedRegion ? regionStateNames : null}
+            filteredStateNames={filteredStates}
+            hasActiveStateFilter={Boolean(normalizedSearchQuery || selectedTaste)}
             isSidebarCollapsed={isSidebarCollapsed}
             onToggleSidebar={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
           />
         </div>
 
-        {/* ── RIGHT: FOOD EXPLORER PANEL (REDUCED TO MAX 2 FOODS PER STATE) ── */}
+        {/* ── RIGHT: FOOD EXPLORER PANEL (3 SIGNATURE DISHES PER STATE) ── */}
         {!isSidebarCollapsed && (
           <div
-            className={`w-full md:w-[40%] lg:w-[37%] flex flex-col overflow-hidden border-l shadow-2xl z-10 transition-all duration-300 ${
+            className={`h-[42%] min-h-0 w-full flex flex-col overflow-hidden border-t shadow-2xl z-10 transition-all duration-300 md:h-full md:w-[40%] md:border-l md:border-t-0 lg:w-[37%] ${
               isLight
                 ? "bg-[#faf7f2] border-amber-900/15 text-slate-800 shadow-amber-950/5"
                 : "bg-slate-900 border-slate-800/80 text-slate-100"
@@ -368,7 +589,7 @@ export default function App() {
                       isLight ? "text-slate-600" : "text-slate-300"
                     }`}
                   >
-                    Curated to exactly two signature iconic dishes per state. Orbit the 3D map or click any dish to launch its chronological 3D transformation experience.
+                    Explore signature dishes from every state and union territory. Orbit the 3D map or choose a dish to open its chronological 3D transformation experience.
                   </p>
                 </div>
 
@@ -470,28 +691,38 @@ export default function App() {
                 {/* State Quick Browser */}
                 <div className="space-y-2">
                   <h3
-                    className={`text-xs font-bold uppercase tracking-wider flex items-center justify-between ${
+                    className={`text-xs font-bold uppercase tracking-wider ${
                       isLight ? "text-slate-600" : "text-slate-400"
                     }`}
                   >
-                    <span>Select a Region to Explore ({filteredStates.length})</span>
+                    {normalizedSearchQuery
+                      ? "Matching States"
+                      : "Select a Region to Explore"} ({filteredStates.length})
                   </h3>
-                  <div className="grid grid-cols-2 gap-1.5 max-h-56 overflow-y-auto scrollbar-thin pr-1">
-                    {filteredStates.map((name) => (
-                      <button
-                        key={name}
-                        onClick={() => setSelectedState(name)}
-                        className={`px-2.5 py-1.5 rounded-lg text-xs font-medium text-left truncate flex items-center gap-1.5 border transition-all ${
-                          isLight
-                            ? "bg-white hover:bg-amber-50 text-slate-800 border-amber-900/10 shadow-sm"
-                            : "bg-slate-800/80 hover:bg-slate-750 text-slate-300 hover:text-white border-slate-750/60"
-                        }`}
-                      >
-                        <span>{STATE_EMOJIS[name] || "🍲"}</span>
-                        <span className="truncate">{name}</span>
-                      </button>
-                    ))}
-                  </div>
+                  {filteredStates.length === 0 ? (
+                    <div className={`text-center py-6 px-3 rounded-xl border ${isLight ? "bg-amber-50 border-amber-200 text-slate-600" : "bg-slate-800/60 border-slate-700 text-slate-400"}`}>
+                      <Search className={`w-8 h-8 mx-auto mb-2 ${isLight ? "text-amber-400" : "text-slate-500"}`} />
+                      <p className="text-xs font-semibold">No matches found</p>
+                      <p className="text-[11px] mt-1 text-slate-500">Try adjusting the region or flavor filters</p>
+                    </div>
+                  ) : (
+                    <div className="grid grid-cols-2 gap-1.5 max-h-56 overflow-y-auto scrollbar-thin pr-1">
+                      {filteredStates.map((name) => (
+                        <button
+                          key={name}
+                          onClick={() => setSelectedState(name)}
+                          className={`px-2.5 py-1.5 rounded-lg text-xs font-medium text-left truncate flex items-center gap-1.5 border transition-all ${
+                            isLight
+                              ? "bg-white hover:bg-amber-50 text-slate-800 border-amber-900/10 shadow-sm"
+                              : "bg-slate-800/80 hover:bg-slate-750 text-slate-300 hover:text-white border-slate-750/60"
+                          }`}
+                        >
+                          <span>{STATE_EMOJIS[name] || "🍲"}</span>
+                          <span className="truncate">{name}</span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ) : (
@@ -537,7 +768,7 @@ export default function App() {
                         isLight ? "text-slate-500" : "text-slate-400"
                       }`}
                     >
-                      {currentIndex + 1} of {stateNames.length}
+                      {currentIndex + 1} of {browseStates.length}
                     </span>
                     <button
                       onClick={handleNextState}
@@ -612,14 +843,14 @@ export default function App() {
                   </div>
                 </div>
 
-                {/* Dishes Scrollable List (Exactly top 2 signature foods) */}
+                {/* Dishes Scrollable List (three per state, two per union territory) */}
                 <div className="flex-1 overflow-y-auto p-5 space-y-4 scrollbar-thin">
                   <div
                     className={`text-[11px] uppercase tracking-widest font-bold flex items-center justify-between ${
                       isLight ? "text-slate-600" : "text-slate-400"
                     }`}
                   >
-                    <span>Top 2 Signature Dishes</span>
+                    <span>Signature Dishes of {selectedState}</span>
                     <span className={isLight ? "text-amber-800" : "text-amber-400"}>
                       Click to Explore 3D Story
                     </span>
@@ -635,6 +866,9 @@ export default function App() {
                           : "bg-slate-850/90 hover:bg-slate-800 border-slate-750 hover:border-amber-400 text-slate-100"
                       }`}
                     >
+                      {/* Dish photograph (only ever a verified, credited photo) */}
+                      <DishThumb dishId={dish.id} className="mb-3" />
+
                       {/* Top Pilot Badge */}
                       {dish.hasPilot3D && (
                         <div className="absolute top-0 right-0 bg-gradient-to-l from-amber-500 to-orange-600 text-slate-950 font-black text-[9px] px-3 py-0.5 rounded-bl-xl shadow-md uppercase tracking-wider">

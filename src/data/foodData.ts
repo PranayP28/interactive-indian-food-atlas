@@ -2,13 +2,24 @@
 // TYPE DEFINITIONS & FOOD ATLAS DATA
 // ─────────────────────────────────────────────
 
+import { ADDITIONAL_DISHES } from "./additionalDishes";
+
 export interface Dish {
   id: string;
   name: string;
   alternateName?: string;
   state: string;
   regionClassification?: "State" | "Union Territory";
-  category: "grain-bread" | "curry-stew" | "fermented-steamed" | "roast-fried" | "sweet-dessert" | "beverage";
+  category:
+    | "grain-bread"
+    | "curry-stew"
+    | "fermented-steamed"
+    | "roast-fried"
+    | "sweet-dessert"
+    | "beverage"
+    | "meat"
+    | "snack"
+    | "rice";
   description: string;
   ingredients: string[];
   tasteProfile: string;
@@ -96,9 +107,10 @@ export const STATE_EMOJIS: Record<string, string> = {
   Delhi: "🍢",
   "Andaman and Nicobar Islands": "🦐",
   Puducherry: "🍲",
+  Lakshadweep: "🐟",
 };
 
-export const FOOD_DATA: Record<string, StateFood> = {
+const BASE_FOOD_DATA: Record<string, StateFood> = {
   "Andhra Pradesh": {
     tagline: "Land of fire and spice — India's spiciest cuisine",
     classification: "State",
@@ -887,7 +899,7 @@ export const FOOD_DATA: Record<string, StateFood> = {
         state: "Uttar Pradesh",
         category: "roast-fried",
         description: "Legendary melt-in-the-mouth smoked minced meat patties infused with 160 secret botanical aromatics, raw green papaya tenderizer, and pure ghee, originally created for toothless Nawab Asad-ud-Daula.",
-        ingredients: ["Finely ground meat", "Raw green papaya", "Potli masala (160 spices)", "Pure desi ghee", "Rose water", "Saffron"],
+        ingredients: ["Raw green papaya", "Potli masala (160 spices)", "Pure desi ghee", "Rose water", "Saffron"],
         tasteProfile: "Velvety, Aromatic & Deeply Spiced",
         era: "1784 CE (Court of Nawab Asad-ud-Daula, Lucknow)",
         keyTechnique: "Multiple Sil-Batta Grindings, Smoke Infusion (Dhungar) & Mahi Tawa Griddling",
@@ -1093,6 +1105,37 @@ export const FOOD_DATA: Record<string, StateFood> = {
     ],
   },
 
+  Lakshadweep: {
+    tagline: "Atoll kitchens shaped by tuna, rice and coconut",
+    classification: "Union Territory",
+    dishes: [
+      {
+        id: "lakshadweep-kilanji",
+        name: "Kilanji",
+        alternateName: "Lakshadweep Rice Crepe",
+        state: "Lakshadweep",
+        category: "grain-bread",
+        description: "A delicate rice-flour crepe from Lakshadweep, cooked thin on a hot griddle and served with coconut milk or a lightly spiced accompaniment.",
+        ingredients: ["Rice flour", "Coconut milk", "Water", "Salt"],
+        tasteProfile: "Mild, Soft & Coconut-Fragrant",
+        era: "Lakshadweep household tradition; no securely dated first written reference",
+        keyTechnique: "Fine Rice-Batter Griddle Cooking",
+      },
+      {
+        id: "lakshadweep-tuna-curry",
+        name: "Lakshadweep Tuna Curry",
+        alternateName: "Island Tuna and Coconut Curry",
+        state: "Lakshadweep",
+        category: "curry-stew",
+        description: "Fresh tuna simmered with coconut, curry leaves and local aromatics, reflecting the atoll's close relationship with the Arabian Sea.",
+        ingredients: ["Tuna", "Coconut", "Curry leaves", "Green chilli", "Turmeric", "Salt"],
+        tasteProfile: "Savory, Coastal & Gently Spiced",
+        era: "Lakshadweep island cooking tradition; no securely dated first written reference",
+        keyTechnique: "Gentle Coconut-Broth Simmer",
+      },
+    ],
+  },
+
   Puducherry: {
     tagline: "French Creole elegance meets coastal Tamil heritage",
     classification: "Union Territory",
@@ -1179,9 +1222,20 @@ export const CULINARY_REGIONS: Record<string, { name: string; states: string[]; 
     name: "Island Territories",
     description: "Pristine ocean catch, wild pepper, virgin coconut oil & indigenous mangrove coastal harvest",
     color: "#14b8a6",
-    states: ["Andaman and Nicobar Islands"],
+    states: ["Andaman and Nicobar Islands", "Lakshadweep"],
   },
 };
+
+/**
+ * The original collection, plus the additional authentic dishes in
+ * additionalDishes.ts (one per state). The base entries are never modified.
+ */
+export const FOOD_DATA: Record<string, StateFood> = Object.fromEntries(
+  Object.entries(BASE_FOOD_DATA).map(([state, block]) => [
+    state,
+    { ...block, dishes: [...block.dishes, ...(ADDITIONAL_DISHES[state] ?? [])] },
+  ])
+) as Record<string, StateFood>;
 
 export function getAllDishes(): Dish[] {
   const dishes: Dish[] = [];

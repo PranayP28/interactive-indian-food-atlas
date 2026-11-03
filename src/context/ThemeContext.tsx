@@ -9,7 +9,8 @@ interface ThemeContextType {
   setTheme: (theme: AppTheme) => void;
 }
 
-const ThemeContext = createContext<ThemeContextType>({
+/** Exported for server-rendered UI smoke tests; application code uses ThemeProvider/useTheme. */
+export const ThemeContext = createContext<ThemeContextType>({
   theme: "dark",
   isLight: false,
   toggleTheme: () => {},

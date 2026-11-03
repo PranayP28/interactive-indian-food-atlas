@@ -3,3 +3,7 @@ dist/
 .vercel/
 .env
 .env.local
+
+# scratch from image research
+image-search/
+.cache/

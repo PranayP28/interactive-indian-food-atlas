@@ -13,7 +13,7 @@ import {
   CULINARY_TOUR_STOPS,
   EARTH_RADIUS,
 } from "../utils/map3dUtils";
-import { SHORT_NAMES, STATE_EMOJIS, FOOD_DATA } from "../data/foodData";
+import { SHORT_NAMES, STATE_EMOJIS } from "../data/foodData";
 import {
   Compass,
   Sun,
@@ -40,6 +40,9 @@ interface IndiaMap3DProps {
   hoveredState: string | null;
   onHoverState: (stateName: string | null) => void;
   searchFilter?: string;
+  activeRegionStates?: string[] | null;
+  filteredStateNames?: string[];
+  hasActiveStateFilter?: boolean;
   isSidebarCollapsed?: boolean;
   onToggleSidebar?: () => void;
 }
@@ -63,6 +66,9 @@ export const IndiaMap3D: React.FC<IndiaMap3DProps> = ({
   hoveredState,
   onHoverState,
   searchFilter = "",
+  activeRegionStates = null,
+  filteredStateNames = [],
+  hasActiveStateFilter = false,
   isSidebarCollapsed = false,
   onToggleSidebar,
 }) => {
@@ -81,7 +87,7 @@ export const IndiaMap3D: React.FC<IndiaMap3DProps> = ({
   const [tourIndex, setTourIndex] = useState(0);
   const [compassAngle, setCompassAngle] = useState(0);
   const [screenLabels, setScreenLabels] = useState<
-    { name: string; shortName: string; emoji: string; x: number; y: number; visible: boolean; isSelected: boolean }[]
+    { name: string; shortName: string; emoji: string; x: number; y: number; visible: boolean; isSelected: boolean; isDimmed: boolean }[]
   >([]);
 
   // Synchronize 3D Earth theme whenever global isLight mode is toggled
@@ -135,9 +141,17 @@ export const IndiaMap3D: React.FC<IndiaMap3DProps> = ({
   const hoveredStateRef = useRef<string | null>(null);
   const selectedStateRef = useRef<string | null>(null);
   const isInteractingRef = useRef(false);
+  const searchFilterRef = useRef(searchFilter);
+  const activeRegionStatesRef = useRef(activeRegionStates);
+  const filteredStateNamesRef = useRef(filteredStateNames);
+  const hasActiveStateFilterRef = useRef(hasActiveStateFilter);
 
   hoveredStateRef.current = hoveredState;
   selectedStateRef.current = selectedState;
+  searchFilterRef.current = searchFilter;
+  activeRegionStatesRef.current = activeRegionStates;
+  filteredStateNamesRef.current = filteredStateNames;
+  hasActiveStateFilterRef.current = hasActiveStateFilter;
 
   // ─────────────────────────────────────────────
   // SMOOTH CAMERA TRANSITIONS
@@ -550,6 +564,7 @@ export const IndiaMap3D: React.FC<IndiaMap3DProps> = ({
         color: new THREE.Color(colors.top),
         roughness: colors.roughness,
         metalness: colors.metalness,
+        transparent: true,
       });
 
       const mesh = new THREE.Mesh(stateObj.meshGeometry, stateMat);
@@ -614,14 +629,13 @@ export const IndiaMap3D: React.FC<IndiaMap3DProps> = ({
       for (const [name, stateGroup] of stateGroupsRef.current.entries()) {
         const isSelected = selectedStateRef.current === name;
         const isHovered = hoveredStateRef.current === name;
-        const isMatchingSearch =
-          searchFilter.trim().length > 0 &&
-          (name.toLowerCase().includes(searchFilter.toLowerCase()) ||
-            FOOD_DATA[name]?.dishes.some(
-              (d) =>
-                d.name.toLowerCase().includes(searchFilter.toLowerCase()) ||
-                d.ingredients.some((ing) => ing.toLowerCase().includes(searchFilter.toLowerCase()))
-            ));
+        const isMatchingFilter = filteredStateNamesRef.current.includes(name);
+        const isMatchingSearch = searchFilterRef.current.trim().length > 0 && isMatchingFilter;
+        const isInActiveRegion =
+          !activeRegionStatesRef.current || activeRegionStatesRef.current.includes(name);
+        const isDimmed =
+          !isInActiveRegion ||
+          (hasActiveStateFilterRef.current && !isMatchingFilter);
 
         // Target lift height
         let targetY = 0;
@@ -637,6 +651,8 @@ export const IndiaMap3D: React.FC<IndiaMap3DProps> = ({
 
         if (mesh) {
           const mat = mesh.material as THREE.MeshStandardMaterial;
+          mat.opacity = THREE.MathUtils.lerp(mat.opacity, isDimmed ? 0.2 : 1, 0.14);
+          mat.depthWrite = mat.opacity > 0.9;
           if (isSelected) {
             mat.emissive.set(0xea580c);
             mat.emissiveIntensity = 0.35;
@@ -688,6 +704,12 @@ export const IndiaMap3D: React.FC<IndiaMap3DProps> = ({
         if (container) {
           const rect = container.getBoundingClientRect();
           const labels = statesData.map((s) => {
+            const isInActiveRegion =
+              !activeRegionStatesRef.current || activeRegionStatesRef.current.includes(s.name);
+            const isMatchingFilter = filteredStateNamesRef.current.includes(s.name);
+            const isDimmed =
+              !isInActiveRegion ||
+              (hasActiveStateFilterRef.current && !isMatchingFilter);
             const stateGroup = stateGroupsRef.current.get(s.name);
             const currentY = stateGroup ? stateGroup.position.y : 0;
             const worldPos = new THREE.Vector3(s.centroid[0], s.centroid[1] + currentY + 0.3, s.centroid[2]);
@@ -710,6 +732,7 @@ export const IndiaMap3D: React.FC<IndiaMap3DProps> = ({
               y: screenY,
               visible: !isBehind && screenX > 20 && screenX < rect.width - 20 && screenY > 20 && screenY < rect.height - 20,
               isSelected: selectedStateRef.current === s.name,
+              isDimmed,
             };
           });
           setScreenLabels(labels);
@@ -1165,6 +1188,7 @@ export const IndiaMap3D: React.FC<IndiaMap3DProps> = ({
               style={{
                 left: `${lbl.x}px`,
                 top: `${lbl.y}px`,
+                opacity: lbl.isDimmed ? 0.28 : undefined,
               }}
               onClick={() => onSelectState(lbl.name)}
               onMouseEnter={() => onHoverState(lbl.name)}
