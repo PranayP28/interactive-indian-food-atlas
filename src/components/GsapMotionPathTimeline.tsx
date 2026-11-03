@@ -1,9 +1,8 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+﻿import React, { useEffect, useMemo, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {
-  Sparkles,
   Flame,
   ChefHat,
   Clock,
@@ -14,10 +13,14 @@ import {
   ExternalLink,
 } from "lucide-react";
 import { GenerationWaypoint, getGenerationsForDish } from "../data/generationRecipesData";
-import { UNRESOLVED_IMAGE, getDishPhotography, stageImageUrl } from "../data/photography";
+import {
+  UNRESOLVED_IMAGE,
+  getDishPhotography,
+} from "../data/photography";
+import type { Dish } from "../data/foodData";
 import { Skiper6Summarizer, GenerationSummaryMember } from "./ui/skiper6";
 import { useTheme } from "../context/ThemeContext";
-import { CinematicOutro, CinematicParallaxJourney, CinematicStage } from "./CinematicParallaxJourney";
+import { CinematicParallaxJourney, CinematicStage } from "./CinematicParallaxJourney";
 
 // Register GSAP plugins
 gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
@@ -25,6 +28,7 @@ gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
 interface GsapMotionPathTimelineProps {
   dishId: string;
   dishName: string;
+  dish: Dish;
   onSelectWaypoint?: (waypoint: GenerationWaypoint) => void;
 }
 
@@ -37,26 +41,24 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
   const containerRef = useRef<HTMLDivElement>(null);
   const pathRef = useRef<SVGPathElement>(null);
   const travelerRef = useRef<SVGCircleElement>(null);
-  const waypoints = useMemo(() => getGenerationsForDish(dishId), [dishId]);
+  const waypoints = useMemo(
+    () => getGenerationsForDish(dishId).filter((waypoint) => waypoint.generationNumber <= 3),
+    [dishId]
+  );
 
-  // The cinematic journey is the dish's four photographic stages — origin,
-  // ingredients, making, serving — not six epochs of borrowed era imagery.
+  // The cinematic journey uses the three shared historical stages.
   const cinematicStages: CinematicStage[] = useMemo(() => {
     const photography = getDishPhotography(dishId);
     const entries = [
       { key: "origin", numeral: "01", eyebrow: "Stage I", title: "Origin & History", photo: photography?.origin },
-      { key: "ingredients", numeral: "02", eyebrow: "Stage II", title: "Ingredients", photo: photography?.ingredients },
+      { key: "ingredients", numeral: "02", eyebrow: "Stage II", title: "Regional & Seasonal Produce", photo: photography?.ingredients },
       { key: "method", numeral: "03", eyebrow: "Stage III", title: "Recipe & Making", photo: photography?.method },
-      { key: "plated", numeral: "04", eyebrow: "Stage IV", title: "Modern Form, Serving & Recognition", photo: photography?.plated },
-    ];
-    return entries.map((entry, index) => {
-      const url = stageImageUrl(entry.photo);
-      const next = entries[index + 1];
+    ] as const;
+    return entries.map((entry) => {
       return {
         id: `${dishId}-stage-${entry.key}`,
-        image: url ?? UNRESOLVED_IMAGE,
-        imageAlt: entry.photo ? `${dishName} — ${entry.title}` : `${entry.title} — no verified photograph`,
-        secondaryImage: next ? (stageImageUrl(next.photo) ?? undefined) : undefined,
+        image: UNRESOLVED_IMAGE,
+        imageAlt: entry.photo ? `${dishName} â€” ${entry.title}` : `${entry.title} â€” no verified photograph`,
         eyebrow: entry.eyebrow,
         title: entry.title,
         tagline: entry.photo?.caption,
@@ -64,17 +66,6 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
       };
     });
   }, [dishId, dishName]);
-
-  const cinematicOutro: CinematicOutro | undefined = useMemo(() => {
-    const plated = cinematicStages[cinematicStages.length - 1];
-    if (!plated) return undefined;
-    return {
-      kicker: "The Legend Lives On",
-      title: dishName,
-      tagline: "Centuries of craft in every bite.",
-      image: plated.image,
-    };
-  }, [dishName, cinematicStages]);
 
   const [activeWaypointIdx, setActiveWaypointIdx] = useState<number>(0);
   const waypointRefs = useRef<(HTMLDivElement | null)[]>([]);
@@ -145,7 +136,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
     name: w.eraTitle,
     roleOrEra: w.centuryLabel,
     yearPeriod: w.yearRange,
-    image: w.image,
+    image: w.generationNumber === 2 ? UNRESOLVED_IMAGE : w.image,
     summary: w.shortDescription,
     keyContribution: w.technologicalLeap,
     signatureIngredient: w.generationRecipe.ingredientsList[0] || "Ancient Grain",
@@ -167,62 +158,40 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         isLight ? "bg-[#f8f5ee] text-slate-800" : "bg-[#08090e] text-slate-100"
       }`}
     >
-      {/* ── SECTION HEADER ── */}
+      {/* â”€â”€ SECTION HEADER â”€â”€ */}
       <div className="max-w-4xl mx-auto text-center mb-16 space-y-4">
-        <div className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full border text-xs font-bold tracking-widest uppercase ${
-          isLight ? "bg-amber-100 text-amber-900 border-amber-300 shadow-sm" : "bg-amber-500/10 border-amber-500/30 text-amber-300"
-        }`}>
-          <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-          <span>GSAP MotionPath • Chronological Waypoints</span>
-        </div>
-
         <h2 className={`font-cinzel font-black text-3xl sm:text-4xl md:text-5xl tracking-tight ${
           isLight ? "text-slate-900" : "text-white"
         }`}>
           The Living Evolution of {dishName}
         </h2>
-
-        <p className={`font-cormorant italic text-lg sm:text-xl max-w-2xl mx-auto ${
-          isLight ? "text-amber-900/90" : "text-amber-200/90"
-        }`}>
-          Scroll through time as an animated particle tracks through centuries of culinary metamorphosis — discover exact historical recipes, cookware, and breakthrough ingredients at each era.
-        </p>
-
-        {/* Quick Waypoint Navigation Bar */}
-        <div className="flex flex-wrap justify-center gap-2 pt-4">
-          {waypoints.map((w, idx) => (
-            <button
-              key={idx}
-              onClick={() => scrollToWaypoint(idx)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all flex items-center gap-1.5 border ${
-                idx === activeWaypointIdx
-                  ? "bg-amber-500 text-slate-950 border-amber-400 shadow-md font-bold scale-105"
-                  : isLight
-                    ? "bg-white/80 text-slate-700 border-amber-900/15 hover:bg-white hover:text-amber-900 shadow-sm"
-                    : "bg-slate-900/80 text-slate-300 border-slate-750 hover:bg-slate-800 hover:text-white"
-              }`}
-            >
-              <span className="w-1.5 h-1.5 rounded-full bg-current" />
-              <span>{w.centuryLabel}</span>
-              <span className="opacity-70 text-[10px]">({w.yearRange})</span>
-            </button>
-          ))}
-        </div>
       </div>
 
-      {/* ── CINEMATIC SCROLL-DRIVEN PARALLAX JOURNEY ── */}
+      {/* â”€â”€ CINEMATIC SCROLL-DRIVEN PARALLAX JOURNEY â”€â”€ */}
       <div className="-mx-4 sm:-mx-6 md:-mx-10 lg:-mx-16 mb-24">
         <CinematicParallaxJourney
           key={dishId}
           stages={cinematicStages}
-          label={`${dishName} · Through the Ages`}
+          label={`${dishName} Â· Through the Ages`}
           note="stage imagery: photographs chosen for this dish, each credited to its photographer"
           backdropText={dishName}
-          outro={cinematicOutro}
+          scrollMovementCount={dishId === "fara" ? 2 : undefined}
+          movementHeadings={
+            dishId === "fara"
+              ? [
+                  [
+                    "Stage I – Origins & Documented References",
+                    "Stage II – Regional & Seasonal Produce",
+                  ],
+                  ["Stage III – Traditional Technique to Modern Kitchens"],
+                ]
+              : undefined
+          }
+          scrollPerStage={dishId === "fara" ? 0.75 : 1.1}
         />
       </div>
 
-      {/* ── THE MOTIONPATH WAYPOINTS ROUTE CONTAINER ── */}
+      {/* â”€â”€ THE MOTIONPATH WAYPOINTS ROUTE CONTAINER â”€â”€ */}
       <div className="relative max-w-6xl mx-auto">
         {/* Continuous SVG MotionPath in the Background */}
         <svg
@@ -273,7 +242,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           </defs>
         </svg>
 
-        {/* ── THE WAYPOINT MILESTONE CARDS (GENERATIONS) ── */}
+        {/* â”€â”€ THE WAYPOINT MILESTONE CARDS (GENERATIONS) â”€â”€ */}
         <div className="space-y-24 relative z-20">
           {waypoints.map((waypoint, idx) => {
             const isEven = idx % 2 === 0;
@@ -285,11 +254,14 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                 ref={(el) => {
                   waypointRefs.current[idx] = el;
                 }}
-                className={`grid grid-cols-1 lg:grid-cols-12 gap-8 items-center transition-all duration-300 ${
-                  isEven ? "" : "lg:flex-row-reverse"
-                }`}
+                className="relative transition-all duration-300"
               >
-                {/* ── COLUMN 1: EXACT HIGH-RES PHOTO CARD (5 cols) ── */}
+                <div
+                    className={`grid grid-cols-1 lg:grid-cols-12 gap-8 items-center transition-all duration-300 ${
+                      isEven ? "" : "lg:flex-row-reverse"
+                    }`}
+                >
+                {/* â”€â”€ COLUMN 1: EXACT HIGH-RES PHOTO CARD (5 cols) â”€â”€ */}
                 <div
                   className={`lg:col-span-5 ${
                     isEven ? "lg:order-1" : "lg:order-2"
@@ -301,38 +273,16 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                     <img
                       src={waypoint.image}
                       alt={waypoint.headline}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+                      className="w-full h-full object-contain bg-[#07090e]"
                       onError={(event) => {
                         event.currentTarget.hidden = true;
                       }}
                     />
 
-                    {/* Gradient Vignette Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent" />
-
-                    {/* Waypoint Pill on Image */}
-                    <div className="absolute top-4 left-4 z-10 flex items-center gap-2">
-                      <span className="px-3 py-1 rounded-full bg-amber-500/95 text-slate-950 text-[10px] font-black uppercase tracking-wider shadow-lg">
-                        {waypoint.centuryLabel}
-                      </span>
-                      <span className="px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-amber-200 text-[10px] font-semibold border border-amber-500/30">
-                        {waypoint.yearRange}
-                      </span>
-                    </div>
-
-                    {/* Technological Leap Tag on Image Bottom */}
-                    <div className="absolute bottom-4 left-4 right-4 z-10">
-                      <p className="text-[10px] uppercase font-bold text-amber-400 tracking-wider">
-                        Historic Breakthrough:
-                      </p>
-                      <p className="text-xs font-semibold text-white drop-shadow-md">
-                        {waypoint.technologicalLeap}
-                      </p>
-                    </div>
                   </div>
                 </div>
 
-                {/* ── CENTER WAYPOINT MARKER (Desktop Node) ── */}
+                {/* â”€â”€ CENTER WAYPOINT MARKER (Desktop Node) â”€â”€ */}
                 <div className="hidden lg:flex lg:col-span-2 justify-center items-center lg:order-2">
                   <div
                     onClick={() => scrollToWaypoint(idx)}
@@ -348,7 +298,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                   </div>
                 </div>
 
-                {/* ── COLUMN 2: THE GENERATION RECIPE & SHORT DESCRIPTION (5 cols) ── */}
+                {/* â”€â”€ COLUMN 2: THE GENERATION RECIPE & SHORT DESCRIPTION (5 cols) â”€â”€ */}
                 <div
                   className={`lg:col-span-5 ${
                     isEven ? "lg:order-3" : "lg:order-1"
@@ -361,7 +311,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                     }`}>
                       <Compass className="w-3.5 h-3.5" />
                       <span>{waypoint.eraTitle}</span>
-                      <span>•</span>
+                      <span>â€¢</span>
                       <span className={isLight ? "text-slate-500" : "text-slate-400"}>{waypoint.yearRange}</span>
                     </div>
 
@@ -377,7 +327,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                     {waypoint.shortDescription}
                   </p>
 
-                  {/* ── THE GENERATION RECIPE BOX ── */}
+                  {/* â”€â”€ THE GENERATION RECIPE BOX â”€â”€ */}
                   <div className={`p-4 sm:p-5 rounded-2xl border shadow-xl space-y-3 ${
                     isLight
                       ? "bg-white/95 border-amber-900/15 text-slate-800 shadow-amber-950/5"
@@ -431,29 +381,6 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       </div>
                     </div>
 
-                    {/* Ingredients Available at that Century */}
-                    <div className="space-y-1">
-                      <span className={`text-[10px] uppercase font-bold tracking-wider block ${
-                        isLight ? "text-amber-900/80" : "text-slate-400"
-                      }`}>
-                        Ingredients Known in this Epoch:
-                      </span>
-                      <div className="flex flex-wrap gap-1">
-                        {waypoint.generationRecipe.ingredientsList.map((ing, i) => (
-                          <span
-                            key={i}
-                            className={`px-2 py-0.5 rounded-md text-[11px] font-medium border ${
-                              isLight
-                                ? "bg-amber-100/70 text-amber-950 border-amber-300/70"
-                                : "bg-slate-800 text-amber-100 border-slate-700"
-                            }`}
-                          >
-                            {ing}
-                          </span>
-                        ))}
-                      </div>
-                    </div>
-
                     {/* Preparation Method */}
                     <div className={`pt-2 text-xs leading-relaxed border-t ${
                       isLight ? "text-slate-700 border-amber-900/10" : "text-slate-300 border-slate-800/80"
@@ -484,17 +411,18 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                     </span>
                   </div>
                 </div>
+                  </div>
               </div>
             );
           })}
         </div>
       </div>
 
-      {/* ── AT LAST: SKIPER-UI / SKIPER6 DETAILED GENERATION SUMMARIZER ── */}
+      {/* â”€â”€ AT LAST: SKIPER-UI / SKIPER6 DETAILED GENERATION SUMMARIZER â”€â”€ */}
       <div className="max-w-6xl mx-auto mt-28">
         <Skiper6Summarizer
           title={`Chronological Epoch Summarizer: ${dishName}`}
-          subtitle={`Interactive summary matrix powered by @skiper-ui/skiper6 — hover through the 6 historical epochs to inspect breakthroughs, primary sources, and master innovations.`}
+          subtitle={`Interactive summary matrix powered by @skiper-ui/skiper6 — explore the three historical stages, their primary sources, and documented innovations.`}
           members={skiper6Members}
         />
       </div>

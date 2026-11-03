@@ -10,16 +10,21 @@
       "plated": "/images/dishes/khar-stage-4.webp"
     },
     "litti-chokha": {
-      "plated": "/images/dishes/litti-chokha-stage-4.webp"
+      "plated": "/images/dishes/litti-chokha-stage-4.webp",
+      "origin": "/images/dishes/litti-chokha-stage-1.webp",
+      "ingredients": "/images/dishes/litti-chokha-stage-2.webp",
+      "method": "/images/dishes/litti-chokha-stage-3.webp"
     },
     "thekua": {
-      "plated": "/images/dishes/thekua-stage-4.webp"
+      "plated": "/images/dishes/thekua-stage-4.webp",
+      "method": "/images/dishes/thekua-stage-3.webp"
     },
     "chhattisgarhi-chila": {
       "plated": "/images/dishes/chhattisgarhi-chila-stage-4.webp"
     },
     "goan-fish-curry": {
-      "plated": "/images/dishes/goan-fish-curry-stage-4.webp"
+      "plated": "/images/dishes/goan-fish-curry-stage-4.webp",
+      "method": "/images/dishes/goan-fish-curry-stage-3.webp"
     },
     "pork-vindaloo": {
       "plated": "/images/dishes/pork-vindaloo-stage-4.webp"
@@ -49,12 +54,15 @@
     },
     "indori-poha": {
       "plated": "/images/dishes/indori-poha-stage-4.webp",
-      "ingredients": "/images/dishes/indori-poha-stage-2.webp"
+      "ingredients": "/images/dishes/indori-poha-stage-2.webp",
+      "origin": "/images/dishes/indori-poha-stage-1.webp",
+      "method": "/images/dishes/indori-poha-stage-3.webp"
     },
     "vada-pav": {
       "plated": "/images/dishes/vada-pav-stage-4.webp",
       "method": "/images/dishes/vada-pav-stage-3.webp",
-      "ingredients": "/images/dishes/vada-pav-stage-2.webp"
+      "ingredients": "/images/dishes/vada-pav-stage-2.webp",
+      "origin": "/images/dishes/vada-pav-stage-1.webp"
     },
     "puran-poli": {
       "plated": "/images/dishes/puran-poli-stage-4.webp"
@@ -78,13 +86,22 @@
       "plated": "/images/dishes/chhena-poda-stage-4.webp"
     },
     "makki-di-roti-sarson-saag": {
-      "plated": "/images/dishes/makki-di-roti-sarson-saag-stage-4.webp"
+      "plated": "/images/dishes/makki-di-roti-sarson-saag-stage-4.webp",
+      "origin": "/images/dishes/makki-di-roti-sarson-saag-stage-1.webp",
+      "ingredients": "/images/dishes/makki-di-roti-sarson-saag-stage-2.webp",
+      "method": "/images/dishes/makki-di-roti-sarson-saag-stage-3.webp"
     },
     "butter-chicken": {
-      "plated": "/images/dishes/butter-chicken-stage-4.webp"
+      "plated": "/images/dishes/butter-chicken-stage-4.webp",
+      "origin": "/images/dishes/butter-chicken-stage-1.webp",
+      "ingredients": "/images/dishes/butter-chicken-stage-2.webp",
+      "method": "/images/dishes/butter-chicken-stage-3.webp"
     },
     "dal-baati-churma": {
-      "plated": "/images/dishes/dal-baati-churma-stage-4.webp"
+      "plated": "/images/dishes/dal-baati-churma-stage-4.webp",
+      "origin": "/images/dishes/dal-baati-churma-stage-1.webp",
+      "ingredients": "/images/dishes/dal-baati-churma-stage-2.webp",
+      "method": "/images/dishes/dal-baati-churma-stage-3.webp"
     },
     "sikkimese-momos": {
       "plated": "/images/dishes/sikkimese-momos-stage-4.webp"
@@ -93,7 +110,10 @@
       "plated": "/images/dishes/chettinad-chicken-stage-4.webp"
     },
     "idli-sambar": {
-      "plated": "/images/dishes/idli-sambar-stage-4.webp"
+      "plated": "/images/dishes/idli-sambar-stage-4.webp",
+      "origin": "/images/dishes/idli-sambar-stage-1.webp",
+      "ingredients": "/images/dishes/idli-sambar-stage-2.webp",
+      "method": "/images/dishes/idli-sambar-stage-3.webp"
     },
     "chakhwi": {
       "plated": "/images/dishes/chakhwi-stage-4.webp"
@@ -116,17 +136,29 @@
     "delhi-nihari": {
       "plated": "/images/dishes/delhi-nihari-stage-4.webp"
     },
-    "gongura-mutton": {},
+    "gongura-mutton": {
+      "ingredients": "/images/dishes/gongura-mutton-stage-2.webp"
+    },
     "pulihora": {
       "plated": "/images/dishes/pulihora-stage-4.webp"
     },
-    "thukpa": {},
-    "bamboo-shoot-pork": {},
-    "apong": {},
+    "thukpa": {
+      "plated": "/images/dishes/thukpa-stage-4.webp"
+    },
+    "bamboo-shoot-pork": {
+      "plated": "/images/dishes/bamboo-shoot-pork-stage-4.webp"
+    },
+    "apong": {
+      "origin": "/images/dishes/apong-stage-1.webp",
+      "plated": "/images/dishes/apong-stage-4.webp"
+    },
     "til-pitha": {
       "plated": "/images/dishes/til-pitha-stage-4.webp"
     },
-    "silao-khaja": {},
+    "silao-khaja": {
+      "ingredients": "/images/dishes/silao-khaja-stage-2.webp",
+      "plated": "/images/dishes/silao-khaja-stage-4.webp"
+    },
     "fara": {},
     "bafauri": {},
     "bebinca": {
@@ -142,12 +174,21 @@
     "haryanvi-churma": {
       "plated": "/images/dishes/haryanvi-churma-stage-4.webp"
     },
-    "himachali-dham": {},
-    "chana-madra": {},
+    "himachali-dham": {
+      "origin": "/images/dishes/himachali-dham-stage-1.webp",
+      "method": "/images/dishes/himachali-dham-stage-3.webp",
+      "plated": "/images/dishes/himachali-dham-stage-4.webp"
+    },
+    "chana-madra": {
+      "origin": "/images/dishes/chana-madra-stage-1.webp",
+      "plated": "/images/dishes/chana-madra-stage-4.webp"
+    },
     "pittha": {},
     "masala-dosa": {
       "method": "/images/dishes/masala-dosa-stage-3.webp",
-      "plated": "/images/dishes/masala-dosa-stage-4.webp"
+      "plated": "/images/dishes/masala-dosa-stage-4.webp",
+      "origin": "/images/dishes/masala-dosa-stage-1.webp",
+      "ingredients": "/images/dishes/masala-dosa-stage-2.webp"
     },
     "mysore-pak": {
       "plated": "/images/dishes/mysore-pak-stage-4.webp"
@@ -155,41 +196,96 @@
     "fish-molee": {
       "plated": "/images/dishes/fish-molee-stage-4.webp"
     },
-    "puttu": {},
+    "puttu": {
+      "origin": "/images/dishes/puttu-stage-1.webp",
+      "ingredients": "/images/dishes/puttu-stage-2.webp",
+      "method": "/images/dishes/puttu-stage-3.webp",
+      "plated": "/images/dishes/puttu-stage-4.webp"
+    },
     "bhutte-ka-kees": {},
-    "dal-bafla": {},
-    "ukadiche-modak": {},
+    "dal-bafla": {
+      "origin": "/images/dishes/dal-bafla-stage-1.webp",
+      "method": "/images/dishes/dal-bafla-stage-3.webp",
+      "plated": "/images/dishes/dal-bafla-stage-4.webp"
+    },
+    "ukadiche-modak": {
+      "origin": "/images/dishes/ukadiche-modak-stage-1.webp",
+      "ingredients": "/images/dishes/ukadiche-modak-stage-2.webp",
+      "method": "/images/dishes/ukadiche-modak-stage-3.webp",
+      "plated": "/images/dishes/ukadiche-modak-stage-4.webp"
+    },
     "eromba": {
       "plated": "/images/dishes/eromba-stage-4.webp"
     },
-    "chak-hao-kheer": {},
+    "chak-hao-kheer": {
+      "origin": "/images/dishes/chak-hao-kheer-stage-1.webp",
+      "plated": "/images/dishes/chak-hao-kheer-stage-4.webp"
+    },
     "dohneiiong": {
       "ingredients": "/images/dishes/dohneiiong-stage-2.webp"
     },
     "pumaloi": {},
-    "mizo-bai": {},
+    "mizo-bai": {
+      "plated": "/images/dishes/mizo-bai-stage-4.webp"
+    },
     "vawksa-rep": {},
     "galho": {},
     "zutho": {},
-    "pakhala": {},
-    "amritsari-kulcha": {},
-    "laal-maas": {},
+    "pakhala": {
+      "origin": "/images/dishes/pakhala-stage-1.webp",
+      "ingredients": "/images/dishes/pakhala-stage-2.webp",
+      "method": "/images/dishes/pakhala-stage-3.webp",
+      "plated": "/images/dishes/pakhala-stage-4.webp"
+    },
+    "amritsari-kulcha": {
+      "origin": "/images/dishes/amritsari-kulcha-stage-1.webp",
+      "ingredients": "/images/dishes/amritsari-kulcha-stage-2.webp",
+      "method": "/images/dishes/amritsari-kulcha-stage-3.webp",
+      "plated": "/images/dishes/amritsari-kulcha-stage-4.webp"
+    },
+    "laal-maas": {
+      "origin": "/images/dishes/laal-maas-stage-1.webp",
+      "method": "/images/dishes/laal-maas-stage-3.webp",
+      "plated": "/images/dishes/laal-maas-stage-4.webp"
+    },
     "ghewar": {
       "plated": "/images/dishes/ghewar-stage-4.webp"
     },
-    "gundruk-soup": {},
+    "gundruk-soup": {
+      "origin": "/images/dishes/gundruk-soup-stage-1.webp",
+      "ingredients": "/images/dishes/gundruk-soup-stage-2.webp",
+      "plated": "/images/dishes/gundruk-soup-stage-4.webp"
+    },
     "sel-roti": {
       "plated": "/images/dishes/sel-roti-stage-4.webp"
     },
-    "filter-coffee": {},
-    "hyderabadi-biryani": {},
+    "filter-coffee": {
+      "origin": "/images/dishes/filter-coffee-stage-1.webp",
+      "ingredients": "/images/dishes/filter-coffee-stage-2.webp",
+      "method": "/images/dishes/filter-coffee-stage-3.webp",
+      "plated": "/images/dishes/filter-coffee-stage-4.webp"
+    },
+    "hyderabadi-biryani": {
+      "plated": "/images/dishes/hyderabadi-biryani-stage-4.webp",
+      "origin": "/images/dishes/hyderabadi-biryani-stage-1.webp",
+      "ingredients": "/images/dishes/hyderabadi-biryani-stage-2.webp",
+      "method": "/images/dishes/hyderabadi-biryani-stage-3.webp"
+    },
     "hyderabadi-haleem": {
       "ingredients": "/images/dishes/hyderabadi-haleem-stage-2.webp",
-      "method": "/images/dishes/hyderabadi-haleem-stage-3.webp"
+      "method": "/images/dishes/hyderabadi-haleem-stage-3.webp",
+      "origin": "/images/dishes/hyderabadi-haleem-stage-1.webp",
+      "plated": "/images/dishes/hyderabadi-haleem-stage-4.webp"
     },
-    "qubani-ka-meetha": {},
+    "qubani-ka-meetha": {
+      "origin": "/images/dishes/qubani-ka-meetha-stage-1.webp",
+      "plated": "/images/dishes/qubani-ka-meetha-stage-4.webp"
+    },
     "mui-borok": {},
-    "awan-bangwi": {},
+    "awan-bangwi": {
+      "origin": "/images/dishes/awan-bangwi-stage-1.webp",
+      "plated": "/images/dishes/awan-bangwi-stage-4.webp"
+    },
     "galouti-kebab": {
       "plated": "/images/dishes/galouti-kebab-stage-4.webp"
     },
@@ -198,17 +294,38 @@
       "origin": "/images/dishes/banarasi-malaiyo-stage-1.webp"
     },
     "kafuli": {},
-    "singori": {},
+    "singori": {
+      "origin": "/images/dishes/singori-stage-1.webp",
+      "plated": "/images/dishes/singori-stage-4.webp"
+    },
     "rosogolla": {
       "plated": "/images/dishes/rosogolla-stage-4.webp"
     },
-    "delhi-chaat": {},
-    "ladakhi-skyu": {},
-    "gur-gur-cha-khambir": {},
+    "delhi-chaat": {
+      "plated": "/images/dishes/delhi-chaat-stage-4.webp"
+    },
+    "ladakhi-skyu": {
+      "origin": "/images/dishes/ladakhi-skyu-stage-1.webp"
+    },
+    "gur-gur-cha-khambir": {
+      "plated": "/images/dishes/gur-gur-cha-khambir-stage-4.webp"
+    },
     "andaman-coconut-prawn": {},
-    "island-crab-masala": {},
+    "island-crab-masala": {
+      "plated": "/images/dishes/island-crab-masala-stage-4.webp"
+    },
     "pondicherry-fish-curry": {},
     "koli-kari": {}
   },
-  "context": {}
+  "context": {
+    "spice-street": "/images/context/spice-street.webp",
+    "spice-market": "/images/context/spice-market.webp",
+    "spice-bowls": "/images/context/spice-bowls.webp",
+    "spice-palette": "/images/context/spice-palette.webp",
+    "grindstone": "/images/context/grindstone.webp",
+    "tandoor": "/images/context/tandoor.webp",
+    "steam": "/images/context/steam.webp",
+    "banana-leaf": "/images/context/banana-leaf.webp",
+    "kebab-griddle": "/images/context/kebab-griddle.webp"
+  }
 }

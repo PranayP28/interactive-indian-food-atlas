@@ -21,9 +21,9 @@ OUT = ROOT / "PHOTOGRAPHY-CREDITS.md"
 
 
 def load_dishes() -> dict[str, dict[str, str]]:
-    source = FOOD.read_text()
+    source = FOOD.read_text(encoding="utf-8")
     if ADDITIONAL.exists():
-        source += "\n" + ADDITIONAL.read_text()
+        source += "\n" + ADDITIONAL.read_text(encoding="utf-8")
     dishes: dict[str, dict[str, str]] = {}
     for match in re.finditer(
         r'\{\s*id:\s*"([^"]+)",\s*name:\s*"([^"]+)"(?:,\s*alternateName:\s*"([^"]+)")?,\s*'
@@ -35,7 +35,7 @@ def load_dishes() -> dict[str, dict[str, str]]:
 
 
 def main() -> None:
-    data = json.loads(DATA.read_text())
+    data = json.loads(DATA.read_text(encoding="utf-8"))
     dishes = load_dishes()
     library = data["library"]
 
@@ -232,7 +232,7 @@ def main() -> None:
     )
     add("")
 
-    OUT.write_text("\n".join(lines))
+    OUT.write_text("\n".join(lines), encoding="utf-8")
     print(f"Wrote {OUT.relative_to(ROOT)} — {photographed} photographed, {len(missing)} awaiting a photograph")
 
 

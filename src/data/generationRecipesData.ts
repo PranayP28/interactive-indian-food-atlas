@@ -1,11 +1,16 @@
 // ─────────────────────────────────────────────
 // GENERATION RECIPES DATA FOR GSAP MOTIONPATH
 // Chronological Recipes at each Historical Waypoint
-// Accurate and unique for every dish across 33 regions
+// Accurate and unique for every dish across the atlas regions
 // ─────────────────────────────────────────────
 
 import { Dish, getAllDishes } from "./foodData";
-import { UNRESOLVED_IMAGE, epochPhoto, getDishPhotography, stageImageUrl } from "./photography";
+import {
+  UNRESOLVED_IMAGE,
+  epochPhoto,
+  getDishPhotography,
+  historicalStageImageUrl,
+} from "./photography";
 import {
   getDishStageHistory,
   getStageCitations,
@@ -1006,11 +1011,11 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
   const legacy = legacyGenerationsForDish(dishId, dish);
 
   if (!history || legacy.length === 0) {
-    // Defensive fallback: still exactly four stages, never a shared image.
+    const stageKeys: StageKey[] = ["origin", "ingredients", "method", "plated"];
     return legacy.slice(0, 4).map((generation, index) => ({
       ...generation,
       generationNumber: index + 1,
-      image: UNRESOLVED_IMAGE,
+      image: historicalStageImageUrl(stageKeys[index], undefined) ?? UNRESOLVED_IMAGE,
     }));
   }
 
@@ -1028,7 +1033,7 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
       centuryLabel: stage.eyebrow,
       headline: stage.headline,
       shortDescription: stage.narrative,
-      image: stageImageUrl(photo) ?? UNRESOLVED_IMAGE,
+      image: historicalStageImageUrl(stage.key, photo) ?? UNRESOLVED_IMAGE,
       generationRecipe: {
         recipeName: stage.title,
         historicalCookware: source.generationRecipe.historicalCookware,

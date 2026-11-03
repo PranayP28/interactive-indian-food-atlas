@@ -1,5 +1,5 @@
 import React from "react";
-import { BadgeCheck, BookOpen, Camera, ExternalLink, Leaf, ShieldCheck } from "lucide-react";
+import { BadgeCheck, BookOpen, Camera, ExternalLink, ShieldCheck } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext";
 import type { Dish } from "../../data/foodData";
 import {
@@ -88,7 +88,7 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
   const history = getDishStageHistory(dish.id);
   if (!photography) return null;
 
-  const { origin, ingredients, method, plated, ingredientItems } = photography;
+  const { origin, ingredients, method, plated } = photography;
   const photographed = hasPlatedPhotograph(dish.id);
   const coverage = getPhotographyCoverage();
   const verifiedStages = [plated, origin, ingredients, method].filter(Boolean).length;
@@ -259,24 +259,6 @@ export const DishPhotoEssay: React.FC<DishPhotoEssayProps> = ({ dish, stateName 
                       Photograph unresolved — no verified, dish-appropriate photograph for this stage yet. The frame
                       stays empty rather than showing an unrelated dish or a generic kitchen.
                     </p>
-                  )}
-
-                  {act.key === "ingredients" && ingredientItems.length > 0 && (
-                    <ul className="mt-3 flex flex-wrap gap-1.5">
-                      {ingredientItems.slice(0, 8).map((item) => (
-                        <li
-                          key={item}
-                          className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[10px] ${
-                            isLight
-                              ? "border-amber-900/15 bg-white/70 text-amber-950"
-                              : "border-amber-500/20 bg-amber-500/5 text-amber-100/90"
-                          }`}
-                        >
-                          <Leaf className="h-2.5 w-2.5 opacity-60" />
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
                   )}
 
                   {photo && (

@@ -652,7 +652,7 @@ export const HYDERABADI_BIRYANI_JOURNEY: DishCulinaryJourney = {
 
 // ─────────────────────────────────────────────
 // COMPREHENSIVE GENERATOR FOR ALL 66 DISHES
-// Ensures every single dish across 33 regions
+// Ensures every single dish across the atlas regions
 // has structured historical timeline, recipe & citations
 // ─────────────────────────────────────────────
 

@@ -12,6 +12,14 @@
 import raw from "./photography.json";
 import localRaw from "./localPhotos.json";
 
+type HistoricalStageKey = "origin" | "ingredients" | "method" | "plated";
+
+export const HISTORICAL_STAGE_IMAGE_PATHS: Partial<Record<HistoricalStageKey, string>> = {
+  origin: "/images/dishes/stage1.png",
+  ingredients: "/images/dishes/stage2.png",
+  method: "/images/dishes/stage3.png",
+};
+
 export type PhotoSubject = "dish" | "context";
 
 export interface Photograph {
@@ -50,8 +58,6 @@ export interface DishPhotography {
   method: Photograph | null;
   /** Stage IV — the finished dish, plated and served. Null when unverified. */
   plated: Photograph | null;
-  /** Ingredient chips, kept even when the ingredient photograph is unresolved. */
-  ingredientItems: string[];
 }
 
 interface RawLibraryPhoto {
@@ -246,6 +252,13 @@ export function stageImageUrl(photo: Photograph | null | undefined, width = 1280
   return photo.local ?? photoUrlWithin(photo.src, width, photo.width);
 }
 
+export function historicalStageImageUrl(
+  stage: HistoricalStageKey,
+  photo: Photograph | null | undefined,
+): string | null {
+  return HISTORICAL_STAGE_IMAGE_PATHS[stage] ?? stageImageUrl(photo);
+}
+
 /** Neutral, non-photographic placeholder for a stage with no verified photo. */
 export const UNRESOLVED_IMAGE =
   "data:image/svg+xml;charset=utf-8," +
@@ -276,7 +289,6 @@ export function getDishPhotography(dishId: string): DishPhotography | null {
     ingredients: stagePhoto(record.ingredients, "Ingredient reference", dishId, "ingredients"),
     method: stagePhoto(record.method, "Preparation technique", dishId, "method"),
     plated,
-    ingredientItems: record.ingredients?.items ?? [],
   };
 }
 

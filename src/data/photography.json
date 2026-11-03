@@ -104,6 +104,18 @@
     }
   },
   "dishes": {
+    "lakshadweep-kilanji": {
+      "origin": null,
+      "ingredients": null,
+      "method": null,
+      "plated": null
+    },
+    "lakshadweep-tuna-curry": {
+      "origin": null,
+      "ingredients": null,
+      "method": null,
+      "plated": null
+    },
     "pesarattu": {
       "origin": {
         "library": "spice-street",
@@ -146,15 +158,29 @@
         "caption": "Andhra Pradesh — the regional kitchen where Gongura Mutton belongs."
       },
       "ingredients": {
-        "library": "spice-palette",
-        "caption": "Ingredients for Gongura Mutton: mutton, gongura leaves, guntur red chillies, onion.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Guntur_Gongura.jpg",
+          "subject": "context",
+          "title": "Guntur Gongura",
+          "creator": "Gpics at English Wikipedia",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guntur_Gongura.jpg",
+          "alt": "Fresh sour roselle gongura leaf bundles",
+          "caption": "Fresh, tangy red-stemmed roselle (gongura) leaves from Guntur markets, Andhra Pradesh.",
+          "fallback": null,
+          "width": 2272,
+          "height": 1704
+        },
+        "caption": "Fresh, tangy red-stemmed roselle (gongura) leaves from Guntur markets, Andhra Pradesh.",
+        "label": "Ingredient reference",
         "items": [
-          "Mutton",
-          "Gongura leaves",
+          "Mutton pieces",
+          "Red-stemmed gongura leaves",
           "Guntur red chillies",
-          "Onion",
+          "Onions",
           "Coriander seeds",
-          "Garlic"
+          "Mustard oil / ghee"
         ]
       },
       "method": {
@@ -219,7 +245,20 @@
         "library": "spice-bowls",
         "caption": "Bamboo Shoot Pork — Flame Roasting Inside Green Bamboo Internodes."
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Pork_and_bamboo_shoot_curry_%282560159109%29.jpg",
+        "subject": "dish",
+        "title": "Pork and bamboo shoot curry",
+        "creator": "pelican from Tokyo, Japan",
+        "licence": "CC BY-SA 2.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pork_and_bamboo_shoot_curry_(2560159109).jpg",
+        "alt": "Tender pork curry cooked with bamboo shoots",
+        "caption": "Tribal-style slow-cooked pork curry prepared with fermented bamboo shoots and fiery bird's eye chillies.",
+        "fallback": null,
+        "width": 3008,
+        "height": 2000
+      }
     },
     "masor-tenga": {
       "origin": {
@@ -294,25 +333,66 @@
     },
     "litti-chokha": {
       "origin": {
-        "library": "spice-street",
-        "caption": "Bihar — the regional kitchen where Litti Chokha belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Temple_12_-_Nalanda_Mahavihara_%2817%29.jpg",
+          "subject": "context",
+          "title": "Temple 12 - Nalanda Mahavihara",
+          "creator": "Sumitsurai",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_12_-_Nalanda_Mahavihara_(17).jpg",
+          "alt": "Ancient brick stupa ruins at Nalanda Mahavihara in Bihar",
+          "caption": "Nalanda Mahavihara, Bihar — ancient Magadha heartland where roasted gram flour (sattu) has been an enduring staple.",
+          "fallback": null,
+          "width": 4323,
+          "height": 3097
+        },
+        "caption": "Nalanda Mahavihara, Bihar — ancient Magadha heartland where roasted gram flour (sattu) has been an enduring staple.",
+        "label": "Regional context"
       },
       "ingredients": {
-        "library": "spice-bowls",
-        "caption": "Ingredients for Litti Chokha: whole wheat flour, roasted sattu, cow ghee, ajwain.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Litti_being_prepared.png",
+          "subject": "context",
+          "title": "Litti being prepared",
+          "creator": "Imdgod",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Litti_being_prepared.png",
+          "alt": "Stuffing spiced sattu into dough balls for litti",
+          "caption": "Spiced sattu (roasted gram flour) with ajwain, kalonji and mustard oil stuffed into wheat dough balls.",
+          "fallback": null,
+          "width": 1587,
+          "height": 2245
+        },
+        "caption": "Spiced sattu (roasted gram flour) with ajwain, kalonji and mustard oil stuffed into wheat dough balls.",
+        "label": "Ingredient reference",
         "items": [
+          "Sattu (roasted gram flour)",
           "Whole wheat flour",
-          "Roasted sattu",
-          "Cow ghee",
+          "Mustard oil",
+          "Kalonji (nigella seeds)",
           "Ajwain",
-          "Kalonji",
-          "Smoked brinjal",
-          "Mustard oil"
+          "Brinjal & tomatoes for chokha"
         ]
       },
       "method": {
-        "library": "grindstone",
-        "caption": "Litti Chokha — Cow-Dung Wood Ember Baking & Ghee Immersion."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Litti_preparation_in_Kolkata%2C_India.jpg",
+          "subject": "context",
+          "title": "Litti preparation in Kolkata, India",
+          "creator": "Salil Kumar Mukherjee",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Litti_preparation_in_Kolkata%2C_India.jpg",
+          "alt": "Litti roasting over open coals",
+          "caption": "Litti balls roasting over glowing charcoal embers until the crust blisters and hardens.",
+          "fallback": null,
+          "width": 6144,
+          "height": 6883
+        },
+        "caption": "Litti balls roasting over glowing charcoal embers until the crust blisters and hardens.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Litti-Chokha-From-Bihar.jpg",
@@ -347,8 +427,22 @@
         ]
       },
       "method": {
-        "library": "grindstone",
-        "caption": "Thekua — Wood Saancha Embossing & Deep Ghee Confection."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/KHAJUR.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "subject": "dish",
+          "title": "Thekua Dough Pressed on Wooden Mould",
+          "creator": "Nikhil",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKHAJUR.JPG",
+          "alt": "Pressed patterned wheat dough discs ready for frying",
+          "caption": "Thekua sancha: whole wheat dough balls pressed onto hand-carved wooden moulds before deep frying in pure desi ghee during Chhath Puja.",
+          "fallback": null,
+          "width": 4608,
+          "height": 3456
+        },
+        "caption": "Thekua sancha: whole wheat dough balls pressed onto hand-carved wooden moulds before deep frying in pure desi ghee during Chhath Puja.",
+        "label": "Preparation technique"
       },
       "plated": {
         "subject": "dish",
@@ -442,8 +536,22 @@
         ]
       },
       "method": {
-        "library": "grindstone",
-        "caption": "Goan Fish Curry — Clay Pot Simmering & Stone Ground Masala."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Goan_fish_curry_preparation%2C_underway.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "subject": "dish",
+          "title": "Simmering Goan Fish Curry",
+          "creator": "Gaunti Recipes",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGoan_fish_curry_preparation%2C_underway.jpg",
+          "alt": "Fresh fish steaks cooking in rich orange coconut curry sauce in a pot",
+          "caption": "Goan fish curry simmering: fresh fish steaks poaching in freshly ground coconut paste, Kashmiri red chilies, and tangy kokum extract.",
+          "fallback": null,
+          "width": 1280,
+          "height": 1280
+        },
+        "caption": "Goan fish curry simmering: fresh fish steaks poaching in freshly ground coconut paste, Kashmiri red chilies, and tangy kokum extract.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Goan_Fish_Curry.jpg",
@@ -648,21 +756,20 @@
       },
       "method": {
         "photo": {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Tandoor_%28Oven%29_and_Maktu_%28Siddu_Maker%29_in_Himachal_Pradesh.jpg",
-          "subject": "context",
-          "title": "himachali siddu maktu cooker",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Kullvi_Siddu_%28Himachal_Pradesh%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "subject": "dish",
+          "title": "Steamed Kullvi Siddu Preparation",
           "creator": "Rajani Gairshail",
           "licence": "CC BY-SA 4.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tandoor_(Oven)_and_Maktu_(Siddu_Maker)_in_Himachal_Pradesh.jpg",
-          "alt": "The maktu steamer and tandoor used to cook Himachali siddu.",
-          "caption": "The maktu steamer and tandoor used to cook Himachali siddu.",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKullvi_Siddu_%28Himachal_Pradesh%29.jpg",
+          "alt": "Steamed stuffed Siddu bread resting on a cutting surface",
+          "caption": "Traditional Kullu Siddu preparation: fermented wheat dough parcels stuffed with crushed walnuts, poppy seeds, and roasted spices before steam cooking.",
           "fallback": null,
-          "width": 900,
-          "height": 1200,
-          "local": "/images/dishes/siddu-stage-3.webp"
+          "width": 960,
+          "height": 1280
         },
-        "caption": "The maktu steamer and tandoor used to cook Himachali siddu.",
+        "caption": "Traditional Kullu Siddu preparation: fermented wheat dough parcels stuffed with crushed walnuts, poppy seeds, and roasted spices before steam cooking.",
         "label": "Preparation technique"
       },
       "plated": {
@@ -682,8 +789,22 @@
     },
     "himachali-dham": {
       "origin": {
-        "library": "spice-market",
-        "caption": "Himachal Pradesh — the regional kitchen where Himachali Dham belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/85/Panchvaktar_Temple%2C_Mandi%2C_Himachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "subject": "context",
+          "title": "Historic Mandi on the Beas River, Himachal Pradesh",
+          "creator": "vinodbahal from Shimla, India",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanchvaktar_Temple%2C_Mandi%2C_Himachal_Pradesh.jpg",
+          "alt": "Stone shikhara temple of Panchvaktar along the Beas river in Mandi",
+          "caption": "Historic Mandi town at the confluence of the Beas and Suketi rivers — cultural heart of the centuries-old royal Mandi Dham culinary tradition.",
+          "fallback": null,
+          "width": 640,
+          "height": 430
+        },
+        "caption": "Historic Mandi town at the confluence of the Beas and Suketi rivers — cultural heart of the centuries-old royal Mandi Dham culinary tradition.",
+        "label": "Regional context"
       },
       "ingredients": {
         "library": "spice-palette",
@@ -698,10 +819,37 @@
         ]
       },
       "method": {
-        "library": "spice-bowls",
-        "caption": "Himachali Dham — Wood-Fire Brass Deg Simmering Without Onion-Garlic."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Stitched_sal_leaves_used_as_traditional_plate_for_Dham%2C_Mandi_district%2C_Himachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "subject": "dish",
+          "title": "Traditional Sal Leaf Pattal for Dham",
+          "creator": "Gannu03",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AStitched_sal_leaves_used_as_traditional_plate_for_Dham%2C_Mandi_district%2C_Himachal_Pradesh.jpg",
+          "alt": "Stitched dry sal leaves forming a traditional biodegradable plate for Dham",
+          "caption": "Pattal plate stitched from dry sal leaves (pattal / taur), traditional biodegradable dining serviceware used for serving community Dham.",
+          "fallback": null,
+          "width": 4000,
+          "height": 2252
+        },
+        "caption": "Pattal plate stitched from dry sal leaves (pattal / taur), traditional biodegradable dining serviceware used for serving community Dham.",
+        "label": "Preparation technique"
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mandi_Dham_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "subject": "dish",
+        "title": "Himachali Mandi Dham Feast",
+        "creator": "Gannu03",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMandi_Dham_2.jpg",
+        "alt": "Traditional Dham feast platter from Mandi, Himachal Pradesh",
+        "caption": "Traditional Mandi Dham feast: steamed rice served alongside Madra, Sepu Badi, mah ki dal, and sweet meethe chawal.",
+        "fallback": null,
+        "width": 3000,
+        "height": 3000
+      }
     },
     "dhuska": {
       "origin": {
@@ -791,20 +939,47 @@
     },
     "masala-dosa": {
       "origin": {
-        "library": "banana-leaf",
-        "caption": "Karnataka — the regional kitchen where Masala Dosa belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Mysore_Palace_at_dusk_light.jpg",
+          "subject": "context",
+          "title": "Mysore Palace at dusk light",
+          "creator": "Komalvermarjn",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mysore_Palace_at_dusk_light.jpg",
+          "alt": "Mysore Palace illuminated at dusk in Karnataka",
+          "caption": "Mysore Palace, Karnataka — royal capital where 20th-century chefs refined the crisp, red-chutney-lined Mysore masala dosa.",
+          "fallback": null,
+          "width": 4817,
+          "height": 2090
+        },
+        "caption": "Mysore Palace, Karnataka — royal capital where 20th-century chefs refined the crisp, red-chutney-lined Mysore masala dosa.",
+        "label": "Regional context"
       },
       "ingredients": {
-        "library": "spice-bowls",
-        "caption": "Ingredients for Masala Dosa: sona masuri rice, urad dal, fenugreek seeds, potatoes.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Dosa_batter.jpg",
+          "subject": "context",
+          "title": "Dosa batter",
+          "creator": "Pamri",
+          "licence": "Public domain",
+          "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dosa_batter.jpg",
+          "alt": "Fermented rice and urad dal batter for dosa",
+          "caption": "Naturally fermented batter of parboiled rice, dehusked black gram (urad dal), and fenugreek seeds.",
+          "fallback": null,
+          "width": 1419,
+          "height": 1209
+        },
+        "caption": "Naturally fermented batter of parboiled rice, dehusked black gram (urad dal), and fenugreek seeds.",
+        "label": "Ingredient reference",
         "items": [
-          "Sona Masuri rice",
+          "Parboiled rice",
           "Urad dal",
           "Fenugreek seeds",
           "Potatoes",
           "Mustard seeds",
-          "Curry leaves",
-          "Butter"
+          "Curry leaves"
         ]
       },
       "method": {
@@ -956,8 +1131,22 @@
     },
     "indori-poha": {
       "origin": {
-        "library": "spice-street",
-        "caption": "Madhya Pradesh — the regional kitchen where Indori Poha belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Rajwada_Palace%2C_Indore.jpg",
+          "subject": "context",
+          "title": "Rajwada Palace, Indore",
+          "creator": "Bernard Gagnon",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rajwada_Palace%2C_Indore.jpg",
+          "alt": "Rajwada Palace Holkar dynasty historic facade in Indore",
+          "caption": "Rajwada Palace, Indore — historic center around which Indore's distinctive morning poha stalls flourish.",
+          "fallback": null,
+          "width": 4779,
+          "height": 3291
+        },
+        "caption": "Rajwada Palace, Indore — historic center around which Indore's distinctive morning poha stalls flourish.",
+        "label": "Regional context"
       },
       "ingredients": {
         "photo": {
@@ -987,8 +1176,22 @@
         ]
       },
       "method": {
-        "library": "steam",
-        "caption": "Indori Poha — Steam-Pot Hydration & Jeeravan Masala Dusting."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Stall_at_Sarafa_Bajar.jpg",
+          "subject": "context",
+          "title": "Stall at Sarafa Bajar",
+          "creator": "Arya Joshi",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stall_at_Sarafa_Bajar.jpg",
+          "alt": "Street food vendors preparing snacks at Sarafa Bazaar, Indore",
+          "caption": "Street vendors at Indore food markets steaming poha in tiered boilers and tossing it with turmeric and jeeravan.",
+          "fallback": null,
+          "width": 3072,
+          "height": 4080
+        },
+        "caption": "Street vendors at Indore food markets steaming poha in tiered boilers and tossing it with turmeric and jeeravan.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/Indori_Poha%2C_New_Delhi.jpg",
@@ -1030,8 +1233,22 @@
     },
     "vada-pav": {
       "origin": {
-        "library": "spice-street",
-        "caption": "Maharashtra — the regional kitchen where Vada Pav belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Dadar_railway_station_as_seen_from_foot_over_bridge..jpg",
+          "subject": "context",
+          "title": "Dadar Railway Station, Mumbai",
+          "creator": "Shishirdasika",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dadar_railway_station_as_seen_from_foot_over_bridge..jpg",
+          "alt": "Dadar railway station platforms and bustling suburban lines in central Mumbai",
+          "caption": "Dadar railway station, central Mumbai — outside whose platforms Ashok Vaidya first began serving batata vada tucked into pav in 1966.",
+          "fallback": null,
+          "width": 4080,
+          "height": 3060
+        },
+        "caption": "Dadar railway station, central Mumbai — outside whose platforms Ashok Vaidya first began serving batata vada tucked into pav in 1966.",
+        "label": "Regional context"
       },
       "ingredients": {
         "photo": {
@@ -1298,7 +1515,20 @@
         "library": "spice-bowls",
         "caption": "Mizo Bai — Oil-Free Alkaline Water Simmering."
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Mizo_food.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "subject": "dish",
+        "title": "Traditional Mizo Meal with Bai",
+        "creator": "Coolcolney",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AMizo_food.jpg",
+        "alt": "Traditional Mizo food spread with rice, vegetable Bai soup, and boiled greens",
+        "caption": "Authentic Mizo meal: steamed rice served with traditional Bai (vegetables boiled with sa-um fermented pork fat and Chingal bamboo shoot soda).",
+        "fallback": null,
+        "width": 1026,
+        "height": 577
+      }
     },
     "sawhchiar": {
       "origin": {
@@ -1467,24 +1697,66 @@
     },
     "makki-di-roti-sarson-saag": {
       "origin": {
-        "library": "spice-street",
-        "caption": "Punjab — the regional kitchen where Makki di Roti & Sarson da Saag belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Mustard_field_near_Chandigarh.jpg",
+          "subject": "context",
+          "title": "Mustard field near Chandigarh",
+          "creator": "UnpetitproleX",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustard_field_near_Chandigarh.jpg",
+          "alt": "Yellow mustard flower field in winter near Chandigarh, Punjab",
+          "caption": "Mustard fields of Punjab in winter bloom — the seasonal origin of fresh sarson greens.",
+          "fallback": null,
+          "width": 3024,
+          "height": 2268
+        },
+        "caption": "Mustard fields of Punjab in winter bloom — the seasonal origin of fresh sarson greens.",
+        "label": "Regional context"
       },
       "ingredients": {
-        "library": "spice-bowls",
-        "caption": "Ingredients for Makki di Roti & Sarson da Saag: mustard greens (sarson), bathua leaves, maize flour (makki atta), white butter (makhan).",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Makki_ki_Roti_02.jpg",
+          "subject": "context",
+          "title": "Makki ki Roti 02",
+          "creator": "Rigourfigure",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makki_ki_Roti_02.jpg",
+          "alt": "Kneading yellow cornmeal makki flour dough into flat rounds",
+          "caption": "Coarse stone-ground yellow maize flour (makki ka atta) kneaded with warm water into gluten-free dough.",
+          "fallback": null,
+          "width": 2992,
+          "height": 2992
+        },
+        "caption": "Coarse stone-ground yellow maize flour (makki ka atta) kneaded with warm water into gluten-free dough.",
+        "label": "Ingredient reference",
         "items": [
-          "Mustard greens (Sarson)",
-          "Bathua leaves",
-          "Maize flour (Makki atta)",
-          "White butter (Makhan)",
-          "Ginger-garlic",
+          "Fresh mustard leaves (sarson)",
+          "Bathua greens",
+          "Spinach",
+          "Yellow maize flour (makki atta)",
+          "White butter",
           "Jaggery"
         ]
       },
       "method": {
-        "library": "grindstone",
-        "caption": "Makki di Roti & Sarson da Saag — Clay Pot Churning (Ghotna) & Hand-Patted Tawa Griddling."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Makki_ki_Roti_03.jpg",
+          "subject": "context",
+          "title": "Makki ki Roti 03",
+          "creator": "Rigourfigure",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makki_ki_Roti_03.jpg",
+          "alt": "Makki ki roti baking on a flat iron tawa",
+          "caption": "Hand-flattened makki roti slowly roasting on a hot iron tawa with butter until crisp and speckled.",
+          "fallback": null,
+          "width": 6000,
+          "height": 8000
+        },
+        "caption": "Hand-flattened makki roti slowly roasting on a hot iron tawa with butter until crisp and speckled.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Makke_di_Roti_with_Sarson_Da_Saag.jpg",
@@ -1503,24 +1775,66 @@
     },
     "butter-chicken": {
       "origin": {
-        "library": "spice-market",
-        "caption": "Punjab — the regional kitchen where Butter Chicken belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lahori_Gate%2C_Red_Fort%2C_Delhi.jpg",
+          "subject": "context",
+          "title": "Lahori Gate, Red Fort, Delhi",
+          "creator": "Ranjeet Chauhan",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lahori_Gate%2C_Red_Fort%2C_Delhi.jpg",
+          "alt": "Lahori Gate of the Red Fort in Old Delhi",
+          "caption": "Old Delhi near Daryaganj — where post-partition restaurateurs created the iconic butter chicken at Moti Mahal.",
+          "fallback": null,
+          "width": 2884,
+          "height": 3419
+        },
+        "caption": "Old Delhi near Daryaganj — where post-partition restaurateurs created the iconic butter chicken at Moti Mahal.",
+        "label": "Regional context"
       },
       "ingredients": {
-        "library": "spice-palette",
-        "caption": "Ingredients for Butter Chicken: tandoori chicken, vine tomatoes, white butter, fresh dairy cream.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/Dried_leaves_of_Fenugreek-Kasuri_Methi.jpg",
+          "subject": "context",
+          "title": "Dried leaves of Fenugreek-Kasuri Methi",
+          "creator": "Thamizhpparithi Maari",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dried_leaves_of_Fenugreek-Kasuri_Methi.jpg",
+          "alt": "Crushed dried fenugreek leaves kasuri methi",
+          "caption": "Kasuri methi (sun-dried fenugreek leaves), the defining herbaceous finishing aromatic for makhani gravy.",
+          "fallback": null,
+          "width": 4208,
+          "height": 2368
+        },
+        "caption": "Kasuri methi (sun-dried fenugreek leaves), the defining herbaceous finishing aromatic for makhani gravy.",
+        "label": "Ingredient reference",
         "items": [
           "Tandoori chicken",
-          "Vine tomatoes",
-          "White butter",
+          "Tomatoes",
+          "White butter (makkhan)",
           "Fresh dairy cream",
           "Kasuri methi",
-          "Kashmiri chilli"
+          "Kashmiri degi mirch"
         ]
       },
       "method": {
-        "library": "tandoor",
-        "caption": "Butter Chicken — Clay Tandoor Roasting & Silky Tomato-Butter Emulsion."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Tandoori_Chicken_with_oven.jpg",
+          "subject": "context",
+          "title": "Tandoori Chicken with oven",
+          "creator": "Nitinmaul",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tandoori_Chicken_with_oven.jpg",
+          "alt": "Tandoori chicken being roasted in clay tandoor oven",
+          "caption": "Marinated chicken skewers roasting against the intense radiant heat of a charcoal-fired clay tandoor.",
+          "fallback": null,
+          "width": 3264,
+          "height": 2448
+        },
+        "caption": "Marinated chicken skewers roasting against the intense radiant heat of a charcoal-fired clay tandoor.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Butter_chicken_by_me.jpg",
@@ -1539,24 +1853,65 @@
     },
     "dal-baati-churma": {
       "origin": {
-        "library": "spice-street",
-        "caption": "Rajasthan — the regional kitchen where Dal Baati Churma belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Mehrangarh_Fort_2%2C_Jodhpur%2C_Rajasthan%2C_India.jpg",
+          "subject": "context",
+          "title": "Mehrangarh Fort 2, Jodhpur, Rajasthan, India",
+          "creator": "Yann",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mehrangarh_Fort_2%2C_Jodhpur%2C_Rajasthan%2C_India.jpg",
+          "alt": "Mehrangarh Fort on sandstone cliff overlooking Jodhpur",
+          "caption": "Mehrangarh Fort, Jodhpur — historic Marwar fortress landscape where enduring desert foods like baati sustained warrior camps.",
+          "fallback": null,
+          "width": 3928,
+          "height": 2508
+        },
+        "caption": "Mehrangarh Fort, Jodhpur — historic Marwar fortress landscape where enduring desert foods like baati sustained warrior camps.",
+        "label": "Regional context"
       },
       "ingredients": {
-        "library": "spice-bowls",
-        "caption": "Ingredients for Dal Baati Churma: whole wheat flour, panchmel lentils (five dals), pure cow ghee, ajwain seeds.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/BAATI.JPG",
+          "subject": "context",
+          "title": "BAATI",
+          "creator": "CIMSBSP",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:BAATI.JPG",
+          "alt": "Dense rolled wheat flour baati balls before baking",
+          "caption": "Dense whole wheat dough portioned into balls, kneaded with ghee and water for prolonged baking.",
+          "fallback": null,
+          "width": 5184,
+          "height": 3456
+        },
+        "caption": "Dense whole wheat dough portioned into balls, kneaded with ghee and water for prolonged baking.",
+        "label": "Ingredient reference",
         "items": [
-          "Whole wheat flour",
-          "Panchmel lentils (Five dals)",
+          "Coarse whole wheat flour",
           "Pure cow ghee",
-          "Ajwain seeds",
-          "Jaggery / Bura",
-          "Cardamom"
+          "Panchmel dal (5 lentils)",
+          "Jaggery for churma",
+          "Fennel seeds"
         ]
       },
       "method": {
-        "library": "grindstone",
-        "caption": "Dal Baati Churma — Sand / Ember Baking & Saturated Ghee Dunking."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Baati_on_tandoor.jpg",
+          "subject": "context",
+          "title": "Baati on tandoor",
+          "creator": "Sahil tiwarie",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baati_on_tandoor.jpg",
+          "alt": "Baati baking over hot tandoor coals",
+          "caption": "Baati balls slow-baking over glowing coals until hard crust fissures, ready to be soaked in melted ghee.",
+          "fallback": null,
+          "width": 800,
+          "height": 531
+        },
+        "caption": "Baati balls slow-baking over glowing coals until hard crust fissures, ready to be soaked in melted ghee.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Rajasthani_dal-bati-churma_thali_01.jpg",
@@ -1575,8 +1930,22 @@
     },
     "laal-maas": {
       "origin": {
-        "library": "spice-market",
-        "caption": "Rajasthan — the regional kitchen where Laal Maas belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Chittorgarh_Fort%2C_Chittor%2C_Rajasthan.jpg",
+          "subject": "context",
+          "title": "Chittorgarh Fort, Chittor, Rajasthan",
+          "creator": "Awara05",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chittorgarh_Fort,_Chittor,_Rajasthan.jpg",
+          "alt": "Chittorgarh Fort standing atop a hill in Mewar, Rajasthan",
+          "caption": "Chittorgarh Fort, Mewar — royal citadel where Rajput hunting camps developed the wood-smoked game meat dish of Laal Maas.",
+          "fallback": null,
+          "width": 3850,
+          "height": 2048
+        },
+        "caption": "Chittorgarh Fort, Mewar — royal citadel where Rajput hunting camps developed the wood-smoked game meat dish of Laal Maas.",
+        "label": "Regional context"
       },
       "ingredients": {
         "library": "spice-palette",
@@ -1591,10 +1960,37 @@
         ]
       },
       "method": {
-        "library": "spice-bowls",
-        "caption": "Laal Maas — Slow Ghee Braise & Mathania Chilli Extraction."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Rajasthani_Lal_Maas.jpg",
+          "subject": "context",
+          "title": "Rajasthani Lal Maas",
+          "creator": "Raghvendrarrathore",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rajasthani_Lal_Maas.jpg",
+          "alt": "Braising goat meat with red Mathania chilli paste in a kadai",
+          "caption": "Slow-braising mutton in mustard oil and garlic with a rich paste of stone-ground dried Mathania chillies.",
+          "fallback": null,
+          "width": 960,
+          "height": 720
+        },
+        "caption": "Slow-braising mutton in mustard oil and garlic with a rich paste of stone-ground dried Mathania chillies.",
+        "label": "Preparation technique"
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Lal_Maas.jpg",
+        "subject": "dish",
+        "title": "Lal Maas",
+        "creator": "Aakash Singh Chauhan",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lal_Maas.jpg",
+        "alt": "Fiery red bowl of Rajasthani Laal Maas",
+        "caption": "Authentic Rajasthani Laal Maas: tender bone-in goat meat in a pungent, fiery Mathania chilli and garlic gravy.",
+        "fallback": null,
+        "width": 640,
+        "height": 640
+      }
     },
     "sikkimese-momos": {
       "origin": {
@@ -1634,26 +2030,67 @@
     },
     "gundruk-soup": {
       "origin": {
-        "library": "spice-market",
-        "caption": "Sikkim — the regional kitchen where Gundruk Soup belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Peaks_of_the_Kanchenjunga_as_seen_from_the_West_Sikkim_district_of_Sikkim.jpg",
+          "subject": "context",
+          "title": "Peaks of the Kanchenjunga as seen from West Sikkim",
+          "creator": "Billjones94",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peaks_of_the_Kanchenjunga_as_seen_from_the_West_Sikkim_district_of_Sikkim.jpg",
+          "alt": "Snow-covered Kanchenjunga peaks rising above pine valleys in West Sikkim",
+          "caption": "Kanchenjunga mountain range, Sikkim — Himalayan highlands where preserving green vegetables by lactic acid fermentation is vital.",
+          "fallback": null,
+          "width": 4608,
+          "height": 2128
+        },
+        "caption": "Kanchenjunga mountain range, Sikkim — Himalayan highlands where preserving green vegetables by lactic acid fermentation is vital.",
+        "label": "Regional context"
       },
       "ingredients": {
-        "library": "spice-palette",
-        "caption": "Ingredients for Gundruk Soup: gundruk (fermented sun-dried greens), tomatoes, garlic, ginger.",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Gundruk_1.jpg",
+          "subject": "context",
+          "title": "Gundruk",
+          "creator": "Gaurav Dhwaj Khadka",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gundruk_1.jpg",
+          "alt": "Sun-dried fermented mustard and radish leaves",
+          "caption": "Gundruk — leafy mustard and radish greens wilted, earthen-pot fermented, and sun-dried for the mountain winter.",
+          "fallback": null,
+          "width": 3024,
+          "height": 4032
+        },
+        "caption": "Gundruk — leafy mustard and radish greens wilted, earthen-pot fermented, and sun-dried for the mountain winter.",
+        "label": "Ingredient reference",
         "items": [
-          "Gundruk (Fermented sun-dried greens)",
+          "Fermented dried gundruk leaves",
           "Tomatoes",
           "Garlic",
-          "Ginger",
-          "Himalayan rock salt",
-          "Mustard oil"
+          "Onions",
+          "Mustard oil",
+          "Green chillies"
         ]
       },
       "method": {
         "library": "steam",
         "caption": "Gundruk Soup — Earthen Jar Fermentation, Sun Dehydration & Clear Broth Boil."
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Gundruk_soup_at_Nepal House in Baltimore.jpg",
+        "subject": "dish",
+        "title": "Gundruk soup at Nepal House in Baltimore",
+        "creator": "Ser Amantio di Nicolao",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gundruk_soup_at_Nepal_House_in_Baltimore.jpg",
+        "alt": "Steaming bowl of dark earthy Himalayan gundruk soup",
+        "caption": "Warm, tangy Sikkimese Gundruk soup tempered with garlic, mustard oil, and fresh mountain chillies.",
+        "fallback": null,
+        "width": 8160,
+        "height": 6120
+      }
     },
     "chettinad-chicken": {
       "origin": {
@@ -1772,25 +2209,66 @@
     },
     "hyderabadi-biryani": {
       "origin": {
-        "library": "banana-leaf",
-        "caption": "Telangana — the regional kitchen where Hyderabadi Dum Biryani belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Night_View_of_Market%2C_Charminar%2C_Hyderabad.jpg",
+          "subject": "context",
+          "title": "Night View of Market, Charminar, Hyderabad",
+          "creator": "Reema Jalihal",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_View_of_Market%2C_Charminar%2C_Hyderabad.jpg",
+          "alt": "Bustling night market street in front of the illuminated Charminar, Hyderabad",
+          "caption": "Charminar night market in old Hyderabad — historic epicenter of Deccan royal feast traditions.",
+          "fallback": null,
+          "width": 3021,
+          "height": 3943
+        },
+        "caption": "Charminar night market in old Hyderabad — historic epicenter of Deccan royal feast traditions.",
+        "label": "Regional context"
       },
       "ingredients": {
-        "library": "spice-bowls",
-        "caption": "Ingredients for Hyderabadi Dum Biryani: aged basmati rice, tender marinated meat, pure saffron, fried onions (birista).",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Basmati_Rice_India%2C_raw.jpg",
+          "subject": "context",
+          "title": "Basmati Rice India, raw",
+          "creator": "cookbookman17",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basmati_Rice_India%2C_raw.jpg",
+          "alt": "Aged long-grain basmati rice grains",
+          "caption": "Aged long-grain basmati rice, the foundation of fragrant Hyderabadi kachchi biryani.",
+          "fallback": null,
+          "width": 3872,
+          "height": 2592
+        },
+        "caption": "Aged long-grain basmati rice, the foundation of fragrant Hyderabadi kachchi biryani.",
+        "label": "Ingredient reference",
         "items": [
-          "Aged Basmati rice",
-          "Tender marinated meat",
-          "Pure saffron",
-          "Fried onions (Birista)",
+          "Basmati rice",
+          "Mutton or goat meat",
           "Yoghurt",
-          "Whole spices",
-          "Mint & coriander"
+          "Saffron",
+          "Fried onions (birista)",
+          "Shahi jeera"
         ]
       },
       "method": {
-        "library": "spice-bowls",
-        "caption": "Hyderabadi Dum Biryani — Kacchi Yakhni Layering & Dough-Sealed Dum Pukht."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Biryani_preparation.jpg",
+          "subject": "context",
+          "title": "Biryani preparation",
+          "creator": "Claude Renault",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biryani_preparation.jpg",
+          "alt": "Biryani handi cooking over charcoal embers",
+          "caption": "Layered marinated meat and par-cooked rice sealed in a heavy handi for slow dum cooking.",
+          "fallback": null,
+          "width": 700,
+          "height": 468
+        },
+        "caption": "Layered marinated meat and par-cooked rice sealed in a heavy handi for slow dum cooking.",
+        "label": "Preparation technique"
       },
       "plated": {
         "subject": "dish",
@@ -1809,8 +2287,22 @@
     },
     "hyderabadi-haleem": {
       "origin": {
-        "library": "banana-leaf",
-        "caption": "Telangana — the regional kitchen where Hyderabadi Haleem belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Chowmahalla_Palace_01.jpg",
+          "subject": "context",
+          "title": "Chowmahalla Palace 01",
+          "creator": "Bernard Gagnon",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chowmahalla_Palace_01.jpg",
+          "alt": "Chowmahalla Palace courtyard in Hyderabad",
+          "caption": "Chowmahalla Palace, Hyderabad — royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
+          "fallback": null,
+          "width": 4415,
+          "height": 2943
+        },
+        "caption": "Chowmahalla Palace, Hyderabad — royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
+        "label": "Regional context"
       },
       "ingredients": {
         "photo": {
@@ -1859,7 +2351,20 @@
         "caption": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
         "label": "Preparation technique"
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Haleem_garnish.jpg",
+        "subject": "dish",
+        "title": "Haleem garnish",
+        "creator": "Halt123halt",
+        "licence": "CC BY-SA 3.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleem_garnish.jpg",
+        "alt": "Garnished bowl of Hyderabadi haleem",
+        "caption": "Hyderabadi haleem garnished with crisp fried onions (birista), fresh mint, coriander, and lemon wedge.",
+        "fallback": null,
+        "width": 416,
+        "height": 376
+      }
     },
     "mui-borok": {
       "origin": {
@@ -1928,7 +2433,6 @@
         "library": "spice-bowls",
         "caption": "Ingredients for Awadhi Galouti Kebab: finely ground meat, raw green papaya, potli masala (160 spices), pure desi ghee.",
         "items": [
-          "Finely ground meat",
           "Raw green papaya",
           "Potli masala (160 spices)",
           "Pure desi ghee",
@@ -2255,8 +2759,22 @@
     },
     "ladakhi-skyu": {
       "origin": {
-        "library": "spice-street",
-        "caption": "Ladakh — the regional kitchen where Ladakhi Skyu belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Skyu_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "subject": "context",
+          "title": "Skiu Village, Markha Valley, Ladakh",
+          "creator": "Quentin Talon",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ASkyu_2010.jpg",
+          "alt": "High altitude arid stone village of Skiu nestled against Himalayan mountain slopes in Ladakh",
+          "caption": "Skiu village in the rugged Markha Valley of Ladakh, where hand-rolled thumb-pressed Skyu pasta sustained pastoral families through freezing winters.",
+          "fallback": null,
+          "width": 1440,
+          "height": 900
+        },
+        "caption": "Skiu village in the rugged Markha Valley of Ladakh, where hand-rolled thumb-pressed Skyu pasta sustained pastoral families through freezing winters.",
+        "label": "Regional context"
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2355,7 +2873,20 @@
         "library": "spice-bowls",
         "caption": "Island Mud Crab Masala — Cast Iron Wok Tossing with Pepper Tempering."
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Crab_Masala_%28Steamed%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "subject": "dish",
+        "title": "Island Mud Crab Masala",
+        "creator": "Rajesh040572",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACrab_Masala_%28Steamed%29.JPG",
+        "alt": "Whole crab cooked in thick spiced dark masala on a plate",
+        "caption": "Island Mud Crab Masala: whole freshly caught mangrove crab cooked in island spices, roasted coriander, black pepper, and fresh coconut.",
+        "fallback": null,
+        "width": 3264,
+        "height": 2448
+      }
     },
     "pondicherry-fish-curry": {
       "origin": {
@@ -2747,7 +3278,24 @@
       }
     },
     "apong": {
-      "origin": null,
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ziro_valley_of_Aruncahl_in_summer_season.jpg",
+          "subject": "context",
+          "title": "Ziro valley of Arunachal in summer season",
+          "creator": "Arunachal2007",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ziro_valley_of_Aruncahl_in_summer_season.jpg",
+          "alt": "Terraced paddy fields in the green Ziro Valley, Arunachal Pradesh",
+          "caption": "Ziro Valley, Arunachal Pradesh — homeland of the Apatani tribe where rice cultivation and traditional home brewing are entwined.",
+          "fallback": null,
+          "width": 2048,
+          "height": 1350
+        },
+        "caption": "Ziro Valley, Arunachal Pradesh — homeland of the Apatani tribe where rice cultivation and traditional home brewing are entwined.",
+        "label": "Regional context"
+      },
       "ingredients": {
         "library": null,
         "caption": "",
@@ -2759,7 +3307,20 @@
         ]
       },
       "method": null,
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Apong_-_Rice_beer_of_Assam_In_A_Traditional_Pot.jpg",
+        "subject": "dish",
+        "title": "Apong - Rice beer of Assam In A Traditional Pot",
+        "creator": "Nadeem.gaikwad",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apong_-_Rice_beer_of_Assam_In_A_Traditional_Pot.jpg",
+        "alt": "Fermented rice beer served in traditional earthen and bamboo containers",
+        "caption": "Apong: indigenous fermented hill rice beverage prepared with wild medicinal starter cakes (eeppoh).",
+        "fallback": null,
+        "width": 4608,
+        "height": 3456
+      }
     },
     "til-pitha": {
       "origin": null,
@@ -2794,18 +3355,45 @@
     "silao-khaja": {
       "origin": null,
       "ingredients": {
-        "library": null,
-        "caption": "",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Khaja_cakes_%2826711978840%29.jpg",
+          "subject": "context",
+          "title": "Khaja cakes",
+          "creator": "juggadery",
+          "licence": "CC BY-SA 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khaja_cakes_(26711978840).jpg",
+          "alt": "Flaky wheat dough pastry layers before sugar coating",
+          "caption": "Delicate puff-pastry layers rolled from refined wheat flour and ghee, ready for deep-frying.",
+          "fallback": null,
+          "width": 1024,
+          "height": 768
+        },
+        "caption": "Delicate puff-pastry layers rolled from refined wheat flour and ghee, ready for deep-frying.",
+        "label": "Ingredient reference",
         "items": [
-          "Wheat flour",
+          "Refined wheat flour (maida)",
           "Ghee",
-          "Sugar",
-          "Water",
-          "Cardamom"
+          "Sugar syrup",
+          "Cardamom",
+          "Water"
         ]
       },
       "method": null,
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Khaja_of_Silao.jpg",
+        "subject": "dish",
+        "title": "Khaja of Silao",
+        "creator": "Odantapuribs",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khaja_of_Silao.jpg",
+        "alt": "Golden multi-layered crisp Silao Khaja from Nalanda, Bihar",
+        "caption": "GI-tagged Silao Khaja from Nalanda, Bihar — hundreds of paper-thin, crisp fried layers glazed with sugar syrup.",
+        "fallback": null,
+        "width": 3456,
+        "height": 4608
+      }
     },
     "bafauri": {
       "origin": null,
@@ -2841,20 +3429,18 @@
       },
       "method": null,
       "plated": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Bebinca_with_Ice_Cream_-_Martin%27s_Corner_-_Goa_-_01.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bebinca%2C_a_delicacy_and_sweet_from_Goa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "subject": "dish",
-        "title": "Bebinca with Ice Cream - Martin's Corner - Goa - 01",
-        "creator": "Krrisd",
+        "title": "Traditional Goan Bebinca",
+        "creator": "Fredericknoronha",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bebinca_with_Ice_Cream_-_Martin%27s_Corner_-_Goa_-_01.jpg",
-        "alt": "Bebinca layered cake served with ice cream in Goa",
-        "caption": "Bebinca, the layered Goan coconut-milk cake, served with ice cream at Martin's Corner, Betalbatim.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABebinca%2C_a_delicacy_and_sweet_from_Goa.jpg",
+        "alt": "Layered brown Bebinca cake slice on a plate showing distinct stratified layers",
+        "caption": "Indo-Portuguese Bebinca: multi-layered coconut milk, egg yolk, flour, and clarified butter cake baked stage by stage.",
         "fallback": null,
-        "width": 4032,
-        "height": 3024,
-        "local": "/images/dishes/bebinca-stage-4.webp",
-        "label": "Finished dish"
+        "width": 4912,
+        "height": 2760
       }
     },
     "handvo": {
@@ -2922,7 +3508,24 @@
       }
     },
     "chana-madra": {
-      "origin": null,
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Tea_garden_at_Nagri_in_the_Kangra_Valley_of_Himachal_Pradesh%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "subject": "context",
+          "title": "Kangra Valley, Himachal Pradesh",
+          "creator": "UnpetitproleX",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATea_garden_at_Nagri_in_the_Kangra_Valley_of_Himachal_Pradesh%2C_India.jpg",
+          "alt": "Tea garden landscape in Kangra Valley against Himalayan slopes",
+          "caption": "Kangra Valley, Himachal Pradesh — lush Himalayan foothills where traditional Pahari cooks (Botis) developed the yogurt-based Madra tradition.",
+          "fallback": null,
+          "width": 4931,
+          "height": 3287
+        },
+        "caption": "Kangra Valley, Himachal Pradesh — lush Himalayan foothills where traditional Pahari cooks (Botis) developed the yogurt-based Madra tradition.",
+        "label": "Regional context"
+      },
       "ingredients": {
         "library": null,
         "caption": "",
@@ -2937,7 +3540,20 @@
         ]
       },
       "method": null,
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/White_Chana_Madra.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "subject": "dish",
+        "title": "White Chana Madra",
+        "creator": "Niyati Sharma 1505",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AWhite_Chana_Madra.jpg",
+        "alt": "White Chana Madra in a ceramic bowl with spiced yogurt gravy",
+        "caption": "Pahari Chana Madra: chickpeas simmered in spiced yogurt gravy with cardamom, cloves, and asafoetida.",
+        "fallback": null,
+        "width": 3072,
+        "height": 4096
+      }
     },
     "pittha": {
       "origin": null,
@@ -2987,7 +3603,24 @@
       }
     },
     "dal-bafla": {
-      "origin": null,
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/River_Narmada_from_Maheshwar_Fort.jpg",
+          "subject": "context",
+          "title": "River Narmada from Maheshwar Fort",
+          "creator": "Sumit Surai",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_Narmada_from_Maheshwar_Fort.jpg",
+          "alt": "Maheshwar Fort on the sacred Narmada river in Madhya Pradesh",
+          "caption": "Maheshwar on the Narmada River, Malwa — historic heartland of Madhya Pradesh where bafla is the community feast centerpiece.",
+          "fallback": null,
+          "width": 3000,
+          "height": 1817
+        },
+        "caption": "Maheshwar on the Narmada River, Malwa — historic heartland of Madhya Pradesh where bafla is the community feast centerpiece.",
+        "label": "Regional context"
+      },
       "ingredients": {
         "library": null,
         "caption": "",
@@ -3000,11 +3633,58 @@
           "Turmeric"
         ]
       },
-      "method": null,
-      "plated": null
+      "method": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Daal_Bafla_in_Indore.jpg",
+          "subject": "context",
+          "title": "Daal Bafla in Indore",
+          "creator": "Brihaspati",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daal_Bafla_in_Indore.jpg",
+          "alt": "Bafla dough rounds boiling and roasting over charcoal in Indore",
+          "caption": "Bafla dough balls poached in boiling water then roasted on wire grates over embers until golden and crusty.",
+          "fallback": null,
+          "width": 3024,
+          "height": 3781
+        },
+        "caption": "Bafla dough balls poached in boiling water then roasted on wire grates over embers until golden and crusty.",
+        "label": "Preparation technique"
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Daal_Bafla.jpg",
+        "subject": "dish",
+        "title": "Daal Bafla",
+        "creator": "Sumit Surai",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daal_Bafla.jpg",
+        "alt": "Daal Bafla served with tuvar dal, coriander chutney, and laddu",
+        "caption": "Malwa Daal Bafla: boiled and roasted wheat bafla drenched in ghee, served with spicy tuvar dal and churma.",
+        "fallback": null,
+        "width": 5440,
+        "height": 3544
+      }
     },
     "chak-hao-kheer": {
-      "origin": null,
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/Loktak_Lake_Manipur_01.jpg",
+          "subject": "context",
+          "title": "Loktak Lake Manipur 01",
+          "creator": "Sharada Prasad CS",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loktak_Lake_Manipur_01.jpg",
+          "alt": "Phumdis floating on the waters of Loktak Lake in Manipur",
+          "caption": "Loktak Lake, Manipur — fertile valley landscape where indigenous black glutinous rice (Chak-Hao) has been cultivated for centuries.",
+          "fallback": null,
+          "width": 2592,
+          "height": 1944
+        },
+        "caption": "Loktak Lake, Manipur — fertile valley landscape where indigenous black glutinous rice (Chak-Hao) has been cultivated for centuries.",
+        "label": "Regional context"
+      },
       "ingredients": {
         "library": null,
         "caption": "",
@@ -3017,7 +3697,20 @@
         ]
       },
       "method": null,
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Chahao_kheer.jpg",
+        "subject": "dish",
+        "title": "Chahao kheer",
+        "creator": "BengaliHindu",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chahao_kheer.jpg",
+        "alt": "Deep purple Chak-Hao black rice kheer served in a traditional bowl",
+        "caption": "GI-tagged Manipuri Chak-Hao Kheer: scented black aromatic rice slow-simmered in whole milk, turning rich royal purple.",
+        "fallback": null,
+        "width": 3264,
+        "height": 1836
+      }
     },
     "pumaloi": {
       "origin": null,
@@ -3066,22 +3759,83 @@
       "plated": null
     },
     "pakhala": {
-      "origin": null,
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Jagannath_Temple%2C_Puri_04.jpg",
+          "subject": "context",
+          "title": "Jagannath Temple, Puri",
+          "creator": "Bernard Gagnon",
+          "licence": "CC BY-SA 3.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jagannath_Temple,_Puri_04.jpg",
+          "alt": "Jagannath Temple in Puri, Odisha",
+          "caption": "Jagannath Temple, Puri — spiritual center where fermented Dahi Pakhala is offered as sacred Mahaprasad.",
+          "fallback": null,
+          "width": 5184,
+          "height": 3456
+        },
+        "caption": "Jagannath Temple, Puri — spiritual center where fermented Dahi Pakhala is offered as sacred Mahaprasad.",
+        "label": "Regional context"
+      },
       "ingredients": {
-        "library": null,
-        "caption": "",
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Water_rice_with_curd_%28Dahi_pakhala%29.jpg",
+          "subject": "context",
+          "title": "Water rice with curd (Dahi pakhala)",
+          "creator": "Somya.prity",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_rice_with_curd_(Dahi_pakhala).jpg",
+          "alt": "Cooked rice submerged in water and curd",
+          "caption": "Cooked parboiled rice cooling in clean water with fresh curd, ginger, and green chillies.",
+          "fallback": null,
+          "width": 3000,
+          "height": 4000
+        },
+        "caption": "Cooked parboiled rice cooling in clean water with fresh curd, ginger, and green chillies.",
+        "label": "Ingredient reference",
         "items": [
-          "Cooked rice",
+          "Cooked parboiled rice",
           "Water",
-          "Curd",
-          "Green chilli",
+          "Curd (dahi)",
+          "Green chillies",
           "Ginger",
           "Curry leaves",
-          "Salt"
+          "Mustard seeds"
         ]
       },
-      "method": null,
-      "plated": null
+      "method": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Dahi_Pakhala_for_Pakhala_Dibasa.jpg",
+          "subject": "context",
+          "title": "Dahi Pakhala for Pakhala Dibasa",
+          "creator": "Sangram Keshari Senapati",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dahi_Pakhala_for_Pakhala_Dibasa.jpg",
+          "alt": "Dahi Pakhala being tempered with mustard seeds and curry leaves",
+          "caption": "Chhunka (tempering) hot mustard seeds and curry leaves poured directly over the cold fermented water rice.",
+          "fallback": null,
+          "width": 6000,
+          "height": 4000
+        },
+        "caption": "Chhunka (tempering) hot mustard seeds and curry leaves poured directly over the cold fermented water rice.",
+        "label": "Preparation technique"
+      },
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Pakhala_bhat.jpg",
+        "subject": "dish",
+        "title": "Pakhala bhat",
+        "creator": "Subhransu",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pakhala_bhat.jpg",
+        "alt": "Odia Pakhala platter with fried fish, badi chura, and roasted vegetables",
+        "caption": "Traditional Odia Pakhala platter served in a brass bowl with badi chura, saga bhaja, and fried fish.",
+        "fallback": null,
+        "width": 5472,
+        "height": 3648
+      }
     },
     "ghewar": {
       "origin": null,
@@ -3149,7 +3903,24 @@
       }
     },
     "qubani-ka-meetha": {
-      "origin": null,
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Golconda_Fort%2C_Hyderabad_%28Oct_2025%29_-_3.jpg",
+          "subject": "context",
+          "title": "Golconda Fort, Hyderabad",
+          "creator": "Kuldeepburjbhalaike",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golconda_Fort,_Hyderabad_(Oct_2025)_-_3.jpg",
+          "alt": "Golconda Fort battlements and stone architecture in Hyderabad",
+          "caption": "Golconda Fort, Hyderabad — historic citadel of the Qutb Shahi and Asaf Jahi dynasties where Persian dried-fruit confectionary took root.",
+          "fallback": null,
+          "width": 3000,
+          "height": 4000
+        },
+        "caption": "Golconda Fort, Hyderabad — historic citadel of the Qutb Shahi and Asaf Jahi dynasties where Persian dried-fruit confectionary took root.",
+        "label": "Regional context"
+      },
       "ingredients": {
         "library": null,
         "caption": "",
@@ -3162,10 +3933,40 @@
         ]
       },
       "method": null,
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Khobani_Ka_Meetha.JPG",
+        "subject": "dish",
+        "title": "Khobani Ka Meetha",
+        "creator": "Miansari66",
+        "licence": "CC0",
+        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khobani_Ka_Meetha.JPG",
+        "alt": "Stewed apricot compote dessert with crushed kernels",
+        "caption": "Hyderabadi Qubani ka Meetha: slow-stewed dried apricots in sugar syrup, finished with cracked apricot kernels (badam).",
+        "fallback": null,
+        "width": 2816,
+        "height": 2112
+      }
     },
     "awan-bangwi": {
-      "origin": null,
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Right_Facade_of_Ujjayanta_Palace%2C_Agartala%2C_Tripura_06.JPG",
+          "subject": "context",
+          "title": "Right Facade of Ujjayanta Palace, Agartala, Tripura",
+          "creator": "Kingshuk Mondal",
+          "licence": "CC BY 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Right_Facade_of_Ujjayanta_Palace,_Agartala,_Tripura_06.JPG",
+          "alt": "Ujjayanta Palace neoclassical royal facade in Agartala, Tripura",
+          "caption": "Ujjayanta Palace in Agartala — royal heritage center of Tripura where indigenous Tripuri culinary arts are preserved.",
+          "fallback": null,
+          "width": 6000,
+          "height": 4000
+        },
+        "caption": "Ujjayanta Palace in Agartala — royal heritage center of Tripura where indigenous Tripuri culinary arts are preserved.",
+        "label": "Regional context"
+      },
       "ingredients": {
         "library": null,
         "caption": "",
@@ -3178,7 +3979,20 @@
         ]
       },
       "method": null,
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Awang_Bangwi.jpg",
+        "subject": "dish",
+        "title": "Awang Bangwi",
+        "creator": "Tirengma",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Awang_Bangwi.jpg",
+        "alt": "Awan Bangwi sticky rice cone wrapped in lairu leaves",
+        "caption": "Tripuri Awan Bangwi: fragrant sticky guria rice mixed with cashews, raisins, and pork, steamed in woven lairu leaf cones.",
+        "fallback": null,
+        "width": 552,
+        "height": 475
+      }
     },
     "banarasi-malaiyo": {
       "origin": {
@@ -3216,7 +4030,24 @@
       "plated": null
     },
     "singori": {
-      "origin": null,
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/1_Almora_Uttarakhand_India.jpg",
+          "subject": "context",
+          "title": "Almora, Uttarakhand",
+          "creator": "Travelling Slacker from Mumbai, India",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_Almora_Uttarakhand_India.jpg",
+          "alt": "Almora hillside town overlooking snowcapped Kumaon Himalayas",
+          "caption": "Almora town, Kumaon — historical hill station where Kumaoni halwais invented both Bal Mithai and leaf-wrapped Singori.",
+          "fallback": null,
+          "width": 1133,
+          "height": 750
+        },
+        "caption": "Almora town, Kumaon — historical hill station where Kumaoni halwais invented both Bal Mithai and leaf-wrapped Singori.",
+        "label": "Regional context"
+      },
       "ingredients": {
         "library": null,
         "caption": "",
@@ -3229,7 +4060,20 @@
         ]
       },
       "method": null,
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Singori.jpg",
+        "subject": "dish",
+        "title": "Singori",
+        "creator": "Vinaysharmahbd",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singori.jpg",
+        "alt": "Singori sweet cones wrapped in maalu leaf",
+        "caption": "Kumaoni Singori: caramelized khoa (mawa) and coconut wrapped in fresh fragrant maalu (Bauhinia vahlii) leaves.",
+        "fallback": null,
+        "width": 4032,
+        "height": 3024
+      }
     },
     "rosogolla": {
       "origin": null,

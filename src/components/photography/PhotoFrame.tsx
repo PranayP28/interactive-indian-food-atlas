@@ -46,6 +46,11 @@ export const PhotoFrame: React.FC<PhotoFrameProps> = ({
   const [attempt, setAttempt] = useState(0);
   const [loaded, setLoaded] = useState(false);
 
+  React.useEffect(() => {
+    setAttempt(0);
+    setLoaded(false);
+  }, [photo?.src, photo?.local]);
+
   // Self-hosted copy first, then the CDN, then the original file, then the
   // legacy local copy — every entry is a verified photograph.
   const sources = useMemo(() => (photo ? photoSources(photo, 1280) : []), [photo]);

@@ -41,6 +41,10 @@ interface CinematicParallaxJourneyProps {
   pinOffset?: number;
   /** Viewport heights of scrolling allotted to each stage. */
   scrollPerStage?: number;
+  /** Override the total number of viewport-sized scroll movements. */
+  scrollMovementCount?: number;
+  /** Stage headings displayed together for each scroll movement. */
+  movementHeadings?: string[][];
 }
 
 // Timeline units: each stage moves for MOVE, then crossfades to the next over FADE.
@@ -99,6 +103,8 @@ export const CinematicParallaxJourney: React.FC<CinematicParallaxJourneyProps> =
   outro,
   pinOffset = 64,
   scrollPerStage = 1.1,
+  scrollMovementCount,
+  movementHeadings,
 }) => {
   const { isLight } = useTheme();
   const reducedMotion = usePrefersReducedMotion();
@@ -138,7 +144,7 @@ export const CinematicParallaxJourney: React.FC<CinematicParallaxJourneyProps> =
         return (width() - cw) / 2 + cw * (isMobile() ? 0.3 : 0.12);
       };
       const swing = () => (isMobile() ? 20 : 32);
-      const scrollLength = groups.length + (outroEl ? 0.8 : 0);
+      const scrollLength = scrollMovementCount ?? groups.length + (outroEl ? 0.8 : 0);
 
       const tl = gsap.timeline({
         defaults: { ease: "none" },
@@ -285,7 +291,7 @@ export const CinematicParallaxJourney: React.FC<CinematicParallaxJourneyProps> =
       activeRef.current = 0;
       ctx.revert();
     };
-  }, [reducedMotion, stageCount, hasOutro, pinOffset, scrollPerStage, totalDuration]);
+  }, [reducedMotion, stageCount, hasOutro, pinOffset, scrollPerStage, scrollMovementCount, totalDuration]);
 
   const scrollToStage = useCallback(
     (idx: number) => {
@@ -492,24 +498,25 @@ export const CinematicParallaxJourney: React.FC<CinematicParallaxJourneyProps> =
                 />
               </div>
 
-              {/* Typography */}
-              <div className="absolute z-20 inset-x-0 bottom-0 px-5 pb-8 sm:px-10 lg:px-14 lg:pb-10">
-                <div data-intro className="max-w-5xl space-y-2 sm:space-y-3" style={{ perspective: "600px" }}>
-                  <p data-text className={`text-[10px] sm:text-xs font-bold uppercase tracking-[0.3em] ${accentColor}`}>
-                    {stage.eyebrow}
-                  </p>
-                  <h3
-                    className={`font-cinzel font-black text-[1.7rem] sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.04] tracking-tight drop-shadow-[0_4px_20px_rgba(0,0,0,0.25)] ${headingColor}`}
-                  >
-                    <Words text={stage.title} attr="data-word" />
-                  </h3>
-                  {stage.tagline && (
-                    <p data-text className={`text-base sm:text-lg font-medium ${bodyColor}`}>
-                      {stage.tagline}
+              {!movementHeadings && (
+                <div className="absolute z-20 inset-x-0 bottom-0 px-5 pb-8 sm:px-10 lg:px-14 lg:pb-10">
+                  <div data-intro className="max-w-5xl space-y-2 sm:space-y-3" style={{ perspective: "600px" }}>
+                    <p data-text className={`text-[10px] sm:text-xs font-bold uppercase tracking-[0.3em] ${accentColor}`}>
+                      {stage.eyebrow}
                     </p>
-                  )}
+                    <h3
+                      className={`font-cinzel font-black text-[1.7rem] sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.04] tracking-tight drop-shadow-[0_4px_20px_rgba(0,0,0,0.25)] ${headingColor}`}
+                    >
+                      <Words text={stage.title} attr="data-word" />
+                    </h3>
+                    {stage.tagline && (
+                      <p data-text className={`text-base sm:text-lg font-medium ${bodyColor}`}>
+                        {stage.tagline}
+                      </p>
+                    )}
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
           );
         })}
@@ -567,6 +574,35 @@ export const CinematicParallaxJourney: React.FC<CinematicParallaxJourneyProps> =
                 </p>
               )}
             </div>
+          </div>
+        )}
+
+        {movementHeadings && (
+          <div
+            aria-live="polite"
+            className="absolute bottom-5 left-5 z-30 max-w-[min(88vw,34rem)] space-y-2 rounded-2xl border border-amber-400/25 bg-slate-950/75 p-3 shadow-xl backdrop-blur-md sm:bottom-8 sm:left-8 sm:p-4 lg:bottom-10 lg:left-10"
+          >
+            {movementHeadings[Math.min(Math.floor(activeIdx / 2), movementHeadings.length - 1)]?.map(
+              (heading, index) => {
+                const isActive = activeIdx % 2 === index;
+                return (
+                  <p
+                    key={heading}
+                    aria-current={isActive ? "step" : undefined}
+                    className={`flex items-start gap-2 font-cinzel text-xs font-bold leading-snug transition-opacity sm:text-sm ${
+                      isActive ? "text-amber-200 opacity-100" : "text-amber-100/55 opacity-75"
+                    }`}
+                  >
+                    <span
+                      className={`mt-1 h-2 w-2 shrink-0 rounded-full ${
+                        isActive ? "bg-amber-400 shadow-[0_0_10px_rgba(251,191,36,0.8)]" : "bg-amber-100/30"
+                      }`}
+                    />
+                    {heading}
+                  </p>
+                );
+              }
+            )}
           </div>
         )}
 

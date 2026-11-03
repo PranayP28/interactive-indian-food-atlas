@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the canonical four-stage history for all 94 dishes.
+"""Build the canonical four-stage history for all 96 dishes.
 
 Reads src/data/dishCatalog.json (exported from foodData.ts) plus the curated,
 conservative research notes below, and writes src/data/dishStages.json.
@@ -130,6 +130,7 @@ STATE_CONTEXT = {
     "Jammu and Kashmir": "The Kashmir valley's cold climate, saffron, dried chillies and Persianate court cookery produced the rich, red, yoghurt-based wazwan tradition.",
     "Ladakh": "Ladakh's high-altitude, short-season agriculture centres on barley, wheat noodles, dried vegetables, butter tea and preserved dairy.",
     "Andaman and Nicobar Islands": "The islands' reefs, mangroves and settler communities combine seafood, coconut and Bengali, Tamil and indigenous foodways.",
+    "Lakshadweep": "Lakshadweep's coral atolls and Arabian Sea fisheries shape island cooking around tuna, rice, coconut and local household traditions.",
     "Puducherry": "Puducherry's Tamil coast and French colonial quarter created a cuisine of coconut, seafood, tamarind and Indo-French baked and stewed dishes.",
 }
 

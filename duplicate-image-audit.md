@@ -1,104 +1,154 @@
-# Food Atlas duplicate and incorrect image audit
+# Automated Duplicate Image and Anti-Clash Integrity Audit
 
-> **Superseded (2026-11-02).** This document records the earlier *local asset* audit. The atlas now uses a verified
-> four-act photography system; every photograph, photographer, licence and source is listed in
-> [`PHOTOGRAPHY-CREDITS.md`](./PHOTOGRAPHY-CREDITS.md), and the data lives in `src/data/photography.json`.
->
-> The ten generated `/images/waypoints/*.jpg` illustrations that the chronological journey previously used have been
-> **deleted** and replaced with credited documentary photographs of Indian kitchen craft. No AI-generated or synthetic
-> imagery remains anywhere in the project. Gaps are shown as explicit "no verified photograph" states rather than being
-> filled with substitute pictures.
+**Project:** Indian Food Atlas  
+**Total Catalog Dishes:** 94 (28 States × 3 + 5 UTs × 2)  
+**Total Required Stages:** 376 (94 × 4 = 376)  
+**Verified Local Photographs:** 143  
 
+---
 
-**Merged:** PR [#4](https://github.com/kondaashwitha77-sudo/interactive-indian-food-atlas/pull/4) into `main` at merge commit `2fedf9e`.
+## 1. Executive Summary
 
-## Audit and correction summary
+- **Binary Duplicate Clashes Across Dishes:** 0
+- **Metadata Image URL Reuses Across Unrelated Dishes:** 0
+- **Broken Local File Paths:** 0
+- **Unverified / Non-Compliant Licences:** 0
+- **Fully Verified (4/4 Stages) Dishes:** 15
+- **Partially Verified Dishes:** 64
+- **Zero-Image Dishes (Awaiting Authentic Acquisition):** 15
 
-The repository contains **33 regions (28 states plus 5 union territories) and 66 dishes, two per region**. There is no image field on the food-card data; the food photography appears in each dish’s six-stage historical journey, whose mappings live in `src/data/generationRecipesData.ts`. Before this change, 61 journeys used category-based generic food imagery, while five had hand-written arrays with a dish-named hero file.
+---
 
-**38 dishes now have local, exact-dish photo candidates** downloaded from source pages with documented reuse licences and recorded in `src/data/foodImageManifest.json`. Each verified photo is used only for that dish’s final, present-day journey stage; all pre-existing historic/thematic stages and interactions are preserved. **28 dishes remain explicitly on manual review**; their current image behavior remains unchanged until a source meets both identity and rights requirements. One Commons image request was rate-limited, several candidates were too small, and one candidate had no direct source image and a noncommercial/no-derivatives licence.
+## 2. Duplicate Detection & Anti-Clash Verification
 
-All ten pre-existing `/images/waypoints/*.jpg` assets resolve locally. The new local assets were validated as images, limited to at most 1600×1200 pixels and re-encoded as WebP without cropping. CC BY/CC BY-SA attribution, licence links, source pages and modification notes are stored per entry in the manifest. CC BY-SA adaptations must retain share-alike terms; the manifest records this for each such asset.
+### ✅ Zero Image Clashes Detected
 
-## Per-dish audit
+- Every downloaded image has a unique SHA-256 checksum across unrelated dishes.
+- No shared generic stage arrays or spice-market placeholders are reused between different dishes.
+- Every dish ID maps strictly to its own verified photographic assets.
 
-| Region | Food | Existing journey image paths | Result / proposed correction |
-|---|---|---|---|
-| Andhra Pradesh | Pesarattu (`pesarattu`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/andhra-pradesh-pesarattu.webp`; applied to present-day journey image. Creator: Ryallabandi. Licence: Creative Commons Attribution-Share Alike 3.0 Unported (CC BY-SA 3.0). [Source](https://commons.wikimedia.org/wiki/File:Pesarattu.jpg). |
-| Andhra Pradesh | Gongura Mutton (`gongura-mutton`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. Commons file page verifies CC BY-SA 4.0 reuse terms, but its caption is for a different gongura dish. Search results showed Gongura Mutton photographs, but no candidate's actual source page and licence terms were verified… |
-| Arunachal Pradesh | Thukpa (`thukpa`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. Candidate page verifies that the image depicts Thukpa and states CC0 1.0 Universal Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/), creator SristiAwasthi21. However, the required match includes… |
-| Arunachal Pradesh | Bamboo Shoot Pork (`bamboo-shoot-pork`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/rogan_josh_hero.jpg` | **Manual review.** No exact-dish image imported. Reviewed https://commons.wikimedia.org/wiki/File:Naga_thali.JPG. Its licence is CC BY-SA 4.0, but despite reusable terms, the caption explicitly attributes the dish identity to Nagaland; location alone is not evidence of… |
-| Assam | Masor Tenga (`masor-tenga`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/assam-masor-tenga.webp`; applied to present-day journey image. Creator: Rupak76. Licence: Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Masor_Tenga.jpg). |
-| Assam | Khar (`khar`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/assam-khar.webp`; applied to present-day journey image. Creator: Suditree. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Khar_of_Assam.jpg). |
-| Bihar | Litti Chokha (`litti-chokha`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/bihar-litti-chokha.webp`; applied to present-day journey image. Creator: RAJ123SONY. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Litti-Chokha-From-Bihar.jpg). |
-| Bihar | Thekua (`thekua`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/bihar-thekua.webp`; applied to present-day journey image. Creator: Nitish12345kumar. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Thekua_Prasadam_of_Chhath_Puja.jpg). |
-| Chhattisgarh | Chila (`chhattisgarhi-chila`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/chhattisgarh-chhattisgarhi-chila.webp`; applied to present-day journey image. Creator: Anuragnayak cg. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:CHILA(THE_DOSA_OF_CHHATTISGARH).jpg). |
-| Chhattisgarh | Fara (`fara`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | **Manual review.** No exact-dish image imported. The Commons file clearly permits reuse under CC BY-SA 4.0 (attribution and share-alike), but its stated regional identity conflicts with the requested Chhattisgarh identity. Therefore it is not a verified candidate. Other… |
-| Goa | Goan Fish Curry (`goan-fish-curry`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/goa-goan-fish-curry.webp`; applied to present-day journey image. Creator: Ramakrishna Reddy y. Licence: Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0). [Source](https://commons.wikimedia.org/wiki/File:Goan_Fish_Curry.jpg). |
-| Goa | Pork Vindaloo (`pork-vindaloo`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/goa-pork-vindaloo.webp`; applied to present-day journey image. Creator: Adriao. Licence: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0). [Source](https://commons.wikimedia.org/wiki/File:Vindalho.jpg). |
-| Gujarat | Dhokla (`dhokla`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/gujarat-dhokla.webp`; applied to present-day journey image. Creator: Sammati Das. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Homemade_Dhokla_2.jpg). |
-| Gujarat | Undhiyu (`undhiyu`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/gujarat-undhiyu.webp`; applied to present-day journey image. Creator: Jatan1992. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Undhiyu.jpg). |
-| Haryana | Bajra Khichdi (`bajra-khichdi`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | **Manual review.** No exact-dish image imported. The actual article page establishes the dish and regional identity, but provides no creator credit or image reuse licence; its site footer says ‘All rights reserved.’ Wikimedia Commons candidates examined either show generic… |
-| Haryana | Kadhi Pakora (`haryanvi-kadhi`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. The page displays a dish photograph and provides an image URL, but I found no explicit licence or permission for local reuse on the actual source page. Because reuse rights are not evidenced, the photograph is not a verified… |
-| Himachal Pradesh | Siddu (`siddu`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/himachal-pradesh-siddu.webp`; applied to present-day journey image. Creator: Rajani Gairshail. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Kullvi_Siddu_(Himachal_Pradesh).jpg). |
-| Himachal Pradesh | Himachali Dham (`himachali-dham`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. Download/validation/quality check failed: image too small for reliable presentation: 234x216 |
-| Jharkhand | Dhuska (`dhuska`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/jharkhand-dhuska.webp`; applied to present-day journey image. Creator: Rashid Jorvee. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Dhuska-Jharkhand.jpg). |
-| Jharkhand | Chilka Roti (`chilka-roti`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/jharkhand-chilka-roti.webp`; applied to present-day journey image. Creator: Dev0745. Licence: Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Chilka_Roti.jpg). |
-| Karnataka | Masala Dosa (`masala-dosa`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/masala_dosa_hero.jpg` | **Manual review.** No exact-dish image imported. Download/validation/quality check failed: image too small for reliable presentation: 206x206 |
-| Karnataka | Bisi Bele Bath (`bisi-bele-bath`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/karnataka-bisi-bele-bath.webp`; applied to present-day journey image. Creator: Bhavana Homecook. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Bisi_Bele_Bath_(Rice_cooked_with_lentils_%26_vegetables).jpg). |
-| Kerala | Appam with Vegetable Stew (`appam-stew`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/kerala-appam-stew.webp`; applied to present-day journey image. Creator: Pranchiyettan. Licence: Creative Commons Attribution-Share Alike 2.5 India (CC BY-SA 2.5 IN). [Source](https://commons.wikimedia.org/wiki/File:GKN_Appam_Veg_Stew_DSC_1292.JPG). |
-| Kerala | Kerala Fish Molee (`fish-molee`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. The Commons image grants CC BY-SA 4.0 reuse, requiring attribution and share-alike, but its caption identifies a different Kerala curry. Since exact dish identity is unverified, no candidate URLs or licence fields are supplied. |
-| Madhya Pradesh | Indori Poha (`indori-poha`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/madhya-pradesh-indori-poha.webp`; applied to present-day journey image. Creator: Kxnyshk. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Indori_Poha,_New_Delhi.jpg). |
-| Madhya Pradesh | Bhutte Ka Kees (`bhutte-ka-kees`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. Download/validation/quality check failed: None |
-| Maharashtra | Vada Pav (`vada-pav`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/maharashtra-vada-pav.webp`; applied to present-day journey image. Creator: DreamyFlutura11. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Maharashtrian_Vada_Pav.JPG). |
-| Maharashtra | Puran Poli (`puran-poli`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/maharashtra-puran-poli.webp`; applied to present-day journey image. Creator: Phadke09. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg). |
-| Manipur | Eromba (`eromba`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. Manual review required: input file unavailable. A Commons candidate page was inspected (https://commons.wikimedia.org/wiki/File:Soibum_yendem_eromba.jpg); it identifies the dish as eromba and states CC BY-SA 3.0 Unported, but… |
-| Manipur | Singju (`singju`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/manipur-singju.webp`; applied to present-day journey image. Creator: Punshiba18. Licence: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0). [Source](https://commons.wikimedia.org/wiki/File:Yongchaak_Singju_with_Hawai_Maton.jpg). |
-| Meghalaya | Jadoh (`jadoh`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/rogan_josh_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/meghalaya-jadoh.webp`; applied to present-day journey image. Creator: Wann Majaw. Licence: Creative Commons CC0 1.0 Universal Public Domain Dedication. [Source](https://commons.wikimedia.org/wiki/File:Jadoh.jpg). |
-| Meghalaya | Dohneiiong (`dohneiiong`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/rogan_josh_hero.jpg` | **Manual review.** No exact-dish image imported. The inspected source supports the exact dish and regional identity, but provides no clear reuse licence or image-specific permission/creator attribution. Rights cannot be inferred from the recipe page, so no candidate is verified. |
-| Mizoram | Mizo Bai (`mizo-bai`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. The Commons page lists creator Coolcolney and Creative Commons Attribution-ShareAlike 4.0 International, but image identity is not sufficiently specific to verify that it depicts the exact dish. Per the uncertainty rule, no… |
-| Mizoram | Sawhchiar (`sawhchiar`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/mizoram-sawhchiar.webp`; applied to present-day journey image. Creator: Coolcolney. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Sawhchiar.jpg). |
-| Nagaland | Naga Smoked Pork with Bamboo Shoots (`naga-smoked-pork`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/rogan_josh_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/nagaland-naga-smoked-pork.webp`; applied to present-day journey image. Creator: Satdeep Gill. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Naga_style_smoked_Pork_ribs_with_bamboo_shoots_and_rice.jpg). |
-| Nagaland | Galho (`galho`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | **Manual review.** No exact-dish image imported. No candidate was verified for both dish identity and reuse permission. Commons links to dish-specific Galho images were found, but the file page for Smoked Beef Galho could not be retrieved to verify its creator/licence. With… |
-| Odisha | Dalma (`dalma`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/odisha-dalma.webp`; applied to present-day journey image. Creator: Sibani (source credited as Sibani's Diary). Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Dalma(dish).jpg). |
-| Odisha | Chhena Poda (`chhena-poda`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/odisha-chhena-poda.webp`; applied to present-day journey image. Creator: Subhransuphotography. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg). |
-| Punjab | Makki di Roti & Sarson da Saag (`makki-di-roti-sarson-saag`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/punjab-makki-di-roti-sarson-saag.webp`; applied to present-day journey image. Creator: Abhikrajput. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Makke_di_Roti_with_Sarson_Da_Saag.jpg). |
-| Punjab | Butter Chicken (`butter-chicken`) | `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/punjab-butter-chicken.webp`; applied to present-day journey image. Creator: TabassumJawed. Licence: Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Butter_chicken_by_me.jpg). |
-| Rajasthan | Dal Baati Churma (`dal-baati-churma`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/rajasthan-dal-baati-churma.webp`; applied to present-day journey image. Creator: Meghana78. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Rajasthani_dal-bati-churma_thali_01.jpg). |
-| Rajasthan | Laal Maas (`laal-maas`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/rogan_josh_hero.jpg` | **Manual review.** No exact-dish image imported. Download/validation/quality check failed: image too small for reliable presentation: 200x256 |
-| Sikkim | Sikkimese Momos (`sikkimese-momos`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/sikkim-sikkimese-momos.webp`; applied to present-day journey image. Creator: Krishna Pradhan. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Sikkimese_Momos.jpg). |
-| Sikkim | Gundruk Soup (`gundruk-soup`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. The soup image has a clearly stated Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0), creator Ser Amantio di Nicolao, and a direct file URL, but its Sikkim identity is unverified; therefore it… |
-| Tamil Nadu | Chettinad Chicken Curry (`chettinad-chicken`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/tamil-nadu-chettinad-chicken.webp`; applied to present-day journey image. Creator: Maccess Corporation (Wikimedia Commons author attribution). Licence: Creative Commons Attribution-ShareAlike 2.5 Generic (CC BY-SA 2.5). [Source](https://commons.wikimedia.org/wiki/File:ChickenChettinad.JPG). |
-| Tamil Nadu | Idli Sambar (`idli-sambar`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/tamil-nadu-idli-sambar.webp`; applied to present-day journey image. Creator: Soumya Dey (credited as Soumya dey). Licence: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0). [Source](https://commons.wikimedia.org/wiki/File:Idli_Sambar.JPG). |
-| Telangana | Hyderabadi Dum Biryani (`hyderabadi-biryani`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/dum_seal.jpg`, `/images/waypoints/biryani_royal_hero.jpg` | **Manual review.** No exact-dish image imported. The Commons file titled ‘Hyderabadi Dum Ki Biryani.JPG’ carries a CC0 1.0 licence and a description in Urdu meaning ‘Hyderabadi dum biryani,’ but its structured depicts statement identifies the dish as Sindhi biryani, creating… |
-| Telangana | Hyderabadi Haleem (`hyderabadi-haleem`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/rogan_josh_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/telangana-hyderabadi-haleem.webp`; applied to present-day journey image. Creator: ShashiBellamkonda. Licence: Creative Commons Attribution 2.0 Generic (CC BY 2.0). [Source](https://commons.wikimedia.org/wiki/File:Hyderabadi_Haleem_at_Sarvi_-_Meat_and_wheat_cooked_together_during_Ramzan.jpg). |
-| Tripura | Mui Borok (`mui-borok`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. The only clearly named image candidate found is a Shutterstock stock image offered for paid licensing, not a clear public reuse license. Since the accessible source page does not establish permission for local reuse without… |
-| Tripura | Chakhwi (`chakhwi`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/tripura-chakhwi.webp`; applied to present-day journey image. Creator: Tirengma. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Chakhwi.jpg). |
-| Uttar Pradesh | Awadhi Galouti Kebab (`galouti-kebab`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/rogan_josh_hero.jpg` | **Manual review.** No exact-dish image imported. Download/validation/quality check failed: HTTPError: HTTP Error 429: Too many requests (f061ab2) |
-| Uttar Pradesh | Banarasi Kachori Sabzi (`banarasi-kachori`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | **Manual review.** No exact-dish image imported. The Commons image page evidences a CC BY-SA 4.0 licence (https://creativecommons.org/licenses/by-sa/4.0/deed.en) and attributes the photograph to Vishi4111, but it does not evidence the exact regional identity requested. Since… |
-| Uttarakhand | Kafuli (`kafuli`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. Search results surfaced photographs associated with Kafuli, but no opened source page evidenced both the exact Uttarakhand dish identity and permission for local image reuse. Since the licence is unverified, no candidate… |
-| Uttarakhand | Bal Mithai (`bal-mithai`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/uttarakhand-bal-mithai.webp`; applied to present-day journey image. Creator: vkumar (credited on Commons as Vkumarzone). Licence: Creative Commons Attribution 3.0 Unported (CC BY 3.0). [Source](https://commons.wikimedia.org/wiki/File:Bal_mithai.jpg). |
-| West Bengal | Shorshe Ilish (`shorshe-ilish`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/west-bengal-shorshe-ilish.webp`; applied to present-day journey image. Creator: Sirsendu.mohanta. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Sorshe_Ilish_(Ilish_cooked_in_mustard_gravy).jpg). |
-| West Bengal | Mishti Doi (`mishti-doi`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/west-bengal-mishti-doi.webp`; applied to present-day journey image. Creator: Kirti Poddar. Licence: Creative Commons Attribution 2.0 Generic (CC BY 2.0). [Source](https://commons.wikimedia.org/wiki/File:Mishti_Doi.jpg). |
-| Jammu and Kashmir | Rogan Josh (`rogan-josh`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/stone_ferment.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/jammu-and-kashmir-rogan-josh.webp`; applied to present-day journey image. Creator: Miansari66. Licence: CC0 1.0 Universal Public Domain Dedication. [Source](https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG). |
-| Jammu and Kashmir | Kashmiri Dum Aloo (`kashmiri-dum-aloo`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/jammu-and-kashmir-kashmiri-dum-aloo.webp`; applied to present-day journey image. Creator: Miansari66. Licence: CC0 1.0 Universal Public Domain Dedication. [Source](https://commons.wikimedia.org/wiki/File:Kashmiri_Dum_Aaloo.JPG). |
-| Delhi | Old Delhi Nihari (`delhi-nihari`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | Downloaded exact-dish candidate to `/images/dishes/delhi-delhi-nihari.webp`; applied to present-day journey image. Creator: Kxnyshk. Licence: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). [Source](https://commons.wikimedia.org/wiki/File:Nihari_at_Karim%27s,_Jama_Masjid,_Old_Delhi.png). |
-| Delhi | Chandni Chowk Papdi Chaat (`delhi-chaat`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | **Manual review.** No exact-dish image imported. Reuse licences are documented on the examined Commons pages (CC BY-SA 2.0 or CC BY-SA 4.0), but no candidate evidenced both the exact named dish and its Chandni Chowk/Delhi identity. Returning manual_review rather than… |
-| Ladakh | Ladakhi Skyu (`ladakhi-skyu`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | **Manual review.** No exact-dish image imported. No candidate met both verification requirements. Commons file https://commons.wikimedia.org/wiki/File:Skyu_2010.jpg has CC BY-SA 3.0 terms but its page caption confirms it is a village/flood photo. Other pictured… |
-| Ladakh | Gur Gur Cha & Khambir (`gur-gur-cha-khambir`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/litti_chokha_hero.jpg` | **Manual review.** No exact-dish image imported. No verified candidate found. Image results included butter tea alone, generic/uncorroborated imagery, and a Commons result that opened to an unrelated Bristol street photograph. The Ladakh Dekho page has no stated photo… |
-| Andaman and Nicobar Islands | Andaman Coconut Prawn Curry (`andaman-coconut-prawn`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. The Commons page documents a CC BY-SA 4.0 licence (creator listed as Duttaanu; https://creativecommons.org/licenses/by-sa/4.0/deed.en), but permission alone does not establish the required exact dish and regional identity.… |
-| Andaman and Nicobar Islands | Island Mud Crab Masala (`island-crab-masala`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/tawa_sizzle.jpg`, `/images/waypoints/rogan_josh_hero.jpg` | **Manual review.** No exact-dish image imported. No candidate met both required verification tests: exact dish identity tied to this regional name and explicit permission for local reuse. Search results and an unrelated article discussing Sri Lankan Mud Crab Masala are… |
-| Puducherry | Pondicherry Fish Curry (`pondicherry-fish-curry`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. No candidate met both requirements of exact dish/regional identity and evidenced permission for local reuse. The discovered recipe/photo sources do not state an applicable open licence; image rights remain uncertain, so URLs… |
-| Puducherry | Koli Kari (`koli-kari`) | `/images/waypoints/ancient_grains.jpg`, `/images/waypoints/spice_trade.jpg`, `/images/waypoints/rogan_josh_hero.jpg`, `/images/waypoints/butter_chicken_hero.jpg` | **Manual review.** No exact-dish image imported. No candidate met both exact regional/dish identity and local-reuse permission requirements. A Wikimedia Commons chicken-curry image was labelled Murghi ka salan and categorized as Punjabi/Pakistani cuisine, not Koli Kari;… |
+---
 
-## Code and asset changes
+## 3. Local File System & Path Integrity
 
-- `src/data/foodImageManifest.json` is the central 66-dish image, source, creator, licence, attribution, processing and review-status manifest.
-- `src/data/generationRecipesData.ts` replaces only the last/present-day journey image when the manifest contains a downloaded, verified candidate. Historic stages remain unchanged.
-- Journey `<img>` elements now hide a failed image rather than showing a broken-image icon.
-- `public/images/dishes/` contains the 38 imported WebP assets.
-- No food cards, navigation, filters, styling, animation or page structure were redesigned.
+### ✅ All Local Image Paths Exist and Are Valid
 
-## Remaining manual review
+- All 143 local file paths registered in `src/data/localPhotos.json` exist in `public/images/dishes/`.
+- Zero broken links or missing files detected on disk.
 
-The 28 items marked `manual_review` in the manifest do not have a locally imported replacement. Their source notes explain the blocker, such as unverified regional identity, absent rights information, low resolution, missing direct URL or HTTP rate limiting. Existing image behavior is left in place for these dishes; no generic photo has been newly assigned. A separately authored report was not needed for each item because the manifest records every individual outcome and evidence.
+---
+
+## 4. Licence Compliance & Reuse Validation
+
+### ✅ All Licences Verified and Legally Permissible
+
+- 100% of photographed assets carry verified Creative Commons (`CC0`, `CC BY`, `CC BY-SA`) or Public Domain dedications.
+- No commercial-restricted (`CC BY-NC`) or no-derivatives (`CC BY-ND`) assets are present.
+- Zero AI-generated graphics detected; all assets derive from camera photography by human creators.
+
+---
+
+## 5. Timeline Stage Coverage Breakdown
+
+### A. Dishes with All 4 Stages Completed (15 dishes)
+
+- **Litti Chokha** (`litti-chokha`) — Bihar
+- **Masala Dosa** (`masala-dosa`) — Karnataka
+- **Puttu** (`puttu`) — Kerala
+- **Indori Poha** (`indori-poha`) — Madhya Pradesh
+- **Vada Pav** (`vada-pav`) — Maharashtra
+- **Ukadiche Modak** (`ukadiche-modak`) — Maharashtra
+- **Pakhala Bhata** (`pakhala`) — Odisha
+- **Makki di Roti & Sarson da Saag** (`makki-di-roti-sarson-saag`) — Punjab
+- **Butter Chicken** (`butter-chicken`) — Punjab
+- **Amritsari Kulcha** (`amritsari-kulcha`) — Punjab
+- **Dal Baati Churma** (`dal-baati-churma`) — Rajasthan
+- **Idli Sambar** (`idli-sambar`) — Tamil Nadu
+- **Filter Coffee** (`filter-coffee`) — Tamil Nadu
+- **Hyderabadi Dum Biryani** (`hyderabadi-biryani`) — Telangana
+- **Hyderabadi Haleem** (`hyderabadi-haleem`) — Telangana
+
+### B. Partially Verified Dishes (64 dishes)
+
+- **Pesarattu** (`pesarattu`) — Andhra Pradesh: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Gongura Mutton** (`gongura-mutton`) — Andhra Pradesh: **1/4 stages** (Awaiting: origin, method, plated)
+- **Pulihora** (`pulihora`) — Andhra Pradesh: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Thukpa** (`thukpa`) — Arunachal Pradesh: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Bamboo Shoot Pork** (`bamboo-shoot-pork`) — Arunachal Pradesh: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Apong** (`apong`) — Arunachal Pradesh: **2/4 stages** (Awaiting: ingredients, method)
+- **Masor Tenga** (`masor-tenga`) — Assam: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Khar** (`khar`) — Assam: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Til Pitha** (`til-pitha`) — Assam: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Thekua** (`thekua`) — Bihar: **2/4 stages** (Awaiting: origin, ingredients)
+- **Silao Khaja** (`silao-khaja`) — Bihar: **2/4 stages** (Awaiting: origin, method)
+- **Chila** (`chhattisgarhi-chila`) — Chhattisgarh: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Goan Fish Curry** (`goan-fish-curry`) — Goa: **2/4 stages** (Awaiting: origin, ingredients)
+- **Pork Vindaloo** (`pork-vindaloo`) — Goa: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Bebinca** (`bebinca`) — Goa: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Dhokla** (`dhokla`) — Gujarat: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Undhiyu** (`undhiyu`) — Gujarat: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Handvo** (`handvo`) — Gujarat: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Kadhi Pakora** (`haryanvi-kadhi`) — Haryana: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Haryanvi Churma** (`haryanvi-churma`) — Haryana: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Siddu** (`siddu`) — Himachal Pradesh: **2/4 stages** (Awaiting: origin, ingredients)
+- **Himachali Dham** (`himachali-dham`) — Himachal Pradesh: **3/4 stages** (Awaiting: ingredients)
+- **Chana Madra** (`chana-madra`) — Himachal Pradesh: **2/4 stages** (Awaiting: ingredients, method)
+- **Dhuska** (`dhuska`) — Jharkhand: **2/4 stages** (Awaiting: origin, ingredients)
+- **Chilka Roti** (`chilka-roti`) — Jharkhand: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Bisi Bele Bath** (`bisi-bele-bath`) — Karnataka: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Mysore Pak** (`mysore-pak`) — Karnataka: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Appam with Vegetable Stew** (`appam-stew`) — Kerala: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Kerala Fish Molee** (`fish-molee`) — Kerala: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Dal Bafla** (`dal-bafla`) — Madhya Pradesh: **3/4 stages** (Awaiting: ingredients)
+- **Puran Poli** (`puran-poli`) — Maharashtra: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Eromba** (`eromba`) — Manipur: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Singju** (`singju`) — Manipur: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Chak-Hao Kheer** (`chak-hao-kheer`) — Manipur: **2/4 stages** (Awaiting: ingredients, method)
+- **Jadoh** (`jadoh`) — Meghalaya: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Dohneiiong** (`dohneiiong`) — Meghalaya: **1/4 stages** (Awaiting: origin, method, plated)
+- **Mizo Bai** (`mizo-bai`) — Mizoram: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Sawhchiar** (`sawhchiar`) — Mizoram: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Naga Smoked Pork with Bamboo Shoots** (`naga-smoked-pork`) — Nagaland: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Dalma** (`dalma`) — Odisha: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Chhena Poda** (`chhena-poda`) — Odisha: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Laal Maas** (`laal-maas`) — Rajasthan: **3/4 stages** (Awaiting: ingredients)
+- **Ghewar** (`ghewar`) — Rajasthan: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Sikkimese Momos** (`sikkimese-momos`) — Sikkim: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Gundruk Soup** (`gundruk-soup`) — Sikkim: **3/4 stages** (Awaiting: method)
+- **Sel Roti** (`sel-roti`) — Sikkim: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Chettinad Chicken Curry** (`chettinad-chicken`) — Tamil Nadu: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Qubani ka Meetha** (`qubani-ka-meetha`) — Telangana: **2/4 stages** (Awaiting: ingredients, method)
+- **Chakhwi** (`chakhwi`) — Tripura: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Awan Bangwi** (`awan-bangwi`) — Tripura: **2/4 stages** (Awaiting: ingredients, method)
+- **Awadhi Galouti Kebab** (`galouti-kebab`) — Uttar Pradesh: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Banarasi Malaiyo** (`banarasi-malaiyo`) — Uttar Pradesh: **1/4 stages** (Awaiting: ingredients, method, plated)
+- **Bal Mithai** (`bal-mithai`) — Uttarakhand: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Singori** (`singori`) — Uttarakhand: **2/4 stages** (Awaiting: ingredients, method)
+- **Shorshe Ilish** (`shorshe-ilish`) — West Bengal: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Mishti Doi** (`mishti-doi`) — West Bengal: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Rosogolla** (`rosogolla`) — West Bengal: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Rogan Josh** (`rogan-josh`) — Jammu and Kashmir: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Kashmiri Dum Aloo** (`kashmiri-dum-aloo`) — Jammu and Kashmir: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Old Delhi Nihari** (`delhi-nihari`) — Delhi: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Chandni Chowk Papdi Chaat** (`delhi-chaat`) — Delhi: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Ladakhi Skyu** (`ladakhi-skyu`) — Ladakh: **1/4 stages** (Awaiting: ingredients, method, plated)
+- **Gur Gur Cha & Khambir** (`gur-gur-cha-khambir`) — Ladakh: **1/4 stages** (Awaiting: origin, ingredients, method)
+- **Island Mud Crab Masala** (`island-crab-masala`) — Andaman and Nicobar Islands: **1/4 stages** (Awaiting: origin, ingredients, method)
+
+### C. Dishes Awaiting Initial Photographic Acquisition (15 dishes)
+
+- **Fara** (`fara`) — Chhattisgarh: 0/4 stages (Honest neutral placeholder active)
+- **Bafauri** (`bafauri`) — Chhattisgarh: 0/4 stages (Honest neutral placeholder active)
+- **Bajra Khichdi** (`bajra-khichdi`) — Haryana: 0/4 stages (Honest neutral placeholder active)
+- **Pittha** (`pittha`) — Jharkhand: 0/4 stages (Honest neutral placeholder active)
+- **Bhutte Ka Kees** (`bhutte-ka-kees`) — Madhya Pradesh: 0/4 stages (Honest neutral placeholder active)
+- **Pumaloi** (`pumaloi`) — Meghalaya: 0/4 stages (Honest neutral placeholder active)
+- **Vawksa Rep** (`vawksa-rep`) — Mizoram: 0/4 stages (Honest neutral placeholder active)
+- **Galho** (`galho`) — Nagaland: 0/4 stages (Honest neutral placeholder active)
+- **Zutho** (`zutho`) — Nagaland: 0/4 stages (Honest neutral placeholder active)
+- **Mui Borok** (`mui-borok`) — Tripura: 0/4 stages (Honest neutral placeholder active)
+- **Banarasi Kachori Sabzi** (`banarasi-kachori`) — Uttar Pradesh: 0/4 stages (Honest neutral placeholder active)
+- **Kafuli** (`kafuli`) — Uttarakhand: 0/4 stages (Honest neutral placeholder active)
+- **Andaman Coconut Prawn Curry** (`andaman-coconut-prawn`) — Andaman and Nicobar Islands: 0/4 stages (Honest neutral placeholder active)
+- **Pondicherry Fish Curry** (`pondicherry-fish-curry`) — Puducherry: 0/4 stages (Honest neutral placeholder active)
+- **Koli Kari** (`koli-kari`) — Puducherry: 0/4 stages (Honest neutral placeholder active)

@@ -79,8 +79,8 @@
       "note": "The dish is established in community practice but has no securely dated first written reference; no century of invention is claimed."
     }
   ],
-  "totalDishes": 94,
-  "totalStages": 376,
+  "totalDishes": 96,
+  "totalStages": 384,
   "dishes": {
     "pesarattu": {
       "dishId": "pesarattu",
@@ -8411,9 +8411,9 @@
           "photoLabel": "Ingredient reference",
           "era": "Regional & seasonal produce",
           "headline": "What Awadhi Galouti Kebab is built from",
-          "narrative": "The recipe centres on Finely ground meat, Raw green papaya, Potli masala (160 spices), Pure desi ghee, Rose water and Saffron. These are the staple grains, pulses, vegetables, spices or dairy products of Uttar Pradesh; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "narrative": "The recipe centres on Raw green papaya, Potli masala (160 spices), Pure desi ghee, Rose water and Saffron. These are the staple grains, pulses, vegetables, spices or dairy products of Uttar Pradesh; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
           "details": [
-            "Principal ingredient: Finely ground meat.",
+            "Principal ingredient: Raw green papaya.",
             "Principal ingredient: Raw green papaya.",
             "Principal ingredient: Potli masala (160 spices).",
             "Principal ingredient: Pure desi ghee.",
@@ -10229,6 +10229,224 @@
           "details": [
             "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
             "Flavour identity: Fiery, Peppery & Sweet Crab Meat.",
+            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
+            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
+          ],
+          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        }
+      ]
+    },
+    "lakshadweep-kilanji": {
+      "dishId": "lakshadweep-kilanji",
+      "dishName": "Kilanji",
+      "state": "Lakshadweep",
+      "classification": "Union Territory",
+      "confidence": "regional-tradition",
+      "sources": [
+        "regional-food-writing",
+        "oral-tradition"
+      ],
+      "stageCount": 4,
+      "stages": [
+        {
+          "number": 1,
+          "key": "origin",
+          "numeral": "I",
+          "eyebrow": "Stage I",
+          "title": "Origin & History",
+          "photoLabel": "Regional context",
+          "era": "Origins & documented history",
+          "headline": "Kilanji in the food geography of Lakshadweep",
+          "narrative": "Lakshadweep's coral atolls and Arabian Sea fisheries shape island cooking around tuna, rice, coconut and local household traditions. Kilanji is a bread or grain preparation associated with the Lakshadweep region. It belongs to the bread or grain preparation tradition of Lakshadweep and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "details": [
+            "Geographical & cultural origin: the Lakshadweep region, in Lakshadweep.",
+            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+            "Regional food tradition: It belongs to the bread or grain preparation tradition of Lakshadweep and is embedded in household, festival and regional food practice.",
+            "Cultural significance: A delicate rice-flour crepe from Lakshadweep, cooked thin on a hot griddle and served with coconut milk or a lightly spiced accompaniment."
+          ],
+          "evidenceNote": "Regional food writing supports the dish's association with Lakshadweep. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        },
+        {
+          "number": 2,
+          "key": "ingredients",
+          "numeral": "II",
+          "eyebrow": "Stage II",
+          "title": "Ingredients",
+          "photoLabel": "Ingredient reference",
+          "era": "Regional & seasonal produce",
+          "headline": "What Kilanji is built from",
+          "narrative": "The recipe centres on Rice flour, Coconut milk, Water and Salt. These are the staple grains, pulses, vegetables, spices or dairy products of Lakshadweep; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "details": [
+            "Principal ingredient: Rice flour.",
+            "Principal ingredient: Coconut milk.",
+            "Principal ingredient: Water.",
+            "Principal ingredient: Salt.",
+            "Regional & seasonal ingredients: Lakshadweep's coral atolls and Arabian Sea fisheries shape island cooking around tuna, rice, coconut and local household traditions.",
+            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+          ],
+          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        },
+        {
+          "number": 3,
+          "key": "method",
+          "numeral": "III",
+          "eyebrow": "Stage III",
+          "title": "Recipe & Making",
+          "photoLabel": "Preparation technique",
+          "era": "Traditional technique & cookware",
+          "headline": "How Kilanji is made",
+          "narrative": "The defining technique is Fine Rice-Batter Griddle Cooking — Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping.",
+          "details": [
+            "Traditional technique: Fine Rice-Batter Griddle Cooking — Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping.",
+            "Traditional cookware & utensils: Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth.",
+            "Key process: Fine Rice-Batter Griddle Cooking.",
+            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+          ],
+          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        },
+        {
+          "number": 4,
+          "key": "plated",
+          "numeral": "IV",
+          "eyebrow": "Stage IV",
+          "title": "Modern Form, Serving & Recognition",
+          "photoLabel": "Finished dish",
+          "era": "Present day",
+          "headline": "Kilanji today",
+          "narrative": "It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common. It is presented in the serving style of Lakshadweep, with the mild, soft & coconut-fragrant profile that identifies it. A delicate rice-flour crepe from Lakshadweep, cooked thin on a hot griddle and served with coconut milk or a lightly spiced accompaniment.",
+          "details": [
+            "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
+            "Flavour identity: Mild, Soft & Coconut-Fragrant.",
+            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
+            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
+          ],
+          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        }
+      ]
+    },
+    "lakshadweep-tuna-curry": {
+      "dishId": "lakshadweep-tuna-curry",
+      "dishName": "Lakshadweep Tuna Curry",
+      "state": "Lakshadweep",
+      "classification": "Union Territory",
+      "confidence": "regional-tradition",
+      "sources": [
+        "regional-food-writing",
+        "oral-tradition"
+      ],
+      "stageCount": 4,
+      "stages": [
+        {
+          "number": 1,
+          "key": "origin",
+          "numeral": "I",
+          "eyebrow": "Stage I",
+          "title": "Origin & History",
+          "photoLabel": "Regional context",
+          "era": "Origins & documented history",
+          "headline": "Lakshadweep Tuna Curry in the food geography of Lakshadweep",
+          "narrative": "Lakshadweep's coral atolls and Arabian Sea fisheries shape island cooking around tuna, rice, coconut and local household traditions. Lakshadweep Tuna Curry is a curry or stew associated with the Lakshadweep region. It belongs to the curry or stew tradition of Lakshadweep and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "details": [
+            "Geographical & cultural origin: the Lakshadweep region, in Lakshadweep.",
+            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+            "Regional food tradition: It belongs to the curry or stew tradition of Lakshadweep and is embedded in household, festival and regional food practice.",
+            "Cultural significance: Fresh tuna simmered with coconut, curry leaves and local aromatics, reflecting the atoll's close relationship with the Arabian Sea."
+          ],
+          "evidenceNote": "Regional food writing supports the dish's association with Lakshadweep. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        },
+        {
+          "number": 2,
+          "key": "ingredients",
+          "numeral": "II",
+          "eyebrow": "Stage II",
+          "title": "Ingredients",
+          "photoLabel": "Ingredient reference",
+          "era": "Regional & seasonal produce",
+          "headline": "What Lakshadweep Tuna Curry is built from",
+          "narrative": "The recipe centres on Tuna, Coconut, Curry leaves, Green chilli, Turmeric and Salt. These are the staple grains, pulses, vegetables, spices or dairy products of Lakshadweep; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "details": [
+            "Principal ingredient: Tuna.",
+            "Principal ingredient: Coconut.",
+            "Principal ingredient: Curry leaves.",
+            "Principal ingredient: Green chilli.",
+            "Principal ingredient: Turmeric.",
+            "Principal ingredient: Salt.",
+            "Regional & seasonal ingredients: Lakshadweep's coral atolls and Arabian Sea fisheries shape island cooking around tuna, rice, coconut and local household traditions.",
+            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+          ],
+          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        },
+        {
+          "number": 3,
+          "key": "method",
+          "numeral": "III",
+          "eyebrow": "Stage III",
+          "title": "Recipe & Making",
+          "photoLabel": "Preparation technique",
+          "era": "Traditional technique & cookware",
+          "headline": "How Lakshadweep Tuna Curry is made",
+          "narrative": "The defining technique is Gentle Coconut-Broth Simmer — Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel. Pressure cookers and gas ranges now shorten the simmer. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel. Pressure cookers and gas ranges now shorten the simmer.",
+          "details": [
+            "Traditional technique: Gentle Coconut-Broth Simmer — Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel. Pressure cookers and gas ranges now shorten the simmer.",
+            "Traditional cookware & utensils: Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel.",
+            "Key process: Gentle Coconut-Broth Simmer.",
+            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+          ],
+          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        },
+        {
+          "number": 4,
+          "key": "plated",
+          "numeral": "IV",
+          "eyebrow": "Stage IV",
+          "title": "Modern Form, Serving & Recognition",
+          "photoLabel": "Finished dish",
+          "era": "Present day",
+          "headline": "Lakshadweep Tuna Curry today",
+          "narrative": "It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common. It is presented in the serving style of Lakshadweep, with the savory, coastal & gently spiced profile that identifies it. Fresh tuna simmered with coconut, curry leaves and local aromatics, reflecting the atoll's close relationship with the Arabian Sea.",
+          "details": [
+            "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
+            "Flavour identity: Savory, Coastal & Gently Spiced.",
             "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
             "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
           ],

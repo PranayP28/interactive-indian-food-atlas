@@ -58,7 +58,7 @@ Chandigarh, Lakshadweep and Dadra and Nagar Haveli and Daman and Diu remain excl
 ```
 Dishes: 94 (28 states × 3 + 5 UTs × 2)
 Four-stage histories: 376 (94 × 4)
-Historical timeline waypoints per dish: 4; 3D Studio stages per dish: 7
+Historical timeline waypoints per dish: 4; long-form historical stages per dish: 7
 ```
 
 `src/data/dishCatalog.json` is exported from `foodData.ts` with esbuild
@@ -106,8 +106,10 @@ src/hooks/usePrefersReducedMotion.ts
 src/components/ui/skiper6.tsx
 src/components/IndiaMap3D.tsx
 src/utils/map3dUtils.ts
-src/components/Dish3DCanvas.tsx
 ```
+
+The standalone dish-model renderer was removed with the retired Studio view; MotionPath's
+scroll-driven photographic journeys remain available.
 
 `src/data/generationRecipesData.ts` now returns **four** `GenerationWaypoint` objects built
 from `dishStages.json`. The legacy six-epoch arrays are retained only as source material for
@@ -115,8 +117,9 @@ cookware, heat source and recipe detail; the old `epochToStage = [0,0,1,2,2,3]` 
 shared-era-image fallback are gone. All GSAP ScrollTrigger, pinning, scrubbed horizontal
 movement, parallax, card tilt, sequential transitions, reverse scrolling, MotionPath and
 progress-indicator calculations read `waypoints.length` and are therefore data-driven.
-The separate 3D Studio still returns exactly **seven** stages (`culinaryHistoryData.ts`
-unchanged). `atlas:check` asserts both counts for all 94 dishes.
+The long-form culinary journey data still returns exactly **seven** historical stages
+(`culinaryHistoryData.ts` unchanged). `atlas:check` asserts both timeline and journey counts
+for all 94 dishes.
 
 `src/data/photography.ts` was fixed so Stage I–III local files are actually used: previously
 `stagePhoto()` hard-set `local: null`, meaning local-first did not work for those stages.
@@ -194,7 +197,7 @@ with Wikimedia access to mirror the remaining remote-verified photographs.
 
 | Command | Result |
 |---|---|
-| `npm run atlas:check` | **passes** — 94 dishes, 28×3 + 5×2, unique IDs, 376 histories, 4 timeline stages, 7 studio stages, all credits and 61 local WebPs validated |
+| `npm run atlas:check` | **passes** — 94 dishes, 28×3 + 5×2, unique IDs, 376 histories, 4 timeline stages, 7 long-form journey stages, all credits and 61 local WebPs validated |
 | `npm run ui:smoke` | **passes** — server-renders the real four-act essay for all 94 dishes in dark + light (188 renders); asserts the four stage labels, histories, citations, photographer credits, local-first images and honest unavailable frames |
 | `npm run photos:verify` | **passes** — 61 local files exist, decode and are WebP; 3 low-resolution warnings reported, not hidden |
 | HTTP smoke (dev server) | root + all six changed data/UI modules return 200; all **61** local WebP URLs return `200 image/webp` |
@@ -211,7 +214,7 @@ warnings are recorded here rather than fixed, because the brief requires those a
 
 The production build and all data-level checks pass. A full interactive QA pass in the
 browser — map selection across all 33 regions, dish selection, four timeline stages,
-forward/reverse scroll, MotionPath, parallax, 3D Studio, light/dark theme, responsive
+forward/reverse scroll, MotionPath, parallax, light/dark theme, responsive
 layout, and local image loading — is the remaining manual step. The live preview from
 `npm run dev` is the place to do it; no claim of a completed browser test is made here.
 

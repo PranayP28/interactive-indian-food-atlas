@@ -60,18 +60,21 @@ CONTEXT_DIR = ROOT / "public/images/context"
 STAGES = {"origin": 1, "ingredients": 2, "method": 3, "plated": 4}
 API = "https://commons.wikimedia.org/w/api.php"
 USER_AGENT = (
-    "BharatFoodAtlas/1.0 (offline photography archive; "
-    "licence verification and local mirroring of credited Commons files)"
+    "BharatFoodAtlas/1.0 (https://github.com/kondaashwitha77-sudo/interactive-indian-food-atlas; atlas-admin@example.org) "
+    "offline photography archive; licence verification and local mirroring"
 )
 ALLOWED_PREFIXES = ("cc0", "cc by", "cc-by", "public domain", "pd-")
 MAX_BYTES = 60 * 1024 * 1024
-MIN_SIDE = 200
-RETRIES = 3
-BACKOFF = 1.5
+MIN_SIDE = 180
+RETRIES = 5
+BACKOFF = 2.0
 
 
 def log(msg: str) -> None:
-    print(msg, flush=True)
+    try:
+        print(msg, flush=True)
+    except UnicodeEncodeError:
+        print(msg.encode(sys.stdout.encoding or "utf-8", errors="replace").decode(sys.stdout.encoding or "utf-8"), flush=True)
 
 
 def retry(fn, *args, **kwargs):
@@ -79,6 +82,14 @@ def retry(fn, *args, **kwargs):
     for attempt in range(RETRIES):
         try:
             return fn(*args, **kwargs)
+        except urllib.error.HTTPError as exc:
+            last = exc
+            if exc.code == 429:
+                wait_time = 4 * (attempt + 1)
+                log(f"  [429 rate limit] backing off {wait_time}s...")
+                time.sleep(wait_time)
+            elif attempt + 1 < RETRIES:
+                time.sleep(BACKOFF ** attempt)
         except (urllib.error.URLError, TimeoutError, OSError, ValueError) as exc:
             last = exc
             if attempt + 1 < RETRIES:
@@ -131,6 +142,7 @@ def live_licence(titles: list[str]) -> dict:
                 "formatversion": "2",
                 "prop": "imageinfo",
                 "iiprop": "url|size|extmetadata",
+                "iiurlwidth": "1600",
                 "titles": "|".join(batch),
             }
         )
@@ -144,6 +156,7 @@ def live_licence(titles: list[str]) -> dict:
                 "width": info.get("width"),
                 "height": info.get("height"),
                 "url": info.get("url"),
+                "thumburl": info.get("thumburl"),
                 "creator": strip_html(meta.get("Artist", {}).get("value", "")),
                 "licence": strip_html(meta.get("LicenseShortName", {}).get("value", "")),
                 "licenceUrl": meta.get("LicenseUrl", {}).get("value", ""),
@@ -362,7 +375,9 @@ def main() -> int:
             continue
         recorded = (photo.get("licence") or "").lower().replace("-", " ")
         current = (info["licence"] or "").lower().replace("-", " ")
-        if recorded and recorded.split()[0:2] != current.split()[0:2]:
+        rec_cc0 = recorded.startswith("cc0") or "public domain" in recorded or "pd" in recorded
+        cur_cc0 = current.startswith("cc0") or "public domain" in current or "pd" in current
+        if recorded and not (rec_cc0 and cur_cc0) and recorded.split()[0:2] != current.split()[0:2]:
             log(f"skip  {job['id']:<24} licence changed: recorded '{photo.get('licence')}' now '{info['licence']}'")
             skipped += 1
             checks.append({"id": job["id"], "stage": key, "status": "licence-changed"})
@@ -370,7 +385,7 @@ def main() -> int:
         if (photo.get("creator") or "").strip().lower() not in (info["creator"] or "").strip().lower():
             log(f"warn  {job['id']:<24} creator differs: recorded '{photo.get('creator')}' live '{info['creator']}'")
 
-        src = info.get("url") or photo.get("src")
+        src = info.get("thumburl") or info.get("url") or photo.get("src")
         if args.dry_run:
             log(f"plan  {job['id']:<24} stage {job['number'] or '-'}  {info['width']}x{info['height']}  {info['licence']}  -> {rel}")
             downloaded += 1
@@ -391,12 +406,13 @@ def main() -> int:
         log(f"ok    {job['id']:<24} {w}x{h} webp {len(payload)//1024}kB  {rel}")
         downloaded += 1
         bucket[key] = rel
+        LOCAL_MANIFEST.write_text(json.dumps(local, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
         checks.append({
             "id": job["id"], "stage": key, "status": "downloaded", "local": rel,
             "creator": info["creator"], "licence": info["licence"],
             "licenceUrl": info["licenceUrl"], "sourceUrl": photo.get("sourceUrl", ""),
         })
-        time.sleep(0.3)
+        time.sleep(0.8)
 
     if not args.dry_run:
         LOCAL_MANIFEST.write_text(json.dumps(local, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

@@ -1,8 +1,8 @@
 // ─────────────────────────────────────────────
 // ADDITIONAL DISHES — one authentic, regionally significant dish per state
 //
-// These are merged into FOOD_DATA at the end of foodData.ts, so the original
-// 66 entries are never edited. Every dish here has four historical stages in
+// These are merged into FOOD_DATA at the end of foodData.ts. Every dish here
+// has four historical stages in
 // src/data/dishStages.json and a per-dish photographic record in
 // src/data/photography.json. A stage with no verified photograph is recorded
 // as unresolved rather than filled with a borrowed picture.
@@ -10,7 +10,7 @@
 // Batch 1 (2026-11-02, commit 954d836): Kerala, Tamil Nadu, Punjab,
 //   Maharashtra.
 // Batch 2 (2026-11-02, this continuation): the remaining 24 states, bringing
-//   the atlas to 28 states x 3 dishes + 5 UTs x 2 dishes = 94 dishes.
+//   the atlas to 28 states x 3 dishes + 6 UTs x 2 dishes = 96 dishes.
 // ─────────────────────────────────────────────
 
 import type { Dish } from "./foodData";

@@ -68,4 +68,4 @@ Retained union territories: Delhi, Jammu and Kashmir, Ladakh, Andaman and Nicoba
 
 `npm run atlas:check` validates the 94/28×3/5×2 counts, unique IDs, regional associations,
 the 376 four-stage histories, the four data-driven timeline waypoints per dish, the seven
-3D Studio stages, every photo credit and every local WebP file.
+long-form historical journey stages, every photo credit and every local WebP file.

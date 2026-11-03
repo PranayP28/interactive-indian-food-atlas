@@ -202,7 +202,7 @@ photographs belonging to no particular dish.
   gets the neutral unresolved placeholder, never a borrowed image.
 * The cinematic parallax journey now shows **four stages** — Origin & History, Ingredients,
   Recipe & Making, Modern Form, Serving & Recognition — instead of six epochs of era imagery.
-  The GSAP timeline, pinning, parallax, MotionPath and 3D Studio code is untouched.
+  The GSAP timeline, pinning, parallax and MotionPath code is untouched.
 
 **State after the fix:** 5 dishes have all four stages (Idli Sambar + the four batch-1 additions),
 43 have a verified finished-dish photograph and three unresolved stages, 22 have none. No dish
@@ -257,5 +257,5 @@ set with its recorded creator, licence and source page. All are genuine, camera-
   documented, not disguised.
 
 `npm run atlas:check` verifies the counts, IDs, associations, 376 histories, four data-driven
-timeline stages, seven 3D Studio stages, credits and local files. The full credit ledger is
+timeline stages, seven long-form journey stages, credits and local files. The full credit ledger is
 [`../PHOTOGRAPHY-CREDITS.md`](../PHOTOGRAPHY-CREDITS.md).

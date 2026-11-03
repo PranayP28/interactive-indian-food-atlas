@@ -4,7 +4,7 @@
  */
 import { existsSync, readFileSync, statSync } from "node:fs";
 import { resolve } from "node:path";
-import { FOOD_DATA, getAllDishes } from "../src/data/foodData";
+import { CULINARY_REGIONS, FOOD_DATA, getAllDishes } from "../src/data/foodData";
 import {
   BIBLIOGRAPHY,
   FOUR_STAGE_KEYS,
@@ -29,10 +29,10 @@ const groups = Object.entries(FOOD_DATA);
 const states = groups.filter(([, g]) => g.classification === "State");
 const territories = groups.filter(([, g]) => g.classification === "Union Territory");
 
-check(dishes.length === 94, `expected 94 dishes, found ${dishes.length}`);
-check(groups.length === 33, `expected 33 regions, found ${groups.length}`);
+check(dishes.length === 96, `expected 96 dishes, found ${dishes.length}`);
+check(groups.length === 34, `expected 34 regions, found ${groups.length}`);
 check(states.length === 28, `expected 28 states, found ${states.length}`);
-check(territories.length === 5, `expected 5 union territories, found ${territories.length}`);
+check(territories.length === 6, `expected 6 union territories, found ${territories.length}`);
 for (const [name, group] of states) {
   check(group.dishes.length === 3, `${name} must have exactly 3 dishes, found ${group.dishes.length}`);
 }
@@ -45,10 +45,41 @@ const expectedTerritories = [
   "Jammu and Kashmir",
   "Ladakh",
   "Andaman and Nicobar Islands",
+  "Lakshadweep",
   "Puducherry",
 ];
 for (const name of expectedTerritories) {
   check(FOOD_DATA[name] !== undefined, `required union territory missing: ${name}`);
+}
+
+const regionAssignments = Object.values(CULINARY_REGIONS).flatMap((region) => region.states);
+const expectedRegionSizes: Record<keyof typeof CULINARY_REGIONS, number> = {
+  north: 8,
+  south: 6,
+  west: 4,
+  east: 4,
+  northeast: 8,
+  central: 2,
+  islands: 2,
+};
+for (const [regionKey, expectedSize] of Object.entries(expectedRegionSizes)) {
+  check(
+    CULINARY_REGIONS[regionKey as keyof typeof CULINARY_REGIONS].states.length === expectedSize,
+    `${regionKey} must contain ${expectedSize} states/territories`,
+  );
+}
+check(
+  new Set(regionAssignments).size === regionAssignments.length,
+  "a state or territory is assigned to multiple culinary regions",
+);
+for (const [name] of groups) {
+  check(
+    regionAssignments.filter((assignedName) => assignedName.toLowerCase() === name.toLowerCase()).length === 1,
+    `${name} must be assigned to exactly one culinary region`,
+  );
+}
+for (const name of regionAssignments) {
+  check(FOOD_DATA[name] !== undefined, `culinary region references missing food data: ${name}`);
 }
 
 const ids = dishes.map((d) => d.id);
@@ -61,7 +92,7 @@ for (const [name, group] of groups) {
 
 check(STAGE_COUNT === 4, `stage count must be 4, found ${STAGE_COUNT}`);
 check(FOUR_STAGE_KEYS.length === 4, `four stage keys required`);
-check(TOTAL_STAGE_RECORDS === 376, `expected 376 stage records, found ${TOTAL_STAGE_RECORDS}`);
+check(TOTAL_STAGE_RECORDS === 384, `expected 384 stage records, found ${TOTAL_STAGE_RECORDS}`);
 check(BIBLIOGRAPHY.length >= 5, `bibliography too short`);
 
 const stageKeys = ["origin", "ingredients", "method", "plated"] as const;
@@ -101,11 +132,11 @@ for (const dish of dishes) {
     check(Boolean(waypoint.image), `${dish.id}: waypoint ${index + 1} has no image`);
   });
 
-  // The separate 3D Studio keeps its own seven-stage experience.
-  const studio = getCulinaryJourneyForDish(dish.id);
-  check(studio.stages.length === 7, `${dish.id}: 3D Studio stage count changed (${studio.stages.length})`);
+  // Keep the seven-stage historical journey data intact alongside the four-stage timeline.
+  const journey = getCulinaryJourneyForDish(dish.id);
+  check(journey.stages.length === 7, `${dish.id}: historical journey stage count changed (${journey.stages.length})`);
 }
-check(stageNarratives === 376, `expected 376 narratives, found ${stageNarratives}`);
+check(stageNarratives === 384, `expected 384 narratives, found ${stageNarratives}`);
 
 // Photography records: every dish has four explicit stage slots, and every
 // verified photograph carries a full, reusable attribution.
@@ -178,13 +209,13 @@ for (const [dishId, stages] of Object.entries(local.dishes)) {
 }
 
 const coverage = getPhotographyCoverage();
-check(coverage.total === 94, `photography coverage total ${coverage.total}`);
+check(coverage.total === 96, `photography coverage total ${coverage.total}`);
 check(coverage.assignments === verifiedAssignments, `coverage assignment count mismatch`);
 check(coverage.localAssignments === localAssignments, `coverage local count mismatch`);
 
 notes.push(`Dishes: ${dishes.length} (${states.length} states × 3 + ${territories.length} UTs × 2)`);
-notes.push(`Four-stage histories: ${stageNarratives} (94 × 4)`);
-notes.push(`Historical timeline waypoints per dish: 4; 3D Studio stages per dish: 7`);
+notes.push(`Four-stage histories: ${stageNarratives} (96 × 4)`);
+notes.push(`Historical timeline waypoints per dish: 4; long-form historical stages per dish: 7`);
 notes.push(`Verified stage photographs: ${verifiedAssignments} / ${coverage.targetAssignments}`);
 notes.push(`Locally hosted stage photographs: ${localAssignments}`);
 notes.push(`Unresolved stage photographs (honest empty frames): ${coverage.targetAssignments - verifiedAssignments}`);
