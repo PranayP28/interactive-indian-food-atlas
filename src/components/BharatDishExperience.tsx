@@ -1,4 +1,5 @@
-﻿import React, { useState, useEffect, useRef } from "react";
+import { hasInfographic } from "../data/infographicsData";
+import React, { useState, useEffect, useRef } from "react";
 import {
   ArrowLeft,
   BookOpen,
@@ -9,6 +10,7 @@ import {
   Share2,
   Layers,
   Milestone,
+  Sparkles,
 } from "lucide-react";
 import { FOOD_DATA, getAllDishes, getStateByDishId } from "../data/foodData";
 import {
@@ -218,6 +220,27 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
             <Layers className="w-3.5 h-3.5 text-amber-500" />
             <span className="hidden sm:inline">All {getAllDishes().length} Dishes</span>
           </button>
+
+          {/* Stages & Uploaded Recipe Quick Jump Button */}
+          {hasInfographic(dishId) && (
+            <button
+              onClick={() => {
+                document.getElementById("motionpath-waypoints")?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-bold transition-all ${
+                isLight
+                  ? "bg-amber-100/90 hover:bg-amber-200 text-amber-950 border-amber-300/80 shadow-sm"
+                  : "bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border-amber-500/40"
+              }`}
+              title="View Epoch Stages & Uploaded Recipe Infographics"
+            >
+              <Sparkles className="w-3.5 h-3.5 text-amber-500 animate-pulse" />
+              <span className="hidden sm:inline">Uploaded Recipes</span>
+            </button>
+          )}
 
           {/* Sources & Citations Modal Button */}
           <button
