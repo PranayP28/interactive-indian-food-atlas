@@ -16,6 +16,7 @@ import {
   Compass,
   ArrowRight,
   BookOpen,
+  Users,
 } from "lucide-react";
 import { IndiaMap3D } from "./components/IndiaMap3D";
 import { BharatDishExperience } from "./components/BharatDishExperience";
@@ -31,6 +32,7 @@ import {
 import { useTheme } from "./context/ThemeContext";
 import { ThemeToggle } from "./components/ui/ThemeToggle";
 import { DishThumb } from "./components/photography/DishThumb";
+import { AboutModal } from "./components/AboutModal";
 
 export default function App() {
   const { isLight } = useTheme();
@@ -46,6 +48,7 @@ export default function App() {
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [selectedTaste, setSelectedTaste] = useState<string | null>(null);
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
+  const [showAboutModal, setShowAboutModal] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
@@ -445,6 +448,21 @@ export default function App() {
 
         {/* Right CTA & Theme Toggle */}
         <div className="flex items-center gap-2">
+          {/* About Section Button */}
+          <button
+            type="button"
+            onClick={() => setShowAboutModal(true)}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-semibold transition-all ${
+              isLight
+                ? "bg-white/90 hover:bg-white text-slate-800 border-amber-900/15 shadow-sm hover:border-amber-400"
+                : "bg-slate-800/80 hover:bg-slate-700 text-slate-200 border-slate-700 hover:border-slate-600"
+            }`}
+            title="About Our Team"
+          >
+            <Users className="w-3.5 h-3.5 text-amber-500" />
+            <span>About</span>
+          </button>
+
           {/* Light / Dark Mode Toggle */}
           <ThemeToggle />
 
@@ -1049,6 +1067,8 @@ export default function App() {
           </span>
         </div>
       )}
+      {/* About Team Modal */}
+      <AboutModal isOpen={showAboutModal} onClose={() => setShowAboutModal(false)} />
     </div>
   );
 }

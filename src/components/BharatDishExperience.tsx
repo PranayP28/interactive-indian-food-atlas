@@ -11,6 +11,7 @@ import {
   Layers,
   Milestone,
   Sparkles,
+  Users,
 } from "lucide-react";
 import { FOOD_DATA, getAllDishes, getStateByDishId } from "../data/foodData";
 import {
@@ -20,6 +21,7 @@ import {
 import { GsapMotionPathTimeline } from "./GsapMotionPathTimeline";
 import { useTheme } from "../context/ThemeContext";
 import { ThemeToggle } from "./ui/ThemeToggle";
+import { AboutModal } from "./AboutModal";
 
 interface BharatDishExperienceProps {
   dishId: string;
@@ -42,6 +44,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
   const [showDishSwitcher, setShowDishSwitcher] = useState(false);
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
+  const [showAboutModal, setShowAboutModal] = useState(false);
 
   // Audio Context Ref for Web Audio synthesizer
   const audioCtxRef = useRef<AudioContext | null>(null);
@@ -279,6 +282,21 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
 
           {/* Theme Toggle (Light / Dark) */}
           <ThemeToggle />
+
+          {/* About Team Button */}
+          <button
+            type="button"
+            onClick={() => setShowAboutModal(true)}
+            className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl border text-xs font-medium transition-all ${
+              isLight
+                ? "bg-white/90 hover:bg-white text-slate-800 border-amber-900/15 shadow-sm hover:border-amber-400"
+                : "bg-slate-800/80 hover:bg-slate-700 text-slate-200 border-slate-700 hover:border-slate-600"
+            }`}
+            title="About Our Team"
+          >
+            <Users className="w-3.5 h-3.5 text-amber-500" />
+            <span className="hidden sm:inline">About</span>
+          </button>
 
           {/* Share Link */}
           <button
@@ -612,6 +630,9 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
           </div>
         </div>
       )}
+
+      {/* About Team Modal */}
+      <AboutModal isOpen={showAboutModal} onClose={() => setShowAboutModal(false)} />
     </div>
   );
 };
