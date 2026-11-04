@@ -12,6 +12,7 @@ import {
   Milestone,
   Sparkles,
   Users,
+  X,
 } from "lucide-react";
 import { FOOD_DATA, getAllDishes, getStateByDishId } from "../data/foodData";
 import {
@@ -135,7 +136,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
           : "bg-[#07090e] text-slate-100 selection:bg-amber-500/30 selection:text-amber-200"
       }`}
     >
-      {/* â”€â”€ TOP CINEMATIC NAVIGATION BAR â”€â”€ */}
+      {/* ── TOP CINEMATIC NAVIGATION BAR ── */}
       <header
         className={`sticky top-0 z-50 min-h-16 flex flex-wrap items-center justify-between gap-y-2 py-2 backdrop-blur-md border-b px-4 transition-colors duration-300 md:h-16 md:flex-nowrap md:py-0 md:px-8 ${
           isLight
@@ -313,7 +314,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
         </div>
       </header>
 
-      {/* â”€â”€ COPIED LINK TOAST â”€â”€ */}
+      {/* ── COPIED LINK TOAST ── */}
       {copiedLink && (
         <div className="fixed top-20 right-6 z-50 bg-emerald-950 border border-emerald-500 text-emerald-200 text-xs px-4 py-2 rounded-xl shadow-2xl flex items-center gap-2 animate-in fade-in duration-200">
           <CheckCircle2 className="w-4 h-4 text-emerald-400" />
@@ -321,7 +322,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
         </div>
       )}
 
-      {/* â”€â”€ MOTIONPATH WAYPOINTS WITH GENERATION RECIPES & SKIPER6 â”€â”€ */}
+      {/* ── MOTIONPATH WAYPOINTS WITH GENERATION RECIPES & SKIPER6 ── */}
       <div id="motionpath-waypoints" className="flex-1 w-full scroll-mt-16 animate-in fade-in duration-300">
         <GsapMotionPathTimeline
           dishId={dishId}
@@ -330,7 +331,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
         />
       </div>
 
-      {/* â”€â”€ SCHOLARLY SOURCES & CITATIONS MODAL â”€â”€ */}
+      {/* ── SCHOLARLY SOURCES & CITATIONS MODAL ── */}
       {showSourcesModal && (
         <div
           className={`fixed inset-0 z-50 backdrop-blur-md flex items-center justify-center p-4 ${
@@ -365,14 +366,17 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                 </div>
               </div>
               <button
+                type="button"
                 onClick={() => setShowSourcesModal(false)}
-                className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
+                aria-label="Cancel and close sources"
+                title="Cancel"
+                className={`w-8 h-8 rounded-full flex items-center justify-center transition-all group ${
                   isLight
-                    ? "bg-amber-100 hover:bg-amber-200 text-slate-700"
-                    : "bg-slate-800 hover:bg-slate-700 text-slate-300"
+                    ? "bg-red-50 hover:bg-red-100 text-red-600 border border-red-200/80 shadow-sm hover:scale-105 active:scale-95"
+                    : "bg-red-950/40 hover:bg-red-900/60 text-red-400 border border-red-800/50 hover:scale-105 active:scale-95"
                 }`}
               >
-                âœ•
+                <X className="w-4 h-4 text-red-600 dark:text-red-400 group-hover:scale-110 transition-transform" strokeWidth={2.5} />
               </button>
             </div>
 
@@ -464,7 +468,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
         </div>
       )}
 
-      {/* â”€â”€ ALL DISHES SWITCHER DRAWER â”€â”€ */}
+      {/* ── ALL DISHES SWITCHER DRAWER ── */}
       {showDishSwitcher && (
         <div
           className={`fixed inset-0 z-50 backdrop-blur-md flex justify-end animate-in fade-in duration-200 ${
@@ -499,14 +503,17 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                 </div>
               </div>
               <button
+                type="button"
                 onClick={() => setShowDishSwitcher(false)}
-                className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
+                aria-label="Cancel and close dish drawer"
+                title="Cancel"
+                className={`w-8 h-8 rounded-full flex items-center justify-center transition-all group ${
                   isLight
-                    ? "bg-amber-100 hover:bg-amber-200 text-slate-700"
-                    : "bg-slate-800 hover:bg-slate-700 text-slate-300"
+                    ? "bg-red-50 hover:bg-red-100 text-red-600 border border-red-200/80 shadow-sm hover:scale-105 active:scale-95"
+                    : "bg-red-950/40 hover:bg-red-900/60 text-red-400 border border-red-800/50 hover:scale-105 active:scale-95"
                 }`}
               >
-                âœ•
+                <X className="w-4 h-4 text-red-600 dark:text-red-400 group-hover:scale-110 transition-transform" strokeWidth={2.5} />
               </button>
             </div>
 
@@ -543,7 +550,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                   <div
                     className={`text-[10px] ${isLight ? "text-slate-500" : "opacity-80"}`}
                   >
-                    Karnataka â€¢ Fermented Grain
+                    Karnataka • Fermented Grain
                   </div>
                 </button>
                 <button
@@ -563,7 +570,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                   <div
                     className={`text-[10px] ${isLight ? "text-slate-500" : "opacity-80"}`}
                   >
-                    Telangana â€¢ Royal Handi
+                    Telangana • Royal Handi
                   </div>
                 </button>
               </div>
@@ -617,7 +624,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                           isLight ? "text-slate-500" : "text-slate-400"
                         }`}
                       >
-                        {state} â€¢ {d.tasteProfile}
+                        {state} • {d.tasteProfile}
                       </p>
                     </div>
                     <ChevronRight

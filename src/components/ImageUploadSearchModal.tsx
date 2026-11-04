@@ -347,7 +347,7 @@ export const ImageUploadSearchModal: React.FC<ImageUploadSearchModalProps> = ({
                     <div className="p-3.5 flex-1 flex flex-col justify-between space-y-3">
                       <div>
                         <h4
-                          className={`font-cinzel font-bold text-sm line-clamp-1 ${
+                          className={`font-sans font-bold text-sm leading-snug line-clamp-1 tracking-tight ${
                             isLight ? "text-slate-900" : "text-amber-100"
                           }`}
                           title={imgItem.title}
@@ -355,7 +355,7 @@ export const ImageUploadSearchModal: React.FC<ImageUploadSearchModalProps> = ({
                           {imgItem.title}
                         </h4>
                         <p
-                          className={`text-xs mt-1 line-clamp-2 ${
+                          className={`text-xs mt-1 line-clamp-2 leading-relaxed ${
                             isLight ? "text-slate-600" : "text-slate-400"
                           }`}
                         >
@@ -477,7 +477,7 @@ export const ImageUploadSearchModal: React.FC<ImageUploadSearchModalProps> = ({
                 <span className="text-[10px] font-black uppercase px-2 py-0.5 rounded bg-amber-500 text-slate-950">
                   {lightboxImage.era}
                 </span>
-                <h3 className="font-cinzel font-bold text-white text-base sm:text-lg">
+                <h3 className="font-sans font-bold text-white text-base sm:text-lg tracking-tight">
                   {lightboxImage.title}
                 </h3>
               </div>

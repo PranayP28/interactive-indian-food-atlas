@@ -100,14 +100,15 @@ export function AboutModal({ isOpen, onClose }: AboutModalProps) {
               <button
                 type="button"
                 onClick={onClose}
-                aria-label="Close About dialog"
-                className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
+                aria-label="Cancel and close About dialog"
+                title="Cancel"
+                className={`w-8 h-8 rounded-full flex items-center justify-center transition-all group ${
                   isLight
-                    ? "bg-amber-100 hover:bg-amber-200 text-slate-700"
-                    : "bg-slate-800 hover:bg-slate-700 text-slate-300"
+                    ? "bg-red-50 hover:bg-red-100 text-red-600 border border-red-200/80 shadow-sm hover:scale-105 active:scale-95"
+                    : "bg-red-950/40 hover:bg-red-900/60 text-red-400 border border-red-800/50 hover:scale-105 active:scale-95"
                 }`}
               >
-                <X className="w-4 h-4" />
+                <X className="w-4 h-4 text-red-600 dark:text-red-400 group-hover:scale-110 transition-transform" strokeWidth={2.5} />
               </button>
             </div>
 

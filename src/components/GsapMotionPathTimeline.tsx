@@ -964,7 +964,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                     {lightboxData.era}
                   </span>
                 )}
-                <h3 className="font-cinzel font-bold text-white text-base sm:text-lg">
+                <h3 className="font-sans font-bold text-white text-base sm:text-lg tracking-tight">
                   {lightboxData.title}
                 </h3>
               </div>
