@@ -373,20 +373,45 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
   {
     "id": "info-21",
     "dishId": "hyderabadi-biryani",
-    "title": "Hyderabadi Dum Biryani — Key Ingredients Matrix",
-    "subtitle": "Royal Nizami aromatics: aged basmati, pure saffron, birista and tender meat",
-    "era": "Culinary Craft",
+    "title": "Hyderabadi Dum Biryani — Origin (Birth of the food)",
+    "subtitle": "Persian & Mughal dishes entering Deccan royal kitchens under Asaf Jahi rulers; sealed dum method",
+    "era": "Birth of the food",
     "image": "/images_updated/a_polished_dark_themed_infographic_card_layout_fo.png",
     "isFullTimelinePoster": true,
     "stageNumber": 1,
+    "ingredients": []
+  },
+  {
+    "id": "info-21-evolution",
+    "dishId": "hyderabadi-biryani",
+    "title": "Hyderabadi Dum Biryani — Evolution of Food",
+    "subtitle": "Shifts in cooking method, handi vessels, fuel, marinating, meat, flavourings, and tenderising",
+    "era": "Evolution of Food",
+    "image": "/images_updated/a_polished_dark_themed_infographic_card_layout_fo.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-21-recipe",
+    "dishId": "hyderabadi-biryani",
+    "title": "Hyderabadi Dum Biryani — Recipe",
+    "subtitle": "10 key ingredients and 8 simple steps for authentic kacchi dum biryani",
+    "era": "Recipe",
+    "image": "/images_updated/a_polished_dark_themed_infographic_card_layout_fo.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 3,
     "ingredients": [
-      "Aged Basmati rice",
-      "Tender marinated meat",
-      "Pure saffron",
-      "Fried onions (Birista)",
-      "Yoghurt",
-      "Whole spices",
-      "Mint & coriander"
+      "basmati rice",
+      "mutton or chicken",
+      "curd",
+      "fried onions",
+      "ginger-garlic paste",
+      "green chillies",
+      "whole spices and garam masala",
+      "mint and coriander",
+      "saffron milk",
+      "ghee"
     ]
   },
   {

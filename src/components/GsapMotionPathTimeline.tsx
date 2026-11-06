@@ -106,7 +106,14 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
 
     const entries = [
       { key: "origin", numeral: "01", eyebrow: "Stage I", title: "Origin & History", photo: photography?.origin, stageNum: 1 },
-      { key: "ingredients", numeral: "02", eyebrow: "Stage II", title: "Regional & Seasonal Produce", photo: photography?.ingredients, stageNum: 2 },
+      {
+        key: "ingredients",
+        numeral: "02",
+        eyebrow: "Stage II",
+        title: dishId === "hyderabadi-biryani" ? "Evolution of Food" : "Regional & Seasonal Produce",
+        photo: photography?.ingredients,
+        stageNum: 2,
+      },
       { key: "method", numeral: "03", eyebrow: "Stage III", title: "Recipe & Making", photo: photography?.method, stageNum: 3 },
     ] as const;
 
@@ -653,139 +660,149 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                     </div>
 
                     {/* Short Historical Description */}
-                    <p
+                    <div
                       className={`text-sm leading-relaxed ${
                         isLight ? "text-slate-700" : "text-slate-200"
                       }`}
                     >
-                      {waypoint.shortDescription}
-                    </p>
-
-                    {/* ── STAGE INGREDIENTS MATRIX & SEARCH SECTION ── */}
-                    <div
-                      className={`p-4 rounded-2xl border shadow-xl space-y-3 ${
-                        isLight
-                          ? "bg-white/95 border-amber-900/15 text-slate-800 shadow-amber-950/5"
-                          : "bg-slate-900/90 border-amber-500/30 text-slate-100 shadow-black/40"
-                      }`}
-                    >
-                      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b pb-2.5 border-slate-700/40">
-                        <div className="flex items-center gap-2">
-                          <Leaf className={`w-4 h-4 ${isLight ? "text-amber-700" : "text-amber-400"}`} />
-                          <h4
-                            className={`font-cinzel font-bold text-xs sm:text-sm ${
-                              isLight ? "text-amber-900" : "text-amber-200"
-                            }`}
-                          >
-                            Ingredients Known in this Epoch
-                          </h4>
+                      {waypoint.shortDescription.includes("\n") ? (
+                        <div className="space-y-1.5">
+                          {waypoint.shortDescription.split("\n").map((line, lIdx) => (
+                            <p key={lIdx} className="leading-snug">{line}</p>
+                          ))}
                         </div>
-                        <span
-                          className={`text-[10px] uppercase font-bold px-2 py-0.5 rounded-full border self-start sm:self-center ${
-                            isLight
-                              ? "bg-emerald-100 text-emerald-900 border-emerald-300"
-                              : "text-emerald-400 bg-emerald-500/10 border-emerald-500/30"
-                          }`}
-                        >
-                          {allStageIngredients.length} Documented Ingredients
-                        </span>
-                      </div>
-
-                      {/* Live Ingredient Search Bar */}
-                      <div className="relative">
-                        <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-amber-500" />
-                        <input
-                          type="text"
-                          value={ingredientFilters[stageNum] || ""}
-                          onChange={(e) =>
-                            setIngredientFilters((prev) => ({
-                              ...prev,
-                              [stageNum]: e.target.value,
-                            }))
-                          }
-                          placeholder={`Filter ingredients in Stage 0${stageNum} (e.g. rice, ginger, spices)...`}
-                          className={`w-full pl-8 pr-8 py-1.5 rounded-xl border text-xs font-medium outline-none transition-all focus:ring-1 focus:ring-amber-500 ${
-                            isLight
-                              ? "bg-amber-50/50 border-amber-900/15 text-slate-900 placeholder:text-slate-400"
-                              : "bg-slate-950/70 border-slate-800 text-white placeholder:text-slate-500"
-                          }`}
-                        />
-                        {ingredientFilters[stageNum] && (
-                          <button
-                            onClick={() =>
-                              setIngredientFilters((prev) => ({
-                                ...prev,
-                                [stageNum]: "",
-                              }))
-                            }
-                            className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white text-[11px]"
-                          >
-                            ×
-                          </button>
-                        )}
-                      </div>
-
-                      {/* Interactive Ingredient Chips */}
-                      <div className="flex flex-wrap gap-1.5 pt-1">
-                        {displayedIngredients.map((ing, i) => {
-                          const isSelected = selectedIng === ing;
-                          return (
-                            <button
-                              key={i}
-                              type="button"
-                              onClick={() => {
-                                setSelectedIngredients((prev) => ({
-                                  ...prev,
-                                  [stageNum]: isSelected ? null : ing,
-                                }));
-                              }}
-                              className={`group px-2.5 py-1 rounded-xl text-xs font-medium border flex items-center gap-1.5 transition-all duration-200 cursor-pointer ${
-                                isSelected
-                                  ? "bg-amber-500 text-slate-950 border-amber-400 shadow-md font-bold scale-105"
-                                  : isLight
-                                    ? "bg-amber-50/90 text-amber-950 border-amber-300/80 hover:bg-amber-100 hover:border-amber-400"
-                                    : "bg-slate-800/80 text-amber-100 border-slate-700 hover:bg-slate-750 hover:border-amber-500/50"
-                              }`}
-                              title={`Click to search upload images for ${ing}`}
-                            >
-                              <span className="w-1.5 h-1.5 rounded-full bg-amber-400 group-hover:scale-125 transition-transform"></span>
-                              <span>{ing}</span>
-                            </button>
-                          );
-                        })}
-                        {displayedIngredients.length === 0 && (
-                          <p className="text-xs text-slate-400 italic py-1">
-                            No ingredient matches "{ingredientFilters[stageNum]}".
-                          </p>
-                        )}
-                      </div>
-
-                      {/* Selected Ingredient Quick Search Prompt */}
-                      {selectedIng && (
-                        <div
-                          className={`p-2 rounded-xl border flex items-center justify-between gap-2 text-xs animate-in fade-in duration-200 ${
-                            isLight
-                              ? "bg-amber-100/90 border-amber-300 text-amber-950"
-                              : "bg-amber-950/30 border-amber-800/40 text-amber-200"
-                          }`}
-                        >
-                          <div className="flex items-center gap-1.5 truncate">
-                            <Sparkles className="w-3.5 h-3.5 text-amber-500 shrink-0" />
-                            <span className="truncate">
-                              Selected: <strong>{selectedIng}</strong>
-                            </span>
-                          </div>
-                          <button
-                            type="button"
-                            onClick={() => openImageUploadSearch(stageNum, selectedIng)}
-                            className="shrink-0 px-2.5 py-1 rounded-lg bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition-colors flex items-center gap-1 text-[11px]"
-                          >
-                            <Search className="w-3 h-3" />
-                            <span>Search in Uploads</span>
-                          </button>
-                        </div>
+                      ) : (
+                        <p>{waypoint.shortDescription}</p>
                       )}
                     </div>
+
+                    {/* ── STAGE INGREDIENTS MATRIX & SEARCH SECTION ── */}
+                    {allStageIngredients.length > 0 && (
+                      <div
+                        className={`p-4 rounded-2xl border shadow-xl space-y-3 ${
+                          isLight
+                            ? "bg-white/95 border-amber-900/15 text-slate-800 shadow-amber-950/5"
+                            : "bg-slate-900/90 border-amber-500/30 text-slate-100 shadow-black/40"
+                        }`}
+                      >
+                        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b pb-2.5 border-slate-700/40">
+                          <div className="flex items-center gap-2">
+                            <Leaf className={`w-4 h-4 ${isLight ? "text-amber-700" : "text-amber-400"}`} />
+                            <h4
+                              className={`font-cinzel font-bold text-xs sm:text-sm ${
+                                isLight ? "text-amber-900" : "text-amber-200"
+                              }`}
+                            >
+                              Ingredients Known in this Epoch
+                            </h4>
+                          </div>
+                          <span
+                            className={`text-[10px] uppercase font-bold px-2 py-0.5 rounded-full border self-start sm:self-center ${
+                              isLight
+                                ? "bg-emerald-100 text-emerald-900 border-emerald-300"
+                                : "text-emerald-400 bg-emerald-500/10 border-emerald-500/30"
+                            }`}
+                          >
+                            {allStageIngredients.length} Documented Ingredients
+                          </span>
+                        </div>
+
+                        {/* Live Ingredient Search Bar */}
+                        <div className="relative">
+                          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-amber-500" />
+                          <input
+                            type="text"
+                            value={ingredientFilters[stageNum] || ""}
+                            onChange={(e) =>
+                              setIngredientFilters((prev) => ({
+                                ...prev,
+                                [stageNum]: e.target.value,
+                              }))
+                            }
+                            placeholder={`Filter ingredients in Stage 0${stageNum} (e.g. rice, ginger, spices)...`}
+                            className={`w-full pl-8 pr-8 py-1.5 rounded-xl border text-xs font-medium outline-none transition-all focus:ring-1 focus:ring-amber-500 ${
+                              isLight
+                                ? "bg-amber-50/50 border-amber-900/15 text-slate-900 placeholder:text-slate-400"
+                                : "bg-slate-950/70 border-slate-800 text-white placeholder:text-slate-500"
+                            }`}
+                          />
+                          {ingredientFilters[stageNum] && (
+                            <button
+                              onClick={() =>
+                                setIngredientFilters((prev) => ({
+                                  ...prev,
+                                  [stageNum]: "",
+                                }))
+                              }
+                              className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white text-[11px]"
+                            >
+                              ×
+                            </button>
+                          )}
+                        </div>
+
+                        {/* Interactive Ingredient Chips */}
+                        <div className="flex flex-wrap gap-1.5 pt-1">
+                          {displayedIngredients.map((ing, i) => {
+                            const isSelected = selectedIng === ing;
+                            return (
+                              <button
+                                key={i}
+                                type="button"
+                                onClick={() => {
+                                  setSelectedIngredients((prev) => ({
+                                    ...prev,
+                                    [stageNum]: isSelected ? null : ing,
+                                  }));
+                                }}
+                                className={`group px-2.5 py-1 rounded-xl text-xs font-medium border flex items-center gap-1.5 transition-all duration-200 cursor-pointer ${
+                                  isSelected
+                                    ? "bg-amber-500 text-slate-950 border-amber-400 shadow-md font-bold scale-105"
+                                    : isLight
+                                      ? "bg-amber-50/90 text-amber-950 border-amber-300/80 hover:bg-amber-100 hover:border-amber-400"
+                                      : "bg-slate-800/80 text-amber-100 border-slate-700 hover:bg-slate-750 hover:border-amber-500/50"
+                                }`}
+                                title={`Click to search upload images for ${ing}`}
+                              >
+                                <span className="w-1.5 h-1.5 rounded-full bg-amber-400 group-hover:scale-125 transition-transform"></span>
+                                <span>{ing}</span>
+                              </button>
+                            );
+                          })}
+                          {displayedIngredients.length === 0 && (
+                            <p className="text-xs text-slate-400 italic py-1">
+                              No ingredient matches "{ingredientFilters[stageNum]}".
+                            </p>
+                          )}
+                        </div>
+
+                        {/* Selected Ingredient Quick Search Prompt */}
+                        {selectedIng && (
+                          <div
+                            className={`p-2 rounded-xl border flex items-center justify-between gap-2 text-xs animate-in fade-in duration-200 ${
+                              isLight
+                                ? "bg-amber-100/90 border-amber-300 text-amber-950"
+                                : "bg-amber-950/30 border-amber-800/40 text-amber-200"
+                            }`}
+                          >
+                            <div className="flex items-center gap-1.5 truncate">
+                              <Sparkles className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+                              <span className="truncate">
+                                Selected: <strong>{selectedIng}</strong>
+                              </span>
+                            </div>
+                            <button
+                              type="button"
+                              onClick={() => openImageUploadSearch(stageNum, selectedIng)}
+                              className="shrink-0 px-2.5 py-1 rounded-lg bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition-colors flex items-center gap-1 text-[11px]"
+                            >
+                              <Search className="w-3 h-3" />
+                              <span>Search in Uploads</span>
+                            </button>
+                          </div>
+                        )}
+                      </div>
+                    )}
 
                     {/* ── THE GENERATION RECIPE BOX ── */}
                     <div
@@ -882,7 +899,15 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                         <strong className={isLight ? "text-amber-900" : "text-amber-300"}>
                           Method:{" "}
                         </strong>
-                        {waypoint.generationRecipe.preparationMethod}
+                        {waypoint.generationRecipe.preparationMethod.includes("\n") ? (
+                          <div className="mt-1 space-y-1">
+                            {waypoint.generationRecipe.preparationMethod.split("\n").map((step, sIdx) => (
+                              <p key={sIdx}>{step}</p>
+                            ))}
+                          </div>
+                        ) : (
+                          waypoint.generationRecipe.preparationMethod
+                        )}
                       </div>
 
                       {/* Contemporary Contrast */}
@@ -899,6 +924,25 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                         {waypoint.generationRecipe.contemporaryDifference}
                       </div>
                     </div>
+
+                    {/* YouTube Recipe Link (below ingredients and recipe, at the end of Stage 3) */}
+                    {dishId === "hyderabadi-biryani" && stageNum === 3 && (
+                      <div className="pt-1">
+                        <a
+                          href="https://www.youtube.com/watch?v=8Fw_zWPbGog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={`inline-flex items-center gap-1.5 text-xs font-semibold underline underline-offset-4 decoration-dotted transition-colors ${
+                            isLight
+                              ? "text-amber-800 hover:text-amber-950 decoration-amber-800/60"
+                              : "text-amber-400 hover:text-amber-300 decoration-amber-400/60"
+                          }`}
+                        >
+                          <ExternalLink className="w-3.5 h-3.5" />
+                          <span>Watch the full recipe on YouTube</span>
+                        </a>
+                      </div>
+                    )}
 
                     {/* Scholarly Citation Link */}
                     <div
