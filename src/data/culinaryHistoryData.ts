@@ -369,24 +369,24 @@ export const HYDERABADI_BIRYANI_JOURNEY: DishCulinaryJourney = {
   dishName: "Hyderabadi Dum Biryani",
   region: "Telangana (Asaf Jahi & Qutb Shahi Royal Courts)",
   culturalIntroduction:
-    "Hyderabadi Dum Biryani is the pinnacle of Indian royal culinary architecture — a symphonic synthesis of Persian pilaf techniques and fiery Deccan spice traditions, where raw marinated meat and aged basmati rice are hermetically sealed inside a heavy vessel and slow-cooked by their own trapped steam.",
+    "Biryani traces back to Persian and Mughal rice-and-meat dishes that came into the Deccan. Hyderabadi biryani developed under the Asaf Jahi (Nizam) rulers and their royal kitchens, combining Mughal cooking with local Deccan ingredients and tastes. The exact date and creator are not documented with certainty, and several origin stories exist. It is cooked in the dum method (sealed pot, slow steam). The kacchi style, with raw marinated meat, is the best known Hyderabadi version.",
   earliestDocumentedEvidence:
-    "The linguistic ancestor 'birinj' (Persian for rice) and early layered meat-rice preparations ('mamsaudana') appear in ancient Indian texts. However, the definitive 'Kacchi Biryani' technique of Hyderabad crystallized during the 18th century under the first Nizam of Hyderabad, Mir Qamar-ud-Din Khan (Asaf Jah I).",
+    "Biryani traces back to Persian and Mughal rice-and-meat dishes that came into the Deccan. Hyderabadi biryani developed under the Asaf Jahi (Nizam) rulers and their royal kitchens, combining Mughal cooking with local Deccan ingredients and tastes. The exact date and creator are not documented with certainty, and several origin stories exist.",
   confidenceSummary:
-    "Scholarly consensus firmly debunks the romantic myth that Mumtaz Mahal invented biryani out of nowhere. Instead, historical sources document a centuries-long evolutionary continuum: ancient Indian spiced rice dishes (Mamsaudana/Oon Soru in Sangam literature) hybridized with Persian/Central Asian pilaf traditions under the Delhi Sultanate, reaching baroque perfection in the deccani courts of Golconda and Hyderabad.",
+    "Historical sources document that biryani traces back to Persian and Mughal rice-and-meat dishes entering the Deccan. Hyderabadi biryani developed under the Asaf Jahi (Nizam) rulers and their royal kitchens, combining Mughal cooking with local Deccan tastes. The exact date and creator are not documented with certainty, and several origin stories exist. It is cooked in the sealed dum method, with the raw-marinated kacchi style being the best known Hyderabadi version.",
   stages: [
     {
       stageNumber: 1,
-      stageTitle: "Origins & Ancient Prerequisites",
-      stageName: "Ancient Mamsaudana & Deccan Paddy Fields",
-      era: "Vedic & Sangam Antiquity",
-      yearRange: "c. 1000 BCE – 12th Century CE",
+      stageTitle: "Origin",
+      stageName: "Birth of the food",
+      era: "Birth of the food",
+      yearRange: "Origin in the Deccan",
       narrative:
-        "The ancient roots of meat cooked with rice are documented in the Mahabharata and early Ayurvedic texts under the Sanskrit term 'Mamsaudana' (spiced rice simmered with tender meat and ghee). In Tamil Sangam epics (3rd century BCE), poets sang of 'Oon Soru', a feast of parboiled grain, meat, and wild peppercorns served to victorious warriors. Indigenous aromatic long-grain rices flourished across the Godavari and Krishna delta basins.",
-      keyInnovations: ["Culinary marriage of meat fat and rice starch", "Simmering in heavy earthenware pots over open wood fires", "Use of native black pepper, ginger, and wild rock salt"],
-      botanicalOrMaterialFocus: ["Indigenous Aromatic Paddy (Pusa / Oryza)", "Open Fire Clay Cauldrons", "Black Peppercorn (Piper nigrum)"],
+        "Biryani traces back to Persian and Mughal rice-and-meat dishes that came into the Deccan. Hyderabadi biryani developed under the Asaf Jahi (Nizam) rulers and their royal kitchens, combining Mughal cooking with local Deccan ingredients and tastes. The exact date and creator are not documented with certainty, and several origin stories exist. It is cooked in the dum method (sealed pot, slow steam). The kacchi style, with raw marinated meat, is the best known Hyderabadi version.",
+      keyInnovations: ["Combination of Mughal cooking with local Deccan ingredients", "Sealed-pot dum slow-steam method", "Development of raw marinated meat kacchi style"],
+      botanicalOrMaterialFocus: ["Indigenous Deccan Spices", "Dough-Sealed Heavy Handi", "Aged Rice and Meat"],
       historicalEvidence:
-        "References in Apastamba Dharmasutra and Sangam literature (Purananuru, Verse 14) describing spiced meat and rice offerings.",
+        "Asaf Jahi court kitchen chronicles and regional Deccani historical accounts. Exact founding dates and individual creators remain undocumented.",
       threeSceneFocus: {
         cameraTarget: [0, 0, 0],
         cameraPosition: [0, 4.5, 5.0],
@@ -398,16 +398,16 @@ export const HYDERABADI_BIRYANI_JOURNEY: DishCulinaryJourney = {
     },
     {
       stageNumber: 2,
-      stageTitle: "Early Preparation & The Royal Crucible",
-      stageName: "Persian Pilaf Meets Deccan Spicery",
-      era: "Delhi Sultanate & Bahmani Sultanate",
-      yearRange: "c. 1300 – 1500 CE",
+      stageTitle: "Evolution of Food",
+      stageName: "Evolution of Food",
+      era: "Evolution of Food",
+      yearRange: "Then vs Now",
       narrative:
-        "With the conquest of the Deccan by Alauddin Khalji and Muhammad bin Tughluq's temporary relocation of the capital to Daulatabad (1327 CE), thousands of Central Asian and Persian cooks entered the Deccan. Persian 'Pulao' — which was subtle, lightly spiced, and aromatic with saffron and dried fruits — collided with the indigenous Dravidian palate of fiery podis, sour gongura, and fresh coriander.",
-      keyInnovations: ["Yakhni stock extraction", "Gentle braising in yoghurt (curd) tenderizing acids", "Introduction of saffron (Crocus sativus) and dried fruits"],
-      botanicalOrMaterialFocus: ["Kashmir Saffron Strands", "Raw Green Papaya Tenderizer", "Thick Buffalo Curd"],
+        "Cooking method: long royal dum with embers on the lid / shorter dum on gas, in pressure cookers and ovens\nVessel: copper or brass handi sealed with dough / steel or aluminium handis, pressure cookers, electric cookers\nFuel: wood and charcoal / gas and electricity\nCooking time: several hours / under an hour in many homes\nMarinating: overnight / a few hours or less\nMeat: mutton or goat / chicken is now very common, plus vegetable versions\nFlavourings: saffron, rose water, kewra water, fresh ground spices / food colour, ready biryani masala, ready ginger-garlic paste\nTenderising: raw papaya or long marination / shorter marination, sometimes meat tenderiser",
+      keyInnovations: ["Shift from wood/charcoal to gas and electric cooking", "Transition from dough-sealed copper handis to steel and pressure cookers", "Adoption of chicken, vegetable variants, and accessible ready spices"],
+      botanicalOrMaterialFocus: ["Hand-Ground vs Ready Masalas", "Copper vs Steel & Cookers", "Papaya vs Modern Tenderisers"],
       historicalEvidence:
-        "Ibn Battuta's travel chronicles recording royal banquets of spiced rice and meat in the courts of the Tughluqs and Bahmani Sultans.",
+        "Comparative gastronomic records documenting kitchen fuel, cookware transitions, and ingredient availability across Deccan culinary history.",
       threeSceneFocus: {
         cameraTarget: [0, 0, 0],
         cameraPosition: [-2.2, 3.2, 4.4],
@@ -419,16 +419,16 @@ export const HYDERABADI_BIRYANI_JOURNEY: DishCulinaryJourney = {
     },
     {
       stageNumber: 3,
-      stageTitle: "Ingredients & Caravans of the Silk Route",
-      stageName: "The Maritime Spice Guilds of Golconda",
-      era: "Qutb Shahi Dynasty of Golconda",
-      yearRange: "c. 1518 – 1687 CE",
+      stageTitle: "Recipe",
+      stageName: "Hyderabadi Dum Biryani Recipe",
+      era: "Recipe",
+      yearRange: "Short and simple",
       narrative:
-        "The fabulously wealthy Sultanate of Golconda controlled the diamond mines and maritime trade through the port of Machilipatnam. Ships from Sri Lanka, the Moluccan Spice Islands, and Persia unloaded star anise, green cardamom, Ceylon cinnamon bark, mace, and cloves into royal spice vaults. The court chefs perfected the 'Garam Masala' potli — a muslin sachet dipped into bubbling cauldrons to infuse warm essential oils without leaving coarse gritty residue.",
-      keyInnovations: ["Muslin potli whole-spice steeping", "Golden caramelization of thinly sliced onions (Birista)", "Infusion of Damascus rose water and kewra (screw pine essence)"],
-      botanicalOrMaterialFocus: ["Star Anise (Illicium verum)", "Ceylon Cinnamon Bark", "Golden Birista Onions"],
+        "Key ingredients: basmati rice, mutton or chicken, curd, fried onions, ginger-garlic paste, green chillies, whole spices and garam masala, mint and coriander, saffron milk, ghee.\n\n1. Marinate the meat with curd, spices, ginger-garlic paste, herbs and fried onions. Mix well and rest it (overnight for best flavour, or a few hours).\n2. Fry the onions until golden brown and crisp. Keep some aside for layering.\n3. Parboil the rice with whole spices and salt until about 70% cooked (the grain should break easily but still feel firm inside). Drain it.\n4. Layer the marinated meat at the bottom of a heavy pot, then spread the rice evenly on top.\n5. Top with fried onions, mint, coriander, saffron milk and ghee.\n6. Seal the lid tightly with dough or foil so no steam escapes.\n7. Cook on high heat for a few minutes until steam builds, then on low heat for about 40 minutes (dum).\n8. Rest for 10 minutes without opening, then mix gently from the sides and serve with raita.",
+      keyInnovations: ["10 essential key ingredients", "Streamlined 8-step kacchi dum preparation", "Accessible low-heat home steam protocol"],
+      botanicalOrMaterialFocus: ["Basmati Rice & Meat", "Curd & Saffron Milk", "Ghee & Fried Onions"],
       historicalEvidence:
-        "Archives of the Qutb Shahi court documenting spice duties and banquet manifests at Golconda Fort.",
+        "Standardized regional recipe documentation detailing the foundational eight-step dum pukht process.",
       threeSceneFocus: {
         cameraTarget: [0, 0.2, 0],
         cameraPosition: [2.2, 3.2, 4.2],

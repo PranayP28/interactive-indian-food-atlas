@@ -2218,13 +2218,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Night_View_of_Market%2C_Charminar%2C_Hyderabad.jpg",
           "alt": "Bustling night market street in front of the illuminated Charminar, Hyderabad",
-          "caption": "Charminar night market in old Hyderabad — historic epicenter of Deccan royal feast traditions.",
+          "caption": "Origin (Birth of the food): Old Hyderabad and the Deccan, where Persian and Mughal rice-and-meat cookery merged in Asaf Jahi royal kitchens to create Hyderabadi biryani.",
           "fallback": null,
           "width": 3021,
           "height": 3943
         },
-        "caption": "Charminar night market in old Hyderabad — historic epicenter of Deccan royal feast traditions.",
-        "label": "Regional context"
+        "caption": "Origin (Birth of the food): Old Hyderabad and the Deccan, where Persian and Mughal rice-and-meat cookery merged in Asaf Jahi royal kitchens to create Hyderabadi biryani.",
+        "label": "Origin (Birth of the food)"
       },
       "ingredients": {
         "photo": {
@@ -2236,21 +2236,14 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Basmati_Rice_India%2C_raw.jpg",
           "alt": "Aged long-grain basmati rice grains",
-          "caption": "Aged long-grain basmati rice, the foundation of fragrant Hyderabadi kachchi biryani.",
+          "caption": "Evolution of Food: From long royal dum in dough-sealed copper handis over embers to modern shorter cooking on domestic gas and pressure cookers.",
           "fallback": null,
           "width": 3872,
           "height": 2592
         },
-        "caption": "Aged long-grain basmati rice, the foundation of fragrant Hyderabadi kachchi biryani.",
-        "label": "Ingredient reference",
-        "items": [
-          "Basmati rice",
-          "Mutton or goat meat",
-          "Yoghurt",
-          "Saffron",
-          "Fried onions (birista)",
-          "Shahi jeera"
-        ]
+        "caption": "Evolution of Food: From long royal dum in dough-sealed copper handis over embers to modern shorter cooking on domestic gas and pressure cookers.",
+        "label": "Evolution of Food",
+        "items": []
       },
       "method": {
         "photo": {
@@ -2262,13 +2255,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biryani_preparation.jpg",
           "alt": "Biryani handi cooking over charcoal embers",
-          "caption": "Layered marinated meat and par-cooked rice sealed in a heavy handi for slow dum cooking.",
+          "caption": "Recipe: Layering raw marinated meat beneath 70% parboiled rice with saffron milk and herbs, sealed tightly for 40 minutes of gentle dum steaming.",
           "fallback": null,
           "width": 700,
           "height": 468
         },
-        "caption": "Layered marinated meat and par-cooked rice sealed in a heavy handi for slow dum cooking.",
-        "label": "Preparation technique"
+        "caption": "Recipe: Layering raw marinated meat beneath 70% parboiled rice with saffron milk and herbs, sealed tightly for 40 minutes of gentle dum steaming.",
+        "label": "Recipe"
       },
       "plated": {
         "subject": "dish",
