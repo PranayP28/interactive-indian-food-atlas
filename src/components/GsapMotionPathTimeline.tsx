@@ -1048,7 +1048,8 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       dishId === "puran-poli" ||
                       dishId === "dhokla" ||
                       dishId === "undhiyu" ||
-                      dishId === "dal-baati-churma") &&
+                      dishId === "dal-baati-churma" ||
+                      dishId === "laal-maas") &&
                       stageNum === 3 && (
                       <div className="pt-2 relative z-30">
                         <a
@@ -1059,6 +1060,8 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                               ? "https://www.youtube.com/watch?v=e9XFHjdw3Cg"
                               : dishId === "bisi-bele-bath"
                               ? "https://www.youtube.com/watch?v=VEArdyBWvdw"
+                              : dishId === "laal-maas"
+                              ? "https://youtu.be/bG2nwUSWezg?si=aMRMKL__enemVXzn"
                               : dishId === "dal-baati-churma"
                               ? "https://youtu.be/IdAYLQmSEj8?si=Ye0ose7VOrO7fHJO"
                               : dishId === "undhiyu"
