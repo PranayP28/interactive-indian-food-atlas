@@ -1383,91 +1383,89 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
   {
     "id": "info-74",
     "dishId": "dhokla",
-    "title": "Dhokla — 1800s Traditional Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Dhokla",
-    "era": "1800s Traditional",
+    "title": "Dhokla, Origin (Birth of the food)",
+    "subtitle": "Dhokla is a steamed, fermented savoury cake from Gujarat, tracing back to 11th-century dukkia.",
+    "era": "Birth of the food",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.03.44 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
-    "ingredients": [
-      "Gram flour (Besan)",
-      "Fermented curd",
-      "Ginger-chilli paste",
-      "Mustard seeds",
-      "Curry leaves",
-      "Asafoetida"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-75",
     "dishId": "dhokla",
-    "title": "Dhokla — 1900s Early Modern Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Dhokla",
-    "era": "1900s Early Modern",
+    "title": "Dhokla, Evolution of Food",
+    "subtitle": "Then vs Now: Batter, fermentation, cooking time, vessels, fuel, varieties, and scale",
+    "era": "Evolution of Food",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.04.16 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 2,
-    "ingredients": [
-      "Gram flour (Besan)",
-      "Fermented curd",
-      "Ginger-chilli paste",
-      "Mustard seeds",
-      "Curry leaves",
-      "Asafoetida"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-76",
     "dishId": "dhokla",
-    "title": "Dhokla — Contemporary / Present Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Dhokla",
-    "era": "Contemporary / Present",
+    "title": "Dhokla, Recipe",
+    "subtitle": "Key ingredients: besan, curd, ginger–green chilli paste, turmeric, salt, sugar, lemon juice, fruit salt (Eno)",
+    "era": "Recipe",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.04.51 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 3,
     "ingredients": [
-      "Gram flour (Besan)",
-      "Fermented curd",
-      "Ginger-chilli paste",
-      "Mustard seeds",
-      "Curry leaves",
-      "Asafoetida"
+      "Besan (gram flour)",
+      "Curd",
+      "Ginger–green chilli paste",
+      "Turmeric",
+      "Salt",
+      "Sugar",
+      "Lemon juice",
+      "Fruit salt (Eno)",
+      "Oil with mustard seeds",
+      "Curry leaves and coriander"
     ]
   },
   {
     "id": "info-77",
     "dishId": "undhiyu",
-    "title": "Jndhiyu",
-    "subtitle": "(Gujarat)",
-    "era": "1800s Traditional",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.05.49 PM.jpeg",
+    "title": "Undhiyu, Origin (Birth of the food)",
+    "subtitle": "Mixed winter-vegetable dish of Gujarat, traditionally cooked in an earthen pot buried upside down with fire on top.",
+    "era": "Birth of the food",
+    "image": "/images_updated/undhiyu-stage-1.png",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
-    "ingredients": [
-      "Surti papdi",
-      "Kand (purple yam)",
-      "Baby eggplants",
-      "Methi muthia",
-      "Fresh coconut",
-      "Green garlic"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-78",
     "dishId": "undhiyu",
-    "title": "Undhiyu — Heritage & Evolution Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Undhiyu",
-    "era": "Heritage & Evolution",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.06.45 PM.jpeg",
+    "title": "Undhiyu, Evolution of Food",
+    "subtitle": "Then vs Now: Sealed earthen pot under charcoal embers to pressure cookers and modern stoves",
+    "era": "Evolution of Food",
+    "image": "/images_updated/undhiyu-stage-2.png",
     "isFullTimelinePoster": false,
     "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-78-b",
+    "dishId": "undhiyu",
+    "title": "Undhiyu, Recipe",
+    "subtitle": "Key ingredients: Surti papdi, purple yam, baby potatoes, raw banana, brinjals, toovar seeds, muthiya, green masala",
+    "era": "Recipe",
+    "image": "/images_updated/undhiyu-stage-3.png",
+    "isFullTimelinePoster": false,
+    "stageNumber": 3,
     "ingredients": [
       "Surti papdi",
-      "Kand (purple yam)",
-      "Baby eggplants",
-      "Methi muthia",
-      "Fresh coconut",
-      "Green garlic"
+      "Purple yam and yam",
+      "Baby potatoes",
+      "Raw banana",
+      "Small black brinjals",
+      "Fresh toovar seeds",
+      "Muthiya (fenugreek dumplings)",
+      "Coconut-coriander green masala with green garlic",
+      "Ginger–green chilli paste",
+      "Oil with carom seeds and asafoetida"
     ]
   },
   {
@@ -1651,112 +1649,80 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
   {
     "id": "info-89",
     "dishId": "puran-poli",
-    "title": "Puran Poli — 1800s Traditional Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Puran Poli",
-    "era": "1800s Traditional",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.33.38 PM (2).jpeg",
+    "title": "Puran Poli - Origin (Birth of the food)",
+    "subtitle": "In the 19th century, Puran Poli was a sacred festive offering and royal delicacy served on fresh banana leaves.",
+    "era": "Birth of the food",
+    "image": "/images_updated/puran-poli-stage-1.png",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
-    "ingredients": [
-      "Chana dal",
-      "Organic jaggery",
-      "Whole wheat flour",
-      "Nutmeg",
-      "Cardamom",
-      "Pure ghee"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-90",
     "dishId": "puran-poli",
-    "title": "Puran Poli — Heritage & Evolution Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Puran Poli",
-    "era": "Heritage & Evolution",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.33.38 PM.jpeg",
+    "title": "Puran Poli - Evolution of Food",
+    "subtitle": "Then vs Now: Cooking method, vessels, fuel, puran mashing, flour, sweeteners, and commercial distribution",
+    "era": "Evolution of Food",
+    "image": "/images_updated/puran-poli-stage-2.png",
     "isFullTimelinePoster": false,
     "stageNumber": 2,
-    "ingredients": [
-      "Chana dal",
-      "Organic jaggery",
-      "Whole wheat flour",
-      "Nutmeg",
-      "Cardamom",
-      "Pure ghee"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-91",
     "dishId": "puran-poli",
-    "title": "Puran Poli — Heritage & Evolution Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Puran Poli",
-    "era": "Heritage & Evolution",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.33.39 PM (1).jpeg",
+    "title": "Puran Poli - Recipe",
+    "subtitle": "Key ingredients: wheat flour (atta or maida), chana dal, jaggery, ghee, cardamom powder, nutmeg powder, salt, oil",
+    "era": "Recipe",
+    "image": "/images_updated/puran-poli-stage-3.png",
     "isFullTimelinePoster": false,
-    "stageNumber": 2,
+    "stageNumber": 3,
     "ingredients": [
+      "Wheat flour",
       "Chana dal",
-      "Organic jaggery",
-      "Whole wheat flour",
-      "Nutmeg",
-      "Cardamom",
-      "Pure ghee"
+      "Jaggery",
+      "Ghee",
+      "Cardamom powder",
+      "Nutmeg powder"
     ]
   },
   {
     "id": "info-92",
     "dishId": "vada-pav",
-    "title": "Vada Pav — 1800s Traditional Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Vada Pav",
-    "era": "1800s Traditional",
+    "title": "Vada Pav - Origin (Birth of the food)",
+    "subtitle": "Ashok Vaidya combining batata vada with bakery pav outside Dadar station in 1966",
+    "era": "Birth of the food",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.33.39 PM (2).jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
-    "ingredients": [
-      "Potatoes",
-      "Besan (Gram flour)",
-      "Mustard seeds",
-      "Garlic",
-      "Peanuts",
-      "Kashmiri chilli",
-      "Ladi Pav"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-93",
     "dishId": "vada-pav",
-    "title": "Vada Pav — Heritage & Evolution Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Vada Pav",
-    "era": "Heritage & Evolution",
+    "title": "Vada Pav - Evolution of Food",
+    "subtitle": "Then vs Now: Cooking method, fuel, pav, chutneys, vada, and packaging",
+    "era": "Evolution of Food",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.33.39 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 2,
-    "ingredients": [
-      "Potatoes",
-      "Besan (Gram flour)",
-      "Mustard seeds",
-      "Garlic",
-      "Peanuts",
-      "Kashmiri chilli",
-      "Ladi Pav"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-94",
     "dishId": "vada-pav",
-    "title": "Vada Pav — Heritage & Evolution Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Vada Pav",
-    "era": "Heritage & Evolution",
+    "title": "Vada Pav - Recipe",
+    "subtitle": "Key ingredients: potatoes, pav (bread rolls), gram flour (besan), garlic, green chillies",
+    "era": "Recipe",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.33.40 PM (1).jpeg",
     "isFullTimelinePoster": false,
-    "stageNumber": 2,
+    "stageNumber": 3,
     "ingredients": [
       "Potatoes",
-      "Besan (Gram flour)",
-      "Mustard seeds",
+      "Pav (Bread rolls)",
+      "Gram flour (Besan)",
       "Garlic",
-      "Peanuts",
-      "Kashmiri chilli",
-      "Ladi Pav"
+      "Green chillies"
     ]
   },
   {
@@ -2624,90 +2590,103 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
   {
     "id": "info-141",
     "dishId": "makki-di-roti-sarson-saag",
-    "title": "Makki di Roti & Sarson da Saag — Origin",
-    "subtitle": "Traditional winter agrarian staple of stone-ground cornmeal flatbread and slow-churned mustard greens",
-    "era": "Origin",
+    "title": "The 1800s: The Winter Harvest Fuel",
+    "subtitle": "In the 19th century, Makki di Roti and Sarson ka Saag was a rustic, cold-weather staple born entirely out of survival and the seasonal agricultural cycle of rural Punjab. During the brutal winter months, farmers needed high-calorie, warming food to sustain heavy manual labor. The greens—mustard leaves, bathua, and spinach—were plucked fresh from the fields and slow-cooked for hours in heavy clay pots (haandi) over open wood or cow-dung fires, filling the village air with a distinct earthy smoke. Without any mechanical tools, the cooked greens were laboriously hand-churned and mashed using a heavy wooden whisk (madhani) until creamy. The maize flour was coarsely stone-ground at local watermills (gharats) and patted by hand into thick flatbreads, as maize lacks gluten and cannot be rolled. The meal was cooked on an outdoor mud stove (chulha), heavily enriched with fresh, hand-churned white butter, and eaten fresh in the fields to beat the winter chill.",
+    "era": "The 1800s: The Winter Harvest Fuel",
     "image": "/images_updated/WhatsApp Image 2026-11-04 at 12.33.04 AM.jpeg",
     "isFullTimelinePoster": true,
     "stageNumber": 1,
-    "ingredients": []
+    "ingredients": [
+      "Desi Makki Atta",
+      "Khet ki Sarson",
+      "Bathua",
+      "Safed Makkhan",
+      "Hari Mirch"
+    ]
   },
   {
     "id": "info-142",
     "dishId": "makki-di-roti-sarson-saag",
-    "title": "Makki di Roti & Sarson da Saag — Evolution of Food",
-    "subtitle": "Shifts in greens sourcing, earthen pot ghotna churning to blenders, and fuel transitions",
-    "era": "Evolution of Food",
+    "title": "The Mid-1900s: The Domestic Punjabi Identity",
+    "subtitle": "By the mid-20th century, this rural combination moved firmly into the domestic kitchens of urbanized Punjab, becoming a proud cultural symbol of Punjabi hospitality and festival cooking. The introduction of mechanized diesel flour mills made finely ground maize flour readily available, which slightly eased the process of binding the difficult dough. Kerosene stoves and early LPG gas burners replaced the outdoor mud chulhas, bringing the preparation indoors into brass and aluminum cookware. While the saag was still slow-cooked, the hand-churning process became faster with sturdier metal madhanis. The dish became the ultimate centerpiece for winter gatherings and festivals like Lohri, where homemakers vied to create the smoothest saag and the thinnest, un-broken rotis. It was traditionally served on large brass plates (thalis) with blocks of commercial yellow jaggery on the side.",
+    "era": "The Mid-1900s: The Domestic Punjabi Identity",
     "image": "/images_updated/WhatsApp Image 2026-11-04 at 12.32.55 AM.jpeg",
     "isFullTimelinePoster": true,
     "stageNumber": 2,
-    "ingredients": []
+    "ingredients": [
+      "Girni Makki Atta",
+      "Market Sarson Leaves",
+      "Palak",
+      "Commercial White Butter",
+      "Pila Gul"
+    ]
   },
   {
     "id": "info-143",
     "dishId": "makki-di-roti-sarson-saag",
-    "title": "Makki di Roti & Sarson da Saag — Recipe",
-    "subtitle": "10 key ingredients and 10 simple steps for authentic saag with hand-patted corn flatbread",
-    "era": "Recipe",
+    "title": "The Present Day (2020s–2026): The Global Gourmet Phenomenon",
+    "subtitle": "Today, Makki di Roti and Sarson ka Saag has transcended its rustic roots to become a highly celebrated global gourmet item found in elite Indian restaurants worldwide. The traditional hours-long mashing process has been replaced by electric pressure cookers and high-speed hand blenders that emulsify the greens into a perfectly smooth puree in seconds. Modern cooking techniques often use non-stick griddles and parchment paper techniques to easily shape and flip the notoriously fragile maize flatbreads. Health-conscious updates include mixing the maize flour with a bit of whole wheat or millet flour for easier rolling, and substituting traditional heavy fats with olive oil or low-fat vegan butter. For the global diaspora, the present era offers ultimate convenience: pre-cooked Sarson ka Saag is widely sold in ready-to-eat cans or vacuum-sealed pouches, allowing people to enjoy this complex, time-consuming winter tradition instantly anywhere in the world.",
+    "era": "The Present Day (2020s–2026): The Global Gourmet Phenomenon",
     "image": "/images_updated/WhatsApp Image 2026-11-04 at 12.35.42 AM.jpeg",
     "isFullTimelinePoster": true,
     "stageNumber": 3,
     "ingredients": [
-      "Fresh mustard greens (sarson)",
-      "Spinach (palak) and bathua leaves",
-      "Maize flour (makki ka atta)",
-      "Fresh ginger, garlic and green chillies",
-      "Onions",
-      "Mustard oil or ghee",
-      "Salt",
-      "Warm water",
-      "Fresh white butter (makhan)",
-      "Jaggery (gur, for serving)"
+      "Organic Yellow Cornmeal",
+      "Packaged Mustard Greens",
+      "Canned Spinach Puree",
+      "Branded Yellow Butter",
+      "Organic Garlic Paste"
     ]
   },
   {
     "id": "info-144",
     "dishId": "butter-chicken",
-    "title": "Butter Chicken — Origin",
-    "subtitle": "Post-partition innovation reviving tandoor-roasted chicken in velvety tomato-butter gravy",
-    "era": "Origin",
+    "title": "The Pre-1947 Era: The Punjabi Tandoori Roots",
+    "subtitle": "Before it became a creamy curry, the foundation of Butter Chicken lay in the communal clay tandoors of Peshawar in undivided Punjab. In the 1920s and 30s at the original Moti Mahal eatery, Kundan Lal Gujral master shortcuts to feed hungry locals by cooking skewered chicken inside a roaring, charcoal-fired clay oven. The chicken was marinated simply in thick hung curd, lemon juice, and local spices. Because the intense, dry heat of the tandoor would quickly dry out the meat, it was served immediately alongside fresh hand-churned Punjabi white butter and pieces of onion to keep it palatable. There was no gravy yet; it was a rustic, smoky, and dry street food born out of the traditional open-air clay oven culture of rural and urban Punjab.",
+    "era": "The Pre-1947 Era: The Punjabi Tandoori Roots",
     "image": "/images_updated/WhatsApp Image 2026-11-04 at 12.38.33 AM.jpeg",
     "isFullTimelinePoster": true,
     "stageNumber": 1,
-    "ingredients": []
+    "ingredients": [
+      "Desi Murg",
+      "Chakka Dahi",
+      "Safed Makkhan",
+      "Kacchi Mirch",
+      "Nimbu Rassa"
+    ]
   },
   {
     "id": "info-145",
     "dishId": "butter-chicken",
-    "title": "Butter Chicken — Evolution of Food",
-    "subtitle": "From charcoal tandoors and hand-strained tomatoes to modern domestic convection ovens and blenders",
-    "era": "Evolution of Food",
+    "title": "The Mid-1900s: The Delhi-Punjabi Invention (1950s)",
+    "subtitle": "Following the partition, Punjabi migrants brought the tandoor to Delhi, where the dry chicken was accidentally transformed into the famous gravy dish. At the new Moti Mahal restaurant in Daryaganj, the cooks faced a massive problem: unsold tandoori chicken dried out and went to waste. To solve this, they created a rich, hydrating sauce using fresh tomato puree, heavy cream, and massive blocks of dairy butter to simmer the leftover chicken pieces. Cooked in large cauldrons over charcoal embers, the dish combined the smoky char of Punjabi tandoori grilling with a velvety, comforting gravy. It became an instant hit, serving as the ultimate comfort food for the displaced Punjabi diaspora and locals looking for a rich, hearty, and celebratory meal.",
+    "era": "The Mid-1900s: The Delhi-Punjabi Invention (1950s)",
     "image": "/images_updated/WhatsApp Image 2026-11-04 at 12.40.59 AM.jpeg",
     "isFullTimelinePoster": true,
     "stageNumber": 2,
-    "ingredients": []
+    "ingredients": [
+      "Tandoori Chicken Leftovers",
+      "Fresh Tamatar Puree",
+      "Commercial Dairy Butter",
+      "Fresh Malai",
+      "Kasuri Methi"
+    ]
   },
   {
     "id": "info-145-recipe",
     "dishId": "butter-chicken",
-    "title": "Butter Chicken — Recipe",
-    "subtitle": "11 key ingredients and 10 simple steps for authentic velvety murgh makhani",
-    "era": "Recipe",
+    "title": "The Present Day (2020s–2026): The Global Punjabi Pride",
+    "subtitle": "Today, Butter Chicken stands as the definitive global ambassador of Punjabi-Indian cuisine, served everywhere from roadside dhabas to Michelin-starred dining rooms. Modern preparation has streamlined the process, using high-tech commercial tandoors or gas grills to prepare boneless chicken tikka pieces specifically for the sauce. High-speed blenders and electric strainers ensure the gravy achieves an ultra-smooth, silk-like texture in minutes. While traditional variants still rely heavily on cashew paste, cream, and Amul butter, modern kitchens also cater to global trends with health-conscious versions using Greek yogurt or plant-based vegan butter. It has also broken out of the curry bowl into fusion street food, appearing as a stuffing for naan bombs, pizzas, and loaded fries across the globe.",
+    "era": "The Present Day (2020s–2026): The Global Punjabi Pride",
     "image": "/images_updated/WhatsApp Image 2026-11-04 at 12.40.59 AM.jpeg",
     "isFullTimelinePoster": true,
     "stageNumber": 3,
     "ingredients": [
-      "Chicken (boneless pieces or bone-in cuts)",
-      "Hung curd (thick yogurt)",
-      "Ginger-garlic paste",
-      "Kashmiri red chilli powder and turmeric",
-      "Ripe tomatoes",
-      "Butter and ghee",
-      "Fresh dairy cream",
-      "Kasuri methi (dried fenugreek leaves)",
-      "Whole spices (green cardamom, cinnamon, cloves)",
-      "Salt and a pinch of sugar",
-      "Lemon juice"
+      "Boneless Chicken Tikka",
+      "Organic Tomato Paste",
+      "Pasteurized Butter",
+      "UHT Whipping Cream",
+      "Ready Makhani Gravy Mix"
     ]
   },
   {

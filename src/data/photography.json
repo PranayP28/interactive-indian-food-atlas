@@ -714,23 +714,30 @@
     "dhokla": {
       "origin": {
         "library": "spice-street",
-        "caption": "Gujarat — the regional kitchen where Dhokla belongs."
+        "caption": "Dhokla, Origin (Birth of the food)",
+        "label": "Dhokla, Origin (Birth of the food)"
       },
       "ingredients": {
         "library": "spice-bowls",
-        "caption": "Ingredients for Dhokla: gram flour (besan), fermented curd, ginger-chilli paste, mustard seeds.",
+        "caption": "Dhokla, Evolution of Food",
+        "label": "Dhokla, Evolution of Food",
         "items": [
-          "Gram flour (Besan)",
-          "Fermented curd",
-          "Ginger-chilli paste",
-          "Mustard seeds",
-          "Curry leaves",
-          "Asafoetida"
+          "Besan (gram flour)",
+          "Curd",
+          "Ginger–green chilli paste",
+          "Turmeric",
+          "Salt",
+          "Sugar",
+          "Lemon juice",
+          "Fruit salt (Eno)",
+          "Oil with mustard seeds",
+          "Curry leaves and coriander"
         ]
       },
       "method": {
         "library": "steam",
-        "caption": "Dhokla — Aerated Fermentation & Steam Vapor Lift."
+        "caption": "Dhokla, Recipe",
+        "label": "Dhokla, Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Homemade_Dhokla_2.jpg",
@@ -750,23 +757,30 @@
     "undhiyu": {
       "origin": {
         "library": "spice-market",
-        "caption": "Gujarat — the regional kitchen where Undhiyu belongs."
+        "caption": "Undhiyu, Origin (Birth of the food)",
+        "label": "Undhiyu, Origin (Birth of the food)"
       },
       "ingredients": {
         "library": "spice-palette",
-        "caption": "Ingredients for Undhiyu: surti papdi, kand (purple yam), baby eggplants, methi muthia.",
+        "caption": "Undhiyu, Evolution of Food",
+        "label": "Undhiyu, Evolution of Food",
         "items": [
           "Surti papdi",
-          "Kand (purple yam)",
-          "Baby eggplants",
-          "Methi muthia",
-          "Fresh coconut",
-          "Green garlic"
+          "Purple yam and yam",
+          "Baby potatoes",
+          "Raw banana",
+          "Small black brinjals",
+          "Fresh toovar seeds",
+          "Muthiya (fenugreek dumplings)",
+          "Coconut-coriander green masala with green garlic",
+          "Ginger–green chilli paste",
+          "Oil with carom seeds and asafoetida"
         ]
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Undhiyu — Matka Inversion (Undhu) Under Charcoal Embers."
+        "caption": "Undhiyu, Recipe",
+        "label": "Undhiyu, Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Undhiyu.jpg",
@@ -1354,15 +1368,15 @@
           "licence": "CC0 / Public domain",
           "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batata_Vada_ready_to_Dip_and_Fry.JPG",
-          "alt": "Spiced potato mixture portioned before the gram-flour batter — the filling of vada pav.",
-          "caption": "Spiced potato mixture portioned before the gram-flour batter — the filling of vada pav.",
+          "alt": "Evolution of Food: Then vs Now — shifts in cooking methods, fuel, packaging, and commercial street craft.",
+          "caption": "Evolution of Food: Then vs Now — shifts in cooking methods, fuel, packaging, and commercial street craft.",
           "fallback": null,
           "width": 1600,
           "height": 1200,
           "local": "/images/dishes/vada-pav-stage-2.webp"
         },
-        "caption": "Spiced potato mixture portioned before the gram-flour batter — the filling of vada pav.",
-        "label": "Ingredient reference",
+        "caption": "Evolution of Food: Then vs Now — shifts in cooking methods, fuel, packaging, and commercial street craft.",
+        "label": "Evolution of Food",
         "items": [
           "Potatoes",
           "Besan (Gram flour)",
@@ -1396,13 +1410,13 @@
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Maharashtrian_Vada_Pav.JPG",
         "subject": "dish",
         "title": "Vada Pav",
-        "creator": "DreamyFlutura11",
+        "creator": "",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maharashtrian_Vada_Pav.JPG",
-        "alt": "Vada Pav — Maharashtra",
+        "alt": "Freshly prepared Mumbai Vada Pav with spicy chutney and fried green chilli",
         "caption": "Vada Pav, Maharashtra.",
-        "fallback": "/images/dishes/vada-pav-stage-4.webp",
+        "fallback": "/images/dishes/vada-pav-plated.png",
         "width": null,
         "height": null
       }
@@ -1410,35 +1424,38 @@
     "puran-poli": {
       "origin": {
         "library": "spice-market",
-        "caption": "Maharashtra — the regional kitchen where Puran Poli belongs."
+        "caption": "Puran Poli - Origin (Birth of the food)",
+        "label": "Origin (Birth of the food)"
       },
       "ingredients": {
         "library": "spice-palette",
-        "caption": "Ingredients for Puran Poli: chana dal, organic jaggery, whole wheat flour, nutmeg.",
+        "caption": "Puran Poli - Evolution of Food",
+        "label": "Evolution of Food",
         "items": [
+          "Wheat flour",
           "Chana dal",
-          "Organic jaggery",
-          "Whole wheat flour",
-          "Nutmeg",
-          "Cardamom",
-          "Pure ghee"
+          "Jaggery",
+          "Ghee",
+          "Cardamom powder",
+          "Nutmeg powder"
         ]
       },
       "method": {
         "library": "grindstone",
-        "caption": "Puran Poli — Puran Stone-Straining & Translucent Rolling."
+        "caption": "Puran Poli - Recipe",
+        "label": "Recipe"
       },
       "plated": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg",
+        "src": "/images/dishes/puran-poli-plated.png",
         "subject": "dish",
         "title": "Puran Poli",
-        "creator": "Phadke09",
-        "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg",
-        "alt": "Puran Poli — Maharashtra",
+        "creator": "",
+        "licence": "",
+        "licenceUrl": "",
+        "sourceUrl": "",
+        "alt": "Traditional Maharashtrian Puran Poli with pure cow ghee on brass plate",
         "caption": "Puran Poli, Maharashtra.",
-        "fallback": "/images/dishes/puran-poli-stage-4.webp",
+        "fallback": "/images/dishes/puran-poli-plated.png",
         "width": null,
         "height": null
       }
@@ -1918,16 +1935,16 @@
         "label": "Recipe"
       },
       "plated": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Butter_chicken_by_me.jpg",
+        "src": "/images/dishes/butter-chicken-plated.png",
         "subject": "dish",
         "title": "Butter Chicken",
-        "creator": "TabassumJawed",
-        "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butter_chicken_by_me.jpg",
-        "alt": "Butter Chicken — Punjab",
+        "creator": "",
+        "licence": "",
+        "licenceUrl": "",
+        "sourceUrl": "",
+        "alt": "Authentic Murgh Makhani Butter Chicken with fresh cream swirl",
         "caption": "Butter Chicken, Punjab.",
-        "fallback": "/images/dishes/butter-chicken-stage-4.webp",
+        "fallback": "/images/dishes/butter-chicken-plated.png",
         "width": null,
         "height": null
       }

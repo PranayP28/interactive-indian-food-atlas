@@ -2194,108 +2194,90 @@
       "dishName": "Dhokla",
       "state": "Gujarat",
       "classification": "State",
-      "confidence": "regional-tradition",
+      "confidence": "documented",
       "sources": [
         "regional-food-writing",
         "oral-tradition"
       ],
-      "stageCount": 4,
+      "stageCount": 3,
       "stages": [
         {
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Dhokla in the food geography of Gujarat",
-          "narrative": "Gujarat's trading coast and dry interior created a largely vegetarian cuisine of fermented batters, pulses, winter vegetables and a sweet–sour balance. Dhokla is a fermented or steamed preparation associated with the Gujarat region. It belongs to the fermented or steamed preparation tradition of Gujarat and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Dhokla, Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Dhokla in Gujarat",
+          "narrative": "Dhokla is a steamed, fermented savoury cake from Gujarat, now eaten across India. A pulse-based dish called dukkia, seen as a precursor, is mentioned in a Jain text dated to the 11th century (sources give 1066 or 1068 CE). The word “dhokla” itself appears in the Gujarati text Varanaka Samuchaya, dated to about 1520 CE. The traditional version uses a fermented batter of rice and split chickpeas (chana dal), steamed rather than fried. The exact creator and date are not documented, so treat dukkia as a likely ancestor rather than the same dish. Khaman, made entirely from chickpea batter, is a related but separate preparation.",
           "details": [
-            "Geographical & cultural origin: the Gujarat region, in Gujarat.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: It belongs to the fermented or steamed preparation tradition of Gujarat and is embedded in household, festival and regional food practice.",
-            "Cultural significance: Porous, pillow-soft steamed savoury sponge cakes made from fermented split chickpea batter, tempered with crackling mustard seeds, green chillies, and fresh coriander."
+            "Origin in Gujarat: rice and chana dal soaked and ground, fermented, then steamed in slabs.",
+            "Historical precursor: A pulse-based dish called dukkia is mentioned in an 11th-century Jain text (1066 or 1068 CE).",
+            "Literary reference: The word 'dhokla' appears in the Gujarati text Varanaka Samuchaya, dated to c. 1520 CE.",
+            "Cooking method: Steaming, not frying, with fermentation giving the sour taste and sponge."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Gujarat. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Wikipedia, 'Dhokla'; K. T. Achaya, A Historical Dictionary of Indian Food; Knocksense (Ahmedabad), 'Steaming through centuries'.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Dhokla is built from",
-          "narrative": "The recipe centres on Gram flour (Besan), Fermented curd, Ginger-chilli paste, Mustard seeds, Curry leaves and Asafoetida. These are the staple grains, pulses, vegetables, spices or dairy products of Gujarat; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Dhokla, Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Batter: Then - rice and chana dal soaked and ground, or rice flour and besan mixed 2:1 | Now - besan-based instant mixes, with ready-made dhokla flour sold in shops\nFermentation: Then - overnight, with curd | Now - skipped; fruit salt (Eno) or baking soda raises it in minutes\nCooking time: Then - overnight prep plus steaming | Now - about 30 minutes in many homes\nVessel: Then - pot with a steaming plate | Now - idli stand, steamer, pressure cooker without the whistle, microwave or electric cooker\nFuel: Then - wood or charcoal | Now - gas and electricity\nVarieties: Then - fermented rice-and-gram dhokla | Now - khaman, nylon, rava, sandwich and other dhokla\nWhere eaten: Then - home, as a snack or breakfast | Now - sweet and farsan shops, restaurants, packaged and instant mixes\nScale: Then - household | Now - Ahmedabad was reported to consume about 10,000 kg of dhokla daily (2018)",
           "details": [
-            "Principal ingredient: Gram flour (Besan).",
-            "Principal ingredient: Fermented curd.",
-            "Principal ingredient: Ginger-chilli paste.",
-            "Principal ingredient: Mustard seeds.",
-            "Principal ingredient: Curry leaves.",
-            "Principal ingredient: Asafoetida.",
-            "Regional & seasonal ingredients: Gujarat's trading coast and dry interior created a largely vegetarian cuisine of fermented batters, pulses, winter vegetables and a sweet–sour balance.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Batter: Then - rice and chana dal soaked and ground, or rice flour and besan mixed 2:1 | Now - besan-based instant mixes, with ready-made dhokla flour sold in shops",
+            "Fermentation: Then - overnight, with curd | Now - skipped; fruit salt (Eno) or baking soda raises it in minutes",
+            "Cooking time: Then - overnight prep plus steaming | Now - about 30 minutes in many homes",
+            "Vessel: Then - pot with a steaming plate | Now - idli stand, steamer, pressure cooker without the whistle, microwave or electric cooker",
+            "Fuel: Then - wood or charcoal | Now - gas and electricity",
+            "Varieties: Then - fermented rice-and-gram dhokla | Now - khaman, nylon, rava, sandwich and other dhokla",
+            "Where eaten: Then - home, as a snack or breakfast | Now - sweet and farsan shops, restaurants, packaged and instant mixes",
+            "Scale: Then - household | Now - Ahmedabad was reported to consume about 10,000 kg of dhokla daily (2018)"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Wikipedia, 'Dhokla'; Knocksense; K. T. Achaya.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Dhokla is made",
-          "narrative": "The defining technique is Aerated Fermentation & Steam Vapor Lift — Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers. Steel steamers and packaged batter now replace earthen pots. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers. Steel steamers and packaged batter now replace earthen pots.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Dhokla, Recipe",
+          "era": "Recipe",
+          "headline": "Dhokla Recipe: 10 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: besan (gram flour), curd, ginger–green chilli paste, turmeric, salt, sugar, lemon juice, fruit salt (Eno), oil with mustard seeds, curry leaves and coriander.\n\n1. Mix besan, curd, ginger–green chilli paste, turmeric, salt, sugar and lemon juice with water into a smooth, pourable batter. Rest it for about 10 minutes.\n2. Heat water in a steamer and grease a tray with oil.\n3. Add fruit salt to the batter just before cooking and stir gently, once, until it froths.\n4. Pour the batter into the greased tray straight away.\n5. Steam on medium heat for about 15 minutes, until a skewer comes out clean.\n6. Let it cool slightly, then cut into squares.\n7. Heat oil, crackle mustard seeds, add green chillies and curry leaves, then pour in a little water and sugar. Pour this tempering over the dhokla.\n8. Garnish with coriander and grated coconut and serve with green chutney and fried chillies.",
           "details": [
-            "Traditional technique: Aerated Fermentation & Steam Vapor Lift — Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers. Steel steamers and packaged batter now replace earthen pots.",
-            "Traditional cookware & utensils: Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers.",
-            "Key process: Aerated Fermentation & Steam Vapor Lift.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: besan (gram flour), curd, ginger–green chilli paste, turmeric, salt, sugar, lemon juice, fruit salt (Eno), oil with mustard seeds, curry leaves and coriander.",
+            "1. Mix besan, curd, ginger–green chilli paste, turmeric, salt, sugar and lemon juice with water into a smooth, pourable batter. Rest it for about 10 minutes.",
+            "2. Heat water in a steamer and grease a tray with oil.",
+            "3. Add fruit salt to the batter just before cooking and stir gently, once, until it froths.",
+            "4. Pour the batter into the greased tray straight away.",
+            "5. Steam on medium heat for about 15 minutes, until a skewer comes out clean.",
+            "6. Let it cool slightly, then cut into squares.",
+            "7. Heat oil, crackle mustard seeds, add green chillies and curry leaves, then pour in a little water and sugar. Pour this tempering over the dhokla.",
+            "8. Garnish with coriander and grated coconut and serve with green chutney and fried chillies."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "Traditional Gujarati Khaman and Dhokla culinary practice and codified recipes.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
-        },
-        {
-          "number": 4,
-          "key": "plated",
-          "numeral": "IV",
-          "eyebrow": "Stage IV",
-          "title": "Modern Form, Serving & Recognition",
-          "photoLabel": "Finished dish",
-          "era": "Present day",
-          "headline": "Dhokla today",
-          "narrative": "It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common. It is presented in the serving style of Gujarat, with the tangy, light & spongy profile that identifies it. Porous, pillow-soft steamed savoury sponge cakes made from fermented split chickpea batter, tempered with crackling mustard seeds, green chillies, and fresh coriander.",
-          "details": [
-            "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
-            "Flavour identity: Tangy, Light & Spongy.",
-            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
-            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
-          ],
-          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
-          "sources": [
-            "regional-food-writing",
-            "oral-tradition"
-          ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         }
       ]
     },
@@ -2304,108 +2286,90 @@
       "dishName": "Undhiyu",
       "state": "Gujarat",
       "classification": "State",
-      "confidence": "regional-tradition",
+      "confidence": "documented",
       "sources": [
         "regional-food-writing",
         "oral-tradition"
       ],
-      "stageCount": 4,
+      "stageCount": 3,
       "stages": [
         {
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Undhiyu in the food geography of Gujarat",
-          "narrative": "Gujarat's trading coast and dry interior created a largely vegetarian cuisine of fermented batters, pulses, winter vegetables and a sweet–sour balance. Undhiyu is a curry or stew associated with the Gujarat region. It belongs to the curry or stew tradition of Gujarat and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Undhiyu, Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Undhiyu in Gujarat",
+          "narrative": "Undhiyu (also spelled undhiyo or oondhiya) is a mixed winter-vegetable dish of Gujarat, closely tied to Surat. Its name comes from the Gujarati word undhu, \"upside down\", because the pot was traditionally buried upside down with fire on top. One account says it evolved from umbadiyo, a southern Gujarat dish cooked in a buried pit; this is a \"said to\" claim, not documented fact. Surti papdi (flat green beans) is its base, and it is cooked from November to February, when its vegetables are in season. It is the dish most associated with Uttarayan, the kite-flying harvest festival. No creator or date is documented.",
           "details": [
-            "Geographical & cultural origin: the Gujarat region, in Gujarat.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: It belongs to the curry or stew tradition of Gujarat and is embedded in household, festival and regional food practice.",
-            "Cultural significance: Surat's legendary winter one-pot casserole of tender baby eggplants, purple yam, Surti papdi beans, and fenugreek muthias slow-cooked upside down under earthen pit fires."
+            "Origin in Gujarat: vegetables and spice mix packed in the pot with no water, buried upside down, and cooked in their own juices for about 3 to 4 hours.",
+            "Traditional cookware: Earthen pot (matlu or matla), coated with mud and sealed.",
+            "Traditional heat source: Pit in the ground with lit charcoal or embers layered over the upturned pot.",
+            "Cooking method: Slow indirect heat from above, giving a smoky flavour."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Gujarat. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Harper's Bazaar India, “Decoding the many layers and flavours of undhiyo”; Knocksense (Ahmedabad), traditional preparation of undhiyu; Tarla Dalal, Surti undhiyu.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Undhiyu is built from",
-          "narrative": "The recipe centres on Surti papdi, Kand (purple yam), Baby eggplants, Methi muthia, Fresh coconut and Green garlic. These are the staple grains, pulses, vegetables, spices or dairy products of Gujarat; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Undhiyu, Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Undhiyu moved from a buried earthen pot cooked for hours over charcoal to gas stoves, pressure cookers and restaurant reinventions, while village kitchens still make the matla version.\n\nVessel: Then - Sealed earthen pot (matlu or matla), coated with mud | Now - Large vessels, pressure cookers and non-stick pans\nHeat source: Then - Pit with charcoal or embers on top | Now - Gas stove\nCooking time: Then - About 3 to 4 hours | Now - Two pressure-cooker whistles, then a short finish on low heat\nWater: Then - None; vegetables cook in their own juices | Now - A little hot water added (about 2 cups in one recipe)\nFlavour: Then - Smoky, from indirect heat | Now - Fresh green masala; less smoke\nOil: Then - More oil in the traditional method | Now - Pressure-cooker version uses less oil and can turn dry\nRegional styles: Then - Village matla undhiyo | Now - Surat (garlic-heavy), Ahmedabad (spicier, oilier), Kathiyawadi (spices only, no green masala)\nReinventions: Then - Home and festival dish | Now - Restaurants offer a baked oil-free version, a Jain version and an undhiyo okonomiyaki",
           "details": [
-            "Principal ingredient: Surti papdi.",
-            "Principal ingredient: Kand (purple yam).",
-            "Principal ingredient: Baby eggplants.",
-            "Principal ingredient: Methi muthia.",
-            "Principal ingredient: Fresh coconut.",
-            "Principal ingredient: Green garlic.",
-            "Regional & seasonal ingredients: Gujarat's trading coast and dry interior created a largely vegetarian cuisine of fermented batters, pulses, winter vegetables and a sweet–sour balance.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Vessel: Then - Sealed earthen pot (matlu or matla), coated with mud | Now - Large vessels, pressure cookers and non-stick pans",
+            "Heat source: Then - Pit with charcoal or embers on top | Now - Gas stove",
+            "Cooking time: Then - About 3 to 4 hours | Now - Two pressure-cooker whistles, then a short finish on low heat",
+            "Water: Then - None; vegetables cook in their own juices | Now - A little hot water added (about 2 cups in one recipe)",
+            "Flavour: Then - Smoky, from indirect heat | Now - Fresh green masala; less smoke",
+            "Oil: Then - More oil in the traditional method | Now - Pressure-cooker version uses less oil and can turn dry",
+            "Regional styles: Then - Village matla undhiyo | Now - Surat (garlic-heavy), Ahmedabad (spicier, oilier), Kathiyawadi (spices only, no green masala)",
+            "Reinventions: Then - Home and festival dish | Now - Restaurants offer a baked oil-free version, a Jain version and an undhiyo okonomiyaki"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Harper's Bazaar India; Knocksense; Tarla Dalal.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Undhiyu is made",
-          "narrative": "The defining technique is Matka Inversion (Undhu) Under Charcoal Embers — Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel. Pressure cookers and gas ranges now shorten the simmer. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel. Pressure cookers and gas ranges now shorten the simmer.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Undhiyu, Recipe",
+          "era": "Recipe",
+          "headline": "Undhiyu Recipe: 10 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: Surti papdi, purple yam and yam, baby potatoes, raw banana, small black brinjals, fresh toovar seeds, muthiya (fenugreek dumplings), coconut-coriander green masala with green garlic, ginger–green chilli paste, and oil with carom seeds and asafoetida.\n\n1. Make the muthiya: squeeze salted chopped methi leaves, mix with wheat flour, besan, ginger–green chilli paste, sugar, turmeric, chilli powder and oil into a soft dough. Shape 18 to 20 pieces and deep fry on medium heat until golden. They can be made a day ahead.\n2. Mix the green masala by hand: grated coconut, coriander, green garlic, coriander-cumin powder, ginger–green chilli paste, chilli powder, sugar, lemon juice and salt. It should taste spicy and sweet.\n3. Slit the baby potatoes, brinjals and raw banana without separating the segments, and stuff them with about half the masala.\n4. Combine the surti papdi, purple yam, yam and toovar seeds with the remaining masala. Rest for 8 to 10 minutes.\n5. Heat oil in a pressure cooker, add carom seeds, asafoetida and a pinch of soda bicarbonate, then add the stuffed potatoes and brinjals, followed by the marinated vegetables.\n6. Add salt and about 2 cups hot water, mix gently and pressure cook on high for 2 whistles. Let the steam release before opening.\n7. Move to a large non-stick pan, add the stuffed bananas and muthiya, and cook on low heat, stirring gently, until the bananas are tender.\n8. Serve hot, garnished with coriander, with poori and shrikhand.",
           "details": [
-            "Traditional technique: Matka Inversion (Undhu) Under Charcoal Embers — Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel. Pressure cookers and gas ranges now shorten the simmer.",
-            "Traditional cookware & utensils: Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel.",
-            "Key process: Matka Inversion (Undhu) Under Charcoal Embers.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: Surti papdi, purple yam and yam, baby potatoes, raw banana, small black brinjals, fresh toovar seeds, muthiya (fenugreek dumplings), coconut-coriander green masala with green garlic, ginger–green chilli paste, and oil with carom seeds and asafoetida.",
+            "1. Make the muthiya: squeeze salted chopped methi leaves, mix with wheat flour, besan, ginger–green chilli paste, sugar, turmeric, chilli powder and oil into a soft dough. Shape 18 to 20 pieces and deep fry on medium heat until golden. They can be made a day ahead.",
+            "2. Mix the green masala by hand: grated coconut, coriander, green garlic, coriander-cumin powder, ginger–green chilli paste, chilli powder, sugar, lemon juice and salt. It should taste spicy and sweet.",
+            "3. Slit the baby potatoes, brinjals and raw banana without separating the segments, and stuff them with about half the masala.",
+            "4. Combine the surti papdi, purple yam, yam and toovar seeds with the remaining masala. Rest for 8 to 10 minutes.",
+            "5. Heat oil in a pressure cooker, add carom seeds, asafoetida and a pinch of soda bicarbonate, then add the stuffed potatoes and brinjals, followed by the marinated vegetables.",
+            "6. Add salt and about 2 cups hot water, mix gently and pressure cook on high for 2 whistles. Let the steam release before opening.",
+            "7. Move to a large non-stick pan, add the stuffed bananas and muthiya, and cook on low heat, stirring gently, until the bananas are tender.",
+            "8. Serve hot, garnished with coriander, with poori and shrikhand."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "Surti undhiyu traditional and pressure-cooker culinary documentation (Tarla Dalal).",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
-        },
-        {
-          "number": 4,
-          "key": "plated",
-          "numeral": "IV",
-          "eyebrow": "Stage IV",
-          "title": "Modern Form, Serving & Recognition",
-          "photoLabel": "Finished dish",
-          "era": "Present day",
-          "headline": "Undhiyu today",
-          "narrative": "It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common. It is presented in the serving style of Gujarat, with the herbaceous, sweet & savory profile that identifies it. Surat's legendary winter one-pot casserole of tender baby eggplants, purple yam, Surti papdi beans, and fenugreek muthias slow-cooked upside down under earthen pit fires.",
-          "details": [
-            "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
-            "Flavour identity: Herbaceous, Sweet & Savory.",
-            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
-            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
-          ],
-          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
-          "sources": [
-            "regional-food-writing",
-            "oral-tradition"
-          ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         }
       ]
     },
@@ -4463,25 +4427,25 @@
         "regional-food-writing",
         "oral-tradition"
       ],
-      "stageCount": 4,
+      "stageCount": 3,
       "stages": [
         {
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Vada Pav in the food geography of Maharashtra",
-          "narrative": "Maharashtra spans the Konkan coast, the Deccan plateau and Mumbai's street-food culture, drawing on rice, millets, gram flour, peanuts, coconut and jaggery. Vada Pav is a snack associated with the Maharashtra region. It belongs to the snack tradition of Maharashtra and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Vada Pav in Mumbai, Maharashtra",
+          "narrative": "Before the 1960s, Vada Pav did not exist, because its two core parts belonged to different worlds. Potatoes had only recently been popularized by the British. The Portuguese pav (bread) was largely shunned by mainstream society because of religious taboos around European baking and the use of wild palm toddy for yeast fermentation. Forced together in a 19th-century wood-fired kitchen, the result would have been very different: dense, sour bread, a roughly hand-mashed potato filling, and frying over smoky wood fires in heavy iron pots of cold-pressed groundnut oil. The two were eaten separately, only in private domestic or colonial settings, before Mumbai's street food culture was born.\n\nVada Pav is credited to Ashok Vaidya. In 1966, outside Dadar railway station, he combined the potato dumpling (batata vada) and the bread roll into a cheap, quick meal for Mumbai's booming working class. Mill workers rushing to their shifts needed something hot, filling and portable. He split a commercial yeast pav (now socially accepted), smeared it with fiery chutneys, including the signature dry red garlic powder, and stuffed it with a fresh batata vada.",
           "details": [
-            "Geographical & cultural origin: the Maharashtra region, in Maharashtra.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: It belongs to the snack tradition of Maharashtra and is embedded in household, festival and regional food practice.",
-            "Cultural significance: Golden spiced mashed potato ball encased in a crisp chickpea batter shell, tucked inside a fresh bakery pav slathered with fiery dry garlic-peanut chutney and green chilli."
+            "Origin in Mumbai: In 1966, outside Dadar railway station, Ashok Vaidya combined the potato dumpling (batata vada) and the bread roll into a cheap, quick meal for Mumbai's booming working class.",
+            "Cultural background: Before the 1960s, Vada Pav did not exist; potatoes were popularized by the British while Portuguese pav was shunned due to religious taboos around European baking and wild palm toddy fermentation.",
+            "Historical contrast: Forced together in a 19th-century wood-fired kitchen, it would have produced dense, sour bread and rough hand-mashed potatoes fried over smoky wood fires in cold-pressed groundnut oil.",
+            "Working-class breakthrough: Mill workers rushing to their shifts needed something hot, filling and portable; served in commercial yeast pav with fiery chutneys and signature dry red garlic powder."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Maharashtra. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Historical records on the introduction of the potato and Portuguese leavened bread in western India.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
@@ -4492,24 +4456,24 @@
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Vada Pav is built from",
-          "narrative": "The recipe centres on Potatoes, Besan (Gram flour), Mustard seeds, Garlic, Peanuts, Kashmiri chilli and Ladi Pav. These are the staple grains, pulses, vegetables, spices or dairy products of Maharashtra; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food",
+          "narrative": "Cooking method: Then - simple street-side frying | Now - standardized, high-speed frying in commercial kitchens\nFuel: Then - portable kerosene stoves | Now - temperature-controlled LPG gas burners\nFrying oil: Then - mass-produced vegetable oils | Now - refined sunflower or palm oils\nPav: Then - commercial yeast pav, split and smeared with chutney | Now - pav heavily toasted on a griddle with Amul butter\nChutneys and sauces: Then - fiery chutneys, with signature dry red garlic powder hand-ground daily on stone slabs | Now - liquid cheese and Schezwan sauce as part of a fusion flavour profile\nVada: Then - a fresh batata vada | Now - baked panko-crusted potato patties are also used\nSelling: Then - sold outside Dadar railway station to mill workers | Now - classic street carts still thrive, plus fast-food chains that flash-freeze the vadas for consistency\nPackaging: Then - wrapped in old, ink-stained vernacular newspaper | Now - eco-friendly biodegradable boxes\nReputation: Then - a cheap meal that fuelled the city's political and industrial labor movements | Now - a globally recognized gourmet food and a symbol of culinary pride",
           "details": [
-            "Principal ingredient: Potatoes.",
-            "Principal ingredient: Besan (Gram flour).",
-            "Principal ingredient: Mustard seeds.",
-            "Principal ingredient: Garlic.",
-            "Principal ingredient: Peanuts.",
-            "Principal ingredient: Kashmiri chilli.",
-            "Principal ingredient: Ladi Pav.",
-            "Regional & seasonal ingredients: Maharashtra spans the Konkan coast, the Deccan plateau and Mumbai's street-food culture, drawing on rice, millets, gram flour, peanuts, coconut and jaggery.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Cooking method: Then - simple street-side frying | Now - standardized, high-speed frying in commercial kitchens",
+            "Fuel: Then - portable kerosene stoves | Now - temperature-controlled LPG gas burners",
+            "Frying oil: Then - mass-produced vegetable oils | Now - refined sunflower or palm oils",
+            "Pav: Then - commercial yeast pav, split and smeared with chutney | Now - pav heavily toasted on a griddle with Amul butter",
+            "Chutneys and sauces: Then - fiery chutneys, with signature dry red garlic powder hand-ground daily on stone slabs | Now - liquid cheese and Schezwan sauce as part of a fusion flavour profile",
+            "Vada: Then - a fresh batata vada | Now - baked panko-crusted potato patties are also used",
+            "Selling: Then - sold outside Dadar railway station to mill workers | Now - classic street carts still thrive, plus fast-food chains that flash-freeze the vadas for consistency",
+            "Packaging: Then - wrapped in old, ink-stained vernacular newspaper | Now - eco-friendly biodegradable boxes",
+            "Reputation: Then - a cheap meal that fuelled the city's political and industrial labor movements | Now - a globally recognized gourmet food and a symbol of culinary pride"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Oral histories and documentation of Mumbai street food and Dadar station archives.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
@@ -4520,42 +4484,23 @@
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Vada Pav is made",
-          "narrative": "The defining technique is Tempered Potato Mash & Precision Deep Frying — Battered or assembled components are fried, steamed or layered just before serving. Stainless-steel counters and batch fryers now support the street stall. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Battered or assembled components are fried, steamed or layered just before serving. Stainless-steel counters and batch fryers now support the street stall.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Recipe",
+          "era": "Recipe",
+          "headline": "Mumbai Vada Pav Recipe: 5 Key Ingredients, 7 Steps",
+          "narrative": "Key ingredients: potatoes, pav (bread rolls), gram flour (besan), garlic, green chillies. Also needed: oil, salt and red chilli powder.\n\n1. Boil the potatoes, then peel and mash them roughly. (Sign: a knife goes in easily.)\n2. Make the filling: fry chopped garlic and green chillies in a little oil, add the mashed potatoes and salt, and mix well. (Sign: it smells fragrant and is dry enough to shape. Let it cool a little.)\n3. Shape the filling into round, slightly flat balls. (Sign: they hold their shape without cracking.)\n4. Make the batter: whisk gram flour with water and a pinch of salt. (Sign: thick and smooth, with no lumps, and it coats the back of a spoon.)\n5. Dip each ball in the batter and fry it in hot oil on medium heat, turning it once or twice. (Sign: golden brown and crisp all over. Drain on paper.)\n6. Make the dry garlic chutney: crush garlic with salt and red chilli powder into a coarse powder. (Sign: it looks red and crumbly and smells strong.)\n7. Slit the pav without cutting it fully, spread the chutney inside, place the hot vada and press lightly. (Sign: the vada sits snugly. For a modern twist, toast the pav on a griddle with butter first. Serve hot.)",
           "details": [
-            "Traditional technique: Tempered Potato Mash & Precision Deep Frying — Battered or assembled components are fried, steamed or layered just before serving. Stainless-steel counters and batch fryers now support the street stall.",
-            "Traditional cookware & utensils: Battered or assembled components are fried, steamed or layered just before serving.",
-            "Key process: Tempered Potato Mash & Precision Deep Frying.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: potatoes, pav (bread rolls), gram flour (besan), garlic, green chillies. Also needed: oil, salt and red chilli powder.",
+            "1. Boil the potatoes, then peel and mash them roughly. (Sign: a knife goes in easily.)",
+            "2. Make the filling: fry chopped garlic and green chillies in a little oil, add the mashed potatoes and salt, and mix well. (Sign: it smells fragrant and is dry enough to shape. Let it cool a little.)",
+            "3. Shape the filling into round, slightly flat balls. (Sign: they hold their shape without cracking.)",
+            "4. Make the batter: whisk gram flour with water and a pinch of salt. (Sign: thick and smooth, with no lumps, and it coats the back of a spoon.)",
+            "5. Dip each ball in the batter and fry it in hot oil on medium heat, turning it once or twice. (Sign: golden brown and crisp all over. Drain on paper.)",
+            "6. Make the dry garlic chutney: crush garlic with salt and red chilli powder into a coarse powder. (Sign: it looks red and crumbly and smells strong.)",
+            "7. Slit the pav without cutting it fully, spread the chutney inside, place the hot vada and press lightly. (Sign: the vada sits snugly. For a modern twist, toast the pav on a griddle with butter first. Serve hot.)"
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
-          "sources": [
-            "regional-food-writing",
-            "oral-tradition"
-          ],
-          "confidence": "regional-tradition"
-        },
-        {
-          "number": 4,
-          "key": "plated",
-          "numeral": "IV",
-          "eyebrow": "Stage IV",
-          "title": "Modern Form, Serving & Recognition",
-          "photoLabel": "Finished dish",
-          "era": "Present day",
-          "headline": "Vada Pav today",
-          "narrative": "It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common. It is presented in the serving style of Maharashtra, with the spiced, garlicky & satisfying profile that identifies it. Golden spiced mashed potato ball encased in a crisp chickpea batter shell, tucked inside a fresh bakery pav slathered with fiery dry garlic-peanut chutney and green chilli.",
-          "details": [
-            "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
-            "Flavour identity: Spiced, Garlicky & Satisfying.",
-            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
-            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
-          ],
-          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
+          "evidenceNote": "Contemporary culinary documentation and commercial restaurant practices across India and abroad.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
@@ -4574,25 +4519,25 @@
         "regional-food-writing",
         "oral-tradition"
       ],
-      "stageCount": 4,
+      "stageCount": 3,
       "stages": [
         {
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Puran Poli in the food geography of Maharashtra",
-          "narrative": "Maharashtra spans the Konkan coast, the Deccan plateau and Mumbai's street-food culture, drawing on rice, millets, gram flour, peanuts, coconut and jaggery. Puran Poli is a bread or grain preparation associated with the Maharashtra region. It belongs to the bread or grain preparation tradition of Maharashtra and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Puran Poli in Maharashtra",
+          "narrative": "Puran Poli is a sweet flatbread: a puran (filling) of chana dal and jaggery stuffed into a wheat or maida cover. In the 19th century it was a labor-intensive royal delicacy and a sacred festive offering, prepared only on occasions like Holi and Gudi Padwa. Every step was a test of patience and muscle, because there were no mechanical grinders. It was served hot on fresh banana leaves, mainly to deities and upper-class households. The exact date and creator of Puran Poli are not documented with certainty. The earliest form described here is this 19th-century royal and ritual one.",
           "details": [
-            "Geographical & cultural origin: the Maharashtra region, in Maharashtra.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: It belongs to the bread or grain preparation tradition of Maharashtra and is embedded in household, festival and regional food practice.",
-            "Cultural significance: Paper-thin festive wheat flatbread rolled with a decadent core of slow-cooked Bengal gram and organic jaggery perfumed with nutmeg and cardamom, griddled with pure ghee."
+            "Royal and ritual origin: In the 19th century it was a labor-intensive royal delicacy and a sacred festive offering, prepared only on occasions like Holi and Gudi Padwa.",
+            "Sweet flatbread structure: A puran (filling) of chana dal and jaggery stuffed into a wheat or maida cover.",
+            "Labor-intensive technique: Every step was a test of patience and muscle, because there were no mechanical grinders.",
+            "Historic service & uncertainty: Served hot on fresh banana leaves, mainly to deities and upper-class households. The exact date and creator of Puran Poli are not documented with certainty."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Maharashtra. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Historical records and traditional accounts of Maharashtrian festive cookery; exact founding dates and individual creators remain undocumented.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
@@ -4603,23 +4548,26 @@
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Puran Poli is built from",
-          "narrative": "The recipe centres on Chana dal, Organic jaggery, Whole wheat flour, Nutmeg, Cardamom and Pure ghee. These are the staple grains, pulses, vegetables, spices or dairy products of Maharashtra; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Cooking method: 1800s - slow boiling of the dal and jaggery, then hand-roasting the poli with ghee | Mid-1900s - the recipe stayed fiercely traditional | Now - dal cooked quickly in electric pressure cookers\nVessel: 1800s - heavy brass patelya for boiling, thick iron tawa for roasting | Now - electric pressure cookers and non-stick pans\nFuel: 1800s - slow-burning wood or cow-dung fires and an open hearth, with dense smoke | Mid-1900s - portable kerosene stoves and early gas burners, so heat was easier to control | Now - induction cooktops\nDal and mashing: 1800s - harbhara dal, pressed through a hot wooden or stone puran yantra or mashed on a stone sil-batta | Mid-1900s - chana dal, with a hand-cranked metal puran yantra (food mill) | Now - packaged chana dal, blended in seconds in mixer-grinders or food processors\nFlour: 1800s - gavacha atta or maida, hand-kneaded for hours for elasticity | Mid-1900s - maida and other packaged flour, widely available | Now - Sharbati atta, with organic whole wheat or multi-grain flour replacing refined flour\nSweetener: 1800s - kala gur | Mid-1900s - commercial jaggery (pila gul) | Now - organic jaggery powder, or low-calorie sweeteners and dates in health-conscious versions\nFat: 1800s - sajuk tup, pure aromatic homemade cow ghee | Mid-1900s - vanaspati and refined oils | Now - branded cow ghee\nSpices: 1800s - velchi and jaiphal (cardamom and nutmeg) | Mid-1900s - velchi pood (cardamom powder) | Now - spice extracts\nMaking it: 1800s - hours of hand work, with the dough rolled using a wooden latre | Mid-1900s - a communal affair, with one person rolling, one stuffing and one roasting | Now - the time-consuming process is drastically shortened, with instant ready-to-eat versions\nServing: 1800s - hot on fresh banana leaves, for deities and upper-class households | Mid-1900s - stainless steel plates, for guests at family gatherings | Now - ready-to-eat Puran Polis at sweet shops, vacuum-packed versions in supermarkets, frozen exports to the diaspora\nOccasion: 1800s - only at Holi and Gudi Padwa | Mid-1900s - a cherished domestic tradition and the benchmark of a homemaker's skill in Maharashtrian, Gujarati and South Indian homes | Now - a year-round commercial product that remains the soul of festive dining",
           "details": [
-            "Principal ingredient: Chana dal.",
-            "Principal ingredient: Organic jaggery.",
-            "Principal ingredient: Whole wheat flour.",
-            "Principal ingredient: Nutmeg.",
-            "Principal ingredient: Cardamom.",
-            "Principal ingredient: Pure ghee.",
-            "Regional & seasonal ingredients: Maharashtra spans the Konkan coast, the Deccan plateau and Mumbai's street-food culture, drawing on rice, millets, gram flour, peanuts, coconut and jaggery.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Cooking method: 1800s - slow boiling of the dal and jaggery, then hand-roasting the poli with ghee | Mid-1900s - the recipe stayed fiercely traditional | Now - dal cooked quickly in electric pressure cookers",
+            "Vessel: 1800s - heavy brass patelya for boiling, thick iron tawa for roasting | Now - electric pressure cookers and non-stick pans",
+            "Fuel: 1800s - slow-burning wood or cow-dung fires and an open hearth, with dense smoke | Mid-1900s - portable kerosene stoves and early gas burners, so heat was easier to control | Now - induction cooktops",
+            "Dal and mashing: 1800s - harbhara dal, pressed through a hot wooden or stone puran yantra or mashed on a stone sil-batta | Mid-1900s - chana dal, with a hand-cranked metal puran yantra (food mill) | Now - packaged chana dal, blended in seconds in mixer-grinders or food processors",
+            "Flour: 1800s - gavacha atta or maida, hand-kneaded for hours for elasticity | Mid-1900s - maida and other packaged flour, widely available | Now - Sharbati atta, with organic whole wheat or multi-grain flour replacing refined flour",
+            "Sweetener: 1800s - kala gur | Mid-1900s - commercial jaggery (pila gul) | Now - organic jaggery powder, or low-calorie sweeteners and dates in health-conscious versions",
+            "Fat: 1800s - sajuk tup, pure aromatic homemade cow ghee | Mid-1900s - vanaspati and refined oils | Now - branded cow ghee",
+            "Spices: 1800s - velchi and jaiphal (cardamom and nutmeg) | Mid-1900s - velchi pood (cardamom powder) | Now - spice extracts",
+            "Making it: 1800s - hours of hand work, with the dough rolled using a wooden latre | Mid-1900s - a communal affair, with one person rolling, one stuffing and one roasting | Now - the time-consuming process is drastically shortened, with instant ready-to-eat versions",
+            "Serving: 1800s - hot on fresh banana leaves, for deities and upper-class households | Mid-1900s - stainless steel plates, for guests at family gatherings | Now - ready-to-eat Puran Polis at sweet shops, vacuum-packed versions in supermarkets, frozen exports to the diaspora",
+            "Occasion: 1800s - only at Holi and Gudi Padwa | Mid-1900s - a cherished domestic tradition and the benchmark of a homemaker's skill in Maharashtrian, Gujarati and South Indian homes | Now - a year-round commercial product that remains the soul of festive dining"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Comparative documentation of Maharashtrian domestic culinary transitions from open hearths to modern appliances.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
@@ -4630,42 +4578,24 @@
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Puran Poli is made",
-          "narrative": "The defining technique is Puran Stone-Straining & Translucent Rolling — Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Recipe",
+          "era": "Recipe",
+          "headline": "Puran Poli Recipe: 6 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: wheat flour, chana dal, jaggery, ghee, cardamom powder, nutmeg powder. Also needed: salt and oil.\n\n1. Wash and boil the chana dal until soft but not mushy. (Sign: a grain mashes easily between two fingers.)\n2. Drain the dal and cook it with jaggery on low heat, stirring often. (Sign: it thickens, leaves the sides of the pan and holds its shape on a spoon.)\n3. Mash it smooth and mix in cardamom and nutmeg. (Use a puran yantra, food mill or mixer-grinder. Sign: no lumps. Cool it fully, then roll it into smooth balls.)\n4. Make the dough: knead flour with water, a little oil and salt, and rest it. (Sign: soft and stretchy, and it springs back when pressed.)\n5. Flatten a dough ball, place a puran ball in the centre, bring the edges together and seal. (Sign: no filling is showing.)\n6. Dust lightly with flour and roll gently into a round. (Sign: even thickness, no tears, and the filling spread to the edges.)\n7. Roast on a hot tawa on medium heat, flipping once, and brush with ghee. (Sign: light brown spots on both sides.)\n8. Serve hot with a little ghee on top. (Sign: soft, with the sweet filling visible at the edge.)",
           "details": [
-            "Traditional technique: Puran Stone-Straining & Translucent Rolling — Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping.",
-            "Traditional cookware & utensils: Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth.",
-            "Key process: Puran Stone-Straining & Translucent Rolling.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: wheat flour, chana dal, jaggery, ghee, cardamom powder, nutmeg powder. Also needed: salt and oil.",
+            "1. Wash and boil the chana dal until soft but not mushy. (Sign: a grain mashes easily between two fingers.)",
+            "2. Drain the dal and cook it with jaggery on low heat, stirring often. (Sign: it thickens, leaves the sides of the pan and holds its shape on a spoon.)",
+            "3. Mash it smooth and mix in cardamom and nutmeg. (Use a puran yantra, food mill or mixer-grinder. Sign: no lumps. Cool it fully, then roll it into smooth balls.)",
+            "4. Make the dough: knead flour with water, a little oil and salt, and rest it. (Sign: soft and stretchy, and it springs back when pressed.)",
+            "5. Flatten a dough ball, place a puran ball in the centre, bring the edges together and seal. (Sign: no filling is showing.)",
+            "6. Dust lightly with flour and roll gently into a round. (Sign: even thickness, no tears, and the filling spread to the edges.)",
+            "7. Roast on a hot tawa on medium heat, flipping once, and brush with ghee. (Sign: light brown spots on both sides.)",
+            "8. Serve hot with a little ghee on top. (Sign: soft, with the sweet filling visible at the edge.)"
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
-          "sources": [
-            "regional-food-writing",
-            "oral-tradition"
-          ],
-          "confidence": "regional-tradition"
-        },
-        {
-          "number": 4,
-          "key": "plated",
-          "numeral": "IV",
-          "eyebrow": "Stage IV",
-          "title": "Modern Form, Serving & Recognition",
-          "photoLabel": "Finished dish",
-          "era": "Present day",
-          "headline": "Puran Poli today",
-          "narrative": "It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common. It is presented in the serving style of Maharashtra, with the sweet, fragrant & velvety profile that identifies it. Paper-thin festive wheat flatbread rolled with a decadent core of slow-cooked Bengal gram and organic jaggery perfumed with nutmeg and cardamom, griddled with pure ghee.",
-          "details": [
-            "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
-            "Flavour identity: Sweet, Fragrant & Velvety.",
-            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
-            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
-          ],
-          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
+          "evidenceNote": "Codified regional festive recipe documentation for authentic Maharashtrian puran poli.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"

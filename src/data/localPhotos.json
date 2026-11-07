@@ -59,13 +59,13 @@
       "method": "/images/dishes/indori-poha-stage-3.webp"
     },
     "vada-pav": {
-      "plated": "/images/dishes/vada-pav-stage-4.webp",
+      "plated": "/images/dishes/vada-pav-plated.png",
       "method": "/images/dishes/vada-pav-stage-3.webp",
       "ingredients": "/images/dishes/vada-pav-stage-2.webp",
       "origin": "/images/dishes/vada-pav-stage-1.webp"
     },
     "puran-poli": {
-      "plated": "/images/dishes/puran-poli-stage-4.webp"
+      "plated": "/images/dishes/puran-poli-plated.png"
     },
     "singju": {
       "plated": "/images/dishes/singju-stage-4.webp"
@@ -92,7 +92,7 @@
       "method": "/images/dishes/makki-di-roti-sarson-saag-stage-3.webp"
     },
     "butter-chicken": {
-      "plated": "/images/dishes/butter-chicken-stage-4.webp",
+      "plated": "/images/dishes/butter-chicken-plated.png",
       "origin": "/images/dishes/butter-chicken-stage-1.webp",
       "ingredients": "/images/dishes/butter-chicken-stage-2.webp",
       "method": "/images/dishes/butter-chicken-stage-3.webp"
@@ -276,6 +276,10 @@
       "method": "/images/dishes/hyderabadi-haleem-stage-3.webp",
       "origin": "/images/dishes/hyderabadi-haleem-stage-1.webp",
       "plated": "/images/dishes/hyderabadi-haleem-stage-4.webp"
+    },
+    "qubani-ka-meetha": {
+      "origin": "/images/dishes/qubani-ka-meetha-stage-1.webp",
+      "plated": "/images/dishes/qubani-ka-meetha-stage-4.webp"
     },
     "mui-borok": {},
     "awan-bangwi": {
