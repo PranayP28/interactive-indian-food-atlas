@@ -401,6 +401,515 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
 ];
 
 // ─────────────────────────────────────────────
+// INDORI POHA (Madhya Pradesh)
+// ─────────────────────────────────────────────
+export const INDORI_POHA_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Origin",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Indori Poha: Origin & Street Food Heritage",
+    shortDescription:
+      "Indori poha is a famous breakfast and street food of Indore, in Madhya Pradesh. Poha is the Hindi name for flattened rice. \"Indori\" means \"of Indore\". Poha is a widely eaten Indian food. What makes this version Indori is how it is cooked and topped. Unlike many other poha styles, it is steamed instead of being cooked directly with other ingredients, and the onions are not sauteed. Chopped raw onions go on top. It is finished with toppings such as sev, masala boondi (nukti), pomegranate and jeeravan masala, and is often served with hot jalebi. No reliable historical record gives the exact year, place or creator of Indori poha. One popular account says rulers from Maharashtra brought poha to this region, but this is not documented.\n\nWhy it is famous:\n- Its own cooking style: the poha is steamed, which gives it a distinct soft texture and taste.\n- Balanced flavour: sweet, tangy and spicy together, with fennel seeds adding a light sweetness.\n- Many textures in one plate: soft poha, crunchy sev and boondi, fresh onion and juicy pomegranate.\n- Jeeravan masala: a spice blend from Madhya Pradesh whose taste is different from chaat masala or garam masala.\n- Poha-jalebi: hot, sweet jalebi with savoury poha is the classic Indore pairing.\n- Morning street food: vendors across Indore sell it in the morning, often next to kachori and samosa.\n- Wide reach: it is also sold in nearby cities such as Ujjain, Dewas, Ratlam and Bhopal, and is becoming popular in other states.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Indori Poha",
+      historicalCookware: "Steamer pot or colander over boiling water",
+      heatSource: "Traditional wood or coal hearth",
+      ingredientsList: [],
+      preparationMethod:
+        "Steamed instead of being cooked directly with other ingredients, and the onions are not sauteed. Chopped raw onions go on top.",
+      contemporaryDifference:
+        "Famous breakfast and street food of Indore, Madhya Pradesh.",
+    },
+    technologicalLeap: "Steam-cooking flattened rice for soft texture without pan-frying.",
+    documentedCitation: "Regional food tradition & street food documentation of Indore.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Poha flakes: Then - hand-pounded and sun-dried in villages | Now - machine-made flakes sold ready in packets\nCooking style: Then - poha as cooked in Maharashtra, with sauteed onions | Now - Indori style, steamed, with raw onions on top\nToppings: Then - simple toppings like chopped onion | Now - sev, masala boondi (nukti), pomegranate and jeeravan masala\nJeeravan masala: Then - mixed fresh at home | Now - ready-made packets are widely available\nFuel: Then - wood or coal fires | Now - gas stoves and induction cooktops\nReach: Then - a local street breakfast of Indore | Now - sold in nearby cities and growing popular in other states\nThese changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Traditional wood/coal stoves / Modern gas stoves and induction cooktops",
+      heatSource: "Wood or coal fires / Gas stoves and induction cooktops",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking style: Then - poha as cooked in Maharashtra, with sauteed onions | Now - Indori style, steamed, with raw onions on top",
+      contemporaryDifference:
+        "These changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    },
+    technologicalLeap: "Transition to machine-made flakes and ready-made packaged jeeravan masala.",
+    documentedCitation: "Regional food practices across Madhya Pradesh.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Indori Poha Recipe: 12 Key Ingredients, 10 Steps",
+    shortDescription:
+      "Key ingredients: Thick or medium-thick poha (flattened rice), Turmeric, sugar and salt, Oil, Mustard seeds and fennel seeds, Green chilli, Onion (raw, chopped), Fresh coriander leaves, Jeeravan masala, Ratlami or Indori sev, and masala boondi (nukti), Lemon, Pomegranate (optional), Hot jalebi (for serving, optional).",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Indori Poha Recipe",
+      historicalCookware: "Strainer, pan for tempering, pot with lid for steaming",
+      heatSource: "Low to medium-low heat for tempering, low heat for steaming",
+      ingredientsList: [
+        "Thick or medium-thick poha (flattened rice)",
+        "Turmeric, sugar and salt",
+        "Oil",
+        "Mustard seeds and fennel seeds",
+        "Green chilli",
+        "Onion (raw, chopped)",
+        "Fresh coriander leaves",
+        "Jeeravan masala",
+        "Ratlami or Indori sev, and masala boondi (nukti)",
+        "Lemon",
+        "Pomegranate (optional)",
+        "Hot jalebi (for serving, optional)",
+      ],
+      preparationMethod:
+        "1. Rinse the poha. - Rinse thick poha in a strainer under clean running water. Do not over-rinse, or it turns mushy.\n2. Drain and rest. - Drain well. The flakes should be soft but whole. If still firm, sprinkle a little water and wait a few minutes.\n3. Add the dry seasoning. - Add turmeric, sugar and salt to the poha and mix lightly.\n4. Make the tempering. - Heat oil on low to medium-low heat. Add mustard seeds, then fennel seeds, then green chilli.\n5. Add the poha. - Keep the heat low and mix gently until the colour turns light yellow.\n6. Steam the poha. - Cover with a lid and steam on low heat for about 1 to 2 minutes. Stir and switch off the heat.\n7. Plate it hot. - Take the hot poha on a plate.\n8. Add the fresh toppings. - Top with chopped raw onion and coriander, sprinkle jeeravan masala, and add pomegranate.\n9. Add the crunch. - Top with masala boondi (nukti) and Ratlami or Indori sev.\n10. Finish and serve. - Squeeze lemon juice on top. Serve straight away, with hot jalebi.",
+      contemporaryDifference:
+        "Use thick or medium-thick poha. Steam it; the onions are not sauteed. Recipes differ from vendor to vendor, and some vendors add peas.",
+    },
+    technologicalLeap: "Trapped steam cooking covered with a lid for 1 to 2 minutes.",
+    documentedCitation: "Codified regional recipe documentation.",
+  },
+  {
+    generationNumber: 4,
+    eraTitle: "Steaming Technique",
+    yearRange: "Steam Method",
+    centuryLabel: "Stage 4",
+    headline: "Low Heat Steam Finishing",
+    shortDescription:
+      "Covering with a lid and steaming on low heat for 1 to 2 minutes softens the poha without making it mushy.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Steam Finishing Protocol",
+      historicalCookware: "Covered pot with tight lid",
+      heatSource: "Low heat",
+      ingredientsList: [
+        "Thick or medium-thick poha (flattened rice)",
+        "Turmeric, sugar and salt",
+        "Oil",
+        "Mustard seeds and fennel seeds",
+        "Green chilli",
+      ],
+      preparationMethod:
+        "Cover with a lid and steam on low heat for about 1 to 2 minutes. Stir and switch off the heat.",
+      contemporaryDifference:
+        "Use thick or medium-thick poha. Steam it; the onions are not sauteed.",
+    },
+    technologicalLeap: "Precise low heat steaming preserving flake texture.",
+    documentedCitation: "Regional street food preparation technique.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Topping and Assembly",
+    yearRange: "Assembly",
+    centuryLabel: "Stage 5",
+    headline: "Fresh Toppings & Crunchy Textures",
+    shortDescription:
+      "Raw chopped onion, coriander, jeeravan masala, pomegranate, masala boondi and sev are layered on hot poha.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Plate Assembly Protocol",
+      historicalCookware: "Serving plate",
+      heatSource: "Residual heat from hot poha",
+      ingredientsList: [
+        "Onion (raw, chopped)",
+        "Fresh coriander leaves",
+        "Jeeravan masala",
+        "Ratlami or Indori sev, and masala boondi (nukti)",
+        "Lemon",
+        "Pomegranate (optional)",
+      ],
+      preparationMethod:
+        "Take hot poha on a plate. Top with raw onion, coriander, jeeravan masala, pomegranate, boondi, and sev.",
+      contemporaryDifference:
+        "Raw onions go on top rather than being sauteed.",
+    },
+    technologicalLeap: "Layering raw crunch over soft warm steamed rice flakes.",
+    documentedCitation: "Indore street food vendor service traditions.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "Indori Poha Served with Hot Jalebi",
+    shortDescription:
+      "Finished with a squeeze of fresh lemon juice and served immediately with hot, sweet jalebi.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Indori Poha Plated",
+      historicalCookware: "Serving plate",
+      heatSource: "Served fresh and hot",
+      ingredientsList: [
+        "Thick or medium-thick poha (flattened rice)",
+        "Ratlami or Indori sev",
+        "Masala boondi (nukti)",
+        "Lemon",
+        "Hot jalebi (for serving, optional)",
+      ],
+      preparationMethod:
+        "Squeeze lemon juice on top. Serve straight away, with hot jalebi.",
+      contemporaryDifference:
+        "The classic morning breakfast pairing of Indore.",
+    },
+    technologicalLeap: "Savoury, tangy poha paired with hot crisp sweet jalebi.",
+    documentedCitation: "Regional culinary culture of Madhya Pradesh.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// BHUTTE KA KEES (Madhya Pradesh)
+// ─────────────────────────────────────────────
+export const BHUTTE_KA_KEES_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Origin",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Bhutte Ka Kees: Origin & Malwa Heritage",
+    shortDescription:
+      "Bhutte Ka Kees is a famous street food and traditional delicacy of Madhya Pradesh, especially celebrated across the Malwa region including Indore (famous in Sarafa Bazaar night market and Chappan Dukan). \"Bhutta\" means corn on the cob, and \"Kees\" comes from \"keesna\" (to grate in Hindi). Fresh tender corn kernels are grated fresh, releasing sweet corn pulp and juice, then slow-braised in full-cream milk, tempered with mustard seeds, cumin, hing (asafoetida), and green chillies, and finished with freshly grated coconut, coriander, and lemon juice. No reliable historical record gives the exact year, place or creator of Bhutte Ka Kees, though local tradition associates it with Holkar-era royal banquets and Malwa monsoon harvest feasts.\n\nWhy it is famous:\n- Its own cooking style: fresh corn is grated to extract juices and slow-braised in milk, yielding a luscious creamy and grainy texture.\n- Balanced flavour: natural corn sweetness harmonized with spicy green chillies, aromatic hing, and tangy fresh lemon.\n- Night street food royalty: an iconic attraction at Indore's legendary Sarafa Bazaar and Chappan Dukan.\n- Seasonal harvest celebration: traditionally crafted during monsoons when tender desi bhutta is harvested in Malwa.\n- Rich garnishes: served steaming hot topped with freshly grated coconut, coriander, crunchy sev, and a dash of jeeravan masala.\n- Wide reach: popular across Indore, Ujjain, Ratlam, Bhopal, and now featured on menus nationwide.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Bhutte Ka Kees",
+      historicalCookware: "Heavy iron kadhai or brass lagan",
+      heatSource: "Traditional wood or charcoal sigri",
+      ingredientsList: [],
+      preparationMethod:
+        "Fresh tender corn is coarsely grated, releasing starch and milk, then slow-braised in dairy milk and tempered with whole spices.",
+      contemporaryDifference:
+        "Signature street delicacy and monsoon culinary pride of Indore, Madhya Pradesh.",
+    },
+    technologicalLeap: "Extracting fresh corn milk and starch via fine grating to create a rich braised emulsion without thickeners.",
+    documentedCitation: "Regional culinary traditions and oral documentation of Indore, Madhya Pradesh.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Corn: Then - seasonal desi white/yellow maize grated by hand on coarse iron graters | Now - sweet corn or american corn cobs, readily grated or ground in food processors\nDairy & Braise: Then - full-cream fresh buffalo milk simmered slowly in heavy iron kadhais | Now - packaged dairy milk or cream, non-stick pans or pressure cookers\nTempering fat: Then - pure desi cow/buffalo ghee | Now - vegetable oil or a blend of ghee and oil\nToppings: Then - simple fresh scraped coconut, green chillies, and rock salt | Now - Ratlami sev, pomegranate arils, jeeravan masala, and fresh lemon\nFuel: Then - smouldering wood or coal sigris | Now - commercial gas burners and induction cooktops\nReach: Then - seasonal monsoon household dish in Malwa | Now - renowned year-round street food across Indore and central India\nThese changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Traditional iron kadhai / Modern non-stick pan",
+      heatSource: "Charcoal sigri / Modern gas burners and induction",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking style: Then - fresh seasonal field maize simmered slowly with ghee and rock salt | Now - sweet corn braised in milk with jeeravan masala, sev, and lemon",
+      contemporaryDifference:
+        "These changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    },
+    technologicalLeap: "Adoption of tender sweet corn varieties, modern grating appliances, and complex street seasonings.",
+    documentedCitation: "Comparative food practice surveys across Indore and the Malwa region.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Step-by-Step",
+    centuryLabel: "Stage 3",
+    headline: "Bhutte Ka Kees: 12 Key Ingredients & 10 Preparation Steps",
+    shortDescription:
+      "Key ingredients: Fresh tender sweet corn (bhutta, grated), Full cream milk, Desi ghee or oil, Mustard seeds and cumin seeds (jeera), Asafoetida (hing), Green chillies (finely chopped), Fresh ginger (grated), Turmeric powder, Sugar and salt, Fresh coconut (scraped/grated), Fresh coriander leaves, Lemon (for tang) and jeeravan masala / sev (optional).\n\n1. Grate the corn. - Husk fresh tender corn cobs and grate using a medium grater to collect pulp and juices.\n2. Heat the fat. - Heat ghee or oil in a heavy kadhai over medium-low heat.\n3. Splutter the spices. - Add mustard seeds and cumin seeds; once they crackle, add asafoetida (hing).\n4. Sauté the aromatics. - Add finely chopped green chillies and grated ginger; sauté for 30 seconds until aromatic.\n5. Cook the corn pulp. - Add grated corn, turmeric powder, salt, and a pinch of sugar; sauté on low heat for 3-4 minutes.\n6. Pour the milk. - Slowly pour in full cream milk while stirring continuously to blend evenly.\n7. Simmer and thicken. - Cover with a lid and cook on low heat for 8-10 minutes, stirring occasionally, until milk is absorbed and corn is tender.\n8. Stir in fresh garnish. - Turn off the heat and stir in half of the freshly grated coconut and chopped coriander leaves.\n9. Season to taste. - Squeeze fresh lemon juice and dust with jeeravan masala for signature Indori tang.\n10. Finish and serve. - Spoon hot into bowls, garnish with remaining grated coconut, coriander, and crispy sev.\n\nUse fresh tender corn. Grating rather than blending retains the quintessential texture. Add milk gradually on low heat to achieve creamy consistency.",
+    image: ERA_PHOTO.spice_caravan,
+    generationRecipe: {
+      recipeName: "Bhutte Ka Kees Culinary Protocol",
+      historicalCookware: "Heavy-bottomed kadhai with lid",
+      heatSource: "Medium-low to low steady flame",
+      ingredientsList: [
+        "Fresh tender sweet corn (bhutta, grated)",
+        "Full cream milk",
+        "Desi ghee or oil",
+        "Mustard seeds and cumin seeds (jeera)",
+        "Asafoetida (hing)",
+        "Green chillies (finely chopped)",
+        "Fresh ginger (grated)",
+        "Turmeric powder",
+        "Sugar and salt",
+        "Fresh coconut (scraped/grated)",
+        "Fresh coriander leaves",
+        "Lemon (for tang) and jeeravan masala / sev (optional)",
+      ],
+      preparationMethod:
+        "Grate fresh corn kernels, splutter mustard, cumin, and hing in ghee, sauté ginger and chillies, add corn and milk, simmer until creamy, and finish with coconut, coriander, lemon, and sev.",
+      contemporaryDifference:
+        "Use fresh tender sweet corn and grate it fresh. Slow milk-emulsion braise without browning or curdling.",
+    },
+    technologicalLeap: "Slow milk-emulsion simmer covered with a lid for 8-10 minutes to yield a creamy texture.",
+    documentedCitation: "Codified regional recipe documentation.",
+  },
+  {
+    generationNumber: 4,
+    eraTitle: "Milk-Braise Technique",
+    yearRange: "Slow Simmer",
+    centuryLabel: "Stage 4",
+    headline: "Gentle Low Heat Simmering",
+    shortDescription:
+      "Gradual incorporation of dairy milk into grated corn starches over gentle heat ensures a velvety texture without curdling.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Milk Braise Protocol",
+      historicalCookware: "Covered heavy pan",
+      heatSource: "Gentle low heat",
+      ingredientsList: [
+        "Fresh tender sweet corn (bhutta, grated)",
+        "Full cream milk",
+        "Desi ghee or oil",
+        "Turmeric powder",
+        "Sugar and salt",
+      ],
+      preparationMethod:
+        "Slowly pour in full cream milk while stirring continuously. Cover with a lid and cook on low flame until thick.",
+      contemporaryDifference:
+        "Gentle heat prevents dairy separation and binds the natural corn starch.",
+    },
+    technologicalLeap: "Dairy-starch gelatinization creating rich body without artificial thickeners.",
+    documentedCitation: "Regional street food preparation technique.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Garnish and Seasoning",
+    yearRange: "Finishing",
+    centuryLabel: "Stage 5",
+    headline: "Indori Spice Dusting & Fresh Garnishes",
+    shortDescription:
+      "Hot braised corn is topped with freshly scraped coconut, cilantro, a squeeze of lemon juice, and a sprinkle of jeeravan masala.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Street Finishing Protocol",
+      historicalCookware: "Serving bowl",
+      heatSource: "Served piping hot",
+      ingredientsList: [
+        "Fresh coconut (scraped/grated)",
+        "Fresh coriander leaves",
+        "Lemon (for tang)",
+        "Jeeravan masala & Sev (optional)",
+      ],
+      preparationMethod:
+        "Turn off the heat, stir in coconut and coriander, squeeze lemon juice, and dust with jeeravan masala.",
+      contemporaryDifference:
+        "Signature Indori street food balance of sweet, creamy, spicy, and tangy notes.",
+    },
+    technologicalLeap: "Combining warm creamy corn with crisp raw coconut and zesty spice dust.",
+    documentedCitation: "Sarafa Bazaar street food vendor service traditions.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "Bhutte Ka Kees at Sarafa Bazaar",
+    shortDescription:
+      "Served steaming hot in bowls garnished with fresh coconut, coriander, crunchy sev, and lemon juice — the midnight jewel of Indore.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Bhutte Ka Kees Plated",
+      historicalCookware: "Serving bowl / dona",
+      heatSource: "Freshly braised and hot",
+      ingredientsList: [
+        "Fresh tender sweet corn (bhutta, grated)",
+        "Full cream milk",
+        "Fresh coconut (scraped/grated)",
+        "Fresh coriander leaves",
+        "Lemon",
+        "Ratlami sev",
+      ],
+      preparationMethod:
+        "Spoon piping hot into bowls, finish with lemon juice and a generous scattering of sev and fresh coconut.",
+      contemporaryDifference:
+        "The quintessential Indore midnight street food experience.",
+    },
+    technologicalLeap: "Iconic street snack celebrated across Central India.",
+    documentedCitation: "Regional culinary culture of Madhya Pradesh.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// DAL BAFLA (Madhya Pradesh)
+// ─────────────────────────────────────────────
+export const DAL_BAFLA_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Origin",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Dal Bafla: Origin & Festive Malwa Heritage",
+    shortDescription:
+      "Dal Bafla is the signature celebratory feast of Madhya Pradesh, celebrated throughout the Malwa and Bundelkhand regions (notably in Ujjain, Indore, Ratlam, and Maheshwar). It is related to Rajasthani baati but distinguished by its unique two-stage cooking: dough balls of coarse whole-wheat flour, semolina, and ghee are boiled in spiced water first, then roasted over cow-dung embers or baked in an oven until blistered and golden. The boiling gelatinizes the starch, ensuring the inside remains incredibly tender and fluffy, while the baking creates a crisp outer crust. Hot baflas are cracked open, drenched completely in melted desi ghee, and paired with spicy five-lentil Panchmel Dal, fiery garlic chutney, and sweet churma.\n\nWhy it is famous:\n- Unique boil-then-bake method: boiling before baking ensures a soft, tender crumb unlike the firmer, dry Rajasthani baati.\n- Desi ghee immersion: hot baflas are cracked open and fully bathed in warm desi ghee, soaking up rich aroma.\n- Panchmel Dal accompaniment: served with a harmonious blend of five pulses (toor, moong, chana, urad, masoor) tempered with hing and cumin.\n- Sacred banquet centerpiece: standard community meal at weddings, festivals, and pilgrimage feasts across Malwa and the Narmada valley.\n- Complex accompaniments: traditionally paired with fiery raw garlic chutney, sweet churma or laddu, and tangy kadhi.\n- Wide cultural reverence: celebrated in thali restaurants and royal heritage banquets across Central India.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Dal Bafla",
+      historicalCookware: "Large open brass boiling cauldron & cow-dung cake (kanda) hearth",
+      heatSource: "Wood fire for boiling / Smouldering kanda embers for roasting",
+      ingredientsList: [],
+      preparationMethod:
+        "Coarse wheat dough balls are boiled in water with turmeric until buoyant, then roasted over embers until charred and blistered.",
+      contemporaryDifference:
+        "The premier celebratory and community banquet feast of Madhya Pradesh.",
+    },
+    technologicalLeap: "Two-step boil-then-bake method producing a fluffy steamed crumb inside a crisp baked crust.",
+    documentedCitation: "Malwa ethnographies, temple banquet records, and regional food documentation.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Flour & Kneading: Then - freshly ground coarse Malwi durum wheat flour stone-milled in village chakkis | Now - commercial packaged atta combined with semolina (sooji) and a pinch of baking soda for lightness\nBoiling & Baking: Then - boiled in brass cauldrons over wood fire, then roasted in cow-dung cake (kanda) ashes | Now - boiled in stainless steel pots, then baked in gas baati cookers, OTGs, or air fryers\nDal: Then - slow-simmered for hours over low hearth embers with local farm lentils | Now - pressure-cooked panchmel dal tempered in minutes with modern spice powders\nGhee usage: Then - lavishly drowned in pure bilona churned village ghee | Now - measured immersion or brushed with ghee for modern dietary preferences\nAccompaniments: Then - rustic stone-ground red garlic chutney, fresh onions, and jaggery | Now - multi-course thali arrays with assorted chutneys, kadhi, and gulab jamun\nReach: Then - community feast restricted to Malwa and Bundelkhand festivals | Now - celebrated specialty in royal heritage restaurants and Indian banquets nationwide\nThese changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Traditional brass degh & cow-dung embers / Stainless steel pot & gas baati oven",
+      heatSource: "Wood fire & charcoal embers / Modern gas range and electric convection",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking style: Then - stone-ground wheat dough boiled on wood flame, baked on embers | Now - packaged atta with sooji baked in gas baati cooker or air fryer",
+      contemporaryDifference:
+        "These changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    },
+    technologicalLeap: "Domestic gas baati-ovens and electric OTGs replacing rustic open-fire hearths.",
+    documentedCitation: "Central Indian food technology surveys and household cookbooks.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Step-by-Step",
+    centuryLabel: "Stage 3",
+    headline: "Dal Bafla: 12 Key Ingredients & 10 Preparation Steps",
+    shortDescription:
+      "Key ingredients: Coarse whole-wheat flour (atta), Semolina (sooji / rava), Pure desi ghee, Ajwain (carom seeds), Turmeric powder and pinch of baking soda, Panchmel dal (toor, chana, moong, urad, masoor), Tomatoes and green chillies, Fresh ginger (grated), Cumin seeds and mustard seeds, Asafoetida (hing), Fresh coriander leaves, Spicy red garlic chutney & lemon wedges.\n\n1. Make the dough. - Mix coarse wheat flour, sooji, ajwain, turmeric, salt, and melted ghee (moyen). Rub until crumbly, then knead into a stiff dough with warm water.\n2. Shape the baflas. - Divide dough into smooth, medium round balls and make a slight dimple in the center with your thumb.\n3. Boil water. - In a large pot, bring water to a rolling boil with 1/2 tsp turmeric and salt.\n4. Boil the baflas. - Gently lower the dough balls into boiling water and cook for 12-15 minutes until they float to the surface.\n5. Drain and dry. - Lift baflas out with a slotted spoon and dry on a clean towel for 5-10 minutes.\n6. Bake until crisp. - Bake in a preheated baati oven or conventional oven at 200°C (390°F) for 20-25 minutes, turning until golden and blistered.\n7. Cook the dal. - Pressure cook mixed five lentils with turmeric and salt until soft and creamy.\n8. Temper the dal. - Heat ghee in a pan, crackle cumin and mustard seeds, add hing, green chillies, ginger, tomatoes, and spices; pour into dal.\n9. Crush and ghee-soak. - Gently crush the hot baked baflas in a napkin and immerse them completely in a bowl of warm desi ghee.\n10. Assemble and serve. - Serve piping hot ghee-drenched baflas with Panchmel dal, fiery garlic chutney, sliced onions, and lemon.\n\nBoiling before baking is mandatory for authentic bafla texture. Submerge baflas in ghee while piping hot for complete absorption.",
+    image: ERA_PHOTO.spice_caravan,
+    generationRecipe: {
+      recipeName: "Dal Bafla Feast Protocol",
+      historicalCookware: "Large stockpot, baking tray / baati oven, and deep tempering pan",
+      heatSource: "High boiling heat, followed by 200°C dry baking",
+      ingredientsList: [
+        "Coarse whole-wheat flour (atta)",
+        "Semolina (sooji / rava)",
+        "Pure desi ghee",
+        "Ajwain (carom seeds)",
+        "Turmeric powder and pinch of baking soda",
+        "Panchmel dal (toor, chana, moong, urad, masoor)",
+        "Tomatoes and green chillies",
+        "Fresh ginger (grated)",
+        "Cumin seeds and mustard seeds",
+        "Asafoetida (hing)",
+        "Fresh coriander leaves",
+        "Spicy red garlic chutney & lemon wedges",
+      ],
+      preparationMethod:
+        "Knead wheat-semolina dough with ghee moyen, shape into balls, boil in turmeric water until floating, bake until blistered, crack open, submerge in melted desi ghee, and serve with Panchmel dal.",
+      contemporaryDifference:
+        "Boil-then-bake ensures a tender, melt-in-the-mouth texture unlike dry baati.",
+    },
+    technologicalLeap: "Mastery of two distinct thermal stages: wet gelatinization followed by dry radiative roasting.",
+    documentedCitation: "Codified regional recipe documentation.",
+  },
+  {
+    generationNumber: 4,
+    eraTitle: "Boil-Then-Bake Technique",
+    yearRange: "Two-Stage Cook",
+    centuryLabel: "Stage 4",
+    headline: "Pre-Gelatinization & Radiative Baking",
+    shortDescription:
+      "Poaching the dough balls in boiling water sets the exterior and hydrates internal starches, preventing toughness during baking.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Boil-Then-Bake Protocol",
+      historicalCookware: "Deep boiling pot & baati oven",
+      heatSource: "Boiling water / 200°C radiant heat",
+      ingredientsList: [
+        "Coarse whole-wheat flour (atta)",
+        "Semolina (sooji / rava)",
+        "Pure desi ghee",
+        "Ajwain (carom seeds)",
+        "Turmeric powder",
+      ],
+      preparationMethod:
+        "Boil dough rounds for 12-15 minutes until buoyant, dry thoroughly, and bake at 200°C for 20-25 minutes until golden.",
+      contemporaryDifference:
+        "The definitive signature technique that sets bafla apart from Rajasthani baati.",
+    },
+    technologicalLeap: "Thermal par-cooking in water followed by dry convective baking.",
+    documentedCitation: "Malwa domestic cookery records.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Ghee Immersion & Dal Tadka",
+    yearRange: "Assembly",
+    centuryLabel: "Stage 5",
+    headline: "Desi Ghee Bath & Five-Lentil Stew",
+    shortDescription:
+      "Hot blistered baflas are cracked by hand and immersed in warm melted desi ghee to saturate the interior crumb.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Immersion & Tadka Protocol",
+      historicalCookware: "Deep ghee bowl and iron tadka pan",
+      heatSource: "Direct ghee immersion & tadka sizzle",
+      ingredientsList: [
+        "Pure desi ghee",
+        "Panchmel dal (toor, chana, moong, urad, masoor)",
+        "Tomatoes and green chillies",
+        "Cumin seeds and mustard seeds",
+        "Asafoetida (hing)",
+      ],
+      preparationMethod:
+        "Crush baked baflas gently and soak in warm ghee. Temper cooked panchmel dal with ghee, hing, and spices.",
+      contemporaryDifference:
+        "Ensures every bite is rich, moist, and infused with ghee aroma.",
+    },
+    technologicalLeap: "Hydraulic absorption of fat into warm expanding starch pores.",
+    documentedCitation: "Regional feast banquet documentation.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "The Royal Malwa Thali Feast",
+    shortDescription:
+      "Served on brass or copper thalis with hot ghee-soaked baflas, Panchmel dal, fiery red garlic chutney, sweet churma, and kadhi.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Dal Bafla Thali Plated",
+      historicalCookware: "Traditional Kansa or brass thali",
+      heatSource: "Piping hot service",
+      ingredientsList: [
+        "Coarse whole-wheat flour (atta)",
+        "Pure desi ghee",
+        "Panchmel dal (toor, chana, moong, urad, masoor)",
+        "Spicy red garlic chutney",
+        "Sweet churma laddu",
+        "Lemon and sliced onions",
+      ],
+      preparationMethod:
+        "Arrange ghee-drenched baflas alongside a generous bowl of panchmel dal, garlic chutney, churma, and sliced onions.",
+      contemporaryDifference:
+        "The undisputed grand feast of Madhya Pradesh.",
+    },
+    technologicalLeap: "Complete multi-textured royal thali balancing buttery bread, spicy dal, pungent chutney, and sweet grain.",
+    documentedCitation: "Central Indian gastronomic culture.",
+  },
+];
+
+// ─────────────────────────────────────────────
 // 3. KASHMIRI ROGAN JOSH (Jammu & Kashmir)
 // ─────────────────────────────────────────────
 export const ROGAN_JOSH_GENERATIONS: GenerationWaypoint[] = [
@@ -672,138 +1181,497 @@ export const LITTI_CHOKHA_GENERATIONS: GenerationWaypoint[] = [
 ];
 
 // ─────────────────────────────────────────────
-// 5. DELHI / PUNJAB BUTTER CHICKEN (Murgh Makhani)
+// 5. MAKKI DI ROTI & SARSON DA SAAG (Punjab)
+// ─────────────────────────────────────────────
+export const MAKKI_SARSON_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Origin",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Makki di Roti & Sarson da Saag: Rural Hearth Tradition",
+    shortDescription:
+      "Makki di roti and sarson da saag is a famous winter staple and comfort food of Punjab. \"Makki\" means maize or corn, \"roti\" means flatbread, and \"sarson\" is the Hindi and Punjabi name for mustard greens. \"Saag\" refers to cooked leafy greens. It is an agricultural hearth food traditionally cooked during the cold harvest months when fresh mustard leaves are abundant in the fields. The greens are slow-cooked and churned into a thick, coarse mash, while the flatbread is hand-patted from coarse maize flour and griddled on a tawa. It is finished with a generous dollop of freshly churned white butter (makhan) and served with jaggery (gur). No reliable historical record gives the exact year, place or creator of this combination; it has been a rural staple across Punjabi farming households for generations.\n\nWhy it is famous:\n- Seasonal harmony: fresh winter mustard greens paired with hearty yellow corn flatbread.\n- Earthy, robust flavour: mild natural bitterness of mustard greens balanced by sweet jaggery and rich churned butter.\n- Traditional churning: slow-cooked greens mashed with a wooden churner (ghotna) produce a distinct rustic texture.\n- Gluten-free flatbread technique: hand-patted cornmeal dough griddled until golden and crisp on the edges.\n- Classic accompaniment: served with white butter and jaggery, creating a comforting sweet-savoury balance.\n- Hearty farm nutrition: traditionally eaten by farmers for energy and warmth through long winter days.\n- Wide popularity: a signature emblem of Punjabi hospitality enjoyed across roadside dhabas and homes throughout northern India.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Makki di Roti & Sarson da Saag",
+      historicalCookware: "Earthen pot (handi), wooden churner (ghotna), cast-iron tawa",
+      heatSource: "Open earthen hearth (chulha) fired by dried wood",
+      ingredientsList: [],
+      preparationMethod:
+        "Greens are slow-cooked and churned into a coarse mash, while flatbreads are hand-patted from coarse maize flour and griddled on a tawa.",
+      contemporaryDifference:
+        "Rural winter staple across Punjabi farming households served with white butter and jaggery.",
+    },
+    technologicalLeap: "Slow simmering and manual wood-churning of fibrous leafy winter greens.",
+    documentedCitation: "Regional rural agricultural food traditions of Punjab.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Greens: Then - fresh mustard, bathua and spinach plucked straight from village fields | Now - store-bought bundled greens widely sold in urban vegetable markets\nChurning method: Then - slow-cooked in earthen pots and hand-churned with a wooden ghotna for hours | Now - pressure-cooked and blended with immersion hand blenders\nCornmeal: Then - coarse stone-ground maize flour milled locally | Now - packaged fine or medium corn flour from grocery stores\nFuel: Then - open earthen chulhas burning dried wood and cow-dung cakes | Now - domestic gas stoves and induction cooktops\nButter: Then - freshly hand-churned raw white butter (makhan) from buffalo milk | Now - commercial cultured white butter or dairy butter blocks\nReach: Then - a rustic rural winter meal cooked in Punjabi farm kitchens | Now - a celebrated pan-Indian winter special served in restaurants and homes across the country\nThese changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Earthen pots and chulhas / Pressure cookers and modern non-stick or iron tawas",
+      heatSource: "Wood or cow-dung embers / Domestic gas burners and induction cooktops",
+      ingredientsList: [],
+      preparationMethod:
+        "Churning method: Then - slow-cooked in earthen pots and hand-churned with a wooden ghotna for hours | Now - pressure-cooked and blended with immersion hand blenders",
+      contemporaryDifference:
+        "These changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    },
+    technologicalLeap: "Adoption of pressure cooking and electric blending for rapid greens tenderization.",
+    documentedCitation: "Comparative Punjabi kitchen surveys and agricultural culinary traditions.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Makki di Roti & Sarson da Saag Recipe: 10 Key Ingredients, 10 Steps",
+    shortDescription:
+      "Key ingredients: Fresh mustard leaves (sarson), bathua, and spinach (palak), Maize flour (makki ka atta), Ginger and garlic, Green chillies, Onions, Mustard oil or ghee, Salt, Freshly churned white butter (makhan), Warm water (for kneading), Jaggery (gur, for serving).",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Makki di Roti & Sarson da Saag Recipe",
+      historicalCookware: "Deep heavy pot, wooden churner, cast-iron tawa",
+      heatSource: "Low to medium heat on stovetop",
+      ingredientsList: [
+        "Fresh mustard leaves (sarson), bathua, and spinach (palak)",
+        "Maize flour (makki ka atta)",
+        "Ginger and garlic",
+        "Green chillies",
+        "Onions",
+        "Mustard oil or ghee",
+        "Salt",
+        "Freshly churned white butter (makhan)",
+        "Warm water (for kneading)",
+        "Jaggery (gur, for serving)",
+      ],
+      preparationMethod:
+        "1. Wash and chop the greens. - Clean fresh mustard, bathua and spinach leaves thoroughly under running water, then chop them finely.\n2. Boil with aromatics. - Place the greens in a pot with green chillies, ginger, garlic and salt. Add a splash of water and cook until tender.\n3. Mash the saag. - Mash the tender greens thoroughly using a wooden churner (ghotna) or potato masher to reach a coarse texture.\n4. Stir in cornmeal. - Dissolve a spoonful of maize flour in a little warm water and stir it into the simmering greens to thicken the saag.\n5. Simmer on low heat. - Cook the mashed greens gently on low heat until creamy and well combined.\n6. Prepare the tempering. - Heat mustard oil or ghee in a pan. Add chopped onions, ginger and garlic, and saute until golden brown.\n7. Combine and finish saag. - Stir the tempering into the cooked greens and let it simmer for 2 to 3 minutes.\n8. Knead the dough. - In a wide dish, combine maize flour with a pinch of salt. Gradually add warm water and knead with the palm into a soft dough.\n9. Pat and griddle the roti. - Pat a portion of dough between moist palms into a flat round disc. Place on a hot tawa and cook both sides until golden spots appear.\n10. Top and serve hot. - Brush the hot roti with ghee. Serve immediately with a bowl of steaming saag, a dollop of white butter, and jaggery.",
+      contemporaryDifference:
+        "Sarson da saag tastes best when slow-cooked. Knead maize flour with warm water using the palm of your hand for smooth flatbreads.",
+    },
+    technologicalLeap: "Hand-patting gluten-free cornmeal flatbreads and thickening greens with dissolved maize slurry.",
+    documentedCitation: "Codified Punjabi regional cookbook documentation.",
+  },
+  {
+    generationNumber: 4,
+    eraTitle: "Slow Cooking & Churning",
+    yearRange: "Saag Simmering",
+    centuryLabel: "Stage 4",
+    headline: "Simmering Greens with Maize Flour Slurry",
+    shortDescription:
+      "Dissolving a spoonful of maize flour in warm water and stirring it into the mashed greens thickens the saag naturally while slow simmering.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Saag Thickening Technique",
+      historicalCookware: "Deep heavy pot",
+      heatSource: "Low simmer heat",
+      ingredientsList: [
+        "Fresh mustard leaves (sarson), bathua, and spinach (palak)",
+        "Maize flour (makki ka atta)",
+        "Ginger and garlic",
+        "Green chillies",
+        "Salt",
+      ],
+      preparationMethod:
+        "Cook mashed greens gently on low heat with maize flour slurry until creamy and well combined.",
+      contemporaryDifference:
+        "Sarson da saag tastes best when slow-cooked.",
+    },
+    technologicalLeap: "Starch gelatinization from maize flour binding earthy leafy greens.",
+    documentedCitation: "Traditional Punjabi cooking techniques.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Tawa Griddling",
+    yearRange: "Roti Technique",
+    centuryLabel: "Stage 5",
+    headline: "Hand-Patting & Tawa Griddling",
+    shortDescription:
+      "Kneading coarse cornmeal with warm water using the base of the palm enables hand-patting without gluten.",
+    image: ERA_PHOTO.tawa_sizzle,
+    generationRecipe: {
+      recipeName: "Makki Roti Griddling",
+      historicalCookware: "Heavy cast-iron tawa",
+      heatSource: "Medium heat",
+      ingredientsList: [
+        "Maize flour (makki ka atta)",
+        "Warm water (for kneading)",
+        "Salt",
+        "Mustard oil or ghee",
+      ],
+      preparationMethod:
+        "Pat dough between moist palms into a disc. Cook on hot tawa until golden spots appear on both sides.",
+      contemporaryDifference:
+        "Knead maize flour with warm water using the palm of your hand for smooth flatbreads.",
+    },
+    technologicalLeap: "Hydration and manual compaction of gluten-free maize flour dough.",
+    documentedCitation: "Farmstead hearth practices across rural Punjab.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "Steaming Saag Served with White Butter & Jaggery",
+    shortDescription:
+      "Served piping hot with freshly churned white butter melting over the greens, accompanied by golden rotis and sweet jaggery.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Makki di Roti & Sarson da Saag Plated",
+      historicalCookware: "Thali or clay serving plate",
+      heatSource: "Served piping hot",
+      ingredientsList: [
+        "Fresh mustard leaves (sarson), bathua, and spinach (palak)",
+        "Maize flour (makki ka atta)",
+        "Freshly churned white butter (makhan)",
+        "Jaggery (gur, for serving)",
+      ],
+      preparationMethod:
+        "Brush hot roti with ghee. Serve immediately with a bowl of steaming saag, a dollop of white butter, and jaggery.",
+      contemporaryDifference:
+        "Served with fresh white butter and jaggery.",
+    },
+    technologicalLeap: "Iconic regional pairing balancing bitter greens with sweet jaggery and dairy fat.",
+    documentedCitation: "Modern regional culinary documentation.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// 6. BUTTER CHICKEN (Punjab / Delhi)
 // ─────────────────────────────────────────────
 export const BUTTER_CHICKEN_GENERATIONS: GenerationWaypoint[] = [
   {
     generationNumber: 1,
-    eraTitle: "Peshawar Tandoor Antiquity",
-    yearRange: "c. 1920 – 1940 CE",
-    centuryLabel: "Epoch I",
-    headline: "The Clay Tandoor & Bell-Metal Skewers",
+    eraTitle: "Origin",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Butter Chicken: Origin & Makhani Sauce Heritage",
     shortDescription:
-      "In pre-partition Peshawar, Kundan Lal Gujral pioneered skewering chicken marinated in thick curd, Kashmiri chillies, and mustard oil, lowering it into a subterranean bell-shaped clay oven (tandoor) fired by coal.",
-    image: ERA_PHOTO.stone_ferment,
+      "Butter chicken is a globally famous Indian chicken curry known for its rich, mildly spiced tomato, butter and cream gravy. It originated in restaurant kitchens in northern India during the mid-twentieth century. Cooks created the dish by simmering roasted tandoori chicken pieces in a silky, spiced tomato-butter gravy to keep the meat tender and moist. The dish is known in Hindi as murgh makhani, where \"murgh\" means chicken and \"makhani\" means cooked with butter. It is distinguished by its velvety sauce, smoky charred chicken pieces, and a balanced sweet-tangy flavor finished with fragrant dried fenugreek leaves (kasuri methi). No single person or exact year of invention is universally documented, and multiple culinary traditions and historic eateries claim its earliest preparation.\n\nWhy it is famous:\n- Velvety sauce texture: pureed tomatoes simmered with butter and finished with fresh cream create an exceptionally smooth gravy.\n- Smoky aroma: roasting or grilling the chicken beforehand gives the pieces a characteristic charred, tandoor-style flavour.\n- Balanced flavours: natural tomato acidity is softened by butter, cream, and a subtle touch of sweetness.\n- Distinct aroma of kasuri methi: crushed dried fenugreek leaves provide a unique, appetizing fragrance.\n- Mild spice profile: fragrant rather than sharply hot, making it accessible and beloved by diners of all palates.\n- Universal pairing: pairs exceptionally well with tandoori garlic naan, butter roti, or fragrant basmati rice.\n- Global icon: one of the most recognized and ordered Indian restaurant dishes across the world.",
+    image: ERA_PHOTO.ancient_grains,
     generationRecipe: {
-      recipeName: "Original Peshawari Tandoori Murgh",
-      historicalCookware: "Subterranean clay tandoor oven",
-      heatSource: "Hardwood and charcoal fire (400°C)",
-      ingredientsList: ["Whole chicken cuts", "Hung buffalo curd", "Kashmiri red chilli paste", "Mustard oil", "Garam masala & chaat masala"],
-      preparationMethod: "Marinated twice, impaled on long iron skewers, roasted in radiant clay oven heat in under 12 minutes.",
-      contemporaryDifference: "Dry roasted chicken only; zero tomato-butter gravy existed.",
+      recipeName: "Origin: Butter Chicken",
+      historicalCookware: "Clay tandoor oven, heavy copper degchi",
+      heatSource: "Charcoal embers and coal pit",
+      ingredientsList: [],
+      preparationMethod:
+        "Simmering roasted tandoori chicken pieces in a silky, spiced tomato-butter gravy to keep the meat tender and moist.",
+      contemporaryDifference:
+        "Originated in restaurant kitchens in northern India during the mid-twentieth century.",
     },
-    technologicalLeap: "High-radiant clay oven searing retaining natural meat juices.",
-    documentedCitation: "Oral histories of Peshawar's Gora Bazaar & Moti Mahal founding archives.",
+    technologicalLeap: "Emulsifying rich dairy butter and cream into strained tomato reduction to rehydrate roasted poultry.",
+    documentedCitation: "Culinary histories and restaurant traditions of northern India.",
   },
   {
     generationNumber: 2,
-    eraTitle: "Post-Partition Daryaganj (1947–1950 CE)",
-    yearRange: "1947 – 1952 CE",
-    centuryLabel: "Epoch II",
-    headline: "The Accidental Invention of Makhani Gravy",
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
     shortDescription:
-      "Refugees from partition rebuilt their lives in Old Delhi's Daryaganj. To prevent leftover dry tandoori chicken from going to waste in the absence of refrigeration, Kundan Lal simmered it in a rich gravy of ripe tomatoes, butter, and cream.",
-    image: ERA_PHOTO.spice_trade,
+      "Chicken cooking: Then - skewered whole or bone-in pieces roasted in deep coal-fired clay tandoors | Now - boneless chicken tikka cooked in electric ovens, air fryers, or stovetop grill pans\nTomato gravy: Then - whole fresh tomatoes hand-boiled, mashed, and strained through fine muslin | Now - commercially canned purees and mechanical food processors\nDairy enrichment: Then - fresh farm-churned white butter and hand-skimmed malai | Now - pasteurized commercial butter blocks and heavy whipping cream cartons\nTexture refinement: Then - rustic strained tomato reduction with basic spices | Now - enriched with cashew nut paste for a glossy restaurant sheen\nFuel: Then - charcoal-burning tandoors and hard-coke fire pits | Now - modern commercial gas ranges, combi-ovens, and domestic cooktops\nReach: Then - a specialty restaurant dish in northern Indian cities | Now - an iconic staple on Indian menus across the world\nThese changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    image: ERA_PHOTO.stone_ferment,
     generationRecipe: {
-      recipeName: "First Daryaganj Murgh Makhani",
-      historicalCookware: "Large tinned copper degchi",
-      heatSource: "Charcoal coal pit",
-      ingredientsList: ["Leftover tandoori chicken chunks", "Fresh vine-ripened tomatoes", "Churned white butter (Makhan)", "Full-fat milk cream", "Kashmiri red chilli"],
-      preparationMethod: "Tomatoes boiled down and hand-sieved. Enriched with mounds of fresh white butter and simmered with roasted chicken until tender.",
-      contemporaryDifference: "Born out of food preservation necessity rather than planned recipe invention.",
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Charcoal tandoor and copper degchi / Stovetop pans and electric ovens",
+      heatSource: "Charcoal fire pits / Commercial gas ranges and domestic stovetops",
+      ingredientsList: [],
+      preparationMethod:
+        "Chicken cooking: Then - skewered bone-in cuts in deep coal tandoors | Now - boneless chicken tikka in stovetop pans or ovens",
+      contemporaryDifference:
+        "These changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
     },
-    technologicalLeap: "Use of rich dairy fat emulsion to rehydrate and tenderize roasted meat.",
-    documentedCitation: "Moti Mahal Daryaganj restaurant archives & Delhi Partition Heritage records.",
+    technologicalLeap: "Fine-mesh straining of tomato reduction and blending cashew paste for high sheen.",
+    documentedCitation: "Modern restaurant kitchen practice surveys across northern India.",
   },
   {
     generationNumber: 3,
-    eraTitle: "The Kasuri Methi Breakthrough",
-    yearRange: "c. 1955 – 1965 CE",
-    centuryLabel: "Epoch III",
-    headline: "Dried Fenugreek Leaves & The Silk Strainer",
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Butter Chicken Recipe: 11 Key Ingredients, 10 Steps",
     shortDescription:
-      "The definitive flavor breakthrough! Rubbing sun-dried fragrant fenugreek leaves (Kasuri Methi) between palms and crushing them into the simmering gravy imparted its iconic bittersweet aroma, perfectly balancing sweet tomato acidity.",
-    image: ERA_PHOTO.tawa_sizzle,
+      "Key ingredients: Chicken (boneless pieces or bone-in cuts), Thick curd (yogurt), Ginger-garlic paste, Kashmiri red chilli powder, Ripe tomatoes (pureed), Butter, Fresh dairy cream, Kasuri methi (dried fenugreek leaves), Garam masala, Oil or ghee (for roasting), Salt and sugar (or honey).",
+    image: ERA_PHOTO.spice_trade,
     generationRecipe: {
-      recipeName: "Kasuri Methi Balanced Makhani",
-      historicalCookware: "Heavy brass handi with fine mesh strainer",
-      heatSource: "Restaurant gas burner",
-      ingredientsList: ["Tandoori chicken", "Tomato puree", "Kasuri methi (Dried fenugreek)", "Dairy butter & malai", "Ginger juliennes"],
-      preparationMethod: "Tomato gravy strained through fine muslin three times to achieve silkiness. Finished with palm-crushed kasuri methi in the final 2 minutes.",
-      contemporaryDifference: "Elimination of tomato seeds and fibers creating mirror-smooth texture.",
+      recipeName: "Butter Chicken Recipe",
+      historicalCookware: "Mixing bowl, grill pan or oven, heavy-bottomed pan, fine strainer",
+      heatSource: "Medium heat on stovetop",
+      ingredientsList: [
+        "Chicken (boneless pieces or bone-in cuts)",
+        "Thick curd (yogurt)",
+        "Ginger-garlic paste",
+        "Kashmiri red chilli powder",
+        "Ripe tomatoes (pureed)",
+        "Butter",
+        "Fresh dairy cream",
+        "Kasuri methi (dried fenugreek leaves)",
+        "Garam masala",
+        "Oil or ghee (for roasting)",
+        "Salt and sugar (or honey)",
+      ],
+      preparationMethod:
+        "1. Marinate the chicken. - Mix chicken pieces with thick curd, ginger-garlic paste, Kashmiri red chilli powder and salt. Rest for at least 30 minutes.\n2. Roast the chicken. - Cook the marinated pieces in an oven, pan or grill with a little oil until tender with light charred edges.\n3. Prepare tomato base. - Cook pureed ripe tomatoes in a pan with ginger-garlic paste and Kashmiri chilli powder until the raw aroma softens.\n4. Strain for smoothness. - Pass the cooked tomato mixture through a fine strainer to get a silky, smooth sauce base.\n5. Add the butter. - Return the strained puree to the pan and stir in butter on low heat until melted and glossy.\n6. Add the roasted chicken. - Add the roasted chicken pieces into the simmering sauce and mix gently.\n7. Simmer gently. - Let the chicken simmer in the sauce on low heat for about 8 to 10 minutes so flavours combine.\n8. Season and balance. - Add garam masala, salt, and a pinch of sugar or honey to balance the natural acidity of the tomatoes.\n9. Finish with cream and herbs. - Crush kasuri methi between your palms and sprinkle on top, then stir in fresh dairy cream.\n10. Garnish and serve. - Take into a serving bowl, swirl extra cream on top, and serve hot with naan, roti or steamed rice.",
+      contemporaryDifference:
+        "Strain the tomato puree for a velvety gravy. Crush kasuri methi between your palms right before adding to release maximum aroma.",
     },
-    technologicalLeap: "Muslin-straining and dried fenugreek infusion producing the signature velvety texture.",
-    documentedCitation: "Kundan Lal Gujral biography & Jawaharlal Nehru state banquet menus.",
+    technologicalLeap: "Balancing tomato acidity with gentle butter simmering, cream finish, and palm-crushed fenugreek.",
+    documentedCitation: "Standardized northern Indian restaurant formulations.",
   },
   {
     generationNumber: 4,
-    eraTitle: "Diplomatic Banquets & World Acclaim",
-    yearRange: "c. 1965 – 1985 CE",
-    centuryLabel: "Epoch IV",
-    headline: "Nehru's State Banquets & International Fame",
+    eraTitle: "Tandoori Roasting",
+    yearRange: "Roasting Protocol",
+    centuryLabel: "Stage 4",
+    headline: "High Heat Skewer Roasting",
     shortDescription:
-      "Prime Minister Jawaharlal Nehru made Moti Mahal a regular stop for visiting world leaders, including US President Richard Nixon, Jacqueline Kennedy, and the Shah of Iran. Butter Chicken became India's gastronomic ambassador.",
-    image: ERA_PHOTO.butter_chicken_hero,
+      "Marinating chicken in spiced curd and roasting until edges are charred seals in juices before entering the sauce.",
+    image: ERA_PHOTO.dum_seal,
     generationRecipe: {
-      recipeName: "Imperial Diplomatic Butter Chicken",
-      historicalCookware: "Silver-plated copper serving deg",
-      heatSource: "Low-flame warming chafing dish",
-      ingredientsList: ["Tender chicken tikka cuts", "San Marzano-style ripe tomatoes", "Pure butter", "Fresh cream swirl", "Cardamom & mace powder"],
-      preparationMethod: "Chicken roasted with charred edges, folded into silky sauce, garnished with cream spirals and ginger juliennes, served with hot garlic naan.",
-      contemporaryDifference: "Refined plating, milder heat tailored to international diplomatic palates.",
+      recipeName: "Charred Chicken Roasting",
+      historicalCookware: "Grill pan or oven",
+      heatSource: "High radiant heat",
+      ingredientsList: [
+        "Chicken (boneless pieces or bone-in cuts)",
+        "Thick curd (yogurt)",
+        "Ginger-garlic paste",
+        "Kashmiri red chilli powder",
+        "Oil or ghee (for roasting)",
+      ],
+      preparationMethod:
+        "Cook marinated chicken pieces in an oven, pan or grill with a little oil until tender with light charred edges.",
+      contemporaryDifference:
+        "Charred edges impart the classic smoky note to the dish.",
     },
-    technologicalLeap: "Standardization of the dish for high-protocol global banquets.",
-    documentedCitation: "Official state banquet archives, Ministry of External Affairs of India.",
+    technologicalLeap: "Pre-charring marinated chicken for dual flavor contrast against sweet-tangy gravy.",
+    documentedCitation: "Restaurant tandoor techniques across Punjab and Delhi.",
   },
   {
     generationNumber: 5,
-    eraTitle: "Global Proliferation & British Tikka Masala Split",
-    yearRange: "c. 1980 – 2005 CE",
-    centuryLabel: "Epoch V",
-    headline: "From Delhi to Glasgow & The Global Curry House",
+    eraTitle: "Velvet Gravy Emulsion",
+    yearRange: "Makhani Sauce",
+    centuryLabel: "Stage 5",
+    headline: "Strained Tomato & Dairy Emulsion",
     shortDescription:
-      "Butter Chicken inspired the creation of Chicken Tikka Masala in Britain and became the single most ordered Indian curry in London, New York, Tokyo, and Sydney, spawning dozens of restaurant variations.",
+      "Passing cooked tomatoes through a fine mesh and simmering with generous butter creates the signature velvet texture.",
     image: ERA_PHOTO.butter_chicken_hero,
     generationRecipe: {
-      recipeName: "Modern Restaurant Style Murgh Makhani",
-      historicalCookware: "Heavy commercial restaurant handi",
-      heatSource: "High-power kitchen wok burner",
-      ingredientsList: ["Boneless chicken thigh tikka", "Blended tomato-cashew nut paste", "Unsalted dairy butter", "Heavy whipping cream", "Honey / sugar touch", "Kasuri methi"],
-      preparationMethod: "Cashew nut paste introduced to add glossy sheen and thickness, balancing natural tomato acidity with creamy sweetness.",
-      contemporaryDifference: "Widespread use of cashew nut paste as a modern thickening and richness agent.",
+      recipeName: "Velvet Makhani Sauce",
+      historicalCookware: "Heavy pan with fine mesh strainer",
+      heatSource: "Low simmering flame",
+      ingredientsList: [
+        "Ripe tomatoes (pureed)",
+        "Butter",
+        "Fresh dairy cream",
+        "Kasuri methi (dried fenugreek leaves)",
+        "Salt and sugar (or honey)",
+      ],
+      preparationMethod:
+        "Pass cooked tomato mixture through a fine strainer, return to pan with butter, and simmer with cream and crushed kasuri methi.",
+      contemporaryDifference:
+        "Strain the tomato puree for a velvety gravy.",
     },
-    technologicalLeap: "Cashew-dairy dual emulsion providing stability under high-speed restaurant service.",
-    documentedCitation: "Lizzie Collingham's Curry: A Tale of Cooks and Conquerors.",
+    technologicalLeap: "Fine-straining eliminating seeds and skin fibers for pure velvet sauce consistency.",
+    documentedCitation: "Classic makhani gravy culinary principles.",
   },
   {
     generationNumber: 6,
-    eraTitle: "Contemporary Living Legend",
-    yearRange: "Present Day",
-    centuryLabel: "Epoch VI",
-    headline: "The Unrivaled Velvet Icon of Global Gastronomy",
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "Murgh Makhani Served with Naan & Cream Swirl",
     shortDescription:
-      "Today, authentic Butter Chicken is celebrated for its harmonious balance of smoky charred meat, tangy ripe tomatoes, creamy churned butter, and fragrant fenugreek aroma.",
-    image: ERA_PHOTO.butter_chicken_hero,
+      "Presented in a warm bowl with a swirl of cream, butter gloss, and crushed kasuri methi, accompanied by garlic naan or basmati rice.",
+    image: ERA_PHOTO.biryani_royal_hero,
     generationRecipe: {
-      recipeName: "Authentic Delhi Butter Chicken Master Formulation",
-      historicalCookware: "Heavy-bottomed copper or enameled cast-iron handi",
-      heatSource: "Medium-low stovetop flame",
+      recipeName: "Murgh Makhani Plated",
+      historicalCookware: "Serving bowl",
+      heatSource: "Served hot",
       ingredientsList: [
-        "800g boneless chicken thigh tikka (tandoor charred)",
-        "1 kg ripe red plum tomatoes (boiled, pureed, and fine-strained)",
-        "80g unsalted quality dairy butter",
-        "100ml fresh heavy dairy cream",
-        "2 tbsp soaked cashew nut paste",
-        "1.5 tbsp Kasuri Methi (toasted and palm-crushed)",
-        "1 tbsp Kashmiri red chilli powder",
-        "1 tsp honey (to balance acidity)",
+        "Chicken (boneless pieces or bone-in cuts)",
+        "Butter",
+        "Fresh dairy cream",
+        "Kasuri methi (dried fenugreek leaves)",
       ],
       preparationMethod:
-        "Roast marinated chicken until edges char. Simmer strained tomato-cashew puree with butter and chilli for 20 minutes until oil glazes. Add charred chicken, stir in cream, honey, and crushed kasuri methi. Rest 5 minutes before serving.",
-      contemporaryDifference: "Tested home formulation preserving authentic Daryaganj velvety consistency.",
+        "Take into a serving bowl, swirl extra cream on top, and serve hot with naan, roti or steamed rice.",
+      contemporaryDifference:
+        "Crush kasuri methi between your palms right before adding to release maximum aroma.",
     },
-    technologicalLeap: "Perfected triple-balance of smoke, acid, and velvet fat.",
-    documentedCitation: "Culinary Heritage of Delhi & Michelin Guide Indian Restaurant Features.",
+    technologicalLeap: "Globally iconic presentation balancing rich dairy fat with aromatic herbs.",
+    documentedCitation: "Contemporary northern Indian gastronomic surveys.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// 7. AMRITSARI KULCHA (Punjab)
+// ─────────────────────────────────────────────
+export const AMRITSARI_KULCHA_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Origin",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Amritsari Kulcha: Tandoori Crisp Bread Tradition",
+    shortDescription:
+      "Amritsari kulcha is a famous crisp, layered stuffed flatbread from the historic city of Amritsar, in Punjab. Unlike softer yeast-leavened kulchas or fluffy bhatoore, an authentic Amritsari kulcha is prepared from unleavened layered dough that is rolled with ghee, stuffed with a spicy potato filling, and baked inside an intense clay tandoor until blistered and golden. When pulled from the oven, it is gently crushed by hand to crack its flaky layers, slathered with freshly churned white butter, and served with spicy chole (chickpeas) and tangy tamarind-onion chutney. It is renowned as Amritsar's quintessential breakfast and street delicacy. No reliable historical record names an individual inventor or founding year; it evolved out of the vibrant community tandoor and street-food culture of Amritsar's historic walled city.\n\nWhy it is famous:\n- Flaky, layered texture: repeated folding with ghee creates delicate crisp layers that shatter when hand-crushed.\n- Tandoor blistering: direct baking against blistering clay oven walls produces a distinct smoky aroma and golden crunch.\n- Spicy tangy filling: mashed potatoes seasoned with roasted cumin, carom seeds (ajwain), and tangy dried pomegranate seeds (anardana).\n- Hand-crush tradition: pressing the hot baked kulcha between palms cracks the crust and releases trapped steam.\n- Generous butter topping: finished with a melting pool of freshly churned white butter.\n- Classic food pairing: traditionally eaten with slow-simmered Amritsari chole and sliced onions in sweet-sour tamarind water.\n- Cultural icon of Amritsar: a legendary breakfast specialty that visitors travel to the city specifically to experience.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Amritsari Kulcha",
+      historicalCookware: "Earthen clay tandoor, dough rolling board (chakla)",
+      heatSource: "High-radiant charcoal or hardwood fire inside clay pit oven",
+      ingredientsList: [],
+      preparationMethod:
+        "Unleavened layered dough rolled with ghee, stuffed with seasoned potatoes, slapped against hot inner tandoor walls, and baked until crisp.",
+      contemporaryDifference:
+        "Quintessential street breakfast of Amritsar, Punjab, crushed by hand and served with white butter and chole.",
+    },
+    technologicalLeap: "Multi-layered dough lamination combined with high-radiant vertical wall clay tandoor baking.",
+    documentedCitation: "Regional street food history and culinary heritage of Amritsar.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Dough preparation: Then - hand-kneaded refined flour rested and laminated using pure desi ghee | Now - machine-kneaded dough batches using commercial butter, shortening, or refined oil blends\nBaking equipment: Then - slapped onto the clay walls of deep, coal-fired earthen tandoors | Now - adapted for domestic kitchens using inverted iron tawas, convection ovens, or air fryers\nStuffing: Then - hand-mashed local potatoes seasoned with whole toasted spices and wild pomegranate seeds | Now - diverse stuffings including grated paneer, cauliflower, and packaged spice mixes\nFuel: Then - hardwood and charcoal burning at extreme heat in brick-lined pit ovens | Now - modern domestic gas burners and electric baking appliances\nButter: Then - hand-churned farm-fresh white butter slapped onto the steaming bread | Now - commercial dairy butter blocks and clarified ghee\nReach: Then - an urban street breakfast confined to Amritsar's bazaar lanes | Now - celebrated on restaurant menus and street-food stalls across India and worldwide\nThese changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Coal tandoor pit / Inverted heavy iron tawa or convection oven",
+      heatSource: "Charcoal embers / Domestic stovetop gas flame",
+      ingredientsList: [],
+      preparationMethod:
+        "Baking equipment: Then - slapped onto clay walls of coal-fired tandoors | Now - adapted on inverted iron tawas over gas burners",
+      contemporaryDifference:
+        "These changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    },
+    technologicalLeap: "Inverted tawa technique enabling tandoor-like radiant blistering on domestic gas burners.",
+    documentedCitation: "Comparative street culinary traditions of Amritsar and contemporary home adaptations.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Amritsari Kulcha Recipe: 11 Key Ingredients, 10 Steps",
+    shortDescription:
+      "Key ingredients: Refined wheat flour (maida), Boiled and mashed potatoes, Ghee or butter (for lamination and topping), Carom seeds (ajwain) and cumin, Crushed coriander seeds, Dried pomegranate seeds (anardana powder), Green chilli and fresh coriander, Chopped onion, Salt, Water (for kneading), Fresh white butter (for serving).",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Amritsari Kulcha Recipe",
+      historicalCookware: "Mixing bowl, rolling pin, heavy iron tawa or tandoor",
+      heatSource: "High direct flame or tandoor embers",
+      ingredientsList: [
+        "Refined wheat flour (maida)",
+        "Boiled and mashed potatoes",
+        "Ghee or butter (for lamination and topping)",
+        "Carom seeds (ajwain) and cumin",
+        "Crushed coriander seeds",
+        "Dried pomegranate seeds (anardana powder)",
+        "Green chilli and fresh coriander",
+        "Chopped onion",
+        "Salt",
+        "Water (for kneading)",
+        "Fresh white butter (for serving)",
+      ],
+      preparationMethod:
+        "1. Knead the dough. - Mix refined flour, a pinch of salt and water. Knead into a soft, smooth dough, cover with a damp cloth, and rest for 30 minutes.\n2. Laminate the layers. - Roll the dough flat, smear generously with ghee, fold in thirds like an envelope, and repeat to build flaky layers.\n3. Prepare the filling. - Mash boiled potatoes with chopped onion, green chilli, fresh coriander, crushed coriander seeds, anardana, ajwain and salt.\n4. Portion and stuff. - Divide the layered dough into balls. Flatten each ball slightly, place a generous portion of stuffing in the centre, and seal tightly.\n5. Roll and flatten. - Gently pat or roll the stuffed dough with your fingers into a thick round disc, taking care not to tear the edges.\n6. Apply moisture and herbs. - Wet the top with a splash of water and press fresh coriander and crushed coriander seeds onto the surface.\n7. Bake in tandoor or tawa. - Press the wet side onto the hot inner tandoor wall or an inverted hot iron tawa so it sticks firmly.\n8. Crisp both sides. - Cook until the base is firmly set, then invert the tawa directly over the open flame until blisters turn golden brown and crisp.\n9. Hand-crush for layers. - Carefully remove the blistering kulcha and crush it gently between your palms to crack the flaky layers open.\n10. Butter and serve. - Top immediately with a melting dollop of fresh white butter. Serve piping hot with spicy chole and tamarind onion chutney.",
+      contemporaryDifference:
+        "Coarsely crushed coriander seeds and anardana in the stuffing provide the signature Amritsari crunch and tang. Do not use non-stick pans if baking on a tawa.",
+    },
+    technologicalLeap: "Hand-cracking hot laminated flatbread to expose shattering crisp layers.",
+    documentedCitation: "Codified Amritsari kulcha culinary formulations.",
+  },
+  {
+    generationNumber: 4,
+    eraTitle: "Lamination Technique",
+    yearRange: "Dough Folding",
+    centuryLabel: "Stage 4",
+    headline: "Repeated Ghee Envelope Folding",
+    shortDescription:
+      "Smearing flattened dough with ghee and repeatedly folding into thirds creates paper-thin buttery strata.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Kulcha Dough Lamination",
+      historicalCookware: "Rolling board and pin",
+      heatSource: "Ambient kitchen resting temperature",
+      ingredientsList: [
+        "Refined wheat flour (maida)",
+        "Ghee or butter (for lamination and topping)",
+        "Water (for kneading)",
+        "Salt",
+      ],
+      preparationMethod:
+        "Roll dough flat, smear with ghee, fold in thirds like an envelope, and repeat to build flaky layers.",
+      contemporaryDifference:
+        "Resting between folds ensures tender, pliable dough layers.",
+    },
+    technologicalLeap: "Physical fat-barrier lamination producing delicate pastry-like flakiness.",
+    documentedCitation: "Traditional Amritsari baker techniques.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Inverted Tawa Blistering",
+    yearRange: "Baking Technique",
+    centuryLabel: "Stage 5",
+    headline: "Direct Flame Blistering on Inverted Tawa",
+    shortDescription:
+      "Moistening one side makes the flatbread adhere to the hot iron tawa, which is then flipped directly over the open flame.",
+    image: ERA_PHOTO.tawa_sizzle,
+    generationRecipe: {
+      recipeName: "Inverted Tawa Baking Protocol",
+      historicalCookware: "Concave heavy iron tawa",
+      heatSource: "Direct stovetop flame",
+      ingredientsList: [
+        "Crushed coriander seeds",
+        "Green chilli and fresh coriander",
+        "Water (for kneading)",
+      ],
+      preparationMethod:
+        "Press wet side onto hot iron tawa. Once base sets, invert directly over open flame until blisters turn golden brown.",
+      contemporaryDifference:
+        "Do not use non-stick pans if baking on a tawa.",
+    },
+    technologicalLeap: "Replication of intense radiant tandoor environment via inverted iron cookware.",
+    documentedCitation: "Domestic Punjabi adaptations of traditional tandoor cooking.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "Hand-Crushed Amritsari Kulcha with White Butter",
+    shortDescription:
+      "Crushed gently between palms to crack open flaky layers, slathered with fresh white butter, and served hot with chole and chutney.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Amritsari Kulcha Plated",
+      historicalCookware: "Serving platter",
+      heatSource: "Served piping hot",
+      ingredientsList: [
+        "Refined wheat flour (maida)",
+        "Boiled and mashed potatoes",
+        "Fresh white butter (for serving)",
+      ],
+      preparationMethod:
+        "Carefully remove blistering kulcha and crush gently between palms. Top with melting white butter and serve hot with chole.",
+      contemporaryDifference:
+        "Coarsely crushed coriander seeds and anardana provide signature crunch and tang.",
+    },
+    technologicalLeap: "Hand-crush ritual breaking structural tension to maximize buttery mouthfeel.",
+    documentedCitation: "Contemporary street culinary surveys of Amritsar.",
   },
 ];
 
@@ -986,12 +1854,22 @@ function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoin
       return DOSA_GENERATIONS;
     case "hyderabadi-biryani":
       return BIRYANI_GENERATIONS;
+    case "indori-poha":
+      return INDORI_POHA_GENERATIONS;
+    case "bhutte-ka-kees":
+      return BHUTTE_KA_KEES_GENERATIONS;
+    case "dal-bafla":
+      return DAL_BAFLA_GENERATIONS;
     case "rogan-josh":
       return ROGAN_JOSH_GENERATIONS;
     case "litti-chokha":
       return LITTI_CHOKHA_GENERATIONS;
+    case "makki-di-roti-sarson-saag":
+      return MAKKI_SARSON_GENERATIONS;
     case "butter-chicken":
       return BUTTER_CHICKEN_GENERATIONS;
+    case "amritsari-kulcha":
+      return AMRITSARI_KULCHA_GENERATIONS;
     default:
       return generateDynamicGenerationsForDish(dish);
   }
@@ -1033,7 +1911,13 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
         historicalCookware: source.generationRecipe.historicalCookware,
         heatSource: source.generationRecipe.heatSource,
         ingredientsList:
-          dishId === "hyderabadi-biryani"
+          dishId === "hyderabadi-biryani" ||
+          dishId === "indori-poha" ||
+          dishId === "bhutte-ka-kees" ||
+          dishId === "dal-bafla" ||
+          dishId === "makki-di-roti-sarson-saag" ||
+          dishId === "butter-chicken" ||
+          dishId === "amritsari-kulcha"
             ? source.generationRecipe.ingredientsList
             : stage.key === "ingredients" && dish.ingredients.length
             ? dish.ingredients
