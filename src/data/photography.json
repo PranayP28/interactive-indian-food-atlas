@@ -1139,14 +1139,14 @@
           "licence": "CC BY-SA 3.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rajwada_Palace%2C_Indore.jpg",
-          "alt": "Rajwada Palace Holkar dynasty historic facade in Indore",
-          "caption": "Rajwada Palace, Indore — historic center around which Indore's distinctive morning poha stalls flourish.",
+          "alt": "A plate of Indori poha topped with sev, chopped onion, coriander and pomegranate",
+          "caption": "Indori poha: steamed flattened rice topped with sev, onion and pomegranate",
           "fallback": null,
           "width": 4779,
           "height": 3291
         },
-        "caption": "Rajwada Palace, Indore — historic center around which Indore's distinctive morning poha stalls flourish.",
-        "label": "Regional context"
+        "caption": "Indori poha: steamed flattened rice topped with sev, onion and pomegranate",
+        "label": "Origin"
       },
       "ingredients": {
         "photo": {
@@ -1157,23 +1157,16 @@
           "licence": "CC BY-SA 3.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poha.jpg",
-          "alt": "Flattened rice (poha) — the principal ingredient of Indori poha.",
-          "caption": "Flattened rice (poha) — the principal ingredient of Indori poha.",
+          "alt": "Dry thick poha flakes in a bowl",
+          "caption": "Thick poha flakes, the base of the dish",
           "fallback": null,
           "width": 1024,
           "height": 683,
           "local": "/images/dishes/indori-poha-stage-2.webp"
         },
-        "caption": "Flattened rice (poha) — the principal ingredient of Indori poha.",
-        "label": "Ingredient reference",
-        "items": [
-          "Thick flattened rice",
-          "Fennel seeds",
-          "Mustard seeds",
-          "Ratlami sev",
-          "Pomegranate",
-          "Jeeravan masala"
-        ]
+        "caption": "Thick poha flakes, the base of the dish",
+        "label": "Evolution of Food",
+        "items": []
       },
       "method": {
         "photo": {
@@ -1184,14 +1177,14 @@
           "licence": "CC BY-SA 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stall_at_Sarafa_Bajar.jpg",
-          "alt": "Street food vendors preparing snacks at Sarafa Bazaar, Indore",
-          "caption": "Street vendors at Indore food markets steaming poha in tiered boilers and tossing it with turmeric and jeeravan.",
+          "alt": "A plate of Indori poha served with jalebi",
+          "caption": "Hot Indori poha served with jalebi",
           "fallback": null,
           "width": 3072,
           "height": 4080
         },
-        "caption": "Street vendors at Indore food markets steaming poha in tiered boilers and tossing it with turmeric and jeeravan.",
-        "label": "Preparation technique"
+        "caption": "Hot Indori poha served with jalebi",
+        "label": "Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/68/Indori_Poha%2C_New_Delhi.jpg",
@@ -1211,23 +1204,19 @@
     "bhutte-ka-kees": {
       "origin": {
         "library": "spice-market",
-        "caption": "Madhya Pradesh — the regional kitchen where Bhutte Ka Kees belongs."
+        "caption": "Sarafa Bazaar and Chappan Dukan, Indore — historic street food hub where Bhutte Ka Kees was perfected.",
+        "label": "Origin"
       },
       "ingredients": {
         "library": "spice-palette",
-        "caption": "Ingredients for Bhutte Ka Kees: fresh sweet corn, full cream milk, mustard seeds, green chillies.",
-        "items": [
-          "Fresh sweet corn",
-          "Full cream milk",
-          "Mustard seeds",
-          "Green chillies",
-          "Asafoetida",
-          "Grated coconut"
-        ]
+        "caption": "Fresh tender sweet corn, full cream milk, mustard, cumin, green chillies, and coconut.",
+        "label": "Evolution of Food",
+        "items": []
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Bhutte Ka Kees — Fine Grating & Slow Milk-Emulsion Braise."
+        "caption": "Bhutte Ka Kees — Grating fresh corn and slow milk-emulsion braise.",
+        "label": "Recipe"
       },
       "plated": null
     },
@@ -1706,13 +1695,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustard_field_near_Chandigarh.jpg",
           "alt": "Yellow mustard flower field in winter near Chandigarh, Punjab",
-          "caption": "Mustard fields of Punjab in winter bloom — the seasonal origin of fresh sarson greens.",
+          "caption": "Mustard fields of Punjab in winter bloom — seasonal origin of fresh sarson greens.",
           "fallback": null,
           "width": 3024,
           "height": 2268
         },
-        "caption": "Mustard fields of Punjab in winter bloom — the seasonal origin of fresh sarson greens.",
-        "label": "Regional context"
+        "caption": "Mustard fields of Punjab in winter bloom — seasonal origin of fresh sarson greens.",
+        "label": "Origin"
       },
       "ingredients": {
         "photo": {
@@ -1730,15 +1719,8 @@
           "height": 2992
         },
         "caption": "Coarse stone-ground yellow maize flour (makki ka atta) kneaded with warm water into gluten-free dough.",
-        "label": "Ingredient reference",
-        "items": [
-          "Fresh mustard leaves (sarson)",
-          "Bathua greens",
-          "Spinach",
-          "Yellow maize flour (makki atta)",
-          "White butter",
-          "Jaggery"
-        ]
+        "label": "Evolution of Food",
+        "items": []
       },
       "method": {
         "photo": {
@@ -1756,7 +1738,7 @@
           "height": 8000
         },
         "caption": "Hand-flattened makki roti slowly roasting on a hot iron tawa with butter until crisp and speckled.",
-        "label": "Preparation technique"
+        "label": "Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Makke_di_Roti_with_Sarson_Da_Saag.jpg",
@@ -1784,13 +1766,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lahori_Gate%2C_Red_Fort%2C_Delhi.jpg",
           "alt": "Lahori Gate of the Red Fort in Old Delhi",
-          "caption": "Old Delhi near Daryaganj — where post-partition restaurateurs created the iconic butter chicken at Moti Mahal.",
+          "caption": "Historic food quarters of Old Delhi and Punjab where post-partition tandoori cookery flourished.",
           "fallback": null,
           "width": 2884,
           "height": 3419
         },
-        "caption": "Old Delhi near Daryaganj — where post-partition restaurateurs created the iconic butter chicken at Moti Mahal.",
-        "label": "Regional context"
+        "caption": "Historic food quarters of Old Delhi and Punjab where post-partition tandoori cookery flourished.",
+        "label": "Origin"
       },
       "ingredients": {
         "photo": {
@@ -1808,15 +1790,8 @@
           "height": 2368
         },
         "caption": "Kasuri methi (sun-dried fenugreek leaves), the defining herbaceous finishing aromatic for makhani gravy.",
-        "label": "Ingredient reference",
-        "items": [
-          "Tandoori chicken",
-          "Tomatoes",
-          "White butter (makkhan)",
-          "Fresh dairy cream",
-          "Kasuri methi",
-          "Kashmiri degi mirch"
-        ]
+        "label": "Evolution of Food",
+        "items": []
       },
       "method": {
         "photo": {
@@ -1830,11 +1805,11 @@
           "alt": "Tandoori chicken being roasted in clay tandoor oven",
           "caption": "Marinated chicken skewers roasting against the intense radiant heat of a charcoal-fired clay tandoor.",
           "fallback": null,
-          "width": 3264,
-          "height": 2448
+          "width": 1280,
+          "height": 720
         },
         "caption": "Marinated chicken skewers roasting against the intense radiant heat of a charcoal-fired clay tandoor.",
-        "label": "Preparation technique"
+        "label": "Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Butter_chicken_by_me.jpg",
@@ -2289,13 +2264,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chowmahalla_Palace_01.jpg",
           "alt": "Chowmahalla Palace courtyard in Hyderabad",
-          "caption": "Origin (Birth of the food): Chowmahalla Palace and royal kitchens of Hyderabad, where Arab Chaush soldiers introduced harees, evolving into the Nizami royal delicacy.",
+          "caption": "Chowmahalla Palace, Hyderabad — royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
           "fallback": null,
           "width": 4415,
           "height": 2943
         },
-        "caption": "Origin (Birth of the food): Chowmahalla Palace and royal kitchens of Hyderabad, where Arab Chaush soldiers introduced harees, evolving into the Nizami royal delicacy.",
-        "label": "Origin (Birth of the food)"
+        "caption": "Chowmahalla Palace, Hyderabad — royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
+        "label": "Regional context"
       },
       "ingredients": {
         "photo": {
@@ -2307,15 +2282,23 @@
           "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleem_Dalls_and_Grains.JPG",
           "alt": "Wheat, barley and mixed pulses used in Hyderabadi haleem.",
-          "caption": "Evolution of Food: From 12-hour wood-fired bhatti simmering with heavy manual ghotni mallet pounding to home pressure cookers and modern appliances.",
+          "caption": "Wheat, barley and mixed pulses used in Hyderabadi haleem.",
           "fallback": null,
           "width": 1600,
           "height": 1200,
           "local": "/images/dishes/hyderabadi-haleem-stage-2.webp"
         },
-        "caption": "Evolution of Food: From 12-hour wood-fired bhatti simmering with heavy manual ghotni mallet pounding to home pressure cookers and modern appliances.",
-        "label": "Evolution of Food",
-        "items": []
+        "caption": "Wheat, barley and mixed pulses used in Hyderabadi haleem.",
+        "label": "Ingredient reference",
+        "items": [
+          "Whole wheat",
+          "Mutton",
+          "Chana dal & Moong dal",
+          "Pure desi ghee",
+          "Fried onions",
+          "Almonds & cashews",
+          "Rose petals"
+        ]
       },
       "method": {
         "photo": {
@@ -2327,14 +2310,14 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyderabadi_haleem_making.jpg",
           "alt": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
-          "caption": "Recipe: Slow-cooking broken wheat, lentils, and tender marinated meat, pounding continuously with ghee into a rich, silky paste.",
+          "caption": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
           "fallback": null,
           "width": 515,
           "height": 759,
           "local": "/images/dishes/hyderabadi-haleem-stage-3.webp"
         },
-        "caption": "Recipe: Slow-cooking broken wheat, lentils, and tender marinated meat, pounding continuously with ghee into a rich, silky paste.",
-        "label": "Recipe"
+        "caption": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
+        "label": "Preparation technique"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Haleem_garnish.jpg",
@@ -3084,13 +3067,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Temple_(Harmandir_Sahib)_at_night,_Amritsar,_Punjab,_India_(2018).jpg",
           "alt": "The Golden Temple at Amritsar illuminated at night",
-          "caption": "Amritsar — the lanes around Harmandir Sahib hold the tandoor shops that made the kulcha famous.",
+          "caption": "Amritsar — the historic city whose bazaar tandoors perfected the crisp, layered stuffed kulcha.",
           "fallback": null,
           "width": 4000,
           "height": 3000
         },
-        "caption": "Amritsar — the lanes around Harmandir Sahib hold the tandoor shops that made this kulcha famous.",
-        "label": "Regional context"
+        "caption": "Amritsar — the historic city whose bazaar tandoors perfected the crisp, layered stuffed kulcha.",
+        "label": "Origin"
       },
       "ingredients": {
         "photo": {
@@ -3102,21 +3085,14 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wheat_flour_dough.jpg",
           "alt": "Wheat flour dough resting in a bowl",
-          "caption": "Wheat-flour dough. Kulcha is layered with ghee and stuffed with potato or paneer, then served with chole.",
+          "caption": "Refined wheat-flour dough rested and laminated with ghee before stuffing and baking.",
           "fallback": null,
           "width": 2335,
           "height": 1466
         },
-        "caption": "Wheat-flour dough — layered with ghee and stuffed with potato or paneer; chole is served alongside.",
-        "label": "Ingredient reference",
-        "items": [
-          "Refined wheat flour",
-          "Ghee",
-          "Potato or paneer filling",
-          "Ajwain",
-          "Curd",
-          "Green chilli"
-        ]
+        "caption": "Refined wheat-flour dough rested and laminated with ghee before stuffing and baking.",
+        "label": "Evolution of Food",
+        "items": []
       },
       "method": {
         "photo": {
@@ -3128,13 +3104,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paneer_Kulcha_Baking.jpg",
           "alt": "Kulcha baking in a tandoor",
-          "caption": "Kulcha slapped onto the wall of a tandoor to blister.",
+          "caption": "Stuffed kulcha slapped directly onto the scorching clay wall of a tandoor to blister and crisp.",
           "fallback": null,
           "width": 3000,
           "height": 1000
         },
-        "caption": "Kulcha slapped onto the wall of a tandoor to blister.",
-        "label": "Preparation technique"
+        "caption": "Stuffed kulcha slapped directly onto the scorching clay wall of a tandoor to blister and crisp.",
+        "label": "Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Amritsari_Kulcha_served_with_chhole.jpg",
@@ -3604,19 +3580,13 @@
           "height": 1817
         },
         "caption": "Maheshwar on the Narmada River, Malwa — historic heartland of Madhya Pradesh where bafla is the community feast centerpiece.",
-        "label": "Regional context"
+        "label": "Origin"
       },
       "ingredients": {
         "library": null,
-        "caption": "",
-        "items": [
-          "Whole-wheat flour",
-          "Ghee",
-          "Mixed pulses",
-          "Cumin",
-          "Asafoetida",
-          "Turmeric"
-        ]
+        "caption": "Coarse wheat flour, sooji, ghee, ajwain, turmeric, and five-lentil panchmel blend.",
+        "label": "Evolution of Food",
+        "items": []
       },
       "method": {
         "photo": {
@@ -3634,7 +3604,7 @@
           "height": 3781
         },
         "caption": "Bafla dough balls poached in boiling water then roasted on wire grates over embers until golden and crusty.",
-        "label": "Preparation technique"
+        "label": "Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Daal_Bafla.jpg",
@@ -3885,6 +3855,52 @@
         "height": 750,
         "local": "/images/dishes/sel-roti-stage-4.webp",
         "label": "Finished dish"
+      }
+    },
+    "qubani-ka-meetha": {
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Golconda_Fort%2C_Hyderabad_%28Oct_2025%29_-_3.jpg",
+          "subject": "context",
+          "title": "Golconda Fort, Hyderabad",
+          "creator": "Kuldeepburjbhalaike",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golconda_Fort,_Hyderabad_(Oct_2025)_-_3.jpg",
+          "alt": "Golconda Fort battlements and stone architecture in Hyderabad",
+          "caption": "Golconda Fort, Hyderabad — historic citadel of the Qutb Shahi and Asaf Jahi dynasties where Persian dried-fruit confectionary took root.",
+          "fallback": null,
+          "width": 3000,
+          "height": 4000
+        },
+        "caption": "Golconda Fort, Hyderabad — historic citadel of the Qutb Shahi and Asaf Jahi dynasties where Persian dried-fruit confectionary took root.",
+        "label": "Regional context"
+      },
+      "ingredients": {
+        "library": null,
+        "caption": "",
+        "items": [
+          "Dried apricots",
+          "Sugar",
+          "Water",
+          "Cardamom",
+          "Cream or custard"
+        ]
+      },
+      "method": null,
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Khobani_Ka_Meetha.JPG",
+        "subject": "dish",
+        "title": "Khobani Ka Meetha",
+        "creator": "Miansari66",
+        "licence": "CC0",
+        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khobani_Ka_Meetha.JPG",
+        "alt": "Stewed apricot compote dessert with crushed kernels",
+        "caption": "Hyderabadi Qubani ka Meetha: slow-stewed dried apricots in sugar syrup, finished with cracked apricot kernels (badam).",
+        "fallback": null,
+        "width": 2816,
+        "height": 2112
       }
     },
     "awan-bangwi": {
