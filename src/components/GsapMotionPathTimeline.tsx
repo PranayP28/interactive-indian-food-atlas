@@ -181,6 +181,14 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         } else if (index === 1) {
           nextUrl = "/images/dishes/undhiyu-2.png";
         }
+      } else if (dishId === "dal-baati-churma") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/dal-baati-churma-1.png";
+        }
+      } else if (dishId === "laal-maas") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/laal-maas-1.png";
+        }
       }
 
       const caption =
@@ -188,6 +196,10 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           ? "Evolution of Food — from ancient fermented chickpea cakes to modern steamed nylon and khaman varieties."
           : dishId === "undhiyu" && index === 1
           ? "Evolution of Food — from subterranean earthen matka roasting under coal embers to modern domestic stovetops."
+          : dishId === "dal-baati-churma" && index === 1
+          ? "Evolution of Food — from sand-baked wartime army rations to Rajasthan royal celebratory thali feast."
+          : dishId === "laal-maas" && index === 1
+          ? "Evolution of Food — from rustic Rajput hunting camp game braises to signature scarlet mutton curry with Dhungar smoke."
           : entry.photo?.caption || (stateMainImg ? `${dish.state} — Regional heritage & culinary traditions` : undefined);
 
       return {
@@ -749,7 +761,19 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                     </div>
 
                     {/* ── STAGE INGREDIENTS MATRIX & SEARCH SECTION ── */}
-                    {allStageIngredients.length > 0 && (
+                    {(dishId === "dhokla" ||
+                    dishId === "undhiyu" ||
+                    dishId === "dal-baati-churma" ||
+                    dishId === "laal-maas" ||
+                    dishId === "vada-pav" ||
+                    dishId === "puran-poli" ||
+                    dishId === "hyderabadi-biryani" ||
+                    dishId === "hyderabadi-haleem" ||
+                    dishId === "masala-dosa" ||
+                    dishId === "bisi-bele-bath"
+                      ? stageNum === 3
+                      : true) &&
+                      allStageIngredients.length > 0 && (
                       <div
                         className={`p-4 rounded-2xl border shadow-xl space-y-3 ${
                           isLight

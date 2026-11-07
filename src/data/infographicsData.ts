@@ -2737,55 +2737,89 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
   {
     "id": "info-146",
     "dishId": "dal-baati-churma",
-    "title": "Dal Baati Churma — c. 1800 Recipe",
-    "subtitle": "Traditional Rajasthani desert feast: sun-baked wheat dumplings dipped in desi ghee with panchmel dal",
-    "era": "1800s Traditional",
-    "image": "/images_updated/WhatsApp Image 2026-11-04 at 12.47.37 AM.jpeg",
+    "title": "Dal Baati Churma, Origin (Birth of the food)",
+    "subtitle": "Dal baati churma is a Rajasthani trio of baked wheat balls (baati), lentil dal and a sweet crumble (churma).",
+    "era": "Birth of the food",
+    "image": "/images_updated/dal-baati-churma-card.jpg",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
-    "ingredients": [
-      "Whole wheat flour",
-      "Panchmel lentils (Five dals)",
-      "Pure cow ghee",
-      "Ajwain seeds",
-      "Jaggery / Bura",
-      "Cardamom"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-147",
     "dishId": "dal-baati-churma",
-    "title": "Dal Baati Churma — c. 1900 Recipe",
-    "subtitle": "Royal Rajput kitchen formulation with spiced lentil curry, crushed sweet wheat churma, and bati",
-    "era": "1900s Early Modern",
-    "image": "/images_updated/WhatsApp Image 2026-11-04 at 12.51.46 AM.jpeg",
+    "title": "Dal Baati Churma, Evolution of Food",
+    "subtitle": "From sand-baked wartime army rations to Rajasthan royal celebratory thali feast.",
+    "era": "Evolution of Food",
+    "image": "/images/dishes/dal-baati-churma-1.png",
     "isFullTimelinePoster": false,
     "stageNumber": 2,
-    "ingredients": [
-      "Whole wheat flour",
-      "Panchmel lentils (Five dals)",
-      "Pure cow ghee",
-      "Ajwain seeds",
-      "Jaggery / Bura",
-      "Cardamom"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-148",
     "dishId": "dal-baati-churma",
-    "title": "Dal Baati Churma — Present Recipe",
-    "subtitle": "Iconic Rajasthani trio of crispy ghee-soaked baatis, spiced mix dal, and cardamom-scented churma",
-    "era": "Contemporary / Present",
-    "image": "/images_updated/WhatsApp Image 2026-11-04 at 12.53.20 AM.jpeg",
+    "title": "Dal Baati Churma, Recipe",
+    "subtitle": "Iconic Rajasthani trio of crispy ghee-soaked baatis, spiced panchmel dal, and sweet churma",
+    "era": "Recipe",
+    "image": "/images_updated/dal-baati-churma-card.jpg",
     "isFullTimelinePoster": false,
     "stageNumber": 3,
     "ingredients": [
-      "Whole wheat flour",
-      "Panchmel lentils (Five dals)",
-      "Pure cow ghee",
-      "Ajwain seeds",
-      "Jaggery / Bura",
-      "Cardamom"
+      "Coarse whole wheat flour (atta)",
+      "Sooji (semolina)",
+      "Pure desi ghee",
+      "Ajwain (carom seeds)",
+      "Panchmel dal (five lentils)",
+      "Hing (asafoetida)",
+      "Cumin and mustard seeds",
+      "Green chillies and ginger",
+      "Jaggery or bura (powdered sugar)",
+      "Cardamom powder"
+    ]
+  },
+  {
+    "id": "info-laal-maas-1",
+    "dishId": "laal-maas",
+    "title": "Laal Maas, Origin (Birth of the food)",
+    "subtitle": "Fiery red meat curry of Rajasthan, originally cooked in Rajput royal hunting camps.",
+    "era": "Birth of the food",
+    "image": "/images_updated/laal-maas-card.jpg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 1,
+    "ingredients": []
+  },
+  {
+    "id": "info-laal-maas-2",
+    "dishId": "laal-maas",
+    "title": "Laal Maas, Evolution of Food",
+    "subtitle": "From wild game braise in curd and chillies to slow-cooked mutton bhuna with Dhungar smoke.",
+    "era": "Evolution of Food",
+    "image": "/images/dishes/laal-maas-1.png",
+    "isFullTimelinePoster": false,
+    "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-laal-maas-3",
+    "dishId": "laal-maas",
+    "title": "Laal Maas, Recipe",
+    "subtitle": "Royal Rajasthani fiery scarlet mutton curry slow-braised with smoky Mathania chillies and pure ghee.",
+    "era": "Recipe",
+    "image": "/images_updated/laal-maas-card.jpg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 3,
+    "ingredients": [
+      "Mutton (goat meat on the bone)",
+      "Mathania dry red chillies",
+      "Pure desi ghee",
+      "Garlic paste",
+      "Whisked curd (yoghurt)",
+      "Sliced onions",
+      "Whole spices (black cardamom, cloves, cinnamon)",
+      "Coriander powder",
+      "Turmeric powder",
+      "Charcoal lump & clove (for Dhungar smoke)"
     ]
   },
   {

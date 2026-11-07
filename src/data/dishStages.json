@@ -6753,108 +6753,90 @@
       "dishName": "Dal Baati Churma",
       "state": "Rajasthan",
       "classification": "State",
-      "confidence": "regional-tradition",
+      "confidence": "documented",
       "sources": [
         "regional-food-writing",
         "oral-tradition"
       ],
-      "stageCount": 4,
+      "stageCount": 3,
       "stages": [
         {
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Dal Baati Churma in the food geography of Rajasthan",
-          "narrative": "Rajasthan's deserts and princely courts developed water-sparse cooking, dried beans and berries, gram flour, ghee-rich sweets and slow-cooked meat curries. Dal Baati Churma is a bread or grain preparation associated with the Rajasthan region. It belongs to the bread or grain preparation tradition of Rajasthan and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Dal Baati Churma, Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Dal Baati Churma in Mewar, Rajasthan",
+          "narrative": "Dal baati churma is a Rajasthani trio of baked wheat balls (baati), lentil dal and a sweet crumble (churma). It is traditionally linked to the Mewar kingdom and its founder Bappa Rawal, and to the Guhilot clan, for whom baati is said to have been a wartime meal made from unsalted wheat, ghee and camel milk. A popular story says Rajput soldiers buried dough balls under hot sand before battle and dug out the baked baati on their return. The dal is said to have come later, and churma is said to have started when a cook accidentally poured sugarcane juice on baati, or when women soaked hard baati in jaggery water to keep it soft. These are folk accounts without documentary proof, and no date is given.",
           "details": [
-            "Geographical & cultural origin: the Rajasthan region, in Rajasthan.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: It belongs to the bread or grain preparation tradition of Rajasthan and is embedded in household, festival and regional food practice.",
-            "Cultural significance: Hard wheat dumplings baked over dried cow-dung embers and cracked open into pools of piping hot ghee, paired with five-lentil panchmel dal and sweet powdered wheat churma."
+            "Origin in Mewar: wheat dough balls baked until hard, then dressed with ghee and eaten with curd or buttermilk.",
+            "Traditional cookware: None: dough balls baked in hot sand (believed), later over an open fire.",
+            "Traditional heat source: Sun-heated sand (believed); open fire fuelled by wood and dried cow dung.",
+            "Cooking method: slow baking in sand or embers, with no dal and no sweet churma at first.",
+            "Ingredients known in this epoch: Wheat flour, Ghee, Milk (camel milk in one account), Curd or buttermilk, Sugarcane juice or jaggery (for churma)."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Rajasthan. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Homegrown, \"Dal Baati Churma: The Origin Of The Iconic Rajasthani Dish\"; The Better India; Wikipedia; Whisk Affair.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Dal Baati Churma is built from",
-          "narrative": "The recipe centres on Whole wheat flour, Panchmel lentils (Five dals), Pure cow ghee, Ajwain seeds, Jaggery / Bura and Cardamom. These are the staple grains, pulses, vegetables, spices or dairy products of Rajasthan; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Dal Baati Churma, Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Baking method: Then - buried in sun-heated sand or baked over open cow-dung / wood embers | Now - modern electric baati ovens, gas tandoors, and convection ovens\nDal pairing: Then - eaten simply with curd or buttermilk, with no dal | Now - served with rich Panchmel dal (five-lentil stew) tempered with hing and ghee\nChurma sweetness: Then - accidental soaking in sugarcane juice or jaggery water to soften hard baati | Now - decadent sweet confection of crushed baati fried in desi ghee, sugar / bura, cardamom, and dry fruits\nVessel: Then - open earthen pit or embers | Now - baati gas cookers, heavy kadhais, and pressure cookers\nFat used: Then - camel milk and rustic local cow ghee | Now - pure premium desi cow ghee, with baatis cracked open and completely soaked\nFlour: Then - coarse whole wheat (atta) with no leavening | Now - coarse wheat flour blended with sooji (semolina) and ajwain for crisp texture\nOccasion: Then - wartime survival ration for Rajput armies | Now - signature royal thali feast of Rajasthan, served at weddings, festivals, and celebrations",
           "details": [
-            "Principal ingredient: Whole wheat flour.",
-            "Principal ingredient: Panchmel lentils (Five dals).",
-            "Principal ingredient: Pure cow ghee.",
-            "Principal ingredient: Ajwain seeds.",
-            "Principal ingredient: Jaggery / Bura.",
-            "Principal ingredient: Cardamom.",
-            "Regional & seasonal ingredients: Rajasthan's deserts and princely courts developed water-sparse cooking, dried beans and berries, gram flour, ghee-rich sweets and slow-cooked meat curries.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Baking method: Then - buried in sun-heated sand or baked over open cow-dung / wood embers | Now - modern electric baati ovens, gas tandoors, and convection ovens",
+            "Dal pairing: Then - eaten simply with curd or buttermilk, with no dal | Now - served with rich Panchmel dal (five-lentil stew) tempered with hing and ghee",
+            "Churma sweetness: Then - accidental soaking in sugarcane juice or jaggery water to soften hard baati | Now - decadent sweet confection of crushed baati fried in desi ghee, sugar / bura, cardamom, and dry fruits",
+            "Vessel: Then - open earthen pit or embers | Now - baati gas cookers, heavy kadhais, and pressure cookers",
+            "Fat used: Then - camel milk and rustic local cow ghee | Now - pure premium desi cow ghee, with baatis cracked open and completely soaked",
+            "Flour: Then - coarse whole wheat (atta) with no leavening | Now - coarse wheat flour blended with sooji (semolina) and ajwain for crisp texture",
+            "Occasion: Then - wartime survival ration for Rajput armies | Now - signature royal thali feast of Rajasthan, served at weddings, festivals, and celebrations"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Homegrown; The Better India; Wikipedia; Whisk Affair.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Dal Baati Churma is made",
-          "narrative": "The defining technique is Sand / Ember Baking & Saturated Ghee Dunking — Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Dal Baati Churma, Recipe",
+          "era": "Recipe",
+          "headline": "Dal Baati Churma Recipe: 10 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: coarse whole wheat flour (atta), sooji (semolina), pure desi ghee, ajwain (carom seeds), panchmel dal (toor, chana, moong, urad, masoor), hing (asafoetida), cumin and mustard seeds, green chillies and ginger, jaggery or bura (powdered sugar), cardamom powder.\n\n1. Prepare the baati dough: Mix coarse whole wheat flour, sooji, ajwain, salt, and melted ghee (moyen). Knead with warm water into a tight, firm dough. Rest for 20 minutes.\n2. Shape the baatis: Pinch dough and roll into medium, smooth balls. Make a gentle thumb depression in the centre of each.\n3. Bake the baatis: Arrange in a preheated baati oven, gas tandoor, or 200°C convection oven. Bake for 30–35 minutes, turning occasionally, until crisp and golden brown with cracked crusts.\n4. Cook the Panchmel dal: Rinse and pressure-cook the five lentils with water, turmeric, and salt for 4 whistles until soft and creamy.\n5. Temper the dal: Heat pure desi ghee in a pan; add cumin seeds, mustard seeds, hing, chopped green chillies, ginger, and red chilli powder. Pour the bubbling tadka over the cooked dal and simmer.\n6. Make the churma: Take 4–5 hot baked baatis, crush them finely while warm (or pulse in a mixer), and pass through a coarse sieve.\n7. Sweeten the churma: In a pan, warm a little ghee, add the crushed baati crumbs, powdered sugar (bura) or jaggery, and cardamom powder. Toss well and garnish with sliced almonds.\n8. Serve hot: Gently crack each hot baati with your palms, submerge in a bowl of warm desi ghee, and serve on a royal thali with bubbling Panchmel dal, sweet churma, and garlic chutney.",
           "details": [
-            "Traditional technique: Sand / Ember Baking & Saturated Ghee Dunking — Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping.",
-            "Traditional cookware & utensils: Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth.",
-            "Key process: Sand / Ember Baking & Saturated Ghee Dunking.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: coarse whole wheat flour (atta), sooji (semolina), pure desi ghee, ajwain (carom seeds), panchmel dal (toor, chana, moong, urad, masoor), hing (asafoetida), cumin and mustard seeds, green chillies and ginger, jaggery or bura (powdered sugar), cardamom powder.",
+            "1. Prepare the baati dough: Mix coarse whole wheat flour, sooji, ajwain, salt, and melted ghee (moyen). Knead with warm water into a tight, firm dough. Rest for 20 minutes.",
+            "2. Shape the baatis: Pinch dough and roll into medium, smooth balls. Make a gentle thumb depression in the centre of each.",
+            "3. Bake the baatis: Arrange in a preheated baati oven, gas tandoor, or 200°C convection oven. Bake for 30–35 minutes, turning occasionally, until crisp and golden brown with cracked crusts.",
+            "4. Cook the Panchmel dal: Rinse and pressure-cook the five lentils with water, turmeric, and salt for 4 whistles until soft and creamy.",
+            "5. Temper the dal: Heat pure desi ghee in a pan; add cumin seeds, mustard seeds, hing, chopped green chillies, ginger, and red chilli powder. Pour the bubbling tadka over the cooked dal and simmer.",
+            "6. Make the churma: Take 4–5 hot baked baatis, crush them finely while warm (or pulse in a mixer), and pass through a coarse sieve.",
+            "7. Sweeten the churma: In a pan, warm a little ghee, add the crushed baati crumbs, powdered sugar (bura) or jaggery, and cardamom powder. Toss well and garnish with sliced almonds.",
+            "8. Serve hot: Gently crack each hot baati with your palms, submerge in a bowl of warm desi ghee, and serve on a royal thali with bubbling Panchmel dal, sweet churma, and garlic chutney."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "Traditional Rajasthani culinary practice and codified thali recipes.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
-        },
-        {
-          "number": 4,
-          "key": "plated",
-          "numeral": "IV",
-          "eyebrow": "Stage IV",
-          "title": "Modern Form, Serving & Recognition",
-          "photoLabel": "Finished dish",
-          "era": "Present day",
-          "headline": "Dal Baati Churma today",
-          "narrative": "It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common. It is presented in the serving style of Rajasthan, with the smoky, rich & decadent profile that identifies it. Hard wheat dumplings baked over dried cow-dung embers and cracked open into pools of piping hot ghee, paired with five-lentil panchmel dal and sweet powdered wheat churma.",
-          "details": [
-            "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
-            "Flavour identity: Smoky, Rich & Decadent.",
-            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
-            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
-          ],
-          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
-          "sources": [
-            "regional-food-writing",
-            "oral-tradition"
-          ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         }
       ]
     },
@@ -6863,108 +6845,90 @@
       "dishName": "Laal Maas",
       "state": "Rajasthan",
       "classification": "State",
-      "confidence": "regional-tradition",
+      "confidence": "documented",
       "sources": [
         "regional-food-writing",
         "oral-tradition"
       ],
-      "stageCount": 4,
+      "stageCount": 3,
       "stages": [
         {
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Laal Maas in the food geography of Rajasthan",
-          "narrative": "Rajasthan's deserts and princely courts developed water-sparse cooking, dried beans and berries, gram flour, ghee-rich sweets and slow-cooked meat curries. Laal Maas is a meat dish associated with the Rajasthan region. It belongs to the meat dish tradition of Rajasthan and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Laal Maas, Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Laal Maas in Rajasthan",
+          "narrative": "Laal maas (\"red meat\") is a fiery red meat curry of Rajasthan, said to have been cooked by Rajput royalty on hunting trips. Hunting parties carried few supplies, mainly chillies, garlic, yoghurt and rationed water, and marinated game such as wild boar, deer or jungle fowl in the camp kitchen. One legend says a Mewar king rejected deer meat cooked only with garlic and yoghurt because it smelled gamy, and the cook then added large amounts of chillies. Its red colour and heat come from Mathania chillies, grown near Mathania in Jodhpur. Sources date the dish to the 8th or the 10th century without evidence, so treat any date as unproven.",
           "details": [
-            "Geographical & cultural origin: the Rajasthan region, in Rajasthan.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: It belongs to the meat dish tradition of Rajasthan and is embedded in household, festival and regional food practice.",
-            "Cultural significance: The fiery crown jewel of Rajput royal hunting expeditions: game meat slow-cooked in pure ghee with an abundance of smoky Mathania red chillies, garlic paste, and crushed spices."
+            "Origin in Rajasthan: game meat marinated with garlic, chillies and yoghurt, cooked slowly over a wood fire with few ingredients.",
+            "Traditional cookware: Camp pot or earthen pot.",
+            "Traditional heat source: Open wood fire in the hunting camp.",
+            "Cooking method: wild game (jungli maas) with chillies masking the gamy smell.",
+            "Ingredients known in this epoch: Wild game (boar, deer, jungle fowl), Mathania red chillies, Garlic, Yoghurt, Water."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Rajasthan. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "The National, \"The story behind laal maas\"; The Better India, laal maas history and recipe; Wikipedia, \"Laal maas\".",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Laal Maas is built from",
-          "narrative": "The recipe centres on Mutton / Wild game, Mathania dried red chillies, Pure desi ghee, Garlic paste, Cloves and Black cardamom. These are the staple grains, pulses, vegetables, spices or dairy products of Rajasthan; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Laal Maas, Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Meat: Then - wild game (wild boar, deer, jungle fowl from royal hunts) | Now - tender goat meat / mutton on the bone\nChilli variety: Then - whole fresh or sun-dried Mathania chillies ground on camp stones | Now - Mathania chilli paste, soaked dried chillies, and Kashmiri chilli powder for deep scarlet hue\nCooking vessel: Then - rustic open camp pots (degh) or thick earthenware pots | Now - heavy-bottomed copper handis, cast-iron pots, and pressure cookers\nFat / Medium: Then - limited camp water; meat braised almost entirely in pure ghee and yoghurt | Now - pure desi ghee and mustard oil with measured water or mutton stock\nSmokiness: Then - natural open wood fire smoke from hunting camp hearths | Now - Dhungar smoking technique (charcoal embers topped with ghee and cloves under a sealed lid)\nHeat level: Then - intensely fiery to mask the gamey aroma of wild meats | Now - balanced heat with layered garlic sweetness and yoghurt tang\nAvailability: Then - exclusive royal hunting camps and Rajput palace banquets | Now - iconic heritage restaurant speciality served across Rajasthan and worldwide",
           "details": [
-            "Principal ingredient: Mutton / Wild game.",
-            "Principal ingredient: Mathania dried red chillies.",
-            "Principal ingredient: Pure desi ghee.",
-            "Principal ingredient: Garlic paste.",
-            "Principal ingredient: Cloves.",
-            "Principal ingredient: Black cardamom.",
-            "Regional & seasonal ingredients: Rajasthan's deserts and princely courts developed water-sparse cooking, dried beans and berries, gram flour, ghee-rich sweets and slow-cooked meat curries.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Meat: Then - wild game (wild boar, deer, jungle fowl from royal hunts) | Now - tender goat meat / mutton on the bone",
+            "Chilli variety: Then - whole fresh or sun-dried Mathania chillies ground on camp stones | Now - Mathania chilli paste, soaked dried chillies, and Kashmiri chilli powder for deep scarlet hue",
+            "Cooking vessel: Then - rustic open camp pots (degh) or thick earthenware pots | Now - heavy-bottomed copper handis, cast-iron pots, and pressure cookers",
+            "Fat / Medium: Then - limited camp water; meat braised almost entirely in pure ghee and yoghurt | Now - pure desi ghee and mustard oil with measured water or mutton stock",
+            "Smokiness: Then - natural open wood fire smoke from hunting camp hearths | Now - Dhungar smoking technique (charcoal embers topped with ghee and cloves under a sealed lid)",
+            "Heat level: Then - intensely fiery to mask the gamey aroma of wild meats | Now - balanced heat with layered garlic sweetness and yoghurt tang",
+            "Availability: Then - exclusive royal hunting camps and Rajput palace banquets | Now - iconic heritage restaurant speciality served across Rajasthan and worldwide"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "The National; The Better India; Wikipedia.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Laal Maas is made",
-          "narrative": "The defining technique is Slow Ghee Braise & Mathania Chilli Extraction — Meat is marinated with tenderising agents, then slow-braised, smoked or grilled. Pressure cookers and temperature-controlled ovens now shorten cooking without changing the spice sequence. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Meat is marinated with tenderising agents, then slow-braised, smoked or grilled. Pressure cookers and temperature-controlled ovens now shorten cooking without changing the spice sequence.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Laal Maas, Recipe",
+          "era": "Recipe",
+          "headline": "Laal Maas Recipe: 10 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: mutton (goat meat with bone), Mathania dry red chillies, pure desi ghee, garlic paste, whisked curd (yoghurt), sliced onions, whole spices (cloves, black cardamom, cinnamon), coriander powder, turmeric, charcoal lump with cloves (for Dhungar smoke).\n\n1. Prepare the chilli paste: Deseed Mathania red chillies, soak in warm water for 20 minutes, and grind into a smooth, vibrant red paste.\n2. Marinate the mutton: Coat mutton pieces with half of the Mathania chilli paste, garlic paste, whisked curd, turmeric, and salt. Rest for 45 minutes.\n3. Temper whole spices: Heat pure desi ghee generously in a heavy-bottomed handi; add black cardamom, green cardamom, cloves, cinnamon, and bay leaves until aromatic.\n4. Brown the onions: Add finely sliced onions and sauté on medium heat until golden brown.\n5. Bhuna the mutton: Add the marinated mutton and remaining garlic paste; roast on high heat for 10 minutes until the meat is seared and juices seal in.\n6. Slow-simmer the curry: Add the remaining Mathania chilli paste, coriander powder, and a splash of warm water. Cover tightly and cook on low heat for 45–60 minutes until mutton is melt-in-mouth tender and ghee floats on top.\n7. Infuse Dhungar smoke: Place a small metal bowl on the curry, add a red-hot charcoal piece, drop a clove and a spoonful of ghee over it, and seal the lid for 4 minutes to trap the royal campfire aroma.\n8. Serve hot: Discard charcoal and serve the glistening scarlet curry with bajra roti, hot phulkas, or steamed rice.",
           "details": [
-            "Traditional technique: Slow Ghee Braise & Mathania Chilli Extraction — Meat is marinated with tenderising agents, then slow-braised, smoked or grilled. Pressure cookers and temperature-controlled ovens now shorten cooking without changing the spice sequence.",
-            "Traditional cookware & utensils: Meat is marinated with tenderising agents, then slow-braised, smoked or grilled.",
-            "Key process: Slow Ghee Braise & Mathania Chilli Extraction.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: mutton (goat meat with bone), Mathania dry red chillies, pure desi ghee, garlic paste, whisked curd (yoghurt), sliced onions, whole spices (cloves, black cardamom, cinnamon), coriander powder, turmeric, charcoal lump with cloves (for Dhungar smoke).",
+            "1. Prepare the chilli paste: Deseed Mathania red chillies, soak in warm water for 20 minutes, and grind into a smooth, vibrant red paste.",
+            "2. Marinate the mutton: Coat mutton pieces with half of the Mathania chilli paste, garlic paste, whisked curd, turmeric, and salt. Rest for 45 minutes.",
+            "3. Temper whole spices: Heat pure desi ghee generously in a heavy-bottomed handi; add black cardamom, green cardamom, cloves, cinnamon, and bay leaves until aromatic.",
+            "4. Brown the onions: Add finely sliced onions and sauté on medium heat until golden brown.",
+            "5. Bhuna the mutton: Add the marinated mutton and remaining garlic paste; roast on high heat for 10 minutes until the meat is seared and juices seal in.",
+            "6. Slow-simmer the curry: Add the remaining Mathania chilli paste, coriander powder, and a splash of warm water. Cover tightly and cook on low heat for 45–60 minutes until mutton is melt-in-mouth tender and ghee floats on top.",
+            "7. Infuse Dhungar smoke: Place a small metal bowl on the curry, add a red-hot charcoal piece, drop a clove and a spoonful of ghee over it, and seal the lid for 4 minutes to trap the royal campfire aroma.",
+            "8. Serve hot: Discard charcoal and serve the glistening scarlet curry with bajra roti, hot phulkas, or steamed rice."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "Traditional Rajasthani royal kitchen practice and codified recipes.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
-        },
-        {
-          "number": 4,
-          "key": "plated",
-          "numeral": "IV",
-          "eyebrow": "Stage IV",
-          "title": "Modern Form, Serving & Recognition",
-          "photoLabel": "Finished dish",
-          "era": "Present day",
-          "headline": "Laal Maas today",
-          "narrative": "It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common. It is presented in the serving style of Rajasthan, with the fiery, smoky & bold profile that identifies it. The fiery crown jewel of Rajput royal hunting expeditions: game meat slow-cooked in pure ghee with an abundance of smoky Mathania red chillies, garlic paste, and crushed spices.",
-          "details": [
-            "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
-            "Flavour identity: Fiery, Smoky & Bold.",
-            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
-            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
-          ],
-          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
-          "sources": [
-            "regional-food-writing",
-            "oral-tradition"
-          ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         }
       ]
     },
