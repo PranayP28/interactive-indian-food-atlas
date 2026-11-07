@@ -1719,20 +1719,23 @@
       },
       "ingredients": {
         "library": "spice-bowls",
-        "caption": "Ingredients for Dalma: toor dal, raw banana, papaya, panch phoran.",
+        "caption": "Ingredients for Dalma: toor dal (arhar dal), raw banana, pumpkin, raw papaya, brinjal, sweet potato, panch phoron, dry red chillies, desi ghee, and fresh grated coconut.",
         "items": [
-          "Toor dal",
+          "Toor dal (arhar dal)",
           "Raw banana",
-          "Papaya",
-          "Panch phoran",
+          "Pumpkin",
+          "Raw papaya",
+          "Brinjal (eggplant)",
+          "Sweet potato",
+          "Panch phoron",
+          "Dry red chillies",
           "Desi ghee",
-          "Fresh coconut",
-          "Roasted cumin powder"
+          "Fresh grated coconut"
         ]
       },
       "method": {
         "library": "steam",
-        "caption": "Dalma — Earthen Kudua Pot Steam Layering."
+        "caption": "Dalma — Earthen Kudua Pot Steam Layering & Ghee Chhunka."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Dalma%28dish%29.jpg",
@@ -1756,14 +1759,14 @@
       },
       "ingredients": {
         "library": "spice-palette",
-        "caption": "Ingredients for Chhena Poda: fresh cow milk chhena, cardamom powder, semolina, sugar.",
+        "caption": "Ingredients for Chenna Poda: fresh or commercially prepared chenna, refined sugar, semolina, ghee, cardamom powder, cashews and raisins.",
         "items": [
-          "Fresh cow milk chhena",
-          "Cardamom powder",
+          "Fresh or commercially prepared chenna",
+          "Refined sugar",
           "Semolina",
-          "Sugar",
-          "Desi ghee",
-          "Sal tree leaves"
+          "Ghee",
+          "Cardamom powder",
+          "Cashews and raisins"
         ]
       },
       "method": {
@@ -3833,16 +3836,21 @@
           "width": 3000,
           "height": 4000
         },
-        "caption": "Cooked parboiled rice cooling in clean water with fresh curd, ginger, and green chillies.",
+        "caption": "Ingredients for Pakhala Bata: cooked rice, water, curd, salt, green chillies, onion, ginger, curry leaves, mustard seeds, dry red chilli, mustard oil, coriander leaves.",
         "label": "Ingredient reference",
         "items": [
-          "Cooked parboiled rice",
+          "Cooked rice",
           "Water",
-          "Curd (dahi)",
+          "Curd",
+          "Salt",
           "Green chillies",
+          "Onion",
           "Ginger",
           "Curry leaves",
-          "Mustard seeds"
+          "Mustard seeds",
+          "Dry red chilli",
+          "Mustard oil",
+          "Coriander leaves"
         ]
       },
       "method": {

@@ -1343,19 +1343,22 @@
       "alternateName": "Sacred Jagannath Temple Lentils",
       "state": "Odisha",
       "category": "curry-stew",
-      "description": "The divine offering of Puri Jagannath temple: yellow split pigeon peas (toor dal) simmered with raw papaya, colocasia, and plantain, tempered with roasted cumin-chilli powder and pure ghee.",
+      "description": "The sacred soul food of Odisha and Puri Jagannath temple: toor dal simmered with native country vegetables, tempered with panch phoron, dried red chillies, and pure desi ghee, and crowned with freshly grated coconut and roasted cumin-chilli powder.",
       "ingredients": [
-        "Toor dal",
+        "Toor dal (arhar dal)",
         "Raw banana",
-        "Papaya",
-        "Panch phoran",
+        "Pumpkin",
+        "Raw papaya",
+        "Brinjal (eggplant)",
+        "Sweet potato",
+        "Panch phoron",
+        "Dry red chillies",
         "Desi ghee",
-        "Fresh coconut",
-        "Roasted cumin powder"
+        "Fresh grated coconut"
       ],
       "tasteProfile": "Mild, Earthy & Sattvic",
       "era": "12th Century CE (Jagannath Mahaprasad Heritage)",
-      "keyTechnique": "Earthen Kudua Pot Steam Layering"
+      "keyTechnique": "Earthen Kudua Pot Steam Layering & Ghee Chhunka"
     },
     {
       "id": "chhena-poda",
@@ -1363,18 +1366,18 @@
       "alternateName": "Caramelized Baked Cheese",
       "state": "Odisha",
       "category": "sweet-dessert",
-      "description": "India's unique indigenous cheese dessert: fresh cow-milk chhena kneaded with sugar, cardamom, and semolina, wrapped in sal tree leaves and baked over dying coal embers until a mahogany caramel crust forms.",
+      "description": "Chenna Poda originated in Nayagarh, Odisha, traditionally made using fresh cottage cheese, sugar and semolina, slowly baked to achieve its distinctive caramelized crust and traditional flavour.",
       "ingredients": [
-        "Fresh cow milk chhena",
-        "Cardamom powder",
+        "Fresh or commercially prepared chenna",
+        "Refined sugar",
         "Semolina",
-        "Sugar",
-        "Desi ghee",
-        "Sal tree leaves"
+        "Ghee",
+        "Cardamom powder",
+        "Cashews and raisins"
       ],
-      "tasteProfile": "Caramelized, Rich & Creamy",
+      "tasteProfile": "Caramelized, Rich & Sweet",
       "era": "Early 20th Century (Nayagarh Innovation)",
-      "keyTechnique": "Sal Leaf Wrapping & Residual Coal Oven Caramelization"
+      "keyTechnique": "Controlled Earthen & Oven Baking Caramelization"
     },
     {
       "id": "pakhala",
@@ -1382,19 +1385,24 @@
       "alternateName": "Pakhala / Fermented Rice",
       "state": "Odisha",
       "category": "rice",
-      "description": "Cooked rice soaked in water overnight until lightly fermented, tempered or simply served cool with curd, green chilli, roasted vegetables and fried fish; the classic Odia summer meal.",
+      "description": "A refreshing traditional Odia rice dish made by soaking cooked rice in water, often naturally fermented and served with curd, green chillies and local accompaniments.",
       "ingredients": [
         "Cooked rice",
         "Water",
         "Curd",
-        "Green chilli",
+        "Salt",
+        "Green chillies",
+        "Onion",
         "Ginger",
         "Curry leaves",
-        "Salt"
+        "Mustard seeds",
+        "Dry red chilli",
+        "Mustard oil",
+        "Coriander leaves"
       ],
-      "tasteProfile": "Cool, Gently Sour & Comforting",
-      "era": "Odia household and temple tradition; documented in regional food writing",
-      "keyTechnique": "Overnight Rice Fermentation in Water"
+      "tasteProfile": "Cool, Gently Sour & Refreshing",
+      "era": "Traditional Odia household & summer heritage",
+      "keyTechnique": "Natural Rice Fermentation & Mustard Oil Chhunka"
     },
     {
       "id": "makki-di-roti-sarson-saag",

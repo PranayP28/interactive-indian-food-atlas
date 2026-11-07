@@ -110,7 +110,10 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           dishId === "dhokla" ||
           dishId === "undhiyu" ||
           dishId === "dal-baati-churma" ||
-          dishId === "laal-maas"
+          dishId === "laal-maas" ||
+          dishId === "dalma" ||
+          dishId === "chhena-poda" ||
+          dishId === "pakhala"
             ? "Evolution of Food"
             : "Evolution of food",
         photo: photography?.ingredients,
@@ -846,7 +849,10 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       dishId === "dhokla" ||
                       dishId === "undhiyu" ||
                       dishId === "dal-baati-churma" ||
-                      dishId === "laal-maas") &&
+                      dishId === "laal-maas" ||
+                      dishId === "pakhala" ||
+                      dishId === "chhena-poda" ||
+                      dishId === "dalma") &&
                       stageNum === 3 && (
                       <div className="pt-2 relative z-30">
                         <a
@@ -881,6 +887,12 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                               ? "https://youtu.be/D_fYk8mBaF4?si=3DBkbxk0dzjxELBy"
                               : dishId === "amritsari-kulcha"
                               ? "https://www.youtube.com/watch?v=pbI8PkiSB8E"
+                              : dishId === "pakhala"
+                              ? "https://www.youtube.com/watch?v=9kjc-JMFJo8"
+                              : dishId === "chhena-poda"
+                              ? "https://www.youtube.com/watch?v=5g8hrU7sJPg"
+                              : dishId === "dalma"
+                              ? "https://www.youtube.com/watch?v=DKYz5RO1gJQ"
                               : "https://www.youtube.com/watch?v=8Fw_zWPbGog"
                           }
                           target="_blank"
@@ -923,11 +935,11 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         </div>
       </div>
 
-      {/* ── AT LAST: SKIPER-UI / SKIPER6 DETAILED GENERATION SUMMARIZER ── */}
+      {/* ── AT LAST: DETAILED GENERATION SUMMARIZER ── */}
       <div className="max-w-6xl mx-auto mt-28">
         <Skiper6Summarizer
           title={`Chronological Epoch Summarizer: ${dishName}`}
-          subtitle={`Interactive summary matrix powered by @skiper-ui/skiper6 — explore the three historical stages, their primary sources, and documented innovations.`}
+          subtitle={`Interactive summary matrix — explore the three historical stages, their primary sources, and documented innovations.`}
           members={skiper6Members}
         />
       </div>

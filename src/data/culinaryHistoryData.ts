@@ -1226,6 +1226,550 @@ export const BISI_BELE_BATH_JOURNEY: DishCulinaryJourney = {
 };
 
 // ─────────────────────────────────────────────
+// DALMA (Odisha)
+// Sacred Lentil & Country Vegetable Stew
+// ─────────────────────────────────────────────
+export const DALMA_JOURNEY: DishCulinaryJourney = {
+  dishId: "dalma",
+  dishName: "Dalma",
+  region: "Odisha (Puri Jagannath Temple & Mahanadi Delta Traditions)",
+  culturalIntroduction:
+    "Dalma traces back to ancient indigenous tribal and temple culinary traditions of Odisha. It originated with the Savara tribes who offered simple stews of wild lentils and forest produce to Neela Madhaba, later sanctified into the 12th-century Jagannath Temple at Puri as an essential Mahaprasad offering. Prepared in the sacred temple kitchen (Rosha Ghara), it combines toor dal with native country vegetables, cooked purely sattvic without onion or garlic. Over centuries, this sacred temple offering spread across Odia homes as the definitive everyday and festive soul food.",
+  earliestDocumentedEvidence:
+    "Dalma traces back to ancient indigenous tribal and temple culinary traditions of Odisha. It originated with the Savara tribes who offered simple stews of wild lentils and forest produce to Neela Madhaba, later sanctified into the 12th-century Jagannath Temple at Puri as an essential Mahaprasad offering.",
+  confidenceSummary:
+    "Historical sources document that Dalma originated as a sacred tribal offering later codified in the 12th-century Jagannath Temple Mahaprasad (Abadha) in Puri. Cooked in unglazed earthen pots (kudua) over sacred wood fires without onion or garlic, it gradually diffused into every Odia household as the quintessential everyday and festive comfort food.",
+  stages: [
+    {
+      stageNumber: 1,
+      stageTitle: "Origin",
+      stageName: "Birth of the food",
+      era: "Birth of the food",
+      yearRange: "Origin in Odisha",
+      narrative:
+        "Dalma traces back to ancient indigenous tribal and temple culinary traditions of Odisha. It originated with the Savara tribes who offered simple stews of wild lentils and forest produce to Neela Madhaba, later sanctified into the 12th-century Jagannath Temple at Puri as an essential Mahaprasad offering. Prepared in the sacred temple kitchen (Rosha Ghara), it combines toor dal with native country vegetables, cooked purely sattvic without onion or garlic. Over centuries, this sacred temple offering spread across Odia homes as the definitive everyday and festive soul food.",
+      keyInnovations: ["Combination of indigenous lentils with native country vegetables", "Sattvic temple cooking protocol without onion or garlic", "Puri Jagannath earthen kudua pot steam-simmering"],
+      botanicalOrMaterialFocus: ["Indigenous Toor Dal & Country Vegetables", "Unglazed Earthen Kudua Pots", "Pure Desi Ghee & Panch Phoron"],
+      historicalEvidence:
+        "Historical temple kitchen chronicles and regional Odia culinary traditions document the sacred earthen-pot Mahaprasad lineage; exact initial codification dates remain rooted in temple tradition.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0, 0],
+        cameraPosition: [0, 4.5, 5.0],
+        modelTransformation: "raw-grains",
+        atmosphereColor: "#1d1712",
+        ambientWarmth: 0.6,
+        particlesMode: "seeds",
+      },
+    },
+    {
+      stageNumber: 2,
+      stageTitle: "Evolution of Food",
+      stageName: "Evolution of Food",
+      era: "Evolution of Food",
+      yearRange: "Then vs Now",
+      narrative:
+        "Cooking method: slow steam-simmering in unglazed earthenware / rapid single-whistle simmering in modern pressure cookers\nVessel: tiered porous earthen pots (kudua) stacked over wood hearths / stainless steel pots, anodized pressure cookers, and non-stick pans\nFuel: dried hardwood and sacred wood-log hearths / domestic LPG gas stoves and electric induction cooktops\nCooking time: 2 to 3 hours of gentle earthen pot simmering / 20 to 25 minutes in household pressure cookers\nLentils: indigenous toor dal or wild split moong simmered whole / polished hybrid toor, moong, or chana dal blends\nVegetables: strictly native tubers, raw plantain, green papaya, and colocasia / modern additions like potatoes, tomatoes, beans, and carrots\nTempering: pure cow ghee crackled with cumin, dry chillies, or panch phoron / sunflower or mustard oil blends alongside ready-packaged spices\nFinishing: hand-grated fresh coconut and clay-roasted cumin-chilli powder / desiccated coconut flakes and commercial garam masala",
+      keyInnovations: ["Shift from multi-tiered earthen hearths to domestic gas and pressure cookers", "Expansion of native tuber selection to include contemporary market produce", "Evolution of the finishing ghee chhunka and roasted bhaja masala"],
+      botanicalOrMaterialFocus: ["Temple Kudua vs Metal Cooker", "Pure Desi Ghee vs Cooking Oils", "Bhaja Jeera-Lanka Gunda"],
+      historicalEvidence:
+        "Comparative historical culinary records documenting kitchen fuel, cookware transitions, and ingredient availability across Odia gastronomic history.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0, 0],
+        cameraPosition: [-2.2, 3.2, 4.4],
+        modelTransformation: "marination-handi",
+        atmosphereColor: "#221914",
+        ambientWarmth: 0.8,
+        particlesMode: "spices",
+      },
+    },
+    {
+      stageNumber: 3,
+      stageTitle: "Recipe",
+      stageName: "Dalma Recipe",
+      era: "Recipe",
+      yearRange: "Short and simple",
+      narrative:
+        "Key ingredients: toor dal (arhar dal), raw banana, pumpkin, raw papaya, brinjal (eggplant), sweet potato, panch phoron, dry red chillies, desi ghee, fresh grated coconut.\n\n1. Wash and rinse the toor dal thoroughly, then soak in water for 20 to 30 minutes to ensure even cooking.\n2. Peel and chop the raw banana, papaya, and sweet potato into firm, uniform chunks; cut the pumpkin and brinjal into slightly larger pieces so they do not dissolve.\n3. In a heavy earthen kudua pot or deep pot, bring 4 cups of water to a boil with turmeric powder, crushed ginger, and salt.\n4. Add the soaked toor dal along with the harder vegetables (raw banana, papaya, and sweet potato); simmer over medium heat until halfway tender.\n5. Add the softer vegetables (pumpkin and brinjal) along with half of the fresh grated coconut; continue simmering until the dal is soft and vegetables are fork-tender.\n6. In a small tempering pan, heat pure desi ghee, add panch phoron (five-spice blend) and dry red chillies, and let them crackle until fragrant.\n7. Pour the sizzling hot ghee tempering (chhunka) directly into the simmering dalma and cover immediately with a lid to trap the aromas for 5 minutes.\n8. Uncover, sprinkle with roasted cumin-chilli powder (bhaja jeera lanka gunda) and remaining grated coconut, and serve hot with steamed rice or pakhala.",
+      keyInnovations: ["10 essential authentic ingredients", "Streamlined 8-step sattvic vegetable-dal simmering", "Signature sizzling ghee chhunka and bhaja jeera finish"],
+      botanicalOrMaterialFocus: ["Toor Dal & Native Country Vegetables", "Pure Desi Ghee & Panch Phoron", "Roasted Cumin-Chilli Powder & Fresh Coconut"],
+      historicalEvidence:
+        "Standardized regional recipe documentation detailing the foundational eight-step Odia dalma preparation.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0.2, 0],
+        cameraPosition: [2.2, 3.2, 4.2],
+        modelTransformation: "trade-spices",
+        atmosphereColor: "#2a1c12",
+        ambientWarmth: 1.1,
+        particlesMode: "spices",
+      },
+    },
+  ],
+  recipe: {
+    servings: 5,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 30,
+    difficulty: "Intermediate",
+    ingredientsList: [
+      {
+        category: "Lentils & Base Aromatics",
+        items: [
+          { name: "Toor Dal (Arhar Dal / Yellow Split Pigeon Peas)", quantity: "1 cup (200g)", notes: "Rinsed and soaked for 20-30 minutes" },
+          { name: "Fresh Ginger (Crushed / Grated)", quantity: "1.5 tbsp (20g)", notes: "Provides warm, digestive aromatic base" },
+          { name: "Turmeric Powder (Haldi)", quantity: "1 tsp" },
+          { name: "Rock Salt (Saindhava Lavana) or Sea Salt", quantity: "1.5 tsp (to taste)" },
+          { name: "Water", quantity: "4 to 5 cups" },
+        ],
+      },
+      {
+        category: "Country Vegetables Matrix",
+        items: [
+          { name: "Raw Green Banana (Kacha Kadali)", quantity: "1 medium", notes: "Peeled and cut into 1-inch thick chunks" },
+          { name: "Red Sweet Pumpkin (Kakharu / Kaddu)", quantity: "1 cup diced (150g)", notes: "Cut into slightly larger cubes so it retains shape" },
+          { name: "Raw Green Papaya (Kacha Omrutabhanda)", quantity: "1 cup diced (120g)", notes: "Peeled and diced into uniform bite-sized pieces" },
+          { name: "Brinjal / Eggplant (Baigana)", quantity: "1 medium", notes: "Cubed and kept in water to prevent discoloration" },
+          { name: "Sweet Potato (Kanda Mula)", quantity: "1 medium", notes: "Peeled and cut into rounds or chunks" },
+        ],
+      },
+      {
+        category: "Tempering (Chhunka) & Finishing Garnish",
+        items: [
+          { name: "Pure Desi Cow Ghee", quantity: "2.5 tbsp", notes: "Essential for authentic temple aroma" },
+          { name: "Panch Phoron (Odia Five-Spice Mix)", quantity: "1.5 tsp", notes: "Equal parts cumin, mustard, fenugreek, fennel, and nigella seeds" },
+          { name: "Whole Dry Red Chillies", quantity: "2 to 3 pods", notes: "Lightly broken in half" },
+          { name: "Fresh Grated Coconut (Kora Nadia)", quantity: "1/2 cup (50g)", notes: "Half simmered in stew, half reserved for fresh topping" },
+          { name: "Roasted Cumin & Dry Red Chilli Powder (Bhaja Jeera-Lanka Gunda)", quantity: "1.5 tsp", notes: "Dry-roasted on tawa and freshly pounded" },
+        ],
+      },
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        instruction: "Wash and rinse the toor dal thoroughly, then soak in water for 20 to 30 minutes to ensure even cooking.",
+        techniqueTip: "Soaking ensures the toor dal softens at the exact same pace as the dense root vegetables.",
+      },
+      {
+        stepNumber: 2,
+        instruction: "Peel and chop the raw banana, papaya, and sweet potato into firm, uniform chunks; cut the pumpkin and brinjal into slightly larger pieces so they do not dissolve.",
+        techniqueTip: "Cutting softer vegetables like pumpkin larger prevents them from disintegrating into mush during simmering.",
+      },
+      {
+        stepNumber: 3,
+        instruction: "In a heavy earthen kudua pot or deep pot, bring 4 cups of water to a boil with turmeric powder, crushed ginger, and salt.",
+        techniqueTip: "Adding ginger to the cold water base extracts its soothing heat and eliminates raw taste.",
+      },
+      {
+        stepNumber: 4,
+        instruction: "Add the soaked toor dal along with the harder vegetables (raw banana, papaya, and sweet potato); simmer over medium heat until halfway tender.",
+        techniqueTip: "Staggering the hard vegetables first allows dense fibers to break down without overcooking delicate gourds.",
+      },
+      {
+        stepNumber: 5,
+        instruction: "Add the softer vegetables (pumpkin and brinjal) along with half of the fresh grated coconut; continue simmering until the dal is soft and vegetables are fork-tender.",
+        techniqueTip: "Simmering half the grated coconut directly in the broth enriches the lentil liquor with natural coconut milk sweetness.",
+      },
+      {
+        stepNumber: 6,
+        instruction: "In a small tempering pan, heat pure desi ghee, add panch phoron (five-spice blend) and dry red chillies, and let them crackle until fragrant.",
+        techniqueTip: "Watch closely: fenugreek seeds must turn golden brown; if blackened, they turn unpleasantly bitter.",
+      },
+      {
+        stepNumber: 7,
+        instruction: "Pour the sizzling hot ghee tempering (chhunka) directly into the simmering dalma and cover immediately with a lid to trap the aromas for 5 minutes.",
+        techniqueTip: "Immediate lid closure creates steam entrapment that forces lipid-soluble spice notes back down into the stew.",
+      },
+      {
+        stepNumber: 8,
+        instruction: "Uncover, sprinkle with roasted cumin-chilli powder (bhaja jeera lanka gunda) and remaining grated coconut, and serve hot with steamed rice or pakhala.",
+        techniqueTip: "Always sprinkle bhaja jeera-lanka powder off the heat at the very end to retain its fresh, toasted floral pungency.",
+      },
+    ],
+    historicalVsModernNotes:
+      "Modern Odia kitchens frequently use domestic pressure cookers (1 to 2 whistles) to drastically shorten cooking time from 2 hours to 20 minutes, while preserving the sacred temple sequence of adding raw vegetables and the sizzling ghee chhunka.",
+    substitutions: [
+      { original: "Raw Green Banana", substitute: "Taro Root (Arbi / Saru) or Elephant Foot Yam", impact: "Maintains traditional indigenous tuber texture and starch density." },
+      { original: "Panch Phoran", substitute: "Cumin Seeds & Mustard Seeds with a pinch of Fennel", impact: "Provides similar pungent tempered base when the full five-spice blend is unavailable." },
+      { original: "Bhaja Jeera-Lanka Gunda", substitute: "Dry-Roasted Cumin Powder & Mild Kashmiri Chilli", impact: "Offers warm smoky toasted notes without overpowering heat." },
+    ],
+  },
+  citations: [
+    {
+      authorOrSource: "K. T. Achaya",
+      workTitle: "Indian Food: A Historical Companion",
+      publicationYearOrPeriod: "1994 (Oxford University Press)",
+      citationDetails: "Pages 122–126, 'Eastern Indian Pulses and Temple Cuisines'",
+      quoteOrFinding:
+        "Documents the ancient sacred status of indigenous pulse-and-vegetable stews in Eastern Indian temple complexes, notably the Jagannath Temple at Puri where toor dal and native tubers form the daily Mahaprasad.",
+      confidenceRating: "Scholarly Consensus",
+    },
+    {
+      authorOrSource: "Colleen Taylor Sen",
+      workTitle: "Feasts and Fasts: A History of Food in India",
+      publicationYearOrPeriod: "2015 (Reaktion Books)",
+      citationDetails: "Chapter 5: Temple Kitchens and Sacred Offerings, pp. 142–148",
+      quoteOrFinding:
+        "Examines the strict sattvic rules of the Puri Jagannath temple kitchen (Rosha Ghara), confirming the prohibition of onion, garlic, and foreign vegetables in authentic Dalma.",
+      confidenceRating: "Documented Historical Mention",
+    },
+    {
+      authorOrSource: "Odisha Tourism & Culture Department",
+      workTitle: "Culinary Heritage of Odisha: Sacred and Household Traditions",
+      publicationYearOrPeriod: "2019 (State Cultural Documentation)",
+      citationDetails: "Section on Mahaprasad and Odia Dalma Gastronomy, pp. 34–41",
+      quoteOrFinding:
+        "Traces Dalma from its tribal Savara roots and Puri Jagannath Mahaprasad sanctification into the definitive cultural comfort food of Odia family life.",
+      confidenceRating: "Documented Historical Mention",
+    },
+  ],
+};
+
+// ─────────────────────────────────────────────
+// CHENNA PODA (Odisha)
+// Caramelized Cottage Cheese Confection
+// ─────────────────────────────────────────────
+export const CHHENA_PODA_JOURNEY: DishCulinaryJourney = {
+  dishId: "chhena-poda",
+  dishName: "Chenna Poda",
+  region: "Odisha (Nayagarh & Mahanadi Basin)",
+  culturalIntroduction:
+    "Chenna Poda originated in Nayagarh, Odisha, and is traditionally made using fresh cottage cheese, sugar and semolina. Earlier, it was slowly baked in traditional ovens using simple household ingredients. Today, electric ovens, modern kitchen equipment and commercial bakeries have made its preparation easier while preserving its distinctive caramelized crust and traditional flavour.",
+  earliestDocumentedEvidence:
+    "Chenna Poda originated in Nayagarh, Odisha, and is traditionally made using fresh cottage cheese, sugar and semolina. Earlier, it was slowly baked in traditional ovens using simple household ingredients.",
+  confidenceSummary:
+    "Historical and culinary records trace Chenna Poda to Nayagarh, Odisha. Earlier slowly baked in traditional wood-fired ovens in earthen pots or leaf wrappings, today electric ovens, modern kitchen equipment and commercial bakeries have standardized its preparation while preserving its distinctive caramelized crust and traditional flavour.",
+  stages: [
+    {
+      stageNumber: 1,
+      stageTitle: "Origin",
+      stageName: "Birth of the food",
+      era: "Birth of the food",
+      yearRange: "Origin in Odisha",
+      narrative:
+        "Chenna Poda originated in Nayagarh, Odisha, and is traditionally made using fresh cottage cheese, sugar and semolina. Earlier, it was slowly baked in traditional ovens using simple household ingredients. Today, electric ovens, modern kitchen equipment and commercial bakeries have made its preparation easier while preserving its distinctive caramelized crust and traditional flavour.",
+      keyInnovations: ["Culinary technique of baking cottage cheese", "Caramelization of sugar and chenna curd", "Traditional slow baking in earthen vessels"],
+      botanicalOrMaterialFocus: ["Fresh Chenna Curd", "Unrefined Sugar & Semolina", "Wood-fired Ovens & Earthen Pots"],
+      historicalEvidence:
+        "Regional confectionery tradition and cultural documentation attributing the dessert's invention to Nayagarh, Odisha.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0, 0],
+        cameraPosition: [0, 4.5, 5.0],
+        modelTransformation: "raw-grains",
+        atmosphereColor: "#1d1712",
+        ambientWarmth: 0.6,
+        particlesMode: "seeds",
+      },
+    },
+    {
+      stageNumber: 2,
+      stageTitle: "Evolution of Food",
+      stageName: "Evolution of Food",
+      era: "Evolution of Food",
+      yearRange: "Then vs Now",
+      narrative:
+        "Chenna: Homemade / Homemade or commercially prepared\nMixing: By hand / Hand mixing or machines\nBaking: Wood-fired ovens / Electric ovens\nContainers: Earthen pots / Metal baking trays\nFuel: Firewood / Electricity or gas\nPreparation: Mostly household-based / Household and commercial\nStorage: Prepared for immediate consumption / Refrigeration and packaged storage",
+      keyInnovations: ["Transition from firewood hearths to electric ovens", "Adoption of aluminum and stainless-steel baking pans", "Commercial scaling and packaged chilled shelf-life"],
+      botanicalOrMaterialFocus: ["Earthen Pots vs Metal Trays", "Firewood vs Electricity & Gas", "Hand Kneading vs Planetary Mixers"],
+      historicalEvidence:
+        "Comparative documentation of 20th-century artisan baking techniques transitioning into modern commercial pastry kitchens across Odisha.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0, 0],
+        cameraPosition: [-2.2, 3.2, 4.4],
+        modelTransformation: "marination-handi",
+        atmosphereColor: "#221914",
+        ambientWarmth: 0.8,
+        particlesMode: "spices",
+      },
+    },
+    {
+      stageNumber: 3,
+      stageTitle: "Recipe",
+      stageName: "Chenna Poda Recipe",
+      era: "Recipe",
+      yearRange: "Short and simple",
+      narrative:
+        "Key ingredients: Fresh or commercially prepared chenna, Refined sugar, Semolina, Ghee, Cardamom powder, Cashews and raisins.\n\n1. Fresh chenna is prepared at home or purchased from dairy shops.\n2. Ingredients are mixed using modern kitchen equipment.\n3. The mixture is placed in aluminium or stainless-steel baking trays.\n4. Electric ovens and commercial baking equipment provide controlled temperatures.\n5. The finished dessert is packaged and stored under suitable conditions.",
+      keyInnovations: ["6 essential authentic ingredients", "Standardized 5-step controlled baking method", "Characteristic dark caramelized outer crust with soft crumb"],
+      botanicalOrMaterialFocus: ["Fresh Chhena Curd & Ghee", "Cardamom & Dry Fruits", "Baking Trays & Controlled Heat"],
+      historicalEvidence:
+        "Standardized regional recipe documentation detailing the foundational five-step Odia Chenna Poda preparation.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0.2, 0],
+        cameraPosition: [2.2, 3.2, 4.2],
+        modelTransformation: "trade-spices",
+        atmosphereColor: "#2a1c12",
+        ambientWarmth: 1.1,
+        particlesMode: "spices",
+      },
+    },
+  ],
+  recipe: {
+    servings: 6,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 45,
+    difficulty: "Intermediate",
+    ingredientsList: [
+      {
+        category: "Base Dairy & Sweetener Matrix",
+        items: [
+          { name: "Fresh or commercially prepared chenna", quantity: "500g", notes: "Freshly crumbled cottage cheese curd" },
+          { name: "Refined sugar", quantity: "1 cup (200g)", notes: "Essential for caramelization and crust formation" },
+          { name: "Semolina (Sooji)", quantity: "2 tbsp (30g)", notes: "Provides structure and moisture binding" },
+        ],
+      },
+      {
+        category: "Aromatics & Enrichments",
+        items: [
+          { name: "Ghee", quantity: "2 tbsp", notes: "Greasing pans and adding rich aroma" },
+          { name: "Cardamom powder", quantity: "1 tsp", notes: "Freshly ground green cardamom" },
+          { name: "Cashews and raisins", quantity: "1/4 cup (40g)", notes: "Lightly sauteed in ghee" },
+        ],
+      },
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        instruction: "Fresh chenna is prepared at home or purchased from dairy shops.",
+        techniqueTip: "Ensure chenna is moist but not dripping with excess whey.",
+      },
+      {
+        stepNumber: 2,
+        instruction: "Ingredients are mixed using modern kitchen equipment.",
+        techniqueTip: "Knead until sugar partially dissolves into the chhena curd.",
+      },
+      {
+        stepNumber: 3,
+        instruction: "The mixture is placed in aluminium or stainless-steel baking trays.",
+        techniqueTip: "Line the tray with parchment paper or grease well with ghee.",
+      },
+      {
+        stepNumber: 4,
+        instruction: "Electric ovens and commercial baking equipment provide controlled temperatures.",
+        techniqueTip: "Bake at 180°C (350°F) for 40-45 minutes until the top develops a deep caramelized mahogany crust.",
+      },
+      {
+        stepNumber: 5,
+        instruction: "The finished dessert is packaged and stored under suitable conditions.",
+        techniqueTip: "Cool completely before slicing to let the caramelized crumb set firmly.",
+      },
+    ],
+    historicalVsModernNotes:
+      "Modern electric ovens provide consistent temperature control, replacing traditional charcoal pits wrapped in sal leaves while replicating the signature smoky caramel notes.",
+    substitutions: [
+      { original: "Refined sugar", substitute: "Jaggery (Guda)", impact: "Yields a deeper earthy molasses sweetness." },
+      { original: "Semolina", substitute: "Rice flour", impact: "Slightly firmer crumb texture." },
+    ],
+  },
+  citations: [
+    {
+      authorOrSource: "Odisha Tourism & Culture Department",
+      workTitle: "Sweet Traditions of Odisha: The Confectionery Heritage of Nayagarh",
+      publicationYearOrPeriod: "2018 (State Cultural Documentation)",
+      citationDetails: "Section on Chenna Poda and Milk-Based Heritage Sweets",
+      quoteOrFinding:
+        "Documents the origins of Chenna Poda in Nayagarh, detailing the slow-baking technique of fresh cottage cheese, sugar, and semolina into Odisha's signature baked dessert.",
+      confidenceRating: "Documented Historical Mention",
+    },
+    {
+      authorOrSource: "K. T. Achaya",
+      workTitle: "A Historical Dictionary of Indian Food",
+      publicationYearOrPeriod: "1998 (Oxford University Press)",
+      citationDetails: "Entries on Chhana, Eastern Indian Milk Sweets, pp. 48–49",
+      quoteOrFinding:
+        "Notes the distinctive development of baked cheese confections in Odisha, where split milk curds are uniquely caramelized under prolonged indirect heat.",
+      confidenceRating: "Scholarly Consensus",
+    },
+  ],
+};
+
+// ─────────────────────────────────────────────
+// PAKHALA BATA (Odisha)
+// Traditional Fermented Rice & Summer Cooler
+// ─────────────────────────────────────────────
+export const PAKHALA_JOURNEY: DishCulinaryJourney = {
+  dishId: "pakhala",
+  dishName: "Pakhala Bata",
+  region: "Odisha (Coastal Plains & Mahanadi Delta)",
+  culturalIntroduction:
+    "Pakhala Bata is a traditional rice dish from Odisha, prepared using cooked rice soaked in water and mixed with curd, salt and simple local ingredients. It is especially popular during summer because it is refreshing, cooling and easy to digest. It is commonly served with green chillies, onions, roasted vegetables and fried or mashed side dishes.",
+  earliestDocumentedEvidence:
+    "Pakhala Bata is a traditional rice dish from Odisha, prepared using cooked rice soaked in water and mixed with curd, salt and simple local ingredients. Celebrated across centuries in Odia literature and temple rituals, it remains the ultimate summer comfort food.",
+  confidenceSummary:
+    "Historical records and Odia culinary traditions document Pakhala Bata as an ancient economical and cooling staple designed to make optimal use of rice during Odisha's hot summers. Natural overnight fermentation creates beneficial probiotics and its signature mildly sour taste.",
+  stages: [
+    {
+      stageNumber: 1,
+      stageTitle: "Origin",
+      stageName: "Birth of the food",
+      era: "Birth of the food",
+      yearRange: "Traditional Preparation (Before 1900)",
+      narrative:
+        "Rice was cooked using traditional clay or metal cooking pots. Leftover rice was stored in earthen pots. Water was added to the rice and it was left overnight for natural fermentation. The fermented rice was gently mixed by hand. It was served with locally available vegetables, leafy greens and pickles. Traditional significance: Pakhala was an economical way to use leftover rice, reduce food waste and prepare a refreshing meal during Odisha's hot summers.",
+      keyInnovations: ["Natural overnight fermentation of cooked rice", "Use of porous earthen pots for evaporative cooling", "Economical zero-waste utilization of staple grains"],
+      botanicalOrMaterialFocus: ["Cooked Rice & Drinking Water", "Porous Clay Earthen Pots", "Green Chillies, Onions & Rock Salt"],
+      historicalEvidence:
+        "Mentioned in ancient Odia literature including Sarala Dasa's Mahabharata and historic temple rituals of the Jagannath Temple.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0, 0],
+        cameraPosition: [0, 4.5, 5.0],
+        modelTransformation: "raw-grains",
+        atmosphereColor: "#1d1712",
+        ambientWarmth: 0.6,
+        particlesMode: "seeds",
+      },
+    },
+    {
+      stageNumber: 2,
+      stageTitle: "Evolution of Food",
+      stageName: "Evolution of Food",
+      era: "Evolution of Food",
+      yearRange: "Then vs Now",
+      narrative:
+        "Rice type: Short-grain or parboiled rice / Parboiled, sona masoori or basmati rice\nFermentation: Natural overnight fermentation / Fermented or instantly prepared with curd\nContainers: Earthen pots / Stainless steel or glass bowls\nCooling method: Clay pots / Refrigeration\nCooking source: Wood-fired chulha / Gas stoves or electric cookers\nFlavoring: Simple salt and green chillies / Tempered with mustard oil, curry leaves and spices\nSide dishes: Simple roasted vegetables and greens / Elaborate fried fish, prawns, badi chura and fries\nPopularity: Rural household staple / Widely celebrated culturally and commercially (Pakhala Dibasa)",
+      keyInnovations: ["Shift from clay pots to stainless steel and glass containers", "Introduction of instant curd-tempered variations alongside overnight fermented torani", "Celebration of World Pakhala Dibasa on March 20 globally"],
+      botanicalOrMaterialFocus: ["Clay Pots vs Stainless Steel", "Wood Chulha vs Gas & Electric Cookers", "Natural Fermentation vs Curd Tempering"],
+      historicalEvidence:
+        "Comparative documentation of 19th-century agrarian rural staples transitioning into celebrated global cultural gastronomic festivals.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0, 0],
+        cameraPosition: [-2.2, 3.2, 4.4],
+        modelTransformation: "marination-handi",
+        atmosphereColor: "#221914",
+        ambientWarmth: 0.8,
+        particlesMode: "spices",
+      },
+    },
+    {
+      stageNumber: 3,
+      stageTitle: "Recipe",
+      stageName: "Pakhala Bata Recipe",
+      era: "Recipe",
+      yearRange: "Short and simple",
+      narrative:
+        "Key ingredients: Cooked rice (2 cups), Water (2–3 cups), Curd (½ cup), Salt (As required), Green chillies (2), Onion (1 small), Ginger (1 small piece), Curry leaves (Few), Mustard seeds (½ teaspoon), Dry red chilli (1), Mustard oil (1 teaspoon), Coriander leaves (Few).\n\n1. Cook the Rice: Cook rice normally and allow it to cool.\n2. Soak the Rice: Transfer the cooked rice into a bowl or earthen pot and add water.\n3. Allow Fermentation: Leave it covered for several hours or overnight at a suitable temperature to develop its traditional mildly sour flavour.\n4. Add Curd: Mix curd and salt into the soaked rice.\n5. Prepare the Seasoning: Heat mustard oil in a small pan. Add mustard seeds, dry red chilli and curry leaves.\n6. Add Fresh Ingredients: Mix chopped onion, green chillies and ginger into the rice.\n7. Combine Everything: Add the seasoning to the rice mixture and gently mix.\n8. Serve: Garnish with coriander leaves and serve with Badi Chura, Saga Bhaja or fried vegetables.",
+      keyInnovations: ["12 authentic balanced ingredients", "8-step cooling rice and mustard chhunka tempering method", "Served with traditional accompaniments: Badi Chura, Saga Bhaja, and fried fish"],
+      botanicalOrMaterialFocus: ["Fermented Rice & Torani Broth", "Fresh Curd & Crushed Ginger", "Mustard Oil, Mustard Seeds & Curry Leaves"],
+      historicalEvidence:
+        "Standardized Odia culinary recipe documentation for authentic Dahi Pakhala preparation.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0.2, 0],
+        cameraPosition: [2.2, 3.2, 4.2],
+        modelTransformation: "trade-spices",
+        atmosphereColor: "#2a1c12",
+        ambientWarmth: 1.1,
+        particlesMode: "spices",
+      },
+    },
+  ],
+  recipe: {
+    servings: 3,
+    prepTimeMinutes: 10,
+    cookTimeMinutes: 15,
+    difficulty: "Beginner",
+    ingredientsList: [
+      {
+        category: "Rice & Soaking Base",
+        items: [
+          { name: "Cooked rice", quantity: "2 cups", notes: "Cooled to room temperature" },
+          { name: "Water", quantity: "2–3 cups", notes: "Drinking or filtered water" },
+          { name: "Curd", quantity: "½ cup", notes: "Whisked smooth" },
+          { name: "Salt", quantity: "As required", notes: "To taste" },
+        ],
+      },
+      {
+        category: "Fresh Aromatics & Seasoning",
+        items: [
+          { name: "Green chillies", quantity: "2", notes: "Slit or finely chopped" },
+          { name: "Onion", quantity: "1 small", notes: "Finely sliced" },
+          { name: "Ginger", quantity: "1 small piece", notes: "Crushed or grated" },
+          { name: "Curry leaves", quantity: "Few", notes: "Fresh sprig" },
+          { name: "Mustard seeds", quantity: "½ teaspoon" },
+          { name: "Dry red chilli", quantity: "1", notes: "Halved" },
+          { name: "Mustard oil", quantity: "1 teaspoon", notes: "Cold-pressed pungent oil" },
+          { name: "Coriander leaves", quantity: "Few", notes: "Chopped for garnish" },
+        ],
+      },
+      {
+        category: "Optional Traditional Side Dishes",
+        items: [
+          { name: "Badi Chura", quantity: "1 bowl", notes: "Crushed dried lentil dumplings with garlic & green chillies" },
+          { name: "Saga Bhaja", quantity: "1 bowl", notes: "Fried indigenous leafy greens" },
+          { name: "Roasted potato (Alu Poda / Alu Bharta)", quantity: "1 bowl" },
+          { name: "Fried fish (Macha Bhaja)", quantity: "1 plate" },
+          { name: "Fried vegetables", quantity: "1 plate" },
+        ],
+      },
+    ],
+    steps: [
+      {
+        stepNumber: 1,
+        instruction: "Cook the Rice: Cook rice normally and allow it to cool.",
+        techniqueTip: "Cooling prevents the rice grains from turning to mush when water is added.",
+      },
+      {
+        stepNumber: 2,
+        instruction: "Soak the Rice: Transfer the cooked rice into a bowl or earthen pot and add water.",
+        techniqueTip: "Using an unglazed earthen pot provides natural cooling through evaporative porosity.",
+      },
+      {
+        stepNumber: 3,
+        instruction: "Allow Fermentation: Leave it covered for several hours or overnight at a suitable temperature to develop its traditional mildly sour flavour.",
+        techniqueTip: "Fermentation produces light probiotics and refreshing natural acidity (torani).",
+      },
+      {
+        stepNumber: 4,
+        instruction: "Add Curd: Mix curd and salt into the soaked rice.",
+        techniqueTip: "Whisk curd before adding to avoid clumps.",
+      },
+      {
+        stepNumber: 5,
+        instruction: "Prepare the Seasoning: Heat mustard oil in a small pan. Add mustard seeds, dry red chilli and curry leaves.",
+        techniqueTip: "Allow mustard seeds to crackle fully to release their nutty aroma.",
+      },
+      {
+        stepNumber: 6,
+        instruction: "Add Fresh Ingredients: Mix chopped onion, green chillies and ginger into the rice.",
+        techniqueTip: "Crushing ginger slightly releases invigorating floral juices directly into the water.",
+      },
+      {
+        stepNumber: 7,
+        instruction: "Combine Everything: Add the seasoning to the rice mixture and gently mix.",
+        techniqueTip: "Mix gently with fingers or a wooden spoon without breaking the rice grains.",
+      },
+      {
+        stepNumber: 8,
+        instruction: "Serve: Garnish with coriander leaves and serve with Badi Chura, Saga Bhaja or fried vegetables.",
+        techniqueTip: "Serve chilled with crunchy sides for contrasting textures.",
+      },
+    ],
+    historicalVsModernNotes:
+      "Traditionally fermented purely with water overnight in unglazed clay pots, modern versions often add chilled fresh curd, lemon juice, and a fragrant mustard-curry leaf chhunka for instant enjoyment.",
+    substitutions: [
+      { original: "Mustard oil", substitute: "Refined oil with ghee", impact: "Lacks characteristic pungent Odia mustard aroma." },
+      { original: "Curd", substitute: "Lemon juice or torani water only", impact: "Creates traditional Sajja Pakhala or Basi Pakhala without dairy." },
+    ],
+  },
+  citations: [
+    {
+      authorOrSource: "Odisha Tourism & Culture Department",
+      workTitle: "Pakhala: The Cooling Gastronomic Soul of Odisha",
+      publicationYearOrPeriod: "2021 (State Cultural Documentation)",
+      citationDetails: "World Pakhala Dibasa & Culinary Heritage Monograph",
+      quoteOrFinding:
+        "Celebrates Pakhala Bata as an ancient agrarian cooling meal, recognized annually worldwide on March 20 (Pakhala Dibasa).",
+      confidenceRating: "Documented Historical Mention",
+    },
+    {
+      authorOrSource: "K. T. Achaya",
+      workTitle: "Indian Food: A Historical Companion",
+      publicationYearOrPeriod: "1994 (Oxford University Press)",
+      citationDetails: "Fermented Rice Preparations in Eastern India, pp. 95–97",
+      quoteOrFinding:
+        "Analyzes the deep culinary history of soaking cooked rice in water overnight to induce lactic fermentation, a cornerstone of Odia and Bengali rural nutrition.",
+      confidenceRating: "Scholarly Consensus",
+    },
+  ],
+};
+
+// ─────────────────────────────────────────────
 // COMPREHENSIVE GENERATOR FOR ALL 66 DISHES
 // Ensures every single dish across the atlas regions
 // has structured historical timeline, recipe & citations
@@ -1238,6 +1782,9 @@ export function getCulinaryJourneyForDish(dishId: string): DishCulinaryJourney {
   if (dishId === "hyderabadi-haleem") return HYDERABADI_HALEEM_JOURNEY;
   if (dishId === "pesarattu") return PESARATTU_JOURNEY;
   if (dishId === "avakaya") return AVAKAYA_JOURNEY;
+  if (dishId === "dalma") return DALMA_JOURNEY;
+  if (dishId === "chhena-poda") return CHHENA_PODA_JOURNEY;
+  if (dishId === "pakhala") return PAKHALA_JOURNEY;
 
   const allDishes = getAllDishes();
   const dish = allDishes.find((d) => d.id === dishId) || allDishes[0];

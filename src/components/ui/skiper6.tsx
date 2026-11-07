@@ -60,10 +60,6 @@ export const Skiper6Summarizer: React.FC<Skiper6Props> = ({
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 pb-8 border-b border-amber-900/20 relative z-10">
         <div>
-          <div className="flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-widest text-amber-600 dark:text-amber-400 bg-amber-500/15 px-3 py-1 rounded-full border border-amber-500/30 w-fit mb-2.5">
-            <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-            <span>@skiper-ui/skiper6 • Heritage Matrix</span>
-          </div>
           <h3 className={`font-cinzel font-black text-2xl md:text-3xl tracking-tight ${isLight ? "text-slate-900" : "text-white"}`}>
             {title}
           </h3>
