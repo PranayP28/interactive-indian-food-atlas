@@ -574,15 +574,7 @@ export const DHOKLA_GENERATIONS: GenerationWaypoint[] = [
       recipeName: "Origin: Birth of the food",
       historicalCookware: "Pot with a steaming rack or plate",
       heatSource: "Traditional hearth fire (wood or charcoal)",
-      ingredientsList: [
-        "Rice",
-        "Chana dal (split chickpeas)",
-        "Curd",
-        "Ginger",
-        "Green chillies",
-        "Salt",
-        "Mustard seeds",
-      ],
+      ingredientsList: [],
       preparationMethod:
         "Origin in Gujarat: rice and chana dal soaked and ground, fermented, then steamed in slabs.",
       contemporaryDifference:
@@ -668,15 +660,7 @@ export const UNDHIYU_GENERATIONS: GenerationWaypoint[] = [
       recipeName: "Origin: Birth of the food",
       historicalCookware: "Earthen pot (matlu or matla), coated with mud and sealed",
       heatSource: "Pit in the ground with lit charcoal or embers layered over the upturned pot",
-      ingredientsList: [
-        "Surti papdi",
-        "Purple yam",
-        "Potatoes and sweet potatoes",
-        "Raw banana",
-        "Brinjal",
-        "Muthiya (fenugreek dumplings)",
-        "Green masala (coconut, coriander, green garlic, chillies)",
-      ],
+      ingredientsList: [],
       preparationMethod:
         "Origin in Gujarat: vegetables and spice mix packed in the pot with no water, buried upside down, and cooked in their own juices for about 3 to 4 hours.",
       contemporaryDifference:

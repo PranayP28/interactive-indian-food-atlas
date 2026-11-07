@@ -1338,15 +1338,7 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.03.44 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
-    "ingredients": [
-      "Rice",
-      "Chana dal (split chickpeas)",
-      "Curd",
-      "Ginger",
-      "Green chillies",
-      "Salt",
-      "Mustard seeds"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-75",
@@ -1390,15 +1382,7 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "image": "/images_updated/undhiyu-stage-1.png",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
-    "ingredients": [
-      "Surti papdi",
-      "Purple yam",
-      "Potatoes and sweet potatoes",
-      "Raw banana",
-      "Brinjal",
-      "Muthiya (fenugreek dumplings)",
-      "Green masala (coconut, coriander, green garlic, chillies)"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-78",
