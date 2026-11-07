@@ -143,7 +143,7 @@ palette; no application behaviour changed. `DishPhotoEssay.tsx` now prints an ex
 24 photographs were imported by the idempotent, documented
 `scripts/import_verified_photos.py` pipeline:
 
-* **10 newly researched Commons files** for new dishes (Pulihora, Til Pitha, Bebinca,
+* **9 newly researched Commons files** for new dishes (Til Pitha, Bebinca,
   Mysore Pak, Ghewar, Haryanvi Churma, Rosogolla, Sel Roti, Handvo, and a Varanasi street
   stall as regional context for Banarasi Malaiyo). Creator, licence, licence URL, original
   URL and dimensions were checked individually through the live Commons

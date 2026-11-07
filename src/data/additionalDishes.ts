@@ -93,21 +93,7 @@ export const ADDITIONAL_DISHES: Record<string, Dish[]> = {
   ],
 
   // ── Batch 2: the 24 states that were still at two dishes ──────────────
-  "Andhra Pradesh": [
-    {
-      id: "pulihora",
-      name: "Pulihora",
-      alternateName: "Tamarind Rice / Chintapandu Pulihora",
-      state: "Andhra Pradesh",
-      category: "rice",
-      description:
-        "Cooked rice folded through a tangy tamarind reduction with curry leaves, peanuts, Bengal gram and a dry red-chilli tempering; a temple prasadam and a travel food across coastal Andhra.",
-      ingredients: ["Cooked rice", "Tamarind pulp", "Peanuts", "Bengal gram", "Curry leaves", "Dried red chillies", "Mustard seeds", "Turmeric"],
-      tasteProfile: "Tangy, Nutty & Warmly Spiced",
-      era: "Documented in Telugu temple and household cookery; no securely dated first reference",
-      keyTechnique: "Tamarind Reduction & Cold-Rice Tempering",
-    },
-  ],
+  "Andhra Pradesh": [],
 
   "Arunachal Pradesh": [
     {

@@ -730,60 +730,6 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     ]
   },
   {
-    "id": "info-37",
-    "dishId": "gongura-mutton",
-    "title": "Gongura Mutton",
-    "subtitle": "Traditional Andhra spicy mutton curry with tangy sorrel leaves (Gongura)",
-    "era": "1800s Traditional",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 10.40.52 PM.jpeg",
-    "isFullTimelinePoster": false,
-    "stageNumber": 1,
-    "ingredients": [
-      "Mutton",
-      "Gongura leaves",
-      "Guntur red chillies",
-      "Onion",
-      "Coriander seeds",
-      "Garlic"
-    ]
-  },
-  {
-    "id": "info-38",
-    "dishId": "gongura-mutton",
-    "title": "Gongura Mutton — Heritage & Evolution Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Gongura Mutton",
-    "era": "Heritage & Evolution",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 10.41.37 PM.jpeg",
-    "isFullTimelinePoster": false,
-    "stageNumber": 2,
-    "ingredients": [
-      "Mutton",
-      "Gongura leaves",
-      "Guntur red chillies",
-      "Onion",
-      "Coriander seeds",
-      "Garlic"
-    ]
-  },
-  {
-    "id": "info-39",
-    "dishId": "gongura-mutton",
-    "title": "Gongura Mutton — Contemporary / Present Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Gongura Mutton",
-    "era": "Contemporary / Present",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 10.42.15 PM.jpeg",
-    "isFullTimelinePoster": false,
-    "stageNumber": 3,
-    "ingredients": [
-      "Mutton",
-      "Gongura leaves",
-      "Guntur red chillies",
-      "Onion",
-      "Coriander seeds",
-      "Garlic"
-    ]
-  },
-  {
     "id": "info-40",
     "dishId": "thukpa",
     "title": "Thukpa — 1800s Traditional Guide",

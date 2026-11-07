@@ -113,7 +113,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           dishId === "dal-baati-churma" ||
           dishId === "laal-maas"
             ? "Evolution of Food"
-            : "Regional & Seasonal Produce",
+            : "Evolution of food",
         photo: photography?.ingredients,
         stageNum: 2,
       },
@@ -381,7 +381,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
               ? [
                   [
                     "Stage I – Origins & Documented References",
-                    "Stage II – Regional & Seasonal Produce",
+                    "Stage II – Evolution of Food",
                   ],
                   ["Stage III – Traditional Technique to Modern Kitchens"],
                 ]

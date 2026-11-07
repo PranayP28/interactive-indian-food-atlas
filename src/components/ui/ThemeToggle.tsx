@@ -19,7 +19,7 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({
       type="button"
       title={isLight ? "Switch to Royal Midnight Mode" : "Switch to Sunlit Parchment Light Mode"}
       aria-label="Toggle visual theme"
-      className={`group relative flex items-center gap-2 px-2.5 py-1.5 rounded-xl transition-all duration-300 shadow-md ${
+      className={`group relative flex items-center gap-2 px-2.5 py-1.5 rounded-xl transition-all duration-300 shadow-md shrink-0 whitespace-nowrap ${
         isLight
           ? "bg-amber-100/90 hover:bg-amber-200/90 text-amber-950 border border-amber-300 shadow-amber-900/10"
           : "bg-slate-800/90 hover:bg-slate-700/90 text-amber-300 border border-amber-500/30 shadow-black/40"

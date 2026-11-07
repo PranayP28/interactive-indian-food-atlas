@@ -85,7 +85,6 @@ Shared, site-wide photographs of Indian kitchen craft — markets, grindstones, 
 | Tamil Nadu | Filter Coffee | Charles Haynes | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0) | 2577 × 3378 | local | [Commons](https://commons.wikimedia.org/wiki/File:Foaming_filter_coffee.jpg) |
 | Punjab | Amritsari Kulcha | Ravi Dwivedi | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 1920 × 1440 | local | [Commons](https://commons.wikimedia.org/wiki/File:Amritsari_Kulcha_served_with_chhole.jpg) |
 | Maharashtra | Ukadiche Modak | Dharmadhyaksha | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 3328 × 1872 | local | [Commons](https://commons.wikimedia.org/wiki/File:Ukadiche_Modak,_full_and_split.jpg) |
-| Andhra Pradesh | Pulihora | Manohar Andaluri | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 640 × 480 | local | [Commons](https://commons.wikimedia.org/wiki/File:PULIHORA.JPG) |
 | Arunachal Pradesh | Apong | Nadeem.gaikwad | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 4608 × 3456 | local | [Commons](https://commons.wikimedia.org/wiki/File:Apong_-_Rice_beer_of_Assam_In_A_Traditional_Pot.jpg) |
 | Assam | Til Pitha | দিব্য দত্ত (Dibya Dutta) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 4160 × 3120 | local | [Commons](https://commons.wikimedia.org/wiki/File:Til_Pitha_-_Assamese_Ricecake.jpg) |
 | Bihar | Silao Khaja | Odantapuribs | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | 3456 × 4608 | local | [Commons](https://commons.wikimedia.org/wiki/File:Khaja_of_Silao.jpg) |
@@ -113,7 +112,6 @@ Each of these photographs is explicitly mapped to one dish and one stage, with i
 
 | Region | Dish | Stage | Label | Photographer | Licence | Source |
 |---|---|---|---|---|---|---|
-| Andhra Pradesh | Gongura Mutton | ingredients | Ingredient reference | Gpics at English Wikipedia | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) | [Commons](https://commons.wikimedia.org/wiki/File:Guntur_Gongura.jpg) |
 | Bihar | Litti Chokha | origin | Regional context | Sumitsurai | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Temple_12_-_Nalanda_Mahavihara_(17).jpg) |
 | Bihar | Litti Chokha | ingredients | Ingredient reference | Imdgod | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Litti_being_prepared.png) |
 | Bihar | Litti Chokha | method | Preparation technique | Salil Kumar Mukherjee | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) | [Commons](https://commons.wikimedia.org/wiki/File:Litti_preparation_in_Kolkata%2C_India.jpg) |
@@ -187,7 +185,6 @@ These dishes show the explicit unavailable state until a source is confirmed for
 
 | Region | Dish | Status |
 |---|---|---|
-| Andhra Pradesh | Gongura Mutton | No published photograph verified as this exact dish under a reusable licence |
 | Chhattisgarh | Fara | No published photograph verified as this exact dish under a reusable licence |
 | Haryana | Bajra Khichdi | No published photograph verified as this exact dish under a reusable licence |
 | Madhya Pradesh | Bhutte Ka Kees | No published photograph verified as this exact dish under a reusable licence |

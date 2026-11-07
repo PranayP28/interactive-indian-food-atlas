@@ -451,33 +451,35 @@ export default function App() {
         </div>
 
         {/* Right CTA & Theme Toggle */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 shrink-0">
           {/* About Section Button */}
           <button
             type="button"
             onClick={() => setShowAboutModal(true)}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-semibold transition-all ${
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-semibold transition-all shrink-0 whitespace-nowrap cursor-pointer active:scale-95 ${
               isLight
                 ? "bg-white/90 hover:bg-white text-slate-800 border-amber-900/15 shadow-sm hover:border-amber-400"
                 : "bg-slate-800/80 hover:bg-slate-700 text-slate-200 border-slate-700 hover:border-slate-600"
             }`}
             title="About Our Team"
           >
-            <Users className="w-3.5 h-3.5 text-amber-500" />
+            <Users className="w-3.5 h-3.5 text-amber-500 shrink-0" />
             <span>About</span>
           </button>
 
           {/* Light / Dark Mode Toggle */}
-          <ThemeToggle />
+          <div className="shrink-0 flex items-center">
+            <ThemeToggle />
+          </div>
 
           <button
             onClick={() => navigateToDish("masala-dosa")}
-            className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-slate-950 font-extrabold text-xs shadow-lg shadow-orange-950/40 border border-amber-300/40 transition-all transform hover:scale-[1.02] active:scale-[0.98]"
+            className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-slate-950 font-extrabold text-xs shadow-lg shadow-orange-950/40 border border-amber-300/40 transition-all transform hover:scale-[1.02] active:scale-[0.98] shrink-0 whitespace-nowrap cursor-pointer"
           >
-            <Sparkles className="w-3.5 h-3.5 text-slate-950 fill-current" />
+            <Sparkles className="w-3.5 h-3.5 text-slate-950 fill-current shrink-0" />
             <span className="hidden sm:inline">BHARAT: 3D Living History</span>
             <span className="sm:hidden">BHARAT 3D</span>
-            <ArrowRight className="w-3.5 h-3.5" />
+            <ArrowRight className="w-3.5 h-3.5 shrink-0" />
           </button>
         </div>
       </header>

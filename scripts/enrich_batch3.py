@@ -252,27 +252,6 @@ updates = {
             "height": 4608
         }
     },
-    "gongura-mutton": {
-        "ingredients": {
-            "photo": {
-                "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Guntur_Gongura.jpg",
-                "subject": "context",
-                "title": "Guntur Gongura",
-                "creator": "Gpics at English Wikipedia",
-                "licence": "CC BY-SA 3.0",
-                "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-                "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guntur_Gongura.jpg",
-                "alt": "Fresh sour roselle gongura leaf bundles",
-                "caption": "Fresh, tangy red-stemmed roselle (gongura) leaves from Guntur markets, Andhra Pradesh.",
-                "fallback": None,
-                "width": 2272,
-                "height": 1704
-            },
-            "caption": "Fresh, tangy red-stemmed roselle (gongura) leaves from Guntur markets, Andhra Pradesh.",
-            "label": "Ingredient reference",
-            "items": ["Mutton pieces", "Red-stemmed gongura leaves", "Guntur red chillies", "Onions", "Coriander seeds", "Mustard oil / ghee"]
-        }
-    },
     "chak-hao-kheer": {
         "origin": {
             "photo": {

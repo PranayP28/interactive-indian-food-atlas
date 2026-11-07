@@ -162,18 +162,6 @@ const BASE_FOOD_DATA: Record<string, StateFood> = {
         keyTechnique: "Raw-Mango Sun-Dried Spice Curing & Gingelly Oil Maceration",
         hasPilot3D: true,
       },
-      {
-        id: "gongura-mutton",
-        name: "Gongura Mutton",
-        alternateName: "Sorrel Leaf Meat Braise",
-        state: "Andhra Pradesh",
-        category: "curry-stew",
-        description: "Tender mutton slow-braised with sour sorrel leaves (gongura), fiery Guntur red chillies, and aromatic roasted spices in cold-pressed sesame oil.",
-        ingredients: ["Mutton", "Gongura leaves", "Guntur red chillies", "Onion", "Coriander seeds", "Garlic"],
-        tasteProfile: "Tangy & Fiery",
-        era: "Kakatiya Dynasty (12th Century CE)",
-        keyTechnique: "Slow Brass Handi Braising with Leaf Reduction",
-      },
     ],
   },
 

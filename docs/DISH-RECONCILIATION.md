@@ -10,7 +10,7 @@ Target: 28 states × 3 dishes = 84, plus 5 union territories × 2 dishes = 10, *
 
 | State | Dishes | Count | Target |
 |---|---|---:|---:|
-| Andhra Pradesh | Pesarattu (1/4 stages); Gongura Mutton ⚠︎ (0/4 stages); Pulihora (1/4 stages) | 3 | 3 |
+| Andhra Pradesh | Pesarattu (1/4 stages); Avakaya (1/4 stages) | 2 | 2 |
 | Arunachal Pradesh | Thukpa (1/4 stages); Bamboo Shoot Pork ⚠︎ (0/4 stages); Apong ⚠︎ (0/4 stages) | 3 | 3 |
 | Assam | Masor Tenga (1/4 stages); Khar (1/4 stages); Til Pitha (1/4 stages) | 3 | 3 |
 | Bihar | Litti Chokha (1/4 stages); Thekua (1/4 stages); Silao Khaja ⚠︎ (0/4 stages) | 3 | 3 |

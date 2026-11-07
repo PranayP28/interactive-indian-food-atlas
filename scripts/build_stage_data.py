@@ -260,14 +260,6 @@ FACTS: dict[str, dict] = {
         "confidence": "documented",
     },
     # ── Batch 2 ───────────────────────────────────────────────────────────
-    "pulihora": {
-        "origin": "Coastal Andhra and the temple kitchens of the Telugu south",
-        "tradition": "Tamarind rice is a temple prasadam and a travel food because it keeps well without reheating.",
-        "technique": "Tamarind pulp is reduced with turmeric and salt, cooled rice is folded through it, and a mustard–peanut–curry-leaf tempering is mixed in last.",
-        "modern": "Served at weddings, festivals and in temple canteens; commercial masala mixes and ready-to-eat packs are sold.",
-        "sources": ["achaya-1998", "regional-food-writing"],
-        "confidence": "regional-tradition",
-    },
     "apong": {
         "origin": "Adi and Nyishi households of Arunachal Pradesh's Siang and Subansiri valleys",
         "tradition": "A hospitality drink served at festivals, community work and dispute settlement, prepared and kept by household brewers.",

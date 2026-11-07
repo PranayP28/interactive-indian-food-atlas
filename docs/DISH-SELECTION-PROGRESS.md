@@ -219,7 +219,7 @@ or removed; Chandigarh, Lakshadweep and Dadra and Nagar Haveli and Daman and Diu
 
 | State | Third dish | State | Third dish |
 |---|---|---|---|
-| Andhra Pradesh | Pulihora | Arunachal Pradesh | Apong |
+| Andhra Pradesh | — | Arunachal Pradesh | Apong |
 | Assam | Til Pitha | Bihar | Silao Khaja |
 | Chhattisgarh | Bafauri | Goa | Bebinca |
 | Gujarat | Handvo | Haryana | Haryanvi Churma |

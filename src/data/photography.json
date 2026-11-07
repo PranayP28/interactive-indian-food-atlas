@@ -258,43 +258,6 @@
         "fallback": null
       }
     },
-    "gongura-mutton": {
-      "origin": {
-        "library": "banana-leaf",
-        "caption": "Andhra Pradesh — the regional kitchen where Gongura Mutton belongs."
-      },
-      "ingredients": {
-        "photo": {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Guntur_Gongura.jpg",
-          "subject": "context",
-          "title": "Guntur Gongura",
-          "creator": "Gpics at English Wikipedia",
-          "licence": "CC BY-SA 3.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guntur_Gongura.jpg",
-          "alt": "Fresh sour roselle gongura leaf bundles",
-          "caption": "Fresh, tangy red-stemmed roselle (gongura) leaves from Guntur markets, Andhra Pradesh.",
-          "fallback": null,
-          "width": 2272,
-          "height": 1704
-        },
-        "caption": "Fresh, tangy red-stemmed roselle (gongura) leaves from Guntur markets, Andhra Pradesh.",
-        "label": "Ingredient reference",
-        "items": [
-          "Mutton pieces",
-          "Red-stemmed gongura leaves",
-          "Guntur red chillies",
-          "Onions",
-          "Coriander seeds",
-          "Mustard oil / ghee"
-        ]
-      },
-      "method": {
-        "library": "banana-leaf",
-        "caption": "Gongura Mutton — Slow Brass Handi Braising with Leaf Reduction."
-      },
-      "plated": null
-    },
     "thukpa": {
       "origin": {
         "library": "spice-street",
@@ -3326,40 +3289,6 @@
         "fallback": null,
         "width": 3328,
         "height": 1872
-      }
-    },
-    "pulihora": {
-      "origin": null,
-      "ingredients": {
-        "library": null,
-        "caption": "",
-        "items": [
-          "Cooked rice",
-          "Tamarind pulp",
-          "Peanuts",
-          "Bengal gram",
-          "Curry leaves",
-          "Dried red chillies",
-          "Mustard seeds",
-          "Turmeric"
-        ]
-      },
-      "method": null,
-      "plated": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/PULIHORA.JPG",
-        "subject": "dish",
-        "title": "Pulihora (tamarind rice)",
-        "creator": "Manohar Andaluri",
-        "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PULIHORA.JPG",
-        "alt": "Pulihora, tamarind rice, on a plate",
-        "caption": "Pulihora — Andhra tamarind rice with peanuts and curry-leaf tempering.",
-        "fallback": null,
-        "width": 640,
-        "height": 480,
-        "local": "/images/dishes/pulihora-stage-4.webp",
-        "label": "Finished dish"
       }
     },
     "apong": {

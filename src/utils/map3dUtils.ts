@@ -553,7 +553,7 @@ export const CULINARY_TOUR_STOPS = [
   {
     state: "Andhra Pradesh",
     caption: "Land of Fire & Spice",
-    story: "India's fiercest chilli peppers, tangy gongura mutton, and royal dum biryanis sealed with aromatic dough.",
+    story: "India's fiercest chilli peppers, fiery avakaya mango pickles, and crispy golden pesarattu crepes.",
   },
   {
     state: "Maharashtra",

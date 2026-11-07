@@ -71,8 +71,6 @@
 ### B. Partially Verified Dishes (64 dishes)
 
 - **Pesarattu** (`pesarattu`) — Andhra Pradesh: **1/4 stages** (Awaiting: origin, ingredients, method)
-- **Gongura Mutton** (`gongura-mutton`) — Andhra Pradesh: **1/4 stages** (Awaiting: origin, method, plated)
-- **Pulihora** (`pulihora`) — Andhra Pradesh: **1/4 stages** (Awaiting: origin, ingredients, method)
 - **Thukpa** (`thukpa`) — Arunachal Pradesh: **1/4 stages** (Awaiting: origin, ingredients, method)
 - **Bamboo Shoot Pork** (`bamboo-shoot-pork`) — Arunachal Pradesh: **1/4 stages** (Awaiting: origin, ingredients, method)
 - **Apong** (`apong`) — Arunachal Pradesh: **2/4 stages** (Awaiting: ingredients, method)

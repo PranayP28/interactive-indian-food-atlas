@@ -26,25 +26,6 @@
       "originalSizeBytes": 33154
     },
     {
-      "id": "gongura-mutton",
-      "foodName": "Gongura Mutton",
-      "region": "Andhra Pradesh",
-      "status": "manual_review",
-      "image": null,
-      "sourcePageUrl": null,
-      "originalImageUrl": null,
-      "creator": null,
-      "license": null,
-      "licenseUrl": null,
-      "attribution": null,
-      "modifications": null,
-      "dimensions": null,
-      "rightsNotes": "Commons file page verifies CC BY-SA 4.0 reuse terms, but its caption is for a different gongura dish. Search results showed Gongura Mutton photographs, but no candidate's actual source page and licence terms were verified here. No image selected rather than misidentifying a dish.",
-      "identityEvidence": "The Commons file page for Gongura_recipe.jpg identifies the depicted food as 'gongura pachadi' (a chutney), not Gongura Mutton; it does not substantiate the exact dish identity.",
-      "sizeBytes": null,
-      "originalSizeBytes": null
-    },
-    {
       "id": "thukpa",
       "foodName": "Thukpa",
       "region": "Arunachal Pradesh",

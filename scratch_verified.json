@@ -143,19 +143,6 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AKhaja%20cakes%20%2826711978840%29.jpg"
   },
   {
-    "dishId": "gongura-mutton",
-    "stage": "ingredients",
-    "fileTitle": "File:Guntur Gongura.jpg",
-    "creator": "Gpics at English Wikipedia",
-    "licence": "CC BY-SA 3.0",
-    "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "width": 2272,
-    "height": 1704,
-    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Guntur_Gongura.jpg/1280px-Guntur_Gongura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Guntur_Gongura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGuntur%20Gongura.jpg"
-  },
-  {
     "dishId": "chak-hao-kheer",
     "stage": "plated",
     "fileTitle": "File:Chahao kheer.jpg",

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedFrom": "src/data/foodData.ts",
-  "totalDishes": 95,
+  "totalDishes": 93,
   "groups": [
     {
       "state": "Andhra Pradesh",
@@ -9,9 +9,7 @@
       "tagline": "Land of fire and spice — India's spiciest cuisine",
       "dishIds": [
         "pesarattu",
-        "avakaya",
-        "gongura-mutton",
-        "pulihora"
+        "avakaya"
       ]
     },
     {
@@ -239,8 +237,7 @@
       "tagline": "Pearl city cuisine — bold, rustic and deeply satisfying",
       "dishIds": [
         "hyderabadi-biryani",
-        "hyderabadi-haleem",
-        "qubani-ka-meetha"
+        "hyderabadi-haleem"
       ]
     },
     {
@@ -385,46 +382,6 @@
       "era": "Traditional Andhra Regional Cuisine",
       "keyTechnique": "Raw-Mango Sun-Dried Spice Curing & Gingelly Oil Maceration",
       "hasPilot3D": true
-    },
-    {
-      "id": "gongura-mutton",
-      "name": "Gongura Mutton",
-      "alternateName": "Sorrel Leaf Meat Braise",
-      "state": "Andhra Pradesh",
-      "category": "curry-stew",
-      "description": "Tender mutton slow-braised with sour sorrel leaves (gongura), fiery Guntur red chillies, and aromatic roasted spices in cold-pressed sesame oil.",
-      "ingredients": [
-        "Mutton",
-        "Gongura leaves",
-        "Guntur red chillies",
-        "Onion",
-        "Coriander seeds",
-        "Garlic"
-      ],
-      "tasteProfile": "Tangy & Fiery",
-      "era": "Kakatiya Dynasty (12th Century CE)",
-      "keyTechnique": "Slow Brass Handi Braising with Leaf Reduction"
-    },
-    {
-      "id": "pulihora",
-      "name": "Pulihora",
-      "alternateName": "Tamarind Rice / Chintapandu Pulihora",
-      "state": "Andhra Pradesh",
-      "category": "rice",
-      "description": "Cooked rice folded through a tangy tamarind reduction with curry leaves, peanuts, Bengal gram and a dry red-chilli tempering; a temple prasadam and a travel food across coastal Andhra.",
-      "ingredients": [
-        "Cooked rice",
-        "Tamarind pulp",
-        "Peanuts",
-        "Bengal gram",
-        "Curry leaves",
-        "Dried red chillies",
-        "Mustard seeds",
-        "Turmeric"
-      ],
-      "tasteProfile": "Tangy, Nutty & Warmly Spiced",
-      "era": "Documented in Telugu temple and household cookery; no securely dated first reference",
-      "keyTechnique": "Tamarind Reduction & Cold-Rice Tempering"
     },
     {
       "id": "thukpa",
@@ -715,12 +672,16 @@
       "category": "fermented-steamed",
       "description": "Porous, pillow-soft steamed savoury sponge cakes made from fermented split chickpea batter, tempered with crackling mustard seeds, green chillies, and fresh coriander.",
       "ingredients": [
-        "Gram flour (Besan)",
-        "Fermented curd",
-        "Ginger-chilli paste",
-        "Mustard seeds",
-        "Curry leaves",
-        "Asafoetida"
+        "Besan (gram flour)",
+        "Curd",
+        "Ginger–green chilli paste",
+        "Turmeric",
+        "Salt",
+        "Sugar",
+        "Lemon juice",
+        "Fruit salt (Eno)",
+        "Oil with mustard seeds",
+        "Curry leaves and coriander"
       ],
       "tasteProfile": "Tangy, Light & Spongy",
       "era": "11th Century Jain Manuscript Mentions (Dukkha)",
@@ -1113,12 +1074,10 @@
       "description": "Golden spiced mashed potato ball encased in a crisp chickpea batter shell, tucked inside a fresh bakery pav slathered with fiery dry garlic-peanut chutney and green chilli.",
       "ingredients": [
         "Potatoes",
-        "Besan (Gram flour)",
-        "Mustard seeds",
+        "Pav (Bread rolls)",
+        "Gram flour (Besan)",
         "Garlic",
-        "Peanuts",
-        "Kashmiri chilli",
-        "Ladi Pav"
+        "Green chillies"
       ],
       "tasteProfile": "Spiced, Garlicky & Satisfying",
       "era": "1966 CE (Dadar Station Creation by Ashok Vaidya)",
@@ -1132,12 +1091,12 @@
       "category": "grain-bread",
       "description": "Paper-thin festive wheat flatbread rolled with a decadent core of slow-cooked Bengal gram and organic jaggery perfumed with nutmeg and cardamom, griddled with pure ghee.",
       "ingredients": [
+        "Wheat flour",
         "Chana dal",
-        "Organic jaggery",
-        "Whole wheat flour",
-        "Nutmeg",
-        "Cardamom",
-        "Pure ghee"
+        "Jaggery",
+        "Ghee",
+        "Cardamom powder",
+        "Nutmeg powder"
       ],
       "tasteProfile": "Sweet, Fragrant & Velvety",
       "era": "12th Century CE (Mentions in Bhavartha Deepika)",
@@ -1722,24 +1681,6 @@
       "tasteProfile": "Rich, Warming & Silky",
       "era": "Yemeni Chaush Migration & Nizams of Hyderabad",
       "keyTechnique": "12-Hour Degchi Simmer & Wooden Mallet Pounding"
-    },
-    {
-      "id": "qubani-ka-meetha",
-      "name": "Qubani ka Meetha",
-      "alternateName": "Khubani ka Meetha / Apricot Dessert",
-      "state": "Telangana",
-      "category": "sweet-dessert",
-      "description": "Dried Hunza apricots stewed to a glossy compote, served warm or chilled with fresh cream, custard or vanilla ice cream; a Hyderabadi Deccani dessert with Central Asian roots.",
-      "ingredients": [
-        "Dried apricots",
-        "Sugar",
-        "Water",
-        "Cardamom",
-        "Cream or custard"
-      ],
-      "tasteProfile": "Tart-Sweet, Jammy & Apricot-Bright",
-      "era": "Hyderabadi Deccani dessert tradition, documented in 20th-century cookery",
-      "keyTechnique": "Apricot Stewing & Syrup Reduction"
     },
     {
       "id": "mui-borok",

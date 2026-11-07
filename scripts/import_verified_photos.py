@@ -55,18 +55,6 @@ QUALITY = 86
 # commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url|size|extmetadata
 COMMONS_IMPORTS: list[dict] = [
     {
-        "dishId": "pulihora", "stage": "plated", "label": "Finished dish",
-        "file": "pulihora-wikimedia-commons-tamarind-rice-1.jpg",
-        "title": "Pulihora (tamarind rice)",
-        "creator": "Manohar Andaluri", "licence": "CC BY-SA 4.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/PULIHORA.JPG",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PULIHORA.JPG",
-        "width": 640, "height": 480,
-        "alt": "Pulihora, tamarind rice, on a plate",
-        "caption": "Pulihora — Andhra tamarind rice with peanuts and curry-leaf tempering.",
-    },
-    {
         "dishId": "til-pitha", "stage": "plated", "label": "Finished dish",
         "file": "til-pitha-assam-wikimedia-commons-photog-2.jpg",
         "title": "Til Pitha - Assamese Ricecake",

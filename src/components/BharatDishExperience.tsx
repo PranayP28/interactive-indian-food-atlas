@@ -1,4 +1,3 @@
-import { hasInfographic } from "../data/infographicsData";
 import React, { useState, useEffect, useRef } from "react";
 import {
   ArrowLeft,
@@ -143,17 +142,17 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
     >
       {/* ── TOP CINEMATIC NAVIGATION BAR ── */}
       <header
-        className={`sticky top-0 z-50 min-h-16 flex flex-wrap items-center justify-between gap-y-2 py-2 backdrop-blur-md border-b px-4 transition-colors duration-300 md:h-16 md:flex-nowrap md:py-0 md:px-8 ${
+        className={`sticky top-0 z-50 flex flex-col md:flex-row md:items-center md:justify-between gap-2 md:gap-4 py-2 px-3 sm:px-4 md:px-6 lg:px-8 backdrop-blur-md border-b transition-colors duration-300 md:h-16 md:py-0 ${
           isLight
             ? "bg-[#faf8f5]/90 border-amber-900/15 shadow-sm shadow-amber-950/5 text-slate-800"
             : "bg-[#07090e]/90 border-amber-900/25 text-slate-100"
         }`}
       >
         {/* Left: Return & Brand */}
-        <div className="flex items-center gap-3 sm:gap-4">
+        <div className="flex items-center gap-2.5 sm:gap-4 shrink-0 justify-between md:justify-start">
           <button
             onClick={onBackToMap}
-            className={`flex items-center gap-2 px-3 py-1.5 rounded-xl transition-all text-xs font-semibold group shadow-sm border ${
+            className={`flex items-center gap-2 px-2.5 sm:px-3 py-1.5 rounded-xl transition-all text-xs font-semibold group shadow-sm border shrink-0 whitespace-nowrap ${
               isLight
                 ? "bg-amber-100/80 hover:bg-amber-200/90 text-amber-950 border-amber-300/80 shadow-amber-950/5"
                 : "bg-slate-900/80 hover:bg-amber-950/40 text-amber-300 hover:text-amber-200 border-amber-700/30"
@@ -161,23 +160,23 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
             aria-label="Return to the interactive India map"
             title="Explore India Map"
           >
-            <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform" />
-            <span className="hidden sm:inline">Explore India Map</span>
+            <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform shrink-0" />
+            <span className="whitespace-nowrap">Explore India Map</span>
           </button>
 
-          <div className={`h-4 w-px ${isLight ? "bg-amber-900/20" : "bg-slate-800"}`} />
+          <div className={`h-4 w-px shrink-0 ${isLight ? "bg-amber-900/20" : "bg-slate-800"}`} />
 
           {/* Wordmark */}
-          <div className="flex items-baseline gap-2">
+          <div className="flex items-baseline gap-2 shrink-0">
             <span
-              className={`font-cinzel font-black tracking-[0.2em] text-sm md:text-base ${
+              className={`font-cinzel font-black tracking-[0.2em] text-sm md:text-base whitespace-nowrap ${
                 isLight ? "text-slate-900" : "text-amber-100"
               }`}
             >
               BHARAT
             </span>
             <span
-              className={`hidden md:inline font-cormorant italic text-xs tracking-wide ${
+              className={`hidden xl:inline font-cormorant italic text-xs tracking-wide whitespace-nowrap ${
                 isLight ? "text-amber-800/90" : "text-amber-300/80"
               }`}
             >
@@ -186,13 +185,17 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
           </div>
         </div>
 
-        {/* Center: MotionPath navigation */}
-        <div className="order-3 relative w-full flex justify-center md:order-none md:absolute md:left-1/2 md:w-auto md:-translate-x-1/2">
+        {/* Right: Navigation Items (MotionPath, All States, All Dishes, Citations, Audio, Theme, About, Share) */}
+        <nav
+          aria-label="Dish navigation tools"
+          className="flex items-center gap-2 overflow-x-auto scrollbar-thin py-1 px-1 max-w-full shrink min-w-0 md:ml-auto pr-3"
+        >
+          {/* MotionPath Waypoints Button (orange button) */}
           <div
-            className={`flex items-center p-1 rounded-2xl border shadow-inner transition-colors ${
-            isLight
-              ? "bg-amber-100/70 border-amber-300/80"
-              : "bg-black/50 border-amber-500/30"
+            className={`flex items-center p-0.5 rounded-2xl border shadow-inner shrink-0 transition-colors ${
+              isLight
+                ? "bg-amber-100/70 border-amber-300/80"
+                : "bg-black/50 border-amber-500/30"
             }`}
           >
             <button
@@ -205,86 +208,61 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
               }
               aria-current="page"
               title="MotionPath Waypoints"
-              className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-extrabold whitespace-nowrap bg-gradient-to-r from-amber-500 to-orange-600 text-slate-950 shadow-md"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-extrabold whitespace-nowrap shrink-0 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-slate-950 shadow-md transition-all active:scale-95 cursor-pointer"
             >
-              <Milestone className="w-3.5 h-3.5" />
+              <Milestone className="w-3.5 h-3.5 shrink-0" />
               <span>MotionPath Waypoints</span>
             </button>
           </div>
-        </div>
 
-        {/* Right: Actions (Switcher, Sources, Audio, ThemeToggle, Share) */}
-        <div className="order-2 flex items-center gap-1 md:order-none md:gap-2">
           {/* Expand to All States Button */}
           <button
             onClick={() => setShowAllStatesModal(true)}
-            className={`flex items-center gap-1.5 px-2 sm:px-3 py-1.5 rounded-xl border text-xs font-bold transition-all shadow-sm ${
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-bold transition-all shadow-sm shrink-0 whitespace-nowrap active:scale-95 cursor-pointer ${
               isLight
                 ? "bg-amber-100/90 hover:bg-amber-200 text-amber-950 border-amber-300/80 hover:border-amber-400"
                 : "bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border-amber-500/40"
             }`}
-            title="Expand to all 33 Indian states and territories"
+            title={`Expand to all ${Object.keys(FOOD_DATA).length} Indian states and territories`}
           >
-            <Sparkles className="w-3.5 h-3.5 text-amber-500" />
-            <span className="hidden sm:inline">All States ({Object.keys(FOOD_DATA).length})</span>
-            <span className="sm:hidden">States</span>
+            <Sparkles className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+            <span>All States ({Object.keys(FOOD_DATA).length})</span>
           </button>
 
           {/* Dish Switcher Button */}
           <button
             onClick={() => setShowDishSwitcher(true)}
-            className={`flex items-center gap-1.5 px-2 sm:px-3 py-1.5 rounded-xl border text-xs font-medium transition-all ${
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-medium transition-all shrink-0 whitespace-nowrap active:scale-95 cursor-pointer ${
               isLight
                 ? "bg-white/90 hover:bg-white text-slate-800 border-amber-900/15 shadow-sm hover:border-amber-400"
-                : "bg-slate-800/80 hover:bg-slate-700 text-slate-200 border-slate-700"
+                : "bg-slate-800/80 hover:bg-slate-700 text-slate-200 border-slate-700 hover:border-slate-600"
             }`}
             aria-label="Open dish selector"
             title="Browse all dishes"
           >
-            <Layers className="w-3.5 h-3.5 text-amber-500" />
-            <span className="hidden sm:inline">All {getAllDishes().length} Dishes</span>
+            <Layers className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+            <span>All {getAllDishes().length} Dishes</span>
           </button>
-
-          {/* Stages & Uploaded Recipe Quick Jump Button */}
-          {hasInfographic(dishId) && (
-            <button
-              onClick={() => {
-                document.getElementById("motionpath-waypoints")?.scrollIntoView({
-                  behavior: "smooth",
-                  block: "start",
-                });
-              }}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-bold transition-all ${
-                isLight
-                  ? "bg-amber-100/90 hover:bg-amber-200 text-amber-950 border-amber-300/80 shadow-sm"
-                  : "bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border-amber-500/40"
-              }`}
-              title="View Epoch Stages & Uploaded Recipe Infographics"
-            >
-              <Sparkles className="w-3.5 h-3.5 text-amber-500 animate-pulse" />
-              <span className="hidden sm:inline">Uploaded Recipes</span>
-            </button>
-          )}
 
           {/* Sources & Citations Modal Button */}
           <button
             onClick={() => setShowSourcesModal(true)}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-medium transition-all ${
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-medium transition-all shrink-0 whitespace-nowrap active:scale-95 cursor-pointer ${
               isLight
                 ? "bg-white/90 hover:bg-white text-slate-800 border-amber-900/15 shadow-sm hover:border-amber-400"
-                : "bg-slate-800/80 hover:bg-slate-700 text-slate-200 border-slate-700"
+                : "bg-slate-800/80 hover:bg-slate-700 text-slate-200 border-slate-700 hover:border-slate-600"
             }`}
             title="View Scholarly Sources & Historical Citations"
           >
-            <BookOpen className="w-3.5 h-3.5 text-amber-500" />
-            <span className="hidden sm:inline">Citations ({journey?.citations?.length ?? 0})</span>
+            <BookOpen className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+            <span>Citations ({journey?.citations?.length ?? 0})</span>
           </button>
 
           {/* Read Aloud Narration Sound Icon */}
           {narrationStatus === "idle" ? (
             <button
               onClick={handleToggleNarration}
-              className={`p-2 rounded-xl border text-xs transition-all ${
+              className={`p-2 rounded-xl border text-xs transition-all shrink-0 active:scale-95 cursor-pointer ${
                 isLight
                   ? "bg-white/90 text-slate-600 border-amber-900/15 hover:text-slate-900 hover:border-amber-400 shadow-sm"
                   : "bg-slate-850 text-slate-400 border-slate-750 hover:text-slate-200 hover:border-amber-500/40"
@@ -292,13 +270,13 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
               title="Listen to Dish Narration"
               aria-label="Listen to dish narration"
             >
-              <Volume2 className="w-4 h-4" />
+              <Volume2 className="w-4 h-4 shrink-0" />
             </button>
           ) : narrationStatus === "playing" ? (
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-1 shrink-0">
               <button
                 onClick={handleToggleNarration}
-                className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-semibold transition-all ${
+                className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-semibold transition-all shrink-0 cursor-pointer ${
                   isLight
                     ? "bg-amber-200 text-amber-950 border-amber-400 shadow-sm"
                     : "bg-amber-500/20 text-amber-300 border-amber-500/40"
@@ -306,12 +284,12 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                 title="Pause Narration"
                 aria-label="Pause narration"
               >
-                <Volume2 className="w-4 h-4 animate-pulse text-amber-600" />
-                <Pause className="w-3.5 h-3.5 fill-amber-800 text-amber-800 dark:fill-amber-300 dark:text-amber-300" />
+                <Volume2 className="w-4 h-4 animate-pulse text-amber-600 shrink-0" />
+                <Pause className="w-3.5 h-3.5 fill-amber-800 text-amber-800 dark:fill-amber-300 dark:text-amber-300 shrink-0" />
               </button>
               <button
                 onClick={handleStopNarration}
-                className={`p-1.5 rounded-xl border text-xs transition-all ${
+                className={`p-1.5 rounded-xl border text-xs transition-all shrink-0 cursor-pointer ${
                   isLight
                     ? "bg-white/90 hover:bg-red-50 text-red-600 border-red-200 shadow-sm"
                     : "bg-slate-800 hover:bg-red-950/40 text-red-400 border-red-900/40"
@@ -319,14 +297,14 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                 title="Stop Narration"
                 aria-label="Stop narration"
               >
-                <Square className="w-3.5 h-3.5 fill-current" />
+                <Square className="w-3.5 h-3.5 fill-current shrink-0" />
               </button>
             </div>
           ) : (
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-1 shrink-0">
               <button
                 onClick={handleToggleNarration}
-                className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-semibold transition-all ${
+                className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-semibold transition-all shrink-0 cursor-pointer ${
                   isLight
                     ? "bg-amber-100/90 text-amber-950 border-amber-300 shadow-sm"
                     : "bg-slate-800 text-amber-300 border-amber-600/40"
@@ -334,12 +312,12 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                 title="Resume Narration"
                 aria-label="Resume narration"
               >
-                <VolumeX className="w-4 h-4 text-amber-600" />
-                <Play className="w-3.5 h-3.5 fill-amber-800 text-amber-800 dark:fill-amber-300 dark:text-amber-300" />
+                <VolumeX className="w-4 h-4 text-amber-600 shrink-0" />
+                <Play className="w-3.5 h-3.5 fill-amber-800 text-amber-800 dark:fill-amber-300 dark:text-amber-300 shrink-0" />
               </button>
               <button
                 onClick={handleStopNarration}
-                className={`p-1.5 rounded-xl border text-xs transition-all ${
+                className={`p-1.5 rounded-xl border text-xs transition-all shrink-0 cursor-pointer ${
                   isLight
                     ? "bg-white/90 hover:bg-red-50 text-red-600 border-red-200 shadow-sm"
                     : "bg-slate-800 hover:bg-red-950/40 text-red-400 border-red-900/40"
@@ -347,42 +325,46 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                 title="Stop Narration"
                 aria-label="Stop narration"
               >
-                <Square className="w-3.5 h-3.5 fill-current" />
+                <Square className="w-3.5 h-3.5 fill-current shrink-0" />
               </button>
             </div>
           )}
 
           {/* Theme Toggle (Light / Dark) */}
-          <ThemeToggle />
+          <div className="shrink-0 flex items-center">
+            <ThemeToggle />
+          </div>
 
-          {/* About Team Button */}
+          {/* About Team / Profile Button */}
           <button
             type="button"
             onClick={() => setShowAboutModal(true)}
-            className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl border text-xs font-medium transition-all ${
+            className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl border text-xs font-medium transition-all shrink-0 whitespace-nowrap active:scale-95 cursor-pointer ${
               isLight
                 ? "bg-white/90 hover:bg-white text-slate-800 border-amber-900/15 shadow-sm hover:border-amber-400"
                 : "bg-slate-800/80 hover:bg-slate-700 text-slate-200 border-slate-700 hover:border-slate-600"
             }`}
-            title="About Our Team"
+            title="About / Team Profile"
+            aria-label="About team profile"
           >
-            <Users className="w-3.5 h-3.5 text-amber-500" />
-            <span className="hidden sm:inline">About</span>
+            <Users className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+            <span>About</span>
           </button>
 
           {/* Share Link */}
           <button
             onClick={copyShareLink}
-            className={`p-2 rounded-xl border transition-all ${
+            className={`p-2 rounded-xl border transition-all shrink-0 active:scale-95 cursor-pointer ${
               isLight
-                ? "bg-white/90 hover:bg-white text-slate-700 border-amber-900/15 shadow-sm"
-                : "bg-slate-850 hover:bg-slate-750 text-slate-300 border-slate-750"
+                ? "bg-white/90 hover:bg-white text-slate-700 border-amber-900/15 shadow-sm hover:border-amber-400"
+                : "bg-slate-850 hover:bg-slate-750 text-slate-300 border-slate-750 hover:border-slate-650"
             }`}
             title="Copy Direct Link to Dish Journey"
+            aria-label="Copy direct link to dish"
           >
-            <Share2 className="w-4 h-4" />
+            <Share2 className="w-4 h-4 shrink-0" />
           </button>
-        </div>
+        </nav>
       </header>
 
       {/* ── COPIED LINK TOAST ── */}
