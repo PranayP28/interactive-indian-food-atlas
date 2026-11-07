@@ -109,9 +109,9 @@ export const DOSA_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Masala Dosa Recipe: 10 Key Ingredients, 8 Steps",
+    headline: "Masala Dosa Recipe: 8 Steps",
     shortDescription:
-      "Key ingredients: Sona Masuri rice, urad dal, fenugreek seeds, poha, potatoes, onions, green chillies, mustard seeds, curry leaves, pure desi ghee or butter.",
+      "Sona Masuri rice, urad dal, fenugreek seeds, poha, potatoes, onions, green chillies, mustard seeds, curry leaves, pure desi ghee or butter.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Masala Dosa Recipe",
@@ -192,9 +192,9 @@ export const BISI_BELE_BATH_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Bisi Bele Bath Recipe: 10 Key Ingredients, 8 Steps",
+    headline: "Bisi Bele Bath Recipe: 8 Steps",
     shortDescription:
-      "Key ingredients: Sona Masuri rice, toor dal, mixed vegetables (carrots, beans, peas), tamarind extract, jaggery, Byadagi dry red chillies, kapok buds (marathi moggu), dry coconut (copra), cashew nuts, pure desi ghee.",
+      "Sona Masuri rice, toor dal, mixed vegetables (carrots, beans, peas), tamarind extract, jaggery, Byadagi dry red chillies, kapok buds (marathi moggu), dry coconut (copra), cashew nuts, pure desi ghee.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Bisi Bele Bath Recipe",
@@ -275,9 +275,9 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Hyderabadi Dum Biryani Recipe: 10 Key Ingredients, 8 Steps",
+    headline: "Hyderabadi Dum Biryani Recipe: 8 Steps",
     shortDescription:
-      "Key ingredients: basmati rice, mutton or chicken, curd, fried onions, ginger-garlic paste, green chillies, whole spices and garam masala, mint and coriander, saffron milk, ghee.",
+      "basmati rice, mutton or chicken, curd, fried onions, ginger-garlic paste, green chillies, whole spices and garam masala, mint and coriander, saffron milk, ghee.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Hyderabadi Dum Biryani Recipe",
@@ -445,9 +445,9 @@ export const HALEEM_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Hyderabadi Haleem Recipe: 10 Key Ingredients, 8 Steps",
+    headline: "Hyderabadi Haleem Recipe: 8 Steps",
     shortDescription:
-      "Key ingredients: broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.",
+      "broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Hyderabadi Haleem Recipe",
@@ -610,9 +610,9 @@ export const PESARATTU_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Pesarattu Recipe: 10 Key Ingredients, 9 Steps",
+    headline: "Pesarattu Recipe: 9 Steps",
     shortDescription:
-      "Key ingredients: whole green gram (green moong), rice (optional, for extra crispness), ginger, green chillies, cumin seeds, salt, onion, fresh coriander leaves, cooking oil or ghee, ginger chutney (Allam Pachadi) for serving.",
+      "whole green gram (green moong), rice (optional, for extra crispness), ginger, green chillies, cumin seeds, salt, onion, fresh coriander leaves, cooking oil or ghee, ginger chutney (Allam Pachadi) for serving.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Pesarattu Recipe",
@@ -693,9 +693,9 @@ export const VADA_PAV_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Mumbai Vada Pav Recipe: 5 Key Ingredients, 7 Steps",
+    headline: "Mumbai Vada Pav Recipe: 7 Steps",
     shortDescription:
-      "Key ingredients: potatoes, pav (bread rolls), gram flour (besan), garlic, green chillies. Also needed: oil, salt and red chilli powder.\n\n1. Boil the potatoes, then peel and mash them roughly. (Sign: a knife goes in easily.)\n2. Make the filling: fry chopped garlic and green chillies in a little oil, add the mashed potatoes and salt, and mix well. (Sign: it smells fragrant and is dry enough to shape. Let it cool a little.)\n3. Shape the filling into round, slightly flat balls. (Sign: they hold their shape without cracking.)\n4. Make the batter: whisk gram flour with water and a pinch of salt. (Sign: thick and smooth, with no lumps, and it coats the back of a spoon.)\n5. Dip each ball in the batter and fry it in hot oil on medium heat, turning it once or twice. (Sign: golden brown and crisp all over. Drain on paper.)\n6. Make the dry garlic chutney: crush garlic with salt and red chilli powder into a coarse powder. (Sign: it looks red and crumbly and smells strong.)\n7. Slit the pav without cutting it fully, spread the chutney inside, place the hot vada and press lightly. (Sign: the vada sits snugly. For a modern twist, toast the pav on a griddle with butter first. Serve hot.)",
+      "potatoes, pav (bread rolls), gram flour (besan), garlic, green chillies. Also needed: oil, salt and red chilli powder.\n\n1. Boil the potatoes, then peel and mash them roughly. (Sign: a knife goes in easily.)\n2. Make the filling: fry chopped garlic and green chillies in a little oil, add the mashed potatoes and salt, and mix well. (Sign: it smells fragrant and is dry enough to shape. Let it cool a little.)\n3. Shape the filling into round, slightly flat balls. (Sign: they hold their shape without cracking.)\n4. Make the batter: whisk gram flour with water and a pinch of salt. (Sign: thick and smooth, with no lumps, and it coats the back of a spoon.)\n5. Dip each ball in the batter and fry it in hot oil on medium heat, turning it once or twice. (Sign: golden brown and crisp all over. Drain on paper.)\n6. Make the dry garlic chutney: crush garlic with salt and red chilli powder into a coarse powder. (Sign: it looks red and crumbly and smells strong.)\n7. Slit the pav without cutting it fully, spread the chutney inside, place the hot vada and press lightly. (Sign: the vada sits snugly. For a modern twist, toast the pav on a griddle with butter first. Serve hot.)",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Mumbai Vada Pav Recipe",
@@ -709,7 +709,7 @@ export const VADA_PAV_GENERATIONS: GenerationWaypoint[] = [
         "Green chillies",
       ],
       preparationMethod:
-        "Tempered Potato Mash & Precision Deep Frying. Key ingredients: potatoes, pav (bread rolls), gram flour (besan), garlic, green chillies. Also needed: oil, salt and red chilli powder.",
+        "Tempered Potato Mash & Precision Deep Frying. potatoes, pav (bread rolls), gram flour (besan), garlic, green chillies. Also needed: oil, salt and red chilli powder.",
       contemporaryDifference:
         "7. Slit the pav without cutting it fully, spread the chutney inside, place the hot vada and press lightly. (Sign: the vada sits snugly. For a modern twist, toast the pav on a griddle with butter first. Serve hot.)",
     },
@@ -771,9 +771,9 @@ export const PURAN_POLI_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Puran Poli Recipe: 8 Key Ingredients, 8 Steps",
+    headline: "Puran Poli Recipe: 8 Steps",
     shortDescription:
-      "Key ingredients: wheat flour (atta or maida), chana dal, jaggery, ghee, cardamom powder, nutmeg powder, salt, oil.\n\n1. Wash and boil the chana dal until soft but not mushy. (Sign: a grain mashes easily between two fingers.)\n2. Drain the dal and cook it with jaggery on low heat, stirring often. (Sign: it thickens, leaves the sides of the pan and holds its shape on a spoon.)\n3. Mash it smooth and mix in cardamom and nutmeg. (Use a puran yantra, food mill or mixer-grinder. Sign: no lumps. Cool it fully, then roll it into smooth balls.)\n4. Make the dough: knead flour with water, a little oil and salt, and rest it. (Sign: soft and stretchy, and it springs back when pressed.)\n5. Flatten a dough ball, place a puran ball in the centre, bring the edges together and seal. (Sign: no filling is showing.)\n6. Dust lightly with flour and roll gently into a round. (Sign: even thickness, no tears, and the filling spread to the edges.)\n7. Roast on a hot tawa on medium heat, flipping once, and brush with ghee. (Sign: light brown spots on both sides.)\n8. Serve hot with a little ghee on top. (Sign: soft, with the sweet filling visible at the edge.)",
+      "wheat flour (atta or maida), chana dal, jaggery, ghee, cardamom powder, nutmeg powder, salt, oil.\n\n1. Wash and boil the chana dal until soft but not mushy. (Sign: a grain mashes easily between two fingers.)\n2. Drain the dal and cook it with jaggery on low heat, stirring often. (Sign: it thickens, leaves the sides of the pan and holds its shape on a spoon.)\n3. Mash it smooth and mix in cardamom and nutmeg. (Use a puran yantra, food mill or mixer-grinder. Sign: no lumps. Cool it fully, then roll it into smooth balls.)\n4. Make the dough: knead flour with water, a little oil and salt, and rest it. (Sign: soft and stretchy, and it springs back when pressed.)\n5. Flatten a dough ball, place a puran ball in the centre, bring the edges together and seal. (Sign: no filling is showing.)\n6. Dust lightly with flour and roll gently into a round. (Sign: even thickness, no tears, and the filling spread to the edges.)\n7. Roast on a hot tawa on medium heat, flipping once, and brush with ghee. (Sign: light brown spots on both sides.)\n8. Serve hot with a little ghee on top. (Sign: soft, with the sweet filling visible at the edge.)",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Puran Poli Recipe",
@@ -788,7 +788,7 @@ export const PURAN_POLI_GENERATIONS: GenerationWaypoint[] = [
         "Nutmeg powder",
       ],
       preparationMethod:
-        "Puran Stone-Straining & Translucent Rolling. Key ingredients: wheat flour, chana dal, jaggery, ghee, cardamom powder, nutmeg powder.",
+        "Puran Stone-Straining & Translucent Rolling. wheat flour, chana dal, jaggery, ghee, cardamom powder, nutmeg powder.",
       contemporaryDifference:
         "8. Serve hot with a little ghee on top. (Sign: soft, with the sweet filling visible at the edge.)",
     },
@@ -852,9 +852,9 @@ export const DHOKLA_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Dhokla Recipe: 10 Key Ingredients, 8 Steps",
+    headline: "Dhokla Recipe: 8 Steps",
     shortDescription:
-      "Key ingredients: besan (gram flour), curd, ginger–green chilli paste, turmeric, salt, sugar, lemon juice, fruit salt (Eno), oil with mustard seeds, curry leaves and coriander.\n\n1. Mix besan, curd, ginger–green chilli paste, turmeric, salt, sugar and lemon juice with water into a smooth, pourable batter. Rest it for about 10 minutes.\n2. Heat water in a steamer and grease a tray with oil.\n3. Add fruit salt to the batter just before cooking and stir gently, once, until it froths.\n4. Pour the batter into the greased tray straight away.\n5. Steam on medium heat for about 15 minutes, until a skewer comes out clean.\n6. Let it cool slightly, then cut into squares.\n7. Heat oil, crackle mustard seeds, add green chillies and curry leaves, then pour in a little water and sugar. Pour this tempering over the dhokla.\n8. Garnish with coriander and grated coconut and serve with green chutney and fried chillies.",
+      "besan (gram flour), curd, ginger–green chilli paste, turmeric, salt, sugar, lemon juice, fruit salt (Eno), oil with mustard seeds, curry leaves and coriander.\n\n1. Mix besan, curd, ginger–green chilli paste, turmeric, salt, sugar and lemon juice with water into a smooth, pourable batter. Rest it for about 10 minutes.\n2. Heat water in a steamer and grease a tray with oil.\n3. Add fruit salt to the batter just before cooking and stir gently, once, until it froths.\n4. Pour the batter into the greased tray straight away.\n5. Steam on medium heat for about 15 minutes, until a skewer comes out clean.\n6. Let it cool slightly, then cut into squares.\n7. Heat oil, crackle mustard seeds, add green chillies and curry leaves, then pour in a little water and sugar. Pour this tempering over the dhokla.\n8. Garnish with coriander and grated coconut and serve with green chutney and fried chillies.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Dhokla Recipe",
@@ -938,9 +938,9 @@ export const UNDHIYU_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Undhiyu Recipe: 10 Key Ingredients, 8 Steps",
+    headline: "Undhiyu Recipe: 8 Steps",
     shortDescription:
-      "Key ingredients: Surti papdi, purple yam and yam, baby potatoes, raw banana, small black brinjals, fresh toovar seeds, muthiya (fenugreek dumplings), coconut-coriander green masala with green garlic, ginger–green chilli paste, and oil with carom seeds and asafoetida.\n\n1. Make the muthiya: squeeze salted chopped methi leaves, mix with wheat flour, besan, ginger–green chilli paste, sugar, turmeric, chilli powder and oil into a soft dough. Shape 18 to 20 pieces and deep fry on medium heat until golden. They can be made a day ahead.\n2. Mix the green masala by hand: grated coconut, coriander, green garlic, coriander-cumin powder, ginger–green chilli paste, chilli powder, sugar, lemon juice and salt. It should taste spicy and sweet.\n3. Slit the baby potatoes, brinjals and raw banana without separating the segments, and stuff them with about half the masala.\n4. Combine the surti papdi, purple yam, yam and toovar seeds with the remaining masala. Rest for 8 to 10 minutes.\n5. Heat oil in a pressure cooker, add carom seeds, asafoetida and a pinch of soda bicarbonate, then add the stuffed potatoes and brinjals, followed by the marinated vegetables.\n6. Add salt and about 2 cups hot water, mix gently and pressure cook on high for 2 whistles. Let the steam release before opening.\n7. Move to a large non-stick pan, add the stuffed bananas and muthiya, and cook on low heat, stirring gently, until the bananas are tender.\n8. Serve hot, garnished with coriander, with poori and shrikhand.",
+      "Surti papdi, purple yam and yam, baby potatoes, raw banana, small black brinjals, fresh toovar seeds, muthiya (fenugreek dumplings), coconut-coriander green masala with green garlic, ginger–green chilli paste, and oil with carom seeds and asafoetida.\n\n1. Make the muthiya: squeeze salted chopped methi leaves, mix with wheat flour, besan, ginger–green chilli paste, sugar, turmeric, chilli powder and oil into a soft dough. Shape 18 to 20 pieces and deep fry on medium heat until golden. They can be made a day ahead.\n2. Mix the green masala by hand: grated coconut, coriander, green garlic, coriander-cumin powder, ginger–green chilli paste, chilli powder, sugar, lemon juice and salt. It should taste spicy and sweet.\n3. Slit the baby potatoes, brinjals and raw banana without separating the segments, and stuff them with about half the masala.\n4. Combine the surti papdi, purple yam, yam and toovar seeds with the remaining masala. Rest for 8 to 10 minutes.\n5. Heat oil in a pressure cooker, add carom seeds, asafoetida and a pinch of soda bicarbonate, then add the stuffed potatoes and brinjals, followed by the marinated vegetables.\n6. Add salt and about 2 cups hot water, mix gently and pressure cook on high for 2 whistles. Let the steam release before opening.\n7. Move to a large non-stick pan, add the stuffed bananas and muthiya, and cook on low heat, stirring gently, until the bananas are tender.\n8. Serve hot, garnished with coriander, with poori and shrikhand.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Undhiyu Recipe",
@@ -1029,9 +1029,9 @@ export const DAL_BAATI_CHURMA_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Dal Baati Churma Recipe: 10 Key Ingredients, 8 Steps",
+    headline: "Dal Baati Churma Recipe: 8 Steps",
     shortDescription:
-      "Key ingredients: coarse whole wheat flour (atta), sooji (semolina), pure desi ghee, ajwain (carom seeds), panchmel dal (toor, chana, moong, urad, masoor), hing (asafoetida), cumin and mustard seeds, green chillies and ginger, jaggery or bura (powdered sugar), cardamom powder.\n\n1. Prepare the baati dough: Mix coarse whole wheat flour, sooji, ajwain, salt, and melted ghee (moyen). Knead with warm water into a tight, firm dough. Rest for 20 minutes.\n2. Shape the baatis: Pinch dough and roll into medium, smooth balls. Make a gentle thumb depression in the centre of each.\n3. Bake the baatis: Arrange in a preheated baati oven, gas tandoor, or 200°C convection oven. Bake for 30–35 minutes, turning occasionally, until crisp and golden brown with cracked crusts.\n4. Cook the Panchmel dal: Rinse and pressure-cook the five lentils with water, turmeric, and salt for 4 whistles until soft and creamy.\n5. Temper the dal: Heat pure desi ghee in a pan; add cumin seeds, mustard seeds, hing, chopped green chillies, ginger, and red chilli powder. Pour the bubbling tadka over the cooked dal and simmer.\n6. Make the churma: Take 4–5 hot baked baatis, crush them finely while warm (or pulse in a mixer), and pass through a coarse sieve.\n7. Sweeten the churma: In a pan, warm a little ghee, add the crushed baati crumbs, powdered sugar (bura) or jaggery, and cardamom powder. Toss well and garnish with sliced almonds.\n8. Serve hot: Gently crack each hot baati with your palms, submerge in a bowl of warm desi ghee, and serve on a royal thali with bubbling Panchmel dal, sweet churma, and garlic chutney.",
+      "coarse whole wheat flour (atta), sooji (semolina), pure desi ghee, ajwain (carom seeds), panchmel dal (toor, chana, moong, urad, masoor), hing (asafoetida), cumin and mustard seeds, green chillies and ginger, jaggery or bura (powdered sugar), cardamom powder.\n\n1. Prepare the baati dough: Mix coarse whole wheat flour, sooji, ajwain, salt, and melted ghee (moyen). Knead with warm water into a tight, firm dough. Rest for 20 minutes.\n2. Shape the baatis: Pinch dough and roll into medium, smooth balls. Make a gentle thumb depression in the centre of each.\n3. Bake the baatis: Arrange in a preheated baati oven, gas tandoor, or 200°C convection oven. Bake for 30–35 minutes, turning occasionally, until crisp and golden brown with cracked crusts.\n4. Cook the Panchmel dal: Rinse and pressure-cook the five lentils with water, turmeric, and salt for 4 whistles until soft and creamy.\n5. Temper the dal: Heat pure desi ghee in a pan; add cumin seeds, mustard seeds, hing, chopped green chillies, ginger, and red chilli powder. Pour the bubbling tadka over the cooked dal and simmer.\n6. Make the churma: Take 4–5 hot baked baatis, crush them finely while warm (or pulse in a mixer), and pass through a coarse sieve.\n7. Sweeten the churma: In a pan, warm a little ghee, add the crushed baati crumbs, powdered sugar (bura) or jaggery, and cardamom powder. Toss well and garnish with sliced almonds.\n8. Serve hot: Gently crack each hot baati with your palms, submerge in a bowl of warm desi ghee, and serve on a royal thali with bubbling Panchmel dal, sweet churma, and garlic chutney.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Dal Baati Churma Recipe",
@@ -1115,9 +1115,9 @@ export const LAAL_MAAS_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Laal Maas Recipe: 10 Key Ingredients, 8 Steps",
+    headline: "Laal Maas Recipe: 8 Steps",
     shortDescription:
-      "Key ingredients: mutton (goat meat with bone), Mathania dry red chillies, pure desi ghee, garlic paste, whisked curd (yoghurt), sliced onions, whole spices (cloves, black cardamom, cinnamon), coriander powder, turmeric, charcoal lump with cloves (for Dhungar smoke).\n\n1. Prepare the chilli paste: Deseed Mathania red chillies, soak in warm water for 20 minutes, and grind into a smooth, vibrant red paste.\n2. Marinate the mutton: Coat mutton pieces with half of the Mathania chilli paste, garlic paste, whisked curd, turmeric, and salt. Rest for 45 minutes.\n3. Temper whole spices: Heat pure desi ghee generously in a heavy-bottomed handi; add black cardamom, green cardamom, cloves, cinnamon, and bay leaves until aromatic.\n4. Brown the onions: Add finely sliced onions and sauté on medium heat until golden brown.\n5. Bhuna the mutton: Add the marinated mutton and remaining garlic paste; roast on high heat for 10 minutes until the meat is seared and juices seal in.\n6. Slow-simmer the curry: Add the remaining Mathania chilli paste, coriander powder, and a splash of warm water. Cover tightly and cook on low heat for 45–60 minutes until mutton is melt-in-mouth tender and ghee floats on top.\n7. Infuse Dhungar smoke: Place a small metal bowl on the curry, add a red-hot charcoal piece, drop a clove and a spoonful of ghee over it, and seal the lid for 4 minutes to trap the royal campfire aroma.\n8. Serve hot: Discard charcoal and serve the glistening scarlet curry with bajra roti, hot phulkas, or steamed rice.",
+      "mutton (goat meat with bone), Mathania dry red chillies, pure desi ghee, garlic paste, whisked curd (yoghurt), sliced onions, whole spices (cloves, black cardamom, cinnamon), coriander powder, turmeric, charcoal lump with cloves (for Dhungar smoke).\n\n1. Prepare the chilli paste: Deseed Mathania red chillies, soak in warm water for 20 minutes, and grind into a smooth, vibrant red paste.\n2. Marinate the mutton: Coat mutton pieces with half of the Mathania chilli paste, garlic paste, whisked curd, turmeric, and salt. Rest for 45 minutes.\n3. Temper whole spices: Heat pure desi ghee generously in a heavy-bottomed handi; add black cardamom, green cardamom, cloves, cinnamon, and bay leaves until aromatic.\n4. Brown the onions: Add finely sliced onions and sauté on medium heat until golden brown.\n5. Bhuna the mutton: Add the marinated mutton and remaining garlic paste; roast on high heat for 10 minutes until the meat is seared and juices seal in.\n6. Slow-simmer the curry: Add the remaining Mathania chilli paste, coriander powder, and a splash of warm water. Cover tightly and cook on low heat for 45–60 minutes until mutton is melt-in-mouth tender and ghee floats on top.\n7. Infuse Dhungar smoke: Place a small metal bowl on the curry, add a red-hot charcoal piece, drop a clove and a spoonful of ghee over it, and seal the lid for 4 minutes to trap the royal campfire aroma.\n8. Serve hot: Discard charcoal and serve the glistening scarlet curry with bajra roti, hot phulkas, or steamed rice.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Laal Maas Recipe",
@@ -1196,9 +1196,9 @@ export const INDORI_POHA_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Indori Poha Recipe: 12 Key Ingredients, 10 Steps",
+    headline: "Indori Poha Recipe: 10 Steps",
     shortDescription:
-      "Key ingredients: Thick or medium-thick poha (flattened rice), Turmeric, sugar and salt, Oil, Mustard seeds and fennel seeds, Green chilli, Onion (raw, chopped), Fresh coriander leaves, Jeeravan masala, Ratlami or Indori sev, and masala boondi (nukti), Lemon, Pomegranate (optional), Hot jalebi (for serving, optional).",
+      "Thick or medium-thick poha (flattened rice), Turmeric, sugar and salt, Oil, Mustard seeds and fennel seeds, Green chilli, Onion (raw, chopped), Fresh coriander leaves, Jeeravan masala, Ratlami or Indori sev, and masala boondi (nukti), Lemon, Pomegranate (optional), Hot jalebi (for serving, optional).",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Indori Poha Recipe",
@@ -1366,9 +1366,9 @@ export const BHUTTE_KA_KEES_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Step-by-Step",
     centuryLabel: "Stage 3",
-    headline: "Bhutte Ka Kees: 12 Key Ingredients & 10 Preparation Steps",
+    headline: "Bhutte Ka Kees: 10 Preparation Steps",
     shortDescription:
-      "Key ingredients: Fresh tender sweet corn (bhutta, grated), Full cream milk, Desi ghee or oil, Mustard seeds and cumin seeds (jeera), Asafoetida (hing), Green chillies (finely chopped), Fresh ginger (grated), Turmeric powder, Sugar and salt, Fresh coconut (scraped/grated), Fresh coriander leaves, Lemon (for tang) and jeeravan masala / sev (optional).\n\n1. Grate the corn. - Husk fresh tender corn cobs and grate using a medium grater to collect pulp and juices.\n2. Heat the fat. - Heat ghee or oil in a heavy kadhai over medium-low heat.\n3. Splutter the spices. - Add mustard seeds and cumin seeds; once they crackle, add asafoetida (hing).\n4. Sauté the aromatics. - Add finely chopped green chillies and grated ginger; sauté for 30 seconds until aromatic.\n5. Cook the corn pulp. - Add grated corn, turmeric powder, salt, and a pinch of sugar; sauté on low heat for 3-4 minutes.\n6. Pour the milk. - Slowly pour in full cream milk while stirring continuously to blend evenly.\n7. Simmer and thicken. - Cover with a lid and cook on low heat for 8-10 minutes, stirring occasionally, until milk is absorbed and corn is tender.\n8. Stir in fresh garnish. - Turn off the heat and stir in half of the freshly grated coconut and chopped coriander leaves.\n9. Season to taste. - Squeeze fresh lemon juice and dust with jeeravan masala for signature Indori tang.\n10. Finish and serve. - Spoon hot into bowls, garnish with remaining grated coconut, coriander, and crispy sev.\n\nUse fresh tender corn. Grating rather than blending retains the quintessential texture. Add milk gradually on low heat to achieve creamy consistency.",
+      "Fresh tender sweet corn (bhutta, grated), Full cream milk, Desi ghee or oil, Mustard seeds and cumin seeds (jeera), Asafoetida (hing), Green chillies (finely chopped), Fresh ginger (grated), Turmeric powder, Sugar and salt, Fresh coconut (scraped/grated), Fresh coriander leaves, Lemon (for tang) and jeeravan masala / sev (optional).\n\n1. Grate the corn. - Husk fresh tender corn cobs and grate using a medium grater to collect pulp and juices.\n2. Heat the fat. - Heat ghee or oil in a heavy kadhai over medium-low heat.\n3. Splutter the spices. - Add mustard seeds and cumin seeds; once they crackle, add asafoetida (hing).\n4. Sauté the aromatics. - Add finely chopped green chillies and grated ginger; sauté for 30 seconds until aromatic.\n5. Cook the corn pulp. - Add grated corn, turmeric powder, salt, and a pinch of sugar; sauté on low heat for 3-4 minutes.\n6. Pour the milk. - Slowly pour in full cream milk while stirring continuously to blend evenly.\n7. Simmer and thicken. - Cover with a lid and cook on low heat for 8-10 minutes, stirring occasionally, until milk is absorbed and corn is tender.\n8. Stir in fresh garnish. - Turn off the heat and stir in half of the freshly grated coconut and chopped coriander leaves.\n9. Season to taste. - Squeeze fresh lemon juice and dust with jeeravan masala for signature Indori tang.\n10. Finish and serve. - Spoon hot into bowls, garnish with remaining grated coconut, coriander, and crispy sev.\n\nUse fresh tender corn. Grating rather than blending retains the quintessential texture. Add milk gradually on low heat to achieve creamy consistency.",
     image: ERA_PHOTO.spice_caravan,
     generationRecipe: {
       recipeName: "Bhutte Ka Kees Culinary Protocol",
@@ -1535,9 +1535,9 @@ export const DAL_BAFLA_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Step-by-Step",
     centuryLabel: "Stage 3",
-    headline: "Dal Bafla: 12 Key Ingredients & 10 Preparation Steps",
+    headline: "Dal Bafla: 10 Preparation Steps",
     shortDescription:
-      "Key ingredients: Coarse whole-wheat flour (atta), Semolina (sooji / rava), Pure desi ghee, Ajwain (carom seeds), Turmeric powder and pinch of baking soda, Panchmel dal (toor, chana, moong, urad, masoor), Tomatoes and green chillies, Fresh ginger (grated), Cumin seeds and mustard seeds, Asafoetida (hing), Fresh coriander leaves, Spicy red garlic chutney & lemon wedges.\n\n1. Make the dough. - Mix coarse wheat flour, sooji, ajwain, turmeric, salt, and melted ghee (moyen). Rub until crumbly, then knead into a stiff dough with warm water.\n2. Shape the baflas. - Divide dough into smooth, medium round balls and make a slight dimple in the center with your thumb.\n3. Boil water. - In a large pot, bring water to a rolling boil with 1/2 tsp turmeric and salt.\n4. Boil the baflas. - Gently lower the dough balls into boiling water and cook for 12-15 minutes until they float to the surface.\n5. Drain and dry. - Lift baflas out with a slotted spoon and dry on a clean towel for 5-10 minutes.\n6. Bake until crisp. - Bake in a preheated baati oven or conventional oven at 200°C (390°F) for 20-25 minutes, turning until golden and blistered.\n7. Cook the dal. - Pressure cook mixed five lentils with turmeric and salt until soft and creamy.\n8. Temper the dal. - Heat ghee in a pan, crackle cumin and mustard seeds, add hing, green chillies, ginger, tomatoes, and spices; pour into dal.\n9. Crush and ghee-soak. - Gently crush the hot baked baflas in a napkin and immerse them completely in a bowl of warm desi ghee.\n10. Assemble and serve. - Serve piping hot ghee-drenched baflas with Panchmel dal, fiery garlic chutney, sliced onions, and lemon.\n\nBoiling before baking is mandatory for authentic bafla texture. Submerge baflas in ghee while piping hot for complete absorption.",
+      "Coarse whole-wheat flour (atta), Semolina (sooji / rava), Pure desi ghee, Ajwain (carom seeds), Turmeric powder and pinch of baking soda, Panchmel dal (toor, chana, moong, urad, masoor), Tomatoes and green chillies, Fresh ginger (grated), Cumin seeds and mustard seeds, Asafoetida (hing), Fresh coriander leaves, Spicy red garlic chutney & lemon wedges.\n\n1. Make the dough. - Mix coarse wheat flour, sooji, ajwain, turmeric, salt, and melted ghee (moyen). Rub until crumbly, then knead into a stiff dough with warm water.\n2. Shape the baflas. - Divide dough into smooth, medium round balls and make a slight dimple in the center with your thumb.\n3. Boil water. - In a large pot, bring water to a rolling boil with 1/2 tsp turmeric and salt.\n4. Boil the baflas. - Gently lower the dough balls into boiling water and cook for 12-15 minutes until they float to the surface.\n5. Drain and dry. - Lift baflas out with a slotted spoon and dry on a clean towel for 5-10 minutes.\n6. Bake until crisp. - Bake in a preheated baati oven or conventional oven at 200°C (390°F) for 20-25 minutes, turning until golden and blistered.\n7. Cook the dal. - Pressure cook mixed five lentils with turmeric and salt until soft and creamy.\n8. Temper the dal. - Heat ghee in a pan, crackle cumin and mustard seeds, add hing, green chillies, ginger, tomatoes, and spices; pour into dal.\n9. Crush and ghee-soak. - Gently crush the hot baked baflas in a napkin and immerse them completely in a bowl of warm desi ghee.\n10. Assemble and serve. - Serve piping hot ghee-drenched baflas with Panchmel dal, fiery garlic chutney, sliced onions, and lemon.\n\nBoiling before baking is mandatory for authentic bafla texture. Submerge baflas in ghee while piping hot for complete absorption.",
     image: ERA_PHOTO.spice_caravan,
     generationRecipe: {
       recipeName: "Dal Bafla Feast Protocol",
@@ -1705,9 +1705,9 @@ export const AVAKAYA_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Avakaya Recipe: 9 Key Ingredients, 11 Steps",
+    headline: "Avakaya Recipe: 11 Steps",
     shortDescription:
-      "Key ingredients: raw green sour mangoes, mustard seeds (sun-dried, ground fresh), red chilli powder, crystal salt (powdered), gingelly (sesame) oil, garlic cloves, fenugreek (methi) seeds, black chickpeas (optional, in place of garlic), hot rice with dal and ghee for serving.",
+      "raw green sour mangoes, mustard seeds (sun-dried, ground fresh), red chilli powder, crystal salt (powdered), gingelly (sesame) oil, garlic cloves, fenugreek (methi) seeds, black chickpeas (optional, in place of garlic), hot rice with dal and ghee for serving.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Avakaya Recipe",
@@ -2084,9 +2084,9 @@ export const MAKKI_SARSON_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Makki di Roti & Sarson da Saag Recipe: 10 Key Ingredients, 10 Steps",
+    headline: "Makki di Roti & Sarson da Saag Recipe: 10 Steps",
     shortDescription:
-      "Key ingredients: Fresh mustard leaves (sarson), bathua, and spinach (palak), Maize flour (makki ka atta), Ginger and garlic, Green chillies, Onions, Mustard oil or ghee, Salt, Freshly churned white butter (makhan), Warm water (for kneading), Jaggery (gur, for serving).",
+      "Fresh mustard leaves (sarson), bathua, and spinach (palak), Maize flour (makki ka atta), Ginger and garlic, Green chillies, Onions, Mustard oil or ghee, Salt, Freshly churned white butter (makhan), Warm water (for kneading), Jaggery (gur, for serving).",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Makki di Roti & Sarson da Saag Recipe",
@@ -2249,9 +2249,9 @@ export const BUTTER_CHICKEN_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Butter Chicken Recipe: 11 Key Ingredients, 10 Steps",
+    headline: "Butter Chicken Recipe: 10 Steps",
     shortDescription:
-      "Key ingredients: Chicken (boneless pieces or bone-in cuts), Thick curd (yogurt), Ginger-garlic paste, Kashmiri red chilli powder, Ripe tomatoes (pureed), Butter, Fresh dairy cream, Kasuri methi (dried fenugreek leaves), Garam masala, Oil or ghee (for roasting), Salt and sugar (or honey).",
+      "Chicken (boneless pieces or bone-in cuts), Thick curd (yogurt), Ginger-garlic paste, Kashmiri red chilli powder, Ripe tomatoes (pureed), Butter, Fresh dairy cream, Kasuri methi (dried fenugreek leaves), Garam masala, Oil or ghee (for roasting), Salt and sugar (or honey).",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Butter Chicken Recipe",
@@ -2416,9 +2416,9 @@ export const AMRITSARI_KULCHA_GENERATIONS: GenerationWaypoint[] = [
     eraTitle: "Recipe",
     yearRange: "Short and simple",
     centuryLabel: "Stage 3",
-    headline: "Amritsari Kulcha Recipe: 11 Key Ingredients, 10 Steps",
+    headline: "Amritsari Kulcha Recipe: 10 Steps",
     shortDescription:
-      "Key ingredients: Refined wheat flour (maida), Boiled and mashed potatoes, Ghee or butter (for lamination and topping), Carom seeds (ajwain) and cumin, Crushed coriander seeds, Dried pomegranate seeds (anardana powder), Green chilli and fresh coriander, Chopped onion, Salt, Water (for kneading), Fresh white butter (for serving).",
+      "Refined wheat flour (maida), Boiled and mashed potatoes, Ghee or butter (for lamination and topping), Carom seeds (ajwain) and cumin, Crushed coriander seeds, Dried pomegranate seeds (anardana powder), Green chilli and fresh coriander, Chopped onion, Salt, Water (for kneading), Fresh white butter (for serving).",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
       recipeName: "Amritsari Kulcha Recipe",
