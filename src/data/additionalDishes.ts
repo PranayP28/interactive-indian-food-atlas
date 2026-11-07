@@ -57,7 +57,19 @@ export const ADDITIONAL_DISHES: Record<string, Dish[]> = {
       category: "grain-bread",
       description:
         "A stuffed bread of refined wheat flour, layered with ghee and spiced potato or paneer, slapped into a tandoor wall until it blisters, then crushed with white butter and served with chole.",
-      ingredients: ["Refined wheat flour", "Ghee", "Potato or paneer filling", "Ajwain", "Curd", "Green chilli"],
+      ingredients: [
+        "Refined wheat flour (maida)",
+        "Boiled and mashed potatoes",
+        "Ghee or butter (for lamination and topping)",
+        "Carom seeds (ajwain) and cumin",
+        "Crushed coriander seeds",
+        "Dried pomegranate seeds (anardana powder)",
+        "Green chilli and fresh coriander",
+        "Chopped onion",
+        "Salt",
+        "Water (for kneading)",
+        "Fresh white butter (for serving)"
+      ],
       tasteProfile: "Crisp, Buttery & Ghee-Layered",
       era: "Amritsar tandoor culture, documented in 20th-century food writing",
       keyTechnique: "Tandoor-Charged Stuffed Kulcha Baking",
@@ -266,7 +278,20 @@ export const ADDITIONAL_DISHES: Record<string, Dish[]> = {
       category: "grain-bread",
       description:
         "Wheat-flour balls boiled first and then baked until blistered — unlike a dry baati — cracked open, drenched in ghee and served with a slow-cooked panchmel dal from the Malwa and Bundelkhand regions.",
-      ingredients: ["Whole-wheat flour", "Ghee", "Mixed pulses", "Cumin", "Asafoetida", "Turmeric"],
+      ingredients: [
+        "Coarse whole-wheat flour (atta)",
+        "Semolina (sooji / rava)",
+        "Pure desi ghee",
+        "Ajwain (carom seeds)",
+        "Turmeric powder and pinch of baking soda",
+        "Panchmel dal (toor, chana, moong, urad, masoor)",
+        "Tomatoes and green chillies",
+        "Fresh ginger (grated)",
+        "Cumin seeds and mustard seeds",
+        "Asafoetida (hing)",
+        "Fresh coriander leaves",
+        "Spicy red garlic chutney & lemon wedges"
+      ],
       tasteProfile: "Buttery, Hearty & Dal-Soaked",
       era: "Malwa–Bundelkhand household tradition; documented in regional cookery",
       keyTechnique: "Boil-Then-Bake Wheat Dumpling",
