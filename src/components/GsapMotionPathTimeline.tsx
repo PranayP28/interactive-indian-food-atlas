@@ -1009,12 +1009,15 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       dishId === "amritsari-kulcha" ||
                       dishId === "vada-pav" ||
                       dishId === "puran-poli" ||
-                      dishId === "dhokla") &&
+                      dishId === "dhokla" ||
+                      dishId === "undhiyu") &&
                       stageNum === 3 && (
                       <div className="pt-2 relative z-30">
                         <a
                           href={
-                            dishId === "dhokla"
+                            dishId === "undhiyu"
+                              ? "https://youtu.be/76WP69qtDi8?si=pJ2OxBhrMlE4jino"
+                              : dishId === "dhokla"
                               ? "https://youtu.be/w_2eb9uaXns?si=KIDHVXoEFHrjkhiR"
                               : dishId === "puran-poli"
                               ? "https://youtu.be/l7Efb-HjDPU?si=EscTTWw7kdAoJfmO"
