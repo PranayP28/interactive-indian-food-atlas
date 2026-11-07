@@ -30,10 +30,7 @@ import { Skiper6Summarizer, GenerationSummaryMember } from "./ui/skiper6";
 import { useTheme } from "../context/ThemeContext";
 import { CinematicParallaxJourney, CinematicStage, CinematicOutro } from "./CinematicParallaxJourney";
 import { ImageUploadSearchModal } from "./ImageUploadSearchModal";
-import {
-  DishInfographic,
-  getInfographicForStage,
-} from "../data/infographicsData";
+import { getInfographicForStage } from "../data/infographicsData";
 
 // Register GSAP plugins
 gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
@@ -61,21 +58,17 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
     [dishId]
   );
 
-  // Visual mode per stage: 'level' (photo) or 'uploaded' (infographic / recipe card)
-  const [stageVisualModes, setStageVisualModes] = useState<Record<number, "level" | "uploaded">>({
-    1: "uploaded",
-    2: "uploaded",
-    3: "uploaded",
-  });
-
-  // Custom assigned uploaded images per stage (if user picked one via modal)
-  const [customStageImages, setCustomStageImages] = useState<Record<number, string>>({});
-
-  // Ingredient search filter per stage
+  // Ingredient search filter per stage (Stage III)
   const [ingredientFilters, setIngredientFilters] = useState<Record<number, string>>({});
 
-  // Selected ingredient per stage
+  // Selected ingredient per stage (Stage III)
   const [selectedIngredients, setSelectedIngredients] = useState<Record<number, string | null>>({});
+
+  // Reset stage ingredient filter & selection when dish changes
+  useEffect(() => {
+    setIngredientFilters({});
+    setSelectedIngredients({});
+  }, [dishId]);
 
   // Image Upload Search Modal state
   const [isSearchModalOpen, setIsSearchModalOpen] = useState<boolean>(false);
@@ -325,17 +318,6 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
     setIsSearchModalOpen(true);
   };
 
-  // Assign an image selected from the modal to a stage
-  const handleSelectImageForStage = (image: DishInfographic, stageNum: number) => {
-    setCustomStageImages((prev) => ({ ...prev, [stageNum]: image.image }));
-    setStageVisualModes((prev) => ({ ...prev, [stageNum]: "uploaded" }));
-  };
-
-  // Toggle visual mode for a stage
-  const toggleStageMode = (stageNum: number, mode: "level" | "uploaded") => {
-    setStageVisualModes((prev) => ({ ...prev, [stageNum]: mode }));
-  };
-
   return (
     <div
       ref={containerRef}
@@ -467,33 +449,19 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
             const isEven = idx % 2 === 0;
             const isActive = activeWaypointIdx === idx;
 
-            // Resolved uploaded infographic for this stage
-            const stageInfographic = getInfographicForStage(dishId, stageNum);
-            const customImage = customStageImages[stageNum];
-            const hasUploadedAsset = Boolean(stageInfographic || customImage);
+            // Level Photograph image and label
+            const activeImageSrc = waypoint.image;
+            const activeImageLabel = `${waypoint.headline} (Level Photo)`;
 
-            // Active visual mode: 'level' (photo) or 'uploaded' (infographic)
-            const currentMode = stageVisualModes[stageNum] || (hasUploadedAsset ? "uploaded" : "level");
-
-            // Compute active image to display in stage
-            const activeImageSrc =
-              currentMode === "uploaded" && (customImage || stageInfographic?.image)
-                ? (customImage || stageInfographic?.image)!
-                : waypoint.image;
-
-            const activeImageLabel =
-              currentMode === "uploaded"
-                ? stageInfographic?.title || `Stage ${stageNum} Recipe Infographic`
-                : `${waypoint.headline} (Level Photo)`;
-
-            // Filtered ingredients for this stage
-            const stageFilter = (ingredientFilters[stageNum] || "").trim().toLowerCase();
-            const allStageIngredients = waypoint.generationRecipe.ingredientsList;
-            const displayedIngredients = stageFilter
+            // Filtered ingredients for Stage 03 only (Epoch Ingredients matrix is exclusive to Stage III)
+            const isStage3 = stageNum === 3;
+            const stageFilter = isStage3 ? (ingredientFilters[stageNum] || "").trim().toLowerCase() : "";
+            const allStageIngredients = isStage3 ? waypoint.generationRecipe.ingredientsList : [];
+            const displayedIngredients = isStage3 && stageFilter
               ? allStageIngredients.filter((ing) => ing.toLowerCase().includes(stageFilter))
               : allStageIngredients;
 
-            const selectedIng = selectedIngredients[stageNum];
+            const selectedIng = isStage3 ? selectedIngredients[stageNum] : null;
             const isStageActiveSpeech = activeSpeechStage === stageNum;
 
             return (
@@ -527,7 +495,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                           : "border-amber-500/40 bg-slate-950 shadow-black/80"
                       }`}
                     >
-                      {/* Top Control Bar: Mode Toggle & Search Buttons */}
+                      {/* Top Control Bar: Static Level Photo Label & Fullscreen Action */}
                       <div
                         className={`p-2.5 sm:p-3 border-b flex items-center justify-between gap-2 text-xs ${
                           isLight
@@ -535,83 +503,34 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                             : "bg-slate-900/80 border-slate-800 text-slate-200"
                         }`}
                       >
-                        {/* Dual-Mode Selector: Level Photo vs Uploaded Infographic */}
-                        <div className="flex items-center gap-1 p-0.5 rounded-xl border border-amber-500/20 bg-black/20 text-[11px] font-bold">
-                          <button
-                            type="button"
-                            onClick={() => toggleStageMode(stageNum, "level")}
-                            className={`px-2.5 py-1 rounded-lg transition-all flex items-center gap-1 ${
-                              currentMode === "level"
-                                ? "bg-amber-500 text-slate-950 shadow-sm"
-                                : isLight
-                                  ? "text-slate-600 hover:text-black"
-                                  : "text-slate-400 hover:text-white"
-                            }`}
-                            title="View Level Photograph"
-                          >
-                            <ImageIcon className="w-3 h-3" />
-                            <span>Level Photo</span>
-                          </button>
-
-                          <button
-                            type="button"
-                            onClick={() => toggleStageMode(stageNum, "uploaded")}
-                            className={`px-2.5 py-1 rounded-lg transition-all flex items-center gap-1 ${
-                              currentMode === "uploaded"
-                                ? "bg-amber-500 text-slate-950 shadow-sm"
-                                : isLight
-                                  ? "text-slate-600 hover:text-black"
-                                  : "text-slate-400 hover:text-white"
-                            }`}
-                            title="View Uploaded Recipe Infographic"
-                          >
-                            <Sparkles className="w-3 h-3 text-amber-500 animate-pulse" />
-                            <span>Uploaded Recipe</span>
-                            {hasUploadedAsset && (
-                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-                            )}
-                          </button>
+                        {/* Static Badge: Level Photo */}
+                        <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-500 text-slate-950 text-[11px] font-bold shadow-sm">
+                          <ImageIcon className="w-3.5 h-3.5" />
+                          <span>Level Photo</span>
                         </div>
 
-                        {/* Quick Action: Search Uploads Modal & Lightbox Zoom */}
-                        <div className="flex items-center gap-1.5">
-                          <button
-                            type="button"
-                            onClick={() => openImageUploadSearch(stageNum, "")}
-                            className={`p-1.5 rounded-lg border text-xs font-semibold flex items-center gap-1 transition-colors ${
-                              isLight
-                                ? "bg-amber-100 hover:bg-amber-200 text-amber-950 border-amber-300"
-                                : "bg-amber-500/15 hover:bg-amber-500/25 text-amber-300 border-amber-500/30"
-                            }`}
-                            title="Search / Browse Uploaded Images"
-                            aria-label="Open image upload search"
-                          >
-                            <Search className="w-3.5 h-3.5" />
-                            <span className="hidden sm:inline">Search</span>
-                          </button>
-
-                          <button
-                            type="button"
-                            onClick={() => {
-                              setLightboxData({
-                                src: activeImageSrc,
-                                title: activeImageLabel,
-                                subtitle: waypoint.headline,
-                                era: waypoint.eraTitle,
-                              });
-                              setLightboxZoom(1);
-                            }}
-                            className={`p-1.5 rounded-lg border transition-colors ${
-                              isLight
-                                ? "bg-white hover:bg-slate-100 text-slate-700 border-slate-300"
-                                : "bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700"
-                            }`}
-                            title="Fullscreen High-Res Zoom"
-                            aria-label="Open image lightbox"
-                          >
-                            <Maximize2 className="w-3.5 h-3.5" />
-                          </button>
-                        </div>
+                        {/* Action: Fullscreen Lightbox Zoom */}
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setLightboxData({
+                              src: activeImageSrc,
+                              title: activeImageLabel,
+                              subtitle: waypoint.headline,
+                              era: waypoint.eraTitle,
+                            });
+                            setLightboxZoom(1);
+                          }}
+                          className={`p-1.5 rounded-lg border transition-colors ${
+                            isLight
+                              ? "bg-white hover:bg-slate-100 text-slate-700 border-slate-300"
+                              : "bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-700"
+                          }`}
+                          title="Fullscreen High-Res Zoom"
+                          aria-label="Open image lightbox"
+                        >
+                          <Maximize2 className="w-3.5 h-3.5" />
+                        </button>
                       </div>
 
                       {/* Main Image Frame */}
@@ -647,7 +566,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                         {/* Top-Left Mode Indicator Pill */}
                         <div className="absolute top-2.5 left-2.5 pointer-events-none">
                           <span className="px-2.5 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider bg-black/85 text-amber-300 border border-amber-500/30 backdrop-blur-md shadow-md">
-                            {currentMode === "uploaded" ? "✨ Uploaded Infographic" : "📷 Level Photograph"}
+                            📷 Level Photograph
                           </span>
                         </div>
 
@@ -673,9 +592,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                         <div className="flex items-center gap-1.5 truncate">
                           <Compass className="w-3.5 h-3.5 text-amber-500 shrink-0" />
                           <span className="truncate">
-                            {currentMode === "uploaded"
-                              ? stageInfographic?.subtitle || "Documented archival recipe guide"
-                              : waypoint.headline}
+                            {waypoint.headline}
                           </span>
                         </div>
 
@@ -754,20 +671,8 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       )}
                     </div>
 
-                    {/* ── STAGE INGREDIENTS MATRIX & SEARCH SECTION ── */}
-                    {(dishId === "dhokla" ||
-                    dishId === "undhiyu" ||
-                    dishId === "dal-baati-churma" ||
-                    dishId === "laal-maas" ||
-                    dishId === "vada-pav" ||
-                    dishId === "puran-poli" ||
-                    dishId === "hyderabadi-biryani" ||
-                    dishId === "hyderabadi-haleem" ||
-                    dishId === "masala-dosa" ||
-                    dishId === "bisi-bele-bath"
-                      ? stageNum === 3
-                      : true) &&
-                      allStageIngredients.length > 0 && (
+                    {/* ── STAGE INGREDIENTS MATRIX & SEARCH SECTION (Stage III Only) ── */}
+                    {stageNum === 3 && allStageIngredients.length > 0 && (
                       <div
                         className={`p-4 rounded-2xl border shadow-xl space-y-3 ${
                           isLight
@@ -1133,7 +1038,6 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         dishName={dishName}
         initialQuery={modalInitialQuery}
         initialStageNumber={modalTargetStage}
-        onSelectImageForStage={handleSelectImageForStage}
       />
 
       {/* ── FULL-RESOLUTION STAGE LIGHTBOX MODAL ── */}
