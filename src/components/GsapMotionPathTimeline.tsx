@@ -176,6 +176,10 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         if (index === 0) {
           nextUrl = "/images/dishes/laal-maas-1.png";
         }
+      } else if (dishId === "indori-poha") {
+        if (index === 1) {
+          nextUrl = "/images/dishes/indori-poha-stage-3.webp";
+        }
       }
 
       const caption =

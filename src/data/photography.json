@@ -1263,8 +1263,9 @@
           "alt": "A plate of Indori poha served with jalebi",
           "caption": "Hot Indori poha served with jalebi",
           "fallback": null,
-          "width": 3072,
-          "height": 4080
+          "width": 1600,
+          "height": 1200,
+          "local": "/images/dishes/indori-poha-stage-3.webp"
         },
         "caption": "Hot Indori poha served with jalebi",
         "label": "Recipe"
