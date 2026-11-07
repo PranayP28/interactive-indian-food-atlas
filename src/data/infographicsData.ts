@@ -1384,37 +1384,53 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
   {
     "id": "info-77",
     "dishId": "undhiyu",
-    "title": "Jndhiyu",
-    "subtitle": "(Gujarat)",
-    "era": "1800s Traditional",
+    "title": "Undhiyu, Origin (Birth of the food)",
+    "subtitle": "Mixed winter-vegetable dish of Gujarat, traditionally cooked in an earthen pot buried upside down with fire on top.",
+    "era": "Birth of the food",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.05.49 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
     "ingredients": [
       "Surti papdi",
-      "Kand (purple yam)",
-      "Baby eggplants",
-      "Methi muthia",
-      "Fresh coconut",
-      "Green garlic"
+      "Purple yam",
+      "Potatoes and sweet potatoes",
+      "Raw banana",
+      "Brinjal",
+      "Muthiya (fenugreek dumplings)",
+      "Green masala (coconut, coriander, green garlic, chillies)"
     ]
   },
   {
     "id": "info-78",
     "dishId": "undhiyu",
-    "title": "Undhiyu — Heritage & Evolution Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Undhiyu",
-    "era": "Heritage & Evolution",
+    "title": "Undhiyu, Evolution of Food",
+    "subtitle": "Then vs Now: Sealed earthen pot under charcoal embers to pressure cookers and modern stoves",
+    "era": "Evolution of Food",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.06.45 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-78-b",
+    "dishId": "undhiyu",
+    "title": "Undhiyu, Recipe",
+    "subtitle": "Key ingredients: Surti papdi, purple yam, baby potatoes, raw banana, brinjals, toovar seeds, muthiya, green masala",
+    "era": "Recipe",
+    "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.06.45 PM.jpeg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 3,
     "ingredients": [
       "Surti papdi",
-      "Kand (purple yam)",
-      "Baby eggplants",
-      "Methi muthia",
-      "Fresh coconut",
-      "Green garlic"
+      "Purple yam and yam",
+      "Baby potatoes",
+      "Raw banana",
+      "Small black brinjals",
+      "Fresh toovar seeds",
+      "Muthiya (fenugreek dumplings)",
+      "Coconut-coriander green masala with green garlic",
+      "Ginger–green chilli paste",
+      "Oil with carom seeds and asafoetida"
     ]
   },
   {

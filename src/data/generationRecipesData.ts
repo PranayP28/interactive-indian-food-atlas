@@ -652,6 +652,100 @@ export const DHOKLA_GENERATIONS: GenerationWaypoint[] = [
 ];
 
 // ─────────────────────────────────────────────
+// UNDHIYU (Gujarat)
+// ─────────────────────────────────────────────
+export const UNDHIYU_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Undhiyu in Gujarat",
+    shortDescription:
+      "Undhiyu (also spelled undhiyo or oondhiya) is a mixed winter-vegetable dish of Gujarat, closely tied to Surat. Its name comes from the Gujarati word undhu, \"upside down\", because the pot was traditionally buried upside down with fire on top. One account says it evolved from umbadiyo, a southern Gujarat dish cooked in a buried pit; this is a \"said to\" claim, not documented fact. Surti papdi (flat green beans) is its base, and it is cooked from November to February, when its vegetables are in season. It is the dish most associated with Uttarayan, the kite-flying harvest festival. No creator or date is documented.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Earthen pot (matlu or matla), coated with mud and sealed",
+      heatSource: "Pit in the ground with lit charcoal or embers layered over the upturned pot",
+      ingredientsList: [
+        "Surti papdi",
+        "Purple yam",
+        "Potatoes and sweet potatoes",
+        "Raw banana",
+        "Brinjal",
+        "Muthiya (fenugreek dumplings)",
+        "Green masala (coconut, coriander, green garlic, chillies)",
+      ],
+      preparationMethod:
+        "Origin in Gujarat: vegetables and spice mix packed in the pot with no water, buried upside down, and cooked in their own juices for about 3 to 4 hours.",
+      contemporaryDifference:
+        "Cooking method: slow indirect heat from above, giving a smoky flavour.",
+    },
+    technologicalLeap: "Burying mud-sealed earthen pots upside down under charcoal pit embers with no water.",
+    documentedCitation:
+      "Harper's Bazaar India, “Decoding the many layers and flavours of undhiyo”; Knocksense (Ahmedabad), traditional preparation of undhiyu; Tarla Dalal, Surti undhiyu.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Undhiyu moved from a buried earthen pot cooked for hours over charcoal to gas stoves, pressure cookers and restaurant reinventions, while village kitchens still make the matla version.\n\nVessel: Then - Sealed earthen pot (matlu or matla), coated with mud | Now - Large vessels, pressure cookers and non-stick pans\nHeat source: Then - Pit with charcoal or embers on top | Now - Gas stove\nCooking time: Then - About 3 to 4 hours | Now - Two pressure-cooker whistles, then a short finish on low heat\nWater: Then - None; vegetables cook in their own juices | Now - A little hot water added (about 2 cups in one recipe)\nFlavour: Then - Smoky, from indirect heat | Now - Fresh green masala; less smoke\nOil: Then - More oil in the traditional method | Now - Pressure-cooker version uses less oil and can turn dry\nRegional styles: Then - Village matla undhiyo | Now - Surat (garlic-heavy), Ahmedabad (spicier, oilier), Kathiyawadi (spices only, no green masala)\nReinventions: Then - Home and festival dish | Now - Restaurants offer a baked oil-free version, a Jain version and an undhiyo okonomiyaki",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Sealed earthen pot → pressure cooker and large pan",
+      heatSource: "Charcoal pit → gas stove",
+      ingredientsList: [],
+      preparationMethod:
+        "Buried upside-down slow cook → pressure cook, then finish with muthiya and banana",
+      contemporaryDifference:
+        "Cooking time: 3 to 4 hours in the pit / about 2 whistles plus a short finish",
+    },
+    technologicalLeap: "Transition from subterranean earthen pit roasting to modern two-whistle pressure cooking and non-stick pans.",
+    documentedCitation:
+      "Harper's Bazaar India; Knocksense; Tarla Dalal.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Undhiyu Recipe: 10 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: Surti papdi, purple yam and yam, baby potatoes, raw banana, small black brinjals, fresh toovar seeds, muthiya (fenugreek dumplings), coconut-coriander green masala with green garlic, ginger–green chilli paste, and oil with carom seeds and asafoetida.\n\n1. Make the muthiya: squeeze salted chopped methi leaves, mix with wheat flour, besan, ginger–green chilli paste, sugar, turmeric, chilli powder and oil into a soft dough. Shape 18 to 20 pieces and deep fry on medium heat until golden. They can be made a day ahead.\n2. Mix the green masala by hand: grated coconut, coriander, green garlic, coriander-cumin powder, ginger–green chilli paste, chilli powder, sugar, lemon juice and salt. It should taste spicy and sweet.\n3. Slit the baby potatoes, brinjals and raw banana without separating the segments, and stuff them with about half the masala.\n4. Combine the surti papdi, purple yam, yam and toovar seeds with the remaining masala. Rest for 8 to 10 minutes.\n5. Heat oil in a pressure cooker, add carom seeds, asafoetida and a pinch of soda bicarbonate, then add the stuffed potatoes and brinjals, followed by the marinated vegetables.\n6. Add salt and about 2 cups hot water, mix gently and pressure cook on high for 2 whistles. Let the steam release before opening.\n7. Move to a large non-stick pan, add the stuffed bananas and muthiya, and cook on low heat, stirring gently, until the bananas are tender.\n8. Serve hot, garnished with coriander, with poori and shrikhand.",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Undhiyu Recipe",
+      historicalCookware: "Pressure cooker, then a large non-stick pan",
+      heatSource: "High heat for 2 whistles, then low flame to finish",
+      ingredientsList: [
+        "Surti papdi",
+        "Purple yam and yam",
+        "Baby potatoes",
+        "Raw banana",
+        "Small black brinjals",
+        "Fresh toovar seeds",
+        "Muthiya (fenugreek dumplings)",
+        "Coconut-coriander green masala with green garlic",
+        "Ginger–green chilli paste",
+        "Oil with carom seeds and asafoetida",
+      ],
+      preparationMethod:
+        "Stuffed-vegetable layering and pressure cook, finished with fried muthiya.",
+      contemporaryDifference:
+        "8. Serve hot with poori and shrikhand.",
+    },
+    technologicalLeap: "Layered pressure cooking of tender stuffed winter vegetables finished with crispy methi muthias.",
+    documentedCitation:
+      "Harper's Bazaar India; Knocksense; Tarla Dalal.",
+  },
+];
+
+// ─────────────────────────────────────────────
 // INDORI POHA (Madhya Pradesh)
 // ─────────────────────────────────────────────
 export const INDORI_POHA_GENERATIONS: GenerationWaypoint[] = [
@@ -2111,6 +2205,8 @@ function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoin
       return PURAN_POLI_GENERATIONS;
     case "dhokla":
       return DHOKLA_GENERATIONS;
+    case "undhiyu":
+      return UNDHIYU_GENERATIONS;
     case "indori-poha":
       return INDORI_POHA_GENERATIONS;
     case "bhutte-ka-kees":
@@ -2168,7 +2264,7 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
         historicalCookware: source.generationRecipe.historicalCookware,
         heatSource: source.generationRecipe.heatSource,
         ingredientsList:
-          dishId === "vada-pav" || dishId === "puran-poli" || dishId === "dhokla"
+          dishId === "vada-pav" || dishId === "puran-poli" || dishId === "dhokla" || dishId === "undhiyu"
             ? source.generationRecipe.ingredientsList
             : dishId === "makki-di-roti-sarson-saag"
                 ? (stage.number === 1
@@ -2192,7 +2288,7 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
             ? dish.ingredients
             : source.generationRecipe.ingredientsList,
         preparationMethod:
-          dishId === "vada-pav" || dishId === "puran-poli" || dishId === "dhokla"
+          dishId === "vada-pav" || dishId === "puran-poli" || dishId === "dhokla" || dishId === "undhiyu"
             ? source.generationRecipe.preparationMethod
             : stage.key === "method"
             ? `${dish.keyTechnique}. ${stage.details[0]}`
@@ -2202,7 +2298,7 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
       },
       technologicalLeap: stage.details[0],
       documentedCitation:
-        dishId === "dhokla"
+        dishId === "dhokla" || dishId === "undhiyu"
           ? source.documentedCitation
           : citations || "Regional food writing; no securely dated first reference established.",
     } satisfies GenerationWaypoint;

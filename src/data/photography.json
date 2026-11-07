@@ -651,7 +651,8 @@
     "undhiyu": {
       "origin": {
         "library": "spice-market",
-        "caption": "Gujarat — the regional kitchen where Undhiyu belongs."
+        "caption": "Undhiyu, Origin (Birth of the food)",
+        "label": "Undhiyu, Origin (Birth of the food)"
       },
       "ingredients": {
         "library": "spice-palette",
@@ -659,16 +660,21 @@
         "label": "Undhiyu, Evolution of Food",
         "items": [
           "Surti papdi",
-          "Kand (purple yam)",
-          "Baby eggplants",
-          "Methi muthia",
-          "Fresh coconut",
-          "Green garlic"
+          "Purple yam and yam",
+          "Baby potatoes",
+          "Raw banana",
+          "Small black brinjals",
+          "Fresh toovar seeds",
+          "Muthiya (fenugreek dumplings)",
+          "Coconut-coriander green masala with green garlic",
+          "Ginger–green chilli paste",
+          "Oil with carom seeds and asafoetida"
         ]
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Undhiyu — Matka Inversion (Undhu) Under Charcoal Embers."
+        "caption": "Undhiyu, Recipe",
+        "label": "Undhiyu, Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Undhiyu.jpg",
