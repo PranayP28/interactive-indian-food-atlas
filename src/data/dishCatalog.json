@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
   "generatedFrom": "src/data/foodData.ts",
-  "totalDishes": 94,
+  "totalDishes": 95,
   "groups": [
     {
       "state": "Andhra Pradesh",
       "classification": "State",
-      "tagline": "Land of fire and spice \u2014 India's spiciest cuisine",
+      "tagline": "Land of fire and spice — India's spiciest cuisine",
       "dishIds": [
         "pesarattu",
+        "avakaya",
         "gongura-mutton",
         "pulihora"
       ]
@@ -46,7 +47,7 @@
     {
       "state": "Chhattisgarh",
       "classification": "State",
-      "tagline": "The rice bowl of India \u2014 tribal flavors, forest ingredients",
+      "tagline": "The rice bowl of India — tribal flavors, forest ingredients",
       "dishIds": [
         "chhattisgarhi-chila",
         "fara",
@@ -66,7 +67,7 @@
     {
       "state": "Gujarat",
       "classification": "State",
-      "tagline": "Sweetness in every bite \u2014 the jewel of vegetarian cuisine",
+      "tagline": "Sweetness in every bite — the jewel of vegetarian cuisine",
       "dishIds": [
         "dhokla",
         "undhiyu",
@@ -76,7 +77,7 @@
     {
       "state": "Haryana",
       "classification": "State",
-      "tagline": "Agricultural heartland \u2014 wholesome dairy-rich comfort food",
+      "tagline": "Agricultural heartland — wholesome dairy-rich comfort food",
       "dishIds": [
         "bajra-khichdi",
         "haryanvi-kadhi",
@@ -86,7 +87,7 @@
     {
       "state": "Himachal Pradesh",
       "classification": "State",
-      "tagline": "Mountain serenity on a plate \u2014 simple, hearty highland fare",
+      "tagline": "Mountain serenity on a plate — simple, hearty highland fare",
       "dishIds": [
         "siddu",
         "himachali-dham",
@@ -96,7 +97,7 @@
     {
       "state": "Jharkhand",
       "classification": "State",
-      "tagline": "Tribal wisdom, forest bounty \u2014 earthy and nourishing",
+      "tagline": "Tribal wisdom, forest bounty — earthy and nourishing",
       "dishIds": [
         "dhuska",
         "chilka-roti",
@@ -106,7 +107,7 @@
     {
       "state": "Karnataka",
       "classification": "State",
-      "tagline": "Bisi bele to Neer dosa \u2014 diversity on every banana leaf",
+      "tagline": "Bisi bele to Neer dosa — diversity on every banana leaf",
       "dishIds": [
         "masala-dosa",
         "bisi-bele-bath"
@@ -115,7 +116,7 @@
     {
       "state": "Kerala",
       "classification": "State",
-      "tagline": "God's Own Country \u2014 land of coconut, spices and backwater flavors",
+      "tagline": "God's Own Country — land of coconut, spices and backwater flavors",
       "dishIds": [
         "appam-stew",
         "fish-molee",
@@ -125,7 +126,7 @@
     {
       "state": "Madhya Pradesh",
       "classification": "State",
-      "tagline": "Heart of India \u2014 dal baati to street food royalty",
+      "tagline": "Heart of India — dal baati to street food royalty",
       "dishIds": [
         "indori-poha",
         "bhutte-ka-kees",
@@ -135,7 +136,7 @@
     {
       "state": "Maharashtra",
       "classification": "State",
-      "tagline": "From coastal Konkan to Vidarbha heat \u2014 bold, diverse and proud",
+      "tagline": "From coastal Konkan to Vidarbha heat — bold, diverse and proud",
       "dishIds": [
         "vada-pav",
         "puran-poli",
@@ -145,7 +146,7 @@
     {
       "state": "Manipur",
       "classification": "State",
-      "tagline": "Valley of jewels \u2014 fermented flavors and tribal culinary art",
+      "tagline": "Valley of jewels — fermented flavors and tribal culinary art",
       "dishIds": [
         "eromba",
         "singju",
@@ -155,7 +156,7 @@
     {
       "state": "Meghalaya",
       "classification": "State",
-      "tagline": "Abode of clouds \u2014 pork, rice and Khasi tradition on every table",
+      "tagline": "Abode of clouds — pork, rice and Khasi tradition on every table",
       "dishIds": [
         "jadoh",
         "dohneiiong",
@@ -175,7 +176,7 @@
     {
       "state": "Nagaland",
       "classification": "State",
-      "tagline": "Fierce, smoky and fearless \u2014 Naga cuisine for the bold",
+      "tagline": "Fierce, smoky and fearless — Naga cuisine for the bold",
       "dishIds": [
         "naga-smoked-pork",
         "galho",
@@ -205,7 +206,7 @@
     {
       "state": "Rajasthan",
       "classification": "State",
-      "tagline": "Desert royalty \u2014 where scarcity inspired culinary genius",
+      "tagline": "Desert royalty — where scarcity inspired culinary genius",
       "dishIds": [
         "dal-baati-churma",
         "laal-maas",
@@ -215,7 +216,7 @@
     {
       "state": "Sikkim",
       "classification": "State",
-      "tagline": "Himalayan serenity \u2014 momos, thukpa and organic mountain bounty",
+      "tagline": "Himalayan serenity — momos, thukpa and organic mountain bounty",
       "dishIds": [
         "sikkimese-momos",
         "gundruk-soup",
@@ -235,10 +236,11 @@
     {
       "state": "Telangana",
       "classification": "State",
-      "tagline": "Pearl city cuisine \u2014 bold, rustic and deeply satisfying",
+      "tagline": "Pearl city cuisine — bold, rustic and deeply satisfying",
       "dishIds": [
         "hyderabadi-biryani",
-        "hyderabadi-haleem"
+        "hyderabadi-haleem",
+        "qubani-ka-meetha"
       ]
     },
     {
@@ -254,7 +256,7 @@
     {
       "state": "Uttar Pradesh",
       "classification": "State",
-      "tagline": "Mughal grandeur meets Awadhi dum \u2014 refinement on a plate",
+      "tagline": "Mughal grandeur meets Awadhi dum — refinement on a plate",
       "dishIds": [
         "galouti-kebab",
         "banarasi-kachori",
@@ -264,7 +266,7 @@
     {
       "state": "Uttarakhand",
       "classification": "State",
-      "tagline": "Pahadi simplicity \u2014 altitude-adapted mountain cuisine with soul",
+      "tagline": "Pahadi simplicity — altitude-adapted mountain cuisine with soul",
       "dishIds": [
         "kafuli",
         "bal-mithai",
@@ -284,7 +286,7 @@
     {
       "state": "Jammu and Kashmir",
       "classification": "Union Territory",
-      "tagline": "Wazwan royalty \u2014 a 36-course feast of Kashmiri opulence",
+      "tagline": "Wazwan royalty — a 36-course feast of Kashmiri opulence",
       "dishIds": [
         "rogan-josh",
         "kashmiri-dum-aloo"
@@ -293,7 +295,7 @@
     {
       "state": "Delhi",
       "classification": "Union Territory",
-      "tagline": "Mughal heritage meets street food chaos \u2014 flavors from every corner of India",
+      "tagline": "Mughal heritage meets street food chaos — flavors from every corner of India",
       "dishIds": [
         "delhi-nihari",
         "delhi-chaat"
@@ -343,18 +345,46 @@
       "alternateName": "Green Gram Crepe",
       "state": "Andhra Pradesh",
       "category": "fermented-steamed",
-      "description": "Crispy whole green moong dal crepes seasoned with cumin, ginger, and green chillies, traditionally stuffed with upma and paired with ginger allam pachadi.",
+      "description": "Pesarattu is a traditional breakfast dish of Andhra Pradesh, made mainly from whole green gram, cooked without fermentation and served with spicy Allam Pachadi.",
       "ingredients": [
-        "Green moong dal",
-        "Rice",
+        "Whole green gram (green moong)",
+        "Rice (optional, for extra crispness)",
         "Ginger",
         "Green chillies",
+        "Cumin seeds",
+        "Salt",
         "Onion",
-        "Cumin"
+        "Fresh coriander leaves",
+        "Cooking oil or ghee",
+        "Ginger chutney (Allam Pachadi) for serving"
       ],
       "tasteProfile": "Savory & Mildly Spiced",
-      "era": "7th Century CE",
-      "keyTechnique": "Stone-Ground Unfermented Batter & Cast Iron Tawa Roasting"
+      "era": "Traditional Andhra Regional Cuisine",
+      "keyTechnique": "Stone-Ground Unfermented Batter & Cast Iron Tawa Roasting",
+      "hasPilot3D": true
+    },
+    {
+      "id": "avakaya",
+      "name": "Avakaya",
+      "alternateName": "Mango Pickle / ఆవకాయ",
+      "state": "Andhra Pradesh",
+      "category": "snack",
+      "description": "Avakaya is a traditional raw-mango pickle from Andhra Pradesh, preserved in mustard powder, red chilli, and cold-pressed gingelly oil.",
+      "ingredients": [
+        "Raw green sour mangoes",
+        "Mustard seeds (sun-dried, ground fresh)",
+        "Red chilli powder",
+        "Crystal salt (powdered)",
+        "Gingelly (sesame) oil",
+        "Garlic cloves",
+        "Fenugreek (methi) seeds",
+        "Black chickpeas (optional, in place of garlic)",
+        "Hot rice with dal and ghee for serving"
+      ],
+      "tasteProfile": "Fiery, Pungent & Sour",
+      "era": "Traditional Andhra Regional Cuisine",
+      "keyTechnique": "Raw-Mango Sun-Dried Spice Curing & Gingelly Oil Maceration",
+      "hasPilot3D": true
     },
     {
       "id": "gongura-mutton",
@@ -605,7 +635,7 @@
       "alternateName": "Steamed Gram-Flour Dumplings",
       "state": "Chhattisgarh",
       "category": "fermented-steamed",
-      "description": "Spiced gram-flour dumplings steamed until firm, then sliced and tempered with mustard, curry leaves and green chilli \u2014 a protein-rich, oil-light dish from Chhattisgarhi home kitchens.",
+      "description": "Spiced gram-flour dumplings steamed until firm, then sliced and tempered with mustard, curry leaves and green chilli — a protein-rich, oil-light dish from Chhattisgarhi home kitchens.",
       "ingredients": [
         "Gram flour (besan)",
         "Green chilli",
@@ -834,7 +864,7 @@
       "alternateName": "Himachali Chickpea Yoghurt Curry",
       "state": "Himachal Pradesh",
       "category": "curry-stew",
-      "description": "Chickpeas simmered in a whisked yoghurt and gram-flour gravy with ghee, cumin and asafoetida, thickened slowly without a tomato base; the centrepiece of a Chamba\u2013Kangra Dham feast.",
+      "description": "Chickpeas simmered in a whisked yoghurt and gram-flour gravy with ghee, cumin and asafoetida, thickened slowly without a tomato base; the centrepiece of a Chamba–Kangra Dham feast.",
       "ingredients": [
         "Chickpeas",
         "Curd (yoghurt)",
@@ -1055,7 +1085,7 @@
       "alternateName": "Bafla / Malwa Baati",
       "state": "Madhya Pradesh",
       "category": "grain-bread",
-      "description": "Wheat-flour balls boiled first and then baked until blistered \u2014 unlike a dry baati \u2014 cracked open, drenched in ghee and served with a slow-cooked panchmel dal from the Malwa and Bundelkhand regions.",
+      "description": "Wheat-flour balls boiled first and then baked until blistered — unlike a dry baati — cracked open, drenched in ghee and served with a slow-cooked panchmel dal from the Malwa and Bundelkhand regions.",
       "ingredients": [
         "Coarse whole-wheat flour (atta)",
         "Semolina (sooji / rava)",
@@ -1071,7 +1101,7 @@
         "Spicy red garlic chutney & lemon wedges"
       ],
       "tasteProfile": "Buttery, Hearty & Dal-Soaked",
-      "era": "Malwa\u2013Bundelkhand household tradition; documented in regional cookery",
+      "era": "Malwa–Bundelkhand household tradition; documented in regional cookery",
       "keyTechnique": "Boil-Then-Bake Wheat Dumpling"
     },
     {
@@ -1590,7 +1620,7 @@
         "Cardamom"
       ],
       "tasteProfile": "Crisp-Edged, Mildly Sweet & Fragrant",
-      "era": "Nepali\u2013Sikkimese festival tradition; documented in regional food writing",
+      "era": "Nepali–Sikkimese festival tradition; documented in regional food writing",
       "keyTechnique": "Poured-Ring Batter Frying"
     },
     {
@@ -1692,6 +1722,24 @@
       "tasteProfile": "Rich, Warming & Silky",
       "era": "Yemeni Chaush Migration & Nizams of Hyderabad",
       "keyTechnique": "12-Hour Degchi Simmer & Wooden Mallet Pounding"
+    },
+    {
+      "id": "qubani-ka-meetha",
+      "name": "Qubani ka Meetha",
+      "alternateName": "Khubani ka Meetha / Apricot Dessert",
+      "state": "Telangana",
+      "category": "sweet-dessert",
+      "description": "Dried Hunza apricots stewed to a glossy compote, served warm or chilled with fresh cream, custard or vanilla ice cream; a Hyderabadi Deccani dessert with Central Asian roots.",
+      "ingredients": [
+        "Dried apricots",
+        "Sugar",
+        "Water",
+        "Cardamom",
+        "Cream or custard"
+      ],
+      "tasteProfile": "Tart-Sweet, Jammy & Apricot-Bright",
+      "era": "Hyderabadi Deccani dessert tradition, documented in 20th-century cookery",
+      "keyTechnique": "Apricot Stewing & Syrup Reduction"
     },
     {
       "id": "mui-borok",
@@ -1846,7 +1894,7 @@
       "alternateName": "Singodi / Malu-Leaf Sweet",
       "state": "Uttarakhand",
       "category": "sweet-dessert",
-      "description": "A cone of sweetened, reduced milk solids (khoya) and coconut, wrapped in a folded malu leaf whose aroma perfumes the sweet; a Garhwali\u2013Kumaoni market delicacy.",
+      "description": "A cone of sweetened, reduced milk solids (khoya) and coconut, wrapped in a folded malu leaf whose aroma perfumes the sweet; a Garhwali–Kumaoni market delicacy.",
       "ingredients": [
         "Khoya (reduced milk)",
         "Sugar",
@@ -1855,7 +1903,7 @@
         "Malu leaf wrapper"
       ],
       "tasteProfile": "Milky, Coconut-Sweet & Leaf-Aromatic",
-      "era": "Garhwali\u2013Kumaoni sweet-making tradition; documented in regional food writing",
+      "era": "Garhwali–Kumaoni sweet-making tradition; documented in regional food writing",
       "keyTechnique": "Khoya Reduction & Malu-Leaf Wrapping"
     },
     {
@@ -2117,7 +2165,7 @@
         "Curry leaves"
       ],
       "tasteProfile": "Aromatic, Tangy & Coconut-Infused",
-      "era": "French East India Company (17th\u201318th Century Pondicherry)",
+      "era": "French East India Company (17th–18th Century Pondicherry)",
       "keyTechnique": "French Bouquet Garni Fusion with Tamil Tamarind Base"
     },
     {
@@ -2138,7 +2186,7 @@
       ],
       "tasteProfile": "Rich, Warm & Fragrant",
       "era": "French Creole Elite Kitchens of White Town",
-      "keyTechnique": "Gentle Wine/Cream Style Velout\u00e9 with Tropical Spices"
+      "keyTechnique": "Gentle Wine/Cream Style Velouté with Tropical Spices"
     }
   ]
 }

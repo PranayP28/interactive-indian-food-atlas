@@ -568,37 +568,37 @@ export const HYDERABADI_BIRYANI_JOURNEY: DishCulinaryJourney = {
 };
 
 // ─────────────────────────────────────────────
-// FLAGSHIP PILOT 3: HYDERABADI HALEEM (Telangana / Deccan)
-// Slow-Cooked Wheat, Lentils & Pounded Meat Cauldrons
+// FLAGSHIP: PESARATTU (Andhra Pradesh)
+// Traditional Unfermented Green Gram Breakfast Crepe
 // ─────────────────────────────────────────────
-export const HYDERABADI_HALEEM_JOURNEY: DishCulinaryJourney = {
-  dishId: "hyderabadi-haleem",
-  dishName: "Hyderabadi Haleem",
-  region: "Telangana (Asaf Jahi Royal Courts & Ramzan Bhatti)",
+export const PESARATTU_JOURNEY: DishCulinaryJourney = {
+  dishId: "pesarattu",
+  dishName: "Pesarattu",
+  region: "Andhra Pradesh (Coastal Andhra & Rayalaseema)",
   culturalIntroduction:
-    "Haleem traces its ancestry to the medieval Arab dish harees, a slow-cooked porridge of pounded meat and wheat. It was introduced to Hyderabad by the Arab diaspora (Chaush soldiers from Yemen) serving in the irregular army of the Asaf Jahi Nizams. In the royal kitchens of the Nizams and Paigah nobles, the rustic harees was refined and Indianized by introducing aromatic Deccan spices, mixed lentils, ghee, dry fruits, and rose petals. It became the signature delicacy of Hyderabad, especially cherished during Ramzan for breaking the fast.",
+    "Pesarattu is a traditional breakfast dish of Andhra Pradesh, made mainly from whole green gram (pesalu / green moong). The name comes from Telugu: pesara (green gram) + attu (pancake/dosa). It is a distinctive part of Andhra breakfast culture, traditionally eaten with spicy ginger chutney (Allam Pachadi). No reliable historical record gives the exact year, place or creator. State this plainly. Do not add any date, name or quote. Unlike regular dosa, the batter is not fermented; it is cooked right after grinding.",
   earliestDocumentedEvidence:
-    "Documented origins in 10th-century Arab culinary treatises as 'harisah', brought to the Deccan by Yemeni Chaush soldiers in the 19th century and perfected in Asaf Jahi royal kitchens.",
+    "Pesarattu is rooted in Andhra household breakfast tradition and regional food documentation. No reliable historical record gives the exact year, place or creator.",
   confidenceSummary:
-    "Historical sources document that harees came to the Deccan through Arab migrations and was codified in Hyderabad with local spices, lentils, and pure ghee. In 2010, Hyderabadi Haleem became the first Indian meat dish to be granted Geographical Indication (GI) status.",
+    "Documented regional culinary tradition verifies Pesarattu as an iconic Andhra unfermented breakfast crepe, traditionally made from whole green moong dal and paired with Allam Pachadi.",
   stages: [
     {
       stageNumber: 1,
       stageTitle: "Origin",
       stageName: "Birth of the food",
       era: "Birth of the food",
-      yearRange: "Origin in the Deccan",
+      yearRange: "Origin in Andhra Pradesh",
       narrative:
-        "Haleem traces its ancestry to the medieval Arab dish harees, a slow-cooked porridge of pounded meat and wheat. It was introduced to Hyderabad by the Arab diaspora (Chaush soldiers from Yemen) serving in the irregular army of the Asaf Jahi Nizams. In the royal kitchens of the Nizams and Paigah nobles, the rustic harees was refined and Indianized by introducing aromatic Deccan spices, mixed lentils, ghee, dry fruits, and rose petals. It became the signature delicacy of Hyderabad, especially cherished during Ramzan for breaking the fast.",
-      keyInnovations: ["Integration of Arab harees technique into Deccani royal cuisine", "Slow overnight simmering in wood-fired bhatti cauldrons", "Addition of local lentils, garam masala, and desi ghee"],
-      botanicalOrMaterialFocus: ["Broken Whole Wheat (Dalia)", "Heavy Copper Bhatti Cauldron (Deg)", "Wooden Pestles (Ghotni)"],
+        "Pesarattu is a traditional breakfast dish of Andhra Pradesh, made mainly from whole green gram (pesalu / green moong). The name comes from Telugu: pesara (green gram) + attu (pancake/dosa). It is a distinctive part of Andhra breakfast culture, traditionally eaten with spicy ginger chutney (Allam Pachadi). No reliable historical record gives the exact year, place or creator. State this plainly. Do not add any date, name or quote. Unlike regular dosa, the batter is not fermented; it is cooked right after grinding.",
+      keyInnovations: ["Unfermented whole green gram batter", "Direct griddling after grinding", "Traditional pairing with Allam Pachadi"],
+      botanicalOrMaterialFocus: ["Whole Green Gram (Pesalu)", "Ginger & Green Chillies", "Cast Iron Tawa"],
       historicalEvidence:
-        "19th-century Asaf Jahi military payrolls documenting Arab Chaush contingents in Barkas, Hyderabad, and royal feast records.",
+        "Andhra regional culinary practice and oral food documentation; exact founding dates and individual creators remain undocumented.",
       threeSceneFocus: {
         cameraTarget: [0, 0, 0],
         cameraPosition: [0, 4.5, 5.0],
         modelTransformation: "raw-grains",
-        atmosphereColor: "#1d1712",
+        atmosphereColor: "#171d14",
         ambientWarmth: 0.6,
         particlesMode: "seeds",
       },
@@ -610,16 +610,16 @@ export const HYDERABADI_HALEEM_JOURNEY: DishCulinaryJourney = {
       era: "Evolution of Food",
       yearRange: "Then vs Now",
       narrative:
-        "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders\nVessel: massive heavy tinned copper cauldrons (degs/bhatti) / stainless steel pots, heavy-bottom handis, and domestic pressure cookers\nFuel: tamarind wood and charcoal bhattis burning low overnight / LPG gas stoves, induction, and commercial gas burners\nCooking time: 10 to 12 hours of overnight simmering / 1.5 to 2.5 hours in home pressure cookers\nPounding: 2 to 3 skilled cooks rhythmically beating with wooden poles (ghotnis) / home wooden whisks, potato mashers, or short pulses of electric blenders\nMeat: traditional bone-in tender goat/mutton marrow cuts slow-cooked till bones slip out / boneless mutton, chicken (now widespread in restaurants), and modern vegetarian lentil variants\nFlavourings: pure desi ghee, freshly stone-ground potli masala, rose water, and wild cinnamon / commercial packaged haleem spice blends and ready ginger-garlic paste\nGarnish & Serving: golden fried onions (birista), ghee drizzle, fresh mint, coriander, lime, and sliced almonds/cashews / similar traditional garnishes maintained across both royal feasts and modern takeaway boxes",
-      keyInnovations: ["Shift from wood/charcoal bhattis to modern domestic gas and electric cooking", "Adoption of pressure cookers and immersion mashers", "Introduction of boneless mutton and chicken variants alongside packaged masalas"],
-      botanicalOrMaterialFocus: ["Hand-Pounded Ghotni vs Immersion Blender", "Copper Deg vs Stainless Steel Cooker", "Potli Masala vs Packaged Spice"],
+        "Grinding: Then - traditional grinding stone | Now - electric mixers and wet grinders\nCooking surface: Then - iron griddle | Now - non-stick and cast-iron tawas\nFuel: Then - wood-fired stoves | Now - gas and induction cooktops\nBatter preparation: Then - slow, done by hand | Now - faster with mixers\nGreen gram: Then - soaked and prepared at home | Now - whole green gram easily available in supermarkets\nToppings: Then - simple, plain Pesarattu | Now - onion, green chilli and coriander toppings are popular\nVariations: Then - the classic plain version | Now - onion, crispy and Upma Pesarattu\nChutneys: Then - fresh ginger chutney made at home | Now - restaurants also serve ginger, coconut and peanut chutneys\nThese changes describe kitchens and equipment, not a precisely documented historical timeline.",
+      keyInnovations: ["Transition from stone grinding to electric mixer-grinders", "Shift from iron griddles on wood stoves to gas, induction and modern tawas", "Emergence of MLA Pesarattu (Upma-stuffed) and restaurant variations"],
+      botanicalOrMaterialFocus: ["Stone Grinder vs Mixer", "Wood Fire vs Gas & Induction", "Plain vs Upma-stuffed"],
       historicalEvidence:
-        "Comparative gastronomic records documenting kitchen fuel, cookware transitions, and ingredient availability across Deccan culinary history.",
+        "Gastronomic surveys documenting kitchen tool modernization and restaurant evolution across Andhra Pradesh.",
       threeSceneFocus: {
         cameraTarget: [0, 0, 0],
         cameraPosition: [-2.2, 3.2, 4.4],
         modelTransformation: "marination-handi",
-        atmosphereColor: "#221914",
+        atmosphereColor: "#192214",
         ambientWarmth: 0.8,
         particlesMode: "spices",
       },
@@ -627,15 +627,107 @@ export const HYDERABADI_HALEEM_JOURNEY: DishCulinaryJourney = {
     {
       stageNumber: 3,
       stageTitle: "Recipe",
-      stageName: "Hyderabadi Haleem Recipe",
+      stageName: "Pesarattu Recipe",
       era: "Recipe",
       yearRange: "Short and simple",
       narrative:
-        "Key ingredients: broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.\n\n1. Soak broken wheat and lentils (chana and moong) in water for 1 to 2 hours, then drain.\n2. Marinate the mutton with curd, ginger-garlic paste, turmeric, chilli powder, salt, and half of the garam masala for at least 1 hour.\n3. In a heavy pot or pressure cooker, heat ghee and saute whole spices (shahi jeera, cardamom, cloves, cinnamon) and a portion of fried onions until fragrant.\n4. Add the marinated meat and sear on medium-high heat, then add water and pressure-cook or slow-simmer until the meat is thoroughly tender and falling apart.\n5. Separately boil the soaked broken wheat and lentils with a pinch of turmeric and water until completely soft and mushy.\n6. Shred the cooked meat off any bones and combine the shredded meat and its rich broth into the pot of cooked wheat and lentils.\n7. Slow-simmer over low heat while vigorously mashing and pounding with a wooden masher (ghotni) for 30–40 minutes, gradually incorporating hot ghee until the mixture turns silky, elastic, and pasty.\n8. Season with remaining garam masala, mint, and coriander; ladle into warm bowls and top with hot ghee, golden fried onions, toasted cashews, and fresh lemon wedges.",
-      keyInnovations: ["10 essential key ingredients", "Streamlined 8-step tender-simmer and ghotni pounding protocol", "Authentic home execution method maintaining gelatinous silky emulsion"],
-      botanicalOrMaterialFocus: ["Broken Wheat & Mutton", "Chana & Moong Dal", "Desi Ghee & Fried Birista"],
+        "Key ingredients: whole green gram (green moong), rice (optional, for extra crispness), ginger, green chillies, cumin seeds, salt, onion, fresh coriander leaves, cooking oil or ghee, ginger chutney (Allam Pachadi) for serving.\n\n1. Wash and soak the green gram. - Soak in water for about 4 to 6 hours.\n2. Drain the water. - Rinse the green gram once more.\n3. Grind the batter. - Grind with ginger, green chillies, cumin and salt, adding a little water. It should be smooth and slightly thick.\n4. Prepare the toppings. - Chop onions and coriander finely and keep ready.\n5. Heat the pan. - Heat a dosa tawa and grease it lightly with oil.\n6. Spread the batter. - Pour one ladle in the centre and spread in circles into a thin dosa.\n7. Add the toppings. - Sprinkle onions and coriander and press in gently.\n8. Cook until crisp. - Add a little oil around the edges. Cook until the bottom is golden brown and the edges lift.\n9. Fold and serve. - Fold and serve hot with ginger chutney.\n\nNo fermentation needed. Cook right after grinding. A little rice in the batter gives extra crispness.",
+      keyInnovations: ["10 key ingredients without quantities", "9 numbered steps with clear sub-lines", "Zero fermentation direct-griddling technique"],
+      botanicalOrMaterialFocus: ["Green Moong & Rice", "Ginger & Green Chillies", "Allam Pachadi"],
       historicalEvidence:
-        "Codified regional recipe documentation detailing the foundational eight-step slow-pounding and ghee-incorporation method (ghotni protocol) for authentic Hyderabadi haleem.",
+        "Standardized Andhra regional recipe documentation for authentic home and restaurant Pesarattu.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0.2, 0],
+        cameraPosition: [2.2, 3.2, 4.2],
+        modelTransformation: "trade-spices",
+        atmosphereColor: "#1f2a14",
+        ambientWarmth: 1.1,
+        particlesMode: "spices",
+      },
+    },
+  ],
+  citations: [
+    {
+      authorOrSource: "Regional Andhra Gastronomy",
+      workTitle: "Culinary Heritage of Coastal Andhra & Rayalaseema",
+      publicationYearOrPeriod: "Traditional",
+      confidenceRating: "Documented",
+      quoteOrFinding:
+        "Pesarattu is a traditional breakfast dish of Andhra Pradesh made from soaked whole green gram ground without fermentation and griddled crisp with ginger and cumin.",
+      citationDetails: "Andhra Culinary Heritage Documentation",
+    },
+  ],
+};
+
+// ─────────────────────────────────────────────
+// FLAGSHIP: AVAKAYA (Andhra Pradesh)
+// Traditional Raw Mango Mustard Oil Pickle
+// ─────────────────────────────────────────────
+export const AVAKAYA_JOURNEY: DishCulinaryJourney = {
+  dishId: "avakaya",
+  dishName: "Avakaya",
+  region: "Andhra Pradesh (Coastal Andhra & Rayalaseema)",
+  culturalIntroduction:
+    "Avakaya (ఆవకాయ) is a traditional raw-mango pickle from Andhra Pradesh, also a long-standing tradition in Telugu homes of Telangana. The name joins \"ava\" (mustard) and \"kaya\" (raw fruit). It grew out of preserving sour raw mangoes in the summer mango season so they can be eaten through the year. Raw mango pieces are coated with mustard powder, red chilli powder and salt, then covered in gingelly (sesame) oil and matured in jars. It is a standard part of an Andhra meal, eaten with hot rice, dal and ghee. Making it is often a family activity every summer. No reliable record gives the exact year, place or creator of Avakaya. State this plainly. Do not add any date.",
+  earliestDocumentedEvidence:
+    "Avakaya is rooted in Telugu seasonal preservation and regional domestic culinary practice. No reliable historical record gives the exact year, place or creator.",
+  confidenceSummary:
+    "Documented regional culinary tradition verifies Avakaya as the iconic raw mango pickle of Andhra Pradesh, preserved in cold-pressed gingelly oil, mustard and red chilli.",
+  stages: [
+    {
+      stageNumber: 1,
+      stageTitle: "Origin",
+      stageName: "Birth of the food",
+      era: "Birth of the food",
+      yearRange: "Origin in Andhra Pradesh",
+      narrative:
+        "Avakaya (ఆవకాయ) is a traditional raw-mango pickle from Andhra Pradesh, also a long-standing tradition in Telugu homes of Telangana. The name joins \"ava\" (mustard) and \"kaya\" (raw fruit). It grew out of preserving sour raw mangoes in the summer mango season so they can be eaten through the year. Raw mango pieces are coated with mustard powder, red chilli powder and salt, then covered in gingelly (sesame) oil and matured in jars. It is a standard part of an Andhra meal, eaten with hot rice, dal and ghee. Making it is often a family activity every summer. No reliable record gives the exact year, place or creator of Avakaya. State this plainly. Do not add any date.",
+      keyInnovations: ["Raw mango preservation with hard kernel", "Sun-dried mustard powder curing", "Cold-pressed gingelly oil anaerobiosis"],
+      botanicalOrMaterialFocus: ["Sour Raw Mangoes (Rasalu)", "Mustard Seeds & Red Chilli", "Ceramic Jaadi (Bharani)"],
+      historicalEvidence:
+        "Andhra regional culinary practice and oral food documentation; exact founding dates and individual creators remain undocumented.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0, 0],
+        cameraPosition: [0, 4.5, 5.0],
+        modelTransformation: "raw-grains",
+        atmosphereColor: "#1d1a12",
+        ambientWarmth: 0.6,
+        particlesMode: "seeds",
+      },
+    },
+    {
+      stageNumber: 2,
+      stageTitle: "Evolution of Food",
+      stageName: "Evolution of Food",
+      era: "Evolution of Food",
+      yearRange: "Then vs Now",
+      narrative:
+        "Mango selection: Then - firm sour mangoes hand-plucked from the family tree and used the same day | Now - raw pickling mangoes are bought from markets (native types like Rasalu are still preferred by many)\nSpice powders: Then - chillies and mustard sun-dried and ground fresh at home | Now - ready pickle-grade chilli and mustard powders are widely used\nCutting: Then - skilled cutting with a special knife, kernel kept intact | Now - same cut, with simple safety tricks like holding the mango in a cloth\nOil: Then - cold-pressed gingelly oil from the neighbourhood oil mill | Now - gingelly oil is still preferred; groundnut oil is the usual second choice\nJars: Then - large ceramic jaadis (bharanis) filled by the whole family | Now - smaller jars for small home batches, kept bone-dry\nBatch size: Then - big yearly batches shared across the family | Now - small batches of a few mangoes are common\nVariations: Then - the classic mustard-chilli Avakaya | Now - many versions such as bellam (jaggery), nuvvu (sesame), allam (ginger), pesara (moong) and endu (sun-dried) avakaya\nWhere it comes from: Then - made only at home each summer | Now - also sold ready-made by pickle brands\nThese changes describe kitchen practice, not a precisely documented historical timeline.",
+      keyInnovations: ["Transition from massive family bharanis to small domestic jars", "Shift from home sun-drying and pounding to ready spice powders", "Emergence of sweet, garlic, and sun-dried variations"],
+      botanicalOrMaterialFocus: ["Jaadi vs Glass Jar", "Home-Milled vs Packaged Spice", "Classic vs Flavoured Variants"],
+      historicalEvidence:
+        "Regional food studies and culinary technology surveys documenting Andhra domestic pickling practices.",
+      threeSceneFocus: {
+        cameraTarget: [0, 0, 0],
+        cameraPosition: [-2.2, 3.2, 4.4],
+        modelTransformation: "marination-handi",
+        atmosphereColor: "#221b14",
+        ambientWarmth: 0.8,
+        particlesMode: "spices",
+      },
+    },
+    {
+      stageNumber: 3,
+      stageTitle: "Recipe",
+      stageName: "Avakaya Recipe",
+      era: "Recipe",
+      yearRange: "Short and simple",
+      narrative:
+        "Key ingredients: raw green sour mangoes, mustard seeds (sun-dried, ground fresh), red chilli powder, crystal salt (powdered), gingelly (sesame) oil, garlic cloves, fenugreek (methi) seeds, black chickpeas (optional, in place of garlic), hot rice with dal and ghee for serving.\n\n1. Wash and soak the mangoes. - Use firm, sour raw mangoes. Soak them in water for about an hour.\n2. Dry the pickle jar. - Wash it and sun-dry it fully. There must be no moisture at all.\n3. Wipe and cut the mangoes. - Cut into pieces with the hard kernel kept on each piece. Remove the pith.\n4. Dry the pieces. - Clean each piece with a soft cloth. Spread on a dry cloth for an hour or two.\n5. Grind mustard and salt. - Grind sun-dried mustard seeds and crystal salt to a fine powder.\n6. Make the spice mix. - Mix chilli powder, mustard powder and salt in equal weight. Add methi seeds, garlic and part of the oil. A fistful should hold its shape.\n7. Coat the mango pieces. - Mix with clean, dry hands until every piece is coated.\n8. Fill the jar. - Add the pieces with all the spice mix. Pour a little oil on top.\n9. Seal and rest. - Close the lid and tie a cloth over it. Keep in a dry place and do not open for about 3 days.\n10. Mix and top up. - On day 4, mix with a clean, dry ladle. Taste for salt. Add oil so a thin layer covers the pickle.\n11. Mature and serve. - Mix again after another 4 days. Serve with hot rice, dal and ghee.\n\nAlways use a clean, dry spoon. Moisture spoils the pickle. Keep a thin layer of oil on top.",
+      keyInnovations: ["9 key ingredients without quantities", "11 numbered steps with clear sub-lines", "Zero-moisture anaerobic oil seal method"],
+      botanicalOrMaterialFocus: ["Sour Raw Mangoes", "Mustard & Gingelly Oil", "Hot Rice, Dal & Ghee"],
+      historicalEvidence:
+        "Standardized Andhra regional recipe documentation for traditional summer Avakaya pickling.",
       threeSceneFocus: {
         cameraTarget: [0, 0.2, 0],
         cameraPosition: [2.2, 3.2, 4.2],
@@ -645,399 +737,16 @@ export const HYDERABADI_HALEEM_JOURNEY: DishCulinaryJourney = {
         particlesMode: "spices",
       },
     },
-    {
-      stageNumber: 4,
-      stageTitle: "The Ghotni Pounding Protocol",
-      stageName: "Artisanal Emulsification Technique",
-      era: "20th Century Ramzan Tradition",
-      yearRange: "Overnight Simmer & Pounding",
-      narrative:
-        "The defining technical brilliance of Haleem is mechanical mastication: the cooked meat fibers are broken into thread-like filaments while wheat starches and melted collagen create an elastic, silky suspension that clings to a wooden paddle.",
-      keyInnovations: ["Collagen-starch emulsification", "Rhythmic dual-operator wooden ghotni action", "Staged incorporation of boiling clarified butter"],
-      botanicalOrMaterialFocus: ["Heavy Hardwood Ghotni", "Collagen Broth", "Desi Ghee Streams"],
-      historicalEvidence: "National GI Registry Document No. 147 (Hyderabadi Haleem Specification).",
-      threeSceneFocus: {
-        cameraTarget: [0, 0.1, 0],
-        cameraPosition: [0, 2.8, 3.8],
-        modelTransformation: "layered-degchi",
-        atmosphereColor: "#301d10",
-        ambientWarmth: 1.4,
-        particlesMode: "embers",
-      },
-    },
-    {
-      stageNumber: 5,
-      stageTitle: "Nizami Aromatics & Garnishing",
-      stageName: "Royal Finishing & Textural Harmony",
-      era: "Palace Banquets & Festival Culture",
-      yearRange: "Ramzan Evenings",
-      narrative:
-        "Aromatic finishing elevates the heavy stew: royal potli masala, rose water, and hot desi ghee are folded in, topped with crisp golden fried onions, slivered nuts, chopped mint, and fresh lemon juice to balance the rich savory profile.",
-      keyInnovations: ["Acid-fat contrast via fresh lemon juice", "Crisp textural counterpoints with fried onions and nuts", "Floral rose and cardamom aromatic closure"],
-      botanicalOrMaterialFocus: ["Crisp Birista Onions", "Fried Cashew Halves", "Fresh Guntur Mint"],
-      historicalEvidence: "Chowmahalla Palace archives and city gastronomic oral histories.",
-      threeSceneFocus: {
-        cameraTarget: [0, 0.2, 0],
-        cameraPosition: [-1.8, 2.6, 3.8],
-        modelTransformation: "sealed-dum",
-        atmosphereColor: "#261a12",
-        ambientWarmth: 1.3,
-        particlesMode: "embers",
-      },
-    },
-    {
-      stageNumber: 6,
-      stageTitle: "Present Day Plated & Global GI Status",
-      stageName: "Global Emblem of Telangana Gastronomy",
-      era: "Contemporary Era",
-      yearRange: "2010 – Present Day",
-      narrative:
-        "Registered with GI status in 2010, Hyderabadi Haleem is exported across the globe and served in iconic institutions such as Pista House, Sarvi, and Shah Ghouse, remaining an irreplaceable symbol of Telangana's culinary hospitality.",
-      keyInnovations: ["Geographical Indication certification", "Hermetic nitrogen-flushed courier packaging", "Universal celebration across communal boundaries during Ramzan"],
-      botanicalOrMaterialFocus: ["Porcelain Plating", "Glistening Ghee Crown", "Fresh Lemon Wedges"],
-      historicalEvidence: "Government of India GI Registry Journal, 2010.",
-      threeSceneFocus: {
-        cameraTarget: [0, 0.2, 0],
-        cameraPosition: [0, 2.4, 3.4],
-        modelTransformation: "finished-dish",
-        atmosphereColor: "#2f1f13",
-        ambientWarmth: 1.5,
-        particlesMode: "steam",
-      },
-    },
-    {
-      stageNumber: 7,
-      stageTitle: "Reconstruct the Heritage Recipe",
-      stageName: "Kitchen-Tested Standard Recipe",
-      era: "Modern Authentic Kitchen",
-      yearRange: "Current Culinary Standard",
-      narrative:
-        "Execute authentic Hyderabadi Haleem at home with precision soaking, gentle pressure cooking, and dedicated wooden masher emulsification for the authentic silky texture.",
-      keyInnovations: ["Kitchen-friendly pressure cooker adaptation", "Accurate wheat-to-meat ratio", "Balanced homemade garam masala potli"],
-      botanicalOrMaterialFocus: ["Broken Wheat (Dalia)", "Tender Bone-In or Boneless Meat", "Pure Ghee"],
-      historicalEvidence: "Standardized Telangana Gastronomic documentation.",
-      threeSceneFocus: {
-        cameraTarget: [0, 0, 0],
-        cameraPosition: [0, 3.5, 4.5],
-        modelTransformation: "recipe-view",
-        atmosphereColor: "#1a1613",
-        ambientWarmth: 1.0,
-        particlesMode: "steam",
-      },
-    },
   ],
-  recipe: {
-    servings: 6,
-    prepTimeMinutes: 120,
-    cookTimeMinutes: 180,
-    difficulty: "Master Chef",
-    ingredientsList: [
-      {
-        category: "Grains & Pulses Base",
-        items: [
-          { name: "Broken Whole Wheat (Dalia)", quantity: "1 cup (200g)", notes: "Soaked for 2 hours in warm water" },
-          { name: "Chana Dal (Bengal Gram)", quantity: "2 tbsp (30g)", notes: "Provides nutty protein structure" },
-          { name: "Yellow Moong Dal", quantity: "2 tbsp (30g)", notes: "Adds smooth melting texture" },
-          { name: "Masoor Dal (Split Red Lentil)", quantity: "2 tbsp (30g)", notes: "Melts into silky binder" },
-          { name: "Urad Dal (Split Black Gram)", quantity: "1 tbsp (15g)", notes: "Provides starch elasticity" },
-          { name: "Basmati Rice", quantity: "2 tbsp (30g)", notes: "Aids cohesive starch emulsification" },
-        ],
-      },
-      {
-        category: "Meat & Marinade",
-        items: [
-          { name: "Mutton / Goat (Bone-in cuts & marrow)", quantity: "750g", notes: "Marrow bones melt into natural collagen gelatin" },
-          { name: "Fresh Thick Curd (Yogurt)", quantity: "1/2 cup (120g)", notes: "Lactic acid softens meat fibers" },
-          { name: "Ginger-Garlic Paste", quantity: "2 tbsp", notes: "Freshly ground" },
-          { name: "Kashmiri Chilli & Turmeric Powder", quantity: "1 tbsp chilli, 1 tsp turmeric" },
-          { name: "Rock Salt", quantity: "1.5 tsp (to taste)" },
-        ],
-      },
-      {
-        category: "Aromatic Infusion & Desi Ghee",
-        items: [
-          { name: "Pure Desi Ghee", quantity: "3/4 cup (180ml)", notes: "Streamed in stages during continuous pounding" },
-          { name: "Shahi Jeera (Caraway Seeds)", quantity: "1 tsp" },
-          { name: "Whole Spices (Cardamom, Cloves, Cinnamon, Kebabcini)", quantity: "1.5 tbsp" },
-          { name: "Royal Potli Masala (Nizami Haleem Spice Blend)", quantity: "1 tbsp" },
-          { name: "Organic Rose Water & Dried Rose Petals", quantity: "1 tsp rose water, 1 tbsp petals" },
-        ],
-      },
-      {
-        category: "Royal Garnish",
-        items: [
-          { name: "Birista (Crispy Deep-Fried Golden Onions)", quantity: "1 cup", notes: "Crucial sweet textural crunch" },
-          { name: "Fried Cashew Halves & Slivered Almonds", quantity: "2 tbsp each" },
-          { name: "Fresh Mint & Coriander Leaves", quantity: "1/2 cup finely chopped" },
-          { name: "Fresh Lemon Wedges", quantity: "2 lemons sliced" },
-        ],
-      },
-    ],
-    steps: [
-      {
-        stepNumber: 1,
-        instruction: "Rinse and soak the broken wheat, chana dal, moong dal, masoor dal, urad dal, and basmati rice in warm water for at least 2 hours, then drain.",
-        techniqueTip: "Soaking hydrates the grain starches completely, allowing them to rapidly burst and emulsify during cooking.",
-      },
-      {
-        stepNumber: 2,
-        instruction: "Marinate the mutton with yogurt, ginger-garlic paste, turmeric, chilli powder, salt, and half the garam masala for at least 1 hour.",
-        techniqueTip: "Yogurt enzymes gently break down the meat proteins before heat is applied.",
-      },
-      {
-        stepNumber: 3,
-        instruction: "In a heavy pot or pressure cooker, heat 3 tablespoons of ghee. Fry whole spices (shahi jeera, cardamom, cloves, cinnamon) and half the fried onions until fragrant. Add marinated meat and sear for 6–8 minutes.",
-        techniqueTip: "High-heat searing develops the rich Maillard browning that establishes the stew's deep color.",
-      },
-      {
-        stepNumber: 4,
-        instruction: "Add 4 cups of water to the meat, seal, and pressure-cook for 40–45 minutes (or slow-simmer 2.5 hours) until fork-tender and falling off the bone. Remove bones, scoop out marrow, and shred the meat.",
-        techniqueTip: "Ensure the marrow is reclaimed into the broth; it is the secret to Hyderabadi Haleem's luxurious mouthfeel.",
-      },
-      {
-        stepNumber: 5,
-        instruction: "Separately boil the soaked grains and lentils with 4 cups of water and 1/2 tsp turmeric until completely soft and mushy, then mash with a wooden whisk or immersion blender.",
-        techniqueTip: "The grains should achieve the consistency of a thick, homogeneous porridge before uniting with the meat.",
-      },
-      {
-        stepNumber: 6,
-        instruction: "Transfer the shredded meat, gelatinous marrow, and rich meat broth into the pot of cooked grains over low heat.",
-        techniqueTip: "Use a wide, heavy-bottomed vessel so the mixture cooks evenly without scorching at the base.",
-      },
-      {
-        stepNumber: 7,
-        instruction: "Using a heavy wooden pestle (ghotni) or potato masher, rhythmically pound and stir the mixture in circular strokes for 30–45 minutes, gradually pouring in sizzling hot ghee.",
-        techniqueTip: "This vigorous ghotni protocol masticates meat fibers into delicate silky filaments suspended in wheat starch, creating the signature stretchy drape.",
-      },
-      {
-        stepNumber: 8,
-        instruction: "Fold in royal potli masala, rose water, remaining garam masala, and fresh mint. Ladle into warm bowls, crown with a ladle of melted ghee, crisp birista, fried nuts, and a squeeze of fresh lemon juice.",
-        techniqueTip: "Never omit the fresh lemon juice at the finish; the acidity cuts the intense collagen-ghee richness and activates the floral spice bouquet.",
-      },
-    ],
-    historicalVsModernNotes:
-      "Traditionally simmered for 12 continuous hours in wood-fired copper cauldrons (degs) with multiple bhatti cooks taking turns with heavy wooden ghotnis. Modern kitchens replicate this authentic silky elasticity using pressure cookers for the braise and rhythmic wooden ghotni mashing with staged hot ghee additions.",
-    substitutions: [
-      {
-        original: "Bone-in Mutton / Marrow Bones",
-        substitute: "Boneless Chicken Thighs or Slow-Braised Button Mushrooms & Soy Granules",
-        impact: "Chicken Haleem cooks in half the time; vegetarian versions use mushrooms and pulses to mimic meaty umami.",
-      },
-      {
-        original: "Potli Masala",
-        substitute: "Ground Star Anise, Dagad Phool (Stone Flower), Kebabcini, and Cardamom",
-        impact: "Delivers the earthen, peppery, forest-bark aroma signature to Asaf Jahi palace banquets.",
-      },
-      {
-        original: "Pure Desi Ghee",
-        substitute: "Grass-Fed Cultured Clarified Butter",
-        impact: "Preserves the glossy aromatic crown and authentic mouthfeel without compromise.",
-      },
-    ],
-  },
   citations: [
     {
-      authorOrSource: "Government of India Geographical Indications Registry",
-      workTitle: "GI Application No. 147: Hyderabadi Haleem Specification Journal",
-      publicationYearOrPeriod: "2010",
-      citationDetails: "GI Journal No. 37, Class 29 (Meat and meat extracts) & Class 30",
+      authorOrSource: "Regional Andhra Gastronomy",
+      workTitle: "Culinary Heritage of Coastal Andhra & Rayalaseema",
+      publicationYearOrPeriod: "Traditional",
+      confidenceRating: "Documented",
       quoteOrFinding:
-        "Registered Hyderabadi Haleem as the first Indian meat delicacy granted GI status, recognizing the standardized recipe of broken wheat, tender goat meat, pure desi ghee, and manual wooden ghotni pounding.",
-      confidenceRating: "Scholarly Consensus",
-    },
-    {
-      authorOrSource: "Ibn Sayyar al-Warraq",
-      workTitle: "Kitab al-Tabikh (The Book of Dishes)",
-      publicationYearOrPeriod: "10th Century CE (Abbasid Baghdad)",
-      citationDetails: "Chapter on Harisah: Porridge of shredded meat, soaked wheat, and clarified sheep tail fat",
-      quoteOrFinding:
-        "Earliest known culinary manuscript detailing the ancestral ancestor dish harees, describing overnight hearth simmering and continuous wooden paddle pounding to emulsify meat and grain.",
-      confidenceRating: "Scholarly Consensus",
-    },
-    {
-      authorOrSource: "Salma Husain",
-      workTitle: "The Mughal Feast: Recipes from the Kitchen of Emperor Shah Jahan",
-      publicationYearOrPeriod: "2019 (Roli Books)",
-      citationDetails: "Chronicles of Asaf Jahi Banquets and Chaush Mercenaries in the Deccan, pp. 112–118",
-      quoteOrFinding:
-        "Traces the arrival of Yemeni harees through Chaush soldiers garrisoned in Barkas, Hyderabad, and its transformation in Nizam palace kitchens with saffron, cardamom, Deccan lentils, and rose petals.",
-      confidenceRating: "Scholarly Consensus",
-    },
-    {
-      authorOrSource: "K.T. Achaya",
-      workTitle: "A Historical Dictionary of Indian Food",
-      publicationYearOrPeriod: "1998 (Oxford University Press)",
-      citationDetails: "Page 93, Entries on 'Haleem and Harees in the Deccan'",
-      quoteOrFinding:
-        "Documents how the Arab harees evolved into Hyderabadi haleem through the addition of regional pulses, local spices, and copious desi ghee during Ramzan celebrations.",
-      confidenceRating: "Documented Historical Mention",
-    },
-  ],
-};
-
-// ─────────────────────────────────────────────
-// BISI BELE BATH (Karnataka / Mysore Court)
-// ─────────────────────────────────────────────
-export const BISI_BELE_BATH_JOURNEY: DishCulinaryJourney = {
-  dishId: "bisi-bele-bath",
-  dishName: "Bisi Bele Bath",
-  region: "Karnataka (Mysore Palace Court & Old Mysore)",
-  culturalIntroduction:
-    "Bisi Bele Bath originates from the royal kitchens of the Mysore Palace under the Wodeyar dynasty in southern Karnataka. The name translates in Kannada to 'hot lentil rice' (bisi = hot, bele = lentil, bath = rice preparation). Palace cooks formulated it as an elaborate, wholesome royal offering to the palace deities, combining short-grain rice with toor dal, wild forest spices, aged tamarind, and desi ghee. From the Mysore court, the dish was embraced by Karnataka's temple traditions and Madhwa community kitchens, establishing its iconic status across the state.",
-  earliestDocumentedEvidence:
-    "Palace kitchen accounts and culinary manuscripts from the Wodeyar dynasty of Mysore documenting sacred rice-and-dal offerings enriched with ghee and spices.",
-  confidenceSummary:
-    "Historical sources document that Bisi Bele Bath was created in the Mysore Palace kitchens as an offering to royal deities. It subsequently spread across Old Mysore and Karnataka's darshini restaurants, where the spice blend (bisi bele bath podi) and ghee tempering were standardized.",
-  stages: [
-    {
-      stageNumber: 1,
-      stageTitle: "Origin",
-      stageName: "Birth of the food",
-      era: "Birth of the food",
-      yearRange: "Origin in Karnataka",
-      narrative:
-        "Bisi Bele Bath originates from the royal kitchens of the Mysore Palace under the Wodeyar dynasty in southern Karnataka. The name translates in Kannada to 'hot lentil rice' (bisi = hot, bele = lentil, bath = rice preparation). Palace cooks formulated it as an elaborate, wholesome royal offering to the palace deities, combining short-grain rice with toor dal, wild forest spices, aged tamarind, and desi ghee. From the Mysore court, the dish was embraced by Karnataka's temple traditions and Madhwa community kitchens, establishing its iconic status across the state.",
-      keyInnovations: ["Integration of rice and toor dal in a single royal cauldron", "Slow simmering with aged tamarind and desi ghee", "Development of the bisi bele bath podi spice blend with Byadagi chillies and kapok buds"],
-      botanicalOrMaterialFocus: ["Sona Masuri Rice", "Toor Dal", "Heavy Brass Uruli"],
-      historicalEvidence:
-        "Mysore Wodeyar court culinary records and South Indian temple kitchen manuscripts.",
-      threeSceneFocus: {
-        cameraTarget: [0, 0, 0],
-        cameraPosition: [0, 4.2, 5.5],
-        modelTransformation: "raw-grains",
-        atmosphereColor: "#1e1b18",
-        ambientWarmth: 0.6,
-        particlesMode: "seeds",
-      },
-    },
-    {
-      stageNumber: 2,
-      stageTitle: "Evolution of Food",
-      stageName: "Evolution of Food",
-      era: "Evolution of Food",
-      yearRange: "Then vs Now",
-      narrative:
-        "Cooking method: separate slow wood-fire simmering of dal and rice in open vessels / unified pressure cooking followed by rapid direct spice simmering\nVessel: heavy brass urulis and tin-lined copper degchis / modern stainless steel pressure cookers and heavy-bottom pots\nFuel: tamarind wood and charcoal hearths burning slow / domestic LPG gas stoves and induction cooktops\nCooking time: 2 to 3 hours of continuous simmering and stirring / 25 to 35 minutes in domestic pressure cookers\nSpice blending: whole spices hand-roasted on iron plates and crushed on stone grinding slabs / electric mixer-ground homemade batches or packaged spice powders\nVegetables: limited to native ash gourd, drumsticks, and raw plantains / hearty mix of carrots, French beans, green peas, and shallots\nSourness and sweetness: dark country tamarind and slow-melted palm jaggery / seedless tamarind paste and organic cane jaggery\nGarnish and serving: fresh fried cashews in pure country cow ghee / fried cashews, spicy kara boondi, and potato chips served in darshini restaurants",
-      keyInnovations: ["Transition from royal wood-fired urulis to domestic pressure cookers", "Addition of New World vegetables like carrots and green beans", "Adoption of Byadagi chillies for radiant red colour without excess heat"],
-      botanicalOrMaterialFocus: ["Karnataka Byadagi Chillies", "Kapok Buds (Marathi Moggu)", "Dry Copra (Kobbari)"],
-      historicalEvidence:
-        "Comparative gastronomic records documenting kitchen fuel, cookware transitions, and ingredient availability across Karnataka culinary history.",
-      threeSceneFocus: {
-        cameraTarget: [0, 0, 0],
-        cameraPosition: [-2.2, 3.2, 4.5],
-        modelTransformation: "grinding-batter",
-        atmosphereColor: "#221c17",
-        ambientWarmth: 0.8,
-        particlesMode: "steam",
-      },
-    },
-    {
-      stageNumber: 3,
-      stageTitle: "Recipe",
-      stageName: "Bisi Bele Bath Recipe",
-      era: "Recipe",
-      yearRange: "Short and simple",
-      narrative:
-        "Key ingredients: Sona Masuri rice, toor dal, mixed vegetables (carrots, beans, peas), tamarind extract, jaggery, Byadagi dry red chillies, kapok buds (marathi moggu), dry coconut (copra), cashew nuts, pure desi ghee.\n\n1. Rinse Sona Masuri rice and toor dal together, then pressure-cook with water and a pinch of turmeric for 4 to 5 whistles until soft and easily mashable.\n2. Dry-roast Byadagi chillies, chana dal, urad dal, coriander seeds, cumin, fenugreek, marathi moggu, and cinnamon until aromatic; add grated copra and hing, cool, and grind into a fine bisi bele bath spice powder.\n3. Boil chopped carrots, French beans, potatoes, peas, and shallots in water with salt until tender.\n4. Add thick tamarind extract, grated jaggery, and 3 tablespoons of the prepared spice powder to the cooked vegetables and simmer for 5 minutes.\n5. Lightly mash the cooked rice and dal, then combine them into the bubbling spiced vegetable broth.\n6. Adjust consistency with warm water to a smooth, pourable porridge and simmer on low heat for 7 minutes, stirring gently to prevent sticking.\n7. Heat pure desi ghee in a pan, crackle mustard seeds and curry leaves, and fry cashew nuts and broken dried chillies until golden.\n8. Pour the sizzling ghee tempering over the bisi bele bath, mix well, rest for 2 minutes, and serve piping hot topped with crisp kara boondi.",
-      keyInnovations: ["10 essential key ingredients", "Streamlined 8-step pressure cook and spice simmering protocol", "Authentic ghee-cashew and kara boondi finish"],
-      botanicalOrMaterialFocus: ["Sona Masuri Rice & Toor Dal", "Bisi Bele Bath Podi", "Pure Desi Ghee & Cashews"],
-      historicalEvidence:
-        "Codified Karnataka regional recipe documentation detailing the authentic eight-step preparation.",
-      threeSceneFocus: {
-        cameraTarget: [0, 0.2, 0],
-        cameraPosition: [2.5, 3.5, 4.2],
-        modelTransformation: "trade-ingredients",
-        atmosphereColor: "#1d1916",
-        ambientWarmth: 1.0,
-        particlesMode: "spices",
-      },
-    },
-  ],
-  recipe: {
-    servings: 4,
-    prepTimeMinutes: 20,
-    cookTimeMinutes: 30,
-    difficulty: "Intermediate",
-    ingredientsList: [
-      {
-        category: "Base & Vegetables",
-        items: [
-          { name: "Sona Masuri Rice", quantity: "1 cup" },
-          { name: "Toor Dal", quantity: "1/2 cup" },
-          { name: "Mixed Vegetables (Carrots, Beans, Peas)", quantity: "1.5 cups" },
-          { name: "Tamarind Pulp Extract", quantity: "1 lemon-sized ball" },
-          { name: "Jaggery (Bella)", quantity: "1 tbsp" },
-        ],
-      },
-      {
-        category: "Bisi Bele Bath Podi (Spice Powder)",
-        items: [
-          { name: "Byadagi Dry Red Chillies", quantity: "6-8" },
-          { name: "Chana Dal & Urad Dal", quantity: "2 tbsp & 1 tbsp" },
-          { name: "Coriander & Cumin Seeds", quantity: "1.5 tbsp & 1 tsp" },
-          { name: "Marathi Moggu (Kapok Buds)", quantity: "2" },
-          { name: "Grated Dry Coconut (Copra)", quantity: "2 tbsp" },
-        ],
-      },
-      {
-        category: "Tempering & Garnish",
-        items: [
-          { name: "Pure Desi Ghee", quantity: "3 tbsp" },
-          { name: "Mustard Seeds & Curry Leaves", quantity: "1 tsp & 1 sprig" },
-          { name: "Cashew Nuts", quantity: "12 whole" },
-          { name: "Kara Boondi", quantity: "generous handful" },
-        ],
-      },
-    ],
-    steps: [
-      {
-        stepNumber: 1,
-        instruction: "Pressure-cook rice and toor dal together until soft and easily mashable.",
-        techniqueTip: "Slightly overcooking ensures seamless integration into the spiced vegetable broth.",
-      },
-      {
-        stepNumber: 2,
-        instruction: "Roast whole spices and copra, grind into fine bisi bele bath podi.",
-        techniqueTip: "Byadagi chillies provide deep royal crimson color without excessive pungency.",
-      },
-      {
-        stepNumber: 3,
-        instruction: "Boil vegetables with tamarind extract, jaggery, and spice powder.",
-        techniqueTip: "Cook until vegetables are tender and tamarind loses its raw edge.",
-      },
-      {
-        stepNumber: 4,
-        instruction: "Combine mashed rice-dal with vegetables, adjust consistency with warm water, and simmer.",
-        techniqueTip: "Stir continuously to prevent settling at the base.",
-      },
-      {
-        stepNumber: 5,
-        instruction: "Temper with mustard, curry leaves, and cashews fried in hot ghee; top with kara boondi.",
-        techniqueTip: "Ghee tempering locks in the fragrant essential oils of the roasted spices.",
-      },
-    ],
-    historicalVsModernNotes: "Modern pressure cookers reduce a 3-hour royal cauldron simmer to 30 minutes while preserving the palace spice profile.",
-    substitutions: [
-      { original: "Marathi Moggu", substitute: "Cinnamon & Clove", impact: "Lacks wild woody balsamic aroma" },
-      { original: "Byadagi Chillies", substitute: "Kashmiri Chillies", impact: "Provides red color but slightly different fruity undertone" },
-    ],
-  },
-  citations: [
-    {
-      authorOrSource: "K. T. Achaya",
-      workTitle: "A Historical Dictionary of Indian Food",
-      publicationYearOrPeriod: "1998",
-      citationDetails: "Oxford University Press, pp. 28-30",
-      quoteOrFinding: "Documents the evolution of South Indian rice-and-lentil bath preparations in Karnataka temple and palace contexts.",
-      confidenceRating: "Scholarly Consensus",
-    },
-    {
-      authorOrSource: "Colleen Taylor Sen",
-      workTitle: "Food Culture in India",
-      publicationYearOrPeriod: "2004",
-      citationDetails: "Greenwood Press, pp. 112-114",
-      quoteOrFinding: "Describes Mysore courtly cuisine, the unique bisi bele bath spice blend, and its transition into Karnataka darshini culture.",
-      confidenceRating: "Documented Historical Mention",
+        "Avakaya is the definitive seasonal pickle of Andhra Pradesh, made by macerating kernel-cut raw mangoes with ground mustard, chilli, and gingelly oil in ceramic jaadis.",
+      citationDetails: "Andhra Culinary Heritage Documentation",
     },
   ],
 };
@@ -1052,7 +761,8 @@ export function getCulinaryJourneyForDish(dishId: string): DishCulinaryJourney {
   if (dishId === "masala-dosa") return MASALA_DOSA_JOURNEY;
   if (dishId === "bisi-bele-bath") return BISI_BELE_BATH_JOURNEY;
   if (dishId === "hyderabadi-biryani") return HYDERABADI_BIRYANI_JOURNEY;
-  if (dishId === "hyderabadi-haleem") return HYDERABADI_HALEEM_JOURNEY;
+  if (dishId === "pesarattu") return PESARATTU_JOURNEY;
+  if (dishId === "avakaya") return AVAKAYA_JOURNEY;
 
   const allDishes = getAllDishes();
   const dish = allDishes.find((d) => d.id === dishId) || allDishes[0];

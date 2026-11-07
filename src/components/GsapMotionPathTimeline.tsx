@@ -122,7 +122,11 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           dishId === "dal-bafla" ||
           dishId === "makki-di-roti-sarson-saag" ||
           dishId === "butter-chicken" ||
-          dishId === "amritsari-kulcha"
+          dishId === "amritsari-kulcha" ||
+          dishId === "vada-pav" ||
+          dishId === "puran-poli" ||
+          dishId === "dhokla" ||
+          dishId === "undhiyu"
             ? "Evolution of Food"
             : "Regional & Seasonal Produce",
         photo: photography?.ingredients,
@@ -141,9 +145,50 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
       const resolvedImage = stateMainImg || verifiedUrl || stageInfographic?.image || UNRESOLVED_IMAGE;
 
       const next = entries[index + 1];
-      const nextUrl = next ? (stageImageUrl(next.photo) || getInfographicForStage(dishId, next.stageNum)?.image) : undefined;
+      let nextUrl = next ? (stageImageUrl(next.photo) || getInfographicForStage(dishId, next.stageNum)?.image) : undefined;
 
-      const caption = entry.photo?.caption || (stateMainImg ? `${dish.state} — Regional heritage & culinary traditions` : undefined);
+      if (dishId === "puran-poli") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/puran-poli-2.png";
+        } else if (index === 1) {
+          nextUrl = "/images/dishes/puran-poli-1.png";
+        } else if (index === 2) {
+          nextUrl = undefined;
+        }
+      } else if (dishId === "makki-di-roti-sarson-saag") {
+        if (index === 1) {
+          nextUrl = "/images/dishes/makki-2.png";
+        } else if (index === 2) {
+          nextUrl = undefined;
+        }
+      } else if (dishId === "butter-chicken") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/butter-chicken-ingredients.png";
+        } else if (index === 1) {
+          nextUrl = "/images/dishes/butter-chicken-2.png";
+        } else if (index === 2) {
+          nextUrl = undefined;
+        }
+      } else if (dishId === "dhokla") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/dhokla-1.png";
+        } else if (index === 1) {
+          nextUrl = "/images/dishes/dhokla-2.png";
+        }
+      } else if (dishId === "undhiyu") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/undhiyu-1.png";
+        } else if (index === 1) {
+          nextUrl = "/images/dishes/undhiyu-2.png";
+        }
+      }
+
+      const caption =
+        dishId === "dhokla" && index === 1
+          ? "Evolution of Food — from ancient fermented chickpea cakes to modern steamed nylon and khaman varieties."
+          : dishId === "undhiyu" && index === 1
+          ? "Evolution of Food — from subterranean earthen matka roasting under coal embers to modern domestic stovetops."
+          : entry.photo?.caption || (stateMainImg ? `${dish.state} — Regional heritage & culinary traditions` : undefined);
 
       return {
         id: `${dishId}-stage-${entry.key}`,
@@ -962,25 +1007,28 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
 
                     {/* YouTube Recipe Link (below ingredients and recipe, at the end of Stage 3) */}
                     {(dishId === "hyderabadi-biryani" ||
-                      dishId === "hyderabadi-haleem" ||
-                      dishId === "masala-dosa" ||
-                      dishId === "bisi-bele-bath" ||
                       dishId === "indori-poha" ||
                       dishId === "bhutte-ka-kees" ||
                       dishId === "dal-bafla" ||
                       dishId === "makki-di-roti-sarson-saag" ||
                       dishId === "butter-chicken" ||
-                      dishId === "amritsari-kulcha") &&
+                      dishId === "amritsari-kulcha" ||
+                      dishId === "vada-pav" ||
+                      dishId === "puran-poli" ||
+                      dishId === "dhokla" ||
+                      dishId === "undhiyu") &&
                       stageNum === 3 && (
-                      <div className="pt-1">
+                      <div className="pt-2 relative z-30">
                         <a
                           href={
-                            dishId === "hyderabadi-haleem"
-                              ? "https://www.youtube.com/watch?v=dPpERMQzICs"
-                              : dishId === "masala-dosa"
-                              ? "https://www.youtube.com/watch?v=e9XFHjdw3Cg"
-                              : dishId === "bisi-bele-bath"
-                              ? "https://www.youtube.com/watch?v=VEArdyBWvdw"
+                            dishId === "undhiyu"
+                              ? "https://youtu.be/76WP69qtDi8?si=pJ2OxBhrMlE4jino"
+                              : dishId === "dhokla"
+                              ? "https://youtu.be/w_2eb9uaXns?si=KIDHVXoEFHrjkhiR"
+                              : dishId === "puran-poli"
+                              ? "https://youtu.be/l7Efb-HjDPU?si=EscTTWw7kdAoJfmO"
+                              : dishId === "vada-pav"
+                              ? "https://youtu.be/r4saZD0J_gU?si=5bMEbxfAfzxEhTd3"
                               : dishId === "indori-poha"
                               ? "https://youtu.be/XuttnylxuXY?si=ckFXqQLdjLIC2nCB"
                               : dishId === "bhutte-ka-kees"
@@ -988,9 +1036,9 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                               : dishId === "dal-bafla"
                               ? "https://www.youtube.com/watch?v=3X0-I1GTOq0"
                               : dishId === "makki-di-roti-sarson-saag"
-                              ? "https://www.youtube.com/watch?v=hI-in8nsU_Q"
+                              ? "https://youtu.be/-YpLF57Pnec?si=3h_Bvw7MUcU2QhTO"
                               : dishId === "butter-chicken"
-                              ? "https://www.youtube.com/watch?v=-LueyspwzwM"
+                              ? "https://youtu.be/D_fYk8mBaF4?si=3DBkbxk0dzjxELBy"
                               : dishId === "amritsari-kulcha"
                               ? "https://www.youtube.com/watch?v=pbI8PkiSB8E"
                               : "https://www.youtube.com/watch?v=8Fw_zWPbGog"
