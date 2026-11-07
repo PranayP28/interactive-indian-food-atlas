@@ -13,6 +13,7 @@ import {
   SlidersHorizontal,
   ArrowRight,
   Users,
+  Layers,
 } from "lucide-react";
 import { IndiaMap3D } from "./components/IndiaMap3D";
 import { BharatDishExperience } from "./components/BharatDishExperience";
@@ -30,6 +31,7 @@ import { useTheme } from "./context/ThemeContext";
 import { ThemeToggle } from "./components/ui/ThemeToggle";
 import { DishThumb } from "./components/photography/DishThumb";
 import { AboutModal } from "./components/AboutModal";
+import { AllStatesModal } from "./components/AllStatesModal";
 
 export default function App() {
   const { isLight } = useTheme();
@@ -45,7 +47,9 @@ export default function App() {
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [selectedTaste, setSelectedTaste] = useState<string | null>(null);
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
+  const [isStatesExpanded, setIsStatesExpanded] = useState(false);
   const [showAboutModal, setShowAboutModal] = useState(false);
+  const [showAllStatesModal, setShowAllStatesModal] = useState(false);
   const searchContainerRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
@@ -239,6 +243,7 @@ export default function App() {
           dishId={activeDishId}
           onBackToMap={navigateToMap}
           onSelectDish={navigateToDish}
+          onSelectState={(name) => setSelectedState(name)}
         />
       </ErrorBoundary>
     );
@@ -523,6 +528,19 @@ export default function App() {
               {region.name}
             </button>
           ))}
+          {/* Clickable button to expand to all states */}
+          <button
+            onClick={() => setShowAllStatesModal(true)}
+            className={`px-3 py-1 rounded-lg font-bold transition-all flex items-center gap-1.5 whitespace-nowrap border shadow-2xs ${
+              isLight
+                ? "bg-amber-100 hover:bg-amber-200 text-amber-950 border-amber-300"
+                : "bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border-amber-500/40"
+            }`}
+            title="Expand to all 33 Indian states with full names"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+            <span>Expand All States ({stateNames.length})</span>
+          </button>
         </div>
 
         {/* Quick Taste Filters */}
@@ -706,16 +724,55 @@ export default function App() {
                 </div>
 
                 {/* State Quick Browser */}
-                <div className="space-y-2">
-                  <h3
-                    className={`text-xs font-bold uppercase tracking-wider ${
-                      isLight ? "text-slate-600" : "text-slate-400"
-                    }`}
-                  >
-                    {normalizedSearchQuery
-                      ? "Matching States"
-                      : "Select a Region to Explore"} ({filteredStates.length})
-                  </h3>
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3
+                      className={`text-xs font-bold uppercase tracking-wider ${
+                        isLight ? "text-slate-600" : "text-slate-400"
+                      }`}
+                    >
+                      {normalizedSearchQuery
+                        ? "Matching States"
+                        : "Select a Region to Explore"} ({filteredStates.length})
+                    </h3>
+                    <div className="flex items-center gap-1.5">
+                      <button
+                        type="button"
+                        onClick={() => setIsStatesExpanded(!isStatesExpanded)}
+                        className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold border transition-all ${
+                          isLight
+                            ? "bg-amber-100/90 hover:bg-amber-200 text-amber-950 border-amber-300 shadow-2xs"
+                            : "bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border-amber-500/40"
+                        }`}
+                        title={isStatesExpanded ? "Collapse to compact list" : "Expand to view all states"}
+                      >
+                        {isStatesExpanded ? (
+                          <>
+                            <ChevronLeft className="w-3.5 h-3.5 rotate-90" />
+                            <span>Collapse</span>
+                          </>
+                        ) : (
+                          <>
+                            <ChevronRight className="w-3.5 h-3.5 rotate-90" />
+                            <span>Expand All States</span>
+                          </>
+                        )}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setShowAllStatesModal(true)}
+                        className={`p-1.5 rounded-lg border transition-all ${
+                          isLight
+                            ? "bg-white hover:bg-amber-50 text-slate-700 border-amber-900/15"
+                            : "bg-slate-800 hover:bg-slate-750 text-slate-300 border-slate-700"
+                        }`}
+                        title="Open full expanded states directory"
+                      >
+                        <Layers className="w-3.5 h-3.5 text-amber-500" />
+                      </button>
+                    </div>
+                  </div>
+
                   {filteredStates.length === 0 ? (
                     <div className={`text-center py-6 px-3 rounded-xl border ${isLight ? "bg-amber-50 border-amber-200 text-slate-600" : "bg-slate-800/60 border-slate-700 text-slate-400"}`}>
                       <Search className={`w-8 h-8 mx-auto mb-2 ${isLight ? "text-amber-400" : "text-slate-500"}`} />
@@ -723,22 +780,47 @@ export default function App() {
                       <p className="text-[11px] mt-1 text-slate-500">Try adjusting the region or flavor filters</p>
                     </div>
                   ) : (
-                    <div className="grid grid-cols-2 gap-1.5 max-h-56 overflow-y-auto scrollbar-thin pr-1">
-                      {filteredStates.map((name) => (
+                    <>
+                      <div
+                        className={`grid grid-cols-1 sm:grid-cols-2 gap-2 overflow-y-auto scrollbar-thin pr-1 transition-all duration-300 ${
+                          isStatesExpanded ? "max-h-[520px]" : "max-h-60"
+                        }`}
+                      >
+                        {filteredStates.map((name) => (
+                          <button
+                            key={name}
+                            onClick={() => setSelectedState(name)}
+                            title={name}
+                            className={`px-3 py-2 rounded-xl text-xs font-medium text-left flex items-center justify-between gap-2 border transition-all ${
+                              isLight
+                                ? "bg-white hover:bg-amber-50 text-slate-800 border-amber-900/10 shadow-xs hover:border-amber-300"
+                                : "bg-slate-800/80 hover:bg-slate-750 text-slate-300 hover:text-white border-slate-750/60 hover:border-amber-500/30"
+                            }`}
+                          >
+                            <div className="flex items-center gap-2 min-w-0">
+                              <span className="shrink-0 text-base">{STATE_EMOJIS[name] || "🍲"}</span>
+                              <span className="leading-snug break-words font-semibold">{name}</span>
+                            </div>
+                            <ChevronRight className="w-3.5 h-3.5 text-amber-500 shrink-0 opacity-60" />
+                          </button>
+                        ))}
+                      </div>
+
+                      {!isStatesExpanded && filteredStates.length > 8 && (
                         <button
-                          key={name}
-                          onClick={() => setSelectedState(name)}
-                          className={`px-2.5 py-1.5 rounded-lg text-xs font-medium text-left truncate flex items-center gap-1.5 border transition-all ${
+                          type="button"
+                          onClick={() => setIsStatesExpanded(true)}
+                          className={`w-full py-2 px-3 rounded-xl border text-xs font-bold transition-all flex items-center justify-center gap-2 ${
                             isLight
-                              ? "bg-white hover:bg-amber-50 text-slate-800 border-amber-900/10 shadow-sm"
-                              : "bg-slate-800/80 hover:bg-slate-750 text-slate-300 hover:text-white border-slate-750/60"
+                              ? "bg-gradient-to-r from-amber-50 to-orange-50 hover:bg-amber-100 text-amber-950 border-amber-300/80 shadow-xs"
+                              : "bg-slate-800/90 hover:bg-slate-800 text-amber-300 border-amber-500/30"
                           }`}
                         >
-                          <span>{STATE_EMOJIS[name] || "🍲"}</span>
-                          <span className="truncate">{name}</span>
+                          <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+                          <span>Expand All {filteredStates.length} States & Regions</span>
                         </button>
-                      ))}
-                    </div>
+                      )}
+                    </>
                   )}
                 </div>
               </div>
@@ -951,7 +1033,7 @@ export default function App() {
                           Era: {dish.era}
                         </span>
                         <span
-                          className={`px-2 py-0.5 rounded-md border font-medium truncate max-w-xs ${
+                          className={`px-2 py-0.5 rounded-md border font-medium break-words ${
                             isLight
                               ? "bg-amber-50 text-slate-700 border-amber-200/80"
                               : "bg-slate-900 text-slate-300 border-slate-750"
@@ -1050,7 +1132,7 @@ export default function App() {
               </span>
             </div>
             <p
-              className={`text-xs max-w-xs truncate ${
+              className={`text-xs max-w-sm leading-relaxed ${
                 isLight ? "text-slate-600" : "text-slate-300"
               }`}
             >
@@ -1068,6 +1150,16 @@ export default function App() {
       )}
       {/* About Team Modal */}
       <AboutModal isOpen={showAboutModal} onClose={() => setShowAboutModal(false)} />
+
+      {/* All States Directory Modal */}
+      <AllStatesModal
+        isOpen={showAllStatesModal}
+        onClose={() => setShowAllStatesModal(false)}
+        onSelectState={(name) => {
+          setSelectedState(name);
+        }}
+        selectedState={selectedState}
+      />
     </div>
   );
 }

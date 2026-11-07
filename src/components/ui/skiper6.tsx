@@ -243,7 +243,7 @@ export const Skiper6Summarizer: React.FC<Skiper6Props> = ({
                       }`}>
                         Core Ingredient:
                       </span>
-                      <span className={`font-semibold text-xs truncate block ${
+                      <span className={`font-semibold text-xs block break-words ${
                         isLight ? "text-amber-900" : "text-amber-300"
                       }`}>
                         {activeMember.signatureIngredient}
@@ -258,7 +258,7 @@ export const Skiper6Summarizer: React.FC<Skiper6Props> = ({
                       }`}>
                         Primary Source:
                       </span>
-                      <span className={`font-serif italic text-xs truncate block ${
+                      <span className={`font-serif italic text-xs block break-words ${
                         isLight ? "text-slate-700" : "text-slate-300"
                       }`}>
                         {activeMember.primarySource}

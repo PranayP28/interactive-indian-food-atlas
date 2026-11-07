@@ -26,6 +26,7 @@ import { GsapMotionPathTimeline } from "./GsapMotionPathTimeline";
 import { useTheme } from "../context/ThemeContext";
 import { ThemeToggle } from "./ui/ThemeToggle";
 import { AboutModal } from "./AboutModal";
+import { AllStatesModal } from "./AllStatesModal";
 import {
   DishNarratorController,
   NarrationStatus,
@@ -36,11 +37,13 @@ interface BharatDishExperienceProps {
   dishId: string;
   onBackToMap: () => void;
   onSelectDish: (newDishId: string) => void;
+  onSelectState?: (stateName: string) => void;
 }
 export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
   dishId,
   onBackToMap,
   onSelectDish,
+  onSelectState,
 }) => {
   const { isLight } = useTheme();
   const allDishes = getAllDishes();
@@ -50,6 +53,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
   // UI state
   const [showSourcesModal, setShowSourcesModal] = useState(false);
   const [showDishSwitcher, setShowDishSwitcher] = useState(false);
+  const [showAllStatesModal, setShowAllStatesModal] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
   const [showAboutModal, setShowAboutModal] = useState(false);
 
@@ -210,7 +214,22 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
         </div>
 
         {/* Right: Actions (Switcher, Sources, Audio, ThemeToggle, Share) */}
-        <div className="order-2 flex items-center gap-1 md:order-none md:gap-2.5">
+        <div className="order-2 flex items-center gap-1 md:order-none md:gap-2">
+          {/* Expand to All States Button */}
+          <button
+            onClick={() => setShowAllStatesModal(true)}
+            className={`flex items-center gap-1.5 px-2 sm:px-3 py-1.5 rounded-xl border text-xs font-bold transition-all shadow-sm ${
+              isLight
+                ? "bg-amber-100/90 hover:bg-amber-200 text-amber-950 border-amber-300/80 hover:border-amber-400"
+                : "bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border-amber-500/40"
+            }`}
+            title="Expand to all 33 Indian states and territories"
+          >
+            <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+            <span className="hidden sm:inline">All States ({Object.keys(FOOD_DATA).length})</span>
+            <span className="sm:hidden">States</span>
+          </button>
+
           {/* Dish Switcher Button */}
           <button
             onClick={() => setShowDishSwitcher(true)}
@@ -570,6 +589,24 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
               </button>
             </div>
 
+            {/* Quick Button to Expand to All States */}
+            <div className={`p-3 border-b ${isLight ? "bg-white" : "bg-slate-900"}`}>
+              <button
+                onClick={() => {
+                  setShowDishSwitcher(false);
+                  setShowAllStatesModal(true);
+                }}
+                className={`w-full py-2 px-3 rounded-xl border text-xs font-bold transition-all flex items-center justify-center gap-2 ${
+                  isLight
+                    ? "bg-gradient-to-r from-amber-50 to-orange-50 hover:bg-amber-100 text-amber-950 border-amber-300 shadow-sm"
+                    : "bg-slate-800 hover:bg-slate-750 text-amber-300 border-amber-500/30"
+                }`}
+              >
+                <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+                <span>Expand to All {Object.keys(FOOD_DATA).length} States & Territories</span>
+              </button>
+            </div>
+
             {/* Quick Pilot Jump Banner */}
             <div
               className={`p-4 border-b space-y-2 ${
@@ -693,6 +730,17 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
 
       {/* About Team Modal */}
       <AboutModal isOpen={showAboutModal} onClose={() => setShowAboutModal(false)} />
+
+      {/* All States Directory Modal */}
+      <AllStatesModal
+        isOpen={showAllStatesModal}
+        onClose={() => setShowAllStatesModal(false)}
+        onSelectState={(stateName) => {
+          setShowAllStatesModal(false);
+          onSelectState?.(stateName);
+          onBackToMap();
+        }}
+      />
     </div>
   );
 };

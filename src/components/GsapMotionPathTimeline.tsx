@@ -954,7 +954,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                               Cookware:
                             </span>
                             <span
-                              className={`font-medium truncate block ${
+                              className={`font-medium block break-words ${
                                 isLight ? "text-slate-900" : "text-white"
                               }`}
                             >
@@ -976,7 +976,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                               Heat Source:
                             </span>
                             <span
-                              className={`font-medium truncate block ${
+                              className={`font-medium block break-words ${
                                 isLight ? "text-orange-700" : "text-orange-300"
                               }`}
                             >
