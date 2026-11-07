@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedFrom": "src/data/foodData.ts",
-  "totalDishes": 96,
+  "totalDishes": 95,
   "groups": [
     {
       "state": "Andhra Pradesh",
@@ -239,8 +239,7 @@
       "tagline": "Pearl city cuisine — bold, rustic and deeply satisfying",
       "dishIds": [
         "hyderabadi-biryani",
-        "hyderabadi-haleem",
-        "qubani-ka-meetha"
+        "hyderabadi-haleem"
       ]
     },
     {
@@ -1669,35 +1668,20 @@
       "category": "meat",
       "description": "A GI-tagged royal delicacy: broken whole wheat, lentils, and tender meat pounded continuously with wooden mallets (ghotni) in copper cauldrons for 12 hours until transformed into an intensely rich paste.",
       "ingredients": [
-        "Whole wheat",
-        "Mutton",
-        "Chana dal & Moong dal",
+        "Broken wheat (dalia)",
+        "Boneless mutton",
+        "Chana and moong lentils",
         "Pure desi ghee",
-        "Fried onions",
-        "Almonds & cashews",
-        "Rose petals"
+        "Curd (yoghurt)",
+        "Ginger-garlic paste",
+        "Fried onions (birista)",
+        "Whole spices and garam masala",
+        "Mint and coriander",
+        "Almonds and cashew nuts"
       ],
       "tasteProfile": "Rich, Warming & Silky",
       "era": "Yemeni Chaush Migration & Nizams of Hyderabad",
       "keyTechnique": "12-Hour Degchi Simmer & Wooden Mallet Pounding"
-    },
-    {
-      "id": "qubani-ka-meetha",
-      "name": "Qubani ka Meetha",
-      "alternateName": "Khubani ka Meetha / Apricot Dessert",
-      "state": "Telangana",
-      "category": "sweet-dessert",
-      "description": "Dried Hunza apricots stewed to a glossy compote, served warm or chilled with fresh cream, custard or vanilla ice cream; a Hyderabadi Deccani dessert with Central Asian roots.",
-      "ingredients": [
-        "Dried apricots",
-        "Sugar",
-        "Water",
-        "Cardamom",
-        "Cream or custard"
-      ],
-      "tasteProfile": "Tart-Sweet, Jammy & Apricot-Bright",
-      "era": "Hyderabadi Deccani dessert tradition, documented in 20th-century cookery",
-      "keyTechnique": "Apricot Stewing & Syrup Reduction"
     },
     {
       "id": "mui-borok",

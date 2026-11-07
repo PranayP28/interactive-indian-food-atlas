@@ -401,6 +401,171 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
 ];
 
 // ─────────────────────────────────────────────
+// HYDERABADI HALEEM (Telangana)
+// ─────────────────────────────────────────────
+export const HALEEM_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Hyderabadi Haleem in the Deccan",
+    shortDescription:
+      "Haleem traces its ancestry to the medieval Arab dish harees, a slow-cooked porridge of pounded meat and wheat. It was introduced to Hyderabad by the Arab diaspora (Chaush soldiers from Yemen) serving in the irregular army of the Asaf Jahi Nizams. In the royal kitchens of the Nizams and Paigah nobles, the rustic harees was refined and Indianized by introducing aromatic Deccan spices, mixed lentils, ghee, dry fruits, and rose petals. It became the signature delicacy of Hyderabad, especially cherished during Ramzan for breaking the fast.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Large copper or brass cauldrons (Degs) over bhatti fire",
+      heatSource: "Wood and charcoal bhatti fire burning overnight",
+      ingredientsList: [],
+      preparationMethod:
+        "Slow-simmered for 8 to 12 hours and vigorously pounded with heavy wooden pestles (ghotni) until meat and wheat merge into a smooth, cohesive porridge.",
+      contemporaryDifference:
+        "Introduced by Yemeni Chaush soldiers and refined in Asaf Jahi royal kitchens with fragrant Deccan spices and pure ghee.",
+    },
+    technologicalLeap: "Bhatti simmer and rhythmic wooden ghotni pounding extracting gelatinous collagen and wheat starches.",
+    documentedCitation: "Medieval Arab culinary compendiums & Asaf Jahi court kitchen archives.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders\nVessel: massive heavy tinned copper cauldrons (degs/bhatti) / stainless steel pots, heavy-bottom handis, and domestic pressure cookers\nFuel: tamarind wood and charcoal bhattis burning low overnight / LPG gas stoves, induction, and commercial gas burners\nCooking time: 10 to 12 hours of overnight simmering / 1.5 to 2.5 hours in home pressure cookers\nPounding: 2 to 3 skilled cooks rhythmically beating with wooden poles (ghotnis) / home wooden whisks, potato mashers, or short pulses of electric blenders\nMeat: traditional bone-in tender goat/mutton marrow cuts slow-cooked till bones slip out / boneless mutton, chicken (now widespread in restaurants), and modern vegetarian lentil variants\nFlavourings: pure desi ghee, freshly stone-ground potli masala, rose water, and wild cinnamon / commercial packaged haleem spice blends and ready ginger-garlic paste\nGarnish & Serving: golden fried onions (birista), ghee drizzle, fresh mint, coriander, lime, and sliced almonds/cashews / similar traditional garnishes maintained across both royal feasts and modern takeaway boxes",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Massive copper bhatti cauldrons / stainless steel pots and pressure cookers",
+      heatSource: "Tamarind wood and charcoal / domestic LPG gas and electricity",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders",
+      contemporaryDifference:
+        "Transition from overnight wood-fired bhatti cauldrons to rapid pressure cooking and domestic handheld blenders.",
+    },
+    technologicalLeap: "Mechanical and thermal evolution shortening 12-hour manual labor to domestic accessibility.",
+    documentedCitation: "Gastronomic surveys and regional technology documentation.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Hyderabadi Haleem Recipe: 10 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Hyderabadi Haleem Recipe",
+      historicalCookware: "Heavy-bottomed pot or pressure cooker with wooden masher (ghotni)",
+      heatSource: "Medium sear followed by low simmering and continuous pounding",
+      ingredientsList: [
+        "broken wheat (dalia)",
+        "boneless mutton",
+        "chana and moong lentils",
+        "curd (yoghurt)",
+        "pure desi ghee",
+        "fried onions (birista)",
+        "ginger-garlic paste",
+        "whole spices and garam masala",
+        "mint and coriander",
+        "almonds and cashew nuts",
+      ],
+      preparationMethod:
+        "1. Soak broken wheat and lentils (chana and moong) in water for 1 to 2 hours, then drain.\n2. Marinate the mutton with curd, ginger-garlic paste, turmeric, chilli powder, salt, and half of the garam masala for at least 1 hour.\n3. In a heavy pot or pressure cooker, heat ghee and saute whole spices (shahi jeera, cardamom, cloves, cinnamon) and a portion of fried onions until fragrant.\n4. Add the marinated meat and sear on medium-high heat, then add water and pressure-cook or slow-simmer until the meat is thoroughly tender and falling apart.\n5. Separately boil the soaked broken wheat and lentils with a pinch of turmeric and water until completely soft and mushy.\n6. Shred the cooked meat off any bones and combine the shredded meat and its rich broth into the pot of cooked wheat and lentils.\n7. Slow-simmer over low heat while vigorously mashing and pounding with a wooden masher (ghotni) for 30–40 minutes, gradually incorporating hot ghee until the mixture turns silky, elastic, and pasty.\n8. Season with remaining garam masala, mint, and coriander; ladle into warm bowls and top with hot ghee, golden fried onions, toasted cashews, and fresh lemon wedges.",
+      contemporaryDifference:
+        "Numbered 8-step ghotni pounding process with 10 key ingredients for kitchen-tested authentic texture.",
+    },
+    technologicalLeap: "Dual-cooking and emulsification combining grain starches, gelatinized meat strands, and ghee into a continuous silky matrix.",
+    documentedCitation: "Codified regional recipe documentation.",
+  },
+  {
+    generationNumber: 4,
+    eraTitle: "Pounding Technique",
+    yearRange: "Ghotni Mastery",
+    centuryLabel: "Pounding Method",
+    headline: "The Wooden Ghotni Emulsification Protocol",
+    shortDescription:
+      "Vigorous, rhythmic mashing with heavy wooden pestles breaks meat fibers into tender silk threads while bursting wheat starches to produce the iconic stretchable, velvety texture.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Ghotni Emulsification Technique",
+      historicalCookware: "Heavy cauldron with hardwood ghotni",
+      heatSource: "Constant low ember heat",
+      ingredientsList: [
+        "Simmered broken wheat and lentils",
+        "Tender shredded meat broth",
+        "Warm desi ghee additions",
+      ],
+      preparationMethod:
+        "Pound and swirl in clockwise circles for 30 to 40 minutes, adding hot ghee in streams until the spoon stands upright.",
+      contemporaryDifference:
+        "Manual ghotni produces authentic silky fiber threads unlike blenders that turn meat into mush.",
+    },
+    technologicalLeap: "Mechanical shear stress yielding natural collagen-starch emulsion.",
+    documentedCitation: "Hyderabadi Master Chefs Oral Tradition & GI Guidelines.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Finishing & Aromatics",
+    yearRange: "Royal Garnishing",
+    centuryLabel: "Garnish Protocol",
+    headline: "Finishing with Desi Ghee & Nizami Aromatics",
+    shortDescription:
+      "Final seasoning with royal garam masala, fried onions, roasted cashew nuts, and fresh mint leaves creates an intoxicating balance of rich, savory, and tangy notes.",
+    image: ERA_PHOTO.modern_kitchen,
+    generationRecipe: {
+      recipeName: "Royal Nizami Garnish Protocol",
+      historicalCookware: "Lidded serving bowl",
+      heatSource: "Residual steam warmth",
+      ingredientsList: [
+        "Golden fried onions (birista)",
+        "Slivered almonds and fried cashews",
+        "Chopped mint and coriander leaves",
+        "Hot ghee drizzle and lemon wedges",
+      ],
+      preparationMethod:
+        "Ladle into deep porcelain or copper bowls, top with hot aromatic ghee, crisp birista, roasted dry fruits, fresh herbs, and a squeeze of fresh lime.",
+      contemporaryDifference:
+        "Traditional festive garnish providing contrast in texture against the silky smooth stew.",
+    },
+    technologicalLeap: "Multi-textural temperature and crunch contrast layering.",
+    documentedCitation: "Chowmahalla Palace Banquet Archives.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "Hyderabadi Haleem Plated & Served",
+    shortDescription:
+      "A GI-tagged culinary wonder distributed during Ramzan across Hyderabad and shipped globally as the jewel of Telangana meat cookery.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Hyderabadi Haleem Plated",
+      historicalCookware: "Serving bowl",
+      heatSource: "Served piping hot",
+      ingredientsList: [
+        "Broken wheat (dalia)",
+        "Mutton",
+        "Lentils",
+        "Desi ghee",
+        "Fried onions",
+        "Cashews & almonds",
+      ],
+      preparationMethod:
+        "Served hot, rich and glistening with desi ghee and garnished with fresh lemon wedges.",
+      contemporaryDifference:
+        "GI-protected cultural emblem of Hyderabad and Telangana.",
+    },
+    technologicalLeap: "Standardized GI-specification composition and global delivery packaging.",
+    documentedCitation: "National GI Tag Registry & Telangana Gastronomic Survey.",
+  },
+];
+
+// ─────────────────────────────────────────────
 // 3. KASHMIRI ROGAN JOSH (Jammu & Kashmir)
 // ─────────────────────────────────────────────
 export const ROGAN_JOSH_GENERATIONS: GenerationWaypoint[] = [
@@ -986,6 +1151,8 @@ function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoin
       return DOSA_GENERATIONS;
     case "hyderabadi-biryani":
       return BIRYANI_GENERATIONS;
+    case "hyderabadi-haleem":
+      return HALEEM_GENERATIONS;
     case "rogan-josh":
       return ROGAN_JOSH_GENERATIONS;
     case "litti-chokha":
@@ -1033,13 +1200,19 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
         historicalCookware: source.generationRecipe.historicalCookware,
         heatSource: source.generationRecipe.heatSource,
         ingredientsList:
-          dishId === "hyderabadi-biryani"
-            ? source.generationRecipe.ingredientsList
+          dishId === "hyderabadi-biryani" || dishId === "hyderabadi-haleem"
+            ? (stage.number === 3 && legacy[2]?.generationRecipe.ingredientsList?.length
+                ? legacy[2].generationRecipe.ingredientsList
+                : source.generationRecipe.ingredientsList)
             : stage.key === "ingredients" && dish.ingredients.length
             ? dish.ingredients
             : source.generationRecipe.ingredientsList,
         preparationMethod:
-          stage.key === "method"
+          (dishId === "hyderabadi-biryani" || dishId === "hyderabadi-haleem") &&
+          stage.number === 3 &&
+          legacy[2]?.generationRecipe.preparationMethod
+            ? legacy[2].generationRecipe.preparationMethod
+            : stage.key === "method"
             ? `${dish.keyTechnique}. ${stage.details[0]}`
             : stage.details[0],
         contemporaryDifference:

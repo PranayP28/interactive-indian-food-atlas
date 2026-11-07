@@ -79,8 +79,8 @@
       "note": "The dish is established in community practice but has no securely dated first written reference; no century of invention is claimed."
     }
   ],
-  "totalDishes": 96,
-  "totalStages": 384,
+  "totalDishes": 95,
+  "totalStages": 380,
   "dishes": {
     "pesarattu": {
       "dishId": "pesarattu",
@@ -7835,19 +7835,19 @@
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Hyderabadi Haleem in the food geography of Telangana",
-          "narrative": "Telangana's Deccan plateau and Hyderabad's courtly kitchens combine millets, rice, slow-cooked meat and wheat stews with Persianate sweets and biryanis. Hyderabadi Haleem is a meat dish associated with Hyderabad's Ramzan kitchens, from the Arab harees tradition of pounded wheat and meat. Wheat, pulses and meat are pounded together over wood-fired cauldrons through the night and distributed during Ramzan. Harees is a documented medieval Arab wheat-and-meat porridge; the spiced Hyderabadi form is documented in 20th-century city food writing.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Hyderabadi Haleem in Telangana & the Deccan",
+          "narrative": "Haleem traces its ancestry to the medieval Arab dish harees, a slow-cooked porridge of pounded meat and wheat. It was introduced to Hyderabad by the Arab diaspora (Chaush soldiers from Yemen) serving in the irregular army of the Asaf Jahi Nizams. In the royal kitchens of the Nizams and Paigah nobles, the rustic harees was refined and Indianized by introducing aromatic Deccan spices, mixed lentils, ghee, dry fruits, and rose petals. It became the signature delicacy of Hyderabad, especially cherished during Ramzan for breaking the fast.",
           "details": [
-            "Geographical & cultural origin: Hyderabad's Ramzan kitchens, from the Arab harees tradition of pounded wheat and meat, in Telangana.",
-            "Historical background: Harees is a documented medieval Arab wheat-and-meat porridge; the spiced Hyderabadi form is documented in 20th-century city food writing.",
-            "Regional food tradition: Wheat, pulses and meat are pounded together over wood-fired cauldrons through the night and distributed during Ramzan.",
-            "Cultural significance: A GI-tagged royal delicacy: broken whole wheat, lentils, and tender meat pounded continuously with wooden mallets (ghotni) in copper cauldrons for 12 hours until transformed into an intensely rich paste."
+            "Origin in Telangana: Haleem traces its ancestry to the medieval Arab dish harees, brought to Hyderabad by Yemeni Chaush soldiers serving the Asaf Jahi Nizams.",
+            "Royal court refinement: In the royal kitchens of the Nizams and Paigah nobles, the rustic harees was refined with local Deccan spices, mixed lentils, pure ghee, dry fruits, and rose petals.",
+            "Cultural tradition: Cooked overnight in large wood-fired copper degs and served as the preeminent energy-replenishing dish to break the fast during Ramzan.",
+            "Cooking method: Slow-simmered for 8 to 12 hours and vigorously pounded with heavy wooden pestles (ghotni) until meat and wheat merge into a smooth, cohesive porridge."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Telangana. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Historical records document medieval Arab harees and its adoption and refinement in 19th-century Asaf Jahi court kitchens; GI status registered in 2010.",
           "sources": [
             "gi-registry",
             "sen-2004",
@@ -7859,24 +7859,23 @@
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Hyderabadi Haleem is built from",
-          "narrative": "The recipe centres on Whole wheat, Mutton, Chana dal & Moong dal, Pure desi ghee, Fried onions, Almonds & cashews and Rose petals. These are the staple grains, pulses, vegetables, spices or dairy products of Telangana; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders\nVessel: massive heavy tinned copper cauldrons (degs/bhatti) / stainless steel pots, heavy-bottom handis, and domestic pressure cookers\nFuel: tamarind wood and charcoal bhattis burning low overnight / LPG gas stoves, induction, and commercial gas burners\nCooking time: 10 to 12 hours of overnight simmering / 1.5 to 2.5 hours in home pressure cookers\nPounding: 2 to 3 skilled cooks rhythmically beating with wooden poles (ghotnis) / home wooden whisks, potato mashers, or short pulses of electric blenders\nMeat: traditional bone-in tender goat/mutton marrow cuts slow-cooked till bones slip out / boneless mutton, chicken (now widespread in restaurants), and modern vegetarian lentil variants\nFlavourings: pure desi ghee, freshly stone-ground potli masala, rose water, and wild cinnamon / commercial packaged haleem spice blends and ready ginger-garlic paste\nGarnish & Serving: golden fried onions (birista), ghee drizzle, fresh mint, coriander, lime, and sliced almonds/cashews / similar traditional garnishes maintained across both royal feasts and modern takeaway boxes",
           "details": [
-            "Principal ingredient: Whole wheat.",
-            "Principal ingredient: Mutton.",
-            "Principal ingredient: Chana dal & Moong dal.",
-            "Principal ingredient: Pure desi ghee.",
-            "Principal ingredient: Fried onions.",
-            "Principal ingredient: Almonds & cashews.",
-            "Principal ingredient: Rose petals.",
-            "Regional & seasonal ingredients: Telangana's Deccan plateau and Hyderabad's courtly kitchens combine millets, rice, slow-cooked meat and wheat stews with Persianate sweets and biryanis.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders",
+            "Vessel: massive heavy tinned copper cauldrons (degs/bhatti) / stainless steel pots, heavy-bottom handis, and domestic pressure cookers",
+            "Fuel: tamarind wood and charcoal bhattis burning low overnight / LPG gas stoves, induction, and commercial gas burners",
+            "Cooking time: 10 to 12 hours of overnight simmering / 1.5 to 2.5 hours in home pressure cookers",
+            "Pounding: 2 to 3 skilled cooks rhythmically beating with wooden poles (ghotnis) / home wooden whisks, potato mashers, or short pulses of electric blenders",
+            "Meat: traditional bone-in tender goat/mutton marrow cuts slow-cooked till bones slip out / boneless mutton, chicken (now widespread in restaurants), and modern vegetarian lentil variants",
+            "Flavourings: pure desi ghee, freshly stone-ground potli masala, rose water, and wild cinnamon / commercial packaged haleem spice blends and ready ginger-garlic paste",
+            "Garnish & Serving: golden fried onions (birista), ghee drizzle, fresh mint, coriander, lime, and sliced almonds/cashews / similar traditional garnishes maintained across both royal feasts and modern takeaway boxes"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Comparative historical culinary records documenting the shift from wood-fired brick bhattis and manual ghotni pounding to domestic pressure cookers and modern appliances.",
           "sources": [
             "gi-registry",
             "sen-2004",
@@ -7888,19 +7887,24 @@
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Hyderabadi Haleem is made",
-          "narrative": "The defining technique is 12-Hour Degchi Simmer & Wooden Mallet Pounding — Meat is marinated with tenderising agents, then slow-braised, smoked or grilled. Pressure cookers and temperature-controlled ovens now shorten cooking without changing the spice sequence. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Meat is marinated with tenderising agents, then slow-braised, smoked or grilled. Pressure cookers and temperature-controlled ovens now shorten cooking without changing the spice sequence.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Recipe",
+          "era": "Recipe",
+          "headline": "Hyderabadi Haleem Recipe: 10 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.\n\n1. Soak broken wheat and lentils (chana and moong) in water for 1 to 2 hours, then drain.\n2. Marinate the mutton with curd, ginger-garlic paste, turmeric, chilli powder, salt, and half of the garam masala for at least 1 hour.\n3. In a heavy pot or pressure cooker, heat ghee and saute whole spices (shahi jeera, cardamom, cloves, cinnamon) and a portion of fried onions until fragrant.\n4. Add the marinated meat and sear on medium-high heat, then add water and pressure-cook or slow-simmer until the meat is thoroughly tender and falling apart.\n5. Separately boil the soaked broken wheat and lentils with a pinch of turmeric and water until completely soft and mushy.\n6. Shred the cooked meat off any bones and combine the shredded meat and its rich broth into the pot of cooked wheat and lentils.\n7. Slow-simmer over low heat while vigorously mashing and pounding with a wooden masher (ghotni) for 30–40 minutes, gradually incorporating hot ghee until the mixture turns silky, elastic, and pasty.\n8. Season with remaining garam masala, mint, and coriander; ladle into warm bowls and top with hot ghee, golden fried onions, toasted cashews, and fresh lemon wedges.",
           "details": [
-            "Traditional technique: 12-Hour Degchi Simmer & Wooden Mallet Pounding — Meat is marinated with tenderising agents, then slow-braised, smoked or grilled. Pressure cookers and temperature-controlled ovens now shorten cooking without changing the spice sequence.",
-            "Traditional cookware & utensils: Meat is marinated with tenderising agents, then slow-braised, smoked or grilled.",
-            "Key process: 12-Hour Degchi Simmer & Wooden Mallet Pounding.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.",
+            "1. Soak broken wheat and lentils (chana and moong) in water for 1 to 2 hours, then drain.",
+            "2. Marinate the mutton with curd, ginger-garlic paste, turmeric, chilli powder, salt, and half of the garam masala for at least 1 hour.",
+            "3. In a heavy pot or pressure cooker, heat ghee and saute whole spices (shahi jeera, cardamom, cloves, cinnamon) and a portion of fried onions until fragrant.",
+            "4. Add the marinated meat and sear on medium-high heat, then add water and pressure-cook or slow-simmer until the meat is thoroughly tender and falling apart.",
+            "5. Separately boil the soaked broken wheat and lentils with a pinch of turmeric and water until completely soft and mushy.",
+            "6. Shred the cooked meat off any bones and combine the shredded meat and its rich broth into the pot of cooked wheat and lentils.",
+            "7. Slow-simmer over low heat while vigorously mashing and pounding with a wooden masher (ghotni) for 30–40 minutes, gradually incorporating hot ghee until the mixture turns silky, elastic, and pasty.",
+            "8. Season with remaining garam masala, mint, and coriander; ladle into warm bowls and top with hot ghee, golden fried onions, toasted cashews, and fresh lemon wedges."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "Codified regional recipe documentation detailing the eight-step slow-pounding and ghee-incorporation method (ghotni protocol) for authentic Hyderabadi haleem.",
           "sources": [
             "gi-registry",
             "sen-2004",
@@ -7927,115 +7931,6 @@
           "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
           "sources": [
             "gi-registry",
-            "sen-2004",
-            "regional-food-writing"
-          ],
-          "confidence": "documented"
-        }
-      ]
-    },
-    "qubani-ka-meetha": {
-      "dishId": "qubani-ka-meetha",
-      "dishName": "Qubani ka Meetha",
-      "state": "Telangana",
-      "classification": "State",
-      "confidence": "documented",
-      "sources": [
-        "sen-2004",
-        "regional-food-writing"
-      ],
-      "stageCount": 4,
-      "stages": [
-        {
-          "number": 1,
-          "key": "origin",
-          "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Qubani ka Meetha in the food geography of Telangana",
-          "narrative": "Telangana's Deccan plateau and Hyderabad's courtly kitchens combine millets, rice, slow-cooked meat and wheat stews with Persianate sweets and biryanis. Qubani ka Meetha is a sweet or dessert associated with Hyderabad's Deccani kitchens, drawing on Central Asian dried-fruit cookery. A wedding and banquet dessert that made imported dried apricots into a local sweet. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-          "details": [
-            "Geographical & cultural origin: Hyderabad's Deccani kitchens, drawing on Central Asian dried-fruit cookery, in Telangana.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: A wedding and banquet dessert that made imported dried apricots into a local sweet.",
-            "Cultural significance: Dried Hunza apricots stewed to a glossy compote, served warm or chilled with fresh cream, custard or vanilla ice cream; a Hyderabadi Deccani dessert with Central Asian roots."
-          ],
-          "evidenceNote": "Regional food writing supports the dish's association with Telangana. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
-          "sources": [
-            "sen-2004",
-            "regional-food-writing"
-          ],
-          "confidence": "documented"
-        },
-        {
-          "number": 2,
-          "key": "ingredients",
-          "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Qubani ka Meetha is built from",
-          "narrative": "The recipe centres on Dried apricots, Sugar, Water, Cardamom and Cream or custard. These are the staple grains, pulses, vegetables, spices or dairy products of Telangana; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
-          "details": [
-            "Principal ingredient: Dried apricots.",
-            "Principal ingredient: Sugar.",
-            "Principal ingredient: Water.",
-            "Principal ingredient: Cardamom.",
-            "Principal ingredient: Cream or custard.",
-            "Regional & seasonal ingredients: Telangana's Deccan plateau and Hyderabad's courtly kitchens combine millets, rice, slow-cooked meat and wheat stews with Persianate sweets and biryanis.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
-          ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
-          "sources": [
-            "sen-2004",
-            "regional-food-writing"
-          ],
-          "confidence": "documented"
-        },
-        {
-          "number": 3,
-          "key": "method",
-          "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Qubani ka Meetha is made",
-          "narrative": "The defining technique is Dried apricots are soaked, stewed with sugar until glossy, and sometimes strained or stoned before being served with cream. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Milk is reduced, syrups are cooked to a measured thread or ball stage, and the mixture is set or fried before serving. Thermometers, steel kadai and refrigeration now control what was judged by eye.",
-          "details": [
-            "Traditional technique: Dried apricots are soaked, stewed with sugar until glossy, and sometimes strained or stoned before being served with cream.",
-            "Traditional cookware & utensils: Milk is reduced, syrups are cooked to a measured thread or ball stage, and the mixture is set or fried before serving.",
-            "Key process: Apricot Stewing & Syrup Reduction.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
-          ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
-          "sources": [
-            "sen-2004",
-            "regional-food-writing"
-          ],
-          "confidence": "documented"
-        },
-        {
-          "number": 4,
-          "key": "plated",
-          "numeral": "IV",
-          "eyebrow": "Stage IV",
-          "title": "Modern Form, Serving & Recognition",
-          "photoLabel": "Finished dish",
-          "era": "Present day",
-          "headline": "Qubani ka Meetha today",
-          "narrative": "Served warm or chilled with custard, cream or ice cream in Hyderabadi restaurants; compressed and pre-packaged versions are sold. It is presented in the serving style of Telangana, with the tart-sweet, jammy & apricot-bright profile that identifies it. Dried Hunza apricots stewed to a glossy compote, served warm or chilled with fresh cream, custard or vanilla ice cream; a Hyderabadi Deccani dessert with Central Asian roots.",
-          "details": [
-            "Present-day form & serving: Served warm or chilled with custard, cream or ice cream in Hyderabadi restaurants; compressed and pre-packaged versions are sold.",
-            "Flavour identity: Tart-Sweet, Jammy & Apricot-Bright.",
-            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
-            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
-          ],
-          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
-          "sources": [
             "sen-2004",
             "regional-food-writing"
           ],

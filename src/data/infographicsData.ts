@@ -415,6 +415,50 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     ]
   },
   {
+    "id": "info-haleem-origin",
+    "dishId": "hyderabadi-haleem",
+    "title": "Hyderabadi Haleem — Origin (Birth of the food)",
+    "subtitle": "Arab harees tradition brought to Hyderabad by Yemeni Chaush soldiers and refined in Nizami royal kitchens",
+    "era": "Birth of the food",
+    "image": "/images_updated/a_polished_dark_themed_infographic_card_layout_fo.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 1,
+    "ingredients": []
+  },
+  {
+    "id": "info-haleem-evolution",
+    "dishId": "hyderabadi-haleem",
+    "title": "Hyderabadi Haleem — Evolution of Food",
+    "subtitle": "Shifts in bhatti cauldrons, fuel, ghotni mallet pounding, dal combinations, ghee, and modern pressure cookers",
+    "era": "Evolution of Food",
+    "image": "/images_updated/a_polished_dark_themed_infographic_card_layout_fo.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-haleem-recipe",
+    "dishId": "hyderabadi-haleem",
+    "title": "Hyderabadi Haleem — Recipe",
+    "subtitle": "10 key ingredients and 8 traditional steps for authentic slow-cooked pounded Hyderabadi haleem",
+    "era": "Recipe",
+    "image": "/images_updated/a_polished_dark_themed_infographic_card_layout_fo.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 3,
+    "ingredients": [
+      "broken wheat (dalia)",
+      "boneless mutton",
+      "chana and moong lentils",
+      "curd (yoghurt)",
+      "pure desi ghee",
+      "fried onions (birista)",
+      "ginger-garlic paste",
+      "whole spices and garam masala",
+      "mint and coriander",
+      "almonds and cashew nuts"
+    ]
+  },
+  {
     "id": "info-22",
     "dishId": "mui-borok",
     "title": "Mui Borok — 1900s Traditional Tripuri Recipe",

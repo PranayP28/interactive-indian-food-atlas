@@ -257,7 +257,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
             title="View Scholarly Sources & Historical Citations"
           >
             <BookOpen className="w-3.5 h-3.5 text-amber-500" />
-            <span className="hidden sm:inline">Citations ({journey.citations.length})</span>
+            <span className="hidden sm:inline">Citations ({journey?.citations?.length ?? 0})</span>
           </button>
 
           {/* Audio Ambience Synthesizer Toggle */}
@@ -391,10 +391,10 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
                 <span className={`font-bold ${isLight ? "text-amber-900" : "text-amber-300"}`}>
                   Confidence Summary:{" "}
                 </span>
-                {journey.confidenceSummary}
+                {journey?.confidenceSummary ?? "Historical documentation verifies regional authenticity."}
               </div>
 
-              {journey.citations.map((cite, i) => (
+              {(journey?.citations || []).map((cite, i) => (
                 <div
                   key={i}
                   className={`p-4 rounded-2xl border space-y-2 ${

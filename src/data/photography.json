@@ -2289,13 +2289,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chowmahalla_Palace_01.jpg",
           "alt": "Chowmahalla Palace courtyard in Hyderabad",
-          "caption": "Chowmahalla Palace, Hyderabad — royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
+          "caption": "Origin (Birth of the food): Chowmahalla Palace and royal kitchens of Hyderabad, where Arab Chaush soldiers introduced harees, evolving into the Nizami royal delicacy.",
           "fallback": null,
           "width": 4415,
           "height": 2943
         },
-        "caption": "Chowmahalla Palace, Hyderabad — royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
-        "label": "Regional context"
+        "caption": "Origin (Birth of the food): Chowmahalla Palace and royal kitchens of Hyderabad, where Arab Chaush soldiers introduced harees, evolving into the Nizami royal delicacy.",
+        "label": "Origin (Birth of the food)"
       },
       "ingredients": {
         "photo": {
@@ -2307,23 +2307,15 @@
           "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleem_Dalls_and_Grains.JPG",
           "alt": "Wheat, barley and mixed pulses used in Hyderabadi haleem.",
-          "caption": "Wheat, barley and mixed pulses used in Hyderabadi haleem.",
+          "caption": "Evolution of Food: From 12-hour wood-fired bhatti simmering with heavy manual ghotni mallet pounding to home pressure cookers and modern appliances.",
           "fallback": null,
           "width": 1600,
           "height": 1200,
           "local": "/images/dishes/hyderabadi-haleem-stage-2.webp"
         },
-        "caption": "Wheat, barley and mixed pulses used in Hyderabadi haleem.",
-        "label": "Ingredient reference",
-        "items": [
-          "Whole wheat",
-          "Mutton",
-          "Chana dal & Moong dal",
-          "Pure desi ghee",
-          "Fried onions",
-          "Almonds & cashews",
-          "Rose petals"
-        ]
+        "caption": "Evolution of Food: From 12-hour wood-fired bhatti simmering with heavy manual ghotni mallet pounding to home pressure cookers and modern appliances.",
+        "label": "Evolution of Food",
+        "items": []
       },
       "method": {
         "photo": {
@@ -2335,14 +2327,14 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyderabadi_haleem_making.jpg",
           "alt": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
-          "caption": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
+          "caption": "Recipe: Slow-cooking broken wheat, lentils, and tender marinated meat, pounding continuously with ghee into a rich, silky paste.",
           "fallback": null,
           "width": 515,
           "height": 759,
           "local": "/images/dishes/hyderabadi-haleem-stage-3.webp"
         },
-        "caption": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
-        "label": "Preparation technique"
+        "caption": "Recipe: Slow-cooking broken wheat, lentils, and tender marinated meat, pounding continuously with ghee into a rich, silky paste.",
+        "label": "Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Haleem_garnish.jpg",
@@ -3893,52 +3885,6 @@
         "height": 750,
         "local": "/images/dishes/sel-roti-stage-4.webp",
         "label": "Finished dish"
-      }
-    },
-    "qubani-ka-meetha": {
-      "origin": {
-        "photo": {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Golconda_Fort%2C_Hyderabad_%28Oct_2025%29_-_3.jpg",
-          "subject": "context",
-          "title": "Golconda Fort, Hyderabad",
-          "creator": "Kuldeepburjbhalaike",
-          "licence": "CC BY-SA 4.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golconda_Fort,_Hyderabad_(Oct_2025)_-_3.jpg",
-          "alt": "Golconda Fort battlements and stone architecture in Hyderabad",
-          "caption": "Golconda Fort, Hyderabad — historic citadel of the Qutb Shahi and Asaf Jahi dynasties where Persian dried-fruit confectionary took root.",
-          "fallback": null,
-          "width": 3000,
-          "height": 4000
-        },
-        "caption": "Golconda Fort, Hyderabad — historic citadel of the Qutb Shahi and Asaf Jahi dynasties where Persian dried-fruit confectionary took root.",
-        "label": "Regional context"
-      },
-      "ingredients": {
-        "library": null,
-        "caption": "",
-        "items": [
-          "Dried apricots",
-          "Sugar",
-          "Water",
-          "Cardamom",
-          "Cream or custard"
-        ]
-      },
-      "method": null,
-      "plated": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Khobani_Ka_Meetha.JPG",
-        "subject": "dish",
-        "title": "Khobani Ka Meetha",
-        "creator": "Miansari66",
-        "licence": "CC0",
-        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khobani_Ka_Meetha.JPG",
-        "alt": "Stewed apricot compote dessert with crushed kernels",
-        "caption": "Hyderabadi Qubani ka Meetha: slow-stewed dried apricots in sugar syrup, finished with cracked apricot kernels (badam).",
-        "fallback": null,
-        "width": 2816,
-        "height": 2112
       }
     },
     "awan-bangwi": {
