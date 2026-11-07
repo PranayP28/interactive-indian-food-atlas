@@ -103,6 +103,7 @@ export function buildDishNarrationSteps(dishId: string, dishName: string): Narra
   const currentDish = allDishes.find((d) => d.id === dishId);
   const state = (getStateByDishId(dishId) || currentDish?.state || "").trim().toLowerCase();
   const isTelangana = state === "telangana" || dishId === "hyderabadi-biryani" || dishId === "hyderabadi-haleem";
+  const isKarnataka = state === "karnataka" || dishId === "masala-dosa" || dishId === "bisi-bele-bath";
 
   const history = getDishStageHistory(dishId);
   const stages = history?.stages || [];
@@ -131,8 +132,8 @@ export function buildDishNarrationSteps(dishId: string, dishName: string): Narra
   });
 
   // 3. Stage 2
-  // For Telangana dishes: read ONLY the information inside the "Evolution of Food" section of Stage 2.
-  if (isTelangana) {
+  // For Telangana and Karnataka dishes: read ONLY the information inside the "Evolution of Food" section of Stage 2.
+  if (isTelangana || isKarnataka) {
     const stage2EvolutionText = stage2?.narrative || "";
     steps.push({
       stageNumber: 2,

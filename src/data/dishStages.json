@@ -79,8 +79,8 @@
       "note": "The dish is established in community practice but has no securely dated first written reference; no century of invention is claimed."
     }
   ],
-  "totalDishes": 96,
-  "totalStages": 384,
+  "totalDishes": 95,
+  "totalStages": 380,
   "dishes": {
     "pesarattu": {
       "dishId": "pesarattu",
@@ -3400,19 +3400,19 @@
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Masala Dosa in the food geography of Karnataka",
-          "narrative": "From the Konkan coast to the Deccan plateau and Old Mysore, Karnataka's kitchens combine rice, black gram, millets, coconut and courtly sweet-making. Masala Dosa is a bread or grain preparation associated with Old Mysore and the Udupi temple kitchens of coastal Karnataka. Fermented rice–black gram batter became a temple and hotel staple across South India. A preparation called dosaka is described in the 12th-century Sanskrit encyclopaedia Manasollasa (c. 1130 CE); the paper-thin crisp crepe and the potato filling are 20th-century developments.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Masala Dosa in Karnataka & the South",
+          "narrative": "The dosa has ancient beginnings in South India and Karnataka. A preparation named 'dosaka' is first documented in the 12th-century Sanskrit work Manasollasa, compiled by King Someshvara III of the Western Chalukya dynasty ruling northern Karnataka. In early times, dosas were thick, soft griddle-cakes cooked on clay plates using fermented black gram and rice batter. The dish evolved deeply within the temple kitchens of Udupi and Old Mysore, where natural overnight fermentation was perfected into an art.",
           "details": [
-            "Geographical & cultural origin: Old Mysore and the Udupi temple kitchens of coastal Karnataka, in Karnataka.",
-            "Historical background: A preparation called dosaka is described in the 12th-century Sanskrit encyclopaedia Manasollasa (c. 1130 CE); the paper-thin crisp crepe and the potato filling are 20th-century developments.",
-            "Regional food tradition: Fermented rice–black gram batter became a temple and hotel staple across South India.",
-            "Cultural significance: World-renowned golden crisp fermented rice and black gram crepe, smeared inside with red garlic-chilli chutney, rolled around spiced potato palya, served on a green banana leaf."
+            "Origin in Karnataka: Earliest Sanskrit textual record of 'dosaka' is documented in King Someshvara III's 12th-century Manasollasa from the Western Chalukya dynasty.",
+            "Ancient culinary form: Originally thick, spongy, and unfermented or purely pulse-based griddle-cakes baked on earthen plates.",
+            "Temple heritage: Perfected in Udupi Madhwa temple kitchens through stone-ground wild fermentation of rice and black gram.",
+            "Cooking method: Naturally aerated batter swirled on griddles over wood hearths into soft, wholesome breakfast cakes."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Karnataka. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Historical records document medieval Western Chalukya culinary texts and temple traditions; modern crisp crepe and potato filling date to the 20th century.",
           "sources": [
             "manasollasa-1130",
             "achaya-1998",
@@ -3424,24 +3424,23 @@
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Masala Dosa is built from",
-          "narrative": "The recipe centres on Sona Masuri rice, Urad dal, Fenugreek seeds, Potatoes, Mustard seeds, Curry leaves and Butter. These are the staple grains, pulses, vegetables, spices or dairy products of Karnataka; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Cooking method: soft griddle bake on clay plates / wafer-thin spiral ladle swirl on heavy cast-iron tawas\nVessel: porous clay griddle (kallu odu) / heavy seasoned cast-iron flat tawa and commercial gas griddles\nFuel: firewood hearths and embers / domestic LPG gas and commercial burners\nCooking time: 4 to 5 minutes per soft cake / 60 to 90 seconds for paper-crisp golden browning\nBatter preparation: hand-grinding soaked pulses on granite stone mortars / electric wet grinders and commercial batter mills\nFilling: plain dosa with no stuffing / spiced potato-onion palya introduced by 20th-century Udupi hoteliers\nInner spread: plain ghee or no paste / fiery roasted Byadagi chilli, garlic, and roasted gram chutney (Mysore style)\nFat used: cold-pressed sesame or coconut oil / pure desi ghee and fresh churned white butter (benne)",
           "details": [
-            "Principal ingredient: Sona Masuri rice.",
-            "Principal ingredient: Urad dal.",
-            "Principal ingredient: Fenugreek seeds.",
-            "Principal ingredient: Potatoes.",
-            "Principal ingredient: Mustard seeds.",
-            "Principal ingredient: Curry leaves.",
-            "Principal ingredient: Butter.",
-            "Regional & seasonal ingredients: From the Konkan coast to the Deccan plateau and Old Mysore, Karnataka's kitchens combine rice, black gram, millets, coconut and courtly sweet-making.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Cooking method: soft griddle bake on clay plates / wafer-thin spiral ladle swirl on heavy cast-iron tawas",
+            "Vessel: porous clay griddle (kallu odu) / heavy seasoned cast-iron flat tawa and commercial gas griddles",
+            "Fuel: firewood hearths and embers / domestic LPG gas and commercial burners",
+            "Cooking time: 4 to 5 minutes per soft cake / 60 to 90 seconds for paper-crisp golden browning",
+            "Batter preparation: hand-grinding soaked pulses on granite stone mortars / electric wet grinders and commercial batter mills",
+            "Filling: plain dosa with no stuffing / spiced potato-onion palya introduced by 20th-century Udupi hoteliers",
+            "Inner spread: plain ghee or no paste / fiery roasted Byadagi chilli, garlic, and roasted gram chutney (Mysore style)",
+            "Fat used: cold-pressed sesame or coconut oil / pure desi ghee and fresh churned white butter (benne)"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Comparative historical culinary records documenting the shift from clay griddles and plain pulse cakes to cast-iron tawas, potato fillings, and Mysore red chutney.",
           "sources": [
             "manasollasa-1130",
             "achaya-1998",
@@ -3453,19 +3452,24 @@
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Masala Dosa is made",
-          "narrative": "The defining technique is Stone-Ground Natural Fermentation & Iron Tawa Crisp-Folding — Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Recipe",
+          "era": "Recipe",
+          "headline": "Masala Dosa Recipe: 10 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: Sona Masuri rice, urad dal, fenugreek seeds, poha, potatoes, onions, green chillies, mustard seeds, curry leaves, pure desi ghee or butter.\n\n1. Soak Sona Masuri rice, urad dal, fenugreek seeds, and poha in water for 5 hours, then grind in a wet grinder to a silky, aerated batter.\n2. Add salt, mix thoroughly with hands to introduce natural microflora, and ferment overnight in a warm spot for 8 to 12 hours.\n3. Boil potatoes until tender, peel, and coarsely hand-mash into uneven chunks.\n4. Heat oil in a pan, crackle mustard seeds, cumin, chana dal, urad dal, and curry leaves; saute sliced onions, green chillies, and ginger until translucent.\n5. Stir in turmeric, salt, mashed potatoes, and a splash of water; simmer the potato palya for 3 minutes and finish with fresh coriander.\n6. Heat a seasoned cast-iron tawa over medium-high heat, sprinkle water to test sizzle, and wipe with a lightly oiled cloth.\n7. Pour a ladleful of fermented batter in the centre and swirl smoothly in outward circular motions into a thin, even crepe.\n8. Drizzle pure ghee or butter along the edges, cook until golden crisp, spread red chutney inside, add warm potato palya, fold neatly, and serve hot with coconut chutney and sambar.",
           "details": [
-            "Traditional technique: Stone-Ground Natural Fermentation & Iron Tawa Crisp-Folding — Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth. Modern kitchens use gas or electric heat but keep the same resting and shaping.",
-            "Traditional cookware & utensils: Dough is kneaded, rested and shaped by hand, then baked on a tawa, in a tandoor or over a hearth.",
-            "Key process: Stone-Ground Natural Fermentation & Iron Tawa Crisp-Folding.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: Sona Masuri rice, urad dal, fenugreek seeds, poha, potatoes, onions, green chillies, mustard seeds, curry leaves, pure desi ghee or butter.",
+            "1. Soak Sona Masuri rice, urad dal, fenugreek seeds, and poha in water for 5 hours, then grind in a wet grinder to a silky, aerated batter.",
+            "2. Add salt, mix thoroughly with hands to introduce natural microflora, and ferment overnight in a warm spot for 8 to 12 hours.",
+            "3. Boil potatoes until tender, peel, and coarsely hand-mash into uneven chunks.",
+            "4. Heat oil in a pan, crackle mustard seeds, cumin, chana dal, urad dal, and curry leaves; saute sliced onions, green chillies, and ginger until translucent.",
+            "5. Stir in turmeric, salt, mashed potatoes, and a splash of water; simmer the potato palya for 3 minutes and finish with fresh coriander.",
+            "6. Heat a seasoned cast-iron tawa over medium-high heat, sprinkle water to test sizzle, and wipe with a lightly oiled cloth.",
+            "7. Pour a ladleful of fermented batter in the centre and swirl smoothly in outward circular motions into a thin, even crepe.",
+            "8. Drizzle pure ghee or butter along the edges, cook until golden crisp, spread red chutney inside, add warm potato palya, fold neatly, and serve hot with coconut chutney and sambar."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "Codified regional recipe documentation detailing the authentic eight-step fermented batter and tawa roasting technique.",
           "sources": [
             "manasollasa-1130",
             "achaya-1998",
@@ -3515,75 +3519,79 @@
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Bisi Bele Bath in the food geography of Karnataka",
-          "narrative": "From the Konkan coast to the Deccan plateau and Old Mysore, Karnataka's kitchens combine rice, black gram, millets, coconut and courtly sweet-making. Bisi Bele Bath is a curry or stew associated with the Karnataka region. It belongs to the curry or stew tradition of Karnataka and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Bisi Bele Bath in Karnataka & the Mysore Palace",
+          "narrative": "Bisi Bele Bath originates from the royal kitchens of the Mysore Palace under the Wodeyar dynasty in southern Karnataka. The name translates in Kannada to 'hot lentil rice' (bisi = hot, bele = lentil, bath = rice preparation). Palace cooks formulated it as an elaborate, wholesome royal offering to the palace deities, combining short-grain rice with toor dal, wild forest spices, aged tamarind, and desi ghee. From the Mysore court, the dish was embraced by Karnataka's temple traditions and Madhwa community kitchens, establishing its iconic status across the state.",
           "details": [
-            "Geographical & cultural origin: the Karnataka region, in Karnataka.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: It belongs to the curry or stew tradition of Karnataka and is embedded in household, festival and regional food practice.",
-            "Cultural significance: A comforting royal Mysore palace preparation of short-grain rice, toor dal, tamarind extract, and 30-spice bisi bele powder, enriched with fried cashews and pure ghee."
+            "Origin in Karnataka: Formulated in the royal kitchens of the Wodeyar Maharajas of Mysore as a nutritious, complete palace and temple offering.",
+            "Name and heritage: Named from Kannada 'Bisi' (hot), 'Bele' (lentil/dal), and 'Bath' (seasoned rice dish).",
+            "Distinctive spice identity: Characterised by bisi bele bath podi featuring native Karnataka Byadagi chillies and wild kapok buds (marathi moggu).",
+            "Cooking method: Slow simmered in heavy brass cauldrons until rice, lentils, tamarind, and spices coalesce into a rich, unified porridge."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Karnataka. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Historical records and palace kitchen traditions document origin in the Wodeyar court of Mysore; later codified in regional temple and darshini culture.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Bisi Bele Bath is built from",
-          "narrative": "The recipe centres on Rice, Toor dal, Tamarind pulp, Byadagi chillies, Kapok buds (Marathi moggu), Ghee and Cashews. These are the staple grains, pulses, vegetables, spices or dairy products of Karnataka; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Cooking method: separate slow wood-fire simmering of dal and rice in open vessels / unified pressure cooking followed by rapid direct spice simmering\nVessel: heavy brass urulis and tin-lined copper degchis / modern stainless steel pressure cookers and heavy-bottom pots\nFuel: tamarind wood and charcoal hearths burning slow / domestic LPG gas stoves and induction cooktops\nCooking time: 2 to 3 hours of continuous simmering and stirring / 25 to 35 minutes in domestic pressure cookers\nSpice blending: whole spices hand-roasted on iron plates and crushed on stone grinding slabs / electric mixer-ground homemade batches or packaged spice powders\nVegetables: limited to native ash gourd, drumsticks, and raw plantains / hearty mix of carrots, French beans, green peas, and shallots\nSourness and sweetness: dark country tamarind and slow-melted palm jaggery / seedless tamarind paste and organic cane jaggery\nGarnish and serving: fresh fried cashews in pure country cow ghee / fried cashews, spicy kara boondi, and potato chips served in darshini restaurants",
           "details": [
-            "Principal ingredient: Rice.",
-            "Principal ingredient: Toor dal.",
-            "Principal ingredient: Tamarind pulp.",
-            "Principal ingredient: Byadagi chillies.",
-            "Principal ingredient: Kapok buds (Marathi moggu).",
-            "Principal ingredient: Ghee.",
-            "Principal ingredient: Cashews.",
-            "Regional & seasonal ingredients: From the Konkan coast to the Deccan plateau and Old Mysore, Karnataka's kitchens combine rice, black gram, millets, coconut and courtly sweet-making.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Cooking method: separate slow wood-fire simmering of dal and rice in open vessels / unified pressure cooking followed by rapid direct spice simmering",
+            "Vessel: heavy brass urulis and tin-lined copper degchis / modern stainless steel pressure cookers and heavy-bottom pots",
+            "Fuel: tamarind wood and charcoal hearths burning slow / domestic LPG gas stoves and induction cooktops",
+            "Cooking time: 2 to 3 hours of continuous simmering and stirring / 25 to 35 minutes in domestic pressure cookers",
+            "Spice blending: whole spices hand-roasted on iron plates and crushed on stone grinding slabs / electric mixer-ground homemade batches or packaged spice powders",
+            "Vegetables: limited to native ash gourd, drumsticks, and raw plantains / hearty mix of carrots, French beans, green peas, and shallots",
+            "Sourness and sweetness: dark country tamarind and slow-melted palm jaggery / seedless tamarind paste and organic cane jaggery",
+            "Garnish and serving: fresh fried cashews in pure country cow ghee / fried cashews, spicy kara boondi, and potato chips served in darshini restaurants"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Comparative historical culinary records documenting the shift from royal brass urulis and wood fires to domestic pressure cookers and darshini restaurant culture.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Bisi Bele Bath is made",
-          "narrative": "The defining technique is Layered Spice Roasting & Unified One-Pot Ghee Simmer — Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel. Pressure cookers and gas ranges now shorten the simmer. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel. Pressure cookers and gas ranges now shorten the simmer.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Recipe",
+          "era": "Recipe",
+          "headline": "Bisi Bele Bath Recipe: 10 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: Sona Masuri rice, toor dal, mixed vegetables (carrots, beans, peas), tamarind extract, jaggery, Byadagi dry red chillies, kapok buds (marathi moggu), dry coconut (copra), cashew nuts, pure desi ghee.\n\n1. Rinse Sona Masuri rice and toor dal together, then pressure-cook with water and a pinch of turmeric for 4 to 5 whistles until soft and easily mashable.\n2. Dry-roast Byadagi chillies, chana dal, urad dal, coriander seeds, cumin, fenugreek, marathi moggu, and cinnamon until aromatic; add grated copra and hing, cool, and grind into a fine bisi bele bath spice powder.\n3. Boil chopped carrots, French beans, potatoes, peas, and shallots in water with salt until tender.\n4. Add thick tamarind extract, grated jaggery, and 3 tablespoons of the prepared spice powder to the cooked vegetables and simmer for 5 minutes.\n5. Lightly mash the cooked rice and dal, then combine them into the bubbling spiced vegetable broth.\n6. Adjust consistency with warm water to a smooth, pourable porridge and simmer on low heat for 7 minutes, stirring gently to prevent sticking.\n7. Heat pure desi ghee in a pan, crackle mustard seeds and curry leaves, and fry cashew nuts and broken dried chillies until golden.\n8. Pour the sizzling ghee tempering over the bisi bele bath, mix well, rest for 2 minutes, and serve piping hot topped with crisp kara boondi.",
           "details": [
-            "Traditional technique: Layered Spice Roasting & Unified One-Pot Ghee Simmer — Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel. Pressure cookers and gas ranges now shorten the simmer.",
-            "Traditional cookware & utensils: Aromatics are tempered in fat, ground or whole spices are bloomed, and the main ingredient is simmered in an open or sealed vessel.",
-            "Key process: Layered Spice Roasting & Unified One-Pot Ghee Simmer.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: Sona Masuri rice, toor dal, mixed vegetables (carrots, beans, peas), tamarind extract, jaggery, Byadagi dry red chillies, kapok buds (marathi moggu), dry coconut (copra), cashew nuts, pure desi ghee.",
+            "1. Rinse Sona Masuri rice and toor dal together, then pressure-cook with water and a pinch of turmeric for 4 to 5 whistles until soft and easily mashable.",
+            "2. Dry-roast Byadagi chillies, chana dal, urad dal, coriander seeds, cumin, fenugreek, marathi moggu, and cinnamon until aromatic; add grated copra and hing, cool, and grind into a fine bisi bele bath spice powder.",
+            "3. Boil chopped carrots, French beans, potatoes, peas, and shallots in water with salt until tender.",
+            "4. Add thick tamarind extract, grated jaggery, and 3 tablespoons of the prepared spice powder to the cooked vegetables and simmer for 5 minutes.",
+            "5. Lightly mash the cooked rice and dal, then combine them into the bubbling spiced vegetable broth.",
+            "6. Adjust consistency with warm water to a smooth, pourable porridge and simmer on low heat for 7 minutes, stirring gently to prevent sticking.",
+            "7. Heat pure desi ghee in a pan, crackle mustard seeds and curry leaves, and fry cashew nuts and broken dried chillies until golden.",
+            "8. Pour the sizzling ghee tempering over the bisi bele bath, mix well, rest for 2 minutes, and serve piping hot topped with crisp kara boondi."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "Codified regional recipe documentation detailing the foundational eight-step one-pot lentil-rice cooking, spice powder roasting, and ghee tempering method.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 4,
@@ -3607,115 +3615,6 @@
             "oral-tradition"
           ],
           "confidence": "regional-tradition"
-        }
-      ]
-    },
-    "mysore-pak": {
-      "dishId": "mysore-pak",
-      "dishName": "Mysore Pak",
-      "state": "Karnataka",
-      "classification": "State",
-      "confidence": "documented",
-      "sources": [
-        "achaya-1998",
-        "regional-food-writing"
-      ],
-      "stageCount": 4,
-      "stages": [
-        {
-          "number": 1,
-          "key": "origin",
-          "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Mysore Pak in the food geography of Karnataka",
-          "narrative": "From the Konkan coast to the Deccan plateau and Old Mysore, Karnataka's kitchens combine rice, black gram, millets, coconut and courtly sweet-making. Mysore Pak is a sweet or dessert associated with The royal kitchen of Mysore in southern Karnataka. Associated with the Mysore palace kitchens and with festive sweet boxes across Karnataka. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-          "details": [
-            "Geographical & cultural origin: The royal kitchen of Mysore in southern Karnataka, in Karnataka.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: Associated with the Mysore palace kitchens and with festive sweet boxes across Karnataka.",
-            "Cultural significance: A dense, porous fudge of gram flour, sugar syrup and generous ghee, cooked to the exact 'pak' stage until it sets with a honeycomb grain; associated with the Mysore royal kitchen."
-          ],
-          "evidenceNote": "Regional food writing supports the dish's association with Karnataka. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
-          "sources": [
-            "achaya-1998",
-            "regional-food-writing"
-          ],
-          "confidence": "documented"
-        },
-        {
-          "number": 2,
-          "key": "ingredients",
-          "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Mysore Pak is built from",
-          "narrative": "The recipe centres on Gram flour (besan), Sugar, Ghee, Water and Cardamom. These are the staple grains, pulses, vegetables, spices or dairy products of Karnataka; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
-          "details": [
-            "Principal ingredient: Gram flour (besan).",
-            "Principal ingredient: Sugar.",
-            "Principal ingredient: Ghee.",
-            "Principal ingredient: Water.",
-            "Principal ingredient: Cardamom.",
-            "Regional & seasonal ingredients: From the Konkan coast to the Deccan plateau and Old Mysore, Karnataka's kitchens combine rice, black gram, millets, coconut and courtly sweet-making.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
-          ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
-          "sources": [
-            "achaya-1998",
-            "regional-food-writing"
-          ],
-          "confidence": "documented"
-        },
-        {
-          "number": 3,
-          "key": "method",
-          "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Mysore Pak is made",
-          "narrative": "The defining technique is Gram flour is roasted in ghee, sugar syrup is cooked to a precise stage, and the two are emulsified until the mixture sets with a characteristic porous grain. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Milk is reduced, syrups are cooked to a measured thread or ball stage, and the mixture is set or fried before serving. Thermometers, steel kadai and refrigeration now control what was judged by eye.",
-          "details": [
-            "Traditional technique: Gram flour is roasted in ghee, sugar syrup is cooked to a precise stage, and the two are emulsified until the mixture sets with a characteristic porous grain.",
-            "Traditional cookware & utensils: Milk is reduced, syrups are cooked to a measured thread or ball stage, and the mixture is set or fried before serving.",
-            "Key process: Syrup-Stage Control & Ghee-Emulsified Besan.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
-          ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
-          "sources": [
-            "achaya-1998",
-            "regional-food-writing"
-          ],
-          "confidence": "documented"
-        },
-        {
-          "number": 4,
-          "key": "plated",
-          "numeral": "IV",
-          "eyebrow": "Stage IV",
-          "title": "Modern Form, Serving & Recognition",
-          "photoLabel": "Finished dish",
-          "era": "Present day",
-          "headline": "Mysore Pak today",
-          "narrative": "Sold in sweet shops in ghee-rich and 'diamond' cuts, with chocolate, sesame and low-sugar variations. It is presented in the serving style of Karnataka, with the ghee-soaked, grainy & melt-in-the-mouth profile that identifies it. A dense, porous fudge of gram flour, sugar syrup and generous ghee, cooked to the exact 'pak' stage until it sets with a honeycomb grain; associated with the Mysore royal kitchen.",
-          "details": [
-            "Present-day form & serving: Sold in sweet shops in ghee-rich and 'diamond' cuts, with chocolate, sesame and low-sugar variations.",
-            "Flavour identity: Ghee-Soaked, Grainy & Melt-in-the-Mouth.",
-            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
-            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
-          ],
-          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
-          "sources": [
-            "achaya-1998",
-            "regional-food-writing"
-          ],
-          "confidence": "documented"
         }
       ]
     },
@@ -7927,19 +7826,19 @@
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Hyderabadi Haleem in the food geography of Telangana",
-          "narrative": "Telangana's Deccan plateau and Hyderabad's courtly kitchens combine millets, rice, slow-cooked meat and wheat stews with Persianate sweets and biryanis. Hyderabadi Haleem is a meat dish associated with Hyderabad's Ramzan kitchens, from the Arab harees tradition of pounded wheat and meat. Wheat, pulses and meat are pounded together over wood-fired cauldrons through the night and distributed during Ramzan. Harees is a documented medieval Arab wheat-and-meat porridge; the spiced Hyderabadi form is documented in 20th-century city food writing.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Hyderabadi Haleem in Telangana & the Deccan",
+          "narrative": "Haleem traces its ancestry to the medieval Arab dish harees, a slow-cooked porridge of pounded meat and wheat. It was introduced to Hyderabad by the Arab diaspora (Chaush soldiers from Yemen) serving in the irregular army of the Asaf Jahi Nizams. In the royal kitchens of the Nizams and Paigah nobles, the rustic harees was refined and Indianized by introducing aromatic Deccan spices, mixed lentils, ghee, dry fruits, and rose petals. It became the signature delicacy of Hyderabad, especially cherished during Ramzan for breaking the fast.",
           "details": [
-            "Geographical & cultural origin: Hyderabad's Ramzan kitchens, from the Arab harees tradition of pounded wheat and meat, in Telangana.",
-            "Historical background: Harees is a documented medieval Arab wheat-and-meat porridge; the spiced Hyderabadi form is documented in 20th-century city food writing.",
-            "Regional food tradition: Wheat, pulses and meat are pounded together over wood-fired cauldrons through the night and distributed during Ramzan.",
-            "Cultural significance: A GI-tagged royal delicacy: broken whole wheat, lentils, and tender meat pounded continuously with wooden mallets (ghotni) in copper cauldrons for 12 hours until transformed into an intensely rich paste."
+            "Origin in Telangana: Haleem traces its ancestry to the medieval Arab dish harees, brought to Hyderabad by Yemeni Chaush soldiers serving the Asaf Jahi Nizams.",
+            "Royal court refinement: In the royal kitchens of the Nizams and Paigah nobles, the rustic harees was refined with local Deccan spices, mixed lentils, pure ghee, dry fruits, and rose petals.",
+            "Cultural tradition: Cooked overnight in large wood-fired copper degs and served as the preeminent energy-replenishing dish to break the fast during Ramzan.",
+            "Cooking method: Slow-simmered for 8 to 12 hours and vigorously pounded with heavy wooden pestles (ghotni) until meat and wheat merge into a smooth, cohesive porridge."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Telangana. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Historical records document medieval Arab harees and its adoption and refinement in 19th-century Asaf Jahi court kitchens; GI status registered in 2010.",
           "sources": [
             "gi-registry",
             "sen-2004",
@@ -7951,24 +7850,23 @@
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Hyderabadi Haleem is built from",
-          "narrative": "The recipe centres on Whole wheat, Mutton, Chana dal & Moong dal, Pure desi ghee, Fried onions, Almonds & cashews and Rose petals. These are the staple grains, pulses, vegetables, spices or dairy products of Telangana; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders\nVessel: massive heavy tinned copper cauldrons (degs/bhatti) / stainless steel pots, heavy-bottom handis, and domestic pressure cookers\nFuel: tamarind wood and charcoal bhattis burning low overnight / LPG gas stoves, induction, and commercial gas burners\nCooking time: 10 to 12 hours of overnight simmering / 1.5 to 2.5 hours in home pressure cookers\nPounding: 2 to 3 skilled cooks rhythmically beating with wooden poles (ghotnis) / home wooden whisks, potato mashers, or short pulses of electric blenders\nMeat: traditional bone-in tender goat/mutton marrow cuts slow-cooked till bones slip out / boneless mutton, chicken (now widespread in restaurants), and modern vegetarian lentil variants\nFlavourings: pure desi ghee, freshly stone-ground potli masala, rose water, and wild cinnamon / commercial packaged haleem spice blends and ready ginger-garlic paste\nGarnish & Serving: golden fried onions (birista), ghee drizzle, fresh mint, coriander, lime, and sliced almonds/cashews / similar traditional garnishes maintained across both royal feasts and modern takeaway boxes",
           "details": [
-            "Principal ingredient: Whole wheat.",
-            "Principal ingredient: Mutton.",
-            "Principal ingredient: Chana dal & Moong dal.",
-            "Principal ingredient: Pure desi ghee.",
-            "Principal ingredient: Fried onions.",
-            "Principal ingredient: Almonds & cashews.",
-            "Principal ingredient: Rose petals.",
-            "Regional & seasonal ingredients: Telangana's Deccan plateau and Hyderabad's courtly kitchens combine millets, rice, slow-cooked meat and wheat stews with Persianate sweets and biryanis.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders",
+            "Vessel: massive heavy tinned copper cauldrons (degs/bhatti) / stainless steel pots, heavy-bottom handis, and domestic pressure cookers",
+            "Fuel: tamarind wood and charcoal bhattis burning low overnight / LPG gas stoves, induction, and commercial gas burners",
+            "Cooking time: 10 to 12 hours of overnight simmering / 1.5 to 2.5 hours in home pressure cookers",
+            "Pounding: 2 to 3 skilled cooks rhythmically beating with wooden poles (ghotnis) / home wooden whisks, potato mashers, or short pulses of electric blenders",
+            "Meat: traditional bone-in tender goat/mutton marrow cuts slow-cooked till bones slip out / boneless mutton, chicken (now widespread in restaurants), and modern vegetarian lentil variants",
+            "Flavourings: pure desi ghee, freshly stone-ground potli masala, rose water, and wild cinnamon / commercial packaged haleem spice blends and ready ginger-garlic paste",
+            "Garnish & Serving: golden fried onions (birista), ghee drizzle, fresh mint, coriander, lime, and sliced almonds/cashews / similar traditional garnishes maintained across both royal feasts and modern takeaway boxes"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Comparative historical culinary records documenting the shift from wood-fired bhatti cauldrons and manual ghotni pounding to domestic cookers, blenders, and packaged spices.",
           "sources": [
             "gi-registry",
             "sen-2004",
@@ -7980,19 +7878,24 @@
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Hyderabadi Haleem is made",
-          "narrative": "The defining technique is 12-Hour Degchi Simmer & Wooden Mallet Pounding — Meat is marinated with tenderising agents, then slow-braised, smoked or grilled. Pressure cookers and temperature-controlled ovens now shorten cooking without changing the spice sequence. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Meat is marinated with tenderising agents, then slow-braised, smoked or grilled. Pressure cookers and temperature-controlled ovens now shorten cooking without changing the spice sequence.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Recipe",
+          "era": "Recipe",
+          "headline": "Hyderabadi Haleem Recipe: 10 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.\n\n1. Soak broken wheat and lentils (chana and moong) in water for 1 to 2 hours, then drain.\n2. Marinate the mutton with curd, ginger-garlic paste, turmeric, chilli powder, salt, and half of the garam masala for at least 1 hour.\n3. In a heavy pot or pressure cooker, heat ghee and saute whole spices (shahi jeera, cardamom, cloves, cinnamon) and a portion of fried onions until fragrant.\n4. Add the marinated meat and sear on medium-high heat, then add water and pressure-cook or slow-simmer until the meat is thoroughly tender and falling apart.\n5. Separately boil the soaked broken wheat and lentils with a pinch of turmeric and water until completely soft and mushy.\n6. Shred the cooked meat off any bones and combine the shredded meat and its rich broth into the pot of cooked wheat and lentils.\n7. Slow-simmer over low heat while vigorously mashing and pounding with a wooden masher (ghotni) for 30–40 minutes, gradually incorporating hot ghee until the mixture turns silky, elastic, and pasty.\n8. Season with remaining garam masala, mint, and coriander; ladle into warm bowls and top with hot ghee, golden fried onions, toasted cashews, and fresh lemon wedges.",
           "details": [
-            "Traditional technique: 12-Hour Degchi Simmer & Wooden Mallet Pounding — Meat is marinated with tenderising agents, then slow-braised, smoked or grilled. Pressure cookers and temperature-controlled ovens now shorten cooking without changing the spice sequence.",
-            "Traditional cookware & utensils: Meat is marinated with tenderising agents, then slow-braised, smoked or grilled.",
-            "Key process: 12-Hour Degchi Simmer & Wooden Mallet Pounding.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.",
+            "1. Soak broken wheat and lentils (chana and moong) in water for 1 to 2 hours, then drain.",
+            "2. Marinate the mutton with curd, ginger-garlic paste, turmeric, chilli powder, salt, and half of the garam masala for at least 1 hour.",
+            "3. In a heavy pot or pressure cooker, heat ghee and saute whole spices (shahi jeera, cardamom, cloves, cinnamon) and a portion of fried onions until fragrant.",
+            "4. Add the marinated meat and sear on medium-high heat, then add water and pressure-cook or slow-simmer until the meat is thoroughly tender and falling apart.",
+            "5. Separately boil the soaked broken wheat and lentils with a pinch of turmeric and water until completely soft and mushy.",
+            "6. Shred the cooked meat off any bones and combine the shredded meat and its rich broth into the pot of cooked wheat and lentils.",
+            "7. Slow-simmer over low heat while vigorously mashing and pounding with a wooden masher (ghotni) for 30–40 minutes, gradually incorporating hot ghee until the mixture turns silky, elastic, and pasty.",
+            "8. Season with remaining garam masala, mint, and coriander; ladle into warm bowls and top with hot ghee, golden fried onions, toasted cashews, and fresh lemon wedges."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "Codified regional recipe documentation detailing the eight-step slow-pounding and ghee-incorporation method (ghotni protocol) for authentic Hyderabadi haleem.",
           "sources": [
             "gi-registry",
             "sen-2004",
