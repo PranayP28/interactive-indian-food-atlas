@@ -141,7 +141,9 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           nextUrl = undefined;
         }
       } else if (dishId === "makki-di-roti-sarson-saag") {
-        if (index === 1) {
+        if (index === 0) {
+          nextUrl = "/images/dishes/makki-di-roti-sarson-saag-stage-2.webp";
+        } else if (index === 1) {
           nextUrl = "/images/dishes/makki-2.png";
         } else if (index === 2) {
           nextUrl = undefined;

@@ -1802,8 +1802,9 @@
           "alt": "Kneading yellow cornmeal makki flour dough into flat rounds",
           "caption": "Coarse stone-ground yellow maize flour (makki ka atta) kneaded with warm water into gluten-free dough.",
           "fallback": null,
-          "width": 2992,
-          "height": 2992
+          "width": 1600,
+          "height": 880,
+          "local": "/images/dishes/makki-di-roti-sarson-saag-stage-2.webp"
         },
         "caption": "Coarse stone-ground yellow maize flour (makki ka atta) kneaded with warm water into gluten-free dough.",
         "label": "Evolution of Food",
