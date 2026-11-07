@@ -194,6 +194,12 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         } else if (index === 1) {
           nextUrl = "/images/dishes/dal-bafla-2.png";
         }
+      } else if (dishId === "amritsari-kulcha") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/amritsari-kulcha-1.png";
+        } else if (index === 1) {
+          nextUrl = "/images/dishes/amritsari-kulcha-2.png";
+        }
       }
 
       const caption =
@@ -209,6 +215,8 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           ? "Evolution of Food — from rustic hearth-grated desi corn to Indore's famed Sarafa night market sweet corn milk braise."
           : dishId === "dal-bafla" && index === 1
           ? "Evolution of Food — from historic Malwa community feast boiled bafla to crisp ghee-roasted rounds served with spicy tuvar dal."
+          : dishId === "amritsari-kulcha" && index === 1
+          ? "Evolution of Food — from simple leavened dough rounds to Amritsar's crisp layered stuffed kulcha roasted in searing clay tandoors."
           : entry.photo?.caption || (stateMainImg ? `${dish.state} — Regional heritage & culinary traditions` : undefined);
 
       return {

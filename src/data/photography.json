@@ -3190,8 +3190,9 @@
           "alt": "Wheat flour dough resting in a bowl",
           "caption": "Refined wheat-flour dough rested and laminated with ghee before stuffing and baking.",
           "fallback": null,
-          "width": 2335,
-          "height": 1466
+          "width": 2000,
+          "height": 1333,
+          "local": "/images/dishes/amritsari-kulcha-stage-2.webp"
         },
         "caption": "Refined wheat-flour dough rested and laminated with ghee before stuffing and baking.",
         "label": "Evolution of Food",
