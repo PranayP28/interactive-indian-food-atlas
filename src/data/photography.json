@@ -608,24 +608,30 @@
     "dhokla": {
       "origin": {
         "library": "spice-street",
-        "caption": "Gujarat — the regional kitchen where Dhokla belongs."
+        "caption": "Dhokla, Origin (Birth of the food)",
+        "label": "Dhokla, Origin (Birth of the food)"
       },
       "ingredients": {
         "library": "spice-bowls",
-        "caption": "Evolution of Food — from ancient fermented chickpea cakes to modern steamed nylon and khaman varieties.",
-        "label": "Evolution of Food",
+        "caption": "Dhokla, Evolution of Food",
+        "label": "Dhokla, Evolution of Food",
         "items": [
-          "Gram flour (Besan)",
-          "Fermented curd",
-          "Ginger-chilli paste",
-          "Mustard seeds",
-          "Curry leaves",
-          "Asafoetida"
+          "Besan (gram flour)",
+          "Curd",
+          "Ginger–green chilli paste",
+          "Turmeric",
+          "Salt",
+          "Sugar",
+          "Lemon juice",
+          "Fruit salt (Eno)",
+          "Oil with mustard seeds",
+          "Curry leaves and coriander"
         ]
       },
       "method": {
         "library": "steam",
-        "caption": "Dhokla — Aerated Fermentation & Steam Vapor Lift."
+        "caption": "Dhokla, Recipe",
+        "label": "Dhokla, Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Homemade_Dhokla_2.jpg",

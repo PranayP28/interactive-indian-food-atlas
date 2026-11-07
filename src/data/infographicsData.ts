@@ -1332,55 +1332,53 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
   {
     "id": "info-74",
     "dishId": "dhokla",
-    "title": "Dhokla — 1800s Traditional Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Dhokla",
-    "era": "1800s Traditional",
+    "title": "Dhokla, Origin (Birth of the food)",
+    "subtitle": "Dhokla is a steamed, fermented savoury cake from Gujarat, tracing back to 11th-century dukkia.",
+    "era": "Birth of the food",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.03.44 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
     "ingredients": [
-      "Gram flour (Besan)",
-      "Fermented curd",
-      "Ginger-chilli paste",
-      "Mustard seeds",
-      "Curry leaves",
-      "Asafoetida"
+      "Rice",
+      "Chana dal (split chickpeas)",
+      "Curd",
+      "Ginger",
+      "Green chillies",
+      "Salt",
+      "Mustard seeds"
     ]
   },
   {
     "id": "info-75",
     "dishId": "dhokla",
-    "title": "Dhokla — 1900s Early Modern Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Dhokla",
-    "era": "1900s Early Modern",
+    "title": "Dhokla, Evolution of Food",
+    "subtitle": "Then vs Now: Batter, fermentation, cooking time, vessels, fuel, varieties, and scale",
+    "era": "Evolution of Food",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.04.16 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 2,
-    "ingredients": [
-      "Gram flour (Besan)",
-      "Fermented curd",
-      "Ginger-chilli paste",
-      "Mustard seeds",
-      "Curry leaves",
-      "Asafoetida"
-    ]
+    "ingredients": []
   },
   {
     "id": "info-76",
     "dishId": "dhokla",
-    "title": "Dhokla — Contemporary / Present Guide",
-    "subtitle": "Documented culinary technique, ingredients and preparation method for Dhokla",
-    "era": "Contemporary / Present",
+    "title": "Dhokla, Recipe",
+    "subtitle": "Key ingredients: besan, curd, ginger–green chilli paste, turmeric, salt, sugar, lemon juice, fruit salt (Eno)",
+    "era": "Recipe",
     "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.04.51 PM.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 3,
     "ingredients": [
-      "Gram flour (Besan)",
-      "Fermented curd",
-      "Ginger-chilli paste",
-      "Mustard seeds",
-      "Curry leaves",
-      "Asafoetida"
+      "Besan (gram flour)",
+      "Curd",
+      "Ginger–green chilli paste",
+      "Turmeric",
+      "Salt",
+      "Sugar",
+      "Lemon juice",
+      "Fruit salt (Eno)",
+      "Oil with mustard seeds",
+      "Curry leaves and coriander"
     ]
   },
   {

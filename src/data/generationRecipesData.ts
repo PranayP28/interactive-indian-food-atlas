@@ -558,6 +558,100 @@ export const PURAN_POLI_GENERATIONS: GenerationWaypoint[] = [
 ];
 
 // ─────────────────────────────────────────────
+// DHOKLA (Gujarat)
+// ─────────────────────────────────────────────
+export const DHOKLA_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Dhokla in Gujarat",
+    shortDescription:
+      "Dhokla is a steamed, fermented savoury cake from Gujarat, now eaten across India. A pulse-based dish called dukkia, seen as a precursor, is mentioned in a Jain text dated to the 11th century (sources give 1066 or 1068 CE). The word “dhokla” itself appears in the Gujarati text Varanaka Samuchaya, dated to about 1520 CE. The traditional version uses a fermented batter of rice and split chickpeas (chana dal), steamed rather than fried. The exact creator and date are not documented, so treat dukkia as a likely ancestor rather than the same dish. Khaman, made entirely from chickpea batter, is a related but separate preparation.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Pot with a steaming rack or plate",
+      heatSource: "Traditional hearth fire (wood or charcoal)",
+      ingredientsList: [
+        "Rice",
+        "Chana dal (split chickpeas)",
+        "Curd",
+        "Ginger",
+        "Green chillies",
+        "Salt",
+        "Mustard seeds",
+      ],
+      preparationMethod:
+        "Origin in Gujarat: rice and chana dal soaked and ground, fermented, then steamed in slabs.",
+      contemporaryDifference:
+        "Cooking method: steaming, not frying, with fermentation giving the sour taste and sponge.",
+    },
+    technologicalLeap: "Fermenting combined rice and pulse batter and steaming in aerated slabs rather than frying.",
+    documentedCitation:
+      "Wikipedia, “Dhokla”; K. T. Achaya, A Historical Dictionary of Indian Food; Knocksense (Ahmedabad), “Steaming through centuries”.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Batter: Then - rice and chana dal soaked and ground, or rice flour and besan mixed 2:1 | Now - besan-based instant mixes, with ready-made dhokla flour sold in shops\nFermentation: Then - overnight, with curd | Now - skipped; fruit salt (Eno) or baking soda raises it in minutes\nCooking time: Then - overnight prep plus steaming | Now - about 30 minutes in many homes\nVessel: Then - pot with a steaming plate | Now - idli stand, steamer, pressure cooker without the whistle, microwave or electric cooker\nFuel: Then - wood or charcoal | Now - gas and electricity\nVarieties: Then - fermented rice-and-gram dhokla | Now - khaman, nylon, rava, sandwich and other dhokla\nWhere eaten: Then - home, as a snack or breakfast | Now - sweet and farsan shops, restaurants, packaged and instant mixes\nScale: Then - household | Now - Ahmedabad was reported to consume about 10,000 kg of dhokla daily (2018)",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Pot with a steaming plate → idli stand, steamer or pressure cooker",
+      heatSource: "Wood and charcoal → gas and electricity",
+      ingredientsList: [],
+      preparationMethod:
+        "Overnight fermented batter → instant batter raised with fruit salt",
+      contemporaryDifference:
+        "Leavening: overnight curd fermentation / fruit salt or baking soda in minutes",
+    },
+    technologicalLeap: "Transition from overnight wild curd fermentation to instant aeration using fruit salt and modern commercial steaming.",
+    documentedCitation:
+      "Wikipedia, “Dhokla”; Knocksense; K. T. Achaya.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Dhokla Recipe: 10 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: besan (gram flour), curd, ginger–green chilli paste, turmeric, salt, sugar, lemon juice, fruit salt (Eno), oil with mustard seeds, curry leaves and coriander.\n\n1. Mix besan, curd, ginger–green chilli paste, turmeric, salt, sugar and lemon juice with water into a smooth, pourable batter. Rest it for about 10 minutes.\n2. Heat water in a steamer and grease a tray with oil.\n3. Add fruit salt to the batter just before cooking and stir gently, once, until it froths.\n4. Pour the batter into the greased tray straight away.\n5. Steam on medium heat for about 15 minutes, until a skewer comes out clean.\n6. Let it cool slightly, then cut into squares.\n7. Heat oil, crackle mustard seeds, add green chillies and curry leaves, then pour in a little water and sugar. Pour this tempering over the dhokla.\n8. Garnish with coriander and grated coconut and serve with green chutney and fried chillies.",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Dhokla Recipe",
+      historicalCookware: "Steamer or idli stand with a greased tray",
+      heatSource: "Medium flame for about 15 minutes",
+      ingredientsList: [
+        "Besan (gram flour)",
+        "Curd",
+        "Ginger–green chilli paste",
+        "Turmeric",
+        "Salt",
+        "Sugar",
+        "Lemon juice",
+        "Fruit salt (Eno)",
+        "Oil with mustard seeds",
+        "Curry leaves and coriander",
+      ],
+      preparationMethod:
+        "Instant Khaman Layering & Tempering (Vaghar). Batter, steam, cut, temper.",
+      contemporaryDifference:
+        "8. Garnish with coriander and coconut; serve with chutney.",
+    },
+    technologicalLeap: "Instant Khaman aeration, steam vapor lift, and sweet-sour tempering (vaghar).",
+    documentedCitation:
+      "Wikipedia, “Dhokla”; K. T. Achaya, A Historical Dictionary of Indian Food; Knocksense.",
+  },
+];
+
+// ─────────────────────────────────────────────
 // INDORI POHA (Madhya Pradesh)
 // ─────────────────────────────────────────────
 export const INDORI_POHA_GENERATIONS: GenerationWaypoint[] = [
@@ -2015,6 +2109,8 @@ function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoin
       return VADA_PAV_GENERATIONS;
     case "puran-poli":
       return PURAN_POLI_GENERATIONS;
+    case "dhokla":
+      return DHOKLA_GENERATIONS;
     case "indori-poha":
       return INDORI_POHA_GENERATIONS;
     case "bhutte-ka-kees":
@@ -2072,7 +2168,7 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
         historicalCookware: source.generationRecipe.historicalCookware,
         heatSource: source.generationRecipe.heatSource,
         ingredientsList:
-          dishId === "vada-pav" || dishId === "puran-poli"
+          dishId === "vada-pav" || dishId === "puran-poli" || dishId === "dhokla"
             ? source.generationRecipe.ingredientsList
             : dishId === "makki-di-roti-sarson-saag"
                 ? (stage.number === 1
@@ -2096,7 +2192,7 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
             ? dish.ingredients
             : source.generationRecipe.ingredientsList,
         preparationMethod:
-          dishId === "vada-pav" || dishId === "puran-poli"
+          dishId === "vada-pav" || dishId === "puran-poli" || dishId === "dhokla"
             ? source.generationRecipe.preparationMethod
             : stage.key === "method"
             ? `${dish.keyTechnique}. ${stage.details[0]}`
@@ -2106,7 +2202,9 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
       },
       technologicalLeap: stage.details[0],
       documentedCitation:
-        citations || "Regional food writing; no securely dated first reference established.",
+        dishId === "dhokla"
+          ? source.documentedCitation
+          : citations || "Regional food writing; no securely dated first reference established.",
     } satisfies GenerationWaypoint;
   });
 }

@@ -463,7 +463,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
             // Filtered ingredients for this stage
             const stageFilter = (ingredientFilters[stageNum] || "").trim().toLowerCase();
             const allStageIngredients = (
-              (dishId === "vada-pav" || dishId === "puran-poli" || dishId === "makki-di-roti-sarson-saag" || dishId === "butter-chicken") && stageInfographic?.ingredients && stageInfographic.ingredients.length > 0
+              (dishId === "vada-pav" || dishId === "puran-poli" || dishId === "dhokla" || dishId === "makki-di-roti-sarson-saag" || dishId === "butter-chicken") && stageInfographic?.ingredients && stageInfographic.ingredients.length > 0
                 ? stageInfographic.ingredients
                 : waypoint.generationRecipe.ingredientsList
             ).filter((ing) => !ing.toLowerCase().includes("spring water"));

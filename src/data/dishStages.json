@@ -2065,108 +2065,90 @@
       "dishName": "Dhokla",
       "state": "Gujarat",
       "classification": "State",
-      "confidence": "regional-tradition",
+      "confidence": "documented",
       "sources": [
         "regional-food-writing",
         "oral-tradition"
       ],
-      "stageCount": 4,
+      "stageCount": 3,
       "stages": [
         {
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Dhokla in the food geography of Gujarat",
-          "narrative": "Gujarat's trading coast and dry interior created a largely vegetarian cuisine of fermented batters, pulses, winter vegetables and a sweet–sour balance. Dhokla is a fermented or steamed preparation associated with the Gujarat region. It belongs to the fermented or steamed preparation tradition of Gujarat and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Dhokla, Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Dhokla in Gujarat",
+          "narrative": "Dhokla is a steamed, fermented savoury cake from Gujarat, now eaten across India. A pulse-based dish called dukkia, seen as a precursor, is mentioned in a Jain text dated to the 11th century (sources give 1066 or 1068 CE). The word “dhokla” itself appears in the Gujarati text Varanaka Samuchaya, dated to about 1520 CE. The traditional version uses a fermented batter of rice and split chickpeas (chana dal), steamed rather than fried. The exact creator and date are not documented, so treat dukkia as a likely ancestor rather than the same dish. Khaman, made entirely from chickpea batter, is a related but separate preparation.",
           "details": [
-            "Geographical & cultural origin: the Gujarat region, in Gujarat.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: It belongs to the fermented or steamed preparation tradition of Gujarat and is embedded in household, festival and regional food practice.",
-            "Cultural significance: Porous, pillow-soft steamed savoury sponge cakes made from fermented split chickpea batter, tempered with crackling mustard seeds, green chillies, and fresh coriander."
+            "Origin in Gujarat: rice and chana dal soaked and ground, fermented, then steamed in slabs.",
+            "Historical precursor: A pulse-based dish called dukkia is mentioned in an 11th-century Jain text (1066 or 1068 CE).",
+            "Literary reference: The word 'dhokla' appears in the Gujarati text Varanaka Samuchaya, dated to c. 1520 CE.",
+            "Cooking method: Steaming, not frying, with fermentation giving the sour taste and sponge."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Gujarat. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Wikipedia, 'Dhokla'; K. T. Achaya, A Historical Dictionary of Indian Food; Knocksense (Ahmedabad), 'Steaming through centuries'.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
+          "eyebrow": "Stage 2",
           "title": "Evolution of Food",
-          "photoLabel": "Evolution of Food",
+          "photoLabel": "Dhokla, Evolution of Food",
           "era": "Evolution of Food",
-          "headline": "What Dhokla is built from",
-          "narrative": "The recipe centres on Gram flour (Besan), Fermented curd, Ginger-chilli paste, Mustard seeds, Curry leaves and Asafoetida. These are the staple grains, pulses, vegetables, spices or dairy products of Gujarat; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Batter: Then - rice and chana dal soaked and ground, or rice flour and besan mixed 2:1 | Now - besan-based instant mixes, with ready-made dhokla flour sold in shops\nFermentation: Then - overnight, with curd | Now - skipped; fruit salt (Eno) or baking soda raises it in minutes\nCooking time: Then - overnight prep plus steaming | Now - about 30 minutes in many homes\nVessel: Then - pot with a steaming plate | Now - idli stand, steamer, pressure cooker without the whistle, microwave or electric cooker\nFuel: Then - wood or charcoal | Now - gas and electricity\nVarieties: Then - fermented rice-and-gram dhokla | Now - khaman, nylon, rava, sandwich and other dhokla\nWhere eaten: Then - home, as a snack or breakfast | Now - sweet and farsan shops, restaurants, packaged and instant mixes\nScale: Then - household | Now - Ahmedabad was reported to consume about 10,000 kg of dhokla daily (2018)",
           "details": [
-            "Principal ingredient: Gram flour (Besan).",
-            "Principal ingredient: Fermented curd.",
-            "Principal ingredient: Ginger-chilli paste.",
-            "Principal ingredient: Mustard seeds.",
-            "Principal ingredient: Curry leaves.",
-            "Principal ingredient: Asafoetida.",
-            "Regional & seasonal ingredients: Gujarat's trading coast and dry interior created a largely vegetarian cuisine of fermented batters, pulses, winter vegetables and a sweet–sour balance.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Batter: Then - rice and chana dal soaked and ground, or rice flour and besan mixed 2:1 | Now - besan-based instant mixes, with ready-made dhokla flour sold in shops",
+            "Fermentation: Then - overnight, with curd | Now - skipped; fruit salt (Eno) or baking soda raises it in minutes",
+            "Cooking time: Then - overnight prep plus steaming | Now - about 30 minutes in many homes",
+            "Vessel: Then - pot with a steaming plate | Now - idli stand, steamer, pressure cooker without the whistle, microwave or electric cooker",
+            "Fuel: Then - wood or charcoal | Now - gas and electricity",
+            "Varieties: Then - fermented rice-and-gram dhokla | Now - khaman, nylon, rava, sandwich and other dhokla",
+            "Where eaten: Then - home, as a snack or breakfast | Now - sweet and farsan shops, restaurants, packaged and instant mixes",
+            "Scale: Then - household | Now - Ahmedabad was reported to consume about 10,000 kg of dhokla daily (2018)"
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "Wikipedia, 'Dhokla'; Knocksense; K. T. Achaya.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         },
         {
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Dhokla is made",
-          "narrative": "The defining technique is Aerated Fermentation & Steam Vapor Lift — Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers. Steel steamers and packaged batter now replace earthen pots. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers. Steel steamers and packaged batter now replace earthen pots.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Dhokla, Recipe",
+          "era": "Recipe",
+          "headline": "Dhokla Recipe: 10 Key Ingredients, 8 Steps",
+          "narrative": "Key ingredients: besan (gram flour), curd, ginger–green chilli paste, turmeric, salt, sugar, lemon juice, fruit salt (Eno), oil with mustard seeds, curry leaves and coriander.\n\n1. Mix besan, curd, ginger–green chilli paste, turmeric, salt, sugar and lemon juice with water into a smooth, pourable batter. Rest it for about 10 minutes.\n2. Heat water in a steamer and grease a tray with oil.\n3. Add fruit salt to the batter just before cooking and stir gently, once, until it froths.\n4. Pour the batter into the greased tray straight away.\n5. Steam on medium heat for about 15 minutes, until a skewer comes out clean.\n6. Let it cool slightly, then cut into squares.\n7. Heat oil, crackle mustard seeds, add green chillies and curry leaves, then pour in a little water and sugar. Pour this tempering over the dhokla.\n8. Garnish with coriander and grated coconut and serve with green chutney and fried chillies.",
           "details": [
-            "Traditional technique: Aerated Fermentation & Steam Vapor Lift — Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers. Steel steamers and packaged batter now replace earthen pots.",
-            "Traditional cookware & utensils: Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers.",
-            "Key process: Aerated Fermentation & Steam Vapor Lift.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: besan (gram flour), curd, ginger–green chilli paste, turmeric, salt, sugar, lemon juice, fruit salt (Eno), oil with mustard seeds, curry leaves and coriander.",
+            "1. Mix besan, curd, ginger–green chilli paste, turmeric, salt, sugar and lemon juice with water into a smooth, pourable batter. Rest it for about 10 minutes.",
+            "2. Heat water in a steamer and grease a tray with oil.",
+            "3. Add fruit salt to the batter just before cooking and stir gently, once, until it froths.",
+            "4. Pour the batter into the greased tray straight away.",
+            "5. Steam on medium heat for about 15 minutes, until a skewer comes out clean.",
+            "6. Let it cool slightly, then cut into squares.",
+            "7. Heat oil, crackle mustard seeds, add green chillies and curry leaves, then pour in a little water and sugar. Pour this tempering over the dhokla.",
+            "8. Garnish with coriander and grated coconut and serve with green chutney and fried chillies."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "Traditional Gujarati Khaman and Dhokla culinary practice and codified recipes.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
           ],
-          "confidence": "regional-tradition"
-        },
-        {
-          "number": 4,
-          "key": "plated",
-          "numeral": "IV",
-          "eyebrow": "Stage IV",
-          "title": "Modern Form, Serving & Recognition",
-          "photoLabel": "Finished dish",
-          "era": "Present day",
-          "headline": "Dhokla today",
-          "narrative": "It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common. It is presented in the serving style of Gujarat, with the tangy, light & spongy profile that identifies it. Porous, pillow-soft steamed savoury sponge cakes made from fermented split chickpea batter, tempered with crackling mustard seeds, green chillies, and fresh coriander.",
-          "details": [
-            "Present-day form & serving: It is served in homes, regional restaurants and at festivals; present-day versions adjust fat, sugar, chilli and cooking time, and packaged or restaurant versions are now common.",
-            "Flavour identity: Tangy, Light & Spongy.",
-            "Variations: household, festival, street-stall and restaurant versions differ in richness, heat and portion size.",
-            "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
-          ],
-          "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
-          "sources": [
-            "regional-food-writing",
-            "oral-tradition"
-          ],
-          "confidence": "regional-tradition"
+          "confidence": "documented"
         }
       ]
     },
