@@ -62,171 +62,163 @@ export interface GenerationWaypoint {
 export const DOSA_GENERATIONS: GenerationWaypoint[] = [
   {
     generationNumber: 1,
-    eraTitle: "Vedic & Sangam Antiquity",
-    yearRange: "c. 1000 BCE – 3rd Century CE",
-    centuryLabel: "Epoch I",
-    headline: "The Primitive Pulse Pupa & Wild Grains",
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Masala Dosa in Karnataka & the South",
     shortDescription:
-      "Ancient agrarian communities soaked wild indigenous paddy and whole black lentils, crushing them coarsely between heavy granite river stones. Unfermented batter was pressed onto flat hot clay slabs over open wood embers.",
+      "The dosa has ancient beginnings in South India and Karnataka. A preparation named 'dosaka' is first documented in the 12th-century Sanskrit work Manasollasa, compiled by King Someshvara III of the Western Chalukya dynasty ruling northern Karnataka. In early times, dosas were thick, soft griddle-cakes cooked on clay plates using fermented black gram and rice batter. The dish evolved deeply within the temple kitchens of Udupi and Old Mysore, where natural overnight fermentation was perfected into an art.",
     image: ERA_PHOTO.ancient_grains,
     generationRecipe: {
-      recipeName: "Ancient Pupa (Unfermented Pulse Griddle Cake)",
-      historicalCookware: "Flat clay griddle stone (Kallu Odu) over pit embers",
-      heatSource: "Dried wood and forest biomass fire",
-      ingredientsList: [
-        "Coarsely crushed black gram (Urad dal)",
-        "Indigenous wild paddy grain",
-        "Whole Malabar black peppercorns",
-        "Rock salt from dried beds",
-        "Cold spring water",
-      ],
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Earthen griddle plate (Kallu Odu) over open wood hearth",
+      heatSource: "Firewood hearth and glowing embers",
+      ingredientsList: [],
       preparationMethod:
-        "Grains and lentils soaked for 3 hours, stone-mashed into a thick rustic paste, patted directly by hand onto hot flat stones greased with wild seed oil.",
+        "Soaked black gram and rice stone-ground into a thick batter, rested for natural leavening, and patted onto heated clay plates greased with cold-pressed sesame oil.",
       contemporaryDifference:
-        "Zero potatoes, zero chillies, no overnight microbial fermentation, thick and flat rather than thin and crisp.",
+        "Thick, soft, and unadorned pulse-rice griddle cakes without potatoes or modern crisping.",
     },
-    technologicalLeap: "First pairing of lentil protein with rice carbohydrates over thermal stones.",
-    documentedCitation: "Sangam literature (Purananuru) & Charaka Samhita on pulse-grain dietetics.",
+    technologicalLeap: "Natural wild lactic fermentation of stone-ground pulse and rice batter.",
+    documentedCitation: "Western Chalukya Manasollasa (1130 CE) & Udupi temple culinary archives.",
   },
   {
     generationNumber: 2,
-    eraTitle: "Western Chalukya Imperial Era",
-    yearRange: "1130 CE",
-    centuryLabel: "Epoch II",
-    headline: "King Someshvara III's Imperial 'Dosaka'",
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
     shortDescription:
-      "The invention of overnight biological aeration! In the royal kitchens of the Western Chalukyas, cooks left stone-ground urad dal batter to ferment naturally with ambient lactic microflora, baking it on circular terracotta pans.",
+      "Cooking method: soft griddle bake on clay plates / wafer-thin spiral ladle swirl on heavy cast-iron tawas\nVessel: porous clay griddle (kallu odu) / heavy seasoned cast-iron flat tawa and commercial gas griddles\nFuel: firewood hearths and embers / domestic LPG gas and commercial burners\nCooking time: 4 to 5 minutes per soft cake / 60 to 90 seconds for paper-crisp golden browning\nBatter preparation: hand-grinding soaked pulses on granite stone mortars / electric wet grinders and commercial batter mills\nFilling: plain dosa with no stuffing / spiced potato-onion palya introduced by 20th-century Udupi hoteliers\nInner spread: plain ghee or no paste / fiery roasted Byadagi chilli, garlic, and roasted gram chutney (Mysore style)\nFat used: cold-pressed sesame or coconut oil / pure desi ghee and fresh churned white butter (benne)",
     image: ERA_PHOTO.stone_ferment,
     generationRecipe: {
-      recipeName: "Imperial Dosaka of the Manasollasa",
-      historicalCookware: "Circular porous terracotta earthen pan",
-      heatSource: "Controlled charcoal hearth",
-      ingredientsList: [
-        "Stone-ground dehusked black gram flour",
-        "Fermented buttermilk starter (Takra)",
-        "Cold-pressed sesame oil",
-        "Crushed wild cumin and black pepper",
-        "Himalayan rock salt",
-      ],
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Porous clay griddle (kallu odu) / heavy seasoned cast-iron flat tawa",
+      heatSource: "Firewood hearths / domestic LPG gas burners",
+      ingredientsList: [],
       preparationMethod:
-        "Lentil flour kneaded with sour buttermilk and rested overnight until foaming micro-bubbles doubled its volume. Ladled onto an oiled earthen pan and covered with a curved lid to steam-bake.",
+        "Transitioned from thick, soft earthen-baked cakes to wafer-thin golden crepes rolled around spiced potato palya and smeared with red Byadagi garlic chutney.",
       contemporaryDifference:
-        "Soft and spongy like a thick pancake; rice was secondary to the pulse matrix.",
+        "Cast-iron metallurgy, New World potato and chilli adoption, and 20th-century Udupi hotel innovation created the modern crisp Masala Dosa.",
     },
-    technologicalLeap: "Natural lactic acid fermentation giving signature tangy flavor and airy lightness.",
-    documentedCitation: "Manasollasa (1130 CE), Chapter on Annabhoga, Verse 1375.",
+    technologicalLeap: "Cast-iron heat conduction enabling wafer-thin crisping and concealed spiced potato stuffing.",
+    documentedCitation: "Comparative historical culinary records & Mysore-Bangalore hotel archives.",
   },
   {
     generationNumber: 3,
-    eraTitle: "Maritime Caravans & Spice Exchanges",
-    yearRange: "c. 1500 – 1650 CE",
-    centuryLabel: "Epoch III",
-    headline: "Black Pepper to Portuguese Capsicum Chillies",
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Masala Dosa Recipe: 10 Key Ingredients, 8 Steps",
     shortDescription:
-      "Maritime merchant guilds shipped Tellicherry black pepper across the Arabian Sea, while Portuguese ships arriving in Goa introduced South American capsicum chillies and potatoes. Cooks incorporated chillies into spicy accompaniment chutneys.",
+      "Key ingredients: Sona Masuri rice, urad dal, fenugreek seeds, poha, potatoes, onions, green chillies, mustard seeds, curry leaves, pure desi ghee or butter.",
     image: ERA_PHOTO.spice_trade,
     generationRecipe: {
-      recipeName: "Maritime Tempered Griddle Dosa",
-      historicalCookware: "Early bronze bell-metal uruli & iron plates",
-      heatSource: "Hardwood charcoal chulha",
+      recipeName: "Masala Dosa Recipe",
+      historicalCookware: "Seasoned cast-iron flat tawa with curved ladle",
+      heatSource: "Medium-high gas flame with water-sizzle testing",
       ingredientsList: [
-        "Parboiled wetland rice (2 parts)",
-        "White urad dal (1 part)",
-        "Portuguese dried red chillies (newly adopted)",
-        "Fresh curry leaves (Karivepaku)",
-        "Mustard seeds & sesame oil",
+        "Sona Masuri rice",
+        "urad dal",
+        "fenugreek seeds (methi)",
+        "poha (flattened rice)",
+        "potatoes",
+        "onions",
+        "green chillies",
+        "mustard seeds",
+        "curry leaves",
+        "pure desi ghee or butter",
       ],
       preparationMethod:
-        "Soaked rice and dal ground on stone attukal with soaked fenugreek seeds. Cooked on early iron plates and served alongside fiery red chilli chutneys replacing ancient peppercorn relishes.",
+        "1. Soak Sona Masuri rice, urad dal, fenugreek seeds, and poha in water for 5 hours, then grind in a wet grinder to a silky, aerated batter.\n2. Add salt, mix thoroughly with hands to introduce natural microflora, and ferment overnight in a warm spot for 8 to 12 hours.\n3. Boil potatoes until tender, peel, and coarsely hand-mash into uneven chunks.\n4. Heat oil in a pan, crackle mustard seeds, cumin, chana dal, urad dal, and curry leaves; saute sliced onions, green chillies, and ginger until translucent.\n5. Stir in turmeric, salt, mashed potatoes, and a splash of water; simmer the potato palya for 3 minutes and finish with fresh coriander.\n6. Heat a seasoned cast-iron tawa over medium-high heat, sprinkle water to test sizzle, and wipe with a lightly oiled cloth.\n7. Pour a ladleful of fermented batter in the centre and swirl smoothly in outward circular motions into a thin, even crepe.\n8. Drizzle pure ghee or butter along the edges, cook until golden crisp, spread red chutney inside, add warm potato palya, fold neatly, and serve hot with coconut chutney and sambar.",
       contemporaryDifference:
-        "Adoption of fiery red chillies dramatically transformed the color and spice profile.",
+        "Numbered 8-step authentic fermented batter and iron tawa roasting method using 10 essential Karnataka ingredients.",
     },
-    technologicalLeap: "Integration of New World chillies and fenugreek seeds for golden browning.",
-    documentedCitation: "Portuguese Estado da India trade logs & K.T. Achaya monographs.",
+    technologicalLeap: "Precision 8-step fermentation, potato palya seasoning, and iron-tawa crisp folding protocol.",
+    documentedCitation: "Codified Karnataka regional recipe documentation.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// BISI BELE BATH (Karnataka)
+// ─────────────────────────────────────────────
+export const BISI_BELE_BATH_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Bisi Bele Bath in Karnataka & the Mysore Palace",
+    shortDescription:
+      "Bisi Bele Bath originates from the royal kitchens of the Mysore Palace under the Wodeyar dynasty in southern Karnataka. The name translates in Kannada to 'hot lentil rice' (bisi = hot, bele = lentil, bath = rice preparation). Palace cooks formulated it as an elaborate, wholesome royal offering to the palace deities, combining short-grain rice with toor dal, wild forest spices, aged tamarind, and desi ghee. From the Mysore court, the dish was embraced by Karnataka's temple traditions and Madhwa community kitchens, establishing its iconic status across the state.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Heavy brass uruli or tin-lined copper degchi",
+      heatSource: "Hardwood and charcoal embers burning slow",
+      ingredientsList: [],
+      preparationMethod:
+        "Short-grain rice and toor dal simmered slowly over gentle wood embers with aged country tamarind, ghee, and freshly roasted palace spice paste.",
+      contemporaryDifference:
+        "Royal Mysore court origin as a sacred one-pot lentil-rice offering with hand-roasted local spices and pure ghee.",
+    },
+    technologicalLeap: "Royal palace formulation of a complete balanced grain, pulse, spice, and ghee one-pot preparation.",
+    documentedCitation: "Mysore Wodeyar court culinary chronicles & regional temple manuscripts.",
   },
   {
-    generationNumber: 4,
-    eraTitle: "Foundry Metallurgy & Cast Iron",
-    yearRange: "c. 1880 – 1930 CE",
-    centuryLabel: "Epoch IV",
-    headline: "The High-Heat Sizzle & The Paper-Thin Roast",
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
     shortDescription:
-      "The invention of the paper-thin crisp dosa! When British Indian foundries produced smooth seasoned cast-iron flat griddles (tawas), high heat retention allowed batter to be swirled gossamer-thin with generous clarified butter.",
-    image: ERA_PHOTO.tawa_sizzle,
+      "Cooking method: separate slow wood-fire simmering of dal and rice in open vessels / unified pressure cooking followed by rapid direct spice simmering\nVessel: heavy brass urulis and tin-lined copper degchis / modern stainless steel pressure cookers and heavy-bottom pots\nFuel: tamarind wood and charcoal hearths burning slow / domestic LPG gas stoves and induction cooktops\nCooking time: 2 to 3 hours of continuous simmering and stirring / 25 to 35 minutes in domestic pressure cookers\nSpice blending: whole spices hand-roasted on iron plates and crushed on stone grinding slabs / electric mixer-ground homemade batches or packaged spice powders\nVegetables: limited to native ash gourd, drumsticks, and raw plantains / hearty mix of carrots, French beans, green peas, and shallots\nSourness and sweetness: dark country tamarind and slow-melted palm jaggery / seedless tamarind paste and organic cane jaggery\nGarnish and serving: fresh fried cashews in pure country cow ghee / fried cashews, spicy kara boondi, and potato chips served in darshini restaurants",
+    image: ERA_PHOTO.stone_ferment,
     generationRecipe: {
-      recipeName: "The Vintage Iron Tawa Ghee Roast",
-      historicalCookware: "Heavy seasoned cast-iron tawa",
-      heatSource: "High-temperature coal and charcoal hearth",
-      ingredientsList: [
-        "Aged Sona Masuri rice",
-        "Whole urad gotu",
-        "Poha (flattened rice for crisp lacy pores)",
-        "Pure churned cow ghee",
-        "Rock salt",
-      ],
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Heavy brass uruli / modern domestic pressure cooker",
+      heatSource: "Charcoal hearths / domestic LPG gas and induction",
+      ingredientsList: [],
       preparationMethod:
-        "A ladle of smooth fermented batter poured into the searing center of the tawa, rapidly spiraled outward into a translucent wafer. Splashes of ghee sizzled the perimeter until it curled freely.",
+        "Transitioned from a 3-hour royal cauldron slow-cook to a streamlined one-pot pressure-cook enriched with vibrant Byadagi chillies, vegetables, and kara boondi.",
       contemporaryDifference:
-        "Transitioned from soft thick bread to an audible, wafer-thin crunchy shell.",
+        "Modern pressure cooking, multi-vegetable additions, and darshini restaurant culture popularized the royal preparation for everyday households.",
     },
-    technologicalLeap: "Cast-iron thermal conductivity enabling the iconic paper roast spiral.",
-    documentedCitation: "Mysore Palace kitchen chronicles & Udupi Krishna Temple records.",
+    technologicalLeap: "Unified pressure cooking and Byadagi-copra spice blending preserving royal aroma in minutes.",
+    documentedCitation: "Karnataka regional food surveys & commercial darshini culinary monographs.",
   },
   {
-    generationNumber: 5,
-    eraTitle: "The Udupi Hotel Revolution",
-    yearRange: "c. 1940 – 1960 CE",
-    centuryLabel: "Epoch V",
-    headline: "The Invention of the Hidden Potato Masala",
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Bisi Bele Bath Recipe: 10 Key Ingredients, 8 Steps",
     shortDescription:
-      "Orthodox Udupi Brahmin hotels in Bangalore and Mysore faced onion restrictions and potato surpluses. Chefs seasoned boiled potatoes with turmeric and hidden chopped onions, rolling the filling securely inside the folded crepe.",
-    image: ERA_PHOTO.masala_dosa_hero,
+      "Key ingredients: Sona Masuri rice, toor dal, mixed vegetables (carrots, beans, peas), tamarind extract, jaggery, Byadagi dry red chillies, kapok buds (marathi moggu), dry coconut (copra), cashew nuts, pure desi ghee.",
+    image: ERA_PHOTO.spice_trade,
     generationRecipe: {
-      recipeName: "Udupi Classic Masala Dosa",
-      historicalCookware: "Commercial restaurant cast-iron range",
-      heatSource: "Town gas & charcoal braziers",
+      recipeName: "Bisi Bele Bath Recipe",
+      historicalCookware: "Heavy-bottomed pot and pressure cooker with tadka pan",
+      heatSource: "Medium pressure-cook followed by low ghee simmer",
       ingredientsList: [
-        "Crisp fermented rice-dal crepe",
-        "Boiled mashed potatoes with turmeric",
-        "Mustard seeds, green chillies & curry leaves",
-        "Spicy red Byadagi garlic chutney smear",
-        "Desi butter",
+        "Sona Masuri rice",
+        "toor dal (pigeon peas)",
+        "mixed vegetables (carrots, beans, peas)",
+        "tamarind extract",
+        "jaggery (bella)",
+        "Byadagi dry red chillies",
+        "kapok buds (marathi moggu)",
+        "dry coconut (copra)",
+        "cashew nuts",
+        "pure desi ghee",
       ],
       preparationMethod:
-        "The interior of the crisp crepe is smeared with red Byadagi garlic paste, lined with warm spiced potato palya, folded into a golden cylinder, and served immediately on a banana leaf.",
+        "1. Rinse Sona Masuri rice and toor dal together, then pressure-cook with water and a pinch of turmeric for 4 to 5 whistles until soft and easily mashable.\n2. Dry-roast Byadagi chillies, chana dal, urad dal, coriander seeds, cumin, fenugreek, marathi moggu, and cinnamon until aromatic; add grated copra and hing, cool, and grind into a fine bisi bele bath spice powder.\n3. Boil chopped carrots, French beans, potatoes, peas, and shallots in water with salt until tender.\n4. Add thick tamarind extract, grated jaggery, and 3 tablespoons of the prepared spice powder to the cooked vegetables and simmer for 5 minutes.\n5. Lightly mash the cooked rice and dal, then combine them into the bubbling spiced vegetable broth.\n6. Adjust consistency with warm water to a smooth, pourable porridge and simmer on low heat for 7 minutes, stirring gently to prevent sticking.\n7. Heat pure desi ghee in a pan, crackle mustard seeds and curry leaves, and fry cashew nuts and broken dried chillies until golden.\n8. Pour the sizzling ghee tempering over the bisi bele bath, mix well, rest for 2 minutes, and serve piping hot topped with crisp kara boondi.",
       contemporaryDifference:
-        "The complete birth of the modern 'Masala Dosa' triad (crepe + potato + chutney).",
+        "Numbered 8-step authentic one-pot lentil rice, spice powder roasting, and ghee tempering process using 10 essential Karnataka ingredients.",
     },
-    technologicalLeap: "Concealed filling architecture and multi-texture gastronomy.",
-    documentedCitation: "Vidyarthi Bhavan (Bangalore, 1943) & Woodlands Hotel archives.",
-  },
-  {
-    generationNumber: 6,
-    eraTitle: "Contemporary Living Legend",
-    yearRange: "Present Day",
-    centuryLabel: "Epoch VI",
-    headline: "The Global Culinary Crown Jewel",
-    shortDescription:
-      "Celebrated across the globe from Bengaluru to New York. Served on an emerald-cut banana leaf with piping hot drumstick sambar and coconut chutney, its golden crust breaks with a crisp shatter.",
-    image: ERA_PHOTO.masala_dosa_hero,
-    generationRecipe: {
-      recipeName: "Artisanal Mysore Masala Dosa Master Formulation",
-      historicalCookware: "Hand-seasoned artisan cast-iron tawa",
-      heatSource: "High-BTU induction / dual-ring gas flame",
-      ingredientsList: [
-        "3:1 ratio of parboiled rice to whole urad dal",
-        "Methi seeds (fenugreek) for enzyme caramelization",
-        "Organic Russet potatoes with hand-crushed mustard palya",
-        "Deep ruby Byadagi-garlic emulsion",
-        "Aromatic freshly pressed coconut chutney & sambar",
-      ],
-      preparationMethod:
-        "Precision 12-hour controlled temperature fermentation (30°C). Searing tawa roasted to 190°C with butter swirl. Folded to order and plated within 45 seconds.",
-      contemporaryDifference:
-        "Micro-filtered water, temperature-controlled fermentation, perfected golden ratios.",
-    },
-    technologicalLeap: "Global standardization of high-speed artisan street and fine-dining craft.",
-    documentedCitation: "UNESCO Cultural Heritage documentation & Michelin Guide evaluations.",
+    technologicalLeap: "Streamlined 8-step pressure cook, fresh bisi bele bath podi roasting, and ghee-cashew tempering protocol.",
+    documentedCitation: "Codified Karnataka regional recipe documentation.",
   },
 ];
 
@@ -397,6 +389,89 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
     },
     technologicalLeap: "Dual-tone grain presentation over tender marinated meat.",
     documentedCitation: "National GI Tag Registry & Telangana Gastronomic Survey.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// HYDERABADI HALEEM (Telangana)
+// ─────────────────────────────────────────────
+export const HALEEM_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Hyderabadi Haleem in the Deccan",
+    shortDescription:
+      "Haleem traces its ancestry to the medieval Arab dish harees, a slow-cooked porridge of pounded meat and wheat. It was introduced to Hyderabad by the Arab diaspora (Chaush soldiers from Yemen) serving in the irregular army of the Asaf Jahi Nizams. In the royal kitchens of the Nizams and Paigah nobles, the rustic harees was refined and Indianized by introducing aromatic Deccan spices, mixed lentils, ghee, dry fruits, and rose petals. It became the signature delicacy of Hyderabad, especially cherished during Ramzan for breaking the fast.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Large copper or brass cauldrons (Degs) over bhatti fire",
+      heatSource: "Wood and charcoal bhatti fire burning overnight",
+      ingredientsList: [],
+      preparationMethod:
+        "Slow-simmered for 8 to 12 hours and vigorously pounded with heavy wooden pestles (ghotni) until meat and wheat merge into a smooth, cohesive porridge.",
+      contemporaryDifference:
+        "Introduced by Yemeni Chaush soldiers and refined in Asaf Jahi royal kitchens with fragrant Deccan spices and pure ghee.",
+    },
+    technologicalLeap: "Bhatti simmer and rhythmic wooden ghotni pounding extracting gelatinous collagen and wheat starches.",
+    documentedCitation: "Medieval Arab culinary compendiums & Asaf Jahi court kitchen archives.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders\nVessel: massive heavy tinned copper cauldrons (degs/bhatti) / stainless steel pots, heavy-bottom handis, and domestic pressure cookers\nFuel: tamarind wood and charcoal bhattis burning low overnight / LPG gas stoves, induction, and commercial gas burners\nCooking time: 10 to 12 hours of overnight simmering / 1.5 to 2.5 hours in home pressure cookers\nPounding: 2 to 3 skilled cooks rhythmically beating with wooden poles (ghotnis) / home wooden whisks, potato mashers, or short pulses of electric blenders\nMeat: traditional bone-in tender goat/mutton marrow cuts slow-cooked till bones slip out / boneless mutton, chicken (now widespread in restaurants), and modern vegetarian lentil variants\nFlavourings: pure desi ghee, freshly stone-ground potli masala, rose water, and wild cinnamon / commercial packaged haleem spice blends and ready ginger-garlic paste\nGarnish & Serving: golden fried onions (birista), ghee drizzle, fresh mint, coriander, lime, and sliced almonds/cashews / similar traditional garnishes maintained across both royal feasts and modern takeaway boxes",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Massive copper bhatti cauldrons / stainless steel pots and pressure cookers",
+      heatSource: "Tamarind wood and charcoal / domestic LPG gas and electricity",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders",
+      contemporaryDifference:
+        "Transition from overnight wood-fired bhatti cauldrons to rapid pressure cooking and domestic handheld blenders.",
+    },
+    technologicalLeap: "Mechanical and thermal evolution shortening 12-hour manual labor to domestic accessibility.",
+    documentedCitation: "Gastronomic surveys and regional technology documentation.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Hyderabadi Haleem Recipe: 10 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Hyderabadi Haleem Recipe",
+      historicalCookware: "Heavy-bottomed pot or pressure cooker with wooden masher (ghotni)",
+      heatSource: "Medium sear followed by low simmering and continuous pounding",
+      ingredientsList: [
+        "broken wheat (dalia)",
+        "boneless mutton",
+        "chana and moong lentils",
+        "curd (yoghurt)",
+        "pure desi ghee",
+        "fried onions (birista)",
+        "ginger-garlic paste",
+        "whole spices and garam masala",
+        "mint and coriander",
+        "almonds and cashew nuts",
+      ],
+      preparationMethod:
+        "1. Soak broken wheat and lentils (chana and moong) in water for 1 to 2 hours, then drain.\n2. Marinate the mutton with curd, ginger-garlic paste, turmeric, chilli powder, salt, and half of the garam masala for at least 1 hour.\n3. In a heavy pot or pressure cooker, heat ghee and saute whole spices (shahi jeera, cardamom, cloves, cinnamon) and a portion of fried onions until fragrant.\n4. Add the marinated meat and sear on medium-high heat, then add water and pressure-cook or slow-simmer until the meat is thoroughly tender and falling apart.\n5. Separately boil the soaked broken wheat and lentils with a pinch of turmeric and water until completely soft and mushy.\n6. Shred the cooked meat off any bones and combine the shredded meat and its rich broth into the pot of cooked wheat and lentils.\n7. Slow-simmer over low heat while vigorously mashing and pounding with a wooden masher (ghotni) for 30–40 minutes, gradually incorporating hot ghee until the mixture turns silky, elastic, and pasty.\n8. Season with remaining garam masala, mint, and coriander; ladle into warm bowls and top with hot ghee, golden fried onions, toasted cashews, and fresh lemon wedges.",
+      contemporaryDifference:
+        "Numbered 8-step tender-simmer and ghotni pounding protocol using 10 essential ingredients.",
+    },
+    technologicalLeap: "Collagen-rich slow-pounding emulsification protocol.",
+    documentedCitation: "National GI Registry Document No. 147 & Telangana Gastronomic Survey.",
   },
 ];
 
@@ -1852,8 +1927,12 @@ function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoin
   switch (dishId) {
     case "masala-dosa":
       return DOSA_GENERATIONS;
+    case "bisi-bele-bath":
+      return BISI_BELE_BATH_GENERATIONS;
     case "hyderabadi-biryani":
       return BIRYANI_GENERATIONS;
+    case "hyderabadi-haleem":
+      return HALEEM_GENERATIONS;
     case "indori-poha":
       return INDORI_POHA_GENERATIONS;
     case "bhutte-ka-kees":
@@ -1912,18 +1991,31 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
         heatSource: source.generationRecipe.heatSource,
         ingredientsList:
           dishId === "hyderabadi-biryani" ||
-          dishId === "indori-poha" ||
-          dishId === "bhutte-ka-kees" ||
-          dishId === "dal-bafla" ||
-          dishId === "makki-di-roti-sarson-saag" ||
-          dishId === "butter-chicken" ||
-          dishId === "amritsari-kulcha"
+          dishId === "hyderabadi-haleem" ||
+          dishId === "masala-dosa" ||
+          dishId === "bisi-bele-bath"
+            ? (stage.number === 3 && legacy[2]?.generationRecipe.ingredientsList?.length
+                ? legacy[2].generationRecipe.ingredientsList
+                : source.generationRecipe.ingredientsList)
+            : dishId === "indori-poha" ||
+              dishId === "bhutte-ka-kees" ||
+              dishId === "dal-bafla" ||
+              dishId === "makki-di-roti-sarson-saag" ||
+              dishId === "butter-chicken" ||
+              dishId === "amritsari-kulcha"
             ? source.generationRecipe.ingredientsList
             : stage.key === "ingredients" && dish.ingredients.length
             ? dish.ingredients
             : source.generationRecipe.ingredientsList,
         preparationMethod:
-          stage.key === "method"
+          (dishId === "hyderabadi-biryani" ||
+            dishId === "hyderabadi-haleem" ||
+            dishId === "masala-dosa" ||
+            dishId === "bisi-bele-bath") &&
+          stage.number === 3 &&
+          legacy[2]?.generationRecipe.preparationMethod
+            ? legacy[2].generationRecipe.preparationMethod
+            : stage.key === "method"
             ? `${dish.keyTechnique}. ${stage.details[0]}`
             : stage.details[0],
         contemporaryDifference:

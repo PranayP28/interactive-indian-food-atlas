@@ -253,21 +253,7 @@ export const ADDITIONAL_DISHES: Record<string, Dish[]> = {
     },
   ],
 
-  Karnataka: [
-    {
-      id: "mysore-pak",
-      name: "Mysore Pak",
-      alternateName: "Mysuru Pak",
-      state: "Karnataka",
-      category: "sweet-dessert",
-      description:
-        "A dense, porous fudge of gram flour, sugar syrup and generous ghee, cooked to the exact 'pak' stage until it sets with a honeycomb grain; associated with the Mysore royal kitchen.",
-      ingredients: ["Gram flour (besan)", "Sugar", "Ghee", "Water", "Cardamom"],
-      tasteProfile: "Ghee-Soaked, Grainy & Melt-in-the-Mouth",
-      era: "Mysore palace-kitchen tradition, documented in 20th-century accounts",
-      keyTechnique: "Syrup-Stage Control & Ghee-Emulsified Besan",
-    },
-  ],
+  Karnataka: [],
 
   "Madhya Pradesh": [
     {

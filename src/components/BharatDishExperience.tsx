@@ -5,6 +5,9 @@ import {
   BookOpen,
   Volume2,
   VolumeX,
+  Play,
+  Pause,
+  Square,
   ChevronRight,
   CheckCircle2,
   Share2,
@@ -23,6 +26,11 @@ import { GsapMotionPathTimeline } from "./GsapMotionPathTimeline";
 import { useTheme } from "../context/ThemeContext";
 import { ThemeToggle } from "./ui/ThemeToggle";
 import { AboutModal } from "./AboutModal";
+import {
+  DishNarratorController,
+  NarrationStatus,
+  isSpeechSynthesisSupported,
+} from "../utils/dishNarrator";
 
 interface BharatDishExperienceProps {
   dishId: string;
@@ -43,82 +51,76 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
   // UI state
   const [showSourcesModal, setShowSourcesModal] = useState(false);
   const [showDishSwitcher, setShowDishSwitcher] = useState(false);
-  const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const [copiedLink, setCopiedLink] = useState(false);
   const [showAboutModal, setShowAboutModal] = useState(false);
 
-  // Audio Context Ref for Web Audio synthesizer
-  const audioCtxRef = useRef<AudioContext | null>(null);
-  const gainNodeRef = useRef<GainNode | null>(null);
+  // Text-to-Speech Narrator state
+  const [narrationStatus, setNarrationStatus] = useState<NarrationStatus>("idle");
+  const [activeSpeechStage, setActiveSpeechStage] = useState<number | null>(null);
+  const narratorRef = useRef<DishNarratorController | null>(null);
 
   // Update URL hash when dishId changes
   useEffect(() => {
     window.location.hash = `/dish/${dishId}`;
   }, [dishId]);
 
-  // Audio synthesizer: warm calming drone & gentle hearth hum
-  const toggleAudio = () => {
-    if (isAudioPlaying) {
-      if (gainNodeRef.current && audioCtxRef.current) {
-        gainNodeRef.current.gain.setTargetAtTime(0, audioCtxRef.current.currentTime, 0.2);
-        setTimeout(() => {
-          audioCtxRef.current?.suspend();
-          setIsAudioPlaying(false);
-        }, 300);
-      }
+  // Initialize and update narrator controller when dishId changes
+  useEffect(() => {
+    if (narratorRef.current) {
+      narratorRef.current.destroy();
+      narratorRef.current = null;
+    }
+
+    const controller = new DishNarratorController({
+      dishId,
+      dishName: currentDish.name,
+      onStatusChange: (status) => setNarrationStatus(status),
+      onStageChange: (stage) => setActiveSpeechStage(stage),
+    });
+
+    narratorRef.current = controller;
+    setNarrationStatus("idle");
+    setActiveSpeechStage(null);
+
+    return () => {
+      controller.destroy();
+      narratorRef.current = null;
+    };
+  }, [dishId, currentDish.name]);
+
+  // Clean stop on page unload or visibility hide
+  useEffect(() => {
+    const handleUnload = () => {
+      narratorRef.current?.destroy();
+    };
+    window.addEventListener("beforeunload", handleUnload);
+    window.addEventListener("pagehide", handleUnload);
+    return () => {
+      window.removeEventListener("beforeunload", handleUnload);
+      window.removeEventListener("pagehide", handleUnload);
+    };
+  }, []);
+
+  const handleToggleNarration = () => {
+    if (!isSpeechSynthesisSupported()) {
+      alert("Text-to-Speech is not supported by your browser.");
+      return;
+    }
+    if (!narratorRef.current) return;
+
+    if (narrationStatus === "playing") {
+      narratorRef.current.pause();
+    } else if (narrationStatus === "paused") {
+      narratorRef.current.resume();
     } else {
-      try {
-        if (!audioCtxRef.current) {
-          const AudioContextClass =
-            window.AudioContext ||
-            (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
-          const ctx = new AudioContextClass();
-          audioCtxRef.current = ctx;
-
-          // Warm harmonic drone (Root C# 138Hz + Fifth G# 207Hz)
-          const osc1 = ctx.createOscillator();
-          const osc2 = ctx.createOscillator();
-          const filter = ctx.createBiquadFilter();
-          const gain = ctx.createGain();
-
-          osc1.type = "sine";
-          osc1.frequency.setValueAtTime(138.59, ctx.currentTime); // C#3
-          osc2.type = "triangle";
-          osc2.frequency.setValueAtTime(207.65, ctx.currentTime); // G#3
-
-          filter.type = "lowpass";
-          filter.frequency.setValueAtTime(320, ctx.currentTime);
-
-          gain.gain.setValueAtTime(0.001, ctx.currentTime);
-          gain.gain.exponentialRampToValueAtTime(0.08, ctx.currentTime + 1.5);
-
-          osc1.connect(filter);
-          osc2.connect(filter);
-          filter.connect(gain);
-          gain.connect(ctx.destination);
-
-          osc1.start();
-          osc2.start();
-          gainNodeRef.current = gain;
-        } else {
-          audioCtxRef.current.resume();
-          gainNodeRef.current?.gain.setTargetAtTime(0.08, audioCtxRef.current.currentTime, 0.5);
-        }
-        setIsAudioPlaying(true);
-      } catch (e) {
-        console.warn("Web Audio not supported or blocked", e);
-      }
+      narratorRef.current.play();
     }
   };
 
-  // Cleanup audio on unmount
-  useEffect(() => {
-    return () => {
-      if (audioCtxRef.current) {
-        audioCtxRef.current.close().catch(() => {});
-      }
-    };
-  }, []);
+  const handleStopNarration = () => {
+    if (!narratorRef.current) return;
+    narratorRef.current.stop();
+  };
 
   const copyShareLink = () => {
     const url = `${window.location.origin}${window.location.pathname}#/dish/${dishId}`;
@@ -260,26 +262,77 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
             <span className="hidden sm:inline">Citations ({journey?.citations?.length ?? 0})</span>
           </button>
 
-          {/* Audio Ambience Synthesizer Toggle */}
-          <button
-            onClick={toggleAudio}
-            className={`p-2 rounded-xl border text-xs transition-all ${
-              isAudioPlaying
-                ? isLight
-                  ? "bg-amber-200 text-amber-950 border-amber-400 shadow-sm"
-                  : "bg-amber-500/20 text-amber-300 border-amber-500/40"
-                : isLight
-                ? "bg-white/90 text-slate-600 border-amber-900/15 hover:text-slate-900 shadow-sm"
-                : "bg-slate-850 text-slate-400 border-slate-750 hover:text-slate-200"
-            }`}
-            title={isAudioPlaying ? "Mute Ambient Sound" : "Listen to Atmospheric Drone"}
-          >
-            {isAudioPlaying ? (
-              <Volume2 className="w-4 h-4 animate-pulse text-amber-600" />
-            ) : (
-              <VolumeX className="w-4 h-4" />
-            )}
-          </button>
+          {/* Read Aloud Narration Sound Icon */}
+          {narrationStatus === "idle" ? (
+            <button
+              onClick={handleToggleNarration}
+              className={`p-2 rounded-xl border text-xs transition-all ${
+                isLight
+                  ? "bg-white/90 text-slate-600 border-amber-900/15 hover:text-slate-900 hover:border-amber-400 shadow-sm"
+                  : "bg-slate-850 text-slate-400 border-slate-750 hover:text-slate-200 hover:border-amber-500/40"
+              }`}
+              title="Listen to Dish Narration"
+              aria-label="Listen to dish narration"
+            >
+              <Volume2 className="w-4 h-4" />
+            </button>
+          ) : narrationStatus === "playing" ? (
+            <div className="flex items-center gap-1">
+              <button
+                onClick={handleToggleNarration}
+                className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-semibold transition-all ${
+                  isLight
+                    ? "bg-amber-200 text-amber-950 border-amber-400 shadow-sm"
+                    : "bg-amber-500/20 text-amber-300 border-amber-500/40"
+                }`}
+                title="Pause Narration"
+                aria-label="Pause narration"
+              >
+                <Volume2 className="w-4 h-4 animate-pulse text-amber-600" />
+                <Pause className="w-3.5 h-3.5 fill-amber-800 text-amber-800 dark:fill-amber-300 dark:text-amber-300" />
+              </button>
+              <button
+                onClick={handleStopNarration}
+                className={`p-1.5 rounded-xl border text-xs transition-all ${
+                  isLight
+                    ? "bg-white/90 hover:bg-red-50 text-red-600 border-red-200 shadow-sm"
+                    : "bg-slate-800 hover:bg-red-950/40 text-red-400 border-red-900/40"
+                }`}
+                title="Stop Narration"
+                aria-label="Stop narration"
+              >
+                <Square className="w-3.5 h-3.5 fill-current" />
+              </button>
+            </div>
+          ) : (
+            <div className="flex items-center gap-1">
+              <button
+                onClick={handleToggleNarration}
+                className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-semibold transition-all ${
+                  isLight
+                    ? "bg-amber-100/90 text-amber-950 border-amber-300 shadow-sm"
+                    : "bg-slate-800 text-amber-300 border-amber-600/40"
+                }`}
+                title="Resume Narration"
+                aria-label="Resume narration"
+              >
+                <VolumeX className="w-4 h-4 text-amber-600" />
+                <Play className="w-3.5 h-3.5 fill-amber-800 text-amber-800 dark:fill-amber-300 dark:text-amber-300" />
+              </button>
+              <button
+                onClick={handleStopNarration}
+                className={`p-1.5 rounded-xl border text-xs transition-all ${
+                  isLight
+                    ? "bg-white/90 hover:bg-red-50 text-red-600 border-red-200 shadow-sm"
+                    : "bg-slate-800 hover:bg-red-950/40 text-red-400 border-red-900/40"
+                }`}
+                title="Stop Narration"
+                aria-label="Stop narration"
+              >
+                <Square className="w-3.5 h-3.5 fill-current" />
+              </button>
+            </div>
+          )}
 
           {/* Theme Toggle (Light / Dark) */}
           <ThemeToggle />
@@ -328,6 +381,7 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
           dishId={dishId}
           dishName={currentDish.name}
           dish={currentDish}
+          activeSpeechStage={activeSpeechStage}
         />
       </div>
 
