@@ -1387,7 +1387,7 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "title": "Undhiyu, Origin (Birth of the food)",
     "subtitle": "Mixed winter-vegetable dish of Gujarat, traditionally cooked in an earthen pot buried upside down with fire on top.",
     "era": "Birth of the food",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.05.49 PM.jpeg",
+    "image": "/images_updated/undhiyu-stage-1.png",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
     "ingredients": [
@@ -1406,7 +1406,7 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "title": "Undhiyu, Evolution of Food",
     "subtitle": "Then vs Now: Sealed earthen pot under charcoal embers to pressure cookers and modern stoves",
     "era": "Evolution of Food",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.06.45 PM.jpeg",
+    "image": "/images_updated/undhiyu-stage-2.png",
     "isFullTimelinePoster": false,
     "stageNumber": 2,
     "ingredients": []
@@ -1417,7 +1417,7 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "title": "Undhiyu, Recipe",
     "subtitle": "Key ingredients: Surti papdi, purple yam, baby potatoes, raw banana, brinjals, toovar seeds, muthiya, green masala",
     "era": "Recipe",
-    "image": "/images_updated/WhatsApp Image 2026-11-03 at 11.06.45 PM.jpeg",
+    "image": "/images_updated/undhiyu-stage-3.png",
     "isFullTimelinePoster": false,
     "stageNumber": 3,
     "ingredients": [
