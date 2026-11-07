@@ -113,7 +113,13 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         numeral: "02",
         eyebrow: "Stage II",
         title:
-          dishId === "hyderabadi-biryani" || dishId === "hyderabadi-haleem"
+          dishId === "hyderabadi-biryani" ||
+          dishId === "indori-poha" ||
+          dishId === "bhutte-ka-kees" ||
+          dishId === "dal-bafla" ||
+          dishId === "makki-di-roti-sarson-saag" ||
+          dishId === "butter-chicken" ||
+          dishId === "amritsari-kulcha"
             ? "Evolution of Food"
             : "Regional & Seasonal Produce",
         photo: photography?.ingredients,
@@ -822,140 +828,152 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       </div>
                     )}
 
-                    {/* ── THE GENERATION RECIPE BOX (Omitted in Stage 3 for Hyderabadi Dum Biryani and Haleem where recipe is in Stage 3 beginning) ── */}
-                    {!(
-                      (dishId === "hyderabadi-biryani" || dishId === "hyderabadi-haleem") &&
-                      stageNum === 3
-                    ) && (
+                    {/* ── THE GENERATION RECIPE BOX ── */}
+                    <div
+                      className={`p-4 sm:p-5 rounded-2xl border shadow-xl space-y-3 ${
+                        isLight
+                          ? "bg-white/95 border-amber-900/15 text-slate-800 shadow-amber-950/5"
+                          : "bg-slate-900/90 border-amber-500/30 text-slate-100"
+                      }`}
+                    >
                       <div
-                        className={`p-4 sm:p-5 rounded-2xl border shadow-xl space-y-3 ${
-                          isLight
-                            ? "bg-white/95 border-amber-900/15 text-slate-800 shadow-amber-950/5"
-                            : "bg-slate-900/90 border-amber-500/30 text-slate-100"
+                        className={`flex items-center justify-between border-b pb-2 ${
+                          isLight ? "border-amber-900/10" : "border-slate-800"
                         }`}
                       >
-                        <div
-                          className={`flex items-center justify-between border-b pb-2 ${
-                            isLight ? "border-amber-900/10" : "border-slate-800"
-                          }`}
-                        >
-                          <div className="flex items-center gap-2">
-                            <ChefHat
-                              className={`w-4 h-4 ${isLight ? "text-amber-700" : "text-amber-400"}`}
-                            />
-                            <h4
-                              className={`font-cinzel font-bold text-xs sm:text-sm ${
-                                isLight ? "text-amber-900" : "text-amber-200"
-                              }`}
-                            >
-                              {waypoint.generationRecipe.recipeName}
-                            </h4>
-                          </div>
-                          <span
-                            className={`text-[10px] uppercase font-bold px-2 py-0.5 rounded-full border ${
-                              isLight
-                                ? "bg-amber-100 text-amber-900 border-amber-300"
-                                : "text-amber-400 bg-amber-500/10 border-amber-500/30"
+                        <div className="flex items-center gap-2">
+                          <ChefHat
+                            className={`w-4 h-4 ${isLight ? "text-amber-700" : "text-amber-400"}`}
+                          />
+                          <h4
+                            className={`font-cinzel font-bold text-xs sm:text-sm ${
+                              isLight ? "text-amber-900" : "text-amber-200"
                             }`}
                           >
-                            Epoch Technique
+                            {waypoint.generationRecipe.recipeName}
+                          </h4>
+                        </div>
+                        <span
+                          className={`text-[10px] uppercase font-bold px-2 py-0.5 rounded-full border ${
+                            isLight
+                              ? "bg-amber-100 text-amber-900 border-amber-300"
+                              : "text-amber-400 bg-amber-500/10 border-amber-500/30"
+                          }`}
+                        >
+                          Epoch Technique
+                        </span>
+                      </div>
+
+                      {/* Cookware & Heat */}
+                      <div className="grid grid-cols-2 gap-2 text-[11px]">
+                        <div
+                          className={`p-2 rounded-xl border ${
+                            isLight
+                              ? "bg-amber-50/70 border-amber-200/70"
+                              : "bg-black/40 border-slate-800"
+                          }`}
+                        >
+                          <span
+                            className={`text-[10px] uppercase font-bold block ${
+                              isLight ? "text-amber-900/70" : "text-slate-400"
+                            }`}
+                          >
+                            Cookware:
+                          </span>
+                          <span
+                            className={`font-medium truncate block ${
+                              isLight ? "text-slate-900" : "text-white"
+                            }`}
+                          >
+                            {waypoint.generationRecipe.historicalCookware}
                           </span>
                         </div>
-
-                        {/* Cookware & Heat */}
-                        <div className="grid grid-cols-2 gap-2 text-[11px]">
-                          <div
-                            className={`p-2 rounded-xl border ${
-                              isLight
-                                ? "bg-amber-50/70 border-amber-200/70"
-                                : "bg-black/40 border-slate-800"
-                            }`}
-                          >
-                            <span
-                              className={`text-[10px] uppercase font-bold block ${
-                                isLight ? "text-amber-900/70" : "text-slate-400"
-                              }`}
-                            >
-                              Cookware:
-                            </span>
-                            <span
-                              className={`font-medium truncate block ${
-                                isLight ? "text-slate-900" : "text-white"
-                              }`}
-                            >
-                              {waypoint.generationRecipe.historicalCookware}
-                            </span>
-                          </div>
-                          <div
-                            className={`p-2 rounded-xl border ${
-                              isLight
-                                ? "bg-amber-50/70 border-amber-200/70"
-                                : "bg-black/40 border-slate-800"
-                            }`}
-                          >
-                            <span
-                              className={`text-[10px] uppercase font-bold block ${
-                                isLight ? "text-amber-900/70" : "text-slate-400"
-                              }`}
-                            >
-                              Heat Source:
-                            </span>
-                            <span
-                              className={`font-medium truncate block ${
-                                isLight ? "text-orange-700" : "text-orange-300"
-                              }`}
-                            >
-                              {waypoint.generationRecipe.heatSource}
-                            </span>
-                          </div>
-                        </div>
-
-                        {/* Preparation Method */}
                         <div
-                          className={`pt-2 text-xs leading-relaxed border-t ${
+                          className={`p-2 rounded-xl border ${
                             isLight
-                              ? "text-slate-700 border-amber-900/10"
-                              : "text-slate-300 border-slate-800/80"
+                              ? "bg-amber-50/70 border-amber-200/70"
+                              : "bg-black/40 border-slate-800"
                           }`}
                         >
-                          <strong className={isLight ? "text-amber-900" : "text-amber-300"}>
-                            Method:{" "}
-                          </strong>
-                          {waypoint.generationRecipe.preparationMethod.includes("\n") ? (
-                            <div className="mt-1 space-y-1">
-                              {waypoint.generationRecipe.preparationMethod.split("\n").map((step, sIdx) => (
-                                <p key={sIdx}>{step}</p>
-                              ))}
-                            </div>
-                          ) : (
-                            waypoint.generationRecipe.preparationMethod
-                          )}
-                        </div>
-
-                        {/* Contemporary Contrast */}
-                        <div
-                          className={`p-2.5 rounded-xl border text-[11px] leading-relaxed ${
-                            isLight
-                              ? "bg-amber-100/60 border-amber-300/80 text-amber-950"
-                              : "bg-amber-950/20 border-amber-800/30 text-amber-200/90"
-                          }`}
-                        >
-                          <strong className={isLight ? "text-amber-900" : "text-amber-400"}>
-                            Era Contrast:{" "}
-                          </strong>
-                          {waypoint.generationRecipe.contemporaryDifference}
+                          <span
+                            className={`text-[10px] uppercase font-bold block ${
+                              isLight ? "text-amber-900/70" : "text-slate-400"
+                            }`}
+                          >
+                            Heat Source:
+                          </span>
+                          <span
+                            className={`font-medium truncate block ${
+                              isLight ? "text-orange-700" : "text-orange-300"
+                            }`}
+                          >
+                            {waypoint.generationRecipe.heatSource}
+                          </span>
                         </div>
                       </div>
-                    )}
+
+                      {/* Preparation Method */}
+                      <div
+                        className={`pt-2 text-xs leading-relaxed border-t ${
+                          isLight
+                            ? "text-slate-700 border-amber-900/10"
+                            : "text-slate-300 border-slate-800/80"
+                        }`}
+                      >
+                        <strong className={isLight ? "text-amber-900" : "text-amber-300"}>
+                          Method:{" "}
+                        </strong>
+                        {waypoint.generationRecipe.preparationMethod.includes("\n") ? (
+                          <div className="mt-1 space-y-1">
+                            {waypoint.generationRecipe.preparationMethod.split("\n").map((step, sIdx) => (
+                              <p key={sIdx}>{step}</p>
+                            ))}
+                          </div>
+                        ) : (
+                          waypoint.generationRecipe.preparationMethod
+                        )}
+                      </div>
+
+                      {/* Contemporary Contrast */}
+                      <div
+                        className={`p-2.5 rounded-xl border text-[11px] leading-relaxed ${
+                          isLight
+                            ? "bg-amber-100/60 border-amber-300/80 text-amber-950"
+                            : "bg-amber-950/20 border-amber-800/30 text-amber-200/90"
+                        }`}
+                      >
+                        <strong className={isLight ? "text-amber-900" : "text-amber-400"}>
+                          Era Contrast:{" "}
+                        </strong>
+                        {waypoint.generationRecipe.contemporaryDifference}
+                      </div>
+                    </div>
 
                     {/* YouTube Recipe Link (below ingredients and recipe, at the end of Stage 3) */}
-                    {(dishId === "hyderabadi-biryani" || dishId === "hyderabadi-haleem") && stageNum === 3 && (
+                    {(dishId === "hyderabadi-biryani" ||
+                      dishId === "indori-poha" ||
+                      dishId === "bhutte-ka-kees" ||
+                      dishId === "dal-bafla" ||
+                      dishId === "makki-di-roti-sarson-saag" ||
+                      dishId === "butter-chicken" ||
+                      dishId === "amritsari-kulcha") &&
+                      stageNum === 3 && (
                       <div className="pt-1">
                         <a
                           href={
-                            dishId === "hyderabadi-biryani"
-                              ? "https://www.youtube.com/watch?v=8Fw_zWPbGog"
-                              : "https://www.youtube.com/watch?v=Hc99dlM_ZkQ"
+                            dishId === "indori-poha"
+                              ? "https://youtu.be/XuttnylxuXY?si=ckFXqQLdjLIC2nCB"
+                              : dishId === "bhutte-ka-kees"
+                              ? "https://www.youtube.com/watch?v=ELuQxGELBgw"
+                              : dishId === "dal-bafla"
+                              ? "https://www.youtube.com/watch?v=3X0-I1GTOq0"
+                              : dishId === "makki-di-roti-sarson-saag"
+                              ? "https://www.youtube.com/watch?v=hI-in8nsU_Q"
+                              : dishId === "butter-chicken"
+                              ? "https://www.youtube.com/watch?v=-LueyspwzwM"
+                              : dishId === "amritsari-kulcha"
+                              ? "https://www.youtube.com/watch?v=pbI8PkiSB8E"
+                              : "https://www.youtube.com/watch?v=8Fw_zWPbGog"
                           }
                           target="_blank"
                           rel="noopener noreferrer"
