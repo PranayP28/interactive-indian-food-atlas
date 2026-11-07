@@ -76,21 +76,7 @@ export const ADDITIONAL_DISHES: Record<string, Dish[]> = {
     },
   ],
 
-  Maharashtra: [
-    {
-      id: "ukadiche-modak",
-      name: "Ukadiche Modak",
-      alternateName: "Steamed Modak",
-      state: "Maharashtra",
-      category: "sweet-dessert",
-      description:
-        "A dome of freshly kneaded rice flour, pleated by hand around a filling of jaggery and grated coconut, steamed to a translucent shell and offered to Ganesha at Chaturthi.",
-      ingredients: ["Rice flour", "Jaggery", "Grated coconut", "Cardamom", "Ghee"],
-      tasteProfile: "Sweet, Coconut-Flecked & Soft-Steamed",
-      era: "Ganesh Chaturthi offering tradition, documented from the 19th century onward",
-      keyTechnique: "Ukad Rice-Flour Pleating & Steam Bath",
-    },
-  ],
+  Maharashtra: [],
 
   // ── Batch 2: the 24 states that were still at two dishes ──────────────
   "Andhra Pradesh": [],
@@ -175,21 +161,7 @@ export const ADDITIONAL_DISHES: Record<string, Dish[]> = {
     },
   ],
 
-  Gujarat: [
-    {
-      id: "handvo",
-      name: "Handvo",
-      alternateName: "Gujarati Savoury Lentil-Rice Cake",
-      state: "Gujarat",
-      category: "fermented-steamed",
-      description:
-        "A naturally fermented batter of rice, mixed dals and grated bottle gourd, baked or shallow-steamed in a mould until the crust is deep gold, then crackled with a mustard-sesame tempering.",
-      ingredients: ["Rice", "Split pulses (tur, chana, urad)", "Bottle gourd", "Curd", "Mustard seeds", "Sesame", "Turmeric"],
-      tasteProfile: "Nutty, Tangy & Crustily Savoury",
-      era: "Gujarati household baking tradition; documented in regional cookery books",
-      keyTechnique: "Fermented Mixed-Dal Batter Baking",
-    },
-  ],
+  Gujarat: [],
 
   Haryana: [
     {
