@@ -2443,18 +2443,18 @@
         "label": "Preparation technique"
       },
       "plated": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Haleem_garnish.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Haleem_hyderabadi.jpg",
         "subject": "dish",
-        "title": "Haleem garnish",
-        "creator": "Halt123halt",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleem_garnish.jpg",
-        "alt": "Garnished bowl of Hyderabadi haleem",
-        "caption": "Hyderabadi haleem garnished with crisp fried onions (birista), fresh mint, coriander, and lemon wedge.",
+        "title": "Haleem hyderabadi",
+        "creator": "Chandu7299",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleem_hyderabadi.jpg",
+        "alt": "Authentic Hyderabadi Haleem garnished with birista, fresh mint, and lemon",
+        "caption": "Authentic Hyderabadi haleem garnished with crisp fried onions (birista), fresh mint, coriander, and lemon wedge.",
         "fallback": null,
-        "width": 416,
-        "height": 376
+        "width": 5184,
+        "height": 3456
       }
     },
     "mui-borok": {
