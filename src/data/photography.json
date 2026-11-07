@@ -612,7 +612,8 @@
       },
       "ingredients": {
         "library": "spice-bowls",
-        "caption": "Ingredients for Dhokla: gram flour (besan), fermented curd, ginger-chilli paste, mustard seeds.",
+        "caption": "Evolution of Food — from ancient fermented chickpea cakes to modern steamed nylon and khaman varieties.",
+        "label": "Evolution of Food",
         "items": [
           "Gram flour (Besan)",
           "Fermented curd",
