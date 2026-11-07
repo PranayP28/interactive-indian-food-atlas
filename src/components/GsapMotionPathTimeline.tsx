@@ -49,6 +49,7 @@ interface GsapMotionPathTimelineProps {
   dishName: string;
   dish: Dish;
   onSelectWaypoint?: (waypoint: GenerationWaypoint) => void;
+  activeSpeechStage?: number | null;
 }
 
 export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
@@ -56,6 +57,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
   dishName,
   dish,
   onSelectWaypoint,
+  activeSpeechStage,
 }) => {
   const { isLight } = useTheme();
   const containerRef = useRef<HTMLDivElement>(null);
@@ -249,6 +251,13 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
     }
   };
 
+  // Automatically scroll to waypoint when narration moves to a new stage
+  useEffect(() => {
+    if (activeSpeechStage && activeSpeechStage >= 1 && activeSpeechStage <= waypoints.length) {
+      scrollToWaypoint(activeSpeechStage - 1);
+    }
+  }, [activeSpeechStage, waypoints.length]);
+
   // Open Image Upload Search pre-targeted to a stage or ingredient
   const openImageUploadSearch = (stageNum: number, ingredientQuery = "") => {
     setModalTargetStage(stageNum);
@@ -425,14 +434,20 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
               : allStageIngredients;
 
             const selectedIng = selectedIngredients[stageNum];
+            const isStageActiveSpeech = activeSpeechStage === stageNum;
 
             return (
               <div
                 key={waypoint.generationNumber}
+                id={`dish-stage-${stageNum}`}
                 ref={(el) => {
                   waypointRefs.current[idx] = el;
                 }}
-                className="relative transition-all duration-300"
+                className={`relative transition-all duration-500 rounded-3xl ${
+                  isStageActiveSpeech
+                    ? "ring-2 ring-amber-500/80 p-2 sm:p-3 bg-amber-500/5 shadow-2xl shadow-amber-500/10"
+                    : ""
+                }`}
               >
                 <div
                   className={`grid grid-cols-1 lg:grid-cols-12 gap-8 items-start transition-all duration-300 ${
