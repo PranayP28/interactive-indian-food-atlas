@@ -2751,7 +2751,7 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "title": "Dal Baati Churma, Evolution of Food",
     "subtitle": "From sand-baked wartime army rations to Rajasthan royal celebratory thali feast.",
     "era": "Evolution of Food",
-    "image": "/images/dishes/dal-baati-churma-1.png",
+    "image": "/images/dishes/dal-baati-churma-2.png",
     "isFullTimelinePoster": false,
     "stageNumber": 2,
     "ingredients": []
