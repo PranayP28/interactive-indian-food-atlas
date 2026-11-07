@@ -163,6 +163,12 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         } else if (index === 2) {
           nextUrl = undefined;
         }
+      } else if (dishId === "dhokla") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/dhokla-1.png";
+        } else if (index === 1) {
+          nextUrl = "/images/dishes/dhokla-2.png";
+        }
       }
 
       const caption = entry.photo?.caption || (stateMainImg ? `${dish.state} — Regional heritage & culinary traditions` : undefined);
