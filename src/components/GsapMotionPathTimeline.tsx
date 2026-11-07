@@ -962,6 +962,9 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
 
                     {/* YouTube Recipe Link (below ingredients and recipe, at the end of Stage 3) */}
                     {(dishId === "hyderabadi-biryani" ||
+                      dishId === "hyderabadi-haleem" ||
+                      dishId === "masala-dosa" ||
+                      dishId === "bisi-bele-bath" ||
                       dishId === "indori-poha" ||
                       dishId === "bhutte-ka-kees" ||
                       dishId === "dal-bafla" ||
@@ -972,7 +975,13 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       <div className="pt-1">
                         <a
                           href={
-                            dishId === "indori-poha"
+                            dishId === "hyderabadi-haleem"
+                              ? "https://www.youtube.com/watch?v=dPpERMQzICs"
+                              : dishId === "masala-dosa"
+                              ? "https://www.youtube.com/watch?v=e9XFHjdw3Cg"
+                              : dishId === "bisi-bele-bath"
+                              ? "https://www.youtube.com/watch?v=VEArdyBWvdw"
+                              : dishId === "indori-poha"
                               ? "https://youtu.be/XuttnylxuXY?si=ckFXqQLdjLIC2nCB"
                               : dishId === "bhutte-ka-kees"
                               ? "https://www.youtube.com/watch?v=ELuQxGELBgw"

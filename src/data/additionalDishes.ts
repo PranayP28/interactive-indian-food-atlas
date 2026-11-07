@@ -396,21 +396,6 @@ export const ADDITIONAL_DISHES: Record<string, Dish[]> = {
     },
   ],
 
-  Telangana: [
-    {
-      id: "qubani-ka-meetha",
-      name: "Qubani ka Meetha",
-      alternateName: "Khubani ka Meetha / Apricot Dessert",
-      state: "Telangana",
-      category: "sweet-dessert",
-      description:
-        "Dried Hunza apricots stewed to a glossy compote, served warm or chilled with fresh cream, custard or vanilla ice cream; a Hyderabadi Deccani dessert with Central Asian roots.",
-      ingredients: ["Dried apricots", "Sugar", "Water", "Cardamom", "Cream or custard"],
-      tasteProfile: "Tart-Sweet, Jammy & Apricot-Bright",
-      era: "Hyderabadi Deccani dessert tradition, documented in 20th-century cookery",
-      keyTechnique: "Apricot Stewing & Syrup Reduction",
-    },
-  ],
 
   Tripura: [
     {

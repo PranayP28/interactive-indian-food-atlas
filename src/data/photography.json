@@ -12,7 +12,7 @@
       "licence": "CC BY 2.0",
       "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spice_market-India.jpg",
-      "caption": "A spice market in India — the trade that stocked every regional kitchen."
+      "caption": "A spice market in India \u2014 the trade that stocked every regional kitchen."
     },
     "spice-market": {
       "title": "Indian spice store",
@@ -119,7 +119,7 @@
     "pesarattu": {
       "origin": {
         "library": "spice-street",
-        "caption": "Andhra Pradesh — the regional kitchen where Pesarattu belongs."
+        "caption": "Andhra Pradesh \u2014 the regional kitchen where Pesarattu belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -135,7 +135,7 @@
       },
       "method": {
         "library": "steam",
-        "caption": "Pesarattu — Stone-Ground Unfermented Batter & Cast Iron Tawa Roasting."
+        "caption": "Pesarattu \u2014 Stone-Ground Unfermented Batter & Cast Iron Tawa Roasting."
       },
       "plated": {
         "subject": "dish",
@@ -147,7 +147,7 @@
         "licence": "CC BY 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pesarattu_and_Ginger_chutney.jpg",
-        "alt": "Pesarattu — Andhra Pradesh",
+        "alt": "Pesarattu \u2014 Andhra Pradesh",
         "caption": "Pesarattu, the Andhra green-gram crepe, served with ginger chutney.",
         "fallback": "/images/dishes/pesarattu-stage-4.webp"
       }
@@ -155,7 +155,7 @@
     "gongura-mutton": {
       "origin": {
         "library": "banana-leaf",
-        "caption": "Andhra Pradesh — the regional kitchen where Gongura Mutton belongs."
+        "caption": "Andhra Pradesh \u2014 the regional kitchen where Gongura Mutton belongs."
       },
       "ingredients": {
         "photo": {
@@ -185,14 +185,14 @@
       },
       "method": {
         "library": "banana-leaf",
-        "caption": "Gongura Mutton — Slow Brass Handi Braising with Leaf Reduction."
+        "caption": "Gongura Mutton \u2014 Slow Brass Handi Braising with Leaf Reduction."
       },
       "plated": null
     },
     "thukpa": {
       "origin": {
         "library": "spice-street",
-        "caption": "Arunachal Pradesh — the regional kitchen where Thukpa belongs."
+        "caption": "Arunachal Pradesh \u2014 the regional kitchen where Thukpa belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -208,7 +208,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Thukpa — Clear Broth Infusion & Clay Pot Simmering."
+        "caption": "Thukpa \u2014 Clear Broth Infusion & Clay Pot Simmering."
       },
       "plated": {
         "subject": "dish",
@@ -220,15 +220,15 @@
         "licence": "CC BY-SA 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thukpa,_Tibetan_noodle_in_Osaka,_Japan.jpg",
-        "alt": "Thukpa — Arunachal Pradesh",
-        "caption": "Thukpa — hand-pulled noodle soup of the Himalayan belt.",
+        "alt": "Thukpa \u2014 Arunachal Pradesh",
+        "caption": "Thukpa \u2014 hand-pulled noodle soup of the Himalayan belt.",
         "fallback": null
       }
     },
     "bamboo-shoot-pork": {
       "origin": {
         "library": "spice-market",
-        "caption": "Arunachal Pradesh — the regional kitchen where Bamboo Shoot Pork belongs."
+        "caption": "Arunachal Pradesh \u2014 the regional kitchen where Bamboo Shoot Pork belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -243,7 +243,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Bamboo Shoot Pork — Flame Roasting Inside Green Bamboo Internodes."
+        "caption": "Bamboo Shoot Pork \u2014 Flame Roasting Inside Green Bamboo Internodes."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Pork_and_bamboo_shoot_curry_%282560159109%29.jpg",
@@ -263,7 +263,7 @@
     "masor-tenga": {
       "origin": {
         "library": "spice-street",
-        "caption": "Assam — the regional kitchen where Masor Tenga belongs."
+        "caption": "Assam \u2014 the regional kitchen where Masor Tenga belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -279,7 +279,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Masor Tenga — Minimal Oil Tempering & Natural Acid Simmer."
+        "caption": "Masor Tenga \u2014 Minimal Oil Tempering & Natural Acid Simmer."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Masor_Tenga.jpg",
@@ -289,7 +289,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masor_Tenga.jpg",
-        "alt": "Masor Tenga — Assam",
+        "alt": "Masor Tenga \u2014 Assam",
         "caption": "Masor Tenga, Assam.",
         "fallback": "/images/dishes/masor-tenga-stage-4.webp",
         "width": null,
@@ -299,7 +299,7 @@
     "khar": {
       "origin": {
         "library": "spice-market",
-        "caption": "Assam — the regional kitchen where Khar belongs."
+        "caption": "Assam \u2014 the regional kitchen where Khar belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -314,7 +314,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Khar — Sun-Dry Peeling, Charcoal Leaching & Slow Emulsification."
+        "caption": "Khar \u2014 Sun-Dry Peeling, Charcoal Leaching & Slow Emulsification."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Khar_of_Assam.jpg",
@@ -324,7 +324,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khar_of_Assam.jpg",
-        "alt": "Khar — Assam",
+        "alt": "Khar \u2014 Assam",
         "caption": "Khar, Assam.",
         "fallback": "/images/dishes/khar-stage-4.webp",
         "width": null,
@@ -342,12 +342,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_12_-_Nalanda_Mahavihara_(17).jpg",
           "alt": "Ancient brick stupa ruins at Nalanda Mahavihara in Bihar",
-          "caption": "Nalanda Mahavihara, Bihar — ancient Magadha heartland where roasted gram flour (sattu) has been an enduring staple.",
+          "caption": "Nalanda Mahavihara, Bihar \u2014 ancient Magadha heartland where roasted gram flour (sattu) has been an enduring staple.",
           "fallback": null,
           "width": 4323,
           "height": 3097
         },
-        "caption": "Nalanda Mahavihara, Bihar — ancient Magadha heartland where roasted gram flour (sattu) has been an enduring staple.",
+        "caption": "Nalanda Mahavihara, Bihar \u2014 ancient Magadha heartland where roasted gram flour (sattu) has been an enduring staple.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -402,7 +402,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Litti-Chokha-From-Bihar.jpg",
-        "alt": "Litti Chokha — Bihar",
+        "alt": "Litti Chokha \u2014 Bihar",
         "caption": "Litti Chokha, Bihar.",
         "fallback": "/images/dishes/litti-chokha-stage-4.webp",
         "width": null,
@@ -412,7 +412,7 @@
     "thekua": {
       "origin": {
         "library": "spice-market",
-        "caption": "Bihar — the regional kitchen where Thekua belongs."
+        "caption": "Bihar \u2014 the regional kitchen where Thekua belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -454,7 +454,7 @@
         "licence": "CC BY 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thekua_-_Chhath_Festival_-_Kolkata_2013-11-09_4316.JPG",
-        "alt": "Thekua — Bihar",
+        "alt": "Thekua \u2014 Bihar",
         "caption": "Thekua, the Chhath festival wheat-and-jaggery biscuit.",
         "fallback": "/images/dishes/thekua-stage-4.webp"
       }
@@ -462,7 +462,7 @@
     "chhattisgarhi-chila": {
       "origin": {
         "library": "spice-street",
-        "caption": "Chhattisgarh — the regional kitchen where Chila belongs."
+        "caption": "Chhattisgarh \u2014 the regional kitchen where Chila belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -478,7 +478,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Chila — Clay Tawa Roasting with Sesame Crust."
+        "caption": "Chila \u2014 Clay Tawa Roasting with Sesame Crust."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/CHILA%28THE_DOSA_OF_CHHATTISGARH%29.jpg",
@@ -488,7 +488,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:CHILA(THE_DOSA_OF_CHHATTISGARH).jpg",
-        "alt": "Chila — Chhattisgarh",
+        "alt": "Chila \u2014 Chhattisgarh",
         "caption": "Chila, Chhattisgarh.",
         "fallback": "/images/dishes/chhattisgarhi-chila-stage-4.webp",
         "width": null,
@@ -498,7 +498,7 @@
     "fara": {
       "origin": {
         "library": "spice-market",
-        "caption": "Chhattisgarh — the regional kitchen where Fara belongs."
+        "caption": "Chhattisgarh \u2014 the regional kitchen where Fara belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -514,14 +514,14 @@
       },
       "method": {
         "library": "steam",
-        "caption": "Fara — Clay Steaming & Crisp Pan Tempering."
+        "caption": "Fara \u2014 Clay Steaming & Crisp Pan Tempering."
       },
       "plated": null
     },
     "goan-fish-curry": {
       "origin": {
         "library": "spice-street",
-        "caption": "Goa — the regional kitchen where Goan Fish Curry belongs."
+        "caption": "Goa \u2014 the regional kitchen where Goan Fish Curry belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -561,7 +561,7 @@
         "licence": "CC BY-SA 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goan_Fish_Curry.jpg",
-        "alt": "Goan Fish Curry — Goa",
+        "alt": "Goan Fish Curry \u2014 Goa",
         "caption": "Goan Fish Curry, Goa.",
         "fallback": "/images/dishes/goan-fish-curry-stage-4.webp",
         "width": null,
@@ -571,7 +571,7 @@
     "pork-vindaloo": {
       "origin": {
         "library": "spice-market",
-        "caption": "Goa — the regional kitchen where Pork Vindaloo belongs."
+        "caption": "Goa \u2014 the regional kitchen where Pork Vindaloo belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -588,7 +588,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Pork Vindaloo — Toddy Vinegar Acid Cure & Slow Copper Pot Braise."
+        "caption": "Pork Vindaloo \u2014 Toddy Vinegar Acid Cure & Slow Copper Pot Braise."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Vindalho.jpg",
@@ -598,7 +598,7 @@
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vindalho.jpg",
-        "alt": "Pork Vindaloo — Goa",
+        "alt": "Pork Vindaloo \u2014 Goa",
         "caption": "Pork Vindaloo, Goa.",
         "fallback": "/images/dishes/pork-vindaloo-stage-4.webp",
         "width": null,
@@ -608,7 +608,7 @@
     "dhokla": {
       "origin": {
         "library": "spice-street",
-        "caption": "Gujarat — the regional kitchen where Dhokla belongs."
+        "caption": "Gujarat \u2014 the regional kitchen where Dhokla belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -624,7 +624,7 @@
       },
       "method": {
         "library": "steam",
-        "caption": "Dhokla — Aerated Fermentation & Steam Vapor Lift."
+        "caption": "Dhokla \u2014 Aerated Fermentation & Steam Vapor Lift."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Homemade_Dhokla_2.jpg",
@@ -634,7 +634,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homemade_Dhokla_2.jpg",
-        "alt": "Dhokla — Gujarat",
+        "alt": "Dhokla \u2014 Gujarat",
         "caption": "Dhokla, Gujarat.",
         "fallback": "/images/dishes/dhokla-stage-4.webp",
         "width": null,
@@ -644,7 +644,7 @@
     "undhiyu": {
       "origin": {
         "library": "spice-market",
-        "caption": "Gujarat — the regional kitchen where Undhiyu belongs."
+        "caption": "Gujarat \u2014 the regional kitchen where Undhiyu belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -660,7 +660,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Undhiyu — Matka Inversion (Undhu) Under Charcoal Embers."
+        "caption": "Undhiyu \u2014 Matka Inversion (Undhu) Under Charcoal Embers."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Undhiyu.jpg",
@@ -670,7 +670,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Undhiyu.jpg",
-        "alt": "Undhiyu — Gujarat",
+        "alt": "Undhiyu \u2014 Gujarat",
         "caption": "Undhiyu, Gujarat.",
         "fallback": "/images/dishes/undhiyu-stage-4.webp",
         "width": null,
@@ -680,7 +680,7 @@
     "bajra-khichdi": {
       "origin": {
         "library": "spice-street",
-        "caption": "Haryana — the regional kitchen where Bajra Khichdi belongs."
+        "caption": "Haryana \u2014 the regional kitchen where Bajra Khichdi belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -696,14 +696,14 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Bajra Khichdi — Mortar De-husking & Slow Earthen Pot Hearth Simmer."
+        "caption": "Bajra Khichdi \u2014 Mortar De-husking & Slow Earthen Pot Hearth Simmer."
       },
       "plated": null
     },
     "haryanvi-kadhi": {
       "origin": {
         "library": "spice-market",
-        "caption": "Haryana — the regional kitchen where Kadhi Pakora belongs."
+        "caption": "Haryana \u2014 the regional kitchen where Kadhi Pakora belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -719,7 +719,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Kadhi Pakora — Prolonged Simmering (Kadhna) to Prevent Curdling."
+        "caption": "Kadhi Pakora \u2014 Prolonged Simmering (Kadhna) to Prevent Curdling."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Kadhi_Pakora.jpg",
@@ -729,8 +729,8 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kadhi_Pakora.jpg",
-        "alt": "Kadhi pakora — gram-flour dumplings in a yoghurt curry, Haryana.",
-        "caption": "Kadhi pakora — gram-flour dumplings in a yoghurt curry, Haryana.",
+        "alt": "Kadhi pakora \u2014 gram-flour dumplings in a yoghurt curry, Haryana.",
+        "caption": "Kadhi pakora \u2014 gram-flour dumplings in a yoghurt curry, Haryana.",
         "fallback": null,
         "width": 1488,
         "height": 1200,
@@ -741,7 +741,7 @@
     "siddu": {
       "origin": {
         "library": "spice-street",
-        "caption": "Himachal Pradesh — the regional kitchen where Siddu belongs."
+        "caption": "Himachal Pradesh \u2014 the regional kitchen where Siddu belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -780,7 +780,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kullvi_Siddu_(Himachal_Pradesh).jpg",
-        "alt": "Siddu — Himachal Pradesh",
+        "alt": "Siddu \u2014 Himachal Pradesh",
         "caption": "Siddu, Himachal Pradesh.",
         "fallback": "/images/dishes/siddu-stage-4.webp",
         "width": null,
@@ -798,12 +798,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APanchvaktar_Temple%2C_Mandi%2C_Himachal_Pradesh.jpg",
           "alt": "Stone shikhara temple of Panchvaktar along the Beas river in Mandi",
-          "caption": "Historic Mandi town at the confluence of the Beas and Suketi rivers — cultural heart of the centuries-old royal Mandi Dham culinary tradition.",
+          "caption": "Historic Mandi town at the confluence of the Beas and Suketi rivers \u2014 cultural heart of the centuries-old royal Mandi Dham culinary tradition.",
           "fallback": null,
           "width": 640,
           "height": 430
         },
-        "caption": "Historic Mandi town at the confluence of the Beas and Suketi rivers — cultural heart of the centuries-old royal Mandi Dham culinary tradition.",
+        "caption": "Historic Mandi town at the confluence of the Beas and Suketi rivers \u2014 cultural heart of the centuries-old royal Mandi Dham culinary tradition.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -854,7 +854,7 @@
     "dhuska": {
       "origin": {
         "library": "spice-street",
-        "caption": "Jharkhand — the regional kitchen where Dhuska belongs."
+        "caption": "Jharkhand \u2014 the regional kitchen where Dhuska belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -895,7 +895,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dhuska-Jharkhand.jpg",
-        "alt": "Dhuska — Jharkhand",
+        "alt": "Dhuska \u2014 Jharkhand",
         "caption": "Dhuska, Jharkhand.",
         "fallback": "/images/dishes/dhuska-stage-4.webp",
         "width": null,
@@ -905,7 +905,7 @@
     "chilka-roti": {
       "origin": {
         "library": "spice-market",
-        "caption": "Jharkhand — the regional kitchen where Chilka Roti belongs."
+        "caption": "Jharkhand \u2014 the regional kitchen where Chilka Roti belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -920,7 +920,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Chilka Roti — Earthen Tawa Pouring with Botanical Swab."
+        "caption": "Chilka Roti \u2014 Earthen Tawa Pouring with Botanical Swab."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Chilka_Roti.jpg",
@@ -930,7 +930,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chilka_Roti.jpg",
-        "alt": "Chilka Roti — Jharkhand",
+        "alt": "Chilka Roti \u2014 Jharkhand",
         "caption": "Chilka Roti, Jharkhand.",
         "fallback": "/images/dishes/chilka-roti-stage-4.webp",
         "width": null,
@@ -948,12 +948,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mysore_Palace_at_dusk_light.jpg",
           "alt": "Mysore Palace illuminated at dusk in Karnataka",
-          "caption": "Mysore Palace, Karnataka — royal capital where 20th-century chefs refined the crisp, red-chutney-lined Mysore masala dosa.",
+          "caption": "Mysore Palace, Karnataka \u2014 royal capital where 20th-century chefs refined the crisp, red-chutney-lined Mysore masala dosa.",
           "fallback": null,
           "width": 4817,
           "height": 2090
         },
-        "caption": "Mysore Palace, Karnataka — royal capital where 20th-century chefs refined the crisp, red-chutney-lined Mysore masala dosa.",
+        "caption": "Mysore Palace, Karnataka \u2014 royal capital where 20th-century chefs refined the crisp, red-chutney-lined Mysore masala dosa.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -1021,7 +1021,7 @@
     "bisi-bele-bath": {
       "origin": {
         "library": "spice-market",
-        "caption": "Karnataka — the regional kitchen where Bisi Bele Bath belongs."
+        "caption": "Karnataka \u2014 the regional kitchen where Bisi Bele Bath belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -1038,7 +1038,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Bisi Bele Bath — Layered Spice Roasting & Unified One-Pot Ghee Simmer."
+        "caption": "Bisi Bele Bath \u2014 Layered Spice Roasting & Unified One-Pot Ghee Simmer."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Bisi_Bele_Bath_%28Rice_cooked_with_lentils_%26_vegetables%29.jpg",
@@ -1048,7 +1048,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bisi_Bele_Bath_(Rice_cooked_with_lentils_%26_vegetables).jpg",
-        "alt": "Bisi Bele Bath — Karnataka",
+        "alt": "Bisi Bele Bath \u2014 Karnataka",
         "caption": "Bisi Bele Bath, Karnataka.",
         "fallback": "/images/dishes/bisi-bele-bath-stage-4.webp",
         "width": null,
@@ -1058,7 +1058,7 @@
     "appam-stew": {
       "origin": {
         "library": "banana-leaf",
-        "caption": "Kerala — the regional kitchen where Appam with Vegetable Stew belongs."
+        "caption": "Kerala \u2014 the regional kitchen where Appam with Vegetable Stew belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -1074,7 +1074,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Appam with Vegetable Stew — Deep Appachatti Swirl & Dual Coconut Milk Extraction."
+        "caption": "Appam with Vegetable Stew \u2014 Deep Appachatti Swirl & Dual Coconut Milk Extraction."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/GKN_Appam_Veg_Stew_DSC_1292.JPG",
@@ -1084,7 +1084,7 @@
         "licence": "CC BY-SA 2.5 IN",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/in/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:GKN_Appam_Veg_Stew_DSC_1292.JPG",
-        "alt": "Appam with Vegetable Stew — Kerala",
+        "alt": "Appam with Vegetable Stew \u2014 Kerala",
         "caption": "Appam with Vegetable Stew, Kerala.",
         "fallback": "/images/dishes/appam-stew-stage-4.webp",
         "width": null,
@@ -1094,7 +1094,7 @@
     "fish-molee": {
       "origin": {
         "library": "banana-leaf",
-        "caption": "Kerala — the regional kitchen where Kerala Fish Molee belongs."
+        "caption": "Kerala \u2014 the regional kitchen where Kerala Fish Molee belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -1110,7 +1110,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Kerala Fish Molee — Delicate Fish Poach in Layered Coconut Milk Presses."
+        "caption": "Kerala Fish Molee \u2014 Delicate Fish Poach in Layered Coconut Milk Presses."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Fish_Moilee.jpg",
@@ -1120,8 +1120,8 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fish_Moilee.jpg",
-        "alt": "Kerala fish molee — fish in a coconut-milk curry.",
-        "caption": "Kerala fish molee — fish in a coconut-milk curry.",
+        "alt": "Kerala fish molee \u2014 fish in a coconut-milk curry.",
+        "caption": "Kerala fish molee \u2014 fish in a coconut-milk curry.",
         "fallback": null,
         "width": 900,
         "height": 1200,
@@ -1194,7 +1194,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indori_Poha,_New_Delhi.jpg",
-        "alt": "Indori Poha — Madhya Pradesh",
+        "alt": "Indori Poha \u2014 Madhya Pradesh",
         "caption": "Indori Poha, Madhya Pradesh.",
         "fallback": "/images/dishes/indori-poha-stage-4.webp",
         "width": null,
@@ -1204,7 +1204,7 @@
     "bhutte-ka-kees": {
       "origin": {
         "library": "spice-market",
-        "caption": "Sarafa Bazaar and Chappan Dukan, Indore — historic street food hub where Bhutte Ka Kees was perfected.",
+        "caption": "Sarafa Bazaar and Chappan Dukan, Indore \u2014 historic street food hub where Bhutte Ka Kees was perfected.",
         "label": "Origin"
       },
       "ingredients": {
@@ -1215,7 +1215,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Bhutte Ka Kees — Grating fresh corn and slow milk-emulsion braise.",
+        "caption": "Bhutte Ka Kees \u2014 Grating fresh corn and slow milk-emulsion braise.",
         "label": "Recipe"
       },
       "plated": null
@@ -1231,12 +1231,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dadar_railway_station_as_seen_from_foot_over_bridge..jpg",
           "alt": "Dadar railway station platforms and bustling suburban lines in central Mumbai",
-          "caption": "Dadar railway station, central Mumbai — outside whose platforms Ashok Vaidya first began serving batata vada tucked into pav in 1966.",
+          "caption": "Dadar railway station, central Mumbai \u2014 outside whose platforms Ashok Vaidya first began serving batata vada tucked into pav in 1966.",
           "fallback": null,
           "width": 4080,
           "height": 3060
         },
-        "caption": "Dadar railway station, central Mumbai — outside whose platforms Ashok Vaidya first began serving batata vada tucked into pav in 1966.",
+        "caption": "Dadar railway station, central Mumbai \u2014 outside whose platforms Ashok Vaidya first began serving batata vada tucked into pav in 1966.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -1248,14 +1248,14 @@
           "licence": "CC0 / Public domain",
           "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Batata_Vada_ready_to_Dip_and_Fry.JPG",
-          "alt": "Spiced potato mixture portioned before the gram-flour batter — the filling of vada pav.",
-          "caption": "Spiced potato mixture portioned before the gram-flour batter — the filling of vada pav.",
+          "alt": "Spiced potato mixture portioned before the gram-flour batter \u2014 the filling of vada pav.",
+          "caption": "Spiced potato mixture portioned before the gram-flour batter \u2014 the filling of vada pav.",
           "fallback": null,
           "width": 1600,
           "height": 1200,
           "local": "/images/dishes/vada-pav-stage-2.webp"
         },
-        "caption": "Spiced potato mixture portioned before the gram-flour batter — the filling of vada pav.",
+        "caption": "Spiced potato mixture portioned before the gram-flour batter \u2014 the filling of vada pav.",
         "label": "Ingredient reference",
         "items": [
           "Potatoes",
@@ -1294,7 +1294,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maharashtrian_Vada_Pav.JPG",
-        "alt": "Vada Pav — Maharashtra",
+        "alt": "Vada Pav \u2014 Maharashtra",
         "caption": "Vada Pav, Maharashtra.",
         "fallback": "/images/dishes/vada-pav-stage-4.webp",
         "width": null,
@@ -1304,7 +1304,7 @@
     "puran-poli": {
       "origin": {
         "library": "spice-market",
-        "caption": "Maharashtra — the regional kitchen where Puran Poli belongs."
+        "caption": "Maharashtra \u2014 the regional kitchen where Puran Poli belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -1320,7 +1320,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Puran Poli — Puran Stone-Straining & Translucent Rolling."
+        "caption": "Puran Poli \u2014 Puran Stone-Straining & Translucent Rolling."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg",
@@ -1330,7 +1330,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Traditional_Puranpoli_-_Homemade_-_maharashtra.jpg",
-        "alt": "Puran Poli — Maharashtra",
+        "alt": "Puran Poli \u2014 Maharashtra",
         "caption": "Puran Poli, Maharashtra.",
         "fallback": "/images/dishes/puran-poli-stage-4.webp",
         "width": null,
@@ -1340,7 +1340,7 @@
     "eromba": {
       "origin": {
         "library": "spice-street",
-        "caption": "Manipur — the regional kitchen where Eromba belongs."
+        "caption": "Manipur \u2014 the regional kitchen where Eromba belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -1355,7 +1355,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Eromba — Dry Earthen Pot Roasting of Ngari & Hand Mashing."
+        "caption": "Eromba \u2014 Dry Earthen Pot Roasting of Ngari & Hand Mashing."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yongchaak_eromba_%282%29.jpg",
@@ -1365,8 +1365,8 @@
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yongchaak_eromba_(2).jpg",
-        "alt": "Yongchaak eromba — Manipuri mashed vegetables with fermented fish.",
-        "caption": "Yongchaak eromba — Manipuri mashed vegetables with fermented fish.",
+        "alt": "Yongchaak eromba \u2014 Manipuri mashed vegetables with fermented fish.",
+        "caption": "Yongchaak eromba \u2014 Manipuri mashed vegetables with fermented fish.",
         "fallback": null,
         "width": 1594,
         "height": 1200,
@@ -1377,7 +1377,7 @@
     "singju": {
       "origin": {
         "library": "spice-market",
-        "caption": "Manipur — the regional kitchen where Singju belongs."
+        "caption": "Manipur \u2014 the regional kitchen where Singju belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -1393,7 +1393,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Singju — Raw Julian Chiffonade & Dry Seed Dressing."
+        "caption": "Singju \u2014 Raw Julian Chiffonade & Dry Seed Dressing."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Yongchaak_Singju_with_Hawai_Maton.jpg",
@@ -1403,7 +1403,7 @@
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yongchaak_Singju_with_Hawai_Maton.jpg",
-        "alt": "Singju — Manipur",
+        "alt": "Singju \u2014 Manipur",
         "caption": "Singju, Manipur.",
         "fallback": "/images/dishes/singju-stage-4.webp",
         "width": null,
@@ -1413,7 +1413,7 @@
     "jadoh": {
       "origin": {
         "library": "spice-street",
-        "caption": "Meghalaya — the regional kitchen where Jadoh belongs."
+        "caption": "Meghalaya \u2014 the regional kitchen where Jadoh belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -1429,7 +1429,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Jadoh — Rendered Pork Fat Rice Braising & Sesame Glaze."
+        "caption": "Jadoh \u2014 Rendered Pork Fat Rice Braising & Sesame Glaze."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Jadoh.jpg",
@@ -1439,7 +1439,7 @@
         "licence": "CC0 1.0",
         "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jadoh.jpg",
-        "alt": "Jadoh — Meghalaya",
+        "alt": "Jadoh \u2014 Meghalaya",
         "caption": "Jadoh, Meghalaya.",
         "fallback": "/images/dishes/jadoh-stage-4.webp",
         "width": null,
@@ -1449,25 +1449,25 @@
     "dohneiiong": {
       "origin": {
         "library": "spice-market",
-        "caption": "Meghalaya — the regional kitchen where Dohneiiong belongs."
+        "caption": "Meghalaya \u2014 the regional kitchen where Dohneiiong belongs."
       },
       "ingredients": {
         "photo": {
           "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Black_sesame.jpg",
           "subject": "context",
           "title": "dohneiiong black sesame ingredient",
-          "creator": "국립국어원",
+          "creator": "\uad6d\ub9bd\uad6d\uc5b4\uc6d0",
           "licence": "CC BY-SA 2.0 KR",
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_sesame.jpg",
-          "alt": "Black sesame seeds — the defining ingredient of Meghalaya's Dohneiiong.",
-          "caption": "Black sesame seeds — the defining ingredient of Meghalaya's Dohneiiong.",
+          "alt": "Black sesame seeds \u2014 the defining ingredient of Meghalaya's Dohneiiong.",
+          "caption": "Black sesame seeds \u2014 the defining ingredient of Meghalaya's Dohneiiong.",
           "fallback": null,
           "width": 1600,
           "height": 1067,
           "local": "/images/dishes/dohneiiong-stage-2.webp"
         },
-        "caption": "Black sesame seeds — the defining ingredient of Meghalaya's Dohneiiong.",
+        "caption": "Black sesame seeds \u2014 the defining ingredient of Meghalaya's Dohneiiong.",
         "label": "Ingredient reference",
         "items": [
           "Pork",
@@ -1480,14 +1480,14 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Dohneiiong — Dry Seed Roasting, Stone Pounding & Long Braise."
+        "caption": "Dohneiiong \u2014 Dry Seed Roasting, Stone Pounding & Long Braise."
       },
       "plated": null
     },
     "mizo-bai": {
       "origin": {
         "library": "spice-street",
-        "caption": "Mizoram — the regional kitchen where Mizo Bai belongs."
+        "caption": "Mizoram \u2014 the regional kitchen where Mizo Bai belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -1502,7 +1502,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Mizo Bai — Oil-Free Alkaline Water Simmering."
+        "caption": "Mizo Bai \u2014 Oil-Free Alkaline Water Simmering."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Mizo_food.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1522,7 +1522,7 @@
     "sawhchiar": {
       "origin": {
         "library": "spice-market",
-        "caption": "Mizoram — the regional kitchen where Sawhchiar belongs."
+        "caption": "Mizoram \u2014 the regional kitchen where Sawhchiar belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -1537,7 +1537,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Sawhchiar — Continuous Wood-Fire Stirring to Creamy Rice Gel."
+        "caption": "Sawhchiar \u2014 Continuous Wood-Fire Stirring to Creamy Rice Gel."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sawhchiar.jpg",
@@ -1547,7 +1547,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sawhchiar.jpg",
-        "alt": "Sawhchiar — Mizoram",
+        "alt": "Sawhchiar \u2014 Mizoram",
         "caption": "Sawhchiar, Mizoram.",
         "fallback": "/images/dishes/sawhchiar-stage-4.webp",
         "width": null,
@@ -1557,7 +1557,7 @@
     "naga-smoked-pork": {
       "origin": {
         "library": "spice-street",
-        "caption": "Nagaland — the regional kitchen where Naga Smoked Pork with Bamboo Shoots belongs."
+        "caption": "Nagaland \u2014 the regional kitchen where Naga Smoked Pork with Bamboo Shoots belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -1572,7 +1572,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Naga Smoked Pork with Bamboo Shoots — Multi-Week Kitchen Hearth Smoking & Water Braise."
+        "caption": "Naga Smoked Pork with Bamboo Shoots \u2014 Multi-Week Kitchen Hearth Smoking & Water Braise."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Naga_style_smoked_Pork_ribs_with_bamboo_shoots_and_rice.jpg",
@@ -1582,7 +1582,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naga_style_smoked_Pork_ribs_with_bamboo_shoots_and_rice.jpg",
-        "alt": "Naga Smoked Pork with Bamboo Shoots — Nagaland",
+        "alt": "Naga Smoked Pork with Bamboo Shoots \u2014 Nagaland",
         "caption": "Naga Smoked Pork with Bamboo Shoots, Nagaland.",
         "fallback": "/images/dishes/naga-smoked-pork-stage-4.webp",
         "width": null,
@@ -1592,7 +1592,7 @@
     "galho": {
       "origin": {
         "library": "spice-market",
-        "caption": "Nagaland — the regional kitchen where Galho belongs."
+        "caption": "Nagaland \u2014 the regional kitchen where Galho belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -1607,14 +1607,14 @@
       },
       "method": {
         "library": "steam",
-        "caption": "Galho — Slow Simmering with Fermented Bean Emulsification."
+        "caption": "Galho \u2014 Slow Simmering with Fermented Bean Emulsification."
       },
       "plated": null
     },
     "dalma": {
       "origin": {
         "library": "spice-street",
-        "caption": "Odisha — the regional kitchen where Dalma belongs."
+        "caption": "Odisha \u2014 the regional kitchen where Dalma belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -1631,7 +1631,7 @@
       },
       "method": {
         "library": "steam",
-        "caption": "Dalma — Earthen Kudua Pot Steam Layering."
+        "caption": "Dalma \u2014 Earthen Kudua Pot Steam Layering."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Dalma%28dish%29.jpg",
@@ -1641,7 +1641,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dalma(dish).jpg",
-        "alt": "Dalma — Odisha",
+        "alt": "Dalma \u2014 Odisha",
         "caption": "Dalma, Odisha.",
         "fallback": "/images/dishes/dalma-stage-4.webp",
         "width": null,
@@ -1651,7 +1651,7 @@
     "chhena-poda": {
       "origin": {
         "library": "spice-market",
-        "caption": "Odisha — the regional kitchen where Chhena Poda belongs."
+        "caption": "Odisha \u2014 the regional kitchen where Chhena Poda belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -1667,7 +1667,7 @@
       },
       "method": {
         "library": "banana-leaf",
-        "caption": "Chhena Poda — Sal Leaf Wrapping & Residual Coal Oven Caramelization."
+        "caption": "Chhena Poda \u2014 Sal Leaf Wrapping & Residual Coal Oven Caramelization."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
@@ -1677,7 +1677,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chhena_Poda-Puri-Odisha-IMG_1323.jpg",
-        "alt": "Chhena Poda — Odisha",
+        "alt": "Chhena Poda \u2014 Odisha",
         "caption": "Chhena Poda, Odisha.",
         "fallback": "/images/dishes/chhena-poda-stage-4.webp",
         "width": null,
@@ -1695,12 +1695,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mustard_field_near_Chandigarh.jpg",
           "alt": "Yellow mustard flower field in winter near Chandigarh, Punjab",
-          "caption": "Mustard fields of Punjab in winter bloom — seasonal origin of fresh sarson greens.",
+          "caption": "Mustard fields of Punjab in winter bloom \u2014 seasonal origin of fresh sarson greens.",
           "fallback": null,
           "width": 3024,
           "height": 2268
         },
-        "caption": "Mustard fields of Punjab in winter bloom — seasonal origin of fresh sarson greens.",
+        "caption": "Mustard fields of Punjab in winter bloom \u2014 seasonal origin of fresh sarson greens.",
         "label": "Origin"
       },
       "ingredients": {
@@ -1748,7 +1748,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Makke_di_Roti_with_Sarson_Da_Saag.jpg",
-        "alt": "Makki di Roti & Sarson da Saag — Punjab",
+        "alt": "Makki di Roti & Sarson da Saag \u2014 Punjab",
         "caption": "Makki di Roti & Sarson da Saag, Punjab.",
         "fallback": "/images/dishes/makki-di-roti-sarson-saag-stage-4.webp",
         "width": null,
@@ -1819,7 +1819,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butter_chicken_by_me.jpg",
-        "alt": "Butter Chicken — Punjab",
+        "alt": "Butter Chicken \u2014 Punjab",
         "caption": "Butter Chicken, Punjab.",
         "fallback": "/images/dishes/butter-chicken-stage-4.webp",
         "width": null,
@@ -1837,12 +1837,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mehrangarh_Fort_2%2C_Jodhpur%2C_Rajasthan%2C_India.jpg",
           "alt": "Mehrangarh Fort on sandstone cliff overlooking Jodhpur",
-          "caption": "Mehrangarh Fort, Jodhpur — historic Marwar fortress landscape where enduring desert foods like baati sustained warrior camps.",
+          "caption": "Mehrangarh Fort, Jodhpur \u2014 historic Marwar fortress landscape where enduring desert foods like baati sustained warrior camps.",
           "fallback": null,
           "width": 3928,
           "height": 2508
         },
-        "caption": "Mehrangarh Fort, Jodhpur — historic Marwar fortress landscape where enduring desert foods like baati sustained warrior camps.",
+        "caption": "Mehrangarh Fort, Jodhpur \u2014 historic Marwar fortress landscape where enduring desert foods like baati sustained warrior camps.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -1896,7 +1896,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rajasthani_dal-bati-churma_thali_01.jpg",
-        "alt": "Dal Baati Churma — Rajasthan",
+        "alt": "Dal Baati Churma \u2014 Rajasthan",
         "caption": "Dal Baati Churma, Rajasthan.",
         "fallback": "/images/dishes/dal-baati-churma-stage-4.webp",
         "width": null,
@@ -1914,12 +1914,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chittorgarh_Fort,_Chittor,_Rajasthan.jpg",
           "alt": "Chittorgarh Fort standing atop a hill in Mewar, Rajasthan",
-          "caption": "Chittorgarh Fort, Mewar — royal citadel where Rajput hunting camps developed the wood-smoked game meat dish of Laal Maas.",
+          "caption": "Chittorgarh Fort, Mewar \u2014 royal citadel where Rajput hunting camps developed the wood-smoked game meat dish of Laal Maas.",
           "fallback": null,
           "width": 3850,
           "height": 2048
         },
-        "caption": "Chittorgarh Fort, Mewar — royal citadel where Rajput hunting camps developed the wood-smoked game meat dish of Laal Maas.",
+        "caption": "Chittorgarh Fort, Mewar \u2014 royal citadel where Rajput hunting camps developed the wood-smoked game meat dish of Laal Maas.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -1970,7 +1970,7 @@
     "sikkimese-momos": {
       "origin": {
         "library": "spice-street",
-        "caption": "Sikkim — the regional kitchen where Sikkimese Momos belongs."
+        "caption": "Sikkim \u2014 the regional kitchen where Sikkimese Momos belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -1986,7 +1986,7 @@
       },
       "method": {
         "library": "steam",
-        "caption": "Sikkimese Momos — Thin Pleated Pinching & Tiered Aluminium/Bamboo Steaming."
+        "caption": "Sikkimese Momos \u2014 Thin Pleated Pinching & Tiered Aluminium/Bamboo Steaming."
       },
       "plated": {
         "subject": "dish",
@@ -1998,7 +1998,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_plate_of_Nepalese_Pork_Momo_from_Shreengkhala.jpg",
-        "alt": "Steamed momos on a plate — Sikkim",
+        "alt": "Steamed momos on a plate \u2014 Sikkim",
         "caption": "Steamed momos with tomato chutney, the Sikkimese market-plate.",
         "fallback": "/images/dishes/sikkimese-momos-stage-4.webp"
       }
@@ -2014,12 +2014,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peaks_of_the_Kanchenjunga_as_seen_from_the_West_Sikkim_district_of_Sikkim.jpg",
           "alt": "Snow-covered Kanchenjunga peaks rising above pine valleys in West Sikkim",
-          "caption": "Kanchenjunga mountain range, Sikkim — Himalayan highlands where preserving green vegetables by lactic acid fermentation is vital.",
+          "caption": "Kanchenjunga mountain range, Sikkim \u2014 Himalayan highlands where preserving green vegetables by lactic acid fermentation is vital.",
           "fallback": null,
           "width": 4608,
           "height": 2128
         },
-        "caption": "Kanchenjunga mountain range, Sikkim — Himalayan highlands where preserving green vegetables by lactic acid fermentation is vital.",
+        "caption": "Kanchenjunga mountain range, Sikkim \u2014 Himalayan highlands where preserving green vegetables by lactic acid fermentation is vital.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -2032,12 +2032,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gundruk_1.jpg",
           "alt": "Sun-dried fermented mustard and radish leaves",
-          "caption": "Gundruk — leafy mustard and radish greens wilted, earthen-pot fermented, and sun-dried for the mountain winter.",
+          "caption": "Gundruk \u2014 leafy mustard and radish greens wilted, earthen-pot fermented, and sun-dried for the mountain winter.",
           "fallback": null,
           "width": 3024,
           "height": 4032
         },
-        "caption": "Gundruk — leafy mustard and radish greens wilted, earthen-pot fermented, and sun-dried for the mountain winter.",
+        "caption": "Gundruk \u2014 leafy mustard and radish greens wilted, earthen-pot fermented, and sun-dried for the mountain winter.",
         "label": "Ingredient reference",
         "items": [
           "Fermented dried gundruk leaves",
@@ -2050,7 +2050,7 @@
       },
       "method": {
         "library": "steam",
-        "caption": "Gundruk Soup — Earthen Jar Fermentation, Sun Dehydration & Clear Broth Boil."
+        "caption": "Gundruk Soup \u2014 Earthen Jar Fermentation, Sun Dehydration & Clear Broth Boil."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Gundruk_soup_at_Nepal House in Baltimore.jpg",
@@ -2070,7 +2070,7 @@
     "chettinad-chicken": {
       "origin": {
         "library": "banana-leaf",
-        "caption": "Tamil Nadu — the regional kitchen where Chettinad Chicken Curry belongs."
+        "caption": "Tamil Nadu \u2014 the regional kitchen where Chettinad Chicken Curry belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2086,7 +2086,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Chettinad Chicken Curry — Whole Spice Dry Roasting & Heavy Cast Bronze Uruli Simmer."
+        "caption": "Chettinad Chicken Curry \u2014 Whole Spice Dry Roasting & Heavy Cast Bronze Uruli Simmer."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/ChickenChettinad.JPG",
@@ -2096,7 +2096,7 @@
         "licence": "CC BY-SA 2.5",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.5/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChickenChettinad.JPG",
-        "alt": "Chettinad Chicken Curry — Tamil Nadu",
+        "alt": "Chettinad Chicken Curry \u2014 Tamil Nadu",
         "caption": "Chettinad Chicken Curry, Tamil Nadu.",
         "fallback": "/images/dishes/chettinad-chicken-stage-4.webp",
         "width": null,
@@ -2114,12 +2114,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madurai,_India.jpg",
           "alt": "The Meenakshi temple gopurams rising over Madurai, Tamil Nadu",
-          "caption": "Madurai, Tamil Nadu — temple-town Tamil country, where idli is eaten at dawn.",
+          "caption": "Madurai, Tamil Nadu \u2014 temple-town Tamil country, where idli is eaten at dawn.",
           "fallback": null,
           "width": 2589,
           "height": 1598
         },
-        "caption": "Madurai, Tamil Nadu — temple-town Tamil country, where idli is eaten at dawn.",
+        "caption": "Madurai, Tamil Nadu \u2014 temple-town Tamil country, where idli is eaten at dawn.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -2132,12 +2132,12 @@
           "licenceUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_gram.jpg",
           "alt": "Seeds of black gram, the urad dal used in idli batter",
-          "caption": "Urad dal — soaked and ground with rice; the batter is salted and fermented overnight.",
+          "caption": "Urad dal \u2014 soaked and ground with rice; the batter is salted and fermented overnight.",
           "fallback": null,
           "width": 3070,
           "height": 2182
         },
-        "caption": "Urad dal — soaked and ground with rice; the batter is salted and fermented overnight.",
+        "caption": "Urad dal \u2014 soaked and ground with rice; the batter is salted and fermented overnight.",
         "label": "Ingredient reference",
         "items": [
           "Parboiled idli rice",
@@ -2159,7 +2159,7 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idly_in_Steamer.jpg",
           "alt": "Idli batter in moulds inside a steamer",
-          "caption": "Batter poured into the idli plates and steamed — the fermented batter rises into soft cakes.",
+          "caption": "Batter poured into the idli plates and steamed \u2014 the fermented batter rises into soft cakes.",
           "fallback": null,
           "width": 1116,
           "height": 960
@@ -2175,7 +2175,7 @@
         "licence": "CC BY-SA 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idli_Sambar.JPG",
-        "alt": "Idli Sambar — Tamil Nadu",
+        "alt": "Idli Sambar \u2014 Tamil Nadu",
         "caption": "Idli Sambar, Tamil Nadu.",
         "fallback": "/images/dishes/idli-sambar-stage-4.webp",
         "width": null,
@@ -2248,7 +2248,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_Hyderabadi_Biryani.JPG",
-        "alt": "Hyderabadi Dum Biryani — Telangana",
+        "alt": "Hyderabadi Dum Biryani \u2014 Telangana",
         "caption": "Chicken Hyderabadi biryani, layered and sealed in the dum tradition.",
         "fallback": null
       }
@@ -2264,12 +2264,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chowmahalla_Palace_01.jpg",
           "alt": "Chowmahalla Palace courtyard in Hyderabad",
-          "caption": "Chowmahalla Palace, Hyderabad — royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
+          "caption": "Chowmahalla Palace, Hyderabad \u2014 royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
           "fallback": null,
           "width": 4415,
           "height": 2943
         },
-        "caption": "Chowmahalla Palace, Hyderabad — royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
+        "caption": "Chowmahalla Palace, Hyderabad \u2014 royal seat where Arab and Persian diasporas introduced harisah to the Nizami court.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -2309,35 +2309,35 @@
           "licence": "CC BY-SA 2.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyderabadi_haleem_making.jpg",
-          "alt": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
-          "caption": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
+          "alt": "Haleem simmering in cauldrons over a wood fire \u2014 the traditional cooking technique.",
+          "caption": "Haleem simmering in cauldrons over a wood fire \u2014 the traditional cooking technique.",
           "fallback": null,
           "width": 515,
           "height": 759,
           "local": "/images/dishes/hyderabadi-haleem-stage-3.webp"
         },
-        "caption": "Haleem simmering in cauldrons over a wood fire — the traditional cooking technique.",
+        "caption": "Haleem simmering in cauldrons over a wood fire \u2014 the traditional cooking technique.",
         "label": "Preparation technique"
       },
       "plated": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Haleem_garnish.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Haleem_hyderabadi.jpg",
         "subject": "dish",
-        "title": "Haleem garnish",
-        "creator": "Halt123halt",
-        "licence": "CC BY-SA 3.0",
-        "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleem_garnish.jpg",
-        "alt": "Garnished bowl of Hyderabadi haleem",
-        "caption": "Hyderabadi haleem garnished with crisp fried onions (birista), fresh mint, coriander, and lemon wedge.",
+        "title": "Haleem hyderabadi",
+        "creator": "Chandu7299",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haleem_hyderabadi.jpg",
+        "alt": "Authentic Hyderabadi Haleem garnished with birista, fresh mint, and lemon",
+        "caption": "Authentic Hyderabadi haleem garnished with crisp fried onions (birista), fresh mint, coriander, and lemon wedge.",
         "fallback": null,
-        "width": 416,
-        "height": 376
+        "width": 5184,
+        "height": 3456
       }
     },
     "mui-borok": {
       "origin": {
         "library": "spice-street",
-        "caption": "Tripura — the regional kitchen where Mui Borok belongs."
+        "caption": "Tripura \u2014 the regional kitchen where Mui Borok belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2353,14 +2353,14 @@
       },
       "method": {
         "library": "steam",
-        "caption": "Mui Borok — Zero-Oil Earthen Pot Boil with Fermented Berma."
+        "caption": "Mui Borok \u2014 Zero-Oil Earthen Pot Boil with Fermented Berma."
       },
       "plated": null
     },
     "chakhwi": {
       "origin": {
         "library": "spice-market",
-        "caption": "Tripura — the regional kitchen where Chakhwi belongs."
+        "caption": "Tripura \u2014 the regional kitchen where Chakhwi belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -2375,7 +2375,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Chakhwi — Bamboo Ash Filtration & Forest Root Simmer."
+        "caption": "Chakhwi \u2014 Bamboo Ash Filtration & Forest Root Simmer."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Chakhwi.jpg",
@@ -2385,7 +2385,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chakhwi.jpg",
-        "alt": "Chakhwi — Tripura",
+        "alt": "Chakhwi \u2014 Tripura",
         "caption": "Chakhwi, Tripura.",
         "fallback": "/images/dishes/chakhwi-stage-4.webp",
         "width": null,
@@ -2395,7 +2395,7 @@
     "galouti-kebab": {
       "origin": {
         "library": "spice-street",
-        "caption": "Uttar Pradesh — the regional kitchen where Awadhi Galouti Kebab belongs."
+        "caption": "Uttar Pradesh \u2014 the regional kitchen where Awadhi Galouti Kebab belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2410,7 +2410,7 @@
       },
       "method": {
         "library": "kebab-griddle",
-        "caption": "Awadhi Galouti Kebab — Multiple Sil-Batta Grindings, Smoke Infusion (Dhungar) & Mahi Tawa Griddling."
+        "caption": "Awadhi Galouti Kebab \u2014 Multiple Sil-Batta Grindings, Smoke Infusion (Dhungar) & Mahi Tawa Griddling."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Galouti_kabab_at_Hons_All-Day_Dining,_Le_Press,_Hazratganj,_Lucknow_%282025-08-03%29.jpg",
@@ -2432,7 +2432,7 @@
     "banarasi-kachori": {
       "origin": {
         "library": "spice-market",
-        "caption": "Uttar Pradesh — the regional kitchen where Banarasi Kachori Sabzi belongs."
+        "caption": "Uttar Pradesh \u2014 the regional kitchen where Banarasi Kachori Sabzi belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -2448,14 +2448,14 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Banarasi Kachori Sabzi — Deep Immersion Frying & Slow Fenugreek-Hing Potato Tempering."
+        "caption": "Banarasi Kachori Sabzi \u2014 Deep Immersion Frying & Slow Fenugreek-Hing Potato Tempering."
       },
       "plated": null
     },
     "kafuli": {
       "origin": {
         "library": "spice-street",
-        "caption": "Uttarakhand — the regional kitchen where Kafuli belongs."
+        "caption": "Uttarakhand \u2014 the regional kitchen where Kafuli belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2471,14 +2471,14 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Kafuli — Cast Iron Kadhai Boiling & Wood Churning (Mathani)."
+        "caption": "Kafuli \u2014 Cast Iron Kadhai Boiling & Wood Churning (Mathani)."
       },
       "plated": null
     },
     "bal-mithai": {
       "origin": {
         "library": "spice-market",
-        "caption": "Uttarakhand — the regional kitchen where Bal Mithai belongs."
+        "caption": "Uttarakhand \u2014 the regional kitchen where Bal Mithai belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -2492,7 +2492,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Bal Mithai — 10-Hour Khoya Dark Roasting & Sugar Seed Enrobing."
+        "caption": "Bal Mithai \u2014 10-Hour Khoya Dark Roasting & Sugar Seed Enrobing."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Bal_mithai.jpg",
@@ -2502,7 +2502,7 @@
         "licence": "CC BY 3.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/3.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bal_mithai.jpg",
-        "alt": "Bal Mithai — Uttarakhand",
+        "alt": "Bal Mithai \u2014 Uttarakhand",
         "caption": "Bal Mithai, Uttarakhand.",
         "fallback": "/images/dishes/bal-mithai-stage-4.webp",
         "width": null,
@@ -2512,7 +2512,7 @@
     "shorshe-ilish": {
       "origin": {
         "library": "spice-street",
-        "caption": "West Bengal — the regional kitchen where Shorshe Ilish belongs."
+        "caption": "West Bengal \u2014 the regional kitchen where Shorshe Ilish belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2527,7 +2527,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Shorshe Ilish — Shil-Nora Mustard Grinding & Raw Mustard Oil Finish."
+        "caption": "Shorshe Ilish \u2014 Shil-Nora Mustard Grinding & Raw Mustard Oil Finish."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Sorshe_Ilish_%28Ilish_cooked_in_mustard_gravy%29.jpg",
@@ -2537,7 +2537,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sorshe_Ilish_(Ilish_cooked_in_mustard_gravy).jpg",
-        "alt": "Shorshe Ilish — West Bengal",
+        "alt": "Shorshe Ilish \u2014 West Bengal",
         "caption": "Shorshe Ilish, West Bengal.",
         "fallback": "/images/dishes/shorshe-ilish-stage-4.webp",
         "width": null,
@@ -2547,7 +2547,7 @@
     "mishti-doi": {
       "origin": {
         "library": "spice-market",
-        "caption": "West Bengal — the regional kitchen where Mishti Doi belongs."
+        "caption": "West Bengal \u2014 the regional kitchen where Mishti Doi belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -2561,7 +2561,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Mishti Doi — Slow Milk Reduction & Unglazed Terracotta Moisture Wicking."
+        "caption": "Mishti Doi \u2014 Slow Milk Reduction & Unglazed Terracotta Moisture Wicking."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Mishti_Doi.jpg",
@@ -2571,7 +2571,7 @@
         "licence": "CC BY 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/2.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mishti_Doi.jpg",
-        "alt": "Mishti Doi — West Bengal",
+        "alt": "Mishti Doi \u2014 West Bengal",
         "caption": "Mishti Doi, West Bengal.",
         "fallback": "/images/dishes/mishti-doi-stage-4.webp",
         "width": null,
@@ -2581,7 +2581,7 @@
     "rogan-josh": {
       "origin": {
         "library": "spice-street",
-        "caption": "Jammu and Kashmir — the regional kitchen where Rogan Josh belongs."
+        "caption": "Jammu and Kashmir \u2014 the regional kitchen where Rogan Josh belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2598,7 +2598,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Rogan Josh — Ratan Jot Color Extraction & Slow Copper Degchi Braise."
+        "caption": "Rogan Josh \u2014 Ratan Jot Color Extraction & Slow Copper Degchi Braise."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Rogan_Josh.JPG",
@@ -2608,7 +2608,7 @@
         "licence": "CC0 1.0",
         "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rogan_Josh.JPG",
-        "alt": "Rogan Josh — Jammu and Kashmir",
+        "alt": "Rogan Josh \u2014 Jammu and Kashmir",
         "caption": "Rogan Josh, Jammu and Kashmir.",
         "fallback": "/images/dishes/rogan-josh-stage-4.webp",
         "width": null,
@@ -2618,7 +2618,7 @@
     "kashmiri-dum-aloo": {
       "origin": {
         "library": "spice-market",
-        "caption": "Jammu and Kashmir — the regional kitchen where Kashmiri Dum Aloo belongs."
+        "caption": "Jammu and Kashmir \u2014 the regional kitchen where Kashmiri Dum Aloo belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -2634,7 +2634,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Kashmiri Dum Aloo — Potato Pricking, Deep Crisp Frying & Sealed Curd Dum."
+        "caption": "Kashmiri Dum Aloo \u2014 Potato Pricking, Deep Crisp Frying & Sealed Curd Dum."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Kashmiri_Dum_Aaloo.JPG",
@@ -2644,7 +2644,7 @@
         "licence": "CC0 1.0",
         "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kashmiri_Dum_Aaloo.JPG",
-        "alt": "Kashmiri Dum Aloo — Jammu and Kashmir",
+        "alt": "Kashmiri Dum Aloo \u2014 Jammu and Kashmir",
         "caption": "Kashmiri Dum Aloo, Jammu and Kashmir.",
         "fallback": "/images/dishes/kashmiri-dum-aloo-stage-4.webp",
         "width": null,
@@ -2654,7 +2654,7 @@
     "delhi-nihari": {
       "origin": {
         "library": "spice-street",
-        "caption": "Delhi — the regional kitchen where Old Delhi Nihari belongs."
+        "caption": "Delhi \u2014 the regional kitchen where Old Delhi Nihari belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2671,7 +2671,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Old Delhi Nihari — Overnight Sealed Cauldron Simmer & Bone Marrow Melt."
+        "caption": "Old Delhi Nihari \u2014 Overnight Sealed Cauldron Simmer & Bone Marrow Melt."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Nihari_at_Karim%27s%2C_Jama_Masjid%2C_Old_Delhi.png",
@@ -2681,7 +2681,7 @@
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nihari_at_Karim%27s,_Jama_Masjid,_Old_Delhi.png",
-        "alt": "Old Delhi Nihari — Delhi",
+        "alt": "Old Delhi Nihari \u2014 Delhi",
         "caption": "Old Delhi Nihari, Delhi.",
         "fallback": "/images/dishes/delhi-nihari-stage-4.webp",
         "width": null,
@@ -2691,7 +2691,7 @@
     "delhi-chaat": {
       "origin": {
         "library": "spice-market",
-        "caption": "Delhi — the regional kitchen where Chandni Chowk Papdi Chaat belongs."
+        "caption": "Delhi \u2014 the regional kitchen where Chandni Chowk Papdi Chaat belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -2708,7 +2708,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Chandni Chowk Papdi Chaat — Layered Chutney Balance & Fresh Crisp Assembly."
+        "caption": "Chandni Chowk Papdi Chaat \u2014 Layered Chutney Balance & Fresh Crisp Assembly."
       },
       "plated": {
         "subject": "dish",
@@ -2758,14 +2758,14 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Ladakhi Skyu — Thumb-Indent Pasta Shaping & Sustained Broth Simmer."
+        "caption": "Ladakhi Skyu \u2014 Thumb-Indent Pasta Shaping & Sustained Broth Simmer."
       },
       "plated": null
     },
     "gur-gur-cha-khambir": {
       "origin": {
         "library": "spice-market",
-        "caption": "Ladakh — the regional kitchen where Gur Gur Cha & Khambir belongs."
+        "caption": "Ladakh \u2014 the regional kitchen where Gur Gur Cha & Khambir belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -2780,7 +2780,7 @@
       },
       "method": {
         "library": "grindstone",
-        "caption": "Gur Gur Cha & Khambir — Wooden Chandong Piston Churning & Hot Ember Toasting."
+        "caption": "Gur Gur Cha & Khambir \u2014 Wooden Chandong Piston Churning & Hot Ember Toasting."
       },
       "plated": {
         "subject": "dish",
@@ -2792,15 +2792,15 @@
         "licence": "CC BY 2.0",
         "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tibetan_butter_tea.jpg",
-        "alt": "Gur gur cha — Ladakhi butter tea",
-        "caption": "Gur gur cha — butter tea churned from tea, salt and butter.",
+        "alt": "Gur gur cha \u2014 Ladakhi butter tea",
+        "caption": "Gur gur cha \u2014 butter tea churned from tea, salt and butter.",
         "fallback": null
       }
     },
     "andaman-coconut-prawn": {
       "origin": {
         "library": "banana-leaf",
-        "caption": "Andaman and Nicobar Islands — the regional kitchen where Andaman Coconut Prawn Curry belongs."
+        "caption": "Andaman and Nicobar Islands \u2014 the regional kitchen where Andaman Coconut Prawn Curry belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2816,14 +2816,14 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Andaman Coconut Prawn Curry — Quick High-Heat Poaching in Fresh Coconut Cream."
+        "caption": "Andaman Coconut Prawn Curry \u2014 Quick High-Heat Poaching in Fresh Coconut Cream."
       },
       "plated": null
     },
     "island-crab-masala": {
       "origin": {
         "library": "spice-market",
-        "caption": "Andaman and Nicobar Islands — the regional kitchen where Island Mud Crab Masala belongs."
+        "caption": "Andaman and Nicobar Islands \u2014 the regional kitchen where Island Mud Crab Masala belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -2839,7 +2839,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Island Mud Crab Masala — Cast Iron Wok Tossing with Pepper Tempering."
+        "caption": "Island Mud Crab Masala \u2014 Cast Iron Wok Tossing with Pepper Tempering."
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Crab_Masala_%28Steamed%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -2859,7 +2859,7 @@
     "pondicherry-fish-curry": {
       "origin": {
         "library": "banana-leaf",
-        "caption": "Puducherry — the regional kitchen where Pondicherry Fish Curry belongs."
+        "caption": "Puducherry \u2014 the regional kitchen where Pondicherry Fish Curry belongs."
       },
       "ingredients": {
         "library": "spice-bowls",
@@ -2876,14 +2876,14 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Pondicherry Fish Curry — French Bouquet Garni Fusion with Tamil Tamarind Base."
+        "caption": "Pondicherry Fish Curry \u2014 French Bouquet Garni Fusion with Tamil Tamarind Base."
       },
       "plated": null
     },
     "koli-kari": {
       "origin": {
         "library": "banana-leaf",
-        "caption": "Puducherry — the regional kitchen where Koli Kari belongs."
+        "caption": "Puducherry \u2014 the regional kitchen where Koli Kari belongs."
       },
       "ingredients": {
         "library": "spice-palette",
@@ -2900,7 +2900,7 @@
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Koli Kari — Gentle Wine/Cream Style Velouté with Tropical Spices."
+        "caption": "Koli Kari \u2014 Gentle Wine/Cream Style Velout\u00e9 with Tropical Spices."
       },
       "plated": null
     },
@@ -2915,12 +2915,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerala_backwaters,_House,_India.jpg",
           "alt": "Backwaters and a waterside house in Alappuzha, Kerala",
-          "caption": "Alappuzha, Kerala — the waterside belt where puttu is a daily breakfast.",
+          "caption": "Alappuzha, Kerala \u2014 the waterside belt where puttu is a daily breakfast.",
           "fallback": null,
           "width": 4032,
           "height": 2688
         },
-        "caption": "Alappuzha, Kerala — the waterside belt where puttu is a daily breakfast.",
+        "caption": "Alappuzha, Kerala \u2014 the waterside belt where puttu is a daily breakfast.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -2933,7 +2933,7 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rice_flour.jpg",
           "alt": "A bowl of rice flour",
-          "caption": "Rice flour — the base of puttu. The dish also uses grated coconut and salt.",
+          "caption": "Rice flour \u2014 the base of puttu. The dish also uses grated coconut and salt.",
           "fallback": null,
           "width": 4208,
           "height": 2368
@@ -2991,12 +2991,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kapaleeshwarar_Temple,_Mylapore,_Chennai,_India.jpg",
           "alt": "Kapaleeshwarar Temple gopuram in Mylapore, Chennai",
-          "caption": "Mylapore, Chennai — the temple-quarter streets where the coffee-house habit took hold.",
+          "caption": "Mylapore, Chennai \u2014 the temple-quarter streets where the coffee-house habit took hold.",
           "fallback": null,
           "width": 3792,
           "height": 2582
         },
-        "caption": "Mylapore, Chennai — the temple-quarter streets where the coffee-house habit took hold.",
+        "caption": "Mylapore, Chennai \u2014 the temple-quarter streets where the coffee-house habit took hold.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -3014,7 +3014,7 @@
           "width": 1800,
           "height": 1200
         },
-        "caption": "Roasted coffee beans — ground with chicory for the decoction; milk and sugar complete it.",
+        "caption": "Roasted coffee beans \u2014 ground with chicory for the decoction; milk and sugar complete it.",
         "label": "Ingredient reference",
         "items": [
           "Coffee powder with chicory",
@@ -3067,12 +3067,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Temple_(Harmandir_Sahib)_at_night,_Amritsar,_Punjab,_India_(2018).jpg",
           "alt": "The Golden Temple at Amritsar illuminated at night",
-          "caption": "Amritsar — the historic city whose bazaar tandoors perfected the crisp, layered stuffed kulcha.",
+          "caption": "Amritsar \u2014 the historic city whose bazaar tandoors perfected the crisp, layered stuffed kulcha.",
           "fallback": null,
           "width": 4000,
           "height": 3000
         },
-        "caption": "Amritsar — the historic city whose bazaar tandoors perfected the crisp, layered stuffed kulcha.",
+        "caption": "Amritsar \u2014 the historic city whose bazaar tandoors perfected the crisp, layered stuffed kulcha.",
         "label": "Origin"
       },
       "ingredients": {
@@ -3138,12 +3138,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanivar_Wada,Pune,India.jpg",
           "alt": "Shaniwar Wada gate in Pune",
-          "caption": "Pune — the Peshwa capital where the Ganesh Chaturthi modak tradition took its present form.",
+          "caption": "Pune \u2014 the Peshwa capital where the Ganesh Chaturthi modak tradition took its present form.",
           "fallback": null,
           "width": 3072,
           "height": 3840
         },
-        "caption": "Pune — the Peshwa capital where the Ganesh Chaturthi modak tradition took its present form.",
+        "caption": "Pune \u2014 the Peshwa capital where the Ganesh Chaturthi modak tradition took its present form.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -3156,12 +3156,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jaggery_cubes.jpg",
           "alt": "Cubes of jaggery",
-          "caption": "Jaggery — melted with grated coconut for the modak filling; the shell is rice flour.",
+          "caption": "Jaggery \u2014 melted with grated coconut for the modak filling; the shell is rice flour.",
           "fallback": null,
           "width": 5456,
           "height": 3632
         },
-        "caption": "Jaggery — melted with grated coconut for the filling; the shell is rice flour.",
+        "caption": "Jaggery \u2014 melted with grated coconut for the filling; the shell is rice flour.",
         "label": "Ingredient reference",
         "items": [
           "Rice flour",
@@ -3230,7 +3230,7 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:PULIHORA.JPG",
         "alt": "Pulihora, tamarind rice, on a plate",
-        "caption": "Pulihora — Andhra tamarind rice with peanuts and curry-leaf tempering.",
+        "caption": "Pulihora \u2014 Andhra tamarind rice with peanuts and curry-leaf tempering.",
         "fallback": null,
         "width": 640,
         "height": 480,
@@ -3249,12 +3249,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ziro_valley_of_Aruncahl_in_summer_season.jpg",
           "alt": "Terraced paddy fields in the green Ziro Valley, Arunachal Pradesh",
-          "caption": "Ziro Valley, Arunachal Pradesh — homeland of the Apatani tribe where rice cultivation and traditional home brewing are entwined.",
+          "caption": "Ziro Valley, Arunachal Pradesh \u2014 homeland of the Apatani tribe where rice cultivation and traditional home brewing are entwined.",
           "fallback": null,
           "width": 2048,
           "height": 1350
         },
-        "caption": "Ziro Valley, Arunachal Pradesh — homeland of the Apatani tribe where rice cultivation and traditional home brewing are entwined.",
+        "caption": "Ziro Valley, Arunachal Pradesh \u2014 homeland of the Apatani tribe where rice cultivation and traditional home brewing are entwined.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -3300,12 +3300,12 @@
         "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Til_Pitha_-_Assamese_Ricecake.jpg",
         "subject": "dish",
         "title": "Til Pitha - Assamese Ricecake",
-        "creator": "দিব্য দত্ত (Dibya Dutta)",
+        "creator": "\u09a6\u09bf\u09ac\u09cd\u09af \u09a6\u09a4\u09cd\u09a4 (Dibya Dutta)",
         "licence": "CC BY-SA 4.0",
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Til_Pitha_-_Assamese_Ricecake.jpg",
         "alt": "Til pitha, sesame-filled Assamese rice crepes",
-        "caption": "Til pitha — toasted sesame and jaggery rolled in a rice-flour crepe, Assam.",
+        "caption": "Til pitha \u2014 toasted sesame and jaggery rolled in a rice-flour crepe, Assam.",
         "fallback": null,
         "width": 4160,
         "height": 3120,
@@ -3350,7 +3350,7 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khaja_of_Silao.jpg",
         "alt": "Golden multi-layered crisp Silao Khaja from Nalanda, Bihar",
-        "caption": "GI-tagged Silao Khaja from Nalanda, Bihar — hundreds of paper-thin, crisp fried layers glazed with sugar syrup.",
+        "caption": "GI-tagged Silao Khaja from Nalanda, Bihar \u2014 hundreds of paper-thin, crisp fried layers glazed with sugar syrup.",
         "fallback": null,
         "width": 3456,
         "height": 4608
@@ -3429,7 +3429,7 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Handvo_(Gujarati_savory_cake).JPG",
         "alt": "Handvo, Gujarati savoury lentil and rice cake",
-        "caption": "Handvo — Gujarati savoury cake made from lentils and rice, cut into squares.",
+        "caption": "Handvo \u2014 Gujarati savoury cake made from lentils and rice, cut into squares.",
         "fallback": null,
         "width": 1936,
         "height": 1936,
@@ -3460,7 +3460,7 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Churma.JPG",
         "alt": "Churma, crumbled wheat roti bound with ghee and sugar",
-        "caption": "Churma — crumbled hearth-baked wheat roti bound with ghee and sugar, Haryana.",
+        "caption": "Churma \u2014 crumbled hearth-baked wheat roti bound with ghee and sugar, Haryana.",
         "fallback": null,
         "width": 4608,
         "height": 3456,
@@ -3479,12 +3479,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ATea_garden_at_Nagri_in_the_Kangra_Valley_of_Himachal_Pradesh%2C_India.jpg",
           "alt": "Tea garden landscape in Kangra Valley against Himalayan slopes",
-          "caption": "Kangra Valley, Himachal Pradesh — lush Himalayan foothills where traditional Pahari cooks (Botis) developed the yogurt-based Madra tradition.",
+          "caption": "Kangra Valley, Himachal Pradesh \u2014 lush Himalayan foothills where traditional Pahari cooks (Botis) developed the yogurt-based Madra tradition.",
           "fallback": null,
           "width": 4931,
           "height": 3287
         },
-        "caption": "Kangra Valley, Himachal Pradesh — lush Himalayan foothills where traditional Pahari cooks (Botis) developed the yogurt-based Madra tradition.",
+        "caption": "Kangra Valley, Himachal Pradesh \u2014 lush Himalayan foothills where traditional Pahari cooks (Botis) developed the yogurt-based Madra tradition.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -3555,7 +3555,7 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mysore_Pak.jpg",
         "alt": "Mysore pak, gram-flour and ghee fudge cut into squares",
-        "caption": "Mysore pak — gram-flour and ghee fudge cut into squares, photographed at Rao's Udipi Home.",
+        "caption": "Mysore pak \u2014 gram-flour and ghee fudge cut into squares, photographed at Rao's Udipi Home.",
         "fallback": null,
         "width": 1600,
         "height": 1052,
@@ -3574,12 +3574,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_Narmada_from_Maheshwar_Fort.jpg",
           "alt": "Maheshwar Fort on the sacred Narmada river in Madhya Pradesh",
-          "caption": "Maheshwar on the Narmada River, Malwa — historic heartland of Madhya Pradesh where bafla is the community feast centerpiece.",
+          "caption": "Maheshwar on the Narmada River, Malwa \u2014 historic heartland of Madhya Pradesh where bafla is the community feast centerpiece.",
           "fallback": null,
           "width": 3000,
           "height": 1817
         },
-        "caption": "Maheshwar on the Narmada River, Malwa — historic heartland of Madhya Pradesh where bafla is the community feast centerpiece.",
+        "caption": "Maheshwar on the Narmada River, Malwa \u2014 historic heartland of Madhya Pradesh where bafla is the community feast centerpiece.",
         "label": "Origin"
       },
       "ingredients": {
@@ -3632,12 +3632,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loktak_Lake_Manipur_01.jpg",
           "alt": "Phumdis floating on the waters of Loktak Lake in Manipur",
-          "caption": "Loktak Lake, Manipur — fertile valley landscape where indigenous black glutinous rice (Chak-Hao) has been cultivated for centuries.",
+          "caption": "Loktak Lake, Manipur \u2014 fertile valley landscape where indigenous black glutinous rice (Chak-Hao) has been cultivated for centuries.",
           "fallback": null,
           "width": 2592,
           "height": 1944
         },
-        "caption": "Loktak Lake, Manipur — fertile valley landscape where indigenous black glutinous rice (Chak-Hao) has been cultivated for centuries.",
+        "caption": "Loktak Lake, Manipur \u2014 fertile valley landscape where indigenous black glutinous rice (Chak-Hao) has been cultivated for centuries.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -3724,12 +3724,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jagannath_Temple,_Puri_04.jpg",
           "alt": "Jagannath Temple in Puri, Odisha",
-          "caption": "Jagannath Temple, Puri — spiritual center where fermented Dahi Pakhala is offered as sacred Mahaprasad.",
+          "caption": "Jagannath Temple, Puri \u2014 spiritual center where fermented Dahi Pakhala is offered as sacred Mahaprasad.",
           "fallback": null,
           "width": 5184,
           "height": 3456
         },
-        "caption": "Jagannath Temple, Puri — spiritual center where fermented Dahi Pakhala is offered as sacred Mahaprasad.",
+        "caption": "Jagannath Temple, Puri \u2014 spiritual center where fermented Dahi Pakhala is offered as sacred Mahaprasad.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -3816,7 +3816,7 @@
         "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:GhevarRajasthaniSweet.jpg",
         "alt": "Ghewar, honeycombed Rajasthani disc sweet",
-        "caption": "Ghewar — the honeycombed Rajasthani disc sweet traditionally made for Teej.",
+        "caption": "Ghewar \u2014 the honeycombed Rajasthani disc sweet traditionally made for Teej.",
         "fallback": null,
         "width": 1161,
         "height": 1087,
@@ -3849,58 +3849,12 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sel_Roti.jpg",
         "alt": "Sel roti, ring-shaped Nepali rice bread",
-        "caption": "Sel roti — ring-shaped rice-flour bread made for Tihar and Dashain.",
+        "caption": "Sel roti \u2014 ring-shaped rice-flour bread made for Tihar and Dashain.",
         "fallback": null,
         "width": 1000,
         "height": 750,
         "local": "/images/dishes/sel-roti-stage-4.webp",
         "label": "Finished dish"
-      }
-    },
-    "qubani-ka-meetha": {
-      "origin": {
-        "photo": {
-          "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Golconda_Fort%2C_Hyderabad_%28Oct_2025%29_-_3.jpg",
-          "subject": "context",
-          "title": "Golconda Fort, Hyderabad",
-          "creator": "Kuldeepburjbhalaike",
-          "licence": "CC BY-SA 4.0",
-          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golconda_Fort,_Hyderabad_(Oct_2025)_-_3.jpg",
-          "alt": "Golconda Fort battlements and stone architecture in Hyderabad",
-          "caption": "Golconda Fort, Hyderabad — historic citadel of the Qutb Shahi and Asaf Jahi dynasties where Persian dried-fruit confectionary took root.",
-          "fallback": null,
-          "width": 3000,
-          "height": 4000
-        },
-        "caption": "Golconda Fort, Hyderabad — historic citadel of the Qutb Shahi and Asaf Jahi dynasties where Persian dried-fruit confectionary took root.",
-        "label": "Regional context"
-      },
-      "ingredients": {
-        "library": null,
-        "caption": "",
-        "items": [
-          "Dried apricots",
-          "Sugar",
-          "Water",
-          "Cardamom",
-          "Cream or custard"
-        ]
-      },
-      "method": null,
-      "plated": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Khobani_Ka_Meetha.JPG",
-        "subject": "dish",
-        "title": "Khobani Ka Meetha",
-        "creator": "Miansari66",
-        "licence": "CC0",
-        "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khobani_Ka_Meetha.JPG",
-        "alt": "Stewed apricot compote dessert with crushed kernels",
-        "caption": "Hyderabadi Qubani ka Meetha: slow-stewed dried apricots in sugar syrup, finished with cracked apricot kernels (badam).",
-        "fallback": null,
-        "width": 2816,
-        "height": 2112
       }
     },
     "awan-bangwi": {
@@ -3914,12 +3868,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Right_Facade_of_Ujjayanta_Palace,_Agartala,_Tripura_06.JPG",
           "alt": "Ujjayanta Palace neoclassical royal facade in Agartala, Tripura",
-          "caption": "Ujjayanta Palace in Agartala — royal heritage center of Tripura where indigenous Tripuri culinary arts are preserved.",
+          "caption": "Ujjayanta Palace in Agartala \u2014 royal heritage center of Tripura where indigenous Tripuri culinary arts are preserved.",
           "fallback": null,
           "width": 6000,
           "height": 4000
         },
-        "caption": "Ujjayanta Palace in Agartala — royal heritage center of Tripura where indigenous Tripuri culinary arts are preserved.",
+        "caption": "Ujjayanta Palace in Agartala \u2014 royal heritage center of Tripura where indigenous Tripuri culinary arts are preserved.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -3960,13 +3914,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malaiyo_Pehalwaan_lassi_in_front_of_ravidas_gate_LANKA._Varanasi_Uttar_Pradesh.jpg",
           "alt": "A Varanasi street vendor's stall near Ravidas Gate, Lanka",
-          "caption": "A Varanasi street-food stall near Ravidas Gate, Lanka — the winter malaiyo trade. Regional food culture, not a photograph of the dish itself, and not evidence of its origin.",
+          "caption": "A Varanasi street-food stall near Ravidas Gate, Lanka \u2014 the winter malaiyo trade. Regional food culture, not a photograph of the dish itself, and not evidence of its origin.",
           "fallback": null,
           "width": 3456,
           "height": 4608,
           "local": "/images/dishes/banarasi-malaiyo-stage-1.webp"
         },
-        "caption": "A Varanasi street-food stall near Ravidas Gate, Lanka — the winter malaiyo trade. Regional food culture, not a photograph of the dish itself, and not evidence of its origin.",
+        "caption": "A Varanasi street-food stall near Ravidas Gate, Lanka \u2014 the winter malaiyo trade. Regional food culture, not a photograph of the dish itself, and not evidence of its origin.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -3995,12 +3949,12 @@
           "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_Almora_Uttarakhand_India.jpg",
           "alt": "Almora hillside town overlooking snowcapped Kumaon Himalayas",
-          "caption": "Almora town, Kumaon — historical hill station where Kumaoni halwais invented both Bal Mithai and leaf-wrapped Singori.",
+          "caption": "Almora town, Kumaon \u2014 historical hill station where Kumaoni halwais invented both Bal Mithai and leaf-wrapped Singori.",
           "fallback": null,
           "width": 1133,
           "height": 750
         },
-        "caption": "Almora town, Kumaon — historical hill station where Kumaoni halwais invented both Bal Mithai and leaf-wrapped Singori.",
+        "caption": "Almora town, Kumaon \u2014 historical hill station where Kumaoni halwais invented both Bal Mithai and leaf-wrapped Singori.",
         "label": "Regional context"
       },
       "ingredients": {
@@ -4052,7 +4006,7 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rasgulla_With_Rabdi.jpg",
         "alt": "Rosogolla served with rabdi, saffron and rose petals",
-        "caption": "Rosogolla with rabdi, saffron and rose — a festive Bengali presentation of the chhena sweet.",
+        "caption": "Rosogolla with rabdi, saffron and rose \u2014 a festive Bengali presentation of the chhena sweet.",
         "fallback": null,
         "width": 3114,
         "height": 1900,
