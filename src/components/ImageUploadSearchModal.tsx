@@ -7,12 +7,8 @@ import {
   ZoomOut,
   RotateCcw,
   Sparkles,
-  Layers,
-  Leaf,
   Compass,
   Check,
-  ChevronRight,
-  ExternalLink,
 } from "lucide-react";
 import {
   DishInfographic,

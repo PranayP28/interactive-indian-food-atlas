@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Sparkles, Calendar, BookOpen, ChefHat, ArrowUpRight } from "lucide-react";
+import { Sparkles, ChefHat, ArrowUpRight } from "lucide-react";
 import { useTheme } from "../../context/ThemeContext";
 
 export interface GenerationSummaryMember {

@@ -11,7 +11,7 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({
   className = "",
   showLabel = false,
 }) => {
-  const { theme, isLight, toggleTheme } = useTheme();
+  const { isLight, toggleTheme } = useTheme();
 
   return (
     <button

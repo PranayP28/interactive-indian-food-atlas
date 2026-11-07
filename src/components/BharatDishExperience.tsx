@@ -46,7 +46,6 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
   const allDishes = getAllDishes();
   const journey: DishCulinaryJourney = getCulinaryJourneyForDish(dishId);
   const currentDish = allDishes.find((d) => d.id === dishId) || allDishes[0];
-  const stateName = getStateByDishId(dishId) || currentDish.state;
 
   // UI state
   const [showSourcesModal, setShowSourcesModal] = useState(false);

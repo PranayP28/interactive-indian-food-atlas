@@ -393,6 +393,171 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
 ];
 
 // ─────────────────────────────────────────────
+// HYDERABADI HALEEM (Telangana)
+// ─────────────────────────────────────────────
+export const HALEEM_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Hyderabadi Haleem in the Deccan",
+    shortDescription:
+      "Haleem traces its ancestry to the medieval Arab dish harees, a slow-cooked porridge of pounded meat and wheat. It was introduced to Hyderabad by the Arab diaspora (Chaush soldiers from Yemen) serving in the irregular army of the Asaf Jahi Nizams. In the royal kitchens of the Nizams and Paigah nobles, the rustic harees was refined and Indianized by introducing aromatic Deccan spices, mixed lentils, ghee, dry fruits, and rose petals. It became the signature delicacy of Hyderabad, especially cherished during Ramzan for breaking the fast.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Large copper or brass cauldrons (Degs) over bhatti fire",
+      heatSource: "Wood and charcoal bhatti fire burning overnight",
+      ingredientsList: [],
+      preparationMethod:
+        "Slow-simmered for 8 to 12 hours and vigorously pounded with heavy wooden pestles (ghotni) until meat and wheat merge into a smooth, cohesive porridge.",
+      contemporaryDifference:
+        "Introduced by Yemeni Chaush soldiers and refined in Asaf Jahi royal kitchens with fragrant Deccan spices and pure ghee.",
+    },
+    technologicalLeap: "Bhatti simmer and rhythmic wooden ghotni pounding extracting gelatinous collagen and wheat starches.",
+    documentedCitation: "Medieval Arab culinary compendiums & Asaf Jahi court kitchen archives.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders\nVessel: massive heavy tinned copper cauldrons (degs/bhatti) / stainless steel pots, heavy-bottom handis, and domestic pressure cookers\nFuel: tamarind wood and charcoal bhattis burning low overnight / LPG gas stoves, induction, and commercial gas burners\nCooking time: 10 to 12 hours of overnight simmering / 1.5 to 2.5 hours in home pressure cookers\nPounding: 2 to 3 skilled cooks rhythmically beating with wooden poles (ghotnis) / home wooden whisks, potato mashers, or short pulses of electric blenders\nMeat: traditional bone-in tender goat/mutton marrow cuts slow-cooked till bones slip out / boneless mutton, chicken (now widespread in restaurants), and modern vegetarian lentil variants\nFlavourings: pure desi ghee, freshly stone-ground potli masala, rose water, and wild cinnamon / commercial packaged haleem spice blends and ready ginger-garlic paste\nGarnish & Serving: golden fried onions (birista), ghee drizzle, fresh mint, coriander, lime, and sliced almonds/cashews / similar traditional garnishes maintained across both royal feasts and modern takeaway boxes",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Massive copper bhatti cauldrons / stainless steel pots and pressure cookers",
+      heatSource: "Tamarind wood and charcoal / domestic LPG gas and electricity",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking method: 12-hour continuous slow simmering and intense manual pounding with wooden ghotni / shorter cooking in pressure cookers or slow cookers with handheld immersion blenders",
+      contemporaryDifference:
+        "Transition from overnight wood-fired bhatti cauldrons to rapid pressure cooking and domestic handheld blenders.",
+    },
+    technologicalLeap: "Mechanical and thermal evolution shortening 12-hour manual labor to domestic accessibility.",
+    documentedCitation: "Gastronomic surveys and regional technology documentation.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Hyderabadi Haleem Recipe: 10 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: broken wheat (dalia), boneless mutton, chana and moong lentils, curd, pure desi ghee, fried onions (birista), ginger-garlic paste, whole spices and garam masala, mint and coriander, almonds and cashew nuts.",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Hyderabadi Haleem Recipe",
+      historicalCookware: "Heavy-bottomed pot or pressure cooker with wooden masher (ghotni)",
+      heatSource: "Medium sear followed by low simmering and continuous pounding",
+      ingredientsList: [
+        "broken wheat (dalia)",
+        "boneless mutton",
+        "chana and moong lentils",
+        "curd (yoghurt)",
+        "pure desi ghee",
+        "fried onions (birista)",
+        "ginger-garlic paste",
+        "whole spices and garam masala",
+        "mint and coriander",
+        "almonds and cashew nuts",
+      ],
+      preparationMethod:
+        "1. Soak broken wheat and lentils (chana and moong) in water for 1 to 2 hours, then drain.\n2. Marinate the mutton with curd, ginger-garlic paste, turmeric, chilli powder, salt, and half of the garam masala for at least 1 hour.\n3. In a heavy pot or pressure cooker, heat ghee and saute whole spices (shahi jeera, cardamom, cloves, cinnamon) and a portion of fried onions until fragrant.\n4. Add the marinated meat and sear on medium-high heat, then add water and pressure-cook or slow-simmer until the meat is thoroughly tender and falling apart.\n5. Separately boil the soaked broken wheat and lentils with a pinch of turmeric and water until completely soft and mushy.\n6. Shred the cooked meat off any bones and combine the shredded meat and its rich broth into the pot of cooked wheat and lentils.\n7. Slow-simmer over low heat while vigorously mashing and pounding with a wooden masher (ghotni) for 30–40 minutes, gradually incorporating hot ghee until the mixture turns silky, elastic, and pasty.\n8. Season with remaining garam masala, mint, and coriander; ladle into warm bowls and top with hot ghee, golden fried onions, toasted cashews, and fresh lemon wedges.",
+      contemporaryDifference:
+        "Numbered 8-step ghotni pounding process with 10 key ingredients for kitchen-tested authentic texture.",
+    },
+    technologicalLeap: "Dual-cooking and emulsification combining grain starches, gelatinized meat strands, and ghee into a continuous silky matrix.",
+    documentedCitation: "Codified regional recipe documentation.",
+  },
+  {
+    generationNumber: 4,
+    eraTitle: "Pounding Technique",
+    yearRange: "Ghotni Mastery",
+    centuryLabel: "Pounding Method",
+    headline: "The Wooden Ghotni Emulsification Protocol",
+    shortDescription:
+      "Vigorous, rhythmic mashing with heavy wooden pestles breaks meat fibers into tender silk threads while bursting wheat starches to produce the iconic stretchable, velvety texture.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Ghotni Emulsification Technique",
+      historicalCookware: "Heavy cauldron with hardwood ghotni",
+      heatSource: "Constant low ember heat",
+      ingredientsList: [
+        "Simmered broken wheat and lentils",
+        "Tender shredded meat broth",
+        "Warm desi ghee additions",
+      ],
+      preparationMethod:
+        "Pound and swirl in clockwise circles for 30 to 40 minutes, adding hot ghee in streams until the spoon stands upright.",
+      contemporaryDifference:
+        "Manual ghotni produces authentic silky fiber threads unlike blenders that turn meat into mush.",
+    },
+    technologicalLeap: "Mechanical shear stress yielding natural collagen-starch emulsion.",
+    documentedCitation: "Hyderabadi Master Chefs Oral Tradition & GI Guidelines.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Finishing & Aromatics",
+    yearRange: "Royal Garnishing",
+    centuryLabel: "Garnish Protocol",
+    headline: "Finishing with Desi Ghee & Nizami Aromatics",
+    shortDescription:
+      "Final seasoning with royal garam masala, fried onions, roasted cashew nuts, and fresh mint leaves creates an intoxicating balance of rich, savory, and tangy notes.",
+    image: ERA_PHOTO.modern_kitchen,
+    generationRecipe: {
+      recipeName: "Royal Nizami Garnish Protocol",
+      historicalCookware: "Lidded serving bowl",
+      heatSource: "Residual steam warmth",
+      ingredientsList: [
+        "Golden fried onions (birista)",
+        "Slivered almonds and fried cashews",
+        "Chopped mint and coriander leaves",
+        "Hot ghee drizzle and lemon wedges",
+      ],
+      preparationMethod:
+        "Ladle into deep porcelain or copper bowls, top with hot aromatic ghee, crisp birista, roasted dry fruits, fresh herbs, and a squeeze of fresh lime.",
+      contemporaryDifference:
+        "Traditional festive garnish providing contrast in texture against the silky smooth stew.",
+    },
+    technologicalLeap: "Multi-textural temperature and crunch contrast layering.",
+    documentedCitation: "Chowmahalla Palace Banquet Archives.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "Hyderabadi Haleem Plated & Served",
+    shortDescription:
+      "A GI-tagged culinary wonder distributed during Ramzan across Hyderabad and shipped globally as the jewel of Telangana meat cookery.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Hyderabadi Haleem Plated",
+      historicalCookware: "Serving bowl",
+      heatSource: "Served piping hot",
+      ingredientsList: [
+        "Broken wheat (dalia)",
+        "Mutton",
+        "Lentils",
+        "Desi ghee",
+        "Fried onions",
+        "Cashews & almonds",
+      ],
+      preparationMethod:
+        "Served hot, rich and glistening with desi ghee and garnished with fresh lemon wedges.",
+      contemporaryDifference:
+        "GI-protected cultural emblem of Hyderabad and Telangana.",
+    },
+    technologicalLeap: "Standardized GI-specification composition and global delivery packaging.",
+    documentedCitation: "National GI Tag Registry & Telangana Gastronomic Survey.",
+  },
+];
+
+// ─────────────────────────────────────────────
 // PESARATTU (Andhra Pradesh)
 // ─────────────────────────────────────────────
 export const PESARATTU_GENERATIONS: GenerationWaypoint[] = [
@@ -1001,35 +1166,489 @@ export const INDORI_POHA_GENERATIONS: GenerationWaypoint[] = [
       contemporaryDifference:
         "Famous breakfast and street food of Indore, Madhya Pradesh.",
     },
-    technologicalLeap: "Precision 9-step unfermented green moong dosa griddling protocol.",
-    documentedCitation: "Codified Andhra regional recipe documentation.",
+    technologicalLeap: "Steam-cooking flattened rice for soft texture without pan-frying.",
+    documentedCitation: "Regional food tradition & street food documentation of Indore.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Poha flakes: Then - hand-pounded and sun-dried in villages | Now - machine-made flakes sold ready in packets\nCooking style: Then - poha as cooked in Maharashtra, with sauteed onions | Now - Indori style, steamed, with raw onions on top\nToppings: Then - simple toppings like chopped onion | Now - sev, masala boondi (nukti), pomegranate and jeeravan masala\nJeeravan masala: Then - mixed fresh at home | Now - ready-made packets are widely available\nFuel: Then - wood or coal fires | Now - gas stoves and induction cooktops\nReach: Then - a local street breakfast of Indore | Now - sold in nearby cities and growing popular in other states\nThese changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Traditional wood/coal stoves / Modern gas stoves and induction cooktops",
+      heatSource: "Wood or coal fires / Gas stoves and induction cooktops",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking style: Then - poha as cooked in Maharashtra, with sauteed onions | Now - Indori style, steamed, with raw onions on top",
+      contemporaryDifference:
+        "These changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    },
+    technologicalLeap: "Transition to machine-made flakes and ready-made packaged jeeravan masala.",
+    documentedCitation: "Regional food practices across Madhya Pradesh.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Indori Poha Recipe: 12 Key Ingredients, 10 Steps",
+    shortDescription:
+      "Key ingredients: Thick or medium-thick poha (flattened rice), Turmeric, sugar and salt, Oil, Mustard seeds and fennel seeds, Green chilli, Onion (raw, chopped), Fresh coriander leaves, Jeeravan masala, Ratlami or Indori sev, and masala boondi (nukti), Lemon, Pomegranate (optional), Hot jalebi (for serving, optional).",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Indori Poha Recipe",
+      historicalCookware: "Strainer, pan for tempering, pot with lid for steaming",
+      heatSource: "Low to medium-low heat for tempering, low heat for steaming",
+      ingredientsList: [
+        "Thick or medium-thick poha (flattened rice)",
+        "Turmeric, sugar and salt",
+        "Oil",
+        "Mustard seeds and fennel seeds",
+        "Green chilli",
+        "Onion (raw, chopped)",
+        "Fresh coriander leaves",
+        "Jeeravan masala",
+        "Ratlami or Indori sev, and masala boondi (nukti)",
+        "Lemon",
+        "Pomegranate (optional)",
+        "Hot jalebi (for serving, optional)",
+      ],
+      preparationMethod:
+        "1. Rinse the poha. - Rinse thick poha in a strainer under clean running water. Do not over-rinse, or it turns mushy.\n2. Drain and rest. - Drain well. The flakes should be soft but whole. If still firm, sprinkle a little water and wait a few minutes.\n3. Add the dry seasoning. - Add turmeric, sugar and salt to the poha and mix lightly.\n4. Make the tempering. - Heat oil on low to medium-low heat. Add mustard seeds, then fennel seeds, then green chilli.\n5. Add the poha. - Keep the heat low and mix gently until the colour turns light yellow.\n6. Steam the poha. - Cover with a lid and steam on low heat for about 1 to 2 minutes. Stir and switch off the heat.\n7. Plate it hot. - Take the hot poha on a plate.\n8. Add the fresh toppings. - Top with chopped raw onion and coriander, sprinkle jeeravan masala, and add pomegranate.\n9. Add the crunch. - Top with masala boondi (nukti) and Ratlami or Indori sev.\n10. Finish and serve. - Squeeze lemon juice on top. Serve straight away, with hot jalebi.",
+      contemporaryDifference:
+        "Use thick or medium-thick poha. Steam it; the onions are not sauteed. Recipes differ from vendor to vendor, and some vendors add peas.",
+    },
+    technologicalLeap: "Trapped steam cooking covered with a lid for 1 to 2 minutes.",
+    documentedCitation: "Codified regional recipe documentation.",
   },
   {
     generationNumber: 4,
-    eraTitle: "Present Day",
-    yearRange: "Present Day",
+    eraTitle: "Steaming Technique",
+    yearRange: "Steam Method",
     centuryLabel: "Stage 4",
-    headline: "Pesarattu Plated & Served",
+    headline: "Low Heat Steam Finishing",
     shortDescription:
-      "Folded crisp and served piping hot with traditional spicy ginger chutney (Allam Pachadi).",
-    image: ERA_PHOTO.biryani_royal_hero,
+      "Covering with a lid and steaming on low heat for 1 to 2 minutes softens the poha without making it mushy.",
+    image: ERA_PHOTO.dum_seal,
     generationRecipe: {
-      recipeName: "Pesarattu Plated",
-      historicalCookware: "Serving plate",
-      heatSource: "Served freshly cooked",
+      recipeName: "Steam Finishing Protocol",
+      historicalCookware: "Covered pot with tight lid",
+      heatSource: "Low heat",
       ingredientsList: [
-        "whole green gram (green moong)",
-        "onion",
-        "fresh coriander leaves",
-        "ginger chutney (Allam Pachadi)",
+        "Thick or medium-thick poha (flattened rice)",
+        "Turmeric, sugar and salt",
+        "Oil",
+        "Mustard seeds and fennel seeds",
+        "Green chilli",
       ],
       preparationMethod:
-        "Folded and served hot with fresh Allam Pachadi.",
+        "Cover with a lid and steam on low heat for about 1 to 2 minutes. Stir and switch off the heat.",
       contemporaryDifference:
-        "Iconic breakfast dish of Andhra Pradesh.",
+        "Use thick or medium-thick poha. Steam it; the onions are not sauteed.",
     },
-    technologicalLeap: "Classic pairing of crisp unfermented crepe with tangy Allam Pachadi.",
-    documentedCitation: "Andhra Pradesh Tourism & Regional Culinary Surveys.",
+    technologicalLeap: "Precise low heat steaming preserving flake texture.",
+    documentedCitation: "Regional street food preparation technique.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Topping and Assembly",
+    yearRange: "Assembly",
+    centuryLabel: "Stage 5",
+    headline: "Fresh Toppings & Crunchy Textures",
+    shortDescription:
+      "Raw chopped onion, coriander, jeeravan masala, pomegranate, masala boondi and sev are layered on hot poha.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Plate Assembly Protocol",
+      historicalCookware: "Serving plate",
+      heatSource: "Residual heat from hot poha",
+      ingredientsList: [
+        "Onion (raw, chopped)",
+        "Fresh coriander leaves",
+        "Jeeravan masala",
+        "Ratlami or Indori sev, and masala boondi (nukti)",
+        "Lemon",
+        "Pomegranate (optional)",
+      ],
+      preparationMethod:
+        "Take hot poha on a plate. Top with raw onion, coriander, jeeravan masala, pomegranate, boondi, and sev.",
+      contemporaryDifference:
+        "Raw onions go on top rather than being sauteed.",
+    },
+    technologicalLeap: "Layering raw crunch over soft warm steamed rice flakes.",
+    documentedCitation: "Indore street food vendor service traditions.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "Indori Poha Served with Hot Jalebi",
+    shortDescription:
+      "Finished with a squeeze of fresh lemon juice and served immediately with hot, sweet jalebi.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Indori Poha Plated",
+      historicalCookware: "Serving plate",
+      heatSource: "Served fresh and hot",
+      ingredientsList: [
+        "Thick or medium-thick poha (flattened rice)",
+        "Ratlami or Indori sev",
+        "Masala boondi (nukti)",
+        "Lemon",
+        "Hot jalebi (for serving, optional)",
+      ],
+      preparationMethod:
+        "Squeeze lemon juice on top. Serve straight away, with hot jalebi.",
+      contemporaryDifference:
+        "The classic morning breakfast pairing of Indore.",
+    },
+    technologicalLeap: "Savoury, tangy poha paired with hot crisp sweet jalebi.",
+    documentedCitation: "Regional culinary culture of Madhya Pradesh.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// BHUTTE KA KEES (Madhya Pradesh)
+// ─────────────────────────────────────────────
+export const BHUTTE_KA_KEES_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Origin",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Bhutte Ka Kees: Origin & Malwa Heritage",
+    shortDescription:
+      "Bhutte Ka Kees is a famous street food and traditional delicacy of Madhya Pradesh, especially celebrated across the Malwa region including Indore (famous in Sarafa Bazaar night market and Chappan Dukan). \"Bhutta\" means corn on the cob, and \"Kees\" comes from \"keesna\" (to grate in Hindi). Fresh tender corn kernels are grated fresh, releasing sweet corn pulp and juice, then slow-braised in full-cream milk, tempered with mustard seeds, cumin, hing (asafoetida), and green chillies, and finished with freshly grated coconut, coriander, and lemon juice. No reliable historical record gives the exact year, place or creator of Bhutte Ka Kees, though local tradition associates it with Holkar-era royal banquets and Malwa monsoon harvest feasts.\n\nWhy it is famous:\n- Its own cooking style: fresh corn is grated to extract juices and slow-braised in milk, yielding a luscious creamy and grainy texture.\n- Balanced flavour: natural corn sweetness harmonized with spicy green chillies, aromatic hing, and tangy fresh lemon.\n- Night street food royalty: an iconic attraction at Indore's legendary Sarafa Bazaar and Chappan Dukan.\n- Seasonal harvest celebration: traditionally crafted during monsoons when tender desi bhutta is harvested in Malwa.\n- Rich garnishes: served steaming hot topped with freshly grated coconut, coriander, crunchy sev, and a dash of jeeravan masala.\n- Wide reach: popular across Indore, Ujjain, Ratlam, Bhopal, and now featured on menus nationwide.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Bhutte Ka Kees",
+      historicalCookware: "Heavy iron kadhai or brass lagan",
+      heatSource: "Traditional wood or charcoal sigri",
+      ingredientsList: [],
+      preparationMethod:
+        "Fresh tender corn is coarsely grated, releasing starch and milk, then slow-braised in dairy milk and tempered with whole spices.",
+      contemporaryDifference:
+        "Signature street delicacy and monsoon culinary pride of Indore, Madhya Pradesh.",
+    },
+    technologicalLeap: "Extracting fresh corn milk and starch via fine grating to create a rich braised emulsion without thickeners.",
+    documentedCitation: "Regional culinary traditions and oral documentation of Indore, Madhya Pradesh.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Corn: Then - seasonal desi white/yellow maize grated by hand on coarse iron graters | Now - sweet corn or american corn cobs, readily grated or ground in food processors\nDairy & Braise: Then - full-cream fresh buffalo milk simmered slowly in heavy iron kadhais | Now - packaged dairy milk or cream, non-stick pans or pressure cookers\nTempering fat: Then - pure desi cow/buffalo ghee | Now - vegetable oil or a blend of ghee and oil\nToppings: Then - simple fresh scraped coconut, green chillies, and rock salt | Now - Ratlami sev, pomegranate arils, jeeravan masala, and fresh lemon\nFuel: Then - smouldering wood or coal sigris | Now - commercial gas burners and induction cooktops\nReach: Then - seasonal monsoon household dish in Malwa | Now - renowned year-round street food across Indore and central India\nThese changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Traditional iron kadhai / Modern non-stick pan",
+      heatSource: "Charcoal sigri / Modern gas burners and induction",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking style: Then - fresh seasonal field maize simmered slowly with ghee and rock salt | Now - sweet corn braised in milk with jeeravan masala, sev, and lemon",
+      contemporaryDifference:
+        "These changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    },
+    technologicalLeap: "Adoption of tender sweet corn varieties, modern grating appliances, and complex street seasonings.",
+    documentedCitation: "Comparative food practice surveys across Indore and the Malwa region.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Step-by-Step",
+    centuryLabel: "Stage 3",
+    headline: "Bhutte Ka Kees: 12 Key Ingredients & 10 Preparation Steps",
+    shortDescription:
+      "Key ingredients: Fresh tender sweet corn (bhutta, grated), Full cream milk, Desi ghee or oil, Mustard seeds and cumin seeds (jeera), Asafoetida (hing), Green chillies (finely chopped), Fresh ginger (grated), Turmeric powder, Sugar and salt, Fresh coconut (scraped/grated), Fresh coriander leaves, Lemon (for tang) and jeeravan masala / sev (optional).\n\n1. Grate the corn. - Husk fresh tender corn cobs and grate using a medium grater to collect pulp and juices.\n2. Heat the fat. - Heat ghee or oil in a heavy kadhai over medium-low heat.\n3. Splutter the spices. - Add mustard seeds and cumin seeds; once they crackle, add asafoetida (hing).\n4. Sauté the aromatics. - Add finely chopped green chillies and grated ginger; sauté for 30 seconds until aromatic.\n5. Cook the corn pulp. - Add grated corn, turmeric powder, salt, and a pinch of sugar; sauté on low heat for 3-4 minutes.\n6. Pour the milk. - Slowly pour in full cream milk while stirring continuously to blend evenly.\n7. Simmer and thicken. - Cover with a lid and cook on low heat for 8-10 minutes, stirring occasionally, until milk is absorbed and corn is tender.\n8. Stir in fresh garnish. - Turn off the heat and stir in half of the freshly grated coconut and chopped coriander leaves.\n9. Season to taste. - Squeeze fresh lemon juice and dust with jeeravan masala for signature Indori tang.\n10. Finish and serve. - Spoon hot into bowls, garnish with remaining grated coconut, coriander, and crispy sev.\n\nUse fresh tender corn. Grating rather than blending retains the quintessential texture. Add milk gradually on low heat to achieve creamy consistency.",
+    image: ERA_PHOTO.spice_caravan,
+    generationRecipe: {
+      recipeName: "Bhutte Ka Kees Culinary Protocol",
+      historicalCookware: "Heavy-bottomed kadhai with lid",
+      heatSource: "Medium-low to low steady flame",
+      ingredientsList: [
+        "Fresh tender sweet corn (bhutta, grated)",
+        "Full cream milk",
+        "Desi ghee or oil",
+        "Mustard seeds and cumin seeds (jeera)",
+        "Asafoetida (hing)",
+        "Green chillies (finely chopped)",
+        "Fresh ginger (grated)",
+        "Turmeric powder",
+        "Sugar and salt",
+        "Fresh coconut (scraped/grated)",
+        "Fresh coriander leaves",
+        "Lemon (for tang) and jeeravan masala / sev (optional)",
+      ],
+      preparationMethod:
+        "Grate fresh corn kernels, splutter mustard, cumin, and hing in ghee, sauté ginger and chillies, add corn and milk, simmer until creamy, and finish with coconut, coriander, lemon, and sev.",
+      contemporaryDifference:
+        "Use fresh tender sweet corn and grate it fresh. Slow milk-emulsion braise without browning or curdling.",
+    },
+    technologicalLeap: "Slow milk-emulsion simmer covered with a lid for 8-10 minutes to yield a creamy texture.",
+    documentedCitation: "Codified regional recipe documentation.",
+  },
+  {
+    generationNumber: 4,
+    eraTitle: "Milk-Braise Technique",
+    yearRange: "Slow Simmer",
+    centuryLabel: "Stage 4",
+    headline: "Gentle Low Heat Simmering",
+    shortDescription:
+      "Gradual incorporation of dairy milk into grated corn starches over gentle heat ensures a velvety texture without curdling.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Milk Braise Protocol",
+      historicalCookware: "Covered heavy pan",
+      heatSource: "Gentle low heat",
+      ingredientsList: [
+        "Fresh tender sweet corn (bhutta, grated)",
+        "Full cream milk",
+        "Desi ghee or oil",
+        "Turmeric powder",
+        "Sugar and salt",
+      ],
+      preparationMethod:
+        "Slowly pour in full cream milk while stirring continuously. Cover with a lid and cook on low flame until thick.",
+      contemporaryDifference:
+        "Gentle heat prevents dairy separation and binds the natural corn starch.",
+    },
+    technologicalLeap: "Dairy-starch gelatinization creating rich body without artificial thickeners.",
+    documentedCitation: "Regional street food preparation technique.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Garnish and Seasoning",
+    yearRange: "Finishing",
+    centuryLabel: "Stage 5",
+    headline: "Indori Spice Dusting & Fresh Garnishes",
+    shortDescription:
+      "Hot braised corn is topped with freshly scraped coconut, cilantro, a squeeze of lemon juice, and a sprinkle of jeeravan masala.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Street Finishing Protocol",
+      historicalCookware: "Serving bowl",
+      heatSource: "Served piping hot",
+      ingredientsList: [
+        "Fresh coconut (scraped/grated)",
+        "Fresh coriander leaves",
+        "Lemon (for tang)",
+        "Jeeravan masala & Sev (optional)",
+      ],
+      preparationMethod:
+        "Turn off the heat, stir in coconut and coriander, squeeze lemon juice, and dust with jeeravan masala.",
+      contemporaryDifference:
+        "Signature Indori street food balance of sweet, creamy, spicy, and tangy notes.",
+    },
+    technologicalLeap: "Combining warm creamy corn with crisp raw coconut and zesty spice dust.",
+    documentedCitation: "Sarafa Bazaar street food vendor service traditions.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "Bhutte Ka Kees at Sarafa Bazaar",
+    shortDescription:
+      "Served steaming hot in bowls garnished with fresh coconut, coriander, crunchy sev, and lemon juice — the midnight jewel of Indore.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Bhutte Ka Kees Plated",
+      historicalCookware: "Serving bowl / dona",
+      heatSource: "Freshly braised and hot",
+      ingredientsList: [
+        "Fresh tender sweet corn (bhutta, grated)",
+        "Full cream milk",
+        "Fresh coconut (scraped/grated)",
+        "Fresh coriander leaves",
+        "Lemon",
+        "Ratlami sev",
+      ],
+      preparationMethod:
+        "Spoon piping hot into bowls, finish with lemon juice and a generous scattering of sev and fresh coconut.",
+      contemporaryDifference:
+        "The quintessential Indore midnight street food experience.",
+    },
+    technologicalLeap: "Iconic street snack celebrated across Central India.",
+    documentedCitation: "Regional culinary culture of Madhya Pradesh.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// DAL BAFLA (Madhya Pradesh)
+// ─────────────────────────────────────────────
+export const DAL_BAFLA_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Origin",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Dal Bafla: Origin & Festive Malwa Heritage",
+    shortDescription:
+      "Dal Bafla is the signature celebratory feast of Madhya Pradesh, celebrated throughout the Malwa and Bundelkhand regions (notably in Ujjain, Indore, Ratlam, and Maheshwar). It is related to Rajasthani baati but distinguished by its unique two-stage cooking: dough balls of coarse whole-wheat flour, semolina, and ghee are boiled in spiced water first, then roasted over cow-dung embers or baked in an oven until blistered and golden. The boiling gelatinizes the starch, ensuring the inside remains incredibly tender and fluffy, while the baking creates a crisp outer crust. Hot baflas are cracked open, drenched completely in melted desi ghee, and paired with spicy five-lentil Panchmel Dal, fiery garlic chutney, and sweet churma.\n\nWhy it is famous:\n- Unique boil-then-bake method: boiling before baking ensures a soft, tender crumb unlike the firmer, dry Rajasthani baati.\n- Desi ghee immersion: hot baflas are cracked open and fully bathed in warm desi ghee, soaking up rich aroma.\n- Panchmel Dal accompaniment: served with a harmonious blend of five pulses (toor, moong, chana, urad, masoor) tempered with hing and cumin.\n- Sacred banquet centerpiece: standard community meal at weddings, festivals, and pilgrimage feasts across Malwa and the Narmada valley.\n- Complex accompaniments: traditionally paired with fiery raw garlic chutney, sweet churma or laddu, and tangy kadhi.\n- Wide cultural reverence: celebrated in thali restaurants and royal heritage banquets across Central India.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Dal Bafla",
+      historicalCookware: "Large open brass boiling cauldron & cow-dung cake (kanda) hearth",
+      heatSource: "Wood fire for boiling / Smouldering kanda embers for roasting",
+      ingredientsList: [],
+      preparationMethod:
+        "Coarse wheat dough balls are boiled in water with turmeric until buoyant, then roasted over embers until charred and blistered.",
+      contemporaryDifference:
+        "The premier celebratory and community banquet feast of Madhya Pradesh.",
+    },
+    technologicalLeap: "Two-step boil-then-bake method producing a fluffy steamed crumb inside a crisp baked crust.",
+    documentedCitation: "Malwa ethnographies, temple banquet records, and regional food documentation.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Flour & Kneading: Then - freshly ground coarse Malwi durum wheat flour stone-milled in village chakkis | Now - commercial packaged atta combined with semolina (sooji) and a pinch of baking soda for lightness\nBoiling & Baking: Then - boiled in brass cauldrons over wood fire, then roasted in cow-dung cake (kanda) ashes | Now - boiled in stainless steel pots, then baked in gas baati cookers, OTGs, or air fryers\nDal: Then - slow-simmered for hours over low hearth embers with local farm lentils | Now - pressure-cooked panchmel dal tempered in minutes with modern spice powders\nGhee usage: Then - lavishly drowned in pure bilona churned village ghee | Now - measured immersion or brushed with ghee for modern dietary preferences\nAccompaniments: Then - rustic stone-ground red garlic chutney, fresh onions, and jaggery | Now - multi-course thali arrays with assorted chutneys, kadhi, and gulab jamun\nReach: Then - community feast restricted to Malwa and Bundelkhand festivals | Now - celebrated specialty in royal heritage restaurants and Indian banquets nationwide\nThese changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Traditional brass degh & cow-dung embers / Stainless steel pot & gas baati oven",
+      heatSource: "Wood fire & charcoal embers / Modern gas range and electric convection",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking style: Then - stone-ground wheat dough boiled on wood flame, baked on embers | Now - packaged atta with sooji baked in gas baati cooker or air fryer",
+      contemporaryDifference:
+        "These changes describe common kitchen and serving practices, not a precisely documented historical timeline.",
+    },
+    technologicalLeap: "Domestic gas baati-ovens and electric OTGs replacing rustic open-fire hearths.",
+    documentedCitation: "Central Indian food technology surveys and household cookbooks.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Step-by-Step",
+    centuryLabel: "Stage 3",
+    headline: "Dal Bafla: 12 Key Ingredients & 10 Preparation Steps",
+    shortDescription:
+      "Key ingredients: Coarse whole-wheat flour (atta), Semolina (sooji / rava), Pure desi ghee, Ajwain (carom seeds), Turmeric powder and pinch of baking soda, Panchmel dal (toor, chana, moong, urad, masoor), Tomatoes and green chillies, Fresh ginger (grated), Cumin seeds and mustard seeds, Asafoetida (hing), Fresh coriander leaves, Spicy red garlic chutney & lemon wedges.\n\n1. Make the dough. - Mix coarse wheat flour, sooji, ajwain, turmeric, salt, and melted ghee (moyen). Rub until crumbly, then knead into a stiff dough with warm water.\n2. Shape the baflas. - Divide dough into smooth, medium round balls and make a slight dimple in the center with your thumb.\n3. Boil water. - In a large pot, bring water to a rolling boil with 1/2 tsp turmeric and salt.\n4. Boil the baflas. - Gently lower the dough balls into boiling water and cook for 12-15 minutes until they float to the surface.\n5. Drain and dry. - Lift baflas out with a slotted spoon and dry on a clean towel for 5-10 minutes.\n6. Bake until crisp. - Bake in a preheated baati oven or conventional oven at 200°C (390°F) for 20-25 minutes, turning until golden and blistered.\n7. Cook the dal. - Pressure cook mixed five lentils with turmeric and salt until soft and creamy.\n8. Temper the dal. - Heat ghee in a pan, crackle cumin and mustard seeds, add hing, green chillies, ginger, tomatoes, and spices; pour into dal.\n9. Crush and ghee-soak. - Gently crush the hot baked baflas in a napkin and immerse them completely in a bowl of warm desi ghee.\n10. Assemble and serve. - Serve piping hot ghee-drenched baflas with Panchmel dal, fiery garlic chutney, sliced onions, and lemon.\n\nBoiling before baking is mandatory for authentic bafla texture. Submerge baflas in ghee while piping hot for complete absorption.",
+    image: ERA_PHOTO.spice_caravan,
+    generationRecipe: {
+      recipeName: "Dal Bafla Feast Protocol",
+      historicalCookware: "Large stockpot, baking tray / baati oven, and deep tempering pan",
+      heatSource: "High boiling heat, followed by 200°C dry baking",
+      ingredientsList: [
+        "Coarse whole-wheat flour (atta)",
+        "Semolina (sooji / rava)",
+        "Pure desi ghee",
+        "Ajwain (carom seeds)",
+        "Turmeric powder and pinch of baking soda",
+        "Panchmel dal (toor, chana, moong, urad, masoor)",
+        "Tomatoes and green chillies",
+        "Fresh ginger (grated)",
+        "Cumin seeds and mustard seeds",
+        "Asafoetida (hing)",
+        "Fresh coriander leaves",
+        "Spicy red garlic chutney & lemon wedges",
+      ],
+      preparationMethod:
+        "Knead wheat-semolina dough with ghee moyen, shape into balls, boil in turmeric water until floating, bake until blistered, crack open, submerge in melted desi ghee, and serve with Panchmel dal.",
+      contemporaryDifference:
+        "Boil-then-bake ensures a tender, melt-in-the-mouth texture unlike dry baati.",
+    },
+    technologicalLeap: "Mastery of two distinct thermal stages: wet gelatinization followed by dry radiative roasting.",
+    documentedCitation: "Codified regional recipe documentation.",
+  },
+  {
+    generationNumber: 4,
+    eraTitle: "Boil-Then-Bake Technique",
+    yearRange: "Two-Stage Cook",
+    centuryLabel: "Stage 4",
+    headline: "Pre-Gelatinization & Radiative Baking",
+    shortDescription:
+      "Poaching the dough balls in boiling water sets the exterior and hydrates internal starches, preventing toughness during baking.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Boil-Then-Bake Protocol",
+      historicalCookware: "Deep boiling pot & baati oven",
+      heatSource: "Boiling water / 200°C radiant heat",
+      ingredientsList: [
+        "Coarse whole-wheat flour (atta)",
+        "Semolina (sooji / rava)",
+        "Pure desi ghee",
+        "Ajwain (carom seeds)",
+        "Turmeric powder",
+      ],
+      preparationMethod:
+        "Boil dough rounds for 12-15 minutes until buoyant, dry thoroughly, and bake at 200°C for 20-25 minutes until golden.",
+      contemporaryDifference:
+        "The definitive signature technique that sets bafla apart from Rajasthani baati.",
+    },
+    technologicalLeap: "Thermal par-cooking in water followed by dry convective baking.",
+    documentedCitation: "Malwa domestic cookery records.",
+  },
+  {
+    generationNumber: 5,
+    eraTitle: "Ghee Immersion & Dal Tadka",
+    yearRange: "Assembly",
+    centuryLabel: "Stage 5",
+    headline: "Desi Ghee Bath & Five-Lentil Stew",
+    shortDescription:
+      "Hot blistered baflas are cracked by hand and immersed in warm melted desi ghee to saturate the interior crumb.",
+    image: ERA_PHOTO.dum_seal,
+    generationRecipe: {
+      recipeName: "Immersion & Tadka Protocol",
+      historicalCookware: "Deep ghee bowl and iron tadka pan",
+      heatSource: "Direct ghee immersion & tadka sizzle",
+      ingredientsList: [
+        "Pure desi ghee",
+        "Panchmel dal (toor, chana, moong, urad, masoor)",
+        "Tomatoes and green chillies",
+        "Cumin seeds and mustard seeds",
+        "Asafoetida (hing)",
+      ],
+      preparationMethod:
+        "Crush baked baflas gently and soak in warm ghee. Temper cooked panchmel dal with ghee, hing, and spices.",
+      contemporaryDifference:
+        "Ensures every bite is rich, moist, and infused with ghee aroma.",
+    },
+    technologicalLeap: "Hydraulic absorption of fat into warm expanding starch pores.",
+    documentedCitation: "Regional feast banquet documentation.",
+  },
+  {
+    generationNumber: 6,
+    eraTitle: "Present Day",
+    yearRange: "Plated Dish",
+    centuryLabel: "Modern Form",
+    headline: "The Royal Malwa Thali Feast",
+    shortDescription:
+      "Served on brass or copper thalis with hot ghee-soaked baflas, Panchmel dal, fiery red garlic chutney, sweet churma, and kadhi.",
+    image: ERA_PHOTO.biryani_royal_hero,
+    generationRecipe: {
+      recipeName: "Dal Bafla Thali Plated",
+      historicalCookware: "Traditional Kansa or brass thali",
+      heatSource: "Piping hot service",
+      ingredientsList: [
+        "Coarse whole-wheat flour (atta)",
+        "Pure desi ghee",
+        "Panchmel dal (toor, chana, moong, urad, masoor)",
+        "Spicy red garlic chutney",
+        "Sweet churma laddu",
+        "Lemon and sliced onions",
+      ],
+      preparationMethod:
+        "Arrange ghee-drenched baflas alongside a generous bowl of panchmel dal, garlic chutney, churma, and sliced onions.",
+      contemporaryDifference:
+        "The undisputed grand feast of Madhya Pradesh.",
+    },
+    technologicalLeap: "Complete multi-textured royal thali balancing buttery bread, spicy dal, pungent chutney, and sweet grain.",
+    documentedCitation: "Central Indian gastronomic culture.",
   },
 ];
 
@@ -1917,7 +2536,6 @@ function generateDynamicGenerationsForDish(dish: Dish): GenerationWaypoint[] {
   const isRice = dish.category === "rice";
   const isBread = dish.category === "grain-bread";
   const isCurry = dish.category === "curry-stew";
-  const isSweet = dish.category === "sweet-dessert";
   const isFermented = dish.category === "fermented-steamed";
   const isMeat = dish.category === "meat" || dish.category === "roast-fried";
 
@@ -2090,6 +2708,8 @@ function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoin
       return BIRYANI_GENERATIONS;
     case "hyderabadi-haleem":
       return HALEEM_GENERATIONS;
+    case "pesarattu":
+      return PESARATTU_GENERATIONS;
     case "vada-pav":
       return VADA_PAV_GENERATIONS;
     case "puran-poli":
@@ -2108,6 +2728,8 @@ function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoin
       return BHUTTE_KA_KEES_GENERATIONS;
     case "dal-bafla":
       return DAL_BAFLA_GENERATIONS;
+    case "avakaya":
+      return AVAKAYA_GENERATIONS;
     case "rogan-josh":
       return ROGAN_JOSH_GENERATIONS;
     case "litti-chokha":

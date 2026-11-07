@@ -3,13 +3,9 @@ import { gsap } from "gsap";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {
-  Flame,
   ChefHat,
-  Clock,
   Scroll,
-  ArrowDown,
   Compass,
-  CheckCircle,
   ExternalLink,
   Sparkles,
   Search,
@@ -19,7 +15,6 @@ import {
   RotateCcw,
   X,
   Leaf,
-  Layers,
   ChevronRight,
   Image as ImageIcon,
 } from "lucide-react";
@@ -37,7 +32,6 @@ import { CinematicParallaxJourney, CinematicStage, CinematicOutro } from "./Cine
 import { ImageUploadSearchModal } from "./ImageUploadSearchModal";
 import {
   DishInfographic,
-  getInfographicsForDish,
   getInfographicForStage,
 } from "../data/infographicsData";
 
@@ -56,7 +50,6 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
   dishId,
   dishName,
   dish,
-  onSelectWaypoint,
   activeSpeechStage,
 }) => {
   const { isLight } = useTheme();
@@ -67,9 +60,6 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
     () => getGenerationsForDish(dishId).filter((waypoint) => waypoint.generationNumber <= 3),
     [dishId]
   );
-
-  // Available uploaded infographics for this dish
-  const dishInfographics = useMemo(() => getInfographicsForDish(dishId), [dishId]);
 
   // Visual mode per stage: 'level' (photo) or 'uploaded' (infographic / recipe card)
   const [stageVisualModes, setStageVisualModes] = useState<Record<number, "level" | "uploaded">>({

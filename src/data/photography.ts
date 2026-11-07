@@ -174,7 +174,7 @@ export function photoSrcSet(photo: Photograph, widths: number[] = DEFAULT_WIDTHS
   return list.map((w) => `${photoUrl(photo.src, w)} ${w}w`).join(", ");
 }
 
-function libraryPhoto(id: string, caption: string): Photograph {
+export function libraryPhoto(id: string, caption: string): Photograph {
   const entry = DATA.library[id];
   if (!entry) {
     throw new Error(`Unknown photography library key: ${id}`);

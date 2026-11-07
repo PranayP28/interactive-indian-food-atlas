@@ -296,6 +296,10 @@ export class DishNarratorController {
     this.stop();
   }
 
+  public getActiveUtterance(): SpeechSynthesisUtterance | null {
+    return this.activeUtterance;
+  }
+
   private setStatus(newStatus: NarrationStatus) {
     this.status = newStatus;
     this.onStatusChange?.(newStatus);

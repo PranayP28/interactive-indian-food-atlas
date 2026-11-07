@@ -60,7 +60,7 @@ export interface DishCulinaryJourney {
   earliestDocumentedEvidence: string;
   confidenceSummary: string;
   stages: HistoricalStage[];
-  recipe: ModernRecipe;
+  recipe?: ModernRecipe;
   citations: SourceCitation[];
 }
 
@@ -651,7 +651,7 @@ export const PESARATTU_JOURNEY: DishCulinaryJourney = {
       authorOrSource: "Regional Andhra Gastronomy",
       workTitle: "Culinary Heritage of Coastal Andhra & Rayalaseema",
       publicationYearOrPeriod: "Traditional",
-      confidenceRating: "Documented",
+      confidenceRating: "Documented Historical Mention",
       quoteOrFinding:
         "Pesarattu is a traditional breakfast dish of Andhra Pradesh made from soaked whole green gram ground without fermentation and griddled crisp with ginger and cumin.",
       citationDetails: "Andhra Culinary Heritage Documentation",
@@ -743,7 +743,7 @@ export const AVAKAYA_JOURNEY: DishCulinaryJourney = {
       authorOrSource: "Regional Andhra Gastronomy",
       workTitle: "Culinary Heritage of Coastal Andhra & Rayalaseema",
       publicationYearOrPeriod: "Traditional",
-      confidenceRating: "Documented",
+      confidenceRating: "Documented Historical Mention",
       quoteOrFinding:
         "Avakaya is the definitive seasonal pickle of Andhra Pradesh, made by macerating kernel-cut raw mangoes with ground mustard, chilli, and gingelly oil in ceramic jaadis.",
       citationDetails: "Andhra Culinary Heritage Documentation",
@@ -1249,7 +1249,6 @@ function generateStructuredJourney(dish: Dish): DishCulinaryJourney {
   const isRice = dish.category === "rice";
   const isBread = dish.category === "grain-bread";
   const isCurry = dish.category === "curry-stew";
-  const isSweet = dish.category === "sweet-dessert";
   const isFermented = dish.category === "fermented-steamed";
 
   return {

@@ -2,20 +2,16 @@ import { useState, useMemo, useCallback, useEffect, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import {
   UtensilsCrossed,
-  MapPin,
   ChefHat,
   Flame,
   Leaf,
-  Star,
   X,
   Search,
   Sparkles,
   ChevronRight,
   ChevronLeft,
   SlidersHorizontal,
-  Compass,
   ArrowRight,
-  BookOpen,
   Users,
 } from "lucide-react";
 import { IndiaMap3D } from "./components/IndiaMap3D";
