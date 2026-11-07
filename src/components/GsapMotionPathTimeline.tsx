@@ -126,7 +126,9 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           dishId === "vada-pav" ||
           dishId === "puran-poli" ||
           dishId === "dhokla" ||
-          dishId === "undhiyu"
+          dishId === "undhiyu" ||
+          dishId === "dal-baati-churma" ||
+          dishId === "laal-maas"
             ? "Evolution of Food"
             : "Regional & Seasonal Produce",
         photo: photography?.ingredients,

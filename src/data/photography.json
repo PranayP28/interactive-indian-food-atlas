@@ -1966,7 +1966,7 @@
           "height": 2508
         },
         "caption": "Mehrangarh Fort, Jodhpur — historic Marwar fortress landscape where enduring desert foods like baati sustained warrior camps.",
-        "label": "Regional context"
+        "label": "Dal Baati Churma, Origin (Birth of the food)"
       },
       "ingredients": {
         "photo": {
@@ -1983,8 +1983,8 @@
           "width": 5184,
           "height": 3456
         },
-        "caption": "Dense whole wheat dough portioned into balls, kneaded with ghee and water for prolonged baking.",
-        "label": "Ingredient reference",
+        "caption": "Dal Baati Churma, Evolution of Food",
+        "label": "Evolution of Food",
         "items": [
           "Coarse whole wheat flour",
           "Pure cow ghee",
@@ -2008,8 +2008,8 @@
           "width": 800,
           "height": 531
         },
-        "caption": "Baati balls slow-baking over glowing coals until hard crust fissures, ready to be soaked in melted ghee.",
-        "label": "Preparation technique"
+        "caption": "Dal Baati Churma, Recipe",
+        "label": "Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Rajasthani_dal-bati-churma_thali_01.jpg",
@@ -2043,11 +2043,11 @@
           "height": 2048
         },
         "caption": "Chittorgarh Fort, Mewar — royal citadel where Rajput hunting camps developed the wood-smoked game meat dish of Laal Maas.",
-        "label": "Regional context"
+        "label": "Laal Maas, Origin (Birth of the food)"
       },
       "ingredients": {
         "library": "spice-palette",
-        "caption": "Ingredients for Laal Maas: mutton / wild game, mathania dried red chillies, pure desi ghee, garlic paste.",
+        "caption": "Laal Maas, Evolution of Food",
         "items": [
           "Mutton / Wild game",
           "Mathania dried red chillies",
@@ -2055,7 +2055,8 @@
           "Garlic paste",
           "Cloves",
           "Black cardamom"
-        ]
+        ],
+        "label": "Evolution of Food"
       },
       "method": {
         "photo": {
@@ -2072,8 +2073,8 @@
           "width": 960,
           "height": 720
         },
-        "caption": "Slow-braising mutton in mustard oil and garlic with a rich paste of stone-ground dried Mathania chillies.",
-        "label": "Preparation technique"
+        "caption": "Laal Maas, Recipe",
+        "label": "Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Lal_Maas.jpg",
