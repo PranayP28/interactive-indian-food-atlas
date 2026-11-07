@@ -98,19 +98,20 @@
           "number": 1,
           "key": "origin",
           "numeral": "I",
-          "eyebrow": "Stage I",
-          "title": "Origin & History",
-          "photoLabel": "Regional context",
-          "era": "Origins & documented history",
-          "headline": "Pesarattu in the food geography of Andhra Pradesh",
-          "narrative": "The Krishna–Godavari deltas and the dry Rayalaseema interior give Andhra cooking rice, tamarind, gongura leaf and a tradition of chilli-and-garlic masalas. Pesarattu is a fermented or steamed preparation associated with the Andhra Pradesh region. It belongs to the fermented or steamed preparation tradition of Andhra Pradesh and is embedded in household, festival and regional food practice. The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Pesarattu in Andhra Pradesh",
+          "narrative": "Pesarattu is a traditional breakfast dish of Andhra Pradesh, made mainly from whole green gram (pesalu / green moong). The name comes from Telugu: pesara (green gram) + attu (pancake/dosa). It is a distinctive part of Andhra breakfast culture, traditionally eaten with spicy ginger chutney (Allam Pachadi). No reliable historical record gives the exact year, place or creator. Unlike regular dosa, the batter is not fermented; it is cooked right after grinding.",
           "details": [
-            "Geographical & cultural origin: the Andhra Pradesh region, in Andhra Pradesh.",
-            "Historical background: The dish is documented in regional cookery and food writing, but no securely dated earliest written reference has been established for it; this atlas therefore claims no century of invention.",
-            "Regional food tradition: It belongs to the fermented or steamed preparation tradition of Andhra Pradesh and is embedded in household, festival and regional food practice.",
-            "Cultural significance: Crispy whole green moong dal crepes seasoned with cumin, ginger, and green chillies, traditionally stuffed with upma and paired with ginger allam pachadi."
+            "Pesarattu is a traditional breakfast dish of Andhra Pradesh, made mainly from whole green gram (pesalu / green moong).",
+            "The name comes from Telugu: pesara (green gram) + attu (pancake/dosa).",
+            "It is a distinctive part of Andhra breakfast culture, traditionally eaten with spicy ginger chutney (Allam Pachadi).",
+            "No reliable historical record gives the exact year, place or creator.",
+            "Unlike regular dosa, the batter is not fermented; it is cooked right after grinding."
           ],
-          "evidenceNote": "Regional food writing supports the dish's association with Andhra Pradesh. A photograph of a region or food culture illustrates the setting; it does not prove where or when the dish was invented.",
+          "evidenceNote": "Regional Andhra food traditions and culinary documentation; exact founding dates and individual creators remain undocumented.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
@@ -121,23 +122,24 @@
           "number": 2,
           "key": "ingredients",
           "numeral": "II",
-          "eyebrow": "Stage II",
-          "title": "Ingredients",
-          "photoLabel": "Ingredient reference",
-          "era": "Regional & seasonal produce",
-          "headline": "What Pesarattu is built from",
-          "narrative": "The recipe centres on Green moong dal, Rice, Ginger, Green chillies, Onion and Cumin. These are the staple grains, pulses, vegetables, spices or dairy products of Andhra Pradesh; Regional and seasonal substitution is normal: household versions replace a local green, pulse, oil or sweetener with what the season and the region provide.",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Grinding: Then - traditional grinding stone | Now - electric mixers and wet grinders\nCooking surface: Then - iron griddle | Now - non-stick and cast-iron tawas\nFuel: Then - wood-fired stoves | Now - gas and induction cooktops\nBatter preparation: Then - slow, done by hand | Now - faster with mixers\nGreen gram: Then - soaked and prepared at home | Now - whole green gram easily available in supermarkets\nToppings: Then - simple, plain Pesarattu | Now - onion, green chilli and coriander toppings are popular\nVariations: Then - the classic plain version | Now - onion, crispy and Upma Pesarattu\nChutneys: Then - fresh ginger chutney made at home | Now - restaurants also serve ginger, coconut and peanut chutneys\nThese changes describe kitchens and equipment, not a precisely documented historical timeline.",
           "details": [
-            "Principal ingredient: Green moong dal.",
-            "Principal ingredient: Rice.",
-            "Principal ingredient: Ginger.",
-            "Principal ingredient: Green chillies.",
-            "Principal ingredient: Onion.",
-            "Principal ingredient: Cumin.",
-            "Regional & seasonal ingredients: The Krishna–Godavari deltas and the dry Rayalaseema interior give Andhra cooking rice, tamarind, gongura leaf and a tradition of chilli-and-garlic masalas.",
-            "Documented ingredient change: Chillies, tomatoes, potatoes and some squashes reached Indian kitchens only after the 16th-century Columbian exchange; where they appear in this recipe they are later additions, not ancient components."
+            "Grinding: Then - traditional grinding stone | Now - electric mixers and wet grinders",
+            "Cooking surface: Then - iron griddle | Now - non-stick and cast-iron tawas",
+            "Fuel: Then - wood-fired stoves | Now - gas and induction cooktops",
+            "Batter preparation: Then - slow, done by hand | Now - faster with mixers",
+            "Green gram: Then - soaked and prepared at home | Now - whole green gram easily available in supermarkets",
+            "Toppings: Then - simple, plain Pesarattu | Now - onion, green chilli and coriander toppings are popular",
+            "Variations: Then - the classic plain version | Now - onion, crispy and Upma Pesarattu",
+            "Chutneys: Then - fresh ginger chutney made at home | Now - restaurants also serve ginger, coconut and peanut chutneys",
+            "These changes describe kitchens and equipment, not a precisely documented historical timeline."
           ],
-          "evidenceNote": "Ingredient list from regional recipe documentation. A photograph of a single ingredient illustrates one component of the recipe, not the complete ingredient list.",
+          "evidenceNote": "These changes describe kitchens and equipment, not a precisely documented historical timeline.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
@@ -148,19 +150,25 @@
           "number": 3,
           "key": "method",
           "numeral": "III",
-          "eyebrow": "Stage III",
-          "title": "Recipe & Making",
-          "photoLabel": "Preparation technique",
-          "era": "Traditional technique & cookware",
-          "headline": "How Pesarattu is made",
-          "narrative": "The defining technique is Stone-Ground Unfermented Batter & Cast Iron Tawa Roasting — Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers. Steel steamers and packaged batter now replace earthen pots. Soaking, grinding, fermenting, kneading, stuffing or tempering is done in the order the recipe requires; Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers. Steel steamers and packaged batter now replace earthen pots.",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Recipe",
+          "era": "Recipe",
+          "headline": "Pesarattu Recipe: 10 Key Ingredients, 9 Steps",
+          "narrative": "Key ingredients: whole green gram (green moong), rice (optional, for extra crispness), ginger, green chillies, cumin seeds, salt, onion, fresh coriander leaves, cooking oil or ghee, ginger chutney (Allam Pachadi) for serving.\n\n1. Wash and soak the green gram. - Soak in water for about 4 to 6 hours.\n2. Drain the water. - Rinse the green gram once more.\n3. Grind the batter. - Grind with ginger, green chillies, cumin and salt, adding a little water. It should be smooth and slightly thick.\n4. Prepare the toppings. - Chop onions and coriander finely and keep ready.\n5. Heat the pan. - Heat a dosa tawa and grease it lightly with oil.\n6. Spread the batter. - Pour one ladle in the centre and spread in circles into a thin dosa.\n7. Add the toppings. - Sprinkle onions and coriander and press in gently.\n8. Cook until crisp. - Add a little oil around the edges. Cook until the bottom is golden brown and the edges lift.\n9. Fold and serve. - Fold and serve hot with ginger chutney.\n\nNo fermentation needed. Cook right after grinding. A little rice in the batter gives extra crispness.",
           "details": [
-            "Traditional technique: Stone-Ground Unfermented Batter & Cast Iron Tawa Roasting — Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers. Steel steamers and packaged batter now replace earthen pots.",
-            "Traditional cookware & utensils: Grain or pulse batters are soaked, stone- or mixer-ground and left to ferment with ambient lactic microflora before steaming in moulds, leaves or steamers.",
-            "Key process: Stone-Ground Unfermented Batter & Cast Iron Tawa Roasting.",
-            "Modern evolution: gas and electric heat, mixer-grinders, steel moulds, pressure cookers and refrigeration now shorten the same sequence of steps."
+            "Key ingredients: whole green gram (green moong), rice (optional, for extra crispness), ginger, green chillies, cumin seeds, salt, onion, fresh coriander leaves, cooking oil or ghee, ginger chutney (Allam Pachadi) for serving.",
+            "1. Wash and soak the green gram. - Soak in water for about 4 to 6 hours.",
+            "2. Drain the water. - Rinse the green gram once more.",
+            "3. Grind the batter. - Grind with ginger, green chillies, cumin and salt, adding a little water. It should be smooth and slightly thick.",
+            "4. Prepare the toppings. - Chop onions and coriander finely and keep ready.",
+            "5. Heat the pan. - Heat a dosa tawa and grease it lightly with oil.",
+            "6. Spread the batter. - Pour one ladle in the centre and spread in circles into a thin dosa.",
+            "7. Add the toppings. - Sprinkle onions and coriander and press in gently.",
+            "8. Cook until crisp. - Add a little oil around the edges. Cook until the bottom is golden brown and the edges lift.",
+            "9. Fold and serve. - Fold and serve hot with ginger chutney."
           ],
-          "evidenceNote": "Technique and cookware are described in regional recipe documentation. A modern photograph of a technique or utensil illustrates current practice; it is not a historical photograph of an ancient kitchen.",
+          "evidenceNote": "No fermentation needed. Cook right after grinding. A little rice in the batter gives extra crispness.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"
@@ -184,6 +192,127 @@
             "Recognition: GI or commercial recognition is recorded here only where a registration is documented in the cited sources."
           ],
           "evidenceNote": "Present-day form from regional food writing and restaurant documentation. A present-day photograph shows the modern plated dish; it is not evidence of an earlier form.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        }
+      ]
+    },
+    "avakaya": {
+      "dishId": "avakaya",
+      "dishName": "Avakaya",
+      "state": "Andhra Pradesh",
+      "classification": "State",
+      "confidence": "regional-tradition",
+      "sources": [
+        "regional-food-writing",
+        "oral-tradition"
+      ],
+      "stageCount": 4,
+      "stages": [
+        {
+          "number": 1,
+          "key": "origin",
+          "numeral": "I",
+          "eyebrow": "Stage 1",
+          "title": "Origin",
+          "photoLabel": "Origin (Birth of the food)",
+          "era": "Birth of the food",
+          "headline": "Birth of Avakaya in Andhra Pradesh",
+          "narrative": "Avakaya (ఆవకాయ) is a traditional raw-mango pickle from Andhra Pradesh, also a long-standing tradition in Telugu homes of Telangana. The name joins \"ava\" (mustard) and \"kaya\" (raw fruit). It grew out of preserving sour raw mangoes in the summer mango season so they can be eaten through the year. Raw mango pieces are coated with mustard powder, red chilli powder and salt, then covered in gingelly (sesame) oil and matured in jars. It is a standard part of an Andhra meal, eaten with hot rice, dal and ghee. Making it is often a family activity every summer. No reliable record gives the exact year, place or creator of Avakaya.",
+          "details": [
+            "Regional tradition: Avakaya (ఆవకాయ) is a traditional raw-mango pickle from Andhra Pradesh, also a long-standing tradition in Telugu homes of Telangana.",
+            "Name origin: The name joins \"ava\" (mustard) and \"kaya\" (raw fruit).",
+            "Seasonal preservation: It grew out of preserving sour raw mangoes in the summer mango season so they can be eaten through the year.",
+            "Maceration in oil: Raw mango pieces are coated with mustard powder, red chilli powder and salt, then covered in gingelly (sesame) oil and matured in jars.",
+            "Meal culture: It is a standard part of an Andhra meal, eaten with hot rice, dal and ghee. Making it is often a family activity every summer.",
+            "Historical documentation: No reliable record gives the exact year, place or creator of Avakaya."
+          ],
+          "evidenceNote": "Regional Andhra food traditions and oral documentation; exact founding dates and individual creators remain undocumented.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        },
+        {
+          "number": 2,
+          "key": "ingredients",
+          "numeral": "II",
+          "eyebrow": "Stage 2",
+          "title": "Evolution of Food",
+          "photoLabel": "Evolution of Food",
+          "era": "Evolution of Food",
+          "headline": "Evolution of Food: Then vs Now",
+          "narrative": "Mango selection: Then - firm sour mangoes hand-plucked from the family tree and used the same day | Now - raw pickling mangoes are bought from markets (native types like Rasalu are still preferred by many)\nSpice powders: Then - chillies and mustard sun-dried and ground fresh at home | Now - ready pickle-grade chilli and mustard powders are widely used\nCutting: Then - skilled cutting with a special knife, kernel kept intact | Now - same cut, with simple safety tricks like holding the mango in a cloth\nOil: Then - cold-pressed gingelly oil from the neighbourhood oil mill | Now - gingelly oil is still preferred; groundnut oil is the usual second choice\nJars: Then - large ceramic jaadis (bharanis) filled by the whole family | Now - smaller jars for small home batches, kept bone-dry\nBatch size: Then - big yearly batches shared across the family | Now - small batches of a few mangoes are common\nVariations: Then - the classic mustard-chilli Avakaya | Now - many versions such as bellam (jaggery), nuvvu (sesame), allam (ginger), pesara (moong) and endu (sun-dried) avakaya\nWhere it comes from: Then - made only at home each summer | Now - also sold ready-made by pickle brands\nThese changes describe kitchen practice, not a precisely documented historical timeline.",
+          "details": [
+            "Mango selection: Then - firm sour mangoes hand-plucked from the family tree and used the same day | Now - raw pickling mangoes are bought from markets (native types like Rasalu are still preferred by many)",
+            "Spice powders: Then - chillies and mustard sun-dried and ground fresh at home | Now - ready pickle-grade chilli and mustard powders are widely used",
+            "Cutting: Then - skilled cutting with a special knife, kernel kept intact | Now - same cut, with simple safety tricks like holding the mango in a cloth",
+            "Oil: Then - cold-pressed gingelly oil from the neighbourhood oil mill | Now - gingelly oil is still preferred; groundnut oil is the usual second choice",
+            "Jars: Then - large ceramic jaadis (bharanis) filled by the whole family | Now - smaller jars for small home batches, kept bone-dry",
+            "Batch size: Then - big yearly batches shared across the family | Now - small batches of a few mangoes are common",
+            "Variations: Then - the classic mustard-chilli Avakaya | Now - many versions such as bellam (jaggery), nuvvu (sesame), allam (ginger), pesara (moong) and endu (sun-dried) avakaya",
+            "Where it comes from: Then - made only at home each summer | Now - also sold ready-made by pickle brands",
+            "These changes describe kitchen practice, not a precisely documented historical timeline."
+          ],
+          "evidenceNote": "These changes describe kitchen practice, not a precisely documented historical timeline.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        },
+        {
+          "number": 3,
+          "key": "method",
+          "numeral": "III",
+          "eyebrow": "Stage 3",
+          "title": "Recipe",
+          "photoLabel": "Recipe",
+          "era": "Recipe",
+          "headline": "Avakaya Recipe: 9 Key Ingredients, 11 Steps",
+          "narrative": "Key ingredients: raw green sour mangoes, mustard seeds (sun-dried, ground fresh), red chilli powder, crystal salt (powdered), gingelly (sesame) oil, garlic cloves, fenugreek (methi) seeds, black chickpeas (optional, in place of garlic), hot rice with dal and ghee for serving.\n\n1. Wash and soak the mangoes. - Use firm, sour raw mangoes. Soak them in water for about an hour.\n2. Dry the pickle jar. - Wash it and sun-dry it fully. There must be no moisture at all.\n3. Wipe and cut the mangoes. - Cut into pieces with the hard kernel kept on each piece. Remove the pith.\n4. Dry the pieces. - Clean each piece with a soft cloth. Spread on a dry cloth for an hour or two.\n5. Grind mustard and salt. - Grind sun-dried mustard seeds and crystal salt to a fine powder.\n6. Make the spice mix. - Mix chilli powder, mustard powder and salt in equal weight. Add methi seeds, garlic and part of the oil. A fistful should hold its shape.\n7. Coat the mango pieces. - Mix with clean, dry hands until every piece is coated.\n8. Fill the jar. - Add the pieces with all the spice mix. Pour a little oil on top.\n9. Seal and rest. - Close the lid and tie a cloth over it. Keep in a dry place and do not open for about 3 days.\n10. Mix and top up. - On day 4, mix with a clean, dry ladle. Taste for salt. Add oil so a thin layer covers the pickle.\n11. Mature and serve. - Mix again after another 4 days. Serve with hot rice, dal and ghee.\n\nAlways use a clean, dry spoon. Moisture spoils the pickle. Keep a thin layer of oil on top.",
+          "details": [
+            "Key ingredients: raw green sour mangoes, mustard seeds (sun-dried, ground fresh), red chilli powder, crystal salt (powdered), gingelly (sesame) oil, garlic cloves, fenugreek (methi) seeds, black chickpeas (optional, in place of garlic), hot rice with dal and ghee for serving.",
+            "1. Wash and soak the mangoes. - Use firm, sour raw mangoes. Soak them in water for about an hour.",
+            "2. Dry the pickle jar. - Wash it and sun-dry it fully. There must be no moisture at all.",
+            "3. Wipe and cut the mangoes. - Cut into pieces with the hard kernel kept on each piece. Remove the pith.",
+            "4. Dry the pieces. - Clean each piece with a soft cloth. Spread on a dry cloth for an hour or two.",
+            "5. Grind mustard and salt. - Grind sun-dried mustard seeds and crystal salt to a fine powder.",
+            "6. Make the spice mix. - Mix chilli powder, mustard powder and salt in equal weight. Add methi seeds, garlic and part of the oil. A fistful should hold its shape.",
+            "7. Coat the mango pieces. - Mix with clean, dry hands until every piece is coated.",
+            "8. Fill the jar. - Add the pieces with all the spice mix. Pour a little oil on top.",
+            "9. Seal and rest. - Close the lid and tie a cloth over it. Keep in a dry place and do not open for about 3 days.",
+            "10. Mix and top up. - On day 4, mix with a clean, dry ladle. Taste for salt. Add oil so a thin layer covers the pickle.",
+            "11. Mature and serve. - Mix again after another 4 days. Serve with hot rice, dal and ghee."
+          ],
+          "evidenceNote": "Always use a clean, dry spoon. Moisture spoils the pickle. Keep a thin layer of oil on top.",
+          "sources": [
+            "regional-food-writing",
+            "oral-tradition"
+          ],
+          "confidence": "regional-tradition"
+        },
+        {
+          "number": 4,
+          "key": "plated",
+          "numeral": "IV",
+          "eyebrow": "Stage IV",
+          "title": "Modern Form, Serving & Recognition",
+          "photoLabel": "Finished pickle",
+          "era": "Present day",
+          "headline": "Avakaya today",
+          "narrative": "Avakaya remains the crowning jewel of Telugu culinary heritage, eaten across Andhra Pradesh and Telangana with hot steamed rice, mudda pappu (thick toor dal) and generous ghee. While commercial brands now produce jarred versions, the summer ritual of making Avakaya at home in sun-dried ceramic jaadis remains a cherished living tradition.",
+          "details": [
+            "Present-day form & serving: Served with steaming hot rice, dal and ghee; iconic summer pickle of Telugu households.",
+            "Flavour identity: Fiery, Pungent & Sour.",
+            "Variations: Bellam (jaggery), nuvvu (sesame), allam (ginger), pesara (moong) and endu (sun-dried) avakaya.",
+            "Recognition: Widely celebrated as the iconic culinary emblem of Andhra Pradesh."
+          ],
+          "evidenceNote": "Living gastronomic tradition documented across regional culinary surveys.",
           "sources": [
             "regional-food-writing",
             "oral-tradition"

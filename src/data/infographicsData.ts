@@ -36,19 +36,88 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
   {
     "id": "info-2",
     "dishId": "pesarattu",
-    "title": "Pesarattu — The Green Crepe of Andhra Pradesh",
-    "subtitle": "Complete evolution across three epochs: 1500s, 1900s, and Present",
-    "era": "Evolution Timeline",
+    "title": "Pesarattu — Origin (Birth of the food)",
+    "subtitle": "Traditional Andhra unfermented whole green gram breakfast crepe paired with Allam Pachadi",
+    "era": "Birth of the food",
     "image": "/images_updated/a_cinematic_infographic_poster_in_a_dark_brown_gol.png",
     "isFullTimelinePoster": true,
     "stageNumber": 1,
+    "ingredients": []
+  },
+  {
+    "id": "info-2-evolution",
+    "dishId": "pesarattu",
+    "title": "Pesarattu — Evolution of Food",
+    "subtitle": "Shifts in grinding stones, iron griddles, wood stoves, toppings, and accompaniments",
+    "era": "Evolution of Food",
+    "image": "/images_updated/a_cinematic_infographic_poster_in_a_dark_brown_gol.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-2-recipe",
+    "dishId": "pesarattu",
+    "title": "Pesarattu — Recipe",
+    "subtitle": "10 key ingredients and 9 simple steps for authentic Andhra Pesarattu",
+    "era": "Recipe",
+    "image": "/images_updated/a_cinematic_infographic_poster_in_a_dark_brown_gol.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 3,
     "ingredients": [
-      "Green moong dal",
-      "Rice",
-      "Ginger",
-      "Green chillies",
-      "Onion",
-      "Cumin"
+      "whole green gram (green moong)",
+      "rice (optional, for extra crispness)",
+      "ginger",
+      "green chillies",
+      "cumin seeds",
+      "salt",
+      "onion",
+      "fresh coriander leaves",
+      "cooking oil or ghee",
+      "ginger chutney (Allam Pachadi) for serving"
+    ]
+  },
+  {
+    "id": "info-avakaya-origin",
+    "dishId": "avakaya",
+    "title": "Avakaya — Origin (Birth of the food)",
+    "subtitle": "Traditional Andhra summer raw mango preservation in ceramic jaadis with mustard and gingelly oil",
+    "era": "Birth of the food",
+    "image": "/images_updated/a_cinematic_infographic_poster_in_a_dark_brown_gol.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 1,
+    "ingredients": []
+  },
+  {
+    "id": "info-avakaya-evolution",
+    "dishId": "avakaya",
+    "title": "Avakaya — Evolution of Food",
+    "subtitle": "Shifts in tree harvesting, hand-grinding, ceramic bharanis, and regional variations",
+    "era": "Evolution of Food",
+    "image": "/images_updated/a_cinematic_infographic_poster_in_a_dark_brown_gol.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-avakaya-recipe",
+    "dishId": "avakaya",
+    "title": "Avakaya — Recipe",
+    "subtitle": "9 key ingredients and 11 simple steps for authentic Andhra Avakaya",
+    "era": "Recipe",
+    "image": "/images_updated/a_cinematic_infographic_poster_in_a_dark_brown_gol.png",
+    "isFullTimelinePoster": true,
+    "stageNumber": 3,
+    "ingredients": [
+      "raw green sour mangoes",
+      "mustard seeds (sun-dried, ground fresh)",
+      "red chilli powder",
+      "crystal salt (powdered)",
+      "gingelly (sesame) oil",
+      "garlic cloves",
+      "fenugreek (methi) seeds",
+      "black chickpeas (optional, in place of garlic)",
+      "hot rice with dal and ghee for serving"
     ]
   },
   {
@@ -246,24 +315,6 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
       "Himalayan rock salt",
       "Fermented sourdough flour",
       "Water"
-    ]
-  },
-  {
-    "id": "info-14",
-    "dishId": "pesarattu",
-    "title": "Pesarattu — 1800s Traditional Preparation",
-    "subtitle": "Whole green moong batter ground on stone mortar and griddled on iron tawa",
-    "era": "1800s Traditional",
-    "image": "/images_updated/a_detailed_infographic_poster_for_pesarattu_180.png",
-    "isFullTimelinePoster": false,
-    "stageNumber": 1,
-    "ingredients": [
-      "Green moong dal",
-      "Rice",
-      "Ginger",
-      "Green chillies",
-      "Onion",
-      "Cumin"
     ]
   },
   {

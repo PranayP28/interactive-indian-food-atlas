@@ -118,24 +118,59 @@
     },
     "pesarattu": {
       "origin": {
-        "library": "spice-street",
-        "caption": "Andhra Pradesh — the regional kitchen where Pesarattu belongs."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Pesarattu_and_Ginger_chutney.jpg",
+          "subject": "context",
+          "title": "Origin of Pesarattu",
+          "creator": "ukanda",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pesarattu_and_Ginger_chutney.jpg",
+          "alt": "Traditional breakfast dish of Andhra Pradesh made from whole green gram without fermentation",
+          "caption": "Origin (Birth of the food): Pesarattu is a traditional breakfast dish of Andhra Pradesh, made mainly from whole green gram (pesalu / green moong) with unfermented batter.",
+          "fallback": null,
+          "width": 2048,
+          "height": 1361
+        },
+        "caption": "Origin (Birth of the food): Pesarattu is a traditional breakfast dish of Andhra Pradesh, made mainly from whole green gram (pesalu / green moong) with unfermented batter.",
+        "label": "Origin (Birth of the food)"
       },
       "ingredients": {
-        "library": "spice-bowls",
-        "caption": "Ingredients for Pesarattu: green moong dal, rice, ginger, green chillies.",
-        "items": [
-          "Green moong dal",
-          "Rice",
-          "Ginger",
-          "Green chillies",
-          "Onion",
-          "Cumin"
-        ]
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Pesarattu_and_Ginger_chutney.jpg",
+          "subject": "context",
+          "title": "Evolution of Pesarattu",
+          "creator": "ukanda",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pesarattu_and_Ginger_chutney.jpg",
+          "alt": "Evolution of Pesarattu from stone grinding and iron griddles to modern mixers and cast iron tawas",
+          "caption": "Evolution of Food: From manual stone grinding and wood stoves to electric mixer-grinders, non-stick tawas, and popular toppings.",
+          "fallback": null,
+          "width": 2048,
+          "height": 1361
+        },
+        "caption": "Evolution of Food: From manual stone grinding and wood stoves to electric mixer-grinders, non-stick tawas, and popular toppings.",
+        "label": "Evolution of Food",
+        "items": []
       },
       "method": {
-        "library": "steam",
-        "caption": "Pesarattu — Stone-Ground Unfermented Batter & Cast Iron Tawa Roasting."
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Pesarattu_and_Ginger_chutney.jpg",
+          "subject": "context",
+          "title": "Pesarattu Recipe Preparation",
+          "creator": "ukanda",
+          "licence": "CC BY 2.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pesarattu_and_Ginger_chutney.jpg",
+          "alt": "Fresh whole green gram batter poured and spread into crisp golden Pesarattu",
+          "caption": "Recipe: Ladling unfermented batter in circles onto a hot tawa, topping with onions and coriander, and cooking until crisp and golden brown.",
+          "fallback": null,
+          "width": 2048,
+          "height": 1361
+        },
+        "caption": "Recipe: Ladling unfermented batter in circles onto a hot tawa, topping with onions and coriander, and cooking until crisp and golden brown.",
+        "label": "Recipe"
       },
       "plated": {
         "subject": "dish",
@@ -150,6 +185,77 @@
         "alt": "Pesarattu — Andhra Pradesh",
         "caption": "Pesarattu, the Andhra green-gram crepe, served with ginger chutney.",
         "fallback": "/images/dishes/pesarattu-stage-4.webp"
+      }
+    },
+    "avakaya": {
+      "origin": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Aavakaaya_mukkalu%2Cjaadi..JPG",
+          "subject": "context",
+          "title": "Aavakaaya mukkalu and ceramic jaadi",
+          "creator": "Bhaskaranaidu",
+          "licence": "Public domain",
+          "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aavakaaya_mukkalu,jaadi..JPG",
+          "alt": "Traditional ceramic jaadi and cut raw mango pieces prepared for Avakaya in Andhra Pradesh",
+          "caption": "Origin (Birth of the food): Avakaya (ఆవకాయ) is a traditional raw-mango pickle from Andhra Pradesh, preserved in ceramic bharanis (jaadis).",
+          "fallback": null,
+          "width": 2592,
+          "height": 1944
+        },
+        "caption": "Origin (Birth of the food): Avakaya (ఆవకాయ) is a traditional raw-mango pickle from Andhra Pradesh, preserved in ceramic bharanis (jaadis).",
+        "label": "Origin (Birth of the food)"
+      },
+      "ingredients": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Aavakaaya_mukkalu%2Cjaadi..JPG",
+          "subject": "context",
+          "title": "Avakaya Kitchen Evolution",
+          "creator": "Bhaskaranaidu",
+          "licence": "Public domain",
+          "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aavakaaya_mukkalu,jaadi..JPG",
+          "alt": "Evolution of Avakaya preparation from large family ceramic jaadis to modern domestic batch pickling",
+          "caption": "Evolution of Food: From large yearly family jaadis and hand-milled spices to smaller home batches and commercial pickle brands.",
+          "fallback": null,
+          "width": 2592,
+          "height": 1944
+        },
+        "caption": "Evolution of Food: From large yearly family jaadis and hand-milled spices to smaller home batches and commercial pickle brands.",
+        "label": "Evolution of Food",
+        "items": []
+      },
+      "method": {
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Aavakaya.JPG",
+          "subject": "context",
+          "title": "Avakaya Pickle Preparation",
+          "creator": "Bhaskaranaidu",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aavakaya.JPG",
+          "alt": "Cut raw mango pieces coated in spicy mustard, red chilli, and gingelly oil for Avakaya",
+          "caption": "Recipe: Coating raw mango pieces in mustard powder, chilli and salt, layered in dry jars under gingelly oil.",
+          "fallback": null,
+          "width": 3656,
+          "height": 2592
+        },
+        "caption": "Recipe: Coating raw mango pieces in mustard powder, chilli and salt, layered in dry jars under gingelly oil.",
+        "label": "Recipe"
+      },
+      "plated": {
+        "subject": "dish",
+        "title": "Avakaya (ఆవకాయ)",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Aavakaya.JPG",
+        "width": 3656,
+        "height": 2592,
+        "creator": "Bhaskaranaidu",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aavakaya.JPG",
+        "alt": "Avakaya — Andhra Pradesh",
+        "caption": "Avakaya, the classic Andhra raw mango pickle, matured with mustard and gingelly oil, served with hot rice and ghee.",
+        "fallback": null
       }
     },
     "gongura-mutton": {

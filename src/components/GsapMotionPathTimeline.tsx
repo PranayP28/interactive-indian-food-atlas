@@ -112,19 +112,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         key: "ingredients",
         numeral: "02",
         eyebrow: "Stage II",
-        title:
-          dishId === "hyderabadi-biryani" ||
-          dishId === "hyderabadi-haleem" ||
-          dishId === "masala-dosa" ||
-          dishId === "bisi-bele-bath" ||
-          dishId === "indori-poha" ||
-          dishId === "bhutte-ka-kees" ||
-          dishId === "dal-bafla" ||
-          dishId === "makki-di-roti-sarson-saag" ||
-          dishId === "butter-chicken" ||
-          dishId === "amritsari-kulcha"
-            ? "Evolution of Food"
-            : "Regional & Seasonal Produce",
+        title: dishId === "hyderabadi-biryani" || dishId === "pesarattu" || dishId === "avakaya" ? "Evolution of Food" : "Regional & Seasonal Produce",
         photo: photography?.ingredients,
         stageNum: 2,
       },
@@ -961,31 +949,10 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                     )}
 
                     {/* YouTube Recipe Link (below ingredients and recipe, at the end of Stage 3) */}
-                    {(dishId === "hyderabadi-biryani" ||
-                      dishId === "indori-poha" ||
-                      dishId === "bhutte-ka-kees" ||
-                      dishId === "dal-bafla" ||
-                      dishId === "makki-di-roti-sarson-saag" ||
-                      dishId === "butter-chicken" ||
-                      dishId === "amritsari-kulcha") &&
-                      stageNum === 3 && (
+                    {dishId === "hyderabadi-biryani" && stageNum === 3 && (
                       <div className="pt-1">
                         <a
-                          href={
-                            dishId === "indori-poha"
-                              ? "https://youtu.be/XuttnylxuXY?si=ckFXqQLdjLIC2nCB"
-                              : dishId === "bhutte-ka-kees"
-                              ? "https://www.youtube.com/watch?v=ELuQxGELBgw"
-                              : dishId === "dal-bafla"
-                              ? "https://www.youtube.com/watch?v=3X0-I1GTOq0"
-                              : dishId === "makki-di-roti-sarson-saag"
-                              ? "https://www.youtube.com/watch?v=hI-in8nsU_Q"
-                              : dishId === "butter-chicken"
-                              ? "https://www.youtube.com/watch?v=-LueyspwzwM"
-                              : dishId === "amritsari-kulcha"
-                              ? "https://www.youtube.com/watch?v=pbI8PkiSB8E"
-                              : "https://www.youtube.com/watch?v=8Fw_zWPbGog"
-                          }
+                          href="https://www.youtube.com/watch?v=8Fw_zWPbGog"
                           target="_blank"
                           rel="noopener noreferrer"
                           className={`inline-flex items-center gap-1.5 text-xs font-semibold underline underline-offset-4 decoration-dotted transition-colors ${
