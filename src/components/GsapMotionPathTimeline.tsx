@@ -182,6 +182,12 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         if (index === 1) {
           nextUrl = "/images/dishes/indori-poha-stage-3.webp";
         }
+      } else if (dishId === "bhutte-ka-kees") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/bhutte-ka-kees-1.png";
+        } else if (index === 1) {
+          nextUrl = "/images/dishes/bhutte-ka-kees-2.png";
+        }
       }
 
       const caption =
@@ -193,6 +199,8 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           ? "Evolution of Food — from sand-baked wartime army rations to Rajasthan royal celebratory thali feast."
           : dishId === "laal-maas" && index === 1
           ? "Evolution of Food — from rustic Rajput hunting camp game braises to signature scarlet mutton curry with Dhungar smoke."
+          : dishId === "bhutte-ka-kees" && index === 1
+          ? "Evolution of Food — from rustic hearth-grated desi corn to Indore's famed Sarafa night market sweet corn milk braise."
           : entry.photo?.caption || (stateMainImg ? `${dish.state} — Regional heritage & culinary traditions` : undefined);
 
       return {

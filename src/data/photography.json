@@ -1302,7 +1302,21 @@
         "caption": "Bhutte Ka Kees — Grating fresh corn and slow milk-emulsion braise.",
         "label": "Recipe"
       },
-      "plated": null
+      "plated": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Bhutte_ka_Kees.jpg/1280px-Bhutte_ka_Kees.jpg",
+        "subject": "dish",
+        "title": "Bhutte Ka Kees",
+        "creator": "Food Atlas Archive",
+        "licence": "CC BY-SA 4.0",
+        "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bhutte_ka_Kees.jpg",
+        "alt": "Bhutte Ka Kees — Madhya Pradesh",
+        "caption": "Bhutte Ka Kees: tender sweet corn slow-simmered in spiced milk, topped with coconut and coriander.",
+        "fallback": "/images/dishes/bhutte-ka-kees-stage-4.webp",
+        "local": "/images/dishes/bhutte-ka-kees-stage-4.webp",
+        "width": 1408,
+        "height": 768
+      }
     },
     "vada-pav": {
       "origin": {

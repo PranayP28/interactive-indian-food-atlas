@@ -196,7 +196,9 @@
       "method": "/images/dishes/puttu-stage-3.webp",
       "plated": "/images/dishes/puttu-stage-4.webp"
     },
-    "bhutte-ka-kees": {},
+    "bhutte-ka-kees": {
+      "plated": "/images/dishes/bhutte-ka-kees-stage-4.webp"
+    },
     "dal-bafla": {
       "origin": "/images/dishes/dal-bafla-stage-1.webp",
       "method": "/images/dishes/dal-bafla-stage-3.webp",
