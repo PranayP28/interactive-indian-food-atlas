@@ -201,6 +201,7 @@
     },
     "dal-bafla": {
       "origin": "/images/dishes/dal-bafla-stage-1.webp",
+      "ingredients": "/images/dishes/dal-bafla-stage-2.webp",
       "method": "/images/dishes/dal-bafla-stage-3.webp",
       "plated": "/images/dishes/dal-bafla-stage-4.webp"
     },

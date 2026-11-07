@@ -3652,7 +3652,21 @@
         "label": "Origin"
       },
       "ingredients": {
-        "library": null,
+        "photo": {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Daal_Bafla.jpg",
+          "subject": "context",
+          "title": "Daal Bafla Thali",
+          "creator": "Food Atlas Archive",
+          "licence": "CC BY-SA 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daal_Bafla.jpg",
+          "alt": "Daal Bafla Thali with Dal, Bafla, Chutneys and Ghee",
+          "caption": "Coarse wheat flour, sooji, ghee, ajwain, turmeric, and five-lentil panchmel blend.",
+          "fallback": null,
+          "width": 1200,
+          "height": 700,
+          "local": "/images/dishes/dal-bafla-stage-2.webp"
+        },
         "caption": "Coarse wheat flour, sooji, ghee, ajwain, turmeric, and five-lentil panchmel blend.",
         "label": "Evolution of Food",
         "items": []
@@ -3669,8 +3683,9 @@
           "alt": "Bafla dough rounds boiling and roasting over charcoal in Indore",
           "caption": "Bafla dough balls poached in boiling water then roasted on wire grates over embers until golden and crusty.",
           "fallback": null,
-          "width": 3024,
-          "height": 3781
+          "width": 1200,
+          "height": 800,
+          "local": "/images/dishes/dal-bafla-stage-3.webp"
         },
         "caption": "Bafla dough balls poached in boiling water then roasted on wire grates over embers until golden and crusty.",
         "label": "Recipe"
@@ -3685,9 +3700,10 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Daal_Bafla.jpg",
         "alt": "Daal Bafla served with tuvar dal, coriander chutney, and laddu",
         "caption": "Malwa Daal Bafla: boiled and roasted wheat bafla drenched in ghee, served with spicy tuvar dal and churma.",
-        "fallback": null,
-        "width": 5440,
-        "height": 3544
+        "fallback": "/images/dishes/dal-bafla-stage-4.webp",
+        "local": "/images/dishes/dal-bafla-stage-4.webp",
+        "width": 1200,
+        "height": 800
       }
     },
     "chak-hao-kheer": {
