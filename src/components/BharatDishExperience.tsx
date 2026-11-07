@@ -26,6 +26,8 @@ import { useTheme } from "../context/ThemeContext";
 import { ThemeToggle } from "./ui/ThemeToggle";
 import { AboutModal } from "./AboutModal";
 import { AllStatesModal } from "./AllStatesModal";
+import { CulinaryChatbot } from "./CulinaryChatbot";
+import { DishContextInfo } from "../services/grokService";
 import {
   DishNarratorController,
   NarrationStatus,
@@ -48,6 +50,25 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
   const allDishes = getAllDishes();
   const journey: DishCulinaryJourney = getCulinaryJourneyForDish(dishId);
   const currentDish = allDishes.find((d) => d.id === dishId) || allDishes[0];
+  const dishContextInfo: DishContextInfo = {
+    id: currentDish.id,
+    name: currentDish.name,
+    alternateName: currentDish.alternateName,
+    state: currentDish.state,
+    category: currentDish.category,
+    description: currentDish.description,
+    ingredients: currentDish.ingredients,
+    tasteProfile: currentDish.tasteProfile,
+    era: currentDish.era,
+    keyTechnique: currentDish.keyTechnique,
+    culturalIntroduction: journey?.culturalIntroduction,
+    earliestDocumentedEvidence: journey?.earliestDocumentedEvidence,
+    stages: journey?.stages?.map((s) => ({
+      stageName: s.stageName,
+      headline: s.headline,
+      detail: s.narrative,
+    })),
+  };
 
   // UI state
   const [showSourcesModal, setShowSourcesModal] = useState(false);
@@ -723,6 +744,9 @@ export const BharatDishExperience: React.FC<BharatDishExperienceProps> = ({
           onBackToMap();
         }}
       />
+
+      {/* Floating Culinary Chatbot (Ask me anything! - Grok Cloud AI) */}
+      <CulinaryChatbot dish={dishContextInfo} isLight={isLight} />
     </div>
   );
 };
