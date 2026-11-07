@@ -655,7 +655,8 @@
       },
       "ingredients": {
         "library": "spice-palette",
-        "caption": "Ingredients for Undhiyu: surti papdi, kand (purple yam), baby eggplants, methi muthia.",
+        "caption": "Undhiyu, Evolution of Food",
+        "label": "Undhiyu, Evolution of Food",
         "items": [
           "Surti papdi",
           "Kand (purple yam)",

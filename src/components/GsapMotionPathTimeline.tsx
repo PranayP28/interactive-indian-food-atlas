@@ -120,7 +120,8 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           dishId === "amritsari-kulcha" ||
           dishId === "vada-pav" ||
           dishId === "puran-poli" ||
-          dishId === "dhokla"
+          dishId === "dhokla" ||
+          dishId === "undhiyu"
             ? "Evolution of Food"
             : "Regional & Seasonal Produce",
         photo: photography?.ingredients,
@@ -181,6 +182,8 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
       const caption =
         dishId === "dhokla" && index === 1
           ? "Evolution of Food — from ancient fermented chickpea cakes to modern steamed nylon and khaman varieties."
+          : dishId === "undhiyu" && index === 1
+          ? "Evolution of Food — from subterranean earthen matka roasting under coal embers to modern domestic stovetops."
           : entry.photo?.caption || (stateMainImg ? `${dish.state} — Regional heritage & culinary traditions` : undefined);
 
       return {
