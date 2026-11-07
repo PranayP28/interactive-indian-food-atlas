@@ -985,17 +985,17 @@ export const DAL_BAATI_CHURMA_GENERATIONS: GenerationWaypoint[] = [
     centuryLabel: "Stage 1",
     headline: "Birth of Dal Baati Churma in Mewar, Rajasthan",
     shortDescription:
-      "Dal baati churma is a Rajasthani trio of baked wheat balls (baati), lentil dal and a sweet crumble (churma). It is traditionally linked to the Mewar kingdom and its founder Bappa Rawal, and to the Guhilot clan, for whom baati is said to have been a wartime meal made from unsalted wheat, ghee and camel milk. A popular story says Rajput soldiers buried dough balls under hot sand before battle and dug out the baked baati on their return. The dal is said to have come later, and churma is said to have started when a cook accidentally poured sugarcane juice on baati, or when women soaked hard baati in jaggery water to keep it soft. These are folk accounts without documentary proof, and no date is given.",
-    image: ERA_PHOTO.ancient_grains,
+      "Dal baati churma is a traditional Rajasthani meal made of three parts: baati (baked wheat balls), dal (lentils) and churma (a sweet crumble). Popular stories link the baati to the time of Bappa Rawal, founder of the Mewar kingdom, when it was a practical wartime meal for soldiers. Baati was first eaten with ghee and curd. According to the story, dal (panchmel, a five-lentil dal) came later and the pairing became popular. The story names the Gupta-era traders; do not state this as proven history. Folklore says the churma was found by accident, when a cook of the Guhilot clan of Mewar poured sugarcane juice on baatis. These are traditional stories and folklore. The exact date and origin are not documented. State this clearly. It is linked to festivals such as Makar Sankranti and Diwali (in the Dhundhand region) and to weddings and celebrations.",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.46.45.jpeg",
     generationRecipe: {
       recipeName: "Origin: Birth of the food",
-      historicalCookware: "None: dough balls baked in hot sand (believed), later over an open fire",
-      heatSource: "Sun-heated sand (believed); open fire fuelled by wood and dried cow dung",
+      historicalCookware: "Open-hearth pit or earthen embers",
+      heatSource: "Sun-heated sand or wood-and-dung campfire embers",
       ingredientsList: [],
       preparationMethod:
-        "Origin in Mewar: wheat dough balls baked until hard, then dressed with ghee and eaten with curd or buttermilk.",
+        "Wheat dough balls baked until hard, then dressed with ghee and eaten with curd or buttermilk.",
       contemporaryDifference:
-        "Cooking method: slow baking in sand or embers, with no dal and no sweet churma at first.",
+        "Wartime soldiers' ration evolved into celebratory regional feast.",
     },
     technologicalLeap: "Sand and open-hearth radiative baking of leavening-free wheat balls for wartime durability.",
     documentedCitation:
@@ -1008,15 +1008,15 @@ export const DAL_BAATI_CHURMA_GENERATIONS: GenerationWaypoint[] = [
     centuryLabel: "Stage 2",
     headline: "Evolution of Food: Then vs Now",
     shortDescription:
-      "Baking method: Then - buried in sun-heated sand or baked over open cow-dung / wood embers | Now - modern electric baati ovens, gas tandoors, and convection ovens\nDal pairing: Then - eaten simply with curd or buttermilk, with no dal | Now - served with rich Panchmel dal (five-lentil stew) tempered with hing and ghee\nChurma sweetness: Then - accidental soaking in sugarcane juice or jaggery water to soften hard baati | Now - decadent sweet confection of crushed baati fried in desi ghee, sugar / bura, cardamom, and dry fruits\nVessel: Then - open earthen pit or embers | Now - baati gas cookers, heavy kadhais, and pressure cookers\nFat used: Then - camel milk and rustic local cow ghee | Now - pure premium desi cow ghee, with baatis cracked open and completely soaked\nFlour: Then - coarse whole wheat (atta) with no leavening | Now - coarse wheat flour blended with sooji (semolina) and ajwain for crisp texture\nOccasion: Then - wartime survival ration for Rajput armies | Now - signature royal thali feast of Rajasthan, served at weddings, festivals, and celebrations",
-    image: ERA_PHOTO.stone_ferment,
+      "Cooking method: baked on open fire, coals or embers / oven, gas tandoor, appe pan or pressure cooker\nBaati dough: unsalted wheat, ghee and milk, coarse wheat / wheat flour with semolina, salt, ajwain and sometimes baking soda or powder\nPairing: baati eaten with ghee, curd or buttermilk / baati with panchmel dal, churma, chutney, onions and chaas\nDal: added later to the baati meal (story) / panchmel dal (five lentils) is the standard partner\nChurma: sweetened, crushed baati (folklore: sugarcane juice) / crushed or separately made dough with ghee, powdered sugar or jaggery, nuts and cardamom\nOccasion: wartime food for soldiers (story) / festival, wedding and special-occasion meal",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.46.45.jpeg",
     generationRecipe: {
       recipeName: "Evolution of Food: Then vs Now",
-      historicalCookware: "Sun-heated sand or open fire embers → gas tandoor, baati oven or pressure cooker",
+      historicalCookware: "Open fire embers → gas tandoor, baati oven, appe pan or pressure cooker",
       heatSource: "Wood and cow-dung embers → LPG gas and electric ovens",
       ingredientsList: [],
       preparationMethod:
-        "Sand or open-ember slow baking → uniform convection baking and ghee immersion",
+        "Cooking method: baked on open fire, coals or embers / oven, gas tandoor, appe pan or pressure cooker",
       contemporaryDifference:
         "Wartime survival bread → grand royal celebratory triad with Panchmel dal and sweet churma",
     },
@@ -1031,26 +1031,26 @@ export const DAL_BAATI_CHURMA_GENERATIONS: GenerationWaypoint[] = [
     centuryLabel: "Stage 3",
     headline: "Dal Baati Churma Recipe: 8 Steps",
     shortDescription:
-      "coarse whole wheat flour (atta), sooji (semolina), pure desi ghee, ajwain (carom seeds), panchmel dal (toor, chana, moong, urad, masoor), hing (asafoetida), cumin and mustard seeds, green chillies and ginger, jaggery or bura (powdered sugar), cardamom powder.\n\n1. Prepare the baati dough: Mix coarse whole wheat flour, sooji, ajwain, salt, and melted ghee (moyen). Knead with warm water into a tight, firm dough. Rest for 20 minutes.\n2. Shape the baatis: Pinch dough and roll into medium, smooth balls. Make a gentle thumb depression in the centre of each.\n3. Bake the baatis: Arrange in a preheated baati oven, gas tandoor, or 200°C convection oven. Bake for 30–35 minutes, turning occasionally, until crisp and golden brown with cracked crusts.\n4. Cook the Panchmel dal: Rinse and pressure-cook the five lentils with water, turmeric, and salt for 4 whistles until soft and creamy.\n5. Temper the dal: Heat pure desi ghee in a pan; add cumin seeds, mustard seeds, hing, chopped green chillies, ginger, and red chilli powder. Pour the bubbling tadka over the cooked dal and simmer.\n6. Make the churma: Take 4–5 hot baked baatis, crush them finely while warm (or pulse in a mixer), and pass through a coarse sieve.\n7. Sweeten the churma: In a pan, warm a little ghee, add the crushed baati crumbs, powdered sugar (bura) or jaggery, and cardamom powder. Toss well and garnish with sliced almonds.\n8. Serve hot: Gently crack each hot baati with your palms, submerge in a bowl of warm desi ghee, and serve on a royal thali with bubbling Panchmel dal, sweet churma, and garlic chutney.",
-    image: ERA_PHOTO.spice_trade,
+      "Key ingredients: whole wheat flour, semolina, ghee, panchmel dal (five lentils), onion, tomato, garlic, cumin and mustard seeds, powdered sugar, almonds and cardamom.",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.46.45.jpeg",
     generationRecipe: {
       recipeName: "Dal Baati Churma Recipe",
       historicalCookware: "Gas tandoor, baati oven, and heavy pressure cooker",
       heatSource: "Medium heat baking & sizzling desi ghee tadka",
       ingredientsList: [
-        "Coarse whole wheat flour (atta)",
-        "Sooji (semolina)",
-        "Pure desi ghee",
-        "Ajwain (carom seeds)",
-        "Panchmel dal (five lentils)",
-        "Hing (asafoetida)",
-        "Cumin and mustard seeds",
-        "Green chillies and ginger",
-        "Jaggery or bura (powdered sugar)",
-        "Cardamom powder",
+        "whole wheat flour",
+        "semolina",
+        "ghee",
+        "panchmel dal (five lentils)",
+        "onion",
+        "tomato",
+        "garlic",
+        "cumin and mustard seeds",
+        "powdered sugar",
+        "almonds and cardamom",
       ],
       preparationMethod:
-        "1. Knead tight dough of atta, sooji, ajwain, and ghee moyen; shape into balls.\n2. Bake at 200°C for 30-35 mins until crusts fissure.\n3. Pressure-cook five lentils and temper with ghee, cumin, mustard seeds, and hing.\n4. Crush baked baatis, toss with warm ghee, bura, and cardamom for churma.\n5. Crack hot baatis open, soak in melted ghee, and serve with dal and churma.",
+        "1. Knead a stiff dough with wheat flour, semolina, ghee, salt and ajwain. Add water slowly. Rest it for 30 minutes.\n2. Wash and boil the panchmel dal until soft. Cook it with turmeric and salt.\n3. Make the dal tadka: heat ghee, add cumin, garlic, onion and tomato. Cook until soft, then mix into the dal.\n4. Shape the dough into round balls. Press a small dent in the centre of each.\n5. Bake the baatis in an oven, tandoor or covered pan. Turn them now and then until golden brown and cracked on top.\n6. Dip or brush each hot baati in ghee. Keep some baatis aside for churma.\n7. Crush the kept baatis into coarse crumbs. Mix with ghee, powdered sugar, chopped almonds and cardamom.\n8. Break a baati, pour hot dal over it and add more ghee. Serve with churma, onions and chaas.",
       contemporaryDifference:
         "Triad assembly: crisp golden baati, piping hot tempered Panchmel dal, and fragrant cardamom churma.",
     },
@@ -1071,17 +1071,17 @@ export const LAAL_MAAS_GENERATIONS: GenerationWaypoint[] = [
     centuryLabel: "Stage 1",
     headline: "Birth of Laal Maas in Rajasthan",
     shortDescription:
-      "Laal maas (\"red meat\") is a fiery red meat curry of Rajasthan, said to have been cooked by Rajput royalty on hunting trips. Hunting parties carried few supplies, mainly chillies, garlic, yoghurt and rationed water, and marinated game such as wild boar, deer or jungle fowl in the camp kitchen. One legend says a Mewar king rejected deer meat cooked only with garlic and yoghurt because it smelled gamy, and the cook then added large amounts of chillies. Its red colour and heat come from Mathania chillies, grown near Mathania in Jodhpur. Sources date the dish to the 8th or the 10th century without evidence, so treat any date as unproven.",
-    image: ERA_PHOTO.ancient_grains,
+      "\"Laal\" means red and \"maas\" means meat. It is a fiery red meat curry from Rajasthan, also called Ratto Maas. It is linked to the Rajput royalty and their hunting trips. The popular story says it was first made with game such as wild boar, deer or jungle fowl, and that chillies were used to hide the gamey smell. The red colour and heat are linked to the Mathania chilli from Mathania near Jodhpur. The details are disputed. Some chefs say it was always a mutton dish made in royal kitchens by the khansamas (royal cooks), not on hunts. Some say each region used its own local chilli, not only Mathania. State this clearly and do not pick a side as fact. Traditional laal maas uses curd or buttermilk for tang, not tomatoes (many chefs say tomato versions are a later change).",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.47.17.jpeg",
     generationRecipe: {
       recipeName: "Origin: Birth of the food",
       historicalCookware: "Camp pot or earthen pot",
       heatSource: "Open wood fire in the hunting camp",
       ingredientsList: [],
       preparationMethod:
-        "Origin in Rajasthan: game meat marinated with garlic, chillies and yoghurt, cooked slowly over a wood fire with few ingredients.",
+        "Game meat marinated with garlic, chillies and curd, cooked slowly over a wood fire.",
       contemporaryDifference:
-        "Meat: wild game (jungli maas) with chillies masking the gamy smell.",
+        "Traditional hunting camp game curry masking gamey aroma with fiery local chillies.",
     },
     technologicalLeap: "Hunting camp braising of wild game with dense garlic, yoghurt, and high concentrations of Mathania chillies.",
     documentedCitation:
@@ -1094,15 +1094,15 @@ export const LAAL_MAAS_GENERATIONS: GenerationWaypoint[] = [
     centuryLabel: "Stage 2",
     headline: "Evolution of Food: Then vs Now",
     shortDescription:
-      "Meat: Then - wild game (wild boar, deer, jungle fowl from royal hunts) | Now - tender goat meat / mutton on the bone\nChilli variety: Then - whole fresh or sun-dried Mathania chillies ground on camp stones | Now - Mathania chilli paste, soaked dried chillies, and Kashmiri chilli powder for deep scarlet hue\nCooking vessel: Then - rustic open camp pots (degh) or thick earthenware pots | Now - heavy-bottomed copper handis, cast-iron pots, and pressure cookers\nFat / Medium: Then - limited camp water; meat braised almost entirely in pure ghee and yoghurt | Now - pure desi ghee and mustard oil with measured water or mutton stock\nSmokiness: Then - natural open wood fire smoke from hunting camp hearths | Now - Dhungar smoking technique (charcoal embers topped with ghee and cloves under a sealed lid)\nHeat level: Then - intensely fiery to mask the gamey aroma of wild meats | Now - balanced heat with layered garlic sweetness and yoghurt tang\nAvailability: Then - exclusive royal hunting camps and Rajput palace banquets | Now - iconic heritage restaurant speciality served across Rajasthan and worldwide",
-    image: ERA_PHOTO.stone_ferment,
+      "Meat: wild boar, deer, jungle fowl and rabbit / mutton or lamb, since hunting is banned\nChilli: Mathania chilli, or the local variety / Mathania where available, otherwise Kashmiri or other red chillies\nHeat: reported to be much hotter in old versions / milder in many modern versions\nCooking method: slow cooking over fire in hunting camps and desert pits / handi or heavy pot on the stove, or pressure cooker\nCooking fat: ghee or mustard oil (wild boar fat was prized in hunting kitchens) / ghee or mustard oil\nSmoky flavour: cooked over fire / dhungar - smoking the finished curry with live coal, ghee and cloves\nWho made it: royal khansamas / homes and restaurants across Rajasthan\nServed with: bread and rice / bajra roti, rice or paratha",
+    image: "/images/dishes/laal-maas-1.png",
     generationRecipe: {
       recipeName: "Evolution of Food: Then vs Now",
       historicalCookware: "Camp pot or earthen pot → heavy copper handi or brass lagan",
       heatSource: "Camp wood fire → low flame gas stove with Dhungar charcoal smoke",
       ingredientsList: [],
       preparationMethod:
-        "Wild game braise in curd and chillies → slow-cooked mutton bhuna with Mathania chilli paste and Dhungar finish",
+        "Cooking method: slow cooking over fire in hunting camps and desert pits / handi or heavy pot on the stove, or pressure cooker",
       contemporaryDifference:
         "Rustic royal hunt game braise → refined scarlet royal mutton curry with rich ghee and smoky aroma",
     },
@@ -1117,32 +1117,364 @@ export const LAAL_MAAS_GENERATIONS: GenerationWaypoint[] = [
     centuryLabel: "Stage 3",
     headline: "Laal Maas Recipe: 8 Steps",
     shortDescription:
-      "mutton (goat meat with bone), Mathania dry red chillies, pure desi ghee, garlic paste, whisked curd (yoghurt), sliced onions, whole spices (cloves, black cardamom, cinnamon), coriander powder, turmeric, charcoal lump with cloves (for Dhungar smoke).\n\n1. Prepare the chilli paste: Deseed Mathania red chillies, soak in warm water for 20 minutes, and grind into a smooth, vibrant red paste.\n2. Marinate the mutton: Coat mutton pieces with half of the Mathania chilli paste, garlic paste, whisked curd, turmeric, and salt. Rest for 45 minutes.\n3. Temper whole spices: Heat pure desi ghee generously in a heavy-bottomed handi; add black cardamom, green cardamom, cloves, cinnamon, and bay leaves until aromatic.\n4. Brown the onions: Add finely sliced onions and sauté on medium heat until golden brown.\n5. Bhuna the mutton: Add the marinated mutton and remaining garlic paste; roast on high heat for 10 minutes until the meat is seared and juices seal in.\n6. Slow-simmer the curry: Add the remaining Mathania chilli paste, coriander powder, and a splash of warm water. Cover tightly and cook on low heat for 45–60 minutes until mutton is melt-in-mouth tender and ghee floats on top.\n7. Infuse Dhungar smoke: Place a small metal bowl on the curry, add a red-hot charcoal piece, drop a clove and a spoonful of ghee over it, and seal the lid for 4 minutes to trap the royal campfire aroma.\n8. Serve hot: Discard charcoal and serve the glistening scarlet curry with bajra roti, hot phulkas, or steamed rice.",
-    image: ERA_PHOTO.spice_trade,
+      "Key ingredients: mutton on the bone, Mathania (or Kashmiri) dried red chillies, garlic, ginger, onions, curd, ghee, whole spices (cloves, cardamom, cinnamon), coriander and turmeric powder, a small piece of charcoal.",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.47.17.jpeg",
     generationRecipe: {
       recipeName: "Laal Maas Recipe",
       historicalCookware: "Heavy-bottomed handi or lagan and small katori for Dhungar",
       heatSource: "Medium flame slow-braise & red-hot charcoal smoke",
       ingredientsList: [
-        "Mutton (goat meat on the bone)",
-        "Mathania dry red chillies",
-        "Pure desi ghee",
-        "Garlic paste",
-        "Whisked curd (yoghurt)",
-        "Sliced onions",
-        "Whole spices (black cardamom, cloves, cinnamon)",
-        "Coriander powder",
-        "Turmeric powder",
-        "Charcoal lump & clove (for Dhungar smoke)",
+        "mutton on the bone",
+        "Mathania (or Kashmiri) dried red chillies",
+        "garlic",
+        "ginger",
+        "onions",
+        "curd",
+        "ghee",
+        "whole spices (cloves, cardamom, cinnamon)",
+        "coriander and turmeric powder",
+        "a small piece of charcoal",
       ],
       preparationMethod:
-        "1. Grind soaked Mathania chillies into paste.\n2. Marinate mutton with chilli paste, garlic, and whisked curd.\n3. Sizzle whole spices in pure ghee; sauté sliced onions golden brown.\n4. Bhuna marinated mutton on high heat for 10 mins to seal juices.\n5. Slow-simmer with remaining chilli paste for 50 mins until tender.\n6. Perform Dhungar charcoal smoke with clove and hot ghee under sealed lid.\n7. Serve glistening red curry hot with bajra roti.",
+        "1. Soak the dried chillies in hot water. Grind them to a smooth red paste.\n2. Mix the mutton with curd, ginger-garlic paste, some chilli paste, coriander and turmeric. Rest for at least 1 hour.\n3. Heat ghee, add the whole spices and sliced onions. Fry until the onions are golden.\n4. Add the marinated mutton. Cook on high heat for a few minutes until the meat changes colour.\n5. Add the rest of the chilli paste and salt. Cook on low heat until the ghee separates from the masala.\n6. Add a little water and cover. Cook on low heat until the mutton is soft. The time depends on the meat.\n7. For the smoky taste (dhungar), place a hot charcoal piece in a small steel bowl in the centre. Add cloves and ghee and cover for about 3 minutes.\n8. Remove the bowl and stir. Rest for a few minutes. Serve with bajra roti, rice or paratha.",
       contemporaryDifference:
         "Intense scarlet appearance, rich ghee release, and aromatic clove-charcoal smoke layer.",
     },
     technologicalLeap: "Mastery of fat-soluble carotenoid extraction from Mathania peppers combined with closed-lid volatile charcoal smoke infusion.",
     documentedCitation:
       "Traditional Rajasthani royal kitchen practice and codified recipes.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// GHEWAR (Rajasthan)
+// ─────────────────────────────────────────────
+export const GHEWAR_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Ghewar in Rajasthan",
+    shortDescription:
+      "Ghewar is a crisp, honeycomb-textured disc-shaped sweet, soaked in sugar syrup and often topped with rabri. It is associated with Rajasthan, and many sources trace it to Jaipur and royal kitchens. It is linked to the monsoon festivals Teej, Raksha Bandhan and Gangaur. It is tied to the custom of sinjhara, where sweets and gifts are sent to married daughters before Teej. The exact origin, date and creator are not documented. Some stories name other places or periods. State this clearly.",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.47.42.jpeg",
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Deep frying vessel or special ring mould",
+      heatSource: "Traditional wood or coal hearth",
+      ingredientsList: [],
+      preparationMethod:
+        "Thin flour-and-ghee batter poured into hot ghee in concentric rings, forming a honeycomb disc soaked in sugar syrup.",
+      contemporaryDifference:
+        "Traditional Teej and Raksha Bandhan monsoon festival sweet associated with Jaipur royal sweet-makers.",
+    },
+    technologicalLeap: "Concentric ring pouring of cold emulsion into piping hot ghee creating porous honeycomb structure.",
+    documentedCitation: "Regional food tradition & festival confectionery documentation of Rajasthan.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Season: made mainly for monsoon festivals / sold through the year, and for Diwali, Holi and weddings\nSkill and tools: skilled sweet-makers (halwais) and a special mould / home recipes with a mould, a metal ring, or no mould\nFrying fat: ghee / ghee or oil\nVarieties: plain ghewar with syrup / mawa, malai, rabri and paneer ghewar\nToppings: sugar syrup / rabri, nuts, saffron and silver leaf\nGifting: sinjhara gifts at Teej and Raksha Bandhan / boxes from sweet shops, still exchanged at Teej",
+    image: "/images/dishes/ghewar-stage-4.webp",
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Special halwai moulds / Domestic metal rings or moulds",
+      heatSource: "Bhatti hearth / Modern domestic gas stoves",
+      ingredientsList: [],
+      preparationMethod:
+        "Frying fat: ghee / ghee or oil",
+      contemporaryDifference:
+        "Evolution from seasonal monsoon festival halwai preparation to year-round confectionery and rabri varieties.",
+    },
+    technologicalLeap: "Adaptation to modern home ring moulds and diverse dairy toppings including rabri and malai.",
+    documentedCitation: "Comparative sweet-making documentation across Rajasthan.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Ghewar Recipe: 10 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: refined flour (maida), ghee, chilled milk, ice-cold water, ice cubes, sugar, cardamom powder, saffron, rabri, chopped pistachios.",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.47.42.jpeg",
+    generationRecipe: {
+      recipeName: "Ghewar Recipe",
+      historicalCookware: "Tall narrow pan with metal ring mould",
+      heatSource: "Medium-high heat for frying; gentle heat for one-string syrup",
+      ingredientsList: [
+        "refined flour (maida)",
+        "ghee",
+        "chilled milk",
+        "ice-cold water",
+        "ice cubes",
+        "sugar",
+        "cardamom powder",
+        "saffron",
+        "rabri",
+        "chopped pistachios",
+      ],
+      preparationMethod:
+        "1. Rub cold ghee with ice cubes until it turns white and creamy. Remove the ice.\n2. Add maida slowly with chilled milk and ice-cold water. Whisk to a smooth, thin, pouring batter and keep it cold.\n3. Boil sugar, water, cardamom and saffron to a one-string syrup. Keep it lukewarm.\n4. Heat ghee or oil in a tall, narrow pan. Place the mould or metal ring in it.\n5. Pour the batter in a thin stream into the centre of the mould. Pour in small batches so a lacy honeycomb forms.\n6. Fry until golden and crisp. Lift it out and drain.\n7. Dip briefly in lukewarm syrup or pour a little syrup over it.\n8. Top with rabri, pistachios and saffron. Serve.",
+      contemporaryDifference:
+        "Crisp honeycomb disc soaked in saffron syrup and garnished with fresh rabri and pistachios.",
+    },
+    technologicalLeap: "Ice-rubbed ghee fat crystallization yielding micro-droplet batter suspension for crisp lacy expansion.",
+    documentedCitation: "Traditional Rajasthani sweet-making practice and codified recipes.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// GOAN FISH CURRY (Goa)
+// ─────────────────────────────────────────────
+export const GOAN_FISH_CURRY_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Goan Fish Curry in Coastal Goa",
+    shortDescription:
+      "Goan fish curry is a daily staple of coastal Goan homes. Fish and rice are the base of Goan food. Goa was under Portuguese rule from 1510 to 1961. The Portuguese brought new ingredients, including the chilli, which now defines much of Goan cooking. The dish blends local Konkan ingredients (coconut, kokum, fresh local fish) with Portuguese-era influence on spices and chillies. The exact date and creator of the curry are not documented. It grew out of everyday home and fishing-community cooking, not from one known inventor. Hindu and Catholic Goan households each have their own versions. Hindu homes call the fish curry \"humann\" or \"ambot\" (sour). It is a coconut-based curry. Kashmiri chilli gives the red-orange colour. Kokum or tamarind gives the sourness.",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.33.36.jpeg",
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Earthen pot (kundlem) or clay pot",
+      heatSource: "Traditional wood-fired hearth",
+      ingredientsList: [],
+      preparationMethod:
+        "Fresh coastal fish simmered gently with ground fresh coconut, indigenous kokum or tamarind, and aromatic spices over an open hearth.",
+      contemporaryDifference:
+        "Centuries of coastal Konkan culinary practice fused with Portuguese-era spice and chilli introductions.",
+    },
+    technologicalLeap: "Stone-ground coconut emulsion and gentle clay-pot poaching of fresh coastal catch.",
+    documentedCitation: "Regional Goan culinary history and coastal gastronomic records.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Heat and colour: black pepper and local spices, then chillies arrived with the Portuguese / Kashmiri chilli is now the main chilli for colour with mild heat\nSouring agent: kokum / tamarind paste or ready tamarind concentrate (kokum still used)\nCoconut: freshly grated and ground coconut / canned or tetra-pack coconut milk, also coconut cream\nMasala: spices ground fresh by hand / mixer-grinder, and ready chilli and masala powders\nFish: local catch such as kingfish, pomfret, mackerel / any white fish, including cod, tilapia, salmon, pollock\nCooking time: slow home simmer / a quick curry, ready in about 20-30 minutes\nServing: steamed rice and Goan bread (poi) / still rice and pav or poi, and also served at restaurants and fish thali spots",
+    image: "/images/dishes/goan-fish-curry-stage-3.webp",
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Clay pot / modern stainless steel and non-stick cookware",
+      heatSource: "Firewood hearth / domestic LPG gas and induction cooktops",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking time: slow home simmer / a quick curry, ready in about 20-30 minutes",
+      contemporaryDifference:
+        "Transition from hand stone grinding and local fresh catch to mixer-grinders, packaged coconut milk, and global fish varieties.",
+    },
+    technologicalLeap: "Adaptation to modern electric wet grinding, commercial paste packaging, and restaurant thali service.",
+    documentedCitation: "Comparative Goan food documentation and oral culinary traditions.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Goan Fish Curry Recipe: 10 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: fresh fish (kingfish, pomfret or mackerel), grated coconut, dried Kashmiri red chillies, coriander seeds, cumin seeds, turmeric, tamarind or kokum, onion, garlic, coconut oil.",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.33.36.jpeg",
+    generationRecipe: {
+      recipeName: "Goan Fish Curry Recipe",
+      historicalCookware: "Heavy pot or deep pan",
+      heatSource: "Medium heat to fry masala, then gentle low simmer for 5-8 minutes",
+      ingredientsList: [
+        "fresh fish (kingfish, pomfret or mackerel)",
+        "grated coconut",
+        "dried Kashmiri red chillies",
+        "coriander seeds",
+        "cumin seeds",
+        "turmeric",
+        "tamarind or kokum",
+        "onion",
+        "garlic",
+        "coconut oil",
+      ],
+      preparationMethod:
+        "1. Marinate the fish pieces with salt, turmeric and a little tamarind or lemon. Keep aside for 15-20 minutes.\n2. Grind the coconut, dried red chillies, coriander seeds, cumin and garlic with a little water. Grind to a smooth, thin paste.\n3. Heat coconut oil and fry the sliced onions until soft and golden.\n4. Add the ground paste and fry on medium heat. Stir until it smells fragrant and the raw smell is gone.\n5. Add water and the tamarind or kokum. Stir and bring to a gentle boil.\n6. Simmer for 8-10 minutes so the flavours join. The gravy should be bright orange-red and smooth.\n7. Add the fish and cook gently on low heat for 5-8 minutes. Do not stir hard. The fish is done when it turns opaque and flakes easily.\n8. Switch off the heat and rest for 5 minutes. Serve hot with steamed rice or Goan poi.",
+      contemporaryDifference:
+        "Precise 8-step home method balancing rich coconut gravy, tart kokum/tamarind, and gently poached fish.",
+    },
+    technologicalLeap: "Balanced two-phase cooking: aromatic ground paste reduction followed by gentle low-temperature fish poaching.",
+    documentedCitation: "Codified Goan regional recipe documentation.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// PORK VINDALOO (Goa)
+// ─────────────────────────────────────────────
+export const PORK_VINDALOO_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Pork Vindaloo in Coastal Goa",
+    shortDescription:
+      "Vindaloo comes from the Portuguese dish \"carne de vinha d'alhos\" (meat in wine/wine vinegar and garlic), which came to Goa with the Portuguese. The name \"vindaloo\" is a changed form of \"vinha d'alhos\". It has nothing to do with \"aloo\" (potato). In Portugal (Madeira and the Azores) the marinade used wine or wine vinegar. In Goa, cooks adapted it with local palm (coconut toddy) vinegar and added chillies and spices, and it became a Goan dish of its own. It is a Goan Catholic festive dish, made at Christmas, New Year and Easter. It is traditionally made with pork. The marinade was also a way to keep meat from spoiling on long sea voyages. The exact date and the cook who first made it are not documented. Food writers disagree on details, such as whether vinegar was already known in India. Traditional Goan vindaloo is tangy and mildly spicy, with deep red colour from Kashmiri-type chillies. It is different from the very hot British curry-house \"vindaloo\".",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.34.14.jpeg",
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Earthen pot (kundlem) or heavy copper pot",
+      heatSource: "Traditional wood-fired hearth",
+      ingredientsList: [],
+      preparationMethod:
+        "Pork marinated in local palm toddy vinegar with garlic and native Konkan spices, braised slowly in its own rendered fat.",
+      contemporaryDifference:
+        "Indo-Portuguese seafaring preservation technique transformed into a celebratory Goan Catholic staple.",
+    },
+    technologicalLeap: "Acid-cure marination using fermented palm toddy vinegar combined with slow copper-pot braising.",
+    documentedCitation: "Regional Goan culinary writing and Indo-Portuguese gastronomic documentation.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Marinade liquid: wine or wine vinegar (Portugal/Madeira) / palm toddy vinegar in Goa, white or malt vinegar in many kitchens today\nPurpose: keeping meat from spoiling on sea voyages / a festive, flavour-first dish for Christmas and Easter\nChilli: mild local chillies for colour (Bedige/Byadgi type) / Kashmiri chilli, now common for deep red colour with mild heat\nSpice base: garlic, pepper, turmeric and cloves added to the Portuguese idea / a thick masala of chillies, garlic, ginger, cumin, pepper, cinnamon and cloves\nGrinding: mortar and pestle or stone / electric blender or grinder\nCooking style: meat cooked in vinegar and garlic liquid / seared, then simmered slowly until tender and the oil separates\nMeat: pork was traditional and standard / chicken, beef, lamb and vegetarian adaptations now common\nHeat level: balanced tangy-spicy Goan festive profile / often made extremely fiery outside India, especially in the UK\nServed with: Goan sannas, crusty poi or steamed rice / still eaten with sannas or poi at festivals, and with rice, naan or rotis in restaurants",
+    image: "/images/dishes/pork-vindaloo-stage-4.webp",
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Heavy copper handi or clay pot / stainless steel pots and pressure cookers",
+      heatSource: "Wood fire / modern gas ranges and electric cookers",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking style: meat cooked in vinegar and garlic liquid / seared, then simmered slowly until tender and the oil separates",
+      contemporaryDifference:
+        "From shipboard wine-vinegar barrel preservation to modern restaurant curries and domestic vinegar substitutions.",
+    },
+    technologicalLeap: "Shift from stone-mortar grinding and prolonged wood-hearth braising to electric blenders and domestic pressure cooking.",
+    documentedCitation: "Comparative Indo-Portuguese culinary history and contemporary Goan food records.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Pork Vindaloo Recipe: 10 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: pork shoulder, dried Kashmiri red chillies, garlic, ginger, cumin seeds, black peppercorns, cloves and cinnamon, turmeric, palm vinegar (or white vinegar), onions.",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.34.14.jpeg",
+    generationRecipe: {
+      recipeName: "Pork Vindaloo Recipe",
+      historicalCookware: "Heavy-bottomed pot or handi",
+      heatSource: "High heat to sear, then gentle low heat for 40-50 minutes",
+      ingredientsList: [
+        "pork shoulder",
+        "dried Kashmiri red chillies",
+        "garlic",
+        "ginger",
+        "cumin seeds",
+        "black peppercorns",
+        "cloves and cinnamon",
+        "turmeric",
+        "palm vinegar (or white vinegar)",
+        "onions",
+      ],
+      preparationMethod:
+        "1. Cut the pork shoulder into bite-sized cubes and wash well. Drain completely and pat dry with a cloth.\n2. Grind the dried Kashmiri chillies, garlic, ginger, cumin, peppercorns, cloves, cinnamon and turmeric with palm vinegar. Grind into a thick, smooth, deep-red paste without adding water.\n3. Marinate the pork thoroughly with the ground spice paste and salt. Cover and rest in the refrigerator (overnight for best flavour, or at least 3-4 hours).\n4. Heat a little oil in a heavy-bottomed pot and fry the sliced onions. Cook on medium heat until soft and golden brown.\n5. Add the marinated pork along with all the marinade to the pot. Sear on high heat for 5-8 minutes, stirring until the meat changes colour and seals.\n6. Lower the heat, cover tightly with a lid, and slow-cook in its own juices and vinegar for 40-50 minutes. The pork is done when the meat is fork-tender and oil separates at the edges.\n7. Taste and adjust the seasoning with a splash of extra palm vinegar or a pinch of sugar. Simmer uncovered for 3-5 minutes until the gravy is rich and glossy.\n8. Switch off the heat and rest for at least 15-20 minutes before serving. Serve hot with Goan sannas, crusty poi or steamed rice.",
+      contemporaryDifference:
+        "Authentic 8-step Goan method featuring waterless vinegar grinding, high-heat searing, and long slow braising.",
+    },
+    technologicalLeap: "Waterless vinegar spice suspension combined with sealed internal steam and fat rendering.",
+    documentedCitation: "Codified Goan Catholic recipe documentation.",
+  },
+];
+
+// ─────────────────────────────────────────────
+// BEBINCA (Goa)
+// ─────────────────────────────────────────────
+export const BEBINCA_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Bebinca in Old Goa",
+    shortDescription:
+      "Bebinca is Goa's best-known layered dessert, often called the \"Queen of Goan Desserts\". It is a Portuguese-era sweet from Goan Catholic cooking, made for Christmas and other feasts. The most popular legend says it was created in the 17th century by a nun named Bebiana (also written Bibiona) at the Santa Monica Convent in Old Goa. In the legend, the convent used egg whites to starch clothing, so many yolks were left over. She used the yolks to make a sweet. The legend says she made seven layers to stand for the seven hills of Lisbon and the old city of Goa. The priests found it too small and asked for more layers. After her death, the sweet was named after her. This is a legend and oral tradition. The true origin is not documented with certainty. In Goa it is also called bibik. In Portuguese it is known as \"Bebinca das Sete Folhas\" (seven leaves). Bebinca received a Geographical Indication (GI) tag in 2023. It is made from egg yolks, coconut milk, sugar, flour and ghee, baked one thin layer at a time.",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.36.07.jpeg",
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Earthen pot (tizal) or heavy baking dish",
+      heatSource: "Traditional wood-fired embers and top coal heat",
+      ingredientsList: [],
+      preparationMethod:
+        "Layer-by-layer sequential baking of rich egg yolk and coconut milk batter in an earthen tizal with coconut-husk embers placed on the lid for overhead heat.",
+      contemporaryDifference:
+        "Oral legend attributing creation to Santa Monica Convent nun Bebiana; true origin remains undocumented with certainty.",
+    },
+    technologicalLeap: "Multi-layered overhead grill baking using hot charcoal on lid of an earthen tizal.",
+    documentedCitation: "Oral tradition and regional Goan Catholic culinary history.",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Cooking vessel: earthen pot (tizal), still used by a few families / oven or grill and a baking tin\nCoconut milk: fresh coconut grated and pressed for thick and thin milk / canned or packaged coconut milk in many kitchens\nLayers: seven layers (Bebinca das Sete Folhas) / six to sixteen or more layers\nLayer colour: pale and caramelised layers using caramelised sugar / some versions use food colouring\nFlavouring: nutmeg / nutmeg, with cardamom or vanilla essence in some recipes\nMaking it: a slow, long, labour-heavy home sweet made for Christmas / fewer people make it at home today\nOccasions: Christmas and feasts / Christmas, weddings and other celebrations\nServing: sliced into wedges, warm or at room temperature / often served with vanilla ice cream",
+    image: "/images/dishes/bebinca-stage-4.webp",
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Earthen tizal / modern oven with top broiler or grill",
+      heatSource: "Coconut husk embers / modern domestic electric ovens",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking vessel: earthen pot (tizal), still used by a few families / oven or grill and a baking tin",
+      contemporaryDifference:
+        "Evolution from labor-intensive hearth baking of seven layers to commercial multi-tier ovens, packaged coconut milk, and cafe dessert plating with ice cream.",
+    },
+    technologicalLeap: "Adaptation to modern electric oven top-grills and commercial bakery production.",
+    documentedCitation: "Comparative Goan food documentation and oral baking traditions.",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Bebinca Recipe: 10 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: egg yolks, thick coconut milk, thin coconut milk, sugar, refined flour (maida), ghee, nutmeg, salt, caramelised sugar, cardamom powder (optional).",
+    image: "/images_updated/WhatsApp Image 2026-11-08 at 02.36.07.jpeg",
+    generationRecipe: {
+      recipeName: "Bebinca Recipe",
+      historicalCookware: "Baking tin or round cake pan",
+      heatSource: "Oven grill / top heat element",
+      ingredientsList: [
+        "egg yolks",
+        "thick coconut milk",
+        "thin coconut milk",
+        "sugar",
+        "refined flour (maida)",
+        "ghee",
+        "nutmeg",
+        "salt",
+        "caramelised sugar",
+        "cardamom powder (optional)",
+      ],
+      preparationMethod:
+        "1. Make thick and thin coconut milk from fresh coconut. Canned coconut milk also works.\n2. Whisk the egg yolks with the sugar. Whisk until pale and creamy.\n3. Add the thick coconut milk, salt and nutmeg. Then add the flour and thin coconut milk in small batches. Whisk until there are no lumps.\n4. Strain the batter and rest it for a few minutes. This gives a smooth texture.\n5. Divide the batter into two parts. Colour one part with caramelised sugar to make a darker batter.\n6. Grease the pan with ghee and pour in a thin first layer. Bake or grill from above until just set and lightly golden.\n7. Brush ghee on top, then pour the next thin layer. Alternate light and dark layers. Repeat until all the batter is used.\n8. Cool a little, loosen the edges and turn out onto a plate. Cut into wedges and serve warm or at room temperature.",
+      contemporaryDifference:
+        "Precise 8-step layered baking alternating light and dark batters under overhead grill heat.",
+    },
+    technologicalLeap: "Sequential layer setting with top heat and clarified butter brushing between strata.",
+    documentedCitation: "Standardized Goan convent and household recipe documentation.",
   },
 ];
 
@@ -3209,6 +3541,14 @@ function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoin
       return DAL_BAATI_CHURMA_GENERATIONS;
     case "laal-maas":
       return LAAL_MAAS_GENERATIONS;
+    case "goan-fish-curry":
+      return GOAN_FISH_CURRY_GENERATIONS;
+    case "pork-vindaloo":
+      return PORK_VINDALOO_GENERATIONS;
+    case "bebinca":
+      return BEBINCA_GENERATIONS;
+    case "ghewar":
+      return GHEWAR_GENERATIONS;
     case "indori-poha":
       return INDORI_POHA_GENERATIONS;
     case "bhutte-ka-kees":
@@ -3286,7 +3626,11 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
           dishId === "laal-maas" ||
           dishId === "dalma" ||
           dishId === "chhena-poda" ||
-          dishId === "pakhala"
+          dishId === "pakhala" ||
+          dishId === "goan-fish-curry" ||
+          dishId === "pork-vindaloo" ||
+          dishId === "bebinca" ||
+          dishId === "ghewar"
             ? (stage.number === 3 && legacy[2]?.generationRecipe.ingredientsList?.length
                 ? legacy[2].generationRecipe.ingredientsList
                 : source.generationRecipe.ingredientsList)
@@ -3313,7 +3657,11 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
             dishId === "laal-maas" ||
             dishId === "dalma" ||
             dishId === "chhena-poda" ||
-            dishId === "pakhala") &&
+            dishId === "pakhala" ||
+            dishId === "goan-fish-curry" ||
+            dishId === "pork-vindaloo" ||
+            dishId === "bebinca" ||
+            dishId === "ghewar") &&
           stage.number === 3 &&
           legacy[2]?.generationRecipe.preparationMethod
             ? legacy[2].generationRecipe.preparationMethod
@@ -3325,7 +3673,7 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
       },
       technologicalLeap: stage.details[0],
       documentedCitation:
-        dishId === "dhokla" || dishId === "undhiyu" || dishId === "dal-baati-churma" || dishId === "laal-maas" || dishId === "dalma" || dishId === "chhena-poda" || dishId === "pakhala"
+        dishId === "dhokla" || dishId === "undhiyu" || dishId === "dal-baati-churma" || dishId === "laal-maas" || dishId === "dalma" || dishId === "chhena-poda" || dishId === "pakhala" || dishId === "goan-fish-curry" || dishId === "pork-vindaloo" || dishId === "bebinca" || dishId === "ghewar"
           ? source.documentedCitation
           : citations || "Regional food writing; no securely dated first reference established.",
     } satisfies GenerationWaypoint;

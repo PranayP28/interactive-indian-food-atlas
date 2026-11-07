@@ -2698,8 +2698,8 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "title": "Dal Baati Churma, Origin (Birth of the food)",
     "subtitle": "Dal baati churma is a Rajasthani trio of baked wheat balls (baati), lentil dal and a sweet crumble (churma).",
     "era": "Birth of the food",
-    "image": "/images_updated/dal-baati-churma-card.jpg",
-    "isFullTimelinePoster": false,
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.46.45.jpeg",
+    "isFullTimelinePoster": true,
     "stageNumber": 1,
     "ingredients": []
   },
@@ -2709,8 +2709,8 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "title": "Dal Baati Churma, Evolution of Food",
     "subtitle": "From sand-baked wartime army rations to Rajasthan royal celebratory thali feast.",
     "era": "Evolution of Food",
-    "image": "/images/dishes/dal-baati-churma-2.png",
-    "isFullTimelinePoster": false,
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.46.45.jpeg",
+    "isFullTimelinePoster": true,
     "stageNumber": 2,
     "ingredients": []
   },
@@ -2720,8 +2720,8 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "title": "Dal Baati Churma, Recipe",
     "subtitle": "Iconic Rajasthani trio of crispy ghee-soaked baatis, spiced panchmel dal, and sweet churma",
     "era": "Recipe",
-    "image": "/images_updated/dal-baati-churma-card.jpg",
-    "isFullTimelinePoster": false,
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.46.45.jpeg",
+    "isFullTimelinePoster": true,
     "stageNumber": 3,
     "ingredients": [
       "Coarse whole wheat flour (atta)",
@@ -2742,7 +2742,7 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "title": "Laal Maas, Origin (Birth of the food)",
     "subtitle": "Fiery red meat curry of Rajasthan, originally cooked in Rajput royal hunting camps.",
     "era": "Birth of the food",
-    "image": "/images_updated/laal-maas-card.jpg",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.47.17.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 1,
     "ingredients": []
@@ -2764,7 +2764,7 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
     "title": "Laal Maas, Recipe",
     "subtitle": "Royal Rajasthani fiery scarlet mutton curry slow-braised with smoky Mathania chillies and pure ghee.",
     "era": "Recipe",
-    "image": "/images_updated/laal-maas-card.jpg",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.47.17.jpeg",
     "isFullTimelinePoster": false,
     "stageNumber": 3,
     "ingredients": [
@@ -2778,6 +2778,182 @@ export const DISH_INFOGRAPHICS: DishInfographic[] = [
       "Coriander powder",
       "Turmeric powder",
       "Charcoal lump & clove (for Dhungar smoke)"
+    ]
+  },
+  {
+    "id": "info-ghewar-1",
+    "dishId": "ghewar",
+    "title": "Ghewar, Origin (Birth of the food)",
+    "subtitle": "Crisp honeycomb disc sweet of Rajasthan associated with Jaipur royal sweet-makers and monsoon festivals.",
+    "era": "Birth of the food",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.47.42.jpeg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 1,
+    "ingredients": []
+  },
+  {
+    "id": "info-ghewar-2",
+    "dishId": "ghewar",
+    "title": "Ghewar, Evolution of Food",
+    "subtitle": "From seasonal monsoon Teej festival sweet-making to year-round artisanal rabri, malai, and mawa varieties.",
+    "era": "Evolution of Food",
+    "image": "/images/dishes/ghewar-stage-4.webp",
+    "isFullTimelinePoster": false,
+    "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-ghewar-3",
+    "dishId": "ghewar",
+    "title": "Ghewar, Recipe",
+    "subtitle": "Crispy porous honeycomb ghewar soaked in fragrant saffron syrup and topped with rich rabri and nuts",
+    "era": "Recipe",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.47.42.jpeg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 3,
+    "ingredients": [
+      "refined flour (maida)",
+      "ghee",
+      "chilled milk",
+      "ice-cold water",
+      "ice cubes",
+      "sugar",
+      "cardamom powder",
+      "saffron",
+      "rabri",
+      "chopped pistachios"
+    ]
+  },
+  {
+    "id": "info-goan-fish-curry-1",
+    "dishId": "goan-fish-curry",
+    "title": "Goan Fish Curry, Origin (Birth of the food)",
+    "subtitle": "Daily staple of coastal Goan homes blending fresh local fish, kokum, and coconut with Portuguese spice trade roots.",
+    "era": "Birth of the food",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.33.36.jpeg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 1,
+    "ingredients": []
+  },
+  {
+    "id": "info-goan-fish-curry-2",
+    "dishId": "goan-fish-curry",
+    "title": "Goan Fish Curry, Evolution of Food",
+    "subtitle": "From hand-ground stone masalas, kokum, and local fresh catch to modern mixer-grinders, ready coconut milk, and contemporary thali spots.",
+    "era": "Evolution of Food",
+    "image": "/images/dishes/goan-fish-curry-stage-3.webp",
+    "isFullTimelinePoster": false,
+    "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-goan-fish-curry-3",
+    "dishId": "goan-fish-curry",
+    "title": "Goan Fish Curry, Recipe",
+    "subtitle": "Authentic coastal Goan fish curry in rich spiced coconut and kokum gravy",
+    "era": "Recipe",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.33.36.jpeg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 3,
+    "ingredients": [
+      "fresh fish (kingfish, pomfret or mackerel)",
+      "grated coconut",
+      "dried Kashmiri red chillies",
+      "coriander seeds",
+      "cumin seeds",
+      "turmeric",
+      "tamarind or kokum",
+      "onion",
+      "garlic",
+      "coconut oil"
+    ]
+  },
+  {
+    "id": "info-pork-vindaloo-1",
+    "dishId": "pork-vindaloo",
+    "title": "Pork Vindaloo, Origin (Birth of the food)",
+    "subtitle": "Portuguese carne de vinha d'alhos adapted with local coconut palm vinegar and fiery chillies.",
+    "era": "Birth of the food",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.34.14.jpeg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 1,
+    "ingredients": []
+  },
+  {
+    "id": "info-pork-vindaloo-2",
+    "dishId": "pork-vindaloo",
+    "title": "Pork Vindaloo, Evolution of Food",
+    "subtitle": "From wine-marinated shipboard pork preservation to festive Goan toddy-vinegar slow braise.",
+    "era": "Evolution of Food",
+    "image": "/images/dishes/pork-vindaloo-stage-4.webp",
+    "isFullTimelinePoster": false,
+    "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-pork-vindaloo-3",
+    "dishId": "pork-vindaloo",
+    "title": "Pork Vindaloo, Recipe",
+    "subtitle": "Fiery, tangy Goan Catholic festive braise slow-cooked with palm vinegar and aromatic spices",
+    "era": "Recipe",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.34.14.jpeg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 3,
+    "ingredients": [
+      "pork shoulder",
+      "dried Kashmiri red chillies",
+      "garlic",
+      "ginger",
+      "cumin seeds",
+      "black peppercorns",
+      "cloves and cinnamon",
+      "turmeric",
+      "palm vinegar (or white vinegar)",
+      "onions"
+    ]
+  },
+  {
+    "id": "info-bebinca-1",
+    "dishId": "bebinca",
+    "title": "Bebinca, Origin (Birth of the food)",
+    "subtitle": "Goa's legendary Queen of Desserts created by Sister Bebiana at Santa Monica Convent in Old Goa.",
+    "era": "Birth of the food",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.36.07.jpeg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 1,
+    "ingredients": []
+  },
+  {
+    "id": "info-bebinca-2",
+    "dishId": "bebinca",
+    "title": "Bebinca, Evolution of Food",
+    "subtitle": "From seven-leaf earthen tizal baking over coconut embers to modern layered tin ovens.",
+    "era": "Evolution of Food",
+    "image": "/images/dishes/bebinca-stage-4.webp",
+    "isFullTimelinePoster": false,
+    "stageNumber": 2,
+    "ingredients": []
+  },
+  {
+    "id": "info-bebinca-3",
+    "dishId": "bebinca",
+    "title": "Bebinca, Recipe",
+    "subtitle": "Iconic multi-layered Goan coconut milk, egg yolk, and caramelized sugar dessert",
+    "era": "Recipe",
+    "image": "/images_updated/WhatsApp Image 2026-11-08 at 02.36.07.jpeg",
+    "isFullTimelinePoster": false,
+    "stageNumber": 3,
+    "ingredients": [
+      "egg yolks",
+      "thick coconut milk",
+      "thin coconut milk",
+      "sugar",
+      "refined flour (maida)",
+      "ghee",
+      "nutmeg",
+      "salt",
+      "caramelised sugar",
+      "cardamom powder (optional)"
     ]
   },
   {

@@ -590,19 +590,14 @@
     "goan-fish-curry": {
       "origin": {
         "library": "spice-street",
-        "caption": "Goa — the regional kitchen where Goan Fish Curry belongs."
+        "caption": "Goan Fish Curry, Origin (Birth of the food)",
+        "label": "Goan Fish Curry, Origin (Birth of the food)"
       },
       "ingredients": {
         "library": "spice-bowls",
-        "caption": "Ingredients for Goan Fish Curry: kingfish / mackerel, fresh grated coconut, kokum, kashmiri chillies.",
-        "items": [
-          "Kingfish / Mackerel",
-          "Fresh grated coconut",
-          "Kokum",
-          "Kashmiri chillies",
-          "Coriander seeds",
-          "Turmeric"
-        ]
+        "caption": "Goan Fish Curry, Evolution of Food",
+        "label": "Goan Fish Curry, Evolution of Food",
+        "items": []
       },
       "method": {
         "photo": {
@@ -614,13 +609,13 @@
           "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AGoan_fish_curry_preparation%2C_underway.jpg",
           "alt": "Fresh fish steaks cooking in rich orange coconut curry sauce in a pot",
-          "caption": "Goan fish curry simmering: fresh fish steaks poaching in freshly ground coconut paste, Kashmiri red chilies, and tangy kokum extract.",
+          "caption": "Goan Fish Curry, Recipe",
           "fallback": null,
           "width": 1280,
           "height": 1280
         },
-        "caption": "Goan fish curry simmering: fresh fish steaks poaching in freshly ground coconut paste, Kashmiri red chilies, and tangy kokum extract.",
-        "label": "Preparation technique"
+        "caption": "Goan Fish Curry, Recipe",
+        "label": "Goan Fish Curry, Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Goan_Fish_Curry.jpg",
@@ -640,24 +635,19 @@
     "pork-vindaloo": {
       "origin": {
         "library": "spice-market",
-        "caption": "Goa — the regional kitchen where Pork Vindaloo belongs."
+        "caption": "Pork Vindaloo, Origin (Birth of the food)",
+        "label": "Pork Vindaloo, Origin (Birth of the food)"
       },
       "ingredients": {
         "library": "spice-palette",
-        "caption": "Ingredients for Pork Vindaloo: pork shoulder, goan palm vinegar, garlic, kashmiri red chillies.",
-        "items": [
-          "Pork shoulder",
-          "Goan palm vinegar",
-          "Garlic",
-          "Kashmiri red chillies",
-          "Cinnamon",
-          "Cloves",
-          "Cumin"
-        ]
+        "caption": "Pork Vindaloo, Evolution of Food",
+        "label": "Pork Vindaloo, Evolution of Food",
+        "items": []
       },
       "method": {
         "library": "spice-bowls",
-        "caption": "Pork Vindaloo — Toddy Vinegar Acid Cure & Slow Copper Pot Braise."
+        "caption": "Pork Vindaloo, Recipe",
+        "label": "Pork Vindaloo, Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Vindalho.jpg",
@@ -1966,14 +1956,8 @@
           "height": 3456
         },
         "caption": "Dal Baati Churma, Evolution of Food",
-        "label": "Evolution of Food",
-        "items": [
-          "Coarse whole wheat flour",
-          "Pure cow ghee",
-          "Panchmel dal (5 lentils)",
-          "Jaggery for churma",
-          "Fennel seeds"
-        ]
+        "label": "Dal Baati Churma, Evolution of Food",
+        "items": []
       },
       "method": {
         "photo": {
@@ -1991,7 +1975,7 @@
           "height": 531
         },
         "caption": "Dal Baati Churma, Recipe",
-        "label": "Recipe"
+        "label": "Dal Baati Churma, Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Rajasthani_dal-bati-churma_thali_01.jpg",
@@ -2030,15 +2014,8 @@
       "ingredients": {
         "library": "spice-palette",
         "caption": "Laal Maas, Evolution of Food",
-        "items": [
-          "Mutton / Wild game",
-          "Mathania dried red chillies",
-          "Pure desi ghee",
-          "Garlic paste",
-          "Cloves",
-          "Black cardamom"
-        ],
-        "label": "Evolution of Food"
+        "items": [],
+        "label": "Laal Maas, Evolution of Food"
       },
       "method": {
         "photo": {
@@ -2056,7 +2033,7 @@
           "height": 720
         },
         "caption": "Laal Maas, Recipe",
-        "label": "Recipe"
+        "label": "Laal Maas, Recipe"
       },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Lal_Maas.jpg",
@@ -3448,20 +3425,22 @@
       "plated": null
     },
     "bebinca": {
-      "origin": null,
-      "ingredients": {
-        "library": null,
-        "caption": "",
-        "items": [
-          "Coconut milk",
-          "Egg yolks",
-          "Wheat flour",
-          "Sugar",
-          "Ghee",
-          "Nutmeg"
-        ]
+      "origin": {
+        "library": "spice-street",
+        "caption": "Bebinca, Origin (Birth of the food)",
+        "label": "Bebinca, Origin (Birth of the food)"
       },
-      "method": null,
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Bebinca, Evolution of Food",
+        "label": "Bebinca, Evolution of Food",
+        "items": []
+      },
+      "method": {
+        "library": "spice-palette",
+        "caption": "Bebinca, Recipe",
+        "label": "Bebinca, Recipe"
+      },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Bebinca%2C_a_delicacy_and_sweet_from_Goa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
         "subject": "dish",
@@ -3471,8 +3450,8 @@
         "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ABebinca%2C_a_delicacy_and_sweet_from_Goa.jpg",
         "alt": "Layered brown Bebinca cake slice on a plate showing distinct stratified layers",
-        "caption": "Indo-Portuguese Bebinca: multi-layered coconut milk, egg yolk, flour, and clarified butter cake baked stage by stage.",
-        "fallback": null,
+        "caption": "Bebinca, Goa.",
+        "fallback": "/images/dishes/bebinca-stage-4.webp",
         "width": 4912,
         "height": 2760
       }
@@ -3887,20 +3866,22 @@
       }
     },
     "ghewar": {
-      "origin": null,
-      "ingredients": {
-        "library": null,
-        "caption": "",
-        "items": [
-          "Refined flour",
-          "Ghee",
-          "Milk",
-          "Sugar",
-          "Cardamom",
-          "Rabri (optional)"
-        ]
+      "origin": {
+        "library": "spice-street",
+        "caption": "Ghewar, Origin (Birth of the food)",
+        "label": "Ghewar, Origin (Birth of the food)"
       },
-      "method": null,
+      "ingredients": {
+        "library": "spice-bowls",
+        "caption": "Ghewar, Evolution of Food",
+        "label": "Ghewar, Evolution of Food",
+        "items": []
+      },
+      "method": {
+        "library": "spice-palette",
+        "caption": "Ghewar, Recipe",
+        "label": "Ghewar, Recipe"
+      },
       "plated": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/GhevarRajasthaniSweet.jpg",
         "subject": "dish",
@@ -3910,8 +3891,8 @@
         "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:GhevarRajasthaniSweet.jpg",
         "alt": "Ghewar, honeycombed Rajasthani disc sweet",
-        "caption": "Ghewar — the honeycombed Rajasthani disc sweet traditionally made for Teej.",
-        "fallback": null,
+        "caption": "Ghewar, Rajasthan.",
+        "fallback": "/images/dishes/ghewar-stage-4.webp",
         "width": 1161,
         "height": 1087,
         "local": "/images/dishes/ghewar-stage-4.webp",

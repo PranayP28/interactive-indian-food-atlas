@@ -29,7 +29,10 @@ import { Skiper6Summarizer, GenerationSummaryMember } from "./ui/skiper6";
 import { useTheme } from "../context/ThemeContext";
 import { CinematicParallaxJourney, CinematicStage, CinematicOutro } from "./CinematicParallaxJourney";
 import { ImageUploadSearchModal } from "./ImageUploadSearchModal";
-import { getInfographicForStage } from "../data/infographicsData";
+import {
+  getInfographicForStage,
+  getAllUploadedImages,
+} from "../data/infographicsData";
 
 // Register GSAP plugins
 gsap.registerPlugin(MotionPathPlugin, ScrollTrigger);
@@ -113,7 +116,11 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           dishId === "laal-maas" ||
           dishId === "dalma" ||
           dishId === "chhena-poda" ||
-          dishId === "pakhala"
+          dishId === "pakhala" ||
+          dishId === "goan-fish-curry" ||
+          dishId === "pork-vindaloo" ||
+          dishId === "bebinca" ||
+          dishId === "ghewar"
             ? "Evolution of Food"
             : "Evolution of food",
         photo: photography?.ingredients,
@@ -128,7 +135,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
 
       // Primary image source:
       // State-level cuisine poster image throughout all scroll-effect image boxes for all dishes in that state.
-      // If a state poster is missing (Goa, Lakshadweep, Manipur), cleanly falls back to verified dish photography.
+      // If a state poster is missing (Lakshadweep, Manipur), cleanly falls back to verified dish photography.
       const resolvedImage = stateMainImg || verifiedUrl || stageInfographic?.image || UNRESOLVED_IMAGE;
 
       const next = entries[index + 1];
@@ -172,13 +179,39 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
         }
       } else if (dishId === "dal-baati-churma") {
         if (index === 0) {
-          nextUrl = "/images/dishes/dal-baati-churma-1.png";
+          nextUrl = "/images_updated/WhatsApp Image 2026-11-08 at 02.46.45.jpeg";
         } else if (index === 1) {
-          nextUrl = "/images/dishes/dal-baati-churma-2.png";
+          nextUrl = "/images_updated/WhatsApp Image 2026-11-08 at 02.46.45.jpeg";
         }
       } else if (dishId === "laal-maas") {
         if (index === 0) {
           nextUrl = "/images/dishes/laal-maas-1.png";
+        } else if (index === 1) {
+          nextUrl = "/images_updated/WhatsApp Image 2026-11-08 at 02.47.17.jpeg";
+        }
+      } else if (dishId === "ghewar") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/ghewar-stage-4.webp";
+        } else if (index === 1) {
+          nextUrl = "/images_updated/WhatsApp Image 2026-11-08 at 02.47.42.jpeg";
+        }
+      } else if (dishId === "goan-fish-curry") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/goan-fish-curry-stage-3.webp";
+        } else if (index === 1) {
+          nextUrl = "/images_updated/WhatsApp Image 2026-11-08 at 02.33.36.jpeg";
+        }
+      } else if (dishId === "pork-vindaloo") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/pork-vindaloo-stage-4.webp";
+        } else if (index === 1) {
+          nextUrl = "/images_updated/WhatsApp Image 2026-11-08 at 02.34.14.jpeg";
+        }
+      } else if (dishId === "bebinca") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/bebinca-stage-4.webp";
+        } else if (index === 1) {
+          nextUrl = "/images_updated/WhatsApp Image 2026-11-08 at 02.36.07.jpeg";
         }
       } else if (dishId === "indori-poha") {
         if (index === 1) {
@@ -219,6 +252,14 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           ? "Evolution of Food — from historic Malwa community feast boiled bafla to crisp ghee-roasted rounds served with spicy tuvar dal."
           : dishId === "amritsari-kulcha" && index === 1
           ? "Evolution of Food — from simple leavened dough rounds to Amritsar's crisp layered stuffed kulcha roasted in searing clay tandoors."
+          : dishId === "goan-fish-curry" && index === 1
+          ? "Evolution of Food — from hand-ground stone masalas, kokum, and local fresh catch to modern mixer-grinders, ready coconut milk, and contemporary thali spots."
+          : dishId === "pork-vindaloo" && index === 1
+          ? "Evolution of Food — from wine-marinated shipboard pork preservation to festive Goan toddy-vinegar slow braise."
+          : dishId === "bebinca" && index === 1
+          ? "Evolution of Food — from seven-leaf earthen tizal baking to modern layered tin ovens."
+          : dishId === "ghewar" && index === 1
+          ? "Evolution of Food — from monsoon-festival sweet shops to modern artisanal rabri varieties."
           : entry.photo?.caption || (stateMainImg ? `${dish.state} — Regional heritage & culinary traditions` : undefined);
 
       return {
@@ -389,7 +430,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
             }`}
           >
             <Sparkles className="w-4 h-4 text-amber-500 animate-pulse" />
-            <span>Search All 223 Uploaded Recipe Infographics & Ingredients</span>
+            <span>Search All {getAllUploadedImages().length} Uploaded Recipe Infographics & Ingredients</span>
           </button>
         </div>
       </div>
@@ -831,9 +872,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       </div>
                     )}
 
-
-
-                    {/* YouTube Recipe Link (below ingredients and recipe, at the end of Stage 3) */}
+                    {/* YouTube Recipe Link (below ingredients, at the end of Stage 3) */}
                     {(dishId === "hyderabadi-biryani" ||
                       dishId === "hyderabadi-haleem" ||
                       dishId === "masala-dosa" ||
@@ -852,7 +891,11 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       dishId === "laal-maas" ||
                       dishId === "pakhala" ||
                       dishId === "chhena-poda" ||
-                      dishId === "dalma") &&
+                      dishId === "dalma" ||
+                      dishId === "goan-fish-curry" ||
+                      dishId === "pork-vindaloo" ||
+                      dishId === "bebinca" ||
+                      dishId === "ghewar") &&
                       stageNum === 3 && (
                       <div className="pt-2 relative z-30">
                         <a
@@ -864,9 +907,11 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                               : dishId === "bisi-bele-bath"
                               ? "https://www.youtube.com/watch?v=VEArdyBWvdw"
                               : dishId === "laal-maas"
-                              ? "https://youtu.be/bG2nwUSWezg?si=aMRMKL__enemVXzn"
+                              ? "https://www.youtube.com/watch?v=xAhZZiZ5S50"
                               : dishId === "dal-baati-churma"
-                              ? "https://youtu.be/IdAYLQmSEj8?si=Ye0ose7VOrO7fHJO"
+                              ? "https://www.youtube.com/watch?v=mZ4xTelTAGk"
+                              : dishId === "ghewar"
+                              ? "https://www.youtube.com/watch?v=Bh87si4LpLI"
                               : dishId === "undhiyu"
                               ? "https://youtu.be/76WP69qtDi8?si=pJ2OxBhrMlE4jino"
                               : dishId === "dhokla"
@@ -893,6 +938,12 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                               ? "https://www.youtube.com/watch?v=5g8hrU7sJPg"
                               : dishId === "dalma"
                               ? "https://www.youtube.com/watch?v=DKYz5RO1gJQ"
+                              : dishId === "goan-fish-curry"
+                              ? "https://www.youtube.com/watch?v=6Tme3rLiFzg&t=2s"
+                              : dishId === "pork-vindaloo"
+                              ? "https://www.youtube.com/watch?v=VZ7grmNSN_M"
+                              : dishId === "bebinca"
+                              ? "https://www.youtube.com/watch?v=Rg0EAnr21X0"
                               : "https://www.youtube.com/watch?v=8Fw_zWPbGog"
                           }
                           target="_blank"

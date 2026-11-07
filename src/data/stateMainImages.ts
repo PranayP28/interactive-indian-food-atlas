@@ -14,6 +14,7 @@ export const STATE_MAIN_IMAGES: Record<string, string> = {
   "Bihar": "/Main_img/bihar%20main.jpeg",
   "Chhattisgarh": "/Main_img/chattisgarh%20main.jpeg",
   "Delhi": "/Main_img/delhi%20main.jpeg",
+  "Goa": "/Main_img/goa%20main.jpeg",
   "Gujarat": "/Main_img/gujarat%20main.jpeg",
   "Haryana": "/Main_img/haryana%20main.jpeg",
   "Himachal Pradesh": "/Main_img/himachalpradesh%20main.jpeg",

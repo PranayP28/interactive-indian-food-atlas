@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedFrom": "src/data/foodData.ts",
-  "totalDishes": 93,
+  "totalDishes": 91,
   "groups": [
     {
       "state": "Andhra Pradesh",
@@ -68,8 +68,7 @@
       "tagline": "Sweetness in every bite — the jewel of vegetarian cuisine",
       "dishIds": [
         "dhokla",
-        "undhiyu",
-        "handvo"
+        "undhiyu"
       ]
     },
     {
@@ -137,8 +136,7 @@
       "tagline": "From coastal Konkan to Vidarbha heat — bold, diverse and proud",
       "dishIds": [
         "vada-pav",
-        "puran-poli",
-        "ukadiche-modak"
+        "puran-poli"
       ]
     },
     {
@@ -614,12 +612,16 @@
       "category": "curry-stew",
       "description": "Fresh coastal kingfish or mackerel simmered in freshly extracted thick coconut milk, brightened by tart sun-dried kokum rinds and fiery Kashmiri chillies.",
       "ingredients": [
-        "Kingfish / Mackerel",
-        "Fresh grated coconut",
-        "Kokum",
-        "Kashmiri chillies",
-        "Coriander seeds",
-        "Turmeric"
+        "fresh fish (kingfish, pomfret or mackerel)",
+        "grated coconut",
+        "dried Kashmiri red chillies",
+        "coriander seeds",
+        "cumin seeds",
+        "turmeric",
+        "tamarind or kokum",
+        "onion",
+        "garlic",
+        "coconut oil"
       ],
       "tasteProfile": "Tangy, Coconutty & Spiced",
       "era": "Pre-Colonial Saraswat & Maritime Heritage",
@@ -633,13 +635,16 @@
       "category": "curry-stew",
       "description": "A masterwork of Indo-Portuguese culinary fusion: pork marinated overnight in palm toddy vinegar, garlic cloves, cinnamon, and fiery dried red chillies.",
       "ingredients": [
-        "Pork shoulder",
-        "Goan palm vinegar",
-        "Garlic",
-        "Kashmiri red chillies",
-        "Cinnamon",
-        "Cloves",
-        "Cumin"
+        "pork shoulder",
+        "dried Kashmiri red chillies",
+        "garlic",
+        "ginger",
+        "cumin seeds",
+        "black peppercorns",
+        "cloves and cinnamon",
+        "turmeric",
+        "palm vinegar (or white vinegar)",
+        "onions"
       ],
       "tasteProfile": "Fiery, Sour & Complex",
       "era": "16th Century Portuguese Maritime Exchange",
@@ -653,12 +658,16 @@
       "category": "sweet-dessert",
       "description": "Seven (or more) thin coconut-milk, egg-yolk and flour layers, each grilled or baked before the next is poured, finished with a glossy top layer and cut in diamond slices.",
       "ingredients": [
-        "Coconut milk",
-        "Egg yolks",
-        "Wheat flour",
-        "Sugar",
-        "Ghee",
-        "Nutmeg"
+        "egg yolks",
+        "thick coconut milk",
+        "thin coconut milk",
+        "sugar",
+        "refined flour (maida)",
+        "ghee",
+        "nutmeg",
+        "salt",
+        "caramelised sugar",
+        "cardamom powder (optional)"
       ],
       "tasteProfile": "Caramelised, Coconut-Rich & Custardy",
       "era": "Indo-Portuguese Goan baking tradition, documented in 20th-century Goan cookery",
@@ -705,26 +714,6 @@
       "tasteProfile": "Herbaceous, Sweet & Savory",
       "era": "Medieval Agrarian Harvest Celebrations",
       "keyTechnique": "Matka Inversion (Undhu) Under Charcoal Embers"
-    },
-    {
-      "id": "handvo",
-      "name": "Handvo",
-      "alternateName": "Gujarati Savoury Lentil-Rice Cake",
-      "state": "Gujarat",
-      "category": "fermented-steamed",
-      "description": "A naturally fermented batter of rice, mixed dals and grated bottle gourd, baked or shallow-steamed in a mould until the crust is deep gold, then crackled with a mustard-sesame tempering.",
-      "ingredients": [
-        "Rice",
-        "Split pulses (tur, chana, urad)",
-        "Bottle gourd",
-        "Curd",
-        "Mustard seeds",
-        "Sesame",
-        "Turmeric"
-      ],
-      "tasteProfile": "Nutty, Tangy & Crustily Savoury",
-      "era": "Gujarati household baking tradition; documented in regional cookery books",
-      "keyTechnique": "Fermented Mixed-Dal Batter Baking"
     },
     {
       "id": "bajra-khichdi",
@@ -1103,24 +1092,6 @@
       "keyTechnique": "Puran Stone-Straining & Translucent Rolling"
     },
     {
-      "id": "ukadiche-modak",
-      "name": "Ukadiche Modak",
-      "alternateName": "Steamed Modak",
-      "state": "Maharashtra",
-      "category": "sweet-dessert",
-      "description": "A dome of freshly kneaded rice flour, pleated by hand around a filling of jaggery and grated coconut, steamed to a translucent shell and offered to Ganesha at Chaturthi.",
-      "ingredients": [
-        "Rice flour",
-        "Jaggery",
-        "Grated coconut",
-        "Cardamom",
-        "Ghee"
-      ],
-      "tasteProfile": "Sweet, Coconut-Flecked & Soft-Steamed",
-      "era": "Ganesh Chaturthi offering tradition, documented from the 19th century onward",
-      "keyTechnique": "Ukad Rice-Flour Pleating & Steam Bath"
-    },
-    {
       "id": "eromba",
       "name": "Eromba",
       "alternateName": "Fermented Fish & Tuber Mash",
@@ -1483,12 +1454,16 @@
       "category": "grain-bread",
       "description": "Hard wheat dumplings baked over dried cow-dung embers and cracked open into pools of piping hot ghee, paired with five-lentil panchmel dal and sweet powdered wheat churma.",
       "ingredients": [
-        "Whole wheat flour",
-        "Panchmel lentils (Five dals)",
-        "Pure cow ghee",
-        "Ajwain seeds",
-        "Jaggery / Bura",
-        "Cardamom"
+        "whole wheat flour",
+        "semolina",
+        "ghee",
+        "panchmel dal (five lentils)",
+        "onion",
+        "tomato",
+        "garlic",
+        "cumin and mustard seeds",
+        "powdered sugar",
+        "almonds and cardamom"
       ],
       "tasteProfile": "Smoky, Rich & Decadent",
       "era": "8th Century Mewar Military Campaigns (Bappa Rawal)",
@@ -1502,12 +1477,16 @@
       "category": "meat",
       "description": "The fiery crown jewel of Rajput royal hunting expeditions: game meat slow-cooked in pure ghee with an abundance of smoky Mathania red chillies, garlic paste, and crushed spices.",
       "ingredients": [
-        "Mutton / Wild game",
-        "Mathania dried red chillies",
-        "Pure desi ghee",
-        "Garlic paste",
-        "Cloves",
-        "Black cardamom"
+        "mutton on the bone",
+        "Mathania (or Kashmiri) dried red chillies",
+        "garlic",
+        "ginger",
+        "onions",
+        "curd",
+        "ghee",
+        "whole spices (cloves, cardamom, cinnamon)",
+        "coriander and turmeric powder",
+        "a small piece of charcoal"
       ],
       "tasteProfile": "Fiery, Smoky & Bold",
       "era": "10th Century Rajput Royal Shikar (Hunting) Camps",
@@ -1521,12 +1500,16 @@
       "category": "sweet-dessert",
       "description": "A lacy, honeycombed disc made by pouring a thin flour-and-ghee batter into hot ghee in concentric rings, then drenched in sugar syrup and often finished with rabri; a Teej and Raksha Bandhan sweet.",
       "ingredients": [
-        "Refined flour",
-        "Ghee",
-        "Milk",
-        "Sugar",
-        "Cardamom",
-        "Rabri (optional)"
+        "refined flour (maida)",
+        "ghee",
+        "chilled milk",
+        "ice-cold water",
+        "ice cubes",
+        "sugar",
+        "cardamom powder",
+        "saffron",
+        "rabri",
+        "chopped pistachios"
       ],
       "tasteProfile": "Crisp, Syrup-Drenched & Creamy",
       "era": "Rajasthani monsoon-festival sweet, documented in 20th-century sweet-making accounts",
