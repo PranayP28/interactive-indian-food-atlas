@@ -117,7 +117,9 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
           dishId === "dal-bafla" ||
           dishId === "makki-di-roti-sarson-saag" ||
           dishId === "butter-chicken" ||
-          dishId === "amritsari-kulcha"
+          dishId === "amritsari-kulcha" ||
+          dishId === "vada-pav" ||
+          dishId === "puran-poli"
             ? "Evolution of Food"
             : "Regional & Seasonal Produce",
         photo: photography?.ingredients,
@@ -133,17 +135,42 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
       // Primary image source:
       // State-level cuisine poster image throughout all scroll-effect image boxes for all dishes in that state.
       // If a state poster is missing (Goa, Lakshadweep, Manipur), cleanly falls back to verified dish photography.
-      const resolvedImage = stateMainImg || verifiedUrl || stageInfographic?.image || UNRESOLVED_IMAGE;
+      let resolvedImage = stateMainImg || verifiedUrl || stageInfographic?.image || UNRESOLVED_IMAGE;
+      let resolvedAlt = stateMainImg ? `${dish.state} Regional Cuisine — ${entry.title}` : (entry.photo ? `${dishName} — ${entry.title}` : `${dish.state} — ${entry.title}`);
 
       const next = entries[index + 1];
-      const nextUrl = next ? (stageImageUrl(next.photo) || getInfographicForStage(dishId, next.stageNum)?.image) : undefined;
+      let nextUrl = next ? (stageImageUrl(next.photo) || getInfographicForStage(dishId, next.stageNum)?.image) : undefined;
+
+      if (dishId === "puran-poli") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/puran-poli-2.png";
+        } else if (index === 1) {
+          nextUrl = "/images/dishes/puran-poli-1.png";
+        } else if (index === 2) {
+          nextUrl = undefined;
+        }
+      } else if (dishId === "makki-di-roti-sarson-saag") {
+        if (index === 1) {
+          nextUrl = "/images/dishes/makki-2.png";
+        } else if (index === 2) {
+          nextUrl = undefined;
+        }
+      } else if (dishId === "butter-chicken") {
+        if (index === 0) {
+          nextUrl = "/images/dishes/butter-chicken-ingredients.png";
+        } else if (index === 1) {
+          nextUrl = "/images/dishes/butter-chicken-2.png";
+        } else if (index === 2) {
+          nextUrl = undefined;
+        }
+      }
 
       const caption = entry.photo?.caption || (stateMainImg ? `${dish.state} — Regional heritage & culinary traditions` : undefined);
 
       return {
         id: `${dishId}-stage-${entry.key}`,
         image: resolvedImage,
-        imageAlt: stateMainImg ? `${dish.state} Regional Cuisine — ${entry.title}` : (entry.photo ? `${dishName} — ${entry.title}` : `${dish.state} — ${entry.title}`),
+        imageAlt: resolvedAlt,
         secondaryImage: nextUrl || undefined,
         eyebrow: entry.eyebrow,
         title: entry.title,
@@ -425,7 +452,11 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
 
             // Filtered ingredients for this stage
             const stageFilter = (ingredientFilters[stageNum] || "").trim().toLowerCase();
-            const allStageIngredients = waypoint.generationRecipe.ingredientsList;
+            const allStageIngredients = (
+              (dishId === "vada-pav" || dishId === "puran-poli" || dishId === "makki-di-roti-sarson-saag" || dishId === "butter-chicken") && stageInfographic?.ingredients && stageInfographic.ingredients.length > 0
+                ? stageInfographic.ingredients
+                : waypoint.generationRecipe.ingredientsList
+            ).filter((ing) => !ing.toLowerCase().includes("spring water"));
             const displayedIngredients = stageFilter
               ? allStageIngredients.filter((ing) => ing.toLowerCase().includes(stageFilter))
               : allStageIngredients;
@@ -685,6 +716,7 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       )}
                     </div>
 
+
                     {/* ── STAGE INGREDIENTS MATRIX & SEARCH SECTION ── */}
                     {allStageIngredients.length > 0 && (
                       <div
@@ -702,7 +734,19 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                                 isLight ? "text-amber-900" : "text-amber-200"
                               }`}
                             >
-                              Ingredients Known in this Epoch
+                              {dishId === "butter-chicken"
+                                ? (stageNum === 1
+                                    ? "🌾 The Pre-1947 Ingredients"
+                                    : stageNum === 2
+                                      ? "🛒 The 1900s Ingredients"
+                                      : "⚡ The Present Day Ingredients")
+                                : dishId === "puran-poli" || dishId === "makki-di-roti-sarson-saag"
+                                ? (stageNum === 1
+                                    ? "🌾 The 1800s Ingredients"
+                                    : stageNum === 2
+                                      ? "🛒 The 1900s Ingredients"
+                                      : "⚡ The Present Day Ingredients")
+                                : "Ingredients Known in this Epoch"}
                             </h4>
                           </div>
                           <span
@@ -712,7 +756,9 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                                 : "text-emerald-400 bg-emerald-500/10 border-emerald-500/30"
                             }`}
                           >
-                            {allStageIngredients.length} Documented Ingredients
+                            {(dish.state === "Maharashtra" && dishId !== "vada-pav" && dishId !== "puran-poli") || dishId === "makki-di-roti-sarson-saag" || dishId === "butter-chicken"
+                              ? `${allStageIngredients.length} Ingredients`
+                              : `${allStageIngredients.length} Documented Ingredients`}
                           </span>
                         </div>
 
@@ -941,31 +987,37 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                       dishId === "dal-bafla" ||
                       dishId === "makki-di-roti-sarson-saag" ||
                       dishId === "butter-chicken" ||
-                      dishId === "amritsari-kulcha") &&
+                      dishId === "amritsari-kulcha" ||
+                      dishId === "vada-pav" ||
+                      dishId === "puran-poli") &&
                       stageNum === 3 && (
-                      <div className="pt-1">
+                      <div className="pt-2 relative z-30">
                         <a
                           href={
-                            dishId === "indori-poha"
+                            dishId === "puran-poli"
+                              ? "https://youtu.be/l7Efb-HjDPU?si=EscTTWw7kdAoJfmO"
+                              : dishId === "vada-pav"
+                              ? "https://youtu.be/r4saZD0J_gU?si=5bMEbxfAfzxEhTd3"
+                              : dishId === "indori-poha"
                               ? "https://youtu.be/XuttnylxuXY?si=ckFXqQLdjLIC2nCB"
                               : dishId === "bhutte-ka-kees"
                               ? "https://www.youtube.com/watch?v=ELuQxGELBgw"
                               : dishId === "dal-bafla"
                               ? "https://www.youtube.com/watch?v=3X0-I1GTOq0"
                               : dishId === "makki-di-roti-sarson-saag"
-                              ? "https://www.youtube.com/watch?v=hI-in8nsU_Q"
+                              ? "https://youtu.be/-YpLF57Pnec?si=3h_Bvw7MUcU2QhTO"
                               : dishId === "butter-chicken"
-                              ? "https://www.youtube.com/watch?v=-LueyspwzwM"
+                              ? "https://youtu.be/D_fYk8mBaF4?si=3DBkbxk0dzjxELBy"
                               : dishId === "amritsari-kulcha"
                               ? "https://www.youtube.com/watch?v=pbI8PkiSB8E"
                               : "https://www.youtube.com/watch?v=8Fw_zWPbGog"
                           }
                           target="_blank"
                           rel="noopener noreferrer"
-                          className={`inline-flex items-center gap-1.5 text-xs font-semibold underline underline-offset-4 decoration-dotted transition-colors ${
+                          className={`inline-flex items-center gap-1.5 text-xs font-semibold underline decoration-dotted underline-offset-4 cursor-pointer pointer-events-auto transition-colors ${
                             isLight
-                              ? "text-amber-800 hover:text-amber-950 decoration-amber-800/60"
-                              : "text-amber-400 hover:text-amber-300 decoration-amber-400/60"
+                              ? "text-amber-900 hover:text-orange-700"
+                              : "text-amber-400 hover:text-amber-300"
                           }`}
                         >
                           <ExternalLink className="w-3.5 h-3.5" />
@@ -975,23 +1027,25 @@ export const GsapMotionPathTimeline: React.FC<GsapMotionPathTimelineProps> = ({
                     )}
 
                     {/* Scholarly Citation Link */}
-                    <div
-                      className={`flex items-center gap-2 text-[11px] pt-1 ${
-                        isLight ? "text-slate-600" : "text-slate-400"
-                      }`}
-                    >
-                      <Scroll
-                        className={`w-3.5 h-3.5 ${isLight ? "text-amber-700" : "text-amber-400"}`}
-                      />
-                      <span>Documented in: </span>
-                      <span
-                        className={
-                          isLight ? "text-slate-900 font-semibold" : "text-slate-300 italic"
-                        }
+                    {(dish.state !== "Maharashtra" || dishId === "vada-pav") && dishId !== "makki-di-roti-sarson-saag" && dishId !== "butter-chicken" && waypoint.documentedCitation && (
+                      <div
+                        className={`flex items-center gap-2 text-[11px] pt-1 ${
+                          isLight ? "text-slate-600" : "text-slate-400"
+                        }`}
                       >
-                        {waypoint.documentedCitation}
-                      </span>
-                    </div>
+                        <Scroll
+                          className={`w-3.5 h-3.5 ${isLight ? "text-amber-700" : "text-amber-400"}`}
+                        />
+                        <span>Documented in: </span>
+                        <span
+                          className={
+                            isLight ? "text-slate-900 font-semibold" : "text-slate-300 italic"
+                          }
+                        >
+                          {waypoint.documentedCitation}
+                        </span>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

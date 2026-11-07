@@ -401,6 +401,163 @@ export const BIRYANI_GENERATIONS: GenerationWaypoint[] = [
 ];
 
 // ─────────────────────────────────────────────
+// VADA PAV (Maharashtra)
+// ─────────────────────────────────────────────
+export const VADA_PAV_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Vada Pav in Mumbai, Maharashtra",
+    shortDescription:
+      "Before the 1960s, Vada Pav did not exist, because its two core parts belonged to different worlds. Potatoes had only recently been popularized by the British. The Portuguese pav (bread) was largely shunned by mainstream society because of religious taboos around European baking and the use of wild palm toddy for yeast fermentation.\n\nForced together in a 19th-century wood-fired kitchen, the result would have been very different: dense, sour bread, a roughly hand-mashed potato filling, and frying over smoky wood fires in heavy iron pots of cold-pressed groundnut oil. The two were eaten separately, only in private domestic or colonial settings, before Mumbai's street food culture was born.\n\nVada Pav is credited to Ashok Vaidya. In 1966, outside Dadar railway station, he combined the potato dumpling (batata vada) and the bread roll into a cheap, quick meal for Mumbai's booming working class. Mill workers rushing to their shifts needed something hot, filling and portable. He split a commercial yeast pav (now socially accepted), smeared it with fiery chutneys, including the signature dry red garlic powder, and stuffed it with a fresh batata vada.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Cast-iron kadai & wooden ladle",
+      heatSource: "Wood and charcoal fire with live embers",
+      ingredientsList: [],
+      preparationMethod:
+        "Origin in Mumbai: In 1966, outside Dadar railway station, Ashok Vaidya combined the potato dumpling (batata vada) and the bread roll into a cheap, quick meal for Mumbai's booming working class.",
+      contemporaryDifference:
+        "Cultural background: Before the 1960s, Vada Pav did not exist; potatoes were popularized by the British while Portuguese pav was shunned due to religious taboos around European baking and wild palm toddy fermentation.",
+    },
+    technologicalLeap: "Ashok Vaidya combining batata vada and Portuguese pav outside Dadar station in 1966.",
+    documentedCitation: "Various regional publishers and state documentation bodies, Regional food writing, state tourism documentation and household recipe literature (20th–21st century); Unattributed community tradition, Oral and household tradition (undated)",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Cooking method: Then - simple street-side frying | Now - standardized, high-speed frying in commercial kitchens\nFuel: Then - portable kerosene stoves | Now - temperature-controlled LPG gas burners\nFrying oil: Then - mass-produced vegetable oils | Now - refined sunflower or palm oils\nPav: Then - commercial yeast pav, split and smeared with chutney | Now - pav heavily toasted on a griddle with Amul butter\nChutneys and sauces: Then - fiery chutneys, with signature dry red garlic powder hand-ground daily on stone slabs | Now - liquid cheese and Schezwan sauce as part of a fusion flavour profile\nVada: Then - a fresh batata vada | Now - baked panko-crusted potato patties are also used\nSelling: Then - sold outside Dadar railway station to mill workers | Now - classic street carts still thrive, plus fast-food chains that flash-freeze the vadas for consistency\nPackaging: Then - wrapped in old, ink-stained vernacular newspaper | Now - eco-friendly biodegradable boxes\nReputation: Then - a cheap meal that fuelled the city's political and industrial labor movements | Now - a globally recognized gourmet food and a symbol of culinary pride",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Cast-iron kadai & wooden ladle / stainless steel commercial fryers",
+      heatSource: "Portable kerosene stoves / LPG gas burners",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking method: Then - simple street-side frying | Now - standardized, high-speed frying in commercial kitchens",
+      contemporaryDifference:
+        "Reputation: Then - a cheap meal that fuelled the city's political and industrial labor movements | Now - a globally recognized gourmet food and a symbol of culinary pride",
+    },
+    technologicalLeap: "Adaptation from street-corner kerosene carts to standardized quick-service food chains across India and the globe.",
+    documentedCitation: "Various regional publishers and state documentation bodies, Regional food writing, state tourism documentation and household recipe literature (20th–21st century); Unattributed community tradition, Oral and household tradition (undated)",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Mumbai Vada Pav Recipe: 5 Key Ingredients, 7 Steps",
+    shortDescription:
+      "Key ingredients: potatoes, pav (bread rolls), gram flour (besan), garlic, green chillies. Also needed: oil, salt and red chilli powder.\n\n1. Boil the potatoes, then peel and mash them roughly. (Sign: a knife goes in easily.)\n2. Make the filling: fry chopped garlic and green chillies in a little oil, add the mashed potatoes and salt, and mix well. (Sign: it smells fragrant and is dry enough to shape. Let it cool a little.)\n3. Shape the filling into round, slightly flat balls. (Sign: they hold their shape without cracking.)\n4. Make the batter: whisk gram flour with water and a pinch of salt. (Sign: thick and smooth, with no lumps, and it coats the back of a spoon.)\n5. Dip each ball in the batter and fry it in hot oil on medium heat, turning it once or twice. (Sign: golden brown and crisp all over. Drain on paper.)\n6. Make the dry garlic chutney: crush garlic with salt and red chilli powder into a coarse powder. (Sign: it looks red and crumbly and smells strong.)\n7. Slit the pav without cutting it fully, spread the chutney inside, place the hot vada and press lightly. (Sign: the vada sits snugly. For a modern twist, toast the pav on a griddle with butter first. Serve hot.)",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Mumbai Vada Pav Recipe",
+      historicalCookware: "Deep kadai or frying pan with slotted skimmer",
+      heatSource: "Medium flame / moderate oil temperature (approx 175°C / 350°F)",
+      ingredientsList: [
+        "Potatoes",
+        "Pav (Bread rolls)",
+        "Gram flour (Besan)",
+        "Garlic",
+        "Green chillies",
+      ],
+      preparationMethod:
+        "Tempered Potato Mash & Precision Deep Frying. Key ingredients: potatoes, pav (bread rolls), gram flour (besan), garlic, green chillies. Also needed: oil, salt and red chilli powder.",
+      contemporaryDifference:
+        "7. Slit the pav without cutting it fully, spread the chutney inside, place the hot vada and press lightly. (Sign: the vada sits snugly. For a modern twist, toast the pav on a griddle with butter first. Serve hot.)",
+    },
+    technologicalLeap: "Precision 7-step batata vada deep-frying and pav assembly protocol.",
+    documentedCitation: "Various regional publishers and state documentation bodies, Regional food writing, state tourism documentation and household recipe literature (20th–21st century); Unattributed community tradition, Oral and household tradition (undated)",
+  },
+];
+
+// ─────────────────────────────────────────────
+// PURAN POLI (Maharashtra)
+// ─────────────────────────────────────────────
+export const PURAN_POLI_GENERATIONS: GenerationWaypoint[] = [
+  {
+    generationNumber: 1,
+    eraTitle: "Birth of the food",
+    yearRange: "Origin",
+    centuryLabel: "Stage 1",
+    headline: "Birth of Puran Poli in Maharashtra",
+    shortDescription:
+      "Puran Poli is a sweet flatbread: a puran (filling) of chana dal and jaggery stuffed into a wheat or maida cover. In the 19th century it was a labor-intensive royal delicacy and a sacred festive offering, prepared only on occasions like Holi and Gudi Padwa. Every step was a test of patience and muscle, because there were no mechanical grinders. It was served hot on fresh banana leaves, mainly to deities and upper-class households. The exact date and creator of Puran Poli are not documented with certainty. The earliest form described here is this 19th-century royal and ritual one.",
+    image: ERA_PHOTO.ancient_grains,
+    generationRecipe: {
+      recipeName: "Origin: Birth of the food",
+      historicalCookware: "Heavy brass patelya & wooden puran yantra",
+      heatSource: "Slow-burning wood or cow-dung fires and an open hearth",
+      ingredientsList: [],
+      preparationMethod:
+        "Royal and ritual origin: In the 19th century it was a labor-intensive royal delicacy and a sacred festive offering, prepared only on occasions like Holi and Gudi Padwa.",
+      contemporaryDifference:
+        "Served hot on fresh banana leaves, mainly to deities and upper-class households; exact date and creator are not documented with certainty.",
+    },
+    technologicalLeap: "Hand-kneaded elastic wheat cover stuffed with slow-boiled lentil-jaggery puran.",
+    documentedCitation: "",
+  },
+  {
+    generationNumber: 2,
+    eraTitle: "Evolution of Food",
+    yearRange: "Then vs Now",
+    centuryLabel: "Stage 2",
+    headline: "Evolution of Food: Then vs Now",
+    shortDescription:
+      "Cooking method: 1800s - slow boiling of the dal and jaggery, then hand-roasting the poli with ghee | Mid-1900s - the recipe stayed fiercely traditional | Now - dal cooked quickly in electric pressure cookers\nVessel: 1800s - heavy brass patelya for boiling, thick iron tawa for roasting | Now - electric pressure cookers and non-stick pans\nFuel: 1800s - slow-burning wood or cow-dung fires and an open hearth, with dense smoke | Mid-1900s - portable kerosene stoves and early gas burners, so heat was easier to control | Now - induction cooktops\nDal and mashing: 1800s - harbhara dal, pressed through a hot wooden or stone puran yantra or mashed on a stone sil-batta | Mid-1900s - chana dal, with a hand-cranked metal puran yantra (food mill) | Now - packaged chana dal, blended in seconds in mixer-grinders or food processors\nFlour: 1800s - gavacha atta or maida, hand-kneaded for hours for elasticity | Mid-1900s - maida and other packaged flour, widely available | Now - Sharbati atta, with organic whole wheat or multi-grain flour replacing refined flour\nSweetener: 1800s - kala gur | Mid-1900s - commercial jaggery (pila gul) | Now - organic jaggery powder, or low-calorie sweeteners and dates in health-conscious versions\nFat: 1800s - sajuk tup, pure aromatic homemade cow ghee | Mid-1900s - vanaspati and refined oils | Now - branded cow ghee\nSpices: 1800s - velchi and jaiphal (cardamom and nutmeg) | Mid-1900s - velchi pood (cardamom powder) | Now - spice extracts\nMaking it: 1800s - hours of hand work, with the dough rolled using a wooden latre | Mid-1900s - a communal affair, with one person rolling, one stuffing and one roasting | Now - the time-consuming process is drastically shortened, with instant ready-to-eat versions\nServing: 1800s - hot on fresh banana leaves, for deities and upper-class households | Mid-1900s - stainless steel plates, for guests at family gatherings | Now - ready-to-eat Puran Polis at sweet shops, vacuum-packed versions in supermarkets, frozen exports to the diaspora\nOccasion: 1800s - only at Holi and Gudi Padwa | Mid-1900s - a cherished domestic tradition and the benchmark of a homemaker's skill in Maharashtrian, Gujarati and South Indian homes | Now - a year-round commercial product that remains the soul of festive dining",
+    image: ERA_PHOTO.stone_ferment,
+    generationRecipe: {
+      recipeName: "Evolution of Food: Then vs Now",
+      historicalCookware: "Heavy brass patelya & iron tawa / non-stick pans",
+      heatSource: "Slow-burning wood fires / gas & induction cooktops",
+      ingredientsList: [],
+      preparationMethod:
+        "Cooking method: 1800s - slow boiling of the dal and jaggery, then hand-roasting the poli with ghee | Mid-1900s - the recipe stayed fiercely traditional | Now - dal cooked quickly in electric pressure cookers",
+      contemporaryDifference:
+        "Occasion: 1800s - only at Holi and Gudi Padwa | Mid-1900s - a cherished domestic tradition and the benchmark of a homemaker's skill in Maharashtrian, Gujarati and South Indian homes | Now - a year-round commercial product that remains the soul of festive dining",
+    },
+    technologicalLeap: "Transition from manual puran yantra stone mashing and open hearths to food processors and year-round convenience.",
+    documentedCitation: "",
+  },
+  {
+    generationNumber: 3,
+    eraTitle: "Recipe",
+    yearRange: "Short and simple",
+    centuryLabel: "Stage 3",
+    headline: "Puran Poli Recipe: 8 Key Ingredients, 8 Steps",
+    shortDescription:
+      "Key ingredients: wheat flour (atta or maida), chana dal, jaggery, ghee, cardamom powder, nutmeg powder, salt, oil.\n\n1. Wash and boil the chana dal until soft but not mushy. (Sign: a grain mashes easily between two fingers.)\n2. Drain the dal and cook it with jaggery on low heat, stirring often. (Sign: it thickens, leaves the sides of the pan and holds its shape on a spoon.)\n3. Mash it smooth and mix in cardamom and nutmeg. (Use a puran yantra, food mill or mixer-grinder. Sign: no lumps. Cool it fully, then roll it into smooth balls.)\n4. Make the dough: knead flour with water, a little oil and salt, and rest it. (Sign: soft and stretchy, and it springs back when pressed.)\n5. Flatten a dough ball, place a puran ball in the centre, bring the edges together and seal. (Sign: no filling is showing.)\n6. Dust lightly with flour and roll gently into a round. (Sign: even thickness, no tears, and the filling spread to the edges.)\n7. Roast on a hot tawa on medium heat, flipping once, and brush with ghee. (Sign: light brown spots on both sides.)\n8. Serve hot with a little ghee on top. (Sign: soft, with the sweet filling visible at the edge.)",
+    image: ERA_PHOTO.spice_trade,
+    generationRecipe: {
+      recipeName: "Puran Poli Recipe",
+      historicalCookware: "Heavy iron tawa & rolling pin (latre)",
+      heatSource: "Medium heat griddle with pure cow ghee",
+      ingredientsList: [
+        "Wheat flour",
+        "Chana dal",
+        "Jaggery",
+        "Ghee",
+        "Cardamom powder",
+        "Nutmeg powder",
+      ],
+      preparationMethod:
+        "Puran Stone-Straining & Translucent Rolling. Key ingredients: wheat flour, chana dal, jaggery, ghee, cardamom powder, nutmeg powder.",
+      contemporaryDifference:
+        "8. Serve hot with a little ghee on top. (Sign: soft, with the sweet filling visible at the edge.)",
+    },
+    technologicalLeap: "Numbered 8-step delicate stuffing, translucent rolling, and tawa roasting with pure ghee.",
+    documentedCitation: "",
+  },
+];
+
+// ─────────────────────────────────────────────
 // INDORI POHA (Madhya Pradesh)
 // ─────────────────────────────────────────────
 export const INDORI_POHA_GENERATIONS: GenerationWaypoint[] = [
@@ -1854,6 +2011,10 @@ function legacyGenerationsForDish(dishId: string, dish: Dish): GenerationWaypoin
       return DOSA_GENERATIONS;
     case "hyderabadi-biryani":
       return BIRYANI_GENERATIONS;
+    case "vada-pav":
+      return VADA_PAV_GENERATIONS;
+    case "puran-poli":
+      return PURAN_POLI_GENERATIONS;
     case "indori-poha":
       return INDORI_POHA_GENERATIONS;
     case "bhutte-ka-kees":
@@ -1911,19 +2072,33 @@ export function getGenerationsForDish(dishId: string): GenerationWaypoint[] {
         historicalCookware: source.generationRecipe.historicalCookware,
         heatSource: source.generationRecipe.heatSource,
         ingredientsList:
-          dishId === "hyderabadi-biryani" ||
+          dishId === "vada-pav" || dishId === "puran-poli"
+            ? source.generationRecipe.ingredientsList
+            : dishId === "makki-di-roti-sarson-saag"
+                ? (stage.number === 1
+                    ? ["Desi Makki Atta", "Khet ki Sarson", "Bathua", "Safed Makkhan", "Hari Mirch"]
+                    : stage.number === 2
+                      ? ["Girni Makki Atta", "Market Sarson Leaves", "Palak", "Commercial White Butter", "Pila Gul"]
+                      : ["Organic Yellow Cornmeal", "Packaged Mustard Greens", "Canned Spinach Puree", "Branded Yellow Butter", "Organic Garlic Paste"])
+              : dishId === "butter-chicken"
+                ? (stage.number === 1
+                    ? ["Desi Murg", "Chakka Dahi", "Safed Makkhan", "Kacchi Mirch", "Nimbu Rassa"]
+                    : stage.number === 2
+                      ? ["Tandoori Chicken Leftovers", "Fresh Tamatar Puree", "Commercial Dairy Butter", "Fresh Malai", "Kasuri Methi"]
+                      : ["Boneless Chicken Tikka", "Organic Tomato Paste", "Pasteurized Butter", "UHT Whipping Cream", "Ready Makhani Gravy Mix"])
+              : dishId === "hyderabadi-biryani" ||
           dishId === "indori-poha" ||
           dishId === "bhutte-ka-kees" ||
           dishId === "dal-bafla" ||
-          dishId === "makki-di-roti-sarson-saag" ||
-          dishId === "butter-chicken" ||
           dishId === "amritsari-kulcha"
             ? source.generationRecipe.ingredientsList
             : stage.key === "ingredients" && dish.ingredients.length
             ? dish.ingredients
             : source.generationRecipe.ingredientsList,
         preparationMethod:
-          stage.key === "method"
+          dishId === "vada-pav" || dishId === "puran-poli"
+            ? source.generationRecipe.preparationMethod
+            : stage.key === "method"
             ? `${dish.keyTechnique}. ${stage.details[0]}`
             : stage.details[0],
         contemporaryDifference:
