@@ -20,6 +20,7 @@ import {
 } from "lucide-react";
 import { IndiaMap3D } from "./components/IndiaMap3D";
 import { BharatDishExperience } from "./components/BharatDishExperience";
+import { ErrorBoundary } from "./components/ErrorBoundary";
 import {
   FOOD_DATA,
   STATE_EMOJIS,
@@ -237,11 +238,13 @@ export default function App() {
   // If in Dish 3D Experience View, render the dedicated Bharat cinematic experience!
   if (activeView === "dish" && activeDishId) {
     return (
-      <BharatDishExperience
-        dishId={activeDishId}
-        onBackToMap={navigateToMap}
-        onSelectDish={navigateToDish}
-      />
+      <ErrorBoundary onReset={navigateToMap}>
+        <BharatDishExperience
+          dishId={activeDishId}
+          onBackToMap={navigateToMap}
+          onSelectDish={navigateToDish}
+        />
+      </ErrorBoundary>
     );
   }
 
